@@ -21,7 +21,7 @@ const date = (value: string) => new Intl.DateTimeFormat('nl-NL', { day: 'numeric
       <p class="eyebrow">{{ article.tags?.join(' · ') }}</p>
       <h1>{{ article.title }}</h1>
       <p class="lead">{{ article.description }}</p>
-      <div class="byline"><span>Door Arwin van Arum</span><time :datetime="article.date">{{ date(article.date) }}</time></div>
+      <div class="byline"><span>Door Arwin van Arum</span><time :datetime="article.date">{{ date(article.date) }}</time><span>{{ formatReadingTime(article.body) }}</span></div>
       <NuxtLink v-if="translation" :to="translation.path" hreflang="en" class="article-language">Read this article in English →</NuxtLink>
     </header>
     <figure v-if="article.featuredImage" class="article-cover wrap">
