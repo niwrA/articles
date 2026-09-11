@@ -1,21 +1,6 @@
-import { fileURLToPath } from 'node:url'
-import rehypeCitations from './rehype/citations.mjs'
-
 export default defineNuxtConfig({
   compatibilityDate: '2026-09-01',
   modules: ['@nuxt/content'],
-  content: {
-    build: {
-      markdown: {
-        rehypePlugins: {
-          citations: {
-            instance: rehypeCitations,
-            src: fileURLToPath(new URL('./rehype/citations.mjs', import.meta.url))
-          }
-        }
-      }
-    }
-  },
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
     public: { siteUrl: process.env.NUXT_PUBLIC_SITE_URL || '' }

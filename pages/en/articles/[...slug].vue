@@ -12,6 +12,7 @@ useHead({ htmlAttrs: { lang: 'en' }, link: [
   { rel: 'alternate', hreflang: 'x-default', href: absolute(translation.value?.path || route.path) }
 ] })
 const date = (value: string) => new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(value))
+const renderedArticle = computed(() => withCitations(article.value!, 'en'))
 </script>
 
 <template>
@@ -27,6 +28,6 @@ const date = (value: string) => new Intl.DateTimeFormat('en-GB', { day: 'numeric
     <figure v-if="article.featuredImage" class="article-cover wrap">
       <img :src="article.featuredImage" :alt="article.featuredImageAlt || ''" width="1800" height="1024">
     </figure>
-    <div class="prose wrap"><ContentRenderer :value="article" /></div>
+    <div class="prose wrap"><ContentRenderer :value="renderedArticle" /></div>
   </article>
 </template>
