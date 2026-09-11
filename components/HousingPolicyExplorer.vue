@@ -9,6 +9,7 @@ const years = Array.from({ length: endYear - startYear + 1 }, (_, index) => star
 const initialShortage = ref(396_000)
 const initialPopulation = ref(18_200_000)
 const annualPopulationGrowth = ref(50_000)
+const populationInputMode = ref<'annual' | 'end'>('annual')
 const initialHouseholdSize = ref(2.12)
 const finalHouseholdSize = ref(2.05)
 const targetYear = ref(2035)
@@ -30,6 +31,11 @@ const populationComponents = reactive<PopulationComponent[]>([
 const fmt = new Intl.NumberFormat('nl-NL', { maximumFractionDigits: 0 })
 const compact = new Intl.NumberFormat('nl-NL', { notation: 'compact', maximumFractionDigits: 1 })
 const money = (millions: number) => millions >= 1000 ? `€${(millions / 1000).toLocaleString('nl-NL', { maximumFractionDigits: 1 })} mld` : `€${Math.round(millions)} mln`
+const totalPopulationGrowth = computed(() => annualPopulationGrowth.value * years.length)
+const endPopulation = computed({
+  get: () => initialPopulation.value + totalPopulationGrowth.value,
+  set: (value: number) => { annualPopulationGrowth.value = (value - initialPopulation.value) / years.length }
+})
 const allocatedPopulationGrowth = computed(() => populationComponents.reduce((sum, item) => sum + item.people, 0))
 const unallocatedPopulationGrowth = computed(() => annualPopulationGrowth.value - allocatedPopulationGrowth.value)
 
@@ -121,6 +127,7 @@ const reset = () => {
   initialShortage.value = 396_000
   initialPopulation.value = 18_200_000
   annualPopulationGrowth.value = 50_000
+  populationInputMode.value = 'annual'
   initialHouseholdSize.value = 2.12
   finalHouseholdSize.value = 2.05
   targetYear.value = 2035
@@ -143,17 +150,29 @@ const reset = () => {
       <div class="demand-grid">
         <label>Tekort begin 2026 <span><input v-model.number="initialShortage" type="number" min="0" step="1000"> huishoudens</span></label>
         <label>Bevolking begin 2026 <span><input v-model.number="initialPopulation" type="number" min="1000000" step="10000"> personen</span></label>
-        <label>Bevolkingsgroei per jaar <span><input v-model.number="annualPopulationGrowth" type="number" step="1000"> personen</span></label>
+        <div class="population-growth-control">
+          <div class="population-mode" role="group" aria-label="Manier van invoeren bevolkingsontwikkeling">
+            <button :class="{ active: populationInputMode === 'annual' }" type="button" @click="populationInputMode = 'annual'">Per jaar</button>
+            <button :class="{ active: populationInputMode === 'end' }" type="button" @click="populationInputMode = 'end'">Eindbevolking</button>
+          </div>
+          <label v-if="populationInputMode === 'annual'">Gemiddelde bevolkingsgroei per jaar <span><input v-model.number="annualPopulationGrowth" type="number" step="1000"> personen</span></label>
+          <label v-else>Verwachte bevolking in 2040 <span><input v-model.number="endPopulation" type="number" min="1000000" step="10000"> personen</span></label>
+        </div>
         <label>Personen per huishouden in 2026 <span><input v-model.number="initialHouseholdSize" type="number" min="1" max="4" step="0.01"></span></label>
         <label>Personen per huishouden in 2040 <span><input v-model.number="finalHouseholdSize" type="number" min="1" max="4" step="0.01"></span></label>
         <label>Doeljaar voor oplossen tekort <span><input v-model.number="targetYear" type="number" :min="startYear" :max="endYear" step="1"></span></label>
       </div>
+      <div class="population-derived" aria-live="polite">
+        <span>Totale bevolkingsgroei 2026–2040 <strong>{{ fmt.format(totalPopulationGrowth) }}</strong></span>
+        <span>Bevolking in 2040 <strong>{{ fmt.format(endPopulation) }}</strong></span>
+        <span>Gemiddelde groei per jaar <strong>{{ fmt.format(annualPopulationGrowth) }}</strong></span>
+      </div>
       <details class="population-breakdown">
         <summary>Toon optionele uitsplitsing van de bevolkingsgroei</summary>
-        <p>Deze velden verklaren samen de algemene bevolkingsgroei hierboven; ze veranderen de uitkomst niet afzonderlijk. Zo wordt dezelfde groei nooit dubbel geteld.</p>
+        <p>Deze velden verklaren samen de gemiddelde jaarlijkse bevolkingsgroei hierboven; ze veranderen de uitkomst niet afzonderlijk. Zo wordt dezelfde groei nooit dubbel geteld.</p>
         <div class="population-grid">
           <label v-for="item in populationComponents" :key="item.id"><strong>{{ item.name }}</strong><input v-model.number="item.people" type="number" step="1000"><small>{{ item.note }}</small></label>
-          <div class="unallocated"><strong>Nog niet toegedeeld</strong><output>{{ fmt.format(unallocatedPopulationGrowth) }}</output><small>Verschil met de totale bevolkingsgroei</small></div>
+          <div class="unallocated"><strong>Nog niet toegedeeld per jaar</strong><output>{{ fmt.format(unallocatedPopulationGrowth) }}</output><small>Verschil met de gemiddelde jaarlijkse bevolkingsgroei</small></div>
         </div>
       </details>
     </section>
