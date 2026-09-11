@@ -49,6 +49,9 @@ Dit verschijnsel kan worden gezien als woningverdunning: dezelfde bevolking word
 
 Op Nederlandse schaal hebben kleine veranderingen grote gevolgen. Bij een bevolking van 18 miljoen betekent een verschuiving van gemiddeld 2,10 naar 2,05 personen per huishouden grofweg tweehonderdduizend extra huishoudens. **Daarmee is huishoudensverdunning relevant op een schaal die vergelijkbaar is met meerdere jaren woningbouw.**
 
+::HousingPolicyExplorer
+::
+
 ### Mogelijke beleidsknoppen
 
 De overheid kan niet bepalen met wie mensen samenleven en zou dat ook niet moeten willen. Wel kan zij invloed uitoefenen op situaties waarin mensen woonruimte zouden willen delen, maar daarvan afzien vanwege financiële, juridische of praktische belemmeringen.
@@ -239,13 +242,7 @@ De waarde van een maatregel wordt daarmee mede bepaald door de snelheid waarmee 
 
 ### Vergelijking van de belangrijkste knoppen
 
-::ArticleFigure
----
-src: /images/artikelen/de-woningmarkt/wooncapaciteit-knoppen.webp
-alt: Tabel met tien maatregelen om wooncapaciteit te vergroten, vergeleken op verwachte impact, snelheid, kosten en structureel effect
-caption: Kwalitatieve vergelijking van tien knoppen om de wooncapaciteit te vergroten. Klik op de figuur voor de volledige resolutie.
-source: Eigen analyse
----
+::HousingMeasuresTable
 ::
 
 Deze kwalificaties zijn voorlopig. Vooral voor woningdelen, seniorendoorstroming en splitsing is een betere schatting nodig van het werkelijk realiseerbare landelijke potentieel.

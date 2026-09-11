@@ -32,6 +32,15 @@ const rows = [
         </tr></tbody>
       </table>
     </div>
+    <div class="matrix-cards" aria-label="Experimental design matrix">
+      <section v-for="row in rows" :key="row.label" class="matrix-card">
+        <header><strong>{{ row.label }}</strong><span>{{ row.detail }}</span></header>
+        <div v-for="column in columns" :key="column.label" :class="column.className">
+          <span><strong>{{ column.label }} relevance</strong><small>{{ column.detail }}</small></span>
+          <span class="mobile-condition"><i class="condition-dot" aria-hidden="true"></i>Test condition</span>
+        </div>
+      </section>
+    </div>
     <figcaption>This design examines how conscious experience depends on the interaction between the need for arbitration and the relevance of information to the organism.</figcaption>
   </figure>
 </template>
