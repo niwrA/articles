@@ -36,6 +36,16 @@ h1 { font-size:clamp(3.25rem,8vw,7rem); letter-spacing:-.045em; max-width:1050px
 @media(max-width:750px){.population-derived{grid-template-columns:1fr}.population-derived span{display:grid;grid-template-columns:1fr auto;align-items:center}.population-derived strong{margin-top:0}.population-growth-control label{min-height:0}}
 @media(max-width:750px){.prose .model,.prose .article-figure,.experiment-matrix,.scenario-model,.measures-comparison{margin-left:0;margin-right:0}}
 
+@media(max-width:750px){
+  .article-hero{padding-top:48px;padding-bottom:34px}
+  .article-hero .back-link{margin-bottom:34px}
+  .article-hero .byline{column-gap:18px;row-gap:9px;margin-top:26px}
+  .article-language{margin-top:18px}
+  .article-cover{margin-top:30px}
+  .article-cover+.prose{padding-top:34px}
+  .article-cover+.prose>p:first-child{margin-top:0}
+}
+
 /* Clickable bibliography citations generated from markers such as [5] and [1–3]. */
 .citation-link{font-size:.72em;line-height:0;vertical-align:super;text-decoration:none;font-weight:650;color:var(--accent);scroll-margin-top:100px}
 .citation-link:hover,.citation-link:focus{text-decoration:underline}
