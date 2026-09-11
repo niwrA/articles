@@ -1,31 +1,36 @@
 <script setup lang="ts">
 import { createHousingMeasures, type HousingMeasure } from '~/data/housingMeasures'
 
-type MigrationInput = { id: string; name: string; households: number; note: string }
+type PopulationComponent = { id: string; name: string; people: number; note: string }
 
 const startYear = 2026
 const endYear = 2040
 const years = Array.from({ length: endYear - startYear + 1 }, (_, index) => startYear + index)
 const initialShortage = ref(396_000)
-const annualBaselineDemand = ref(49_800)
+const initialPopulation = ref(18_200_000)
+const annualPopulationGrowth = ref(50_000)
+const initialHouseholdSize = ref(2.12)
+const finalHouseholdSize = ref(2.05)
 const displayMode = ref<'capacity' | 'share'>('capacity')
 
 const measures = reactive(createHousingMeasures())
 
-// Deviations from the central forecast prevent migration already included in
-// that forecast from being counted for a second time.
-const migration = reactive<MigrationInput[]>([
-  { id: 'labour', name: 'Arbeidsmigratie', households: 0, note: 'Inclusief het effect van vertrek en verblijfsduur' },
-  { id: 'asylum', name: 'Asielmigratie', households: 0, note: 'Na uitstroom naar particuliere huishoudens' },
-  { id: 'study', name: 'Studiemigratie', households: 0, note: 'Inclusief relatief hoge uitstroom' },
-  { id: 'family', name: 'Gezinsmigratie', households: 0, note: 'Niet dubbel tellen bij aansluiting bij bestaand huishouden' },
-  { id: 'other', name: 'Overige migratie', households: 0, note: 'Afwijking die niet elders is opgenomen' }
+// Optional decomposition only. The total annual population change remains the
+// governing input, so categories cannot accidentally be added on top of it.
+const populationComponents = reactive<PopulationComponent[]>([
+  { id: 'natural', name: 'Natuurlijke aanwas/krimp', people: 0, note: 'Geboorten minus sterfte' },
+  { id: 'labour', name: 'Arbeidsmigratie', people: 0, note: 'Immigratie minus vertrek' },
+  { id: 'asylum', name: 'Asielmigratie', people: 0, note: 'Netto verandering van de bevolking' },
+  { id: 'study', name: 'Studiemigratie', people: 0, note: 'Immigratie minus relatief hoge uitstroom' },
+  { id: 'family', name: 'Gezinsmigratie', people: 0, note: 'Inclusief gezinshereniging' },
+  { id: 'other', name: 'Overige migratie', people: 0, note: 'Overige geregistreerde motieven' }
 ])
 
 const fmt = new Intl.NumberFormat('nl-NL', { maximumFractionDigits: 0 })
 const compact = new Intl.NumberFormat('nl-NL', { notation: 'compact', maximumFractionDigits: 1 })
 const money = (millions: number) => millions >= 1000 ? `€${(millions / 1000).toLocaleString('nl-NL', { maximumFractionDigits: 1 })} mld` : `€${Math.round(millions)} mln`
-const annualMigrationDelta = computed(() => migration.reduce((sum, item) => sum + item.households, 0))
+const allocatedPopulationGrowth = computed(() => populationComponents.reduce((sum, item) => sum + item.people, 0))
+const unallocatedPopulationGrowth = computed(() => annualPopulationGrowth.value - allocatedPopulationGrowth.value)
 
 const productionFor = (measure: HousingMeasure, year: number) => {
   if (!measure.enabled || year < measure.start) return 0
@@ -36,22 +41,28 @@ const series = computed(() => {
   let remaining = initialShortage.value
   let cumulativeCost = 0
   let cumulativeCapacity = 0
-  return years.map(year => {
+  let previousHouseholds = initialPopulation.value / initialHouseholdSize.value
+  return years.map((year, index) => {
     const contributions = measures.map(measure => {
       const capacity = productionFor(measure, year)
       cumulativeCost += capacity * measure.cost / 1_000_000
       return { id: measure.id, name: measure.name, color: measure.color, capacity }
     })
     const capacity = contributions.reduce((sum, item) => sum + item.capacity, 0)
-    const demand = annualBaselineDemand.value + annualMigrationDelta.value
+    const population = initialPopulation.value + annualPopulationGrowth.value * (index + 1)
+    const progress = (index + 1) / years.length
+    const householdSize = initialHouseholdSize.value + (finalHouseholdSize.value - initialHouseholdSize.value) * progress
+    const households = population / Math.max(1, householdSize)
+    const demand = households - previousHouseholds
+    previousHouseholds = households
     remaining = Math.max(0, remaining + demand - capacity)
     cumulativeCapacity += capacity
-    return { year, contributions, capacity, demand, remaining, cumulativeCost, cumulativeCapacity }
+    return { year, contributions, capacity, demand, remaining, cumulativeCost, cumulativeCapacity, population, householdSize, households }
   })
 })
 
 const finalYear = computed(() => series.value.at(-1)!)
-const shortageWithoutMeasures = computed(() => initialShortage.value + (annualBaselineDemand.value + annualMigrationDelta.value) * years.length)
+const shortageWithoutMeasures = computed(() => initialShortage.value + series.value.reduce((sum, item) => sum + item.demand, 0))
 const solvedShare = computed(() => shortageWithoutMeasures.value > 0 ? Math.min(100, finalYear.value.cumulativeCapacity / shortageWithoutMeasures.value * 100) : 0)
 
 const chart = computed(() => {
@@ -87,7 +98,8 @@ const shortageChart = computed(() => {
   const width = 960, height = 235
   const margin = { top: 20, right: 25, bottom: 42, left: 72 }
   const innerWidth = width - margin.left - margin.right, innerHeight = height - margin.top - margin.bottom
-  const baselineValues = series.value.map((_, index) => initialShortage.value + (annualBaselineDemand.value + annualMigrationDelta.value) * (index + 1))
+  let baseline = initialShortage.value
+  const baselineValues = series.value.map(item => (baseline += item.demand))
   const maxShortage = Math.max(initialShortage.value, ...series.value.map(item => item.remaining), ...baselineValues, 1) * 1.08
   const x = (index: number) => margin.left + index * innerWidth / Math.max(1, years.length - 1)
   const y = (value: number) => margin.top + innerHeight - value / maxShortage * innerHeight
@@ -98,8 +110,11 @@ const shortageChart = computed(() => {
 
 const reset = () => {
   initialShortage.value = 396_000
-  annualBaselineDemand.value = 49_800
-  migration.forEach(item => { item.households = 0 })
+  initialPopulation.value = 18_200_000
+  annualPopulationGrowth.value = 50_000
+  initialHouseholdSize.value = 2.12
+  finalHouseholdSize.value = 2.05
+  populationComponents.forEach(item => { item.people = 0 })
   const enabled = new Set(['sharing', 'senior', 'splitting', 'transform', 'targeted', 'regular'])
   measures.forEach(measure => { measure.enabled = enabled.has(measure.id) })
 }
@@ -113,18 +128,40 @@ const reset = () => {
       <p>Pas de aannames aan en vergelijk hoe maatregelen zich door de tijd opbouwen. Alle beginwaarden zijn illustratief en bewerkbaar; het model is geen officiële prognose.</p>
     </header>
 
-    <details class="scenario-assumptions">
-      <summary>Basisaannames en migratiescenario aanpassen</summary>
-      <div class="assumption-grid">
+    <section class="demand-controls" aria-labelledby="demand-title">
+      <div class="control-heading"><span>1</span><div><h3 id="demand-title">Vraagontwikkeling</h3><p>Bevolking en huishoudgrootte bepalen samen hoeveel huishoudens woonruimte vragen.</p></div></div>
+      <div class="demand-grid">
         <label>Tekort begin 2026 <span><input v-model.number="initialShortage" type="number" min="0" step="1000"> huishoudens</span></label>
-        <label>Jaarlijkse groei centrale huishoudensprognose <span><input v-model.number="annualBaselineDemand" type="number" min="-100000" step="1000"> huishoudens</span></label>
+        <label>Bevolking begin 2026 <span><input v-model.number="initialPopulation" type="number" min="1000000" step="10000"> personen</span></label>
+        <label>Bevolkingsgroei per jaar <span><input v-model.number="annualPopulationGrowth" type="number" step="1000"> personen</span></label>
+        <label>Personen per huishouden in 2026 <span><input v-model.number="initialHouseholdSize" type="number" min="1" max="4" step="0.01"></span></label>
+        <label>Personen per huishouden in 2040 <span><input v-model.number="finalHouseholdSize" type="number" min="1" max="4" step="0.01"></span></label>
       </div>
-      <h3>Afwijking van de centrale prognose per jaar</h3>
-      <p class="form-help">Vul alleen verschillen ten opzichte van de centrale prognose in. Positief verhoogt de vraag; negatief verlaagt haar. De eenheid is extra particuliere huishoudens per jaar, niet personen.</p>
-      <div class="migration-grid">
-        <label v-for="item in migration" :key="item.id"><strong>{{ item.name }}</strong><input v-model.number="item.households" type="number" step="1000"><small>{{ item.note }}</small></label>
+      <details class="population-breakdown">
+        <summary>Toon optionele uitsplitsing van de bevolkingsgroei</summary>
+        <p>Deze velden verklaren samen de algemene bevolkingsgroei hierboven; ze veranderen de uitkomst niet afzonderlijk. Zo wordt dezelfde groei nooit dubbel geteld.</p>
+        <div class="population-grid">
+          <label v-for="item in populationComponents" :key="item.id"><strong>{{ item.name }}</strong><input v-model.number="item.people" type="number" step="1000"><small>{{ item.note }}</small></label>
+          <div class="unallocated"><strong>Nog niet toegedeeld</strong><output>{{ fmt.format(unallocatedPopulationGrowth) }}</output><small>Verschil met de totale bevolkingsgroei</small></div>
+        </div>
+      </details>
+    </section>
+
+    <section class="measure-controls" aria-labelledby="measures-title">
+      <div class="control-heading"><span>2</span><div><h3 id="measures-title">Maatregelen</h3><p>Selecteer welke vormen van extra wooncapaciteit in het scenario worden opgenomen en pas hun jaarlijkse bijdrage aan.</p></div></div>
+      <div class="measure-selector">
+        <label v-for="measure in measures" :key="measure.id" :class="{ selected: measure.enabled }">
+          <input v-model="measure.enabled" type="checkbox">
+          <i :style="{ background: measure.color }"></i>
+          <strong>{{ measure.name }}</strong>
+          <span><input v-model.number="measure.annual" type="number" min="0" step="1000" :disabled="!measure.enabled"> per jaar</span>
+        </label>
       </div>
-    </details>
+      <details class="measure-editor">
+        <summary>Startjaar, opschaling en kosten aanpassen</summary>
+        <div class="measure-table-wrap"><table><thead><tr><th>Actief</th><th>Maatregel</th><th>Start</th><th>Opschaling</th><th>Per jaar</th><th>Kosten/eenheid</th></tr></thead><tbody><tr v-for="measure in measures" :key="measure.id"><td><input v-model="measure.enabled" type="checkbox" :aria-label="`${measure.name} opnemen`"></td><th scope="row"><i :style="{ background: measure.color }"></i>{{ measure.name }}</th><td><input v-model.number="measure.start" type="number" :min="startYear" :max="endYear"></td><td><input v-model.number="measure.ramp" type="number" min="1" max="15"> jaar</td><td><input v-model.number="measure.annual" type="number" min="0" step="1000"></td><td>€ <input v-model.number="measure.cost" type="number" min="0" step="1000"></td></tr></tbody></table></div>
+      </details>
+    </section>
 
     <div class="scenario-summary" aria-live="polite">
       <div><span>Toegevoegde capaciteit t/m 2040</span><strong>{{ fmt.format(finalYear.cumulativeCapacity) }}</strong></div>
@@ -169,14 +206,9 @@ const reset = () => {
       </svg>
     </div>
 
-    <details class="measure-editor">
-      <summary>Maatregelen en rekenaannames aanpassen</summary>
-      <div class="measure-table-wrap"><table><thead><tr><th>Actief</th><th>Maatregel</th><th>Start</th><th>Opschaling</th><th>Per jaar</th><th>Kosten/eenheid</th></tr></thead><tbody><tr v-for="measure in measures" :key="measure.id"><td><input v-model="measure.enabled" type="checkbox" :aria-label="`${measure.name} opnemen`"></td><th scope="row"><i :style="{ background: measure.color }"></i>{{ measure.name }}</th><td><input v-model.number="measure.start" type="number" :min="startYear" :max="endYear"></td><td><input v-model.number="measure.ramp" type="number" min="1" max="15"> jaar</td><td><input v-model.number="measure.annual" type="number" min="0" step="1000"></td><td>€ <input v-model.number="measure.cost" type="number" min="0" step="1000"></td></tr></tbody></table></div>
-    </details>
-
     <div class="scenario-notes">
-      <p><strong>Rekenwijze.</strong> Jaarlijkse huishoudensgroei verhoogt het tekort; geselecteerde maatregelen verlagen het. Capaciteit loopt lineair op gedurende de ingestelde opschalingsperiode. Kosten worden alleen gemaakt voor gerealiseerde capaciteit.</p>
-      <p><strong>Belangrijke beperking.</strong> Doorstroming en verhuisketens kunnen capaciteit vrijmaken zonder een nieuwe woning te creëren. Migratie wordt daarom als huishoudensvraag gemodelleerd. De standaardwaarde nul betekent geen migratiestop, maar geen afwijking van de centrale prognose.</p>
+      <p><strong>Rekenwijze.</strong> Voor elk jaar wordt de bevolking gedeeld door de geleidelijk veranderende huishoudgrootte. De groei van het resulterende aantal huishoudens verhoogt het tekort; geselecteerde maatregelen verlagen het. Capaciteit loopt lineair op gedurende de ingestelde opschalingsperiode.</p>
+      <p><strong>Belangrijke beperking.</strong> De optionele uitsplitsing van bevolkingsgroei is beschrijvend. Verblijfsduur, vertrek en huishoudensvorming verschillen tussen groepen en kunnen niet betrouwbaar worden afgeleid uit alleen aantallen migranten.</p>
       <button type="button" class="scenario-reset" @click="reset">Herstel beginwaarden</button>
     </div>
   </section>
