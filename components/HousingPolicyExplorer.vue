@@ -11,6 +11,7 @@ const initialPopulation = ref(18_200_000)
 const annualPopulationGrowth = ref(50_000)
 const initialHouseholdSize = ref(2.12)
 const finalHouseholdSize = ref(2.05)
+const targetYear = ref(2035)
 const displayMode = ref<'capacity' | 'share'>('capacity')
 
 const measures = reactive(createHousingMeasures())
@@ -64,26 +65,32 @@ const series = computed(() => {
 const finalYear = computed(() => series.value.at(-1)!)
 const shortageWithoutMeasures = computed(() => initialShortage.value + series.value.reduce((sum, item) => sum + item.demand, 0))
 const solvedShare = computed(() => shortageWithoutMeasures.value > 0 ? Math.min(100, finalYear.value.cumulativeCapacity / shortageWithoutMeasures.value * 100) : 0)
+const targetResult = computed(() => series.value.find(item => item.year === targetYear.value) || finalYear.value)
+const targetBaselineShortage = computed(() => initialShortage.value + series.value.filter(item => item.year <= targetYear.value).reduce((sum, item) => sum + item.demand, 0))
+const requiredAnnualCapacity = computed(() => targetBaselineShortage.value / Math.max(1, targetYear.value - startYear + 1))
 
 const chart = computed(() => {
   const width = 960, height = 390
   const margin = { top: 24, right: 92, bottom: 45, left: 72 }
   const innerWidth = width - margin.left - margin.right, innerHeight = height - margin.top - margin.bottom
   const maxCapacity = Math.max(...series.value.map(item => item.capacity), 1)
-  const maxLeft = displayMode.value === 'capacity' ? maxCapacity * 1.12 : Math.max(1, maxCapacity / Math.max(1, shortageWithoutMeasures.value) * 112)
+  const cumulativePercentages = series.value.map(item => item.cumulativeCapacity / Math.max(1, shortageWithoutMeasures.value) * 100)
+  const maxLeft = displayMode.value === 'capacity' ? maxCapacity * 1.12 : Math.max(100, ...cumulativePercentages) * 1.08
   const maxCost = Math.max(finalYear.value.cumulativeCost, 1) * 1.08
   const groupWidth = innerWidth / years.length, barWidth = Math.max(12, groupWidth * .64)
   const leftY = (value: number) => margin.top + innerHeight - value / maxLeft * innerHeight
   const costY = (value: number) => margin.top + innerHeight - value / maxCost * innerHeight
   const x = (index: number) => margin.left + index * groupWidth + groupWidth / 2
+  const cumulativeByMeasure = new Map<string, number>()
   const bars = series.value.flatMap((item, index) => {
     let accumulated = 0
     return item.contributions.filter(part => part.capacity > 0).map(part => {
-      const value = displayMode.value === 'capacity' ? part.capacity : part.capacity / Math.max(1, shortageWithoutMeasures.value) * 100
+      cumulativeByMeasure.set(part.id, (cumulativeByMeasure.get(part.id) || 0) + part.capacity)
+      const value = displayMode.value === 'capacity' ? part.capacity : (cumulativeByMeasure.get(part.id) || 0) / Math.max(1, shortageWithoutMeasures.value) * 100
       const y = leftY(accumulated + value)
       const bottom = leftY(accumulated)
       accumulated += value
-      return { ...part, x: x(index) - barWidth / 2, y, width: barWidth, height: Math.max(0, bottom - y), year: item.year }
+      return { ...part, displayValue: value, x: x(index) - barWidth / 2, y, width: barWidth, height: Math.max(0, bottom - y), year: item.year }
     })
   })
   const costPath = series.value.map((item, index) => `${index ? 'L' : 'M'} ${x(index)} ${costY(item.cumulativeCost)}`).join(' ')
@@ -91,7 +98,8 @@ const chart = computed(() => {
     const ratio = index / 4, y = margin.top + innerHeight - ratio * innerHeight
     return { y, left: displayMode.value === 'capacity' ? compact.format(maxLeft * ratio) : `${(maxLeft * ratio).toLocaleString('nl-NL', { maximumFractionDigits: 1 })}%`, right: money(maxCost * ratio) }
   })
-  return { width, height, margin, innerWidth, innerHeight, bars, costPath, ticks, x, costY }
+  const targetIndex = Math.max(0, years.indexOf(targetYear.value))
+  return { width, height, margin, innerWidth, innerHeight, bars, costPath, ticks, x, costY, targetX: x(targetIndex) }
 })
 
 const shortageChart = computed(() => {
@@ -105,7 +113,8 @@ const shortageChart = computed(() => {
   const y = (value: number) => margin.top + innerHeight - value / maxShortage * innerHeight
   const path = series.value.map((item, index) => `${index ? 'L' : 'M'} ${x(index)} ${y(item.remaining)}`).join(' ')
   const baselinePath = baselineValues.map((value, index) => `${index ? 'L' : 'M'} ${x(index)} ${y(value)}`).join(' ')
-  return { width, height, margin, innerWidth, innerHeight, x, y, path, baselinePath, maxShortage }
+  const targetIndex = Math.max(0, years.indexOf(targetYear.value))
+  return { width, height, margin, innerWidth, innerHeight, x, y, path, baselinePath, maxShortage, targetX: x(targetIndex) }
 })
 
 const reset = () => {
@@ -114,6 +123,7 @@ const reset = () => {
   annualPopulationGrowth.value = 50_000
   initialHouseholdSize.value = 2.12
   finalHouseholdSize.value = 2.05
+  targetYear.value = 2035
   populationComponents.forEach(item => { item.people = 0 })
   const enabled = new Set(['sharing', 'senior', 'splitting', 'transform', 'targeted', 'regular'])
   measures.forEach(measure => { measure.enabled = enabled.has(measure.id) })
@@ -136,6 +146,7 @@ const reset = () => {
         <label>Bevolkingsgroei per jaar <span><input v-model.number="annualPopulationGrowth" type="number" step="1000"> personen</span></label>
         <label>Personen per huishouden in 2026 <span><input v-model.number="initialHouseholdSize" type="number" min="1" max="4" step="0.01"></span></label>
         <label>Personen per huishouden in 2040 <span><input v-model.number="finalHouseholdSize" type="number" min="1" max="4" step="0.01"></span></label>
+        <label>Doeljaar voor oplossen tekort <span><input v-model.number="targetYear" type="number" :min="startYear" :max="endYear" step="1"></span></label>
       </div>
       <details class="population-breakdown">
         <summary>Toon optionele uitsplitsing van de bevolkingsgroei</summary>
@@ -168,13 +179,15 @@ const reset = () => {
       <div><span>Cumulatieve investering</span><strong>{{ money(finalYear.cumulativeCost) }}</strong></div>
       <div><span>Tekort eind 2040</span><strong>{{ fmt.format(finalYear.remaining) }}</strong></div>
       <div><span>Opgelost van tekort zonder maatregelen</span><strong>{{ solvedShare.toLocaleString('nl-NL', { maximumFractionDigits: 1 }) }}%</strong></div>
+      <div><span>Resterend tekort in {{ targetYear }}</span><strong>{{ fmt.format(targetResult.remaining) }}</strong></div>
+      <div><span>Gemiddeld nodig t/m {{ targetYear }}</span><strong>{{ fmt.format(requiredAnnualCapacity) }} / jaar</strong></div>
     </div>
 
     <div class="chart-toolbar">
       <h3>Jaarlijkse bijdrage per maatregel en cumulatieve kosten</h3>
       <div role="group" aria-label="Eenheid van de bijdragen">
         <button :class="{ active: displayMode === 'capacity' }" type="button" @click="displayMode = 'capacity'">Wooneenheden</button>
-        <button :class="{ active: displayMode === 'share' }" type="button" @click="displayMode = 'share'">% van tekort</button>
+        <button :class="{ active: displayMode === 'share' }" type="button" @click="displayMode = 'share'">Cumulatief % opgelost</button>
       </div>
     </div>
 
@@ -183,7 +196,9 @@ const reset = () => {
         <title id="capacity-chart-title">Jaarlijkse wooncapaciteit en cumulatieve investeringskosten</title>
         <desc id="capacity-chart-desc">Gestapelde balken tonen de bijdrage per geselecteerde maatregel. De donkere lijn toont de cumulatieve investering.</desc>
         <g v-for="tick in chart.ticks" :key="tick.y"><line :x1="chart.margin.left" :x2="chart.margin.left + chart.innerWidth" :y1="tick.y" :y2="tick.y" class="grid-line" /><text :x="chart.margin.left - 10" :y="tick.y + 4" text-anchor="end">{{ tick.left }}</text><text :x="chart.margin.left + chart.innerWidth + 10" :y="tick.y + 4">{{ tick.right }}</text></g>
-        <rect v-for="segment in chart.bars" :key="`${segment.year}-${segment.id}`" :x="segment.x" :y="segment.y" :width="segment.width" :height="segment.height" :fill="segment.color"><title>{{ segment.year }} – {{ segment.name }}: {{ fmt.format(segment.capacity) }} wooneenheden</title></rect>
+        <rect v-for="segment in chart.bars" :key="`${segment.year}-${segment.id}`" :x="segment.x" :y="segment.y" :width="segment.width" :height="segment.height" :fill="segment.color"><title>{{ segment.year }} – {{ segment.name }}: {{ displayMode === 'capacity' ? `${fmt.format(segment.capacity)} wooneenheden` : `${segment.displayValue.toLocaleString('nl-NL', { maximumFractionDigits: 1 })}% cumulatief opgelost` }}</title></rect>
+        <line :x1="chart.targetX" :x2="chart.targetX" :y1="chart.margin.top" :y2="chart.margin.top + chart.innerHeight" class="target-line" />
+        <text :x="chart.targetX + 5" :y="chart.margin.top + 12" class="target-label">doel {{ targetYear }}</text>
         <path :d="chart.costPath" class="cost-line" />
         <circle v-for="(item, index) in series" :key="item.year" :cx="chart.x(index)" :cy="chart.costY(item.cumulativeCost)" r="3" class="cost-point"><title>{{ item.year }}: {{ money(item.cumulativeCost) }}</title></circle>
         <g v-for="(year, index) in years" :key="year"><text v-if="index % 2 === 0 || index === years.length - 1" :x="chart.x(index)" :y="chart.height - 17" text-anchor="middle">{{ year }}</text></g>
@@ -202,6 +217,8 @@ const reset = () => {
         <line :x1="shortageChart.margin.left" :x2="shortageChart.margin.left + shortageChart.innerWidth" :y1="shortageChart.y(0)" :y2="shortageChart.y(0)" class="grid-line" />
         <text :x="shortageChart.margin.left - 10" :y="shortageChart.y(0) + 4" text-anchor="end">0</text><text :x="shortageChart.margin.left - 10" :y="shortageChart.y(shortageChart.maxShortage) + 4" text-anchor="end">{{ compact.format(shortageChart.maxShortage) }}</text>
         <path :d="shortageChart.baselinePath" class="baseline-line" /><path :d="shortageChart.path" class="shortage-line" />
+        <line :x1="shortageChart.targetX" :x2="shortageChart.targetX" :y1="shortageChart.margin.top" :y2="shortageChart.margin.top + shortageChart.innerHeight" class="target-line" />
+        <circle :cx="shortageChart.targetX" :cy="shortageChart.y(targetResult.remaining)" r="5" class="target-point"><title>Resterend tekort in {{ targetYear }}: {{ fmt.format(targetResult.remaining) }}</title></circle>
         <g v-for="(year, index) in years" :key="year"><text v-if="index % 2 === 0 || index === years.length - 1" :x="shortageChart.x(index)" :y="shortageChart.height - 14" text-anchor="middle">{{ year }}</text></g>
       </svg>
     </div>
