@@ -9,7 +9,7 @@ const fmt = new Intl.NumberFormat('nl-NL', { maximumFractionDigits: 1 })
 </script>
 
 <template>
-  <section class="model" aria-labelledby="model-title">
+  <section class="model" data-analytics-model="housing-space" aria-labelledby="model-title">
     <div class="model-copy">
       <p class="eyebrow">Interactief model</p>
       <h2 id="model-title">Hoeveel woonruimte vraagt een bevolking?</h2>

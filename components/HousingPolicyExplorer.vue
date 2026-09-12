@@ -138,7 +138,7 @@ const reset = () => {
 </script>
 
 <template>
-  <section class="scenario-model" aria-labelledby="scenario-title">
+  <section class="scenario-model" data-analytics-model="housing-policy" aria-labelledby="scenario-title">
     <header class="scenario-intro">
       <p class="eyebrow">Interactieve scenarioverkenner</p>
       <h2 id="scenario-title">Wooncapaciteit, kosten en resterend tekort</h2>
