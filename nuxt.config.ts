@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
-    public: { siteUrl: process.env.NUXT_PUBLIC_SITE_URL || '' }
+    public: { siteUrl: process.env.NUXT_PUBLIC_SITE_URL || 'https://www.interactive-thought.nl' }
   },
   app: {
     head: {
@@ -18,7 +18,7 @@ export default defineNuxtConfig({
           src: 'https://cloud.umami.is/script.js',
           defer: true,
           'data-website-id': '631b0ef4-e228-4aff-8709-cfdc96c57c6e',
-          'data-domains': 'interactive-thought.nl',
+          'data-domains': 'www.interactive-thought.nl',
           'data-exclude-search': 'true',
           'data-exclude-hash': 'true',
           'data-do-not-track': 'true'
