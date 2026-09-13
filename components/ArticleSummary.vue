@@ -32,6 +32,7 @@ const openFull = () => {
       <CarNeedsModel v-else-if="article.modelComponent==='car-needs'" />
       <SportDividendExplorer v-else-if="article.modelComponent==='sport-dividend'" :locale="locale" />
     </div>
+    <TangoPoseEditor v-if="article.modelComponent==='tango-movement'" :locale="locale" />
 
     <section v-if="article.modelLimitations?.length" class="limits wrap">
       <h3>{{article.modelComponent==='tango-movement' ? (nl?'Model in ontwikkeling':'Model in progress') : article.modelComponent ? (nl?'Reikwijdte van het model':'Scope of the model') : (nl?'Reikwijdte en beperkingen':'Scope and qualifications')}}</h3>
