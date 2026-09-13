@@ -8,8 +8,8 @@ useHead({ htmlAttrs: { lang: 'en' } })
   <div>
     <section class="hero wrap">
       <p class="eyebrow">Articles &amp; models</p>
-      <h1>Reality is rarely as simple as the debate.</h1>
-      <p class="lead">I write about technology, society and systems—not to have the final word, but to make assumptions visible and ideas testable.</p>
+      <h1>Read the argument. Explore the assumptions.</h1>
+      <p class="lead">Long-form essays for the complete reasoning, concise summaries for orientation, and interactive models for exploring when a conclusion changes.</p>
       <NuxtLink to="/en/articles" class="text-link">Browse all articles <span aria-hidden="true">→</span></NuxtLink>
     </section>
     <section class="latest wrap" aria-labelledby="latest-en-title">

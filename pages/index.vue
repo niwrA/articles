@@ -7,8 +7,8 @@ useSeoMeta({ title: 'Artikelen en modellen', description: 'Onderbouwde essays ov
   <div>
     <section class="hero wrap">
       <p class="eyebrow">Artikelen & modellen</p>
-      <h1>De werkelijkheid is zelden zo eenvoudig als de discussie.</h1>
-      <p class="lead">Ik schrijf over technologie, maatschappij en systemen. Niet om het laatste woord te hebben, maar om aannames zichtbaar en ideeën toetsbaar te maken.</p>
+      <h1>Lees de gedachte. Onderzoek de aannames.</h1>
+      <p class="lead">Lange essays voor de volledige redenering, korte samenvattingen voor het overzicht en interactieve modellen waarmee je zelf kunt onderzoeken wanneer een conclusie verandert.</p>
       <NuxtLink to="/artikelen" class="text-link">Lees alle artikelen <span aria-hidden="true">→</span></NuxtLink>
     </section>
 
