@@ -15,8 +15,8 @@ const clone=<T,>(value:T):T=>JSON.parse(JSON.stringify(value))
 const foot=(x:number,y:number,angle:number,load:number):Foot=>({x,y,angle,load})
 const dancer=(x:number,y:number,angle:number,left:Foot,right:Foot):Dancer=>({torso:{x,y},angle,pelvisAngle:angle,left,right})
 const initial=():Pose[]=>[
- {id:crypto.randomUUID(),at:0,duration:0,stanceHeight:.5,phase:'available',note:'',a:dancer(330,250,0,foot(310,232,0,0),foot(310,268,0,1)),b:dancer(470,250,180,foot(490,268,180,0),foot(490,232,180,1))},
- {id:crypto.randomUUID(),at:1,duration:1,stanceHeight:.5,phase:'arrival',note:'',a:dancer(330,250,0,foot(310,232,0,0),foot(310,268,0,1)),b:dancer(470,250,180,foot(490,268,180,0),foot(490,232,180,1))}
+ {id:crypto.randomUUID(),at:0,duration:0,stanceHeight:.5,phase:'available',note:'',a:dancer(330,250,0,foot(310,232,0,0),foot(310,268,0,1)),b:dancer(470,250,180,foot(490,268,180,1),foot(490,232,180,0))},
+ {id:crypto.randomUUID(),at:1,duration:1,stanceHeight:.5,phase:'arrival',note:'',a:dancer(330,250,0,foot(310,232,0,1),foot(310,268,0,0)),b:dancer(470,250,180,foot(490,268,180,0),foot(490,232,180,1))}
 ]
 const poses=ref<Pose[]>(initial())
 const selected=ref(0)
