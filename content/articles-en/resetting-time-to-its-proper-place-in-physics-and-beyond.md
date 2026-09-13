@@ -1,7 +1,8 @@
 ---
 title: Resetting Time to Its Proper Place in Physics and Beyond
 description: An examination of what clocks, proper time and spacetime physically describe when we compare change with change.
-date: 2026-09-10
+date: 2026-08-15
+updated: 2026-09-13
 tags: [Physics, Relativity, Philosophy]
 translationKey: time-proper-place
 featuredImage: /images/artikelen/time-and-relativity/time-matters.webp

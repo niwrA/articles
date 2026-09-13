@@ -30,6 +30,7 @@ const openFull = () => {
       <CoffeeCupModel v-else-if="article.modelComponent==='coffee-cups' && locale==='nl'" />
       <CoffeeCupModelEn v-else-if="article.modelComponent==='coffee-cups'" />
       <CarNeedsModel v-else-if="article.modelComponent==='car-needs'" />
+      <SportDividendExplorer v-else-if="article.modelComponent==='sport-dividend'" :locale="locale" />
     </div>
 
     <section v-if="article.modelLimitations?.length" class="limits wrap">

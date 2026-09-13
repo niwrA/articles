@@ -1,7 +1,8 @@
 ---
 title: Voorbij de waarnemingshorizon
 description: Zwartegatsterren als vertrekpunt voor een onderzoek naar materie, zwaartekracht en de verborgen dynamiek van het heelal.
-date: 2026-09-10
+date: 2026-08-14
+updated: 2026-09-13
 tags: [Natuurkunde, Zwarte gaten, Kosmologie]
 translationKey: beyond-the-event-horizon
 featuredImage: /images/artikelen/beyond-the-event-horizon/voorbij-de-waarnemingshorizon.webp

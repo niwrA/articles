@@ -1,7 +1,8 @@
 ---
 title: De juiste plaats voor tijd in de relativiteitstheorie
 description: Een onderzoek naar wat klokken, eigentijd en ruimtetijd fysiek beschrijven wanneer we verandering met verandering vergelijken.
-date: 2026-09-10
+date: 2026-08-16
+updated: 2026-09-13
 tags: [Natuurkunde, Relativiteit, Filosofie]
 translationKey: time-proper-place
 featuredImage: /images/artikelen/time-and-relativity/tijd-terug-op-zijn-plek.webp

@@ -1,7 +1,8 @@
 ---
 title: "What's in a Note?"
 description: On notation, interpretation and the difference between what music records, prescribes and asks musicians to create.
-date: 2026-09-10
+date: 2026-09-04
+updated: 2026-09-13
 tags: [Music, Notation, Interpretation]
 translationKey: whats-in-a-note
 featuredImage: /images/artikelen/whats-in-a-note/whats-in-a-note.webp

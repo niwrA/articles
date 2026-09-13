@@ -1,7 +1,8 @@
 ---
 title: Wat zit er in een noot?
 description: Over notatie, interpretatie en het verschil tussen wat muziek vastlegt, voorschrijft en van musici vraagt om zelf te creëren.
-date: 2026-09-10
+date: 2026-09-06
+updated: 2026-09-13
 tags: [Muziek, Notatie, Interpretatie]
 translationKey: whats-in-a-note
 featuredImage: /images/artikelen/whats-in-a-note/wat-zit-er-in-een-noot.webp

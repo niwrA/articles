@@ -2,6 +2,7 @@
 title: 'Argentijnse tango: een gesprek tussen twee lichamen'
 description: Hoe Argentijnse tango door gedeeld initiatief, luisteren en reageren een rijker lichamelijk gesprek kan worden.
 date: 2026-09-10
+updated: 2026-09-13
 tags: [Tango, Dans, Improvisatie]
 translationKey: argentine-tango-conversation
 featuredImage: /images/artikelen/argentine-tango/argentijnse-tango-gesprek.webp

@@ -1,7 +1,8 @@
 ---
 title: 'Argentine Tango: A Conversation Between Two Bodies'
 description: How Argentine tango can become a richer physical conversation through shared initiative, listening and response.
-date: 2026-09-10
+date: 2026-09-11
+updated: 2026-09-13
 tags: [Tango, Dance, Improvisation]
 translationKey: argentine-tango-conversation
 featuredImage: /images/artikelen/argentine-tango/argentine-tango-conversation.webp

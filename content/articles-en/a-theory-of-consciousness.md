@@ -1,7 +1,8 @@
 ---
 title: A Theory of Consciousness
 description: A functional hypothesis in which consciousness helps arbitrate novel, conflicting, uncertain or consequential problems across brain and body.
-date: 2026-09-10
+date: 2026-09-11
+updated: 2026-09-13
 tags: [Consciousness, Neuroscience, Philosophy]
 translationKey: theory-of-consciousness
 featuredImage: /images/artikelen/a-theory-of-consciousness/consciousness-arbitration.webp

@@ -1,7 +1,8 @@
 ---
 title: De Woningmarkt
 description: Woningnood gaat niet alleen over aantallen woningen, maar ook over woonoppervlak, huishoudensvorming, doorstroming en effectieve wooncapaciteit.
-date: 2026-09-10
+date: 2026-08-21
+updated: 2026-09-13
 tags: [Wonen, Beleid, Systemen]
 translationKey: housing-market
 originalUrl: https://www.linkedin.com/pulse/de-woningmarkt-arwin-van-arum-mruse

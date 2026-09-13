@@ -1,7 +1,8 @@
 ---
 title: Hoeveel auto hebben we eigenlijk nodig?
 description: Over autobesitas, veiligheid, ruimtegebruik, energie en de vraag welke mobiliteit werkelijk bij ons gebruik past.
-date: 2026-09-10
+date: 2026-08-21
+updated: 2026-09-13
 tags: [Mobiliteit, Auto, Ruimte]
 translationKey: how-much-car-do-we-need
 featuredImage: /images/artikelen/hoeveel-auto/auto-parkeren.webp

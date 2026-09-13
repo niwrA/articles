@@ -1,7 +1,8 @@
 ---
 title: 'Beyond the Event Horizon: Rethinking Matter, Gravity and a Living Universe'
 description: From black hole stars to a speculative view of the universe as a dynamic system of concentration, transformation and renewal.
-date: 2026-09-10
+date: 2026-08-14
+updated: 2026-09-13
 tags: [Physics, Black Holes, Cosmology]
 translationKey: beyond-the-event-horizon
 featuredImage: /images/artikelen/beyond-the-event-horizon/black-hole-inside.webp

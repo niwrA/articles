@@ -13,6 +13,7 @@ useSeoMeta({
   ogType: 'article', ogUrl: canonicalUrl, ogImage: socialImage,
   ogImageAlt: article.value.featuredImageAlt, ogLocale: 'en_GB',
   articlePublishedTime: new Date(article.value.date).toISOString(),
+  articleModifiedTime: article.value.updated ? new Date(article.value.updated).toISOString() : undefined,
   twitterCard: 'summary_large_image', twitterTitle: article.value.title,
   twitterDescription: article.value.description, twitterImage: socialImage,
   twitterImageAlt: article.value.featuredImageAlt
@@ -41,7 +42,7 @@ const viewMode = computed<'summary'|'full'>({
       <p class="eyebrow">{{ article.tags?.join(' · ') }}</p>
       <h1>{{ article.title }}</h1>
       <p class="lead">{{ article.description }}</p>
-      <div class="byline"><span>By Arwin van Arum</span><time :datetime="article.date">{{ date(article.date) }}</time><span>{{ formatReadingTime(article.body, 'en-GB') }}</span></div>
+      <div class="byline"><span>By Arwin van Arum</span><span>First published <time :datetime="article.date">{{ date(article.date) }}</time></span><span v-if="article.updated && article.updated !== article.date">Last updated <time :datetime="article.updated">{{ date(article.updated) }}</time></span><span>{{ formatReadingTime(article.body, 'en-GB') }}</span></div>
       <p v-if="article.aiReviewModel && article.aiReviewDate" class="review-provenance">AI-assisted content review: {{ article.aiReviewModel }} · <time :datetime="article.aiReviewDate">{{ date(article.aiReviewDate) }}</time></p>
       <NuxtLink v-if="translation" :to="translation.path" hreflang="nl" class="article-language">Lees dit artikel in het Nederlands →</NuxtLink>
       <ArticleShare :title="article.title" :description="article.description" :url="canonicalUrl" :article-key="article.translationKey" locale="en" />
