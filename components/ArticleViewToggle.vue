@@ -1,7 +1,7 @@
 <script setup lang="ts">
-const props = defineProps<{ modelValue: 'summary'|'full'; locale: 'nl'|'en'; articleKey: string }>()
-const emit = defineEmits<{ 'update:modelValue': [value: 'summary'|'full'] }>()
-const choose = (value:'summary'|'full') => {
+const props = withDefaults(defineProps<{ modelValue: 'summary'|'simple'|'full'; locale: 'nl'|'en'; articleKey: string; hasPlainLanguage?:boolean }>(),{hasPlainLanguage:false})
+const emit = defineEmits<{ 'update:modelValue': [value: 'summary'|'simple'|'full'] }>()
+const choose = (value:'summary'|'simple'|'full') => {
   emit('update:modelValue', value)
   trackAnalytics('article_view_mode', { article: props.articleKey, language: props.locale, mode: value })
 }
@@ -9,6 +9,7 @@ const choose = (value:'summary'|'full') => {
 <template>
   <nav class="view-toggle wrap" :aria-label="locale==='nl'?'Kies artikelweergave':'Choose article view'">
     <button :class="{active:modelValue==='summary'}" @click="choose('summary')">{{locale==='nl'?'In het kort':'At a glance'}}</button>
+    <button v-if="hasPlainLanguage" :class="{active:modelValue==='simple'}" @click="choose('simple')">{{locale==='nl'?'Eenvoudig uitgelegd':'Plain-language version'}}</button>
     <button :class="{active:modelValue==='full'}" @click="choose('full')">{{locale==='nl'?'Volledig artikel':'Full article'}}</button>
   </nav>
 </template>

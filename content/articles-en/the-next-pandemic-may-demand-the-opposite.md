@@ -12,6 +12,31 @@ keyPoints:
   - Incubation, latency and infectiousness are different time periods with different implications for case finding.
   - Factual assumptions and social value judgements belong in the same decision but must not be confused.
   - Uncertainty calls for robust packages, predefined review and research into information that could actually change the choice.
+plainLanguage:
+  title: Why different epidemics need different responses
+  intro: A pandemic plan should not begin with a list of measures remembered from COVID-19. It should begin with questions about the new disease. How does it spread, when are people infectious, how seriously do they become ill, and where might society reach its limits? Only then can we judge which measures are likely to help and what harm those measures may cause themselves.
+  sections:
+    - heading: The disease determines where to intervene
+      paragraphs:
+        - A virus transmitted mainly through the air calls for attention to ventilation, filtration and respiratory protection. When a disease becomes infectious only after clear symptoms appear, rapid recognition, isolation and contact tracing may matter much more. If infections mainly come from animals or contaminated dust, policy may need to focus on farms, working conditions and the environment.
+        - No measure is therefore automatically sensible in every pandemic. Even a measure that demonstrably works may be unsuitable when it targets the wrong route of transmission, arrives too late or causes more harm than a less burdensome alternative.
+    - heading: Health is not the only bottleneck
+      paragraphs:
+        - Infection counts are only the beginning of the calculation. We also need to know how many people are unable to work simultaneously, how much hospital and intensive care is required, how much staff remains available and how many people die. Laboratories, oxygen, medicines or funeral services may become limiting before the number of beds does.
+        - Measures have consequences too. School closures affect education, parents and inequality. Isolation is hard to sustain without income support. A broad lockdown may reduce transmission quickly but also creates social, economic and psychological burdens. Good policy therefore compares complete packages and makes both health benefits and collateral harms visible.
+    - heading: Why three weeks of lockdown every six months is not automatically enough
+      paragraphs:
+        - A strict short lockdown can sharply reduce infections when people temporarily have far fewer contacts. Once it ends and every infected person again infects more than one other person on average, growth resumes. With six months between lockdowns, a virus has dozens of generations in which to return.
+        - Whether such a rhythm nevertheless protects hospitals depends on reproduction, starting prevalence, immunity, imported infections, seasons and hospitalisation risk, among other factors. It is therefore a useful hypothesis to calculate, but not a conclusion that follows from lockdown duration alone. The model in the full article shows under which assumptions limits are or are not exceeded.
+    - heading: Decisions require facts and values
+      paragraphs:
+        - Science can estimate how many infections, admissions or harms a strategy is likely to produce. It cannot determine how much weight society ought to assign to each consequence. People may accept the same numbers yet disagree about liberty, education, mortality risk or how burdens should be distributed.
+        - Factual assumptions, uncertainty and societal choices should therefore remain separately visible. A model can compare consequences and identify weak assumptions. The final choice remains a political and democratic responsibility at national, regional and local levels.
+    - heading: We do not need to start from zero
+      paragraphs:
+        - In 2025 the WHO published an international Decision Navigator combining threat, context, objectives, measures and societal consequences. The Netherlands already had its own Assessment Framework for Pandemics from the Social Impact Team in 2024. Both show that broader and more systematic reasoning is possible.
+        - The challenge is not merely to possess such documents, but to make them publicly usable. Policymakers and citizens should be able to examine alternative strategies, change assumptions and see in advance which threshold should trigger reconsideration. That allows us not only to learn retrospectively from the previous pandemic, but to prepare testably for a different one.
+  takeaway: Do not begin with the measure. Begin with the disease profile, the current situation and the limits society wants to protect. Then compare several packages, expose uncertainty and decide in advance when new evidence should change policy.
 modelComponent: pathogen-response
 modelLimitations:
   - Intervention scores are illustrative assumptions, not empirical effect sizes derived from studies.

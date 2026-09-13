@@ -12,6 +12,31 @@ keyPoints:
   - Incubatietijd, latente periode en besmettelijke periode zijn verschillende grootheden met verschillende gevolgen voor opsporing.
   - Feitelijke aannames en maatschappelijke waardeoordelen horen in één besluit te staan, maar mogen niet met elkaar worden verward.
   - Onzekerheid vraagt om robuuste pakketten, vooraf bepaalde herbeoordeling en onderzoek naar informatie die de keuze werkelijk kan veranderen.
+plainLanguage:
+  title: Waarom niet iedere epidemie om dezelfde aanpak vraagt
+  intro: Een pandemieplan moet niet beginnen met een lijst maatregelen uit de coronatijd. Het moet beginnen met vragen over de nieuwe ziekte. Hoe verspreidt zij zich, wanneer zijn mensen besmettelijk, hoe ernstig worden zij ziek en waar dreigt de samenleving vast te lopen? Pas met die informatie kunnen we bepalen welke maatregelen waarschijnlijk helpen en welke schade zij zelf veroorzaken.
+  sections:
+    - heading: De ziekte bepaalt waar je moet ingrijpen
+      paragraphs:
+        - Een virus dat vooral via de lucht wordt overgedragen vraagt bijvoorbeeld om aandacht voor ventilatie, luchtfiltratie en bescherming van de luchtwegen. Bij een ziekte die pas na duidelijke symptomen besmettelijk wordt, kunnen snelle herkenning, isolatie en contactonderzoek veel belangrijker zijn. Komt de besmetting vooral van dieren of verontreinigd stof, dan moet beleid mogelijk op boerderijen, arbeidsomstandigheden en de omgeving aangrijpen.
+        - Daarom bestaat er geen maatregel die bij iedere pandemie automatisch verstandig is. Zelfs een maatregel die aantoonbaar werkt kan ongeschikt zijn als zij op de verkeerde transmissieroute is gericht, te laat wordt ingezet of meer schade veroorzaakt dan een minder belastend alternatief.
+    - heading: Gezondheid is niet het enige knelpunt
+      paragraphs:
+        - Het aantal besmettingen is slechts het begin van de berekening. We willen ook weten hoeveel mensen tegelijk niet kunnen werken, hoeveel ziekenhuis- en IC-zorg nodig is, hoeveel personeel beschikbaar blijft en hoeveel mensen overlijden. Bij sommige uitbraken kunnen laboratoria, zuurstof, geneesmiddelen of uitvaartvoorzieningen eerder vastlopen dan het aantal bedden.
+        - Maatregelen hebben eveneens gevolgen. Een schoolsluiting beïnvloedt onderwijs, ouders en ongelijkheid. Isolatie is moeilijk vol te houden zonder inkomenssteun. Een brede lockdown kan snel transmissie verminderen, maar veroorzaakt ook sociale, economische en psychische belasting. Goed beleid vergelijkt daarom complete pakketten en maakt zowel gezondheidswinst als nevenschade zichtbaar.
+    - heading: Waarom drie weken lockdown per halfjaar niet vanzelf genoeg is
+      paragraphs:
+        - Een strenge korte lockdown kan het aantal infecties sterk laten dalen wanneer mensen tijdelijk veel minder contacten hebben. Maar zodra de lockdown stopt en iedere besmette persoon gemiddeld weer meer dan één ander besmet, begint de groei opnieuw. Bij een halfjaar tussen twee lockdowns krijgt een virus tientallen generaties om terug te keren.
+        - Of zo'n ritme ziekenhuizen toch voldoende beschermt hangt af van onder meer het reproductiegetal, het beginaantal infecties, immuniteit, nieuwe besmettingen uit het buitenland, seizoenen en de kans op opname. Het is dus een zinvolle hypothese om door te rekenen, maar geen conclusie die alleen uit de duur van de lockdown volgt. Het model in het volledige artikel laat zien bij welke aannames grenzen wel of niet worden overschreden.
+    - heading: Besluiten vereisen feiten én waarden
+      paragraphs:
+        - Wetenschap kan schatten hoeveel infecties, opnames of schade een strategie waarschijnlijk oplevert. Zij kan niet bepalen hoeveel gewicht een samenleving aan ieder gevolg behoort te geven. Mensen kunnen dezelfde cijfers accepteren en toch anders denken over vrijheid, onderwijs, sterfterisico of de verdeling van lasten.
+        - Daarom moeten feitelijke aannames, onzekerheden en maatschappelijke keuzes afzonderlijk zichtbaar blijven. Een model kan gevolgen vergelijken en zwakke aannames aanwijzen. De uiteindelijke keuze blijft een politieke en democratische verantwoordelijkheid, op nationaal, regionaal en lokaal niveau.
+    - heading: We hoeven niet vanaf nul te beginnen
+      paragraphs:
+        - De WHO publiceerde in 2025 een internationale Decision Navigator die dreiging, context, doelen, maatregelen en maatschappelijke gevolgen samenbrengt. Nederland had in 2024 al een eigen Afwegingskader bij pandemieën van het Maatschappelijk Impact Team. Beide laten zien dat breder en systematischer nadenken mogelijk is.
+        - De uitdaging is nu niet alleen zulke documenten te bezitten, maar ze publiek bruikbaar te maken. Beleidsmakers en burgers moeten alternatieve strategieën kunnen bekijken, aannames veranderen en vooraf zien bij welke grens een besluit moet worden herzien. Zo leren we niet uitsluitend achteraf van de vorige pandemie, maar bereiden we ons toetsbaar voor op een andere.
+  takeaway: Begin niet bij de maatregel, maar bij het ziekteprofiel, de actuele situatie en de grenzen die we willen beschermen. Vergelijk vervolgens meerdere pakketten, maak onzekerheid zichtbaar en spreek vooraf af wanneer nieuwe informatie tot ander beleid moet leiden.
 modelComponent: pathogen-response
 modelLimitations:
   - De interventiescores zijn illustratieve aannames en geen uit empirische studies afgeleide effectgroottes.

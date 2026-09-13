@@ -4,7 +4,7 @@ const props = defineProps<{
   language: 'nl' | 'en'
   version: string
   contentId: string
-  viewMode?: 'summary' | 'full'
+  viewMode?: 'summary' | 'simple' | 'full'
 }>()
 
 interface StoredState { sent: string[] }

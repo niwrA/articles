@@ -12,6 +12,12 @@ const articleSchema = z.object({
   originalUrl: z.string().url().optional(),
   summary: z.string().optional(),
   keyPoints: z.array(z.string()).optional(),
+  plainLanguage: z.object({
+    title: z.string(),
+    intro: z.string(),
+    sections: z.array(z.object({ heading: z.string(), paragraphs: z.array(z.string()) })),
+    takeaway: z.string()
+  }).optional(),
   modelComponent: z.enum(['housing-policy', 'proper-time', 'consciousness', 'tango-movement', 'coffee-cups', 'car-needs', 'sport-dividend', 'pathogen-response']).optional(),
   modelLimitations: z.array(z.string()).optional(),
   aiReviewModel: z.string().optional(),

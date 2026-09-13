@@ -27,11 +27,12 @@ useHead({ htmlAttrs: { lang: 'nl' }, link: [
 const date = (value: string) => new Intl.DateTimeFormat('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(value))
 const renderedArticle = computed(() => withCitations(article.value!, 'nl'))
 const hasSummary = computed(() => Boolean(article.value?.summary))
+const hasPlainLanguage = computed(() => Boolean(article.value?.plainLanguage))
 const hydrated = ref(false)
 onMounted(() => { hydrated.value = true })
-const viewMode = computed<'summary'|'full'>({
-  get: () => hydrated.value && hasSummary.value && route.query.view === 'summary' ? 'summary' : 'full',
-  set: value => navigateTo({ path: route.path, query: value === 'summary' ? { ...route.query, view: 'summary' } : Object.fromEntries(Object.entries(route.query).filter(([key]) => key !== 'view')) }, { replace: true })
+const viewMode = computed<'summary'|'simple'|'full'>({
+  get: () => hydrated.value && hasSummary.value && route.query.view === 'summary' ? 'summary' : hydrated.value && hasPlainLanguage.value && route.query.view === 'simple' ? 'simple' : 'full',
+  set: value => navigateTo({ path: route.path, query: value === 'full' ? Object.fromEntries(Object.entries(route.query).filter(([key]) => key !== 'view')) : { ...route.query, view: value } }, { replace: true })
 })
 </script>
 
@@ -47,13 +48,14 @@ const viewMode = computed<'summary'|'full'>({
       <NuxtLink v-if="translation" :to="translation.path" hreflang="en" class="article-language">Read this article in English →</NuxtLink>
       <ArticleShare :title="article.title" :description="article.description" :url="canonicalUrl" :article-key="article.translationKey" locale="nl" />
     </header>
-    <ArticleViewToggle v-if="hasSummary" v-model="viewMode" locale="nl" :article-key="article.translationKey" />
+    <ArticleViewToggle v-if="hasSummary" v-model="viewMode" locale="nl" :article-key="article.translationKey" :has-plain-language="hasPlainLanguage" />
     <figure v-if="article.featuredImage && viewMode === 'full'" class="article-cover wrap">
       <img :src="article.featuredImage" :alt="article.featuredImageAlt || ''" width="1800" height="1024">
     </figure>
     <ArticleSummary v-if="viewMode === 'summary'" :article="article" locale="nl" @full="viewMode='full'" />
+    <ArticlePlainLanguage v-else-if="viewMode === 'simple'" :article="article" locale="nl" @full="viewMode='full'" />
     <div v-else id="article-content" class="prose wrap"><ContentRenderer :value="renderedArticle" /></div>
-    <ArticleEngagement :key="viewMode" :article-key="article.translationKey" language="nl" :version="article.updated || article.date" :view-mode="viewMode" :content-id="viewMode === 'summary' ? 'article-summary' : 'article-content'" />
+    <ArticleEngagement :key="viewMode" :article-key="article.translationKey" language="nl" :version="article.updated || article.date" :view-mode="viewMode" :content-id="viewMode === 'summary' ? 'article-summary' : viewMode === 'simple' ? 'article-simple' : 'article-content'" />
     <div class="wrap"><ArticleShare :title="article.title" :description="article.description" :url="canonicalUrl" :article-key="article.translationKey" locale="nl" closing /></div>
   </article>
 </template>
