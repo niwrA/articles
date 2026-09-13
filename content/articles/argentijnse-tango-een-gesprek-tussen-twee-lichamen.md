@@ -14,9 +14,10 @@ keyPoints:
   - Gelijkwaardigheid betekent niet dat beide dansers op ieder moment hetzelfde doen.
 modelComponent: tango-movement
 modelLimitations:
-  - De simulatie is een schematisch toestandsmodel en geen dansinstructie.
-  - Balans, contact en lichaamsgeometrie zijn sterk vereenvoudigd.
-  - Werkelijke communicatie omvat subtiele spanning, timing en waarneming die niet volledig worden gemodelleerd.
+  - De simulatie onderscheidt standbeen, vrije voet, projectie, plaatsing, gewichtsoverdracht en pivot.
+  - Voet- en schouderoriëntatie, contact, zwaartepunt en open, halfopen of gesloten omhelzing zijn afzonderlijk zichtbaar.
+  - Initiatief en respons hebben een klein tijdsverschil, zodat het voorstel vóór het antwoord zichtbaar wordt.
+  - De bewegingen blijven schematische, te toetsen varianten en zijn geen dansinstructie.
 draft: false
 ---
 

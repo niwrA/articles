@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { centreOfMass, frameAt, sharedCentre, tangoMovements, type DancerId, type DancerState, type FootState, type MovementId } from '~/utils/tangoSimulation'
+import { centreOfMass, frameAt, sharedCentre, tangoMovements, withEmbrace, type DancerId, type DancerState, type Embrace, type FootState, type MovementId } from '~/utils/tangoSimulation'
 
 const props = withDefaults(defineProps<{ locale?: 'nl' | 'en' }>(), { locale: 'nl' })
 const nl = computed(() => props.locale === 'nl')
@@ -8,18 +8,29 @@ const progress = ref(0)
 const playing = ref(false)
 const showContacts = ref(true)
 const showCentres = ref(true)
+const embrace = ref<Embrace>('half-open')
 let timer: ReturnType<typeof setInterval> | undefined
 
 const movement = computed(() => tangoMovements.find(item => item.id === movementId.value)!)
-const frame = computed(() => frameAt(movement.value, progress.value / 100))
+const rawFrame = computed(() => frameAt(movement.value, progress.value / 100))
+const frame = computed(() => withEmbrace(rawFrame.value, embrace.value, movementId.value))
 const centreA = computed(() => centreOfMass(frame.value.a))
 const centreB = computed(() => centreOfMass(frame.value.b))
 const commonCentre = computed(() => sharedCentre(frame.value))
+const initiative = computed(() => {
+  const p=progress.value/100, first=movement.value.initiator
+  return {
+    a:first==='a'?Math.max(0,1-Math.abs(p-.16)/.2):Math.max(0,1-Math.abs(p-.34)/.22),
+    b:first==='b'?Math.max(0,1-Math.abs(p-.16)/.2):Math.max(0,1-Math.abs(p-.34)/.22)
+  }
+})
 const label = (m: typeof tangoMovements[number]) => nl.value ? m.nameNl : m.nameEn
 const phaseName = computed(() => ({
   available: nl.value ? 'mogelijkheden open' : 'possibilities open',
   proposal: nl.value ? 'voorstel' : 'proposal',
+  projection: nl.value ? 'projectie' : 'projection',
   transfer: nl.value ? 'gewichtsverplaatsing' : 'weight transfer',
+  pivot: 'pivot',
   arrival: nl.value ? 'aankomst' : 'arrival'
 }[frame.value.phase]))
 
@@ -86,12 +97,25 @@ const roleFor = (id: DancerId) => movement.value.initiator === id
       <button v-for="item in tangoMovements" :key="item.id" :class="{ active: item.id === movementId }" @click="setMovement(item.id)">{{ label(item) }}</button>
     </div>
 
+    <fieldset class="embrace-picker">
+      <legend>{{ nl ? 'Omhelzing' : 'Embrace' }}</legend>
+      <label v-for="option in (['open','half-open','closed'] as const)" :key="option" :class="{active:embrace===option}">
+        <input v-model="embrace" type="radio" :value="option">
+        {{ option==='open'?(nl?'Open':'Open'):option==='half-open'?(nl?'Halfopen':'Half-open'):(nl?'Gesloten':'Closed') }}
+      </label>
+      <small>{{ nl ? 'De keuze verandert afstand, contact en de verhouding tussen schouder- en voetoriëntatie. Bij ochos is de beschikbare dissociatie daardoor direct zichtbaar.' : 'The choice changes distance, contact and the relation between shoulder and foot orientation. In ochos this makes the available dissociation directly visible.' }}</small>
+    </fieldset>
+
     <div class="stage-card">
       <div class="stage-toolbar">
         <strong>{{ label(movement) }}</strong>
         <span>{{ nl ? 'Fase' : 'Phase' }}: {{ phaseName }}</span>
         <label><input v-model="showContacts" type="checkbox"> {{ nl ? 'contact' : 'contact' }}</label>
         <label><input v-model="showCentres" type="checkbox"> {{ nl ? 'zwaartepunten' : 'centres' }}</label>
+      </div>
+      <div class="movement-grammar">
+        <span class="system-label">{{ nl ? movement.systemNl : movement.systemEn }}</span>
+        <ol><li v-for="step in (nl ? movement.sequenceNl : movement.sequenceEn)" :key="step">{{ step }}</li></ol>
       </div>
       <div class="stage-scroll">
         <svg class="stage" viewBox="80 70 640 360" role="img" :aria-label="nl ? 'Schematisch bovenaanzicht van twee tangodansers' : 'Schematic top view of two tango dancers'">
@@ -108,17 +132,22 @@ const roleFor = (id: DancerId) => movement.value.initiator === id
 
           <g v-for="id in (['a','b'] as const)" :key="id" :class="['dancer', `dancer-${id}`]">
             <g v-for="side in (['left','right'] as const)" :key="side" :transform="transform(frame[id][side])" class="foot">
-              <circle r="28" :style="{ opacity: .08 + frame[id][side].load * .2 }" />
-              <path class="foot-shape" d="M-22 -10H9C18-10 25-6 29 0 25 6 18 10 9 10H-22Q-28 0-22-10Z" />
+              <circle class="load-halo" r="28" :style="{ opacity: .06 + frame[id][side].load * .3 }" />
+              <circle v-if="frame[id][side].load >= .88" class="support-ring" r="24" />
+              <path class="foot-shape" :style="{ opacity: .38 + frame[id][side].load * .62 }" d="M-22 -10H9C18-10 25-6 29 0 25 6 18 10 9 10H-22Q-28 0-22-10Z" />
               <path class="toe-direction" d="M10-6 22 0 10 6" />
               <text x="-7" y="4">{{ side === 'left' ? 'L' : 'R' }}</text>
             </g>
             <line :x1="frame[id].left.x" :y1="frame[id].left.y" :x2="frame[id].torso.x" :y2="frame[id].torso.y" />
             <line :x1="frame[id].right.x" :y1="frame[id].right.y" :x2="frame[id].torso.x" :y2="frame[id].torso.y" />
             <g :transform="transform({ ...frame[id].torso, angle: frame[id].angle })" class="body" filter="url(#tango-shadow)">
-              <ellipse rx="45" ry="30" />
-              <path d="M16 0 34 -8 34 8Z" />
-              <text y="5">{{ id.toUpperCase() }}</text>
+              <path class="shoulders" d="M-8-31C8-42 28-38 42-24L42 24C28 38 8 42-8 31Z" />
+              <circle class="head" cx="3" cy="0" r="13" />
+              <path class="gaze" d="M14 0H34M27-6 34 0 27 6" />
+              <text x="5" y="5">{{ id.toUpperCase() }}</text>
+            </g>
+            <g v-if="initiative[id]>.08" :transform="`translate(${frame[id].torso.x} ${frame[id].torso.y})`" class="initiative" :style="{opacity:initiative[id]}">
+              <circle r="54"/><text y="-62">{{ movement.initiator===id?(nl?'initieert':'initiates'):(nl?'reageert':'responds') }}</text>
             </g>
           </g>
 
@@ -135,7 +164,7 @@ const roleFor = (id: DancerId) => movement.value.initiator === id
         <input v-model.number="progress" type="range" min="0" max="100" step="1" :aria-label="nl ? 'Voortgang door beweging' : 'Movement progress'">
         <output>{{ progress }}%</output>
       </div>
-      <div class="phase-track" aria-hidden="true"><span>0</span><span>{{ nl ? 'voorstel' : 'proposal' }}</span><span>{{ nl ? 'overdracht' : 'transfer' }}</span><span>{{ nl ? 'aankomst' : 'arrival' }}</span></div>
+      <div class="phase-track" aria-hidden="true"><span>{{ nl ? 'begin' : 'start' }}</span><span>{{ nl ? 'projectie' : 'projection' }}</span><span>{{ nl ? 'overdracht' : 'transfer' }}</span><span>{{ nl ? 'vervolg' : 'continuation' }}</span></div>
     </div>
 
     <div class="views">
@@ -169,10 +198,22 @@ const roleFor = (id: DancerId) => movement.value.initiator === id
     </div>
 
     <footer>{{ nl ? 'A en B zijn tijdelijke rollen, geen vaste leider/volger- of gendercategorieën. Initiatief kan bij een volgende beweging wisselen.' : 'A and B are temporary roles, not fixed leader/follower or gender categories. Initiative can change in the next movement.' }}</footer>
+    <details class="model-status">
+      <summary>{{ nl ? 'Model in ontwikkeling: inhoud en bronnen' : 'Model in progress: scope and sources' }}</summary>
+      <p>{{ nl ? 'De simulatie bevat nu afzonderlijke toestanden voor standbeen, vrije voet, projectie, plaatsing, gewichtsoverdracht, pivot, voetoriëntatie, schouderoriëntatie, contact, omhelzingsafstand, initiatief en vertraagde respons. Het is een onderzoekbare schematisering, geen dansinstructie.' : 'The simulation now represents supporting leg, free foot, projection, placement, weight transfer, pivot, foot orientation, shoulder orientation, contact, embrace distance, initiative and delayed response separately. It is an explorable schematic, not dance instruction.' }}</p>
+      <ul>
+        <li><a href="https://www.degruyter.com/document/doi/10.1515/cogsem.2012.4.1.76/html" target="_blank" rel="noopener">Kimmel — Intersubjectivity at Close Quarters</a>: {{ nl ? 'basis voor tango als wederzijdse, belichaamde coördinatie.' : 'basis for tango as reciprocal, embodied coordination.' }}</li>
+        <li><a href="https://www.researchgate.net/publication/334694663_Tango_Ocho_-_1_Functional_Anatomical_Characteristics_of_Dissociation_and_the_Tango_Pivot" target="_blank" rel="noopener">Noh — Tango Ocho: dissociation and pivot</a>: {{ nl ? 'anatomische beschrijving van dissociatie en pivot; de drie omhelzingen zijn hier modelvarianten, geen uit dit onderzoek overgenomen meetwaarden.' : 'anatomical account of dissociation and pivot; the three embraces here are model variants, not measurements taken from this paper.' }}</li>
+        <li><a href="https://tangolife.london/blog/the-molinete-and-giro-circular-movement-in-tango" target="_blank" rel="noopener">TangoLife — The Molinete and Giro</a>: {{ nl ? 'praktijkbron voor de reeks achter–zij–voor–zij en voor het onderscheid tussen molinete en de totale giro. De simulatie kan op een ander punt in die cyclische reeks beginnen.' : 'practice source for the back–side–forward–side cycle and the distinction between molinete and the complete giro. The simulation may enter that cyclic sequence at another point.' }}</li>
+      </ul>
+    </details>
   </section>
 </template>
 
 <style scoped>
 .tango-explorer{--a:#c75032;--b:#256d72;margin:4rem calc((780px - min(1180px,calc(100vw - 48px)))/2);width:min(1180px,calc(100vw - 48px));color:#172321}.model-header{max-width:780px}.model-header h3{font-size:clamp(1.7rem,3vw,2.6rem);margin:.25rem 0 .75rem}.eyebrow{font-size:.74rem;letter-spacing:.12em;font-weight:800;color:#a64a34;margin:0 0 .35rem}.movement-picker{display:flex;gap:.5rem;flex-wrap:wrap;margin:1.5rem 0}.movement-picker button,.next-options button{border:1px solid #d2d8d5;background:#fff;border-radius:999px;padding:.65rem .95rem;cursor:pointer;color:inherit}.movement-picker button.active{background:#1d3532;color:#fff;border-color:#1d3532}.stage-card,.balance-card,.agency-card{background:#fff;border:1px solid #dce2de;border-radius:18px;box-shadow:0 10px 34px rgba(22,42,37,.07)}.stage-toolbar{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;padding:1rem 1.25rem;border-bottom:1px solid #e3e7e4}.stage-toolbar span{margin-right:auto;color:#61706b}.stage-toolbar label{font-size:.88rem;display:flex;gap:.35rem;align-items:center}.stage-scroll{overflow-x:auto}.stage{display:block;width:100%;min-width:560px;color:#183632}.floor{fill:#f7f5ef}.contacts line{stroke:#c38a42;stroke-linecap:round}.dancer line{stroke:#adb8b4;stroke-width:3}.foot circle,.foot-shape{fill:currentColor}.foot-shape{stroke:#fff;stroke-width:1.5}.toe-direction{fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.foot text,.body text{fill:white;text-anchor:middle;font:700 12px system-ui}.body ellipse,.body path{fill:currentColor}.dancer-a{color:var(--a)}.dancer-b{color:var(--b)}.centres circle,.centres path{fill:#fff;stroke:#172321;stroke-width:2}.centres .shared circle:first-child{fill:none;stroke:#c38a42;stroke-width:3}.centres .shared circle:last-child{fill:#c38a42;stroke:none}.stage-note{min-height:3.1rem;margin:0;padding:.8rem 1.25rem;background:#f5f4ef;border-top:1px solid #e3e7e4;font-size:.88rem;color:#4f5d58}.timeline{display:grid;grid-template-columns:auto 1fr auto;gap:1rem;align-items:center;padding:.9rem 1.25rem .25rem}.play{border:0;background:#1d3532;color:#fff;padding:.55rem .8rem;border-radius:8px;cursor:pointer}.timeline input{accent-color:#c75032;width:100%}.phase-track{display:grid;grid-template-columns:repeat(4,1fr);font-size:.72rem;color:#77827e;padding:0 1.25rem 1rem;margin-left:92px}.phase-track span:nth-child(n+2){text-align:right}.views{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.35fr);gap:1rem;margin-top:1rem}.balance-card,.agency-card{padding:1.25rem}.views h4{font-size:1.25rem;margin:.15rem 0 1rem}.load-row{display:grid;grid-template-columns:130px 1fr;gap:.75rem;align-items:center;margin:.9rem 0}.load-row small,.choice-head small{display:block;color:#65716d}.load-bars{display:flex;height:34px;border-radius:7px;overflow:hidden;background:#eef1ef}.load-bars span{display:flex;align-items:center;justify-content:center;min-width:44px;color:#fff;font-size:.73rem;white-space:nowrap;transition:width .15s}.load-bars .left{background:#a76855}.load-bars .right{background:#397d80}.note,footer{font-size:.8rem;color:#697570}.choice-grid{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}.choice-grid article{border:1px solid #e1e5e2;background:#fafbf9;border-radius:12px;padding:1rem}.choice-head{border-left:4px solid var(--a);padding-left:.65rem}.choice-grid article:nth-child(2) .choice-head{border-color:var(--b)}.choice-grid ul{margin:.8rem 0 0;padding-left:1.15rem}.choice-grid li{margin:.35rem 0}.next-options{border-top:1px solid #e1e5e2;margin-top:1rem;padding-top:1rem;display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}.next-options button{padding:.45rem .7rem}footer{padding:1rem .25rem 0}
 @media(max-width:760px){.tango-explorer{margin:3rem calc(50% - 50vw + 16px);width:calc(100vw - 32px)}.views{grid-template-columns:1fr}.stage-toolbar{gap:.65rem}.stage-toolbar span{width:100%;order:3}.choice-grid{grid-template-columns:1fr}.load-row{grid-template-columns:1fr}.timeline{gap:.55rem;padding-inline:.75rem}.play span{display:none}.phase-track{margin-left:36px;padding-inline:.75rem}.model-header{padding-inline:.15rem}}
+.movement-grammar{display:flex;align-items:center;gap:1rem;padding:.75rem 1.25rem;background:#fbfaf6;border-bottom:1px solid #e3e7e4}.system-label{flex:none;border:1px solid #d8d8cf;border-radius:999px;padding:.3rem .65rem;font-size:.75rem;color:#5f6965}.movement-grammar ol{display:flex;align-items:center;gap:.4rem;list-style:none;padding:0;margin:0;overflow-x:auto}.movement-grammar li{font-size:.76rem;white-space:nowrap;color:#53605c}.movement-grammar li:not(:last-child)::after{content:'→';padding-left:.4rem;color:#b17754}
+.embrace-picker{border:0;padding:0;margin:0 0 1.25rem;display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}.embrace-picker legend{font-weight:750;margin-bottom:.55rem}.embrace-picker label{border:1px solid #d2d8d5;background:#fff;border-radius:999px;padding:.5rem .8rem;cursor:pointer}.embrace-picker label.active{background:#ecf2ef;border-color:#315f58;box-shadow:inset 0 0 0 1px #315f58}.embrace-picker input{accent-color:#315f58}.embrace-picker small{width:100%;max-width:760px;color:#697570}.body .shoulders{fill:#c49a50;fill-opacity:.72;stroke:#fff;stroke-width:1.5}.body .head{fill:#243b38;fill-opacity:.38;stroke:#fff;stroke-width:1}.body .gaze{fill:none;stroke:#fff;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}.support-ring{fill:none!important;stroke:#142e2a;stroke-width:4;opacity:.9}.initiative{pointer-events:none}.initiative circle{fill:none;stroke:#d18b3b;stroke-width:3;stroke-dasharray:5 6;animation:pulse-ring 1.1s ease-in-out infinite}.initiative text{fill:#87551e;text-anchor:middle;font:700 12px system-ui}.model-status{max-width:780px;margin:1.4rem 0 0;border-top:1px solid #dce2de;padding-top:1rem;color:#56635f}.model-status summary{cursor:pointer;font-weight:750;color:#263c38}.model-status p,.model-status li{font-size:.85rem;line-height:1.55}.model-status a{color:#9f482f}.model-status li+li{margin-top:.6rem}@keyframes pulse-ring{50%{transform:scale(1.08);opacity:.45}}
+@media(max-width:760px){.movement-grammar{align-items:flex-start;flex-direction:column;gap:.55rem}.movement-grammar ol{width:100%}}
 </style>

@@ -14,9 +14,10 @@ keyPoints:
   - Equality does not require both dancers to do the same thing at every moment.
 modelComponent: tango-movement
 modelLimitations:
-  - The simulation is a schematic state model, not dance instruction.
-  - Balance, contact and body geometry are greatly simplified.
-  - Actual communication includes subtle tension, timing and perception that the model cannot fully represent.
+  - The simulation distinguishes supporting leg, free foot, projection, placement, weight transfer and pivot.
+  - Foot and shoulder orientation, contact, centre of mass and open, half-open or closed embrace are shown separately.
+  - Initiative and response have a small time offset, making the proposal visible before the answer.
+  - The movements remain schematic, testable variants and are not dance instruction.
 draft: false
 ---
 

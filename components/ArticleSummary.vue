@@ -33,7 +33,7 @@ const openFull = () => {
     </div>
 
     <section v-if="article.modelLimitations?.length" class="limits wrap">
-      <h3>{{article.modelComponent ? (nl?'Wat dit model niet bewijst':'What this model does not establish') : (nl?'Reikwijdte en beperkingen':'Scope and qualifications')}}</h3>
+      <h3>{{article.modelComponent==='tango-movement' ? (nl?'Model in ontwikkeling':'Model in progress') : article.modelComponent ? (nl?'Reikwijdte van het model':'Scope of the model') : (nl?'Reikwijdte en beperkingen':'Scope and qualifications')}}</h3>
       <ul><li v-for="item in article.modelLimitations" :key="item">{{item}}</li></ul>
     </section>
     <div class="continue wrap">
