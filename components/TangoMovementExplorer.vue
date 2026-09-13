@@ -8,7 +8,7 @@ const progress = ref(0)
 const playing = ref(false)
 const showContacts = ref(true)
 const showCentres = ref(true)
-const embrace = ref<Embrace>('half-open')
+const embrace = ref<Embrace>('open')
 let timer: ReturnType<typeof setInterval> | undefined
 
 const movement = computed(() => tangoMovements.find(item => item.id === movementId.value)!)

@@ -31,13 +31,13 @@ export const tangoMovements:Movement[]=[
   k(.74,'projection','Beide stapvoeten zijn geplaatst, maar de oorspronkelijke standbenen dragen nog.','Both stepping feet are placed, but the original supporting legs still carry the weight.',d(330,202,0,f(310,160,0,.08),f(310,268,0,.92)),d(470,202,180,f(490,268,180,.92),f(490,160,180,.08))),
   k(.9,'transfer','Pas nu brengen beide dansers bovenlijf en gewicht volledig naar de nieuwe standvoet.','Only now do both dancers bring upper body and weight fully onto the new supporting foot.',d(330,178,0,f(310,160,0,.82),f(310,220,0,.18)),d(470,178,180,f(490,220,180,.18),f(490,160,180,.82))),
   k(1,'arrival','A staat links en B rechts. Als laatste sluiten de vrije benen aan, met voeten en knieën bij elkaar.','A arrives on the left and B on the right. Finally, the free legs close, with feet and knees together.',d(330,170,0,f(310,160,0,1),f(310,176,0,0)),d(470,170,180,f(490,176,180,0),f(490,160,180,1)))]},
- {id:'forward-step',nameNl:'Voorwaartse stap',nameEn:'Forward step',initiator:'a',systemNl:'parallel systeem',systemEn:'parallel system',sequenceNl:['A beweegt vanuit de as','B projecteert achterwaarts','A projecteert voorwaarts','gewicht volgt'],sequenceEn:['A moves from the axis','B projects backwards','A projects forwards','weight follows'],next:['side-step','cruce','backward-ocho'],keyframes:[
+ {id:'forward-step',nameNl:'Voorwaartse stap',nameEn:'Forward step',initiator:'a',systemNl:'parallel systeem',systemEn:'parallel system',sequenceNl:['A beweegt vanuit de as','B projecteert achterwaarts','A projecteert voorwaarts','gewicht volgt','vrije benen sluiten aan'],sequenceEn:['A moves from the axis','B projects backwards','A projects forwards','weight follows','free legs collect'],next:['side-step','cruce','backward-ocho'],keyframes:[
   k(0,'available','A draagt links en kan rechts vooruit; B draagt rechts en kan links achteruit.','A is supported on the left and can step forward with the right; B is supported on the right and can step back with the left.',walkA,walkB),
   k(.18,'proposal','A brengt eerst het lichaamscentrum naar voren, zonder de stapvoet te verplaatsen.','A first brings the body centre forward without moving the stepping foot.',d(344,250,0,f(310,232,0,1),f(310,268,0,0)),d(482,250,180,f(510,268,180,0),f(490,232,180,1))),
   k(.4,'projection','B projecteert links achterwaarts; de tenen blijven in de lichaamsrichting wijzen.','B projects the left foot backwards; the toes remain aligned with the body.',d(350,250,0,f(310,232,0,1),f(310,268,0,0)),d(492,250,180,f(548,268,180,0),f(490,232,180,1))),
   k(.62,'projection','Pas daarna projecteert A rechts voorwaarts. Beide standbenen dragen nog.','Only then does A project the right foot forwards. Both support legs still carry weight.',d(364,250,0,f(310,232,0,1),f(405,268,0,0)),d(506,250,180,f(558,268,180,0),f(490,232,180,1))),
   k(.82,'transfer','Na plaatsing dragen beiden over, afgestemd op B’s werkelijke aankomst.','After placement, both transfer, coordinated with B’s actual arrival.',d(396,250,0,f(330,232,0,.28),f(407,268,0,.72)),d(538,250,180,f(558,268,180,.72),f(500,232,180,.28))),
-  k(1,'arrival','Beiden komen aan op de stapvoet en behouden hun frontale relatie.','Both arrive on the stepping foot while retaining their frontal relationship.',d(420,250,0,f(397,232,0,0),f(407,268,0,1)),d(560,250,180,f(548,268,180,1),f(580,232,180,0)))]},
+  k(1,'arrival','Beiden komen aan op de stapvoet en sluiten daarna het vrije been aan. Vanuit deze basishouding is een nieuwe projectie mogelijk, maar nog niet ingezet.','Both arrive on the stepping foot and then collect the free leg. A new projection is available from this neutral position but has not yet begun.',d(420,250,0,f(407,252,0,0),f(407,268,0,1)),d(560,250,180,f(548,268,180,1),f(548,252,180,0)))]},
  {id:'cruce',nameNl:'Cruce',nameEn:'Cross',initiator:'a',systemNl:'gekruist systeem → kruising',systemEn:'crossed system → cross',sequenceNl:['gekruist systeem','achterwaartse projectie','baan versmalt','links kruist voor rechts'],sequenceEn:['crossed system','backward projection','path narrows','left crosses in front of right'],next:['forward-ocho','side-step','forward-step'],keyframes:[
   k(0,'available','Beiden dragen rechts: in het gekruiste systeem zijn de gelijknamige voeten vrij.','Both are supported on the right: in crossed system the same-named feet are free.',d(330,250,0,f(310,232,0,0),f(310,268,0,1)),d(470,250,180,f(490,268,180,0),f(490,232,180,1))),
   k(.2,'proposal','A beweegt vooruit en iets buitenom; voor B ontstaat een smallere achterwaartse baan.','A moves forwards and slightly outside, creating a narrower backward path for B.',d(345,238,-5,f(310,232,0,0),f(310,268,0,1)),d(484,246,178,f(500,265,180,0),f(490,232,180,1))),
@@ -105,8 +105,13 @@ export function withEmbrace(frame:TangoFrame,embrace:Embrace,movementId:Movement
   const distanceFactor={open:1.18,'half-open':.76,closed:.58}[embrace]
   const shoulderFollow={open:.24,'half-open':.68,closed:.94}[embrace]
   const adapt=(x:DancerState,other:DancerState,id:DancerId)=>{
-    const target={x:midpoint.x+(x.torso.x-midpoint.x)*distanceFactor,y:midpoint.y+(x.torso.y-midpoint.y)*distanceFactor}
-    const facing=direction(target,other.torso)
+    const baseTarget={x:midpoint.x+(x.torso.x-midpoint.x)*distanceFactor,y:midpoint.y+(x.torso.y-midpoint.y)*distanceFactor}
+    const facing=direction(baseTarget,other.torso)
+    // In half-open embrace both dancers shift slightly towards their own left.
+    // This brings their right torso sides together while preserving space left.
+    const lateral=embrace==='half-open'?20:0
+    const radians=facing*Math.PI/180
+    const target={x:baseTarget.x+Math.sin(radians)*lateral,y:baseTarget.y-Math.cos(radians)*lateral}
     const ochoExtra=(movementId==='forward-ocho'||movementId==='backward-ocho')&&embrace==='open'?.08:0
     // In a half-open embrace both chests turn slightly in the same stage
     // direction: their right side meets while the left side remains open.
@@ -123,7 +128,7 @@ export function withEmbrace(frame:TangoFrame,embrace:Embrace,movementId:Movement
   },{
     type:'arm',a:bodyPoint(a,-2,34),b:bodyPoint(b,-12,-34),active:.95
   },{
-    type:'torso',a:bodyPoint(a,38,20),b:bodyPoint(b,38,-20),active:.72
+    type:'torso',a:bodyPoint(a,38,20),b:bodyPoint(b,38,20),active:.72
   }]:[{
     type:'hand',a:bodyPoint(a,8,-40),b:bodyPoint(b,8,40),active:1
   },{
