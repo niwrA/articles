@@ -17,8 +17,5 @@ useSeoMeta({ title: 'Artikelen en modellen', description: 'Onderbouwde essays ov
       <ArticleList :articles="articles || []" />
     </section>
 
-    <section class="demo-band">
-      <div class="wrap"><HousingSpaceModel /></div>
-    </section>
   </div>
 </template>
