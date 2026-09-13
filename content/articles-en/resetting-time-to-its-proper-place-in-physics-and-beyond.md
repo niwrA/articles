@@ -45,6 +45,11 @@ Where physically possible, we eventually bring them together again and compare t
 
 We should be careful here with the phrase “amount of change.” There is no obvious universal scalar called *change*. A system can move enormous distances while changing little chemically, or undergo trillions of electromagnetic oscillations without much macroscopic displacement. What we can do is select corresponding reproducible processes in the two boxes and compare their histories. The remarkable discovery underlying relativity is that these comparisons exhibit a universal structure, and relativity captures that structure mathematically.
 
+The explorer below performs that comparison. Velocity and position in the gravitational field remain separate variables, while the clocks are compared directly only upon reunion. This keeps the physical history underlying the proper-time difference visible.
+
+::ProperTimeExplorer{locale="en"}
+::
+
 ### Putting proper time back into the experiment
 
 Within relativity, *proper time* has a precise definition. A physical system follows what the theory calls a worldline through spacetime, and the spacetime metric assigns an invariant quantity along that trajectory. The potential confusion begins when we reverse the explanatory direction.

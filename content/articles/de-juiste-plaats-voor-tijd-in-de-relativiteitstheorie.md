@@ -33,7 +33,12 @@ Het kan blijken dat de klokken niet meer gelijk staan. Andere regelmatige proces
 
 Maar kijk eerst eens naar wat we werkelijk hebben gedaan. Twee fysieke systemen begonnen in vergelijkbare toestanden, volgden verschillende fysieke geschiedenissen en kwamen later terug in verschillende toestanden. Dat is het verschijnsel. De tijdstaal is onze manier om die relatie compact te beschrijven.
 
-### Wat bedoelen natuurkundigen met “eigentijd”?
+Met de verkenner hieronder kun je precies die vergelijking uitvoeren. Snelheid en positie in het zwaartekrachtsveld blijven afzonderlijke variabelen, terwijl de twee klokken pas bij hereniging rechtstreeks worden vergeleken. Zo blijft zichtbaar welke fysieke geschiedenis achter het verschil in eigentijd ligt.
+
+::ProperTimeExplorer{locale="nl"}
+::
+
+### Wat bedoelen natuurkundigen met “eigentijd”? 
 
 In de relativiteitstheorie bestaat een precieze term voor de tijd die bij één bepaalde route hoort: *proper time*, meestal in het Nederlands vertaald als *eigentijd*. Je kunt eigentijd ongeveer zien als de lokale schaal langs de geschiedenis van één fysieke doos. De route van zo'n doos door de ruimtetijd noemen natuurkundigen een wereldlijn, en de relativiteitstheorie kan aan die wereldlijn een bepaalde eigentijd toekennen.
 

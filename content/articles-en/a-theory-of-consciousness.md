@@ -225,6 +225,11 @@ Together, these loops provide a plausible functional account of several properti
 
 The curious mixture of causal influence and introspective ignorance follows from the same architecture. Conscious processing can use the outputs of specialised systems without possessing access to the computations that generated them.
 
+The explorer below turns this verbal working model into an explicit, testable hypothesis. You can make a task more or less novel, conflicting, relevant or automatic and inspect what the model predicts for arbitration, conscious access and reportability. The numbers are not an empirically established measure of consciousness: making the assumptions visible is precisely what allows later evidence to refine or falsify the weights and thresholds.
+
+::ConsciousnessHypothesisExplorer{locale="en"}
+::
+
 ### How this relates to existing theories
 
 None of the constituent mechanisms is new. Global Workspace and Global Neuronal Workspace theories emphasise broad availability of conscious information to specialised processors.[1,21] Higher-order theories emphasise representations of mental states. Recurrent-processing theories emphasise recurrent neural interactions. Predictive approaches describe perception and action in terms of inference. Attention Schema Theory proposes that the brain constructs simplified models of attention that contribute to awareness and control.[22]

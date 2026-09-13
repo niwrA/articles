@@ -225,6 +225,11 @@ Samen bieden deze lussen een aannemelijke functionele verklaring voor verschille
 
 De merkwaardige combinatie van causale invloed en introspectieve onwetendheid volgt uit dezelfde architectuur. Bewuste verwerking kan de uitkomsten van gespecialiseerde systemen gebruiken zonder toegang te hebben tot de berekeningen die ze hebben voortgebracht.
 
+De onderstaande verkenner maakt van dit verbale werkmodel een expliciete, toetsbare hypothese. Je kunt een taak meer of minder nieuw, conflicterend, relevant of geautomatiseerd maken en vervolgens zien wat het model voorspelt voor arbitrage, bewuste toegang en rapporteerbaarheid. De getallen zijn geen empirisch vastgestelde bewustzijnsmaat: juist doordat de aannames zichtbaar zijn, kan later onderzoek de gewichten en drempels aanscherpen of weerleggen.
+
+::ConsciousnessHypothesisExplorer{locale="nl"}
+::
+
 ### Verhouding tot bestaande theorieën
 
 Geen van de samenstellende mechanismen is nieuw. Global Workspace- en Global Neuronal Workspace-theorieën benadrukken de brede beschikbaarheid van bewuste informatie voor gespecialiseerde verwerkers.[1,21] Hogere-ordetheorieën benadrukken representaties van mentale toestanden. Theorieën over recurrente verwerking benadrukken terugkerende neurale interacties. Voorspellende benaderingen beschrijven waarneming en handeling in termen van gevolgtrekking. Attention Schema Theory stelt dat het brein vereenvoudigde modellen van aandacht construeert die bijdragen aan bewustzijn en controle.[22]
