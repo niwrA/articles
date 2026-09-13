@@ -3,7 +3,7 @@ import { centreOfMass, frameAt, sharedCentre, tangoMovements, withEmbrace, type 
 
 const props = withDefaults(defineProps<{ locale?: 'nl' | 'en' }>(), { locale: 'nl' })
 const nl = computed(() => props.locale === 'nl')
-const movementId = ref<MovementId>('side-step')
+const movementId = ref<MovementId>('giro')
 const progress = ref(0)
 const playing = ref(false)
 const showContacts = ref(true)
@@ -12,6 +12,12 @@ const embrace = ref<Embrace>('half-open')
 let timer: ReturnType<typeof setInterval> | undefined
 
 const movement = computed(() => tangoMovements.find(item => item.id === movementId.value)!)
+const checkpoints = computed(() => movement.value.checkpoints ?? [])
+const checkpointIndex = computed(() => {
+  const p = progress.value / 100
+  return checkpoints.value.reduce((active, checkpoint, index) => checkpoint.at <= p + .001 ? index : active, 0)
+})
+const checkpoint = computed(() => checkpoints.value[checkpointIndex.value])
 const rawFrame = computed(() => frameAt(movement.value, progress.value / 100))
 const frame = computed(() => withEmbrace(rawFrame.value, embrace.value, movementId.value))
 const centreA = computed(() => centreOfMass(frame.value.a))
@@ -37,6 +43,13 @@ const phaseName = computed(() => ({
 const setMovement = (id: MovementId) => {
   movementId.value = id
   progress.value = 0
+  playing.value = false
+}
+
+const goToCheckpoint = (index: number) => {
+  const target = checkpoints.value[index]
+  if (!target) return
+  progress.value = Math.round(target.at * 100)
   playing.value = false
 }
 
@@ -166,6 +179,25 @@ const roleFor = (id: DancerId) => movement.value.initiator === id
         <output>{{ progress }}%</output>
       </div>
       <div class="phase-track" aria-hidden="true"><span>{{ nl ? 'begin' : 'start' }}</span><span>{{ nl ? 'projectie' : 'projection' }}</span><span>{{ nl ? 'overdracht' : 'transfer' }}</span><span>{{ nl ? 'vervolg' : 'continuation' }}</span></div>
+      <section v-if="checkpoint" class="sequence-explorer">
+        <div class="sequence-heading">
+          <div><p class="eyebrow">{{ nl ? 'GIRO ALS SEQUENTIE' : 'GIRO AS A SEQUENCE' }}</p><strong>{{ nl ? 'Stabiele toestanden na volledige gewichtsoverdracht' : 'Stable states after completed weight transfer' }}</strong></div>
+          <div class="sequence-arrows">
+            <button :disabled="checkpointIndex === 0" @click="goToCheckpoint(checkpointIndex - 1)" :aria-label="nl ? 'Vorige toestand' : 'Previous state'">←</button>
+            <span>{{ checkpointIndex + 1 }} / {{ checkpoints.length }}</span>
+            <button :disabled="checkpointIndex === checkpoints.length - 1" @click="goToCheckpoint(checkpointIndex + 1)" :aria-label="nl ? 'Volgende toestand' : 'Next state'">→</button>
+          </div>
+        </div>
+        <div class="checkpoint-tabs" role="group" :aria-label="nl ? 'Kies stabiele toestand' : 'Choose stable state'">
+          <button v-for="(item,index) in checkpoints" :key="item.at" :class="{active:index===checkpointIndex}" @click="goToCheckpoint(index)"><span>{{ index + 1 }}</span>{{ nl ? item.nameNl : item.nameEn }}</button>
+        </div>
+        <div class="checkpoint-detail">
+          <div class="checkpoint-state"><small>{{ nl ? 'HUIDIGE TOESTAND' : 'CURRENT STATE' }}</small><strong>{{ nl ? checkpoint.nameNl : checkpoint.nameEn }}</strong><p>{{ nl ? checkpoint.supportNl : checkpoint.supportEn }}</p></div>
+          <div><small>{{ nl ? 'NU BESCHIKBARE TECHNIEKEN' : 'TECHNIQUES AVAILABLE NOW' }}</small><ul><li v-for="item in (nl ? checkpoint.techniquesNl : checkpoint.techniquesEn)" :key="item">{{ item }}</li></ul></div>
+          <div><small>{{ nl ? 'MOGELIJKE ROUTES' : 'POSSIBLE ROUTES' }}</small><ul><li v-for="item in (nl ? checkpoint.routesNl : checkpoint.routesEn)" :key="item">{{ item }}</li></ul></div>
+        </div>
+        <p class="sequence-note">{{ nl ? 'De routes zijn mogelijkheden, geen voorgeschreven vervolg. Iedere stap kan zelfstandig eindigen of het begin van een andere beweging worden.' : 'These routes are possibilities, not prescribed continuations. Every step can end independently or become the start of another movement.' }}</p>
+      </section>
     </div>
 
     <div class="views">
@@ -218,4 +250,5 @@ const roleFor = (id: DancerId) => movement.value.initiator === id
 .initiator-key{border:1px solid #d18b3b;border-radius:999px;padding:.25rem .55rem;color:#87551e;font-size:.72rem;white-space:nowrap}
 .embrace-picker{border:0;padding:0;margin:0 0 1.25rem;display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}.embrace-picker legend{font-weight:750;margin-bottom:.55rem}.embrace-picker label{border:1px solid #d2d8d5;background:#fff;border-radius:999px;padding:.5rem .8rem;cursor:pointer}.embrace-picker label.active{background:#ecf2ef;border-color:#315f58;box-shadow:inset 0 0 0 1px #315f58}.embrace-picker input{accent-color:#315f58}.embrace-picker small{width:100%;max-width:760px;color:#697570}.body .shoulders{fill:#c49a50;fill-opacity:.72;stroke:#fff;stroke-width:1.5}.body .head{fill:#243b38;fill-opacity:.38;stroke:#fff;stroke-width:1}.body .gaze{fill:none;stroke:#fff;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}.support-ring{fill:none!important;stroke:#142e2a;stroke-width:4;opacity:.9}.initiative{pointer-events:none}.initiative circle{fill:none;stroke:#d18b3b;stroke-width:3;stroke-dasharray:5 6;animation:pulse-ring 1.1s ease-in-out infinite}.initiative text{fill:#87551e;text-anchor:middle;font:700 12px system-ui}.model-status{max-width:780px;margin:1.4rem 0 0;border-top:1px solid #dce2de;padding-top:1rem;color:#56635f}.model-status summary{cursor:pointer;font-weight:750;color:#263c38}.model-status p,.model-status li{font-size:.85rem;line-height:1.55}.model-status a{color:#9f482f}.model-status li+li{margin-top:.6rem}@keyframes pulse-ring{50%{transform:scale(1.08);opacity:.45}}
 @media(max-width:760px){.movement-grammar{align-items:flex-start;flex-direction:column;gap:.55rem}.movement-grammar ol{width:100%}}
+.sequence-explorer{border-top:1px solid #e3e7e4;padding:1.15rem 1.25rem 1.3rem;background:#fbfaf6}.sequence-heading{display:flex;justify-content:space-between;align-items:center;gap:1rem}.sequence-heading .eyebrow{margin-bottom:.2rem}.sequence-arrows{display:flex;align-items:center;gap:.55rem;white-space:nowrap}.sequence-arrows button{width:34px;height:34px;border:1px solid #ccd5d1;border-radius:50%;background:#fff;cursor:pointer}.sequence-arrows button:disabled{opacity:.35;cursor:default}.checkpoint-tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:.45rem;margin:1rem 0}.checkpoint-tabs button{min-width:0;border:1px solid #d9dfdc;border-radius:10px;background:#fff;color:#4f5d58;padding:.65rem;text-align:left;font-size:.74rem;cursor:pointer}.checkpoint-tabs button span{display:block;width:1.45rem;height:1.45rem;margin-bottom:.35rem;border-radius:50%;background:#edf1ef;text-align:center;line-height:1.45rem;font-weight:800}.checkpoint-tabs button.active{border-color:#315f58;background:#edf3f0;color:#183632;box-shadow:inset 0 0 0 1px #315f58}.checkpoint-tabs button.active span{background:#315f58;color:#fff}.checkpoint-detail{display:grid;grid-template-columns:.9fr 1.2fr 1.2fr;gap:.75rem}.checkpoint-detail>div{border:1px solid #e0e4e1;border-radius:12px;background:#fff;padding:.9rem}.checkpoint-detail small{display:block;color:#8a5c3c;font-size:.67rem;letter-spacing:.07em;font-weight:800}.checkpoint-state strong{display:block;margin:.3rem 0}.checkpoint-detail p,.checkpoint-detail ul{font-size:.82rem;margin:.45rem 0 0}.checkpoint-detail ul{padding-left:1.1rem}.checkpoint-detail li+li{margin-top:.25rem}.sequence-note{font-size:.78rem;color:#697570;margin:.75rem 0 0}@media(max-width:760px){.checkpoint-tabs{display:flex;overflow-x:auto}.checkpoint-tabs button{flex:0 0 145px}.checkpoint-detail{grid-template-columns:1fr}.sequence-heading{align-items:flex-end}}
 </style>
