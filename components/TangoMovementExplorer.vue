@@ -103,7 +103,7 @@ const roleFor = (id: DancerId) => movement.value.initiator === id
         <input v-model="embrace" type="radio" :value="option">
         {{ option==='open'?(nl?'Open':'Open'):option==='half-open'?(nl?'Halfopen':'Half-open'):(nl?'Gesloten':'Closed') }}
       </label>
-      <small>{{ nl ? 'De keuze verandert afstand, contact en de verhouding tussen schouder- en voetoriëntatie. Bij ochos is de beschikbare dissociatie daardoor direct zichtbaar.' : 'The choice changes distance, contact and the relation between shoulder and foot orientation. In ochos this makes the available dissociation directly visible.' }}</small>
+      <small>{{ nl ? 'Open: bovenlijven vrij, met de zijwaartse handverbinding en het contact aan de rechterzijde. Halfopen: rechts bovenlijfcontact, links ruimte en de handen verder om de rug. Gesloten: beide bovenlijven maken contact ter hoogte van borstkas en diafragma.' : 'Open: upper bodies apart, with the lateral hand connection and contact on the right side. Half-open: upper-body contact on the right, space on the left and hands farther around the back. Closed: both upper bodies connect around the chest and diaphragm.' }}</small>
     </fieldset>
 
     <div class="stage-card">

@@ -25,51 +25,35 @@ Videovoorbeeld: [**Valseando with a sense of freedom**](https://youtube.com/shor
 
 We spreken in de tango vaak over leiders en volgers. Maar bijvoorbeeld tijdens een giro kan iets gebeuren dat moeilijk past in de eenvoudige beschrijving dat de ene danser leidt en de andere volgt. In het filmpje hierboven hebben de dansers elkaar op een gegeven moment losgelaten, één van beiden begint om de ander heen te lopen. De ander reageert zelfstandig, afwisselend toedraaiend en afkerend. De een danst korte accenten van de ritmesectie, terwijl de ander de langere bewegingen van bijvoorbeeld een vioollijn volgt. Ze dansen samen, maar zeggen niet precies hetzelfde. Toch beelden ze de muziek gezamenlijk uit, misschien zelfs vollediger dan wanneer ze hetzelfde zouden doen.
 
-Een groot deel van de aantrekkingskracht van Argentijnse tango, en van samen dansen in het algemeen, zit in die vrijheid, in het lichamelijke gesprek. Twee mensen kunnen zonder choreografie, en soms zonder elkaar ooit eerder ontmoet te hebben, samen een complexe dans maken. Ze weten niet welke beweging over vijf seconden zal komen. Vaak weten ze dat één seconde van tevoren nog niet. Toch kunnen ze lopen, draaien, versnellen, vertragen en stilstaan zonder dat de dans uit elkaar valt.
-
 Als we elkaar vasthouden in een *abrazo*, zoals de omhelzing in de Argentijnse tango heet, noemen we de twee traditionele rollen vaak *leider* en *volger*. Dat is begrijpelijk en praktisch. Als we op een traditionele milonga in een ronda, een kring, dansen, is er iemand die primair verantwoordelijk is om de dansrichting aan te houden, de ruimte voor zich in de gaten te houden en nieuwe bewegingen in te zetten. Maar die woorden verleiden ook tot een rolverdeling waarin uiteindelijk al het initiatief bij de leider komt te liggen en de volger vooral nog mag... volgen.
 
-Net als bij sommige andere maatschappelijke patronen is dat iets waar je, als je er eenmaal heel erg aan gewend bent, moeilijk weer van loskomt. Dat merk je zelfs binnen de kaders van de tango zoals die nu al gedanst wordt. We moeten vaak opnieuw leren dat degene die een beweging inzet niet alles bepaalt wat daarna gebeurt. De ander kan, mag en op sommige momenten móét zelf keuzes maken in timing en beweging. De leider moet niet alleen rekening houden met de fysieke ruimte die de volger nodig heeft om überhaupt te bewegen, maar ook met de snelheid waarmee dat gebeurt, met vertraging, versieringen en het soms bewust iets langer laten doorlopen van een beweging. Goede tango is daarom nooit een lichamelijke versie van *Simon Says*, waarbij het ene lichaam opdrachten geeft en het andere zo nauwkeurig mogelijk gehoorzaamt.
+Degene die een beweging inzet bepaalt niet alles wat daarna gebeurt. De ander maakt eigen keuzes in timing, stapgrootte en versiering; de eerste danser moet die keuzes voelen en ruimte geven. Goede tango is geen lichamelijke versie van *Simon Says*.
 
 Toch blijft er in de traditionele tango een echte asymmetrie bestaan. Het is meestal dezelfde persoon van wie verwacht wordt dat die telkens de nieuwe richting voorstelt. De ander heeft binnen wat daaruit ontstaat relatief veel vrijheid, zeker vergeleken met veel andere parendansen, maar opent zelden zelf een nieuwe tak van de dans.
 
 Zouden we juist dat kunnen veranderen? Zou de taal die tango in ruim een eeuw heeft ontwikkeld — lopen, gewicht waarnemen, draaien, ruimte openen, elkaar via de torso voelen, luisteren naar muziek en voortdurend improviseren — niet ook een van de rijkste vertrekpunten kunnen zijn voor **vrij samen dansen**?
 
-Daarvoor moeten we eerst iets beter begrijpen waaruit leiden en volgen eigenlijk bestaan, welke verschillen tussen de dansers werkelijk nodig of handig zijn, en hoe initiatief van de ene naar de andere danser kan gaan zonder dat de helderheid van tango verloren raakt. En liefst zonder dat we steeds de hele rol moeten omdraaien, inclusief wie welke kant van de abrazo inneemt.
-
 ### Een dans die niemand ontwierp
 
-Laten we daarvoor eerst naar de geschiedenis kijken. Tango werd niet door iemand bedacht. De dans groeide aan het einde van de negentiende eeuw in Buenos Aires en Montevideo, in een stedelijke wereld waarin Europese immigranten, criollo-culturen en Afro-Rioplatensische gemeenschappen elkaar ontmoetten. Muziek en beweging uit verschillende tradities raakten met elkaar vermengd en veranderden onderweg.
-
-Er gaat een bekend verhaal rond dat mannen tango vooral met andere mannen leerden omdat er in Buenos Aires veel meer mannen dan vrouwen waren. Dat is zeker niet uit de lucht gegrepen. Er waren inderdaad grote groepen mannelijke immigranten en er zijn foto's en beschrijvingen van mannen die samen tango dansten. Maar bewijs dat tango als mannendans is ontstaan, of dat mannen alleen met elkaar oefenden om later met vrouwen te kunnen dansen, is er niet in die eenvoudige vorm.
+Tango groeide aan het einde van de negentiende eeuw in Buenos Aires en Montevideo, waar Europese immigranten, criollo-culturen en Afro-Rioplatensische gemeenschappen elkaar ontmoetten. Er waren grote groepen mannelijke immigranten en er zijn foto's en beschrijvingen van mannen die samen tango dansten. Het bekende verhaal dat tango daarom als mannendans ontstond, of dat mannen alleen samen oefenden om later met vrouwen te dansen, is echter onvoldoende onderbouwd.
 
 Voor ons is vooral iets anders interessant: mannen hébben met mannen gedanst. Daarmee is meteen duidelijk dat de twee technische rollen nooit afhankelijk kunnen zijn geweest van een mannelijk en een vrouwelijk lichaam. De latere koppeling *man leidt, vrouw volgt* is een sociale traditie, geen natuurwet van de beweging.
 
-Ook de bewegingstaal zelf veranderde voortdurend. In vroege beschrijvingen vinden we bewegingen die we nog steeds kennen, naast allerlei dingen die later verdwenen. De dans was geen systeem dat eerst werd ontworpen en daarna correct moest worden uitgevoerd. Dansers vonden oplossingen, namen ze van elkaar over, veranderden ze en lieten andere weer verdwijnen.
-
-In de kern van de tango, en in wat de dans voor veel dansers — inclusief ondergetekende — aantrekkelijk maakt, zit de manier waarop je samen kunt improviseren. En dat kan mede dankzij de relatief duidelijke lichaamstaal die de tango daarvoor heeft ontwikkeld.
+Ook de bewegingstaal veranderde voortdurend. Dansers vonden oplossingen, namen ze van elkaar over en pasten ze aan. Die geschiedenis past bij wat tango voor mij aantrekkelijk maakt: samen improviseren met een relatief duidelijke lichaamstaal.
 
 ### Niet weten wat er komt
 
-Argentijnse tango heeft daarvoor een merkwaardige eigenschap: er hoeft bijna niets vast te liggen over de volgende stap. Beginners leren vaak een *salida básica*, maar dat is geen cyclus waarnaar de dans steeds moet terugkeren. De term die inmiddels misschien nog beter beschrijft waar de basis ligt, *el caminar*, het lopen, zegt eigenlijk meer.
-
-Twee dansers kunnen een heel tangonummer uitdrukken met weinig meer dan samen lopen. Wel graag met iets meer aandacht en panache dan wanneer we naar de supermarkt sloffen, maar juist binnen dat eenvoudige lopen schuilt al een enorm scala aan mogelijkheden. Als improviserend muzikant was dat een van de dingen waar mijn hart meteen sneller van ging kloppen.
-
-Naast lopen is tango natuurlijk nog veel meer. Na een stap kan nog een stap komen, maar ook een ocho, een giro, een parada, een kruising of iets heel anders. Zelfs wanneer de volgende stap of beweging komt, ligt niet vast. Je kunt op iedere tel stappen, dubbele tijd gebruiken, vertragen, een melodie volgen of blijven staan terwijl het orkest verder speelt. Je kunt zelfs een stap inzetten en niet afmaken, zoals bij een *amague*.
+In Argentijnse tango hoeft bijna niets vast te liggen over de volgende stap. Beginners leren vaak een *salida básica*, maar de dans hoeft niet naar die cyclus terug te keren. *El caminar*, het lopen, beschrijft de basis beter: twee dansers kunnen daarmee een heel nummer uitdrukken. Daarna kan een stap, ocho, giro, parada, kruising, stilstand of zelfs een onafgemaakte *amague* volgen, op uiteenlopende momenten in de muziek.
 
 In plaats van de dans alleen te leren als een verzameling passen die je achter elkaar kunt uitvoeren, kun je hem daarom ook zien als een voortdurend veranderende situatie waarin je een gereedschapskist aan technieken gebruikt. Op ieder moment staan twee lichamen op een bepaalde manier ten opzichte van elkaar. Het gewicht staat hier, het vrije been daar, de torso's hebben een bepaalde hoek, er is een bepaalde afstand en misschien zit er nog beweging of rotatie in wat er zojuist gebeurde.
 
-Vanuit die situatie zijn sommige dingen gemakkelijk mogelijk en andere niet. Na één beweging verandert de situatie en daarmee verandert ook wat er daarna kan.
-
 Onderzoekers zoals Michael Kimmel beschrijven iets vergelijkbaars wanneer ze schrijven over de mogelijkheden die ervaren dansers tijdens het dansen in een situatie herkennen. Ook recent onderzoek naar de geometrie van tango laat zien dat de positie en gewichtsverdeling van de dansers sterk bepalen welke bewegingen vervolgens beschikbaar zijn.
 
-Een ervaren danser kent daarom niet alleen veel figuren. Die ziet en voelt steeds beter **wat er vanuit hier kan gebeuren**. Daar komt nog iets bij: niet alles wat kan, is op dat moment ook een goed idee. Een grote draai kan technisch mogelijk zijn terwijl er achter je nauwelijks ruimte is. Een sacada kan geometrisch passen maar door de stapgrootte onprettig worden. Een beweging kan technisch perfect uitvoerbaar zijn en toch niets zeggen over de muziek die op dat moment klinkt.
+Een ervaren danser kent daarom niet alleen veel figuren, maar voelt **wat er vanuit hier kan gebeuren**. Niet iedere mogelijkheid is wenselijk: ruimte, comfort en muziek beperken de keuze verder.
 
 Zo ontstaat steeds opnieuw een eenvoudig proces:
 
 **toestand → mogelijkheden → voorkeuren → nieuwe toestand.**
-
-Dat is voor mij een veel interessanter uitgangspunt voor improvisatie dan een catalogus van figuren.
 
 De verkenner hieronder maakt die gedachte concreet. Beweeg door een korte sequentie en bekijk hoe dezelfde gesimuleerde toestand tegelijk kan worden gelezen als geometrie, balans en handelingsruimte. De bewegingen zijn bewust schematisch: het interessante is niet de perfecte reconstructie van een pas, maar hoe positie, belasting, contact en keuze elkaar begrenzen zonder de uitkomst volledig vast te leggen.
 
@@ -80,15 +64,13 @@ De verkenner hieronder maakt die gedachte concreet. Beweeg door een korte sequen
 
 Muziek heeft daarin een veel grotere rol dan alleen aangeven wanneer we moeten bewegen. Een scherp ritme van bandoneons of piano maakt andere bewegingen aantrekkelijk dan een lange vioollijn. Een plotselinge stilte kan uitnodigen om helemaal niets te doen. Een melodie die over meerdere maten spanning opbouwt kan aanleiding zijn een beweging juist langer te laten voortduren.
 
-Wie veel tango danst en luistert leert zulke verbanden steeds beter voelen. Als muzikant ben ik me daar misschien sneller bewust van geweest. Bepaalde ritmes roepen voor mij bijna automatisch een bepaalde subset van alle mogelijke bewegingen op. Niet omdat de muziek voorschrijft dat ik precies die beweging moet doen, maar omdat sommige mogelijkheden op dat moment eenvoudig veel logischer en aantrekkelijker voelen dan andere.
-
-De muziek komt dus niet pas nadat we hebben besloten wat we gaan doen. Ze verandert het landschap waaruit we kiezen.
+Wie veel tango danst en luistert leert zulke verbanden steeds beter voelen. Als muzikant merk ik dat bepaalde ritmes bijna automatisch een subset van mogelijke bewegingen oproepen. De muziek schrijft niets voor, maar verandert wel het landschap waaruit we kiezen.
 
 En beide dansers horen dezelfde muziek. Dat betekent niet dat ze hetzelfde horen. De ene kan opgaan in het ritme terwijl de andere een melodische tegenstem volgt. Juist daarin kan tango prachtig worden. Twee lichamen hoeven niet voortdurend hetzelfde over de muziek te zeggen. Zolang hun bewegingen bij elkaar passen, kunnen ze verschillende stemmen laten horen.
 
-Dat is ook een van de redenen waarom tango zo goed op veel verschillende soorten muziek blijkt te werken. Klassieke tangomuziek kan buitengewoon rijk zijn in ritme, melodie, tegenmelodie, frasering en contrast tussen instrumenten. Veel nontango is daarin eenvoudiger, iets wat traditioneel ingestelde tangodansers soms terecht als muzikaal minder interessant ervaren. Moderne muziek kan daarentegen weer veel rijker zijn in klank, laag, stereobeeld, textuur en de lichamelijke impact van een goede geluidsproductie. Tango schrijft niet voor welke van die eigenschappen we moeten dansen en kan daardoor verrassend veel verschillende muzieksoorten aan. Op sommige Milonga's zie je dat ook terug - klassiek, neo- en nontango wisselen elkaar af.
+Dat helpt verklaren waarom tango op verschillende muzieksoorten werkt. Klassieke tango is vaak rijk in ritme, melodie, tegenmelodie, frasering en instrumentaal contrast; moderne muziek kan juist meer bieden in klank, laag, stereobeeld en textuur. De dans schrijft niet voor welke eigenschap we moeten vertolken.
 
-De muziek helpt bovendien bij de communicatie tussen de dansers. Een frase-einde, een stilte, een sterk accent of een verandering van instrumentatie wordt door allebei gehoord. Zulke momenten zijn natuurlijke plekken waarop een bewegingsidee kan eindigen, worden voortgezet of plaatsmaken voor iets anders. De muziek is daarmee niet alleen decor. Ze is bijna een derde deelnemer aan het gesprek.
+Een frase-einde, stilte, accent of verandering van instrumentatie wordt door allebei gehoord en biedt natuurlijke momenten om een bewegingsidee af te ronden of voort te zetten. Zo helpt muziek ook de communicatie.
 
 ### Traditionele tango heeft ook al twee stemmen
 
@@ -146,19 +128,7 @@ Daardoor hoeft initiatief niet bevochten te worden. Ik hoef jou niet fysiek de r
 
 Een voorstel kan bovendien geleidelijk verschijnen. Terwijl jij nog bezig bent een frase af te maken kan ik al iets kleins laten ontstaan voor wat daarna zou kunnen komen. Als improviserend muzikant voelt dat vertrouwd. Aan het einde van de solo of frase van een ander kun je voorzichtig enkele noten toevoegen. Niet om te zeggen: *hou op, nu ben ik aan de beurt*, maar om een mogelijke volgende richting hoorbaar te maken. De ander kan ruimte maken, erop antwoorden of nog even doorgaan.
 
-### Tango als de ideale basis voor vrij samen dansen
-
-Tango bezit een bijzondere combinatie van eigenschappen. De dans heeft een verfijnde taal ontwikkeld voor gewicht, as, richting, rotatie en afstand. De abrazo geeft voortdurend informatie over het lichaam van de ander. Er is geen vaste choreografie nodig. Stilstand is toegestaan. De muziek kan ritmisch, melodisch en dynamisch op allerlei manieren worden geïnterpreteerd. De beweging kan klein genoeg blijven om tussen tientallen andere koppels te functioneren en tegelijkertijd technisch enorm rijk worden.
-
-En bovenal heeft tango meer dan een eeuw ervaring met een behoorlijk ingewikkeld probleem: hoe kunnen twee mensen samen bewegen terwijl nauwelijks iets over de volgende beweging vastligt?
-
-Daarmee is tango voor mij niet alleen een mooie dans, maar mogelijk een van de beste **basissen voor vrij gezamenlijk dansen**.
-
-Contact improvisation onderzoekt een deel van hetzelfde gebied vanuit een andere geschiedenis en met andere mogelijkheden, bijvoorbeeld door veel verder te gaan in gedeeld gewicht, vloerwerk en veranderende oriëntaties. Andere partnerdansen hebben weer andere oplossingen gevonden. Maar tango heeft iets bijzonders in de combinatie van voortdurend contact, duidelijke lichaamstaal, improvisatie en toepasbaarheid op veel verschillende muzieksoorten.
-
-Als iedereen vanaf het begin de hele taal leert, ontstaat daarom iets dat verder gaat dan “zowel kunnen leiden als volgen”. Je leert hoe je een lichamelijk voorstel doet zonder iemand te dwingen. Je leert hoe je een beweging aanneemt zonder passief te worden. Je leert welke delen van een gezamenlijke beweging jouw verantwoordelijkheid zijn, waar je vrij kunt spelen zonder iets van de ander te vragen en hoe je kunt laten merken dat je zelf een nieuwe mogelijkheid ziet. En er komt ook nog veel meer vrijheid voor het invullen door dansers met verschillende ervaringsniveaus, iets wat vaak grote invloed kan hebben bij een traditionelere rolverdeling, maar in dit geval veel meer ruimte laat voor een natuurlijkere balans.
-
-Je leert ook een voorstel weer los te laten. Dat laatste is misschien net zo belangrijk als goed initiatief kunnen nemen. Vrij gezamenlijk dansen werkt alleen wanneer niemand het nodig vindt zijn idee te winnen. Tango heeft daarvoor al een prachtig hulpmiddel: we kunnen altijd even niets doen.
+Tango is hiervoor een sterke basis: de dans combineert een verfijnde taal voor gewicht, as, richting, rotatie en afstand met voortdurend contact, improvisatie en muzikale vrijheid. Wie de hele taal leert, oefent zowel voorstellen als aannemen en leert een voorstel ook weer los te laten. Als geen richting duidelijk wordt, blijft vertragen of stilstaan beschikbaar.
 
 ### Een etiquette in en buiten de abrazo
 
@@ -174,9 +144,7 @@ Dat kan een uitnodiging zijn: *volg eens wat ik hier zie.* Om dat betrouwbaar te
 
 Een van de bezwaren tegen dansen zonder vaste leider ligt voor de hand. Als beide dansers mogen kiezen, wat gebeurt er dan wanneer ze tegelijkertijd iets anders willen?
 
-De traditionele rolverdeling lost dat probleem simpel op. Eén persoon krijgt standaard het initiatief om het volgende gezamenlijke pad te kiezen.  Maar wij zijn op zoek naar een gesprek waar beide dansers mogen voorstellen, het gesprek op de dansvloer mogen voeren zonder dat een van de twee het gesprek domineert.
-
-In een gesprek kunnen immers twee mensen ook gewoon volledig gelijkwaardig aan een gesprek deelnemen. Meestal maar één van hen tegelijk spreekt, maar het is geen lange monoloog. We hebben allerlei subtiele manieren geleerd om te laten merken dat we doorgaan, afronden, iets willen toevoegen of iemand ruimte geven. Soms praten we kort door elkaar heen en één van beiden geeft vanzelf ruimte.
+De traditionele rolverdeling lost dat op door één persoon standaard het volgende gezamenlijke pad te laten kiezen. In een gelijkwaardig gesprek hoeft echter ook niet iedereen tegelijk te spreken. Mensen laten merken dat ze doorgaan, afronden, iets willen toevoegen of ruimte geven; als ze elkaar overlappen, wijkt vaak één van beiden.
 
 Jazz werkt op een vergelijkbare manier. Een saxofonist kan een solo spelen terwijl drummer, bassist en pianist bepaald niet passief bezig zijn. Ze nemen voortdurend beslissingen binnen hun eigen taak en kunnen het muzikale karakter sterk beïnvloeden. Soms ontstaat uit een idee van de drummer of bassist een nieuwe richting die door de hele groep wordt overgenomen. Niemand hoeft bij iedere maat vast te stellen wie formeel de leider is.
 
@@ -196,9 +164,7 @@ Zo kun je **symmetrisch leren, tijdelijk asymmetrisch oefenen en uiteindelijk vr
 
 In traditioneel onderwijs kan iemand na jaren volgen bijzonder veel weten over hoe een ocho voelt en uitgevoerd wordt, maar veel minder ervaring hebben met het aanbieden van de rotatie. Een ervaren leider kan op zijn beurt duizenden ochos hebben ingezet zonder de beweging zelf vaak te hebben gemaakt.
 
-Als beide dansers beide kanten kennen kun je letterlijk zeggen: *doe jij eens wat ik doe, dan ga ik op jouw plek staan*. Je kunt een probleem niet alleen uitleggen maar elkaar laten voelen wat er gebeurt.
-
-Dat maakt kennis veel minder afhankelijk van rol. De docent blijft natuurlijk belangrijk, maar hoeft niet de enige persoon in de zaal te zijn die kennis kan overdragen. Iedereen krijgt meer gereedschap om met iedere partner te onderzoeken waarom iets wel of niet werkt. 
+Als beide dansers beide kanten kennen, kunnen ze van plaats wisselen en elkaar een probleem laten voelen. Kennis wordt zo minder afhankelijk van rol en dansers krijgen meer gereedschap om samen te onderzoeken waarom iets wel of niet werkt.
 
 Als we de klassieke abrazo behouden, waar zeker wat voor te zeggen is, dan betekent dat ook dat we alle bewegingen binnen die abrazo ook in spiegelbeeld moeten kunnen inzetten. Dat geeft ook mogelijkheden en ruimte - veel van de huidige bewegingen hebben een sterke voorkeursrichting vanuit de houding die we traditioneel nemen waarbij aan een kant handcontact is en aan de ander armcontact. 
 
@@ -206,9 +172,7 @@ Als we de klassieke abrazo behouden, waar zeker wat voor te zeggen is, dan betek
 
 Al vanaf dicht bij het begin van de tango zijn er leerprincipes geweest waarbij we in plaats van alleen te leren *hoe een bepaalde figuur gaat*, we leren herkennen **vanuit welke positie welke mogelijkheden ontstaan**, en uit welke technieken die mogelijkheden bestaat. 
 
-Een sacada is dan niet alleen een sequentie van passen die je uit het hoofd leert. Je leert wat er werkelijk gebeurt: de ene danser verlaat ruimte en vanuit een bepaalde geometrie kan de ander die ruimte innemen. Vervolgens kun je onderzoeken op hoeveel verschillende manieren zo'n situatie kan ontstaan.
-
-Hetzelfde met een ocho. Welke toestand maakt een pivot mogelijk? Wat verandert als de andere danser beweegt? Wat gebeurt er als beide dansers pivoteren? Kan dezelfde techniek in de andere richting of door het andere lichaam worden uitgevoerd? Hoe gaat het als in de traditionele abrazo de gespiegelde partij de ocho inleidt? 
+Een sacada wordt dan meer dan een reeks passen: de ene danser verlaat ruimte die de ander vanuit een bepaalde geometrie kan innemen. Bij een ocho onderzoek je welke toestand een pivot mogelijk maakt, wat de beweging van de partner verandert en of dezelfde techniek in een andere richting of door het andere lichaam kan worden uitgevoerd.
 
 Zo wordt een figuur geen recept maar een herkenbaar geval van een algemener principe. En dan wordt het ook veel gemakkelijker om te begrijpen waarom sommige mogelijkheden **voorkeursmogelijkheden** zijn. Niet alles wat technisch kan werkt even prettig. De positie van de voeten telt mee, de abrazo, de rugarm die wel of niet kan inschuiven, het momentum, het verschil in lengte tussen de dansers, de beschikbare ruimte op de vloer en natuurlijk de muziek.
 
@@ -224,13 +188,7 @@ Dat hoeft niet te betekenen dat de traditionele tango fout is of dat niemand mee
 
 Gelijkwaardigheid zit niet in de verplichting dat beide mensen voortdurend evenveel initiatief nemen. Ze zit in de mogelijkheid dat ze het allebei **kunnen**.
 
-Dan wordt de abrazo niet een kanaal waardoor één lichaam vertelt wat het andere moet doen, maar een plaats waar twee mensen voortdurend informatie delen over wat er gebeurt en wat er zou kunnen gebeuren. Er kan een voorstel komen, een aanname, een tijdelijke taakverdeling. Binnen die beweging kunnen twee muzikale stemmen bestaan zonder elkaar te storen. Versieringen kunnen gewoon versieringen blijven. Een nieuw voorstel kan zich al aandienen voordat het vorige idee helemaal verdwenen is.
-
-Daarmee blijft de tango herkenbaar. Er blijft structuur, er blijven verschillen in taak, er blijven momenten waarop één persoon veel meer regie heeft dan de ander. Alleen hoeft niet vooraf voor de hele dans vast te liggen wie aan welke kant van die verschillen staat. Noem het misschien gewoon de emancipatie van zowel de volger als de leider, die veel meer ruimte krijgen om zich te ontwikkelen naar wat ze kunnen en willen.
-
-Voor mij is dat geen breuk met de tango, maar juist een vrij natuurlijke volgende stap in een dans die altijd al draaide om improvisatie, luisteren en reageren op wat er werkelijk gebeurt. Tango heeft ons al een uitzonderlijk rijke taal gegeven om samen te bewegen. 
-
-Laten we samen die volgende stap gaan zetten. 
+In de abrazo delen twee mensen voortdurend informatie over wat gebeurt en mogelijk wordt. Voorstel, aanname en taakverdeling kunnen verschuiven; muzikale stemmen en versieringen hoeven daarbij geen nieuw initiatief te zijn. De tango houdt zijn structuur en tijdelijke asymmetrie, maar vóór de dans hoeft niet vast te liggen wie steeds aan welke kant daarvan staat. Voor mij past dat bij een dans die altijd al draaide om improvisatie, luisteren en reageren.
 
 ---
 

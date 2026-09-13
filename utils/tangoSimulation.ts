@@ -79,6 +79,10 @@ export const centreOfMass=(x:DancerState):Point=>({x:x.torso.x*.78+x.left.x*.11+
 export const sharedCentre=(x:TangoFrame):Point=>{const a=centreOfMass(x.a),b=centreOfMass(x.b);return{x:(a.x+b.x)/2,y:(a.y+b.y)/2}}
 
 const direction=(from:Point,to:Point)=>Math.atan2(to.y-from.y,to.x-from.x)*180/Math.PI
+const bodyPoint=(x:DancerState,forward:number,side:number):Point=>{
+  const radians=x.angle*Math.PI/180
+  return{x:x.torso.x+Math.cos(radians)*forward-Math.sin(radians)*side,y:x.torso.y+Math.sin(radians)*forward+Math.cos(radians)*side}
+}
 const moveDancer=(x:DancerState,dx:number,dy:number,shoulderAngle:number):DancerState=>({
   torso:{x:x.torso.x+dx,y:x.torso.y+dy},angle:shoulderAngle,
   left:{...x.left,x:x.left.x+dx,y:x.left.y+dy},right:{...x.right,x:x.right.x+dx,y:x.right.y+dy}
@@ -88,16 +92,34 @@ const moveDancer=(x:DancerState,dx:number,dy:number,shoulderAngle:number):Dancer
  * upper-body orientation and contact adapt to the selected abrazo. */
 export function withEmbrace(frame:TangoFrame,embrace:Embrace,movementId:MovementId):TangoFrame{
   const midpoint={x:(frame.a.torso.x+frame.b.torso.x)/2,y:(frame.a.torso.y+frame.b.torso.y)/2}
-  const distanceFactor={open:1.12,'half-open':1,closed:.78}[embrace]
-  const shoulderFollow={open:.18,'half-open':.48,closed:.82}[embrace]
-  const adapt=(x:DancerState,other:DancerState)=>{
+  const distanceFactor={open:1.18,'half-open':.76,closed:.58}[embrace]
+  const shoulderFollow={open:.24,'half-open':.68,closed:.94}[embrace]
+  const adapt=(x:DancerState,other:DancerState,id:DancerId)=>{
     const target={x:midpoint.x+(x.torso.x-midpoint.x)*distanceFactor,y:midpoint.y+(x.torso.y-midpoint.y)*distanceFactor}
     const facing=direction(target,other.torso)
     const ochoExtra=(movementId==='forward-ocho'||movementId==='backward-ocho')&&embrace==='open'?.08:0
-    return moveDancer(x,target.x-x.torso.x,target.y-x.torso.y,angleLerp(x.angle,facing,Math.min(1,shoulderFollow+ochoExtra)))
+    // In a half-open embrace both chests turn slightly in the same stage
+    // direction: their right side meets while the left side remains open.
+    const halfOpenOffset=embrace==='half-open'?(id==='a'?10:-10):0
+    return moveDancer(x,target.x-x.torso.x,target.y-x.torso.y,angleLerp(x.angle,facing,Math.min(1,shoulderFollow+ochoExtra))+halfOpenOffset)
   }
-  const a=adapt(frame.a,frame.b),b=adapt(frame.b,frame.a)
-  const openness={open:.5,'half-open':.78,closed:1}[embrace]
-  const contacts=cs(a,b,openness).map(contact=>contact.type==='torso'?{...contact,active:embrace==='closed'?.9:embrace==='half-open'?.28:.04}:contact)
+  const a=adapt(frame.a,frame.b,'a'),b=adapt(frame.b,frame.a,'b')
+  const contacts:Contact[]=embrace==='open'?[{
+    type:'hand',a:bodyPoint(a,16,-48),b:bodyPoint(b,16,48),active:1
+  },{
+    type:'arm',a:bodyPoint(a,12,34),b:bodyPoint(b,8,-30),active:.9
+  }]:embrace==='half-open'?[{
+    type:'hand',a:bodyPoint(a,12,-44),b:bodyPoint(b,12,44),active:1
+  },{
+    type:'arm',a:bodyPoint(a,-2,34),b:bodyPoint(b,-12,-34),active:.95
+  },{
+    type:'torso',a:bodyPoint(a,38,20),b:bodyPoint(b,38,-20),active:.72
+  }]:[{
+    type:'hand',a:bodyPoint(a,8,-40),b:bodyPoint(b,8,40),active:1
+  },{
+    type:'arm',a:bodyPoint(a,-8,34),b:bodyPoint(b,-8,-34),active:1
+  },{
+    type:'torso',a:bodyPoint(a,38,0),b:bodyPoint(b,38,0),active:1
+  }]
   return{...frame,a,b,contacts}
 }

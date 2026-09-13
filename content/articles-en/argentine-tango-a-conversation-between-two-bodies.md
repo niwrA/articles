@@ -25,51 +25,35 @@ Video example: [**Valseando with a sense of freedom**](https://youtube.com/short
 
 In tango, we often speak of leaders and followers. But during a giro, for example, something can happen that does not fit comfortably into the simple description of one dancer leading and the other following. In the video above, at one point the dancers let go of each other and one begins to move around the other. The other responds independently, alternately turning towards and away from their partner. One dances the short accents of the rhythm section while the other follows the longer movements of, say, a violin line. They are dancing together, but they are not saying exactly the same thing. And yet, together, they express the music—perhaps even more fully than if they were doing the same thing.
 
-A large part of the attraction of Argentine tango, and of dancing together in general, lies in precisely that freedom, in this physical conversation. Two people can create a complex dance together without choreography, sometimes without ever having met before. They do not know what movement will happen five seconds from now. Often they do not know one second in advance. And yet they can walk, turn, accelerate, slow down and stop without the dance falling apart.
-
 When we hold each other in an *abrazo*, as the embrace in Argentine tango is called, we usually call the two traditional roles *leader* and *follower*. This is understandable and practical. At a traditional milonga, dancing in the *ronda*, there is someone primarily responsible for maintaining the line of dance, watching the space ahead and initiating new movements. But those words can also tempt us into a division of roles in which, eventually, all initiative resides with the leader and the follower is mainly allowed to... follow.
 
-As with some other social patterns, once we become deeply accustomed to this, it can be difficult to escape. You can see this even within tango as it is already danced today. We often have to relearn that the person who initiates a movement does not determine everything that happens afterwards. The other dancer can, may, and at certain moments *must* make their own choices about timing and movement. The leader has to take into account not only the physical space the follower needs in order to move at all, but also the speed at which that happens, delays, embellishments, and the deliberate continuation of a movement for just a little longer. Good tango should therefore never become a physical version of *Simon Says*, in which one body gives instructions and the other obeys them as accurately as possible.
+The dancer who initiates a movement does not determine everything that follows. The other makes choices about timing, step size and embellishment; the first dancer must feel those choices and make room for them. Good tango is not a physical version of *Simon Says*.
 
 And yet there remains a genuine asymmetry in traditional tango. Usually the same person is expected to propose each new direction. The other has considerable freedom within whatever emerges from that—certainly compared with many other partner dances—but rarely opens a new branch of the dance themselves.
 
 Could we change precisely that? Could the language tango has developed over more than a century—walking, sensing weight, turning, opening space, feeling one another through the torso, listening to music and constantly improvising—also be one of the richest starting points for **dancing freely together**?
 
-To find out, we first need to understand a little better what leading and following actually consist of, which differences between the dancers are genuinely necessary or useful, and how initiative might pass from one dancer to the other without losing tango's clarity. Preferably without continually having to reverse the entire role, including who occupies which side of the abrazo.
-
 ### A dance nobody designed
 
-First, a little history. Tango was not invented by anyone. The dance emerged towards the end of the nineteenth century in Buenos Aires and Montevideo, in an urban world where European immigrants, criollo cultures and Afro-Rioplatense communities encountered one another. Music and movement from different traditions became intertwined and changed along the way.
-
-There is a familiar story that men mainly learned tango with other men because Buenos Aires had far more men than women. This is not entirely invented. There were indeed large groups of male immigrants, and photographs and descriptions exist of men dancing tango together. But there is no evidence, in that simple form, that tango originated as a men's dance, or that men practised exclusively with other men so they could later dance with women.
+Tango emerged towards the end of the nineteenth century in Buenos Aires and Montevideo, where European immigrants, criollo cultures and Afro-Rioplatense communities encountered one another. Large groups of male immigrants lived there, and photographs and descriptions show men dancing tango together. The familiar claim that tango therefore began as a men's dance, or that men practised together only to dance with women later, is not adequately supported.
 
 For our purposes, something else is more interesting: men *did* dance with men. That alone makes it clear that the two technical roles cannot have depended on a male and a female body. The later association of *man leads, woman follows* is a social tradition, not a natural law of movement.
 
-The movement language itself also changed continuously. Early descriptions contain movements we still know today alongside all sorts of things that later disappeared. Tango was not a system that was first designed and then had to be performed correctly. Dancers found solutions, copied them from one another, changed them, and allowed others to disappear.
-
-At the heart of tango—and of what makes the dance so attractive to many dancers, myself included—is the way we can improvise together. And that is possible partly because tango has developed a relatively clear physical language for doing so.
+The movement language also changed continuously. Dancers found solutions, copied and altered them. That history fits what attracts me to tango: improvising together through a relatively clear physical language.
 
 ### Not knowing what comes next
 
-Argentine tango has a remarkable quality: almost nothing about the next step has to be predetermined. Beginners often learn a *salida básica*, but this is not a cycle to which the dance constantly has to return. The term that perhaps describes the real foundation better is *el caminar*: walking.
-
-Two dancers can express an entire tango with little more than walking together. Preferably with a little more attention and panache than when shuffling off to the supermarket, but even within that simple act of walking lies an enormous range of possibilities. As an improvising musician, this was one of the things that immediately made my heart beat faster.
-
-Tango is, of course, much more than walking. After one step there may be another step, but there could also be an ocho, a giro, a parada, a cross, or something completely different. Even *when* the next step or movement happens is not fixed. You can step on every beat, use double time, slow down, follow a melody or remain still while the orchestra continues. You can even initiate a step and not complete it, as in an *amague*.
+In Argentine tango, almost nothing about the next step has to be predetermined. Beginners often learn a *salida básica*, but the dance need not return to that cycle. *El caminar*, walking, describes the foundation better: two dancers can express an entire number through it. Another step, an ocho, giro, parada, cross, stillness or even an unfinished *amague* may follow at different moments in the music.
 
 Rather than learning the dance only as a collection of steps that can be strung together, we can therefore see it as a continuously changing situation in which we use a toolbox of techniques. At every moment, two bodies occupy particular positions in relation to each other. The weight is here, the free leg there, the torsos are at a certain angle, there is a certain distance between them, and perhaps some movement or rotation remains from what has just happened.
 
-From that situation, some things are easily possible and others are not. One movement changes the situation, and with it what can happen next.
-
 Researchers such as Michael Kimmel describe something similar when they write about the possibilities experienced dancers recognise in a situation while dancing. Recent research into the geometry of tango likewise shows how strongly the dancers' positions and weight distribution determine which movements subsequently become available.
 
-An experienced dancer therefore does not simply know many figures. They become increasingly good at seeing and feeling **what can happen from here**. And there is another layer: not everything that is possible is also a good idea at that particular moment. A large turn may be technically possible when there is hardly any room behind you. A sacada may fit geometrically but become uncomfortable because of the size of the step. A movement may be technically perfect and still say absolutely nothing about the music playing at that moment.
+An experienced dancer therefore does not simply know many figures, but feels **what can happen from here**. Not every possibility is desirable: space, comfort and music narrow the choice further.
 
 Again and again, this produces a simple process:
 
 **state → possibilities → preferences → new state.**
-
-To me, that is a much more interesting basis for improvisation than a catalogue of figures.
 
 The explorer below makes that idea concrete. Move through a short sequence and see how one simulated state can be read simultaneously as geometry, balance and agency. The movements are deliberately schematic: the interesting part is not a perfect reconstruction of a step, but how position, load, contact and choice constrain one another without fully determining the outcome.
 
@@ -80,15 +64,13 @@ The explorer below makes that idea concrete. Move through a short sequence and s
 
 Music plays a much larger role in this than merely telling us when to move. A sharp rhythm from bandoneons or piano makes different movements attractive than a long violin line. A sudden silence may invite us to do absolutely nothing. A melody that builds tension over several bars may give us reason to let a movement continue for longer.
 
-The more tango you dance and listen to, the more you learn to feel these relationships. As a musician, I may have become consciously aware of them a little sooner. Certain rhythms almost automatically evoke a particular subset of all possible movements for me. Not because the music dictates exactly which movement I should make, but because some possibilities simply feel much more logical and attractive at that moment than others.
-
-The music therefore does not enter the picture only after we have decided what to do. It changes the landscape from which we choose.
+The more tango you dance and listen to, the more you feel these relationships. As a musician, I find that certain rhythms almost automatically evoke a subset of possible movements. Music dictates nothing, but it changes the landscape from which we choose.
 
 And both dancers hear the same music. That does not mean they hear the same *thing*. One may be absorbed in the rhythm while the other follows a melodic countervoice. That is precisely where tango can become beautiful. Two bodies do not have to keep saying the same thing about the music. As long as their movements are compatible, they can express different voices.
 
-That is also one reason tango works surprisingly well with many different kinds of music. Classical tango music can be extraordinarily rich in rhythm, melody, countermelody, phrasing and contrast between instruments. Much non-tango music is simpler in those respects, something traditionally minded tango dancers sometimes rightly find less musically interesting. Modern music, on the other hand, can be much richer in sound, bass, stereo image, texture and the physical impact of good production. Tango does not prescribe which of those qualities we have to dance, and can therefore handle a surprising range of music. At some milongas you can see this reflected directly: classical, neo- and non-tango alternate throughout the evening.
+That helps explain why tango works with different kinds of music. Classical tango is often rich in rhythm, melody, countermelody, phrasing and instrumental contrast; modern music may instead offer more in timbre, bass, stereo image and texture. The dance does not prescribe which quality we must interpret.
 
-Music also helps the dancers communicate. The end of a phrase, a silence, a strong accent or a change of instrumentation is heard by both. Such moments become natural places for a movement idea to end, continue or make way for something else. Music is therefore not merely decoration. It is almost a third participant in the conversation.
+A phrase ending, silence, accent or change in instrumentation is heard by both dancers and offers natural moments to complete or continue an idea. Music therefore also assists communication.
 
 ### Traditional tango already has two voices
 
@@ -146,19 +128,7 @@ That means initiative does not have to be fought over. I do not have to physical
 
 A proposal can also appear gradually. While you are still finishing a phrase, I can already allow something small to emerge that might become what happens next. As an improvising musician, that feels familiar. Near the end of another musician's solo or phrase, you can cautiously add a few notes. Not to say, *stop, it's my turn now*, but to make a possible next direction audible. The other person can make room for it, respond to it, or continue for a little longer.
 
-### Tango as an ideal basis for dancing freely together
-
-Tango possesses a remarkable combination of qualities. The dance has developed a sophisticated language for weight, axis, direction, rotation and distance. The abrazo provides continuous information about the other person's body. No fixed choreography is required. Stillness is allowed. The music can be interpreted rhythmically, melodically and dynamically in many different ways. Movement can remain small enough to function among dozens of other couples and at the same time become enormously rich technically.
-
-Above all, tango has more than a century of experience with a rather complicated problem: how can two people move together when almost nothing about the next movement has been determined?
-
-That makes tango, for me, not just a beautiful dance but potentially one of the best **foundations for dancing freely together**.
-
-Contact improvisation explores some of the same territory from a different history and with different possibilities, for example by going much further in shared weight, floorwork and changing orientations. Other partner dances have found other solutions. But tango has something special in its combination of continuous contact, clear physical language, improvisation and applicability to many different kinds of music.
-
-If everyone learns the entire language from the beginning, something emerges that goes beyond simply “being able to lead and follow”. You learn how to make a physical proposal without forcing another person. You learn how to take up a movement without becoming passive. You learn which parts of a shared movement are your responsibility, where you can play freely without asking anything of the other person, and how to communicate that you yourself see a new possibility. It also creates much more freedom for dancers of different experience levels to find their own balance, something that can have a major influence in a more traditional division of roles but here leaves much more room for that balance to emerge naturally.
-
-You also learn to let go of a proposal. That may be just as important as learning to take initiative well. Dancing freely together can only work if neither person needs their idea to win. Tango already has a wonderful tool for this: we can always do nothing for a moment.
+Tango is a strong basis for this experiment: it combines a refined language of weight, axis, direction, rotation and distance with continuous contact, improvisation and musical freedom. Learning the whole language means practising both proposing and taking up a movement—and letting a proposal go again. If no direction becomes clear, slowing down or standing still remains available.
 
 ### An etiquette within and beyond the abrazo
 
@@ -174,9 +144,7 @@ That can become an invitation: *follow what I see here.* For this to work reliab
 
 One obvious objection to dancing without a fixed leader is this: if both dancers are allowed to choose, what happens when they want different things at the same time?
 
-The traditional division of roles solves this problem simply. One person is given the default initiative to choose the next shared path. But we are looking for a conversation in which both dancers may make proposals, a conversation on the dance floor in which neither has to dominate.
-
-After all, two people can participate in a conversation as complete equals. Usually only one of them speaks at a time, but that does not make it a long monologue. We have learned all sorts of subtle ways of signalling that we are continuing, finishing, wanting to add something or giving someone else room. Sometimes we briefly speak over each other and one of us naturally makes space.
+The traditional division of roles solves this by giving one person the default initiative to choose the next shared path. In an equal conversation, however, people need not speak simultaneously. They signal that they are continuing, finishing, adding something or making room; when they overlap, one often yields.
 
 Jazz works in a similar way. A saxophonist may be playing a solo while the drummer, bassist and pianist are anything but passive. They continuously make decisions within their own tasks and can strongly influence the musical character. Sometimes an idea from the drummer or bassist creates a new direction that the entire group adopts. Nobody needs to establish formally at every bar who the leader is.
 
@@ -196,9 +164,7 @@ In this way we can **learn symmetrically, practise temporarily asymmetrically, a
 
 In traditional teaching, someone who has followed for years may know an extraordinary amount about how an ocho feels and is performed, while having far less experience in offering the rotation. An experienced leader, conversely, may have initiated thousands of ochos without often performing the movement themselves.
 
-If both dancers know both sides, you can literally say: *you do what I'm doing for a moment, and I'll stand where you are*. Instead of merely explaining a problem, you can let each other feel what is happening.
-
-Knowledge becomes much less dependent on role. The teacher remains important, of course, but no longer needs to be the only person in the room capable of transferring knowledge. Everyone acquires more tools for investigating with any partner why something does or does not work.
+If both dancers know both sides, they can exchange places and let each other feel a problem. Knowledge becomes less dependent on role, and dancers gain more tools for investigating together why something does or does not work.
 
 If we retain the classical abrazo—and there are certainly good reasons to do so—that also means learning to initiate all movements within that abrazo in mirror image. This creates new possibilities and space. Many existing movements have a strong preferred direction because of the position we traditionally adopt, with hand contact on one side and arm contact on the other.
 
@@ -206,9 +172,7 @@ If we retain the classical abrazo—and there are certainly good reasons to do s
 
 From quite early in tango's history, there have been teaching principles in which, instead of learning only *how a particular figure goes*, we learn to recognise **which possibilities arise from a particular position**, and which techniques those possibilities consist of.
 
-A sacada then becomes more than a sequence of memorised steps. You learn what is actually happening: one dancer vacates space and, from a particular geometry, the other can occupy it. You can then investigate how many different ways that situation can arise.
-
-The same applies to an ocho. What state makes a pivot possible? What changes if the other dancer moves? What happens if both dancers pivot? Can the same technique be performed in the other direction or by the other body? What happens when, within the traditional abrazo, the dancer on the mirrored side initiates the ocho?
+A sacada then becomes more than a sequence of steps: one dancer vacates space that the other can occupy from a particular geometry. With an ocho, you investigate which state permits a pivot, what the partner's movement changes, and whether the same technique can be performed in another direction or by the other body.
 
 A figure then ceases to be a recipe and becomes a recognisable instance of a more general principle. And it becomes much easier to understand why some possibilities are **preferred possibilities**. Not everything that is technically possible works equally well. The position of the feet matters, as does the abrazo, whether the arm around the back can slide or not, momentum, differences in height between the dancers, the available space on the floor and, of course, the music.
 
@@ -224,13 +188,7 @@ None of this means traditional tango is wrong, or that nobody should want to be 
 
 Equality does not lie in requiring both people to take exactly the same amount of initiative all the time. It lies in the possibility that they both **can**.
 
-The abrazo then becomes not a channel through which one body tells the other what to do, but a place where two people continuously share information about what is happening and what could happen. There can be a proposal, an uptake, a temporary division of tasks. Within that movement, two musical voices can exist without getting in each other's way. Embellishments can remain simply embellishments. A new proposal can begin to appear before the previous idea has completely disappeared.
-
-Tango remains recognisable. There is still structure, there are still differences in tasks, and there are still moments when one person has much more direction than the other. The only difference is that it no longer has to be determined before the dance begins who will occupy which side of those differences throughout. Perhaps we can simply call it the emancipation of both follower and leader, giving each much more room to develop towards what they can and want to do.
-
-For me, that is not a break with tango, but a fairly natural next step in a dance that has always revolved around improvisation, listening and responding to what is actually happening. Tango has already given us an exceptionally rich language for moving together.
-
-Let's take that next step together.
+In the abrazo, two people continually share information about what is happening and what could happen. Proposal, uptake and division of tasks can shift; musical voices and embellishments need not become new initiatives. Tango retains its structure and temporary asymmetries, but who occupies which side of them need not be fixed before the dance begins. To me, that fits a dance that has always revolved around improvisation, listening and responding.
 
 ---
 
