@@ -31,6 +31,7 @@ const openFull = () => {
       <CoffeeCupModelEn v-else-if="article.modelComponent==='coffee-cups'" />
       <CarNeedsModel v-else-if="article.modelComponent==='car-needs'" />
       <SportDividendExplorer v-else-if="article.modelComponent==='sport-dividend'" :locale="locale" />
+      <PathogenResponseExplorer v-else-if="article.modelComponent==='pathogen-response'" :locale="locale" />
     </div>
     <div v-if="article.modelComponent==='tango-movement'" class="summary-editor">
       <TangoPoseEditor :locale="locale" />
