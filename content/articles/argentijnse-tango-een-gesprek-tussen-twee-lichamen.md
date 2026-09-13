@@ -59,6 +59,11 @@ Zo ontstaat steeds opnieuw een eenvoudig proces:
 
 Dat is voor mij een veel interessanter uitgangspunt voor improvisatie dan een catalogus van figuren.
 
+De verkenner hieronder maakt die gedachte concreet. Beweeg door een korte sequentie en bekijk hoe dezelfde gesimuleerde toestand tegelijk kan worden gelezen als geometrie, balans en handelingsruimte. De bewegingen zijn bewust schematisch: het interessante is niet de perfecte reconstructie van een pas, maar hoe positie, belasting, contact en keuze elkaar begrenzen zonder de uitkomst volledig vast te leggen.
+
+::TangoMovementExplorer{locale="nl"}
+::
+
 ### De muziek kiest mee
 
 Muziek heeft daarin een veel grotere rol dan alleen aangeven wanneer we moeten bewegen. Een scherp ritme van bandoneons of piano maakt andere bewegingen aantrekkelijk dan een lange vioollijn. Een plotselinge stilte kan uitnodigen om helemaal niets te doen. Een melodie die over meerdere maten spanning opbouwt kan aanleiding zijn een beweging juist langer te laten voortduren.

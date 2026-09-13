@@ -59,6 +59,11 @@ Again and again, this produces a simple process:
 
 To me, that is a much more interesting basis for improvisation than a catalogue of figures.
 
+The explorer below makes that idea concrete. Move through a short sequence and see how one simulated state can be read simultaneously as geometry, balance and agency. The movements are deliberately schematic: the interesting part is not a perfect reconstruction of a step, but how position, load, contact and choice constrain one another without fully determining the outcome.
+
+::TangoMovementExplorer{locale="en"}
+::
+
 ### The music helps us choose
 
 Music plays a much larger role in this than merely telling us when to move. A sharp rhythm from bandoneons or piano makes different movements attractive than a long violin line. A sudden silence may invite us to do absolutely nothing. A melody that builds tension over several bars may give us reason to let a movement continue for longer.
