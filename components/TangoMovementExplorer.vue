@@ -9,9 +9,12 @@ const playing = ref(false)
 const showContacts = ref(true)
 const showCentres = ref(true)
 const embrace = ref<Embrace>('open')
+const hiddenMovements: MovementId[] = ['forward-ocho', 'backward-ocho']
+const availableMovements = computed(() => tangoMovements.filter(item => !hiddenMovements.includes(item.id)))
 let timer: ReturnType<typeof setInterval> | undefined
 
 const movement = computed(() => tangoMovements.find(item => item.id === movementId.value)!)
+const availableNext = computed(() => movement.value.next.filter(id => !hiddenMovements.includes(id)))
 const checkpoints = computed(() => movement.value.checkpoints ?? [])
 const checkpointIndex = computed(() => {
   const p = progress.value / 100
@@ -110,7 +113,7 @@ const roleFor = (id: DancerId) => movement.value.initiator === id
     </header>
 
     <div class="movement-picker" role="group" :aria-label="nl ? 'Kies beweging' : 'Choose movement'">
-      <button v-for="item in tangoMovements" :key="item.id" :class="{ active: item.id === movementId }" @click="setMovement(item.id)">{{ label(item) }}</button>
+      <button v-for="item in availableMovements" :key="item.id" :class="{ active: item.id === movementId }" @click="setMovement(item.id)">{{ label(item) }}</button>
     </div>
 
     <fieldset class="embrace-picker">
@@ -227,7 +230,7 @@ const roleFor = (id: DancerId) => movement.value.initiator === id
         </div>
         <div v-if="progress >= 82" class="next-options">
           <strong>{{ nl ? 'Mogelijke volgende toestand' : 'Possible next state' }}</strong>
-          <button v-for="next in movement.next" :key="next" @click="setMovement(next)">→ {{ label(tangoMovements.find(item => item.id === next)!) }}</button>
+          <button v-for="next in availableNext" :key="next" @click="setMovement(next)">→ {{ label(tangoMovements.find(item => item.id === next)!) }}</button>
         </div>
       </section>
     </div>
