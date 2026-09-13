@@ -5,6 +5,17 @@ date: 2026-09-10
 tags: [Wonen, Beleid, Systemen]
 translationKey: housing-market
 originalUrl: https://www.linkedin.com/pulse/de-woningmarkt-arwin-van-arum-mruse
+summary: Nederland heeft niet alleen een tekort aan woningen, maar een verdelings- en capaciteitsprobleem waarin bevolkingsontwikkeling, huishoudensvorming, woonoppervlak, locatie en betaalbaarheid samenkomen. Het interactieve model laat zien hoe de vraag zich zonder ingrijpen ontwikkelt en hoe verschillende maatregelen afzonderlijk en gezamenlijk een deel van het tekort kunnen verminderen.
+keyPoints:
+  - Woningvraag volgt het aantal huishoudens sterker dan alleen het aantal inwoners.
+  - Bestaand woonoppervlak kan door delen, splitsen en doorstroming effectiever worden benut.
+  - Nieuwbouw is belangrijk, maar kosten, doorlooptijd en structureel effect verschillen sterk per maatregel.
+  - De uitkomst hangt af van expliciete aannames over bevolkingsgroei, uitvoeringstempo en opbrengst.
+modelComponent: housing-policy
+modelLimitations:
+  - Het model voorspelt geen individuele verhuiskeuzes en geen regionale prijsontwikkeling.
+  - Kosten en opbrengsten zijn scenarioaannames, geen projectramingen.
+  - Een landelijke uitkomst kan lokale tekorten en mismatches verbergen.
 draft: false
 ---
 

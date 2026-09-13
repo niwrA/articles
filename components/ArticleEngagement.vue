@@ -4,6 +4,7 @@ const props = defineProps<{
   language: 'nl' | 'en'
   version: string
   contentId: string
+  viewMode?: 'summary' | 'full'
 }>()
 
 interface StoredState { sent: string[] }
@@ -14,7 +15,7 @@ onMounted(() => {
   const content = document.getElementById(props.contentId)
   if (!content) return
 
-  const storageKey = `article-analytics:${props.articleKey}:${props.language}:${props.version}`
+  const storageKey = `article-analytics:${props.articleKey}:${props.language}:${props.version}:${props.viewMode || 'full'}`
   let stored: StoredState = { sent: [] }
   try {
     stored = JSON.parse(sessionStorage.getItem(storageKey) || '{"sent":[]}')
@@ -33,7 +34,7 @@ onMounted(() => {
     if (sent.has(key)) return
     sent.add(key)
     save()
-    trackAnalytics(event, { article: props.articleKey, language: props.language, ...data })
+    trackAnalytics(event, { article: props.articleKey, language: props.language, mode: props.viewMode || 'full', ...data })
   }
   const substantiveEnd = () => {
     const boundary = [...content.querySelectorAll<HTMLElement>('h2')].find((heading) =>

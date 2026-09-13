@@ -25,6 +25,13 @@ useHead({ htmlAttrs: { lang: 'nl' }, link: [
 ] })
 const date = (value: string) => new Intl.DateTimeFormat('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(value))
 const renderedArticle = computed(() => withCitations(article.value!, 'nl'))
+const hasSummary = computed(() => Boolean(article.value?.summary && article.value?.modelComponent))
+const hydrated = ref(false)
+onMounted(() => { hydrated.value = true })
+const viewMode = computed<'summary'|'full'>({
+  get: () => hydrated.value && hasSummary.value && route.query.view === 'summary' ? 'summary' : 'full',
+  set: value => navigateTo({ path: route.path, query: value === 'summary' ? { ...route.query, view: 'summary' } : Object.fromEntries(Object.entries(route.query).filter(([key]) => key !== 'view')) }, { replace: true })
+})
 </script>
 
 <template>
@@ -38,11 +45,13 @@ const renderedArticle = computed(() => withCitations(article.value!, 'nl'))
       <NuxtLink v-if="translation" :to="translation.path" hreflang="en" class="article-language">Read this article in English →</NuxtLink>
       <ArticleShare :title="article.title" :description="article.description" :url="canonicalUrl" :article-key="article.translationKey" locale="nl" />
     </header>
-    <figure v-if="article.featuredImage" class="article-cover wrap">
+    <ArticleViewToggle v-if="hasSummary" v-model="viewMode" locale="nl" :article-key="article.translationKey" />
+    <figure v-if="article.featuredImage && viewMode === 'full'" class="article-cover wrap">
       <img :src="article.featuredImage" :alt="article.featuredImageAlt || ''" width="1800" height="1024">
     </figure>
-    <div id="article-content" class="prose wrap"><ContentRenderer :value="renderedArticle" /></div>
-    <ArticleEngagement :article-key="article.translationKey" language="nl" :version="article.updated || article.date" content-id="article-content" />
+    <ArticleSummary v-if="viewMode === 'summary'" :article="article" locale="nl" @full="viewMode='full'" />
+    <div v-else id="article-content" class="prose wrap"><ContentRenderer :value="renderedArticle" /></div>
+    <ArticleEngagement :key="viewMode" :article-key="article.translationKey" language="nl" :version="article.updated || article.date" :view-mode="viewMode" :content-id="viewMode === 'summary' ? 'article-summary' : 'article-content'" />
     <div class="wrap"><ArticleShare :title="article.title" :description="article.description" :url="canonicalUrl" :article-key="article.translationKey" locale="nl" closing /></div>
   </article>
 </template>

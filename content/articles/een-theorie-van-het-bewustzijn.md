@@ -6,6 +6,17 @@ tags: [Bewustzijn, Neurowetenschap, Filosofie]
 translationKey: theory-of-consciousness
 featuredImage: /images/artikelen/a-theory-of-consciousness/consciousness-arbitration.webp
 featuredImageAlt: Een menselijk profiel waarin neurale netwerken en herinneringen samenvloeien met een sociale wereld bij zonsondergang
+summary: De hypothese in dit artikel is dat bewustzijn vooral functioneel wordt wanneer gespecialiseerde, grotendeels automatische processen onvoldoende zijn. Nieuwe, conflicterende, onzekere of belangrijke situaties vragen om brede integratie en arbitrage. Relevantie bepaalt wat prioriteit krijgt, terwijl leren succesvolle oplossingen later weer kan automatiseren.
+keyPoints:
+  - Veel geavanceerde verwerking kan plaatsvinden zonder bewuste ervaring of rapportage.
+  - Bewuste toegang wordt vooral verwacht wanneer informatie breed moet worden geïntegreerd en concurrerende opties moeten worden beslecht.
+  - Relevantie, lichamelijke toestand en doelen bepalen voor welk organisme de uitkomst ertoe doet.
+  - Rapportage is een latere capaciteit en hoeft bewustzijn niet te veroorzaken.
+modelComponent: consciousness
+modelLimitations:
+  - De getoonde score is een operationalisering van de hypothese, geen meting van bewustzijn.
+  - De gewichten en drempels zijn voorlopig en moeten empirisch worden geschat of weerlegd.
+  - Het model verklaart een mogelijke functie en lost het probleem van subjectieve ervaring niet zelfstandig op.
 draft: false
 ---
 

@@ -6,6 +6,17 @@ tags: [Natuurkunde, Relativiteit, Filosofie]
 translationKey: time-proper-place
 featuredImage: /images/artikelen/time-and-relativity/tijd-terug-op-zijn-plek.webp
 featuredImageAlt: Twee klokken volgen verschillende routes langs een gekromde ruimtetijd en worden bij hereniging vergeleken
+summary: Relativiteit beschrijft hoe fysieke systemen langs verschillende wereldlijnen verschillende hoeveelheden eigentijd opbouwen. Het is conceptueel verhelderend om niet te beginnen met tijd als iets dat processen bestuurt, maar met klokken en andere materiële systemen die verschillende fysieke geschiedenissen doorlopen en bij hereniging aantoonbaar uiteen blijken te zijn veranderd.
+keyPoints:
+  - Een klok meet verandering door een regelmatig fysiek proces met een ander proces te vergelijken.
+  - Snelheid en gravitatiepotentiaal beïnvloeden de eigentijd langs een wereldlijn.
+  - Het verschil wordt operationeel vastgesteld wanneer klokken of processen worden vergeleken.
+  - Eigentijd is een krachtige geometrische maat, geen extra substantie die materie aanstuurt.
+modelComponent: proper-time
+modelLimitations:
+  - Het model combineert speciale relativiteit met een vereenvoudigd, bolsymmetrisch aardmodel.
+  - Versnelling, aardrotatie en een fysiek volledig retourtraject zijn niet uitgewerkt.
+  - De simulatie verduidelijkt relaties en vervangt geen precisiemodel voor echte klokexperimenten.
 draft: false
 ---
 

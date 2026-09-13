@@ -6,6 +6,17 @@ tags: [Consciousness, Neuroscience, Philosophy]
 translationKey: theory-of-consciousness
 featuredImage: /images/artikelen/a-theory-of-consciousness/consciousness-arbitration.webp
 featuredImageAlt: A human profile merging neural networks and memories with a social world at sunset
+summary: This article proposes that consciousness becomes especially useful when specialised, largely automatic processes are insufficient. Novel, conflicting, uncertain or consequential situations require broad integration and arbitration. Relevance determines what receives priority, while learning can later return successful solutions to automatic control.
+keyPoints:
+  - Considerable sophisticated processing can occur without conscious experience or report.
+  - Conscious access is especially expected when information must be integrated broadly and competing options resolved.
+  - Relevance, bodily state and goals determine why an outcome matters to the organism.
+  - Report is a downstream capability and need not be what creates consciousness.
+modelComponent: consciousness
+modelLimitations:
+  - The displayed score operationalises the hypothesis; it does not measure consciousness.
+  - Its weights and thresholds are provisional and require empirical estimation or falsification.
+  - The model proposes a possible function and does not by itself solve the problem of subjective experience.
 draft: false
 ---
 

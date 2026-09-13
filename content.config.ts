@@ -10,6 +10,10 @@ const articleSchema = z.object({
   featuredImage: z.string().optional(),
   featuredImageAlt: z.string().optional(),
   originalUrl: z.string().url().optional(),
+  summary: z.string().optional(),
+  keyPoints: z.array(z.string()).optional(),
+  modelComponent: z.enum(['housing-policy', 'proper-time', 'consciousness']).optional(),
+  modelLimitations: z.array(z.string()).optional(),
   draft: z.boolean().default(false)
 })
 
