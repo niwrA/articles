@@ -15,7 +15,7 @@ keyPoints:
 modelComponent: pathogen-response
 modelLimitations:
   - Intervention scores are illustrative assumptions, not empirical effect sizes derived from studies.
-  - The model does not simulate an epidemic curve, interactions between measures, adherence or differences between population groups.
+  - The epidemic curve is an educational compartment simulation; effects, adherence and population differences are not empirically calibrated.
   - Real use requires current pathogen-specific evidence, local capacity, and legal, ethical and economic review.
   - The ranking demonstrates decision logic; it is not medical advice or a recommendation for real policy.
 draft: false
@@ -23,7 +23,13 @@ draft: false
 
 After COVID-19, many debates have examined which measures worked, arrived too late or caused more harm than expected. That evaluation is necessary, but it can also trap preparedness inside the previous crisis. The next serious outbreak need not involve a respiratory virus, transmission before symptoms or the same pressure on hospitals. A plan that chiefly remembers measures therefore learns less than a system that remembers **why** a measure made sense under particular conditions.
 
-The better opening question is not *what did we do last time?* It is: **which characteristics of this pathogen, in this situation, make which interventions effective and proportionate?** This is no longer merely a thought experiment. In 2025, the WHO published a threat-agnostic Decision Navigator combining epidemiology, health-system capacity, medical countermeasures, resources, feasibility, acceptance and unintended consequences.[1] The framework proposed here makes the same shift concrete and auditable.
+The better opening question is not *what did we do last time?* It is: **which characteristics of this pathogen, in this situation, make which interventions effective and proportionate?** This is no longer merely a thought experiment. On 24 September 2025, the WHO published a threat-agnostic Decision Navigator combining epidemiology, health-system capacity, medical countermeasures, resources, feasibility, acceptance and unintended consequences.[1] The framework proposed here makes the same shift concrete and auditable.
+
+## An important answer that arrived remarkably late
+
+The WHO framework closely touches the core of this article. It does not prescribe one measure that is always right; it organises the preceding reasoning: characterise threat and context, define objectives, compare packages together with mitigating measures, implement them and revise them as evidence changes. Business and education continuity, livelihoods, equity, legal feasibility and public acceptance all enter the decision system. It is not identical to the model below, but it is institutional recognition of the same problem: pandemic policy should be an auditable choice process rather than a list of reflexes inherited from the previous crisis.
+
+Yet the Navigator appeared more than five years after COVID-19 began. In the Netherlands, public hearings by the parliamentary inquiry committee on COVID-19 then ran from 29 May through 10 September 2026, examining chiefly what government and parliament did during the pandemic and why.[6] That retrospective work matters. But a hearing is different from a forward-looking instrument with which policymakers and the public can formulate alternatives, model them and define falsifiable limits in advance. The second activity deserves at least as much visibility: not only reconstructing why a measure was chosen, but demonstrably testing which other packages could perform better against the next threat.
 
 ## The same category can hide different systems
 
@@ -76,6 +82,10 @@ Uncertainty analysis can also produce a research agenda. If the policy ranking b
 
 Advice should not be an endpoint. It should contain indicators, thresholds, a review date and predefined reasons for escalation or relaxation. These might combine (R_t), hospital admissions, projected intensive-care occupancy, staff absence, test positivity and wastewater signals. No single indicator represents the entire system; together they can show whether the situation for which a package was chosen still exists.
 
+This should include strategies that are rarely compared systematically in public debate. Imagine a COVID-like virus for which the only intervention is a three-week shutdown of nearly all non-essential contacts every six months. A short intervention can sharply reduce prevalence if it pushes the effective reproduction number well below one. Once it ends and reproduction rises above one, however, exponential growth resumes. Whether a six-month rhythm is sufficient therefore cannot follow from duration alone: it depends on reproduction between interventions, achieved contact reduction, starting prevalence, immunity and waning, importation, seasonality, hospital and ICU risk, and the lag from infection to admission.
+
+A simple calculation makes the conjecture testable, but not presumptively true. With a generation time near five days, six months contains roughly 36 generations. Even an effective reproduction factor of 1.2 between shutdowns can, absent immunity constraints, permit growth by hundreds of times. Very low prevalence therefore does not remain low automatically. Research on periodic interventions does show that cyclical or threshold-based regimes can constrain healthcare peaks, although the required timing changes with epidemiological conditions.[7] The useful policy question is consequently not whether a calendar shutdown works universally, but under which parameter combinations it stays within limits for hospital load, simultaneous sickness absence, mortality and implementation burden. The explorer now exposes that comparison.
+
 This cannot remove political conflict, but it makes decisions more auditable. On Monday, a measure may be reasonable under deep uncertainty and threatened healthcare failure; three weeks later, better evidence, treatment or lower severity can make the same measure disproportionate. Changing advice then need not show that science failed. It can demonstrate that the system processed new evidence.
 
 Versioning is essential. Every decision should retain what was known, which sources and uncertainties were used, which objectives were weighted, which alternatives were considered, and why advice later changed. This creates an inspectable memory rather than a story reconstructed after the event.
@@ -90,14 +100,18 @@ Preparedness does not require predicting which pathogen will emerge. It requires
 
 ---
 
-## Sources
+## References
 
-[1] **World Health Organization — PHSM Decision Navigator (2025).** A threat-agnostic framework for effective, equitable and context-specific public-health and social measures. [View the framework](https://iris.who.int/items/b7f3ffe9-e39a-4e17-b61a-36ddc6b06282)
+1. **World Health Organization — PHSM Decision Navigator (2025).** A threat-agnostic framework for effective, equitable and context-specific public-health and social measures. [View the framework](https://iris.who.int/items/b7f3ffe9-e39a-4e17-b61a-36ddc6b06282)
 
-[2] **World Health Organization — Ebola disease (2025).** Current summary of transmission, timing and the combined outbreak-control package. [View the fact sheet](https://www.who.int/news-room/fact-sheets/detail/ebola-disease)
+2. **World Health Organization — Ebola disease (2025).** Current summary of transmission, timing and the combined outbreak-control package. [View the fact sheet](https://www.who.int/news-room/fact-sheets/detail/ebola-disease)
 
-[3] **He et al. — Temporal dynamics in viral shedding and transmissibility of COVID-19 (Nature Medicine, 2020).** Empirical reconstruction of infectiousness around symptom onset in early SARS-CoV-2 outbreaks. [Read the study](https://www.nature.com/articles/s41591-020-0869-5)
+3. **He et al. — Temporal dynamics in viral shedding and transmissibility of COVID-19 (Nature Medicine, 2020).** Empirical reconstruction of infectiousness around symptom onset in early SARS-CoV-2 outbreaks. [Read the study](https://www.nature.com/articles/s41591-020-0869-5)
 
-[4] **US Centers for Disease Control and Prevention — About Q fever (2024).** Overview of *Coxiella burnetii*, animal sources and infection through contaminated dust and birth products. [View the fact sheet](https://www.cdc.gov/q-fever/about/index.html)
+4. **US Centers for Disease Control and Prevention — About Q fever (2024).** Overview of *Coxiella burnetii*, animal sources and infection through contaminated dust and birth products. [View the fact sheet](https://www.cdc.gov/q-fever/about/index.html)
 
-[5] **World Health Organization — Conceptual framework for public health and social measures (2024).** Taxonomy of measures and their place in a dynamic, context-dependent system. [View the framework](https://cdn.who.int/media/docs/default-source/documents/epp/phsm/phsm-concept-framework_brochure_final.pdf?sfvrsn=743ace98_2)
+5. **World Health Organization — Conceptual framework for public health and social measures (2024).** Taxonomy of measures and their place in a dynamic, context-dependent system. [View the framework](https://cdn.who.int/media/docs/default-source/documents/epp/phsm/phsm-concept-framework_brochure_final.pdf?sfvrsn=743ace98_2)
+
+6. **Dutch House of Representatives — Public hearings of the parliamentary inquiry committee on COVID-19 (2026).** Timeline and themes of the public hearings. [View the overview](https://www.tweedekamer.nl/kamerleden_en_commissies/commissies/corona/openbare-verhoren)
+
+7. **Rinaldi et al. — Epidemiological model based periodic intervention policies for COVID-19 mitigation in the United Kingdom (Scientific Reports, 2022).** Modelling periodic interventions and healthcare capacity under changing epidemic conditions. [Read the study](https://www.nature.com/articles/s41598-022-19630-6)
