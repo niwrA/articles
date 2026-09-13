@@ -38,6 +38,36 @@ Sponsoring kan de andere kant op werken. Een aantoonbare bijdrage aan sportmogel
 ::SportDividendExplorer{locale="nl"}
 ::
 
+## Aandacht is zelf een geldstroom
+
+Tot hier lijkt de keuze vooral te gaan over geld dat bovenin wordt verdiend en daarna wordt verdeeld. Maar publiek, media-aandacht en sponsoring hoeven niet op dezelfde plaats te blijven. Stel dat we minder vaak gezamenlijk naar een paar grote clubs kijken en vaker naar een wedstrijd in de buurt gaan: het eerste jeugdteam, een lokale derby, atletiekwedstrijd, basketbalavond of zwemcompetitie. Dan verplaatst niet alleen onze tijd zich. Kaartverkoop, kantineomzet, lokale publiciteit en uiteindelijk ook sponsorwaarde bewegen mee.
+
+Dat scenario verschilt fundamenteel van een heffing. Een sportdividend verandert de bestemming van bestaande inkomsten via een regel. Een verschuiving van aandacht verandert waar commerciële waarde ontstaat. De sportbasis wordt dan niet alleen ontvanger van geld, maar produceert zelf meer inkomsten en publiekswaarde. In het model staan deze mechanismen daarom naast elkaar.
+
+Die verschuiving is niet kosteloos. Wanneer tien procent van de aandacht voor professionele sport verdwijnt, komt niet vanzelf tien procent van de bijbehorende omzet bij lokale verenigingen terecht. Een televisierecht, internationaal sponsorcontract en stadionticket hebben per kijker een andere waarde dan een bezoek aan een jeugdwedstrijd. Een deel van de besteding kan verdwijnen of naar ander amusement gaan. Het model vraagt daarom welk aandeel lokaal werkelijk wordt teruggewonnen en boekt alleen dat deel als lokale commerciële opbrengst.
+
+### Hoe blijft lokale sport aantrekkelijk?
+
+Lokale sport hoeft de Eredivisie niet op kleinere schaal na te bouwen. Haar onderscheidende waarde ligt juist in nabijheid: je kent spelers en ouders, kinderen zien leeftijdgenoten of oudere jeugd spelen, vrijwilligers ontmoeten buurtgenoten en de afstand tussen veld en publiek is klein. Recent onderzoek naar community sport ondersteunt het idee dat vooral de frequentie en kwaliteit van sociale interactie samenhangen met gemeenschapsbinding en vertrouwen, maar waarschuwt ook dat zulke effecten niet automatisch uit iedere sportactiviteit volgen.[4]
+
+Een aantrekkelijke lokale wedstrijd vraagt daarom meer dan betere tribunes. Een eenvoudig clubhuis, beschutting, goed licht, toegankelijk sanitair en een veilige fietsroute kunnen het bezoek prettiger maken. Een vaste speelavond, herkenbare lokale competitie, korte voorbeschouwing, muziek, eten en ruimte om na te praten maken er een terugkerende sociale gebeurtenis van. Jeugdwedstrijden vragen daarbij om een sfeer waarin aanmoedigen belangrijker blijft dan prestatiedruk; extra publiek mag de spelers niet reduceren tot goedkoop entertainment.
+
+Digitale middelen kunnen lokale aanwezigheid ondersteunen zonder haar te vervangen. Een gezamenlijke agenda, korte samenvattingen, uitslagen en verhalen over spelers en vrijwilligers maken zichtbaar wat er dichtbij gebeurt. Een volledige professionele uitzending is duur en kan mensen juist thuis houden. Een paar goed gekozen beelden kunnen voldoende zijn om de volgende wedstrijd te willen bezoeken.
+
+Sponsors krijgen in zo'n systeem een ander aanbod. Een internationaal merk koopt bij een topclub vooral bereik en associatie. Een plaatselijke ondernemer kan bij een club zichtbaarheid combineren met relaties, werknemersbetrokkenheid en een concreet verbeterproject: verlichting, een rolstoeltoegankelijke tribune, vervoer voor jeugdleden of de opleiding van trainers. Kleinere sponsorbedragen kunnen lokaal relatief veel verschil maken. Daar staat tegenover dat afhankelijkheid van enkele ondernemers, commerciële druk op jeugdteams en ongelijke draagkracht tussen rijke en arme buurten reële risico's zijn.
+
+### Een lokale positieve terugkoppeling
+
+Wanneer extra publiek leidt tot inkomsten en betere voorzieningen, kan een positieve kringloop ontstaan:
+
+> **meer lokale aandacht → meer inkomsten en vrijwilligers → prettiger wedstrijden en voorzieningen → meer lokale aandacht**
+
+Die kringloop heeft een grens. Een complex met te veel evenementen kan vrijwilligers overbelasten, omwonenden hinderen en ruimte voor gewone trainingen verdringen. Populariteit kan contributies of consumpties duurder maken, en een club met een sterke achterban kan verder uitlopen op een vereniging in een minder draagkrachtige wijk. Een deel van lokaal gegenereerd geld zal daarom wellicht opnieuw tussen clubs of sporten moeten worden gedeeld.
+
+Ook voor de professionele top hoeft de verschuiving niet uitsluitend verlies te betekenen. Lokale betrokkenheid kan nieuwe sporters en duurzame supporters voortbrengen. Grote clubs kunnen regionale competities, trainers, gezamenlijke kaartproducten en lokale media helpen ontwikkelen zonder iedere relatie tot talentextractie of merkpromotie te reduceren. Dan concurreren top en basis niet alleen om dezelfde aandacht, maar verzorgen zij verschillende delen van hetzelfde ecosysteem.
+
+Het model maakt deze mogelijkheid zichtbaar, maar niet voorspelbaar. De vier lokale parameters zijn scenarioaannames; er bestaat geen betrouwbaar Europees cijfer voor hoeveel professionele omzet bij een brede publieksverschuiving lokaal zou worden teruggewonnen. De relevante beleidsvraag wordt wel rijker. Naast ‘welk percentage verdelen we?’ komt te staan: **welk sportleven willen we met onze eigen aandacht rechtstreeks waarde geven?**
+
 ## Twee optima, geen antwoord met één decimaal
 
 De verkenner markeert twee verschillende maxima. Het eerste is het percentage dat binnen de gekozen aannames het meeste netto geld voor de sportbasis verzamelt. Het tweede maximaliseert een bredere, geschatte waarde van professionele sport, supportersbeleving en effectieve investeringen in breedtesport. Die percentages hoeven niet gelijk te zijn.
@@ -91,3 +121,5 @@ Het gedachte-experiment levert daarmee nog geen belastingtarief op, maar wel een
 [2] **UEFA — Solidarity payments.** Uitleg van bestaande uitkeringen aan niet-deelnemende clubs en de bestedingsvoorwaarden voor jeugd- en gemeenschapsontwikkeling. [Bekijk de regeling](https://www.uefa.com/development/our-support/solidarity-payments/)
 
 [3] **Politie, OM en KNVB — Voetbal & Veiligheid, seizoen 2024/2025.** Officiële registratie van wedstrijden, incidenten en politie-uren, inclusief beperkingen van de registratie. [Bekijk de rapportage](https://www.politie.nl/binaries/content/assets/politie/nieuws/2025/oktober/d0a97ebc-8556-44da-ae66-c744182c2014.pdf)
+
+[4] **Ye & Shi — Beyond the game: social interaction as a bridge from sports to community cohesion and belonging.** Cross-sectioneel onderzoek naar de rol van sociale interactie tussen sportdeelname, gemeenschapsbinding en vertrouwen; de auteurs benadrukken tevens dat de uitkomst afhangt van de kwaliteit van programma en relaties. [Lees het onderzoek](https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1886326/full)

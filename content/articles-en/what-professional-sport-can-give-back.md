@@ -38,6 +38,36 @@ Sponsorship may work in the other direction. A demonstrable contribution to chil
 ::SportDividendExplorer{locale="en"}
 ::
 
+## Attention is itself a flow of money
+
+So far, the choice appears to concern money earned at the top and subsequently distributed. Yet audiences, media attention and sponsorship need not remain in the same place. Suppose we collectively watched a few major clubs less often and attended more sport nearby: a leading youth side, local derby, athletics meeting, basketball evening or swimming competition. More than our time would move. Ticket and clubhouse revenue, local publicity and eventually sponsor value would move as well.
+
+This scenario is fundamentally different from a levy. A sport dividend changes the destination of existing revenue through a rule. An attention shift changes where commercial value originates. Grassroots sport then becomes not only a recipient of funding but a producer of more income and audience value. The model therefore places both mechanisms alongside one another.
+
+The shift is not costless. If ten per cent of attention leaves professional sport, ten per cent of the associated revenue does not automatically reach local clubs. A broadcasting right, international sponsorship contract and stadium ticket have a different value per viewer from attendance at a youth match. Some spending may disappear or move to other entertainment. The model consequently asks what share is actually recaptured locally and counts only that share as local commercial revenue.
+
+### How can local sport remain enjoyable?
+
+Local sport need not reconstruct the Premier League in miniature. Its distinctive value is proximity: spectators know players and parents, children see peers or older youth compete, volunteers meet neighbours, and the distance between field and audience is small. Recent community-sport research supports an association between the frequency and quality of social interaction and community attachment and trust, while also warning that these outcomes do not follow automatically from every sporting activity.[4]
+
+An attractive local fixture therefore needs more than improved stands. A simple clubhouse, shelter, good lighting, accessible toilets and a safe cycle route can make attendance more pleasant. A regular match night, recognisable local competition, short preview, music, food and room to talk afterwards can create a recurring social occasion. At youth matches, the atmosphere should keep encouragement ahead of performance pressure; a larger audience must not turn young athletes into inexpensive entertainment.
+
+Digital media can support local presence without replacing it. A shared calendar, brief highlights, results and stories about athletes and volunteers reveal what is happening nearby. A full professional broadcast is expensive and may encourage people to remain at home. A few well-chosen images may be enough to make them attend next time.
+
+Sponsors receive a different proposition in such a system. An international brand primarily buys reach and association from a major club. A local business can combine visibility with relationships, employee involvement and a tangible project: lighting, an accessible viewing area, transport for junior members or coach education. Smaller sums can make a relatively large local difference. Dependence on a few businesses, commercial pressure on youth teams and unequal resources between affluent and poorer neighbourhoods remain real risks.
+
+### A positive local feedback loop
+
+If additional audiences produce income and better facilities, a positive loop can emerge:
+
+> **more local attention → more revenue and volunteers → better fixtures and facilities → more local attention**
+
+The loop has limits. Too many events can exhaust volunteers, disturb neighbours and displace ordinary training. Popularity may raise fees or prices, while a club with an affluent following may pull further ahead of one in a poorer district. Some locally generated money may therefore need to be shared again between clubs or sports.
+
+Nor need an attention shift represent pure loss to elite sport. Local engagement may produce new participants and committed supporters. Major clubs can help develop regional competitions, coaches, combined ticket products and local media without reducing every relationship to talent extraction or brand promotion. Elite and grassroots sport would then do more than compete for the same attention; they would maintain different parts of one ecosystem.
+
+The model represents this possibility without pretending to predict it. Its four local parameters are scenario assumptions; no reliable European figure establishes how much professional revenue would be recaptured locally after a broad audience shift. The policy question does become richer. Alongside “what percentage should we distribute?” sits another question: **which sporting life do we choose to make valuable through our own attention?**
+
 ## Two optima, no answer to one decimal place
 
 The explorer marks two different maxima. The first is the rate that collects the largest net sum for grassroots sport under the selected assumptions. The second maximises a broader estimate combining professional sport, supporter enjoyment and effective grassroots investment. The two rates need not coincide.
@@ -91,3 +121,5 @@ This thought experiment therefore supplies no tax rate, but it does sharpen the 
 [2] **UEFA — Solidarity payments.** Explanation of existing distributions to non-participating clubs and conditions concerning youth and community development. [View the scheme](https://www.uefa.com/development/our-support/solidarity-payments/)
 
 [3] **Dutch police, public prosecution service and KNVB — Football & Safety, 2024/2025 season.** Official records of matches, incidents and police hours, including limitations of the registration. [View the report](https://www.politie.nl/binaries/content/assets/politie/nieuws/2025/oktober/d0a97ebc-8556-44da-ae66-c744182c2014.pdf)
+
+[4] **Ye & Shi — Beyond the game: social interaction as a bridge from sports to community cohesion and belonging.** Cross-sectional research on social interaction as a link between sport participation, community attachment and trust; the authors also stress that outcomes depend on programme and relationship quality. [Read the study](https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1886326/full)

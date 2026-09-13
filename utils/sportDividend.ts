@@ -1,5 +1,5 @@
-export type SportDividendParams={revenue:number;dividend:number;tolerance:number;sensitivity:number;shape:number;sponsorLift:number;coverage:number;mobility:number;absorption:number;socialMultiplier:number;crowdingOut:number;administration:number;fanSensitivity:number}
-export type SportDividendResult={rate:number;revenue:number;gross:number;net:number;effective:number;professional:number;grassroots:number;fan:number;total:number;marketLoss:number}
+export type SportDividendParams={revenue:number;dividend:number;tolerance:number;sensitivity:number;shape:number;sponsorLift:number;coverage:number;mobility:number;absorption:number;socialMultiplier:number;crowdingOut:number;administration:number;fanSensitivity:number;localAttention:number;localCapture:number;localSponsorLift:number;localBelonging:number}
+export type SportDividendResult={rate:number;revenue:number;gross:number;net:number;localCommercial:number;effective:number;professional:number;grassroots:number;fan:number;localValue:number;total:number;marketLoss:number}
 
 const clamp=(value:number,min=0,max=1)=>Math.max(min,Math.min(max,value))
 
@@ -9,15 +9,18 @@ export function calculateSportDividend(input:SportDividendParams,rate=input.divi
   const coverage=clamp(input.coverage/100)
   const leakage=d<=tolerance?0:1-Math.exp(-input.sensitivity*Math.pow((d-tolerance)*(1+input.mobility*(1-coverage)),input.shape))
   const sponsorBonus=(input.sponsorLift/100)*d*Math.exp(-2*d)
-  const revenue=input.revenue*(1-clamp(leakage,0,.98))*(1+sponsorBonus)
+  const localAttention=clamp(input.localAttention/100)
+  const revenue=input.revenue*(1-clamp(leakage,0,.98))*(1+sponsorBonus)*(1-localAttention)
+  const localCommercial=input.revenue*localAttention*clamp(input.localCapture/100)*(1+input.localSponsorLift/100)
   const gross=d*revenue
   const net=Math.max(0,gross*(1-clamp(input.crowdingOut/100))*(1-clamp(input.administration/100)))
   const absorption=Math.max(.05,input.absorption)
-  const effective=absorption*(1-Math.exp(-net/absorption))
+  const effective=absorption*(1-Math.exp(-(net+localCommercial)/absorption))
   const professional=(1-d)*revenue
   const grassroots=input.socialMultiplier*effective
   const fan=input.revenue*.22*Math.pow(Math.max(.02,revenue/input.revenue),input.fanSensitivity)
-  return{rate:rate,revenue,gross,net,effective,professional,grassroots,fan,total:professional+grassroots+fan,marketLoss:1-revenue/input.revenue}
+  const localValue=localCommercial*(1+input.localBelonging)
+  return{rate:rate,revenue,gross,net,localCommercial,effective,professional,grassroots,fan,localValue,total:professional+grassroots+fan+localValue,marketLoss:1-revenue/input.revenue}
 }
 
 export function sportDividendCurve(params:SportDividendParams){
@@ -26,7 +29,7 @@ export function sportDividendCurve(params:SportDividendParams){
 
 export function sportDividendOptima(params:SportDividendParams){
   const curve=sportDividendCurve(params)
-  const funding=curve.reduce((best,row)=>row.net>best.net?row:best)
+  const funding=curve.reduce((best,row)=>row.effective>best.effective?row:best)
   const social=curve.reduce((best,row)=>row.total>best.total?row:best)
   return{curve,funding,social}
 }
