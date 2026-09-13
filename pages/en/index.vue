@@ -11,10 +11,10 @@ useHead({ htmlAttrs: { lang: 'en' } })
       <h1>Read the argument. Explore the assumptions.</h1>
       <p class="lead">Long-form essays for the complete reasoning, concise summaries for orientation, and interactive models for exploring when a conclusion changes.</p>
     </section>
-    <CompactArticleIndex class="wrap" :articles="articles || []" locale="en-GB" />
+    <CompactArticleIndex id="articles" class="wrap" :articles="articles || []" locale="en-GB" />
   </div>
 </template>
 
 <style scoped>
-.home-hero{padding-top:64px;padding-bottom:36px}.home-hero h1{font-size:clamp(3rem,6.5vw,6rem)}.home-hero .lead{margin:24px 0 0}@media(max-width:750px){.home-hero{padding-top:45px;padding-bottom:20px}}
+.home-hero{padding-top:64px;padding-bottom:36px}.home-hero h1{font-size:clamp(3rem,6.5vw,6rem)}.home-hero .lead{margin:24px 0 0}#articles{scroll-margin-top:24px}@media(max-width:750px){.home-hero{padding-top:45px;padding-bottom:20px}}
 </style>
