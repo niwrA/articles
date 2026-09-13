@@ -17,6 +17,8 @@ modelLimitations:
   - Het model combineert speciale relativiteit met een vereenvoudigd, bolsymmetrisch aardmodel.
   - Versnelling, aardrotatie en een fysiek volledig retourtraject zijn niet uitgewerkt.
   - De simulatie verduidelijkt relaties en vervangt geen precisiemodel voor echte klokexperimenten.
+aiReviewModel: GPT-5.6 Sol
+aiReviewDate: 2026-09-10
 draft: false
 ---
 

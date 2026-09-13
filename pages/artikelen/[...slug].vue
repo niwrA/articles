@@ -42,6 +42,7 @@ const viewMode = computed<'summary'|'full'>({
       <h1>{{ article.title }}</h1>
       <p class="lead">{{ article.description }}</p>
       <div class="byline"><span>Door Arwin van Arum</span><time :datetime="article.date">{{ date(article.date) }}</time><span>{{ formatReadingTime(article.body) }}</span></div>
+      <p v-if="article.aiReviewModel && article.aiReviewDate" class="review-provenance">AI-ondersteunde inhoudelijke controle: {{ article.aiReviewModel }} · <time :datetime="article.aiReviewDate">{{ date(article.aiReviewDate) }}</time></p>
       <NuxtLink v-if="translation" :to="translation.path" hreflang="en" class="article-language">Read this article in English →</NuxtLink>
       <ArticleShare :title="article.title" :description="article.description" :url="canonicalUrl" :article-key="article.translationKey" locale="nl" />
     </header>

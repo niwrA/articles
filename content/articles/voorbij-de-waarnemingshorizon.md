@@ -16,6 +16,8 @@ modelLimitations:
   - Voorstellen over processen achter de horizon zijn speculatief en momenteel niet rechtstreeks toetsbaar.
   - Zwartegatsterren zijn een actief onderzoeksgebied en geen gevestigde populatie gewone zwarte gaten.
   - Analogieën met een levend systeem zijn organisatorisch bedoeld, niet biologisch.
+aiReviewModel: GPT-5.6 Sol
+aiReviewDate: 2026-09-10
 draft: false
 ---
 

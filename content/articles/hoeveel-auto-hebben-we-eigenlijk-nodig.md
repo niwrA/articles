@@ -17,10 +17,10 @@ modelLimitations:
   - De keuzehulp adviseert een capaciteitsklasse, geen specifiek voertuig.
   - Werkelijke uitstoot en kosten hangen af van model, aandrijving, bezetting en elektriciteitsmix.
   - Bijzondere toegankelijkheids- of werkeisen moeten individueel worden beoordeeld.
+aiReviewModel: GPT-5.6 Sol
+aiReviewDate: 2026-09-10
 draft: false
 ---
-
-***Noot van de auteur:*** *Dit artikel maakt deel uit van een serie waarin ik onderwerpen en beweringen die mijn aandacht trekken met behulp van AI uitgebreider probeer te factchecken. Daarbij gebruik ik OpenAI's ChatGPT (GPT-5.6 Sol) om aannames kritisch te toetsen, wetenschappelijke en andere primaire bronnen te vinden, tegenargumenten te onderzoeken en de analyse verder uit te werken. De interessantste resultaten van die factchecks werk ik uit tot artikelen om ze met anderen te delen. AI is daarbij een hulpmiddel voor onderzoek en redactie, niet de bron van de conclusies; de uiteindelijke interpretatie, argumentatie en publicatie vallen onder mijn verantwoordelijkheid.*
 
 ---
 

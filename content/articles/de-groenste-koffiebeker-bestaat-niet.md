@@ -18,8 +18,6 @@ modelLimitations:
 draft: false
 ---
 
-***Noot van de auteur:*** *Dit artikel is een voorbeeld van de gedachte achter Interactive Thought: vervang een te algemene stelling waar mogelijk door een controleerbaar model dat laat zien onder welke omstandigheden een conclusie geldt. Bij het onderzoeken, structureren en uitwerken van het artikel is AI als hulpmiddel gebruikt. De aannames en uitkomsten van het model zijn nadrukkelijk bewerkbaar; de uiteindelijke interpretatie en publicatie vallen onder mijn verantwoordelijkheid.*
-
 ## Waarom een mok soms wint, een wegwerpbeker soms verrassend dichtbij komt, en vooral ons gedrag de uitslag bepaalt
 
 Op kantoor lijkt de keuze eenvoudig. Een papieren beker voelt natuurlijker dan plastic. Een eigen mok voelt nog beter: die gooi je immers niet weg. Maar zodra we de hele levenscyclus meetellen, wordt de vraag ongemakkelijker. Een mok moet worden gemaakt, vervoerd en honderden keren afgewassen. Een papieren beker is bijna nooit alleen van papier, want voor warme dranken heeft hij meestal een kunststof coating nodig. Een plastic beker gebruikt fossiele grondstoffen, maar kan zeer licht zijn. Recycling helpt alleen als de beker daadwerkelijk apart wordt ingezameld, voldoende schoon is en terechtkomt bij een proces dat het materiaal opnieuw benut.

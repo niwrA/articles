@@ -17,12 +17,12 @@ modelLimitations:
   - The model combines special relativity with a simplified, spherically symmetric Earth model.
   - Acceleration, Earth rotation and a physically complete return trajectory are omitted.
   - The simulation clarifies relationships and is not a precision model for real clock experiments.
+aiReviewModel: GPT-5.6 Sol
+aiReviewDate: 2026-09-10
 draft: false
 ---
 
 ### Time Matters. But Matter matters more.
-
-*Author's note: This essay grew out of an extended conversation between me and OpenAI's ChatGPT (GPT-5.6 Sol). The underlying hypothesis and line of inquiry were developed iteratively through that dialogue, with ChatGPT contributing scientific context, critical examination, research, structure and editorial development. The final argument and publication are the author's responsibility.*
 
 ## Resetting Time to Its Proper Place in Physics
 

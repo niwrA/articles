@@ -18,8 +18,6 @@ modelLimitations:
 draft: false
 ---
 
-***Author’s note:*** *This article illustrates the idea behind Interactive Thought: wherever possible, replace an overly general claim with a testable model that shows the conditions under which a conclusion holds. AI was used as a tool while researching, structuring and developing the article. The assumptions and outcomes of the model are deliberately editable; responsibility for the final interpretation and publication remains mine.*
-
 ## Why a mug sometimes wins, a disposable cup sometimes comes surprisingly close, and our behaviour decides the outcome
 
 At the office, the choice appears straightforward. A paper cup feels more natural than plastic. A mug of your own feels better still: after all, you do not throw it away. But the question becomes less comfortable once we include the entire life cycle. A mug must be manufactured, transported and washed hundreds of times. A paper cup is rarely made of paper alone, because hot drinks generally require a plastic barrier coating. A plastic cup uses fossil resources, but can be extremely light. Recycling helps only if the cup is actually collected separately, is sufficiently clean and reaches a process that puts the material to further use.

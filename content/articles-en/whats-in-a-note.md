@@ -16,10 +16,12 @@ modelLimitations:
   - The discussion concentrates mainly on Western notation, jazz and Argentine tango.
   - Performance practices differ by period, orchestra, recording and local tradition.
   - No short summary can replace the audible and embodied nature of stylistic knowledge.
+aiReviewModel: GPT-5.6 Sol
+aiReviewDate: 2026-09-10
 draft: false
 ---
 
-*Author's note: This essay grew among others from my recent years of experience in playing and singing in a Tango Orchestra, which required me to learn much more about music notation than I had previously needed. I learnt a lot, had a lot of thoughts about what I learnt, and really wanted to write them down. While writing, I used OpenAI's ChatGPT (GPT-5.6 Sol) as a sparring partner to get the facts right (as much as possible at least) and the structure sound, as well as do a lot of the hard work of actually writing.* 
+This essay grew in part from my experience of playing and singing in a tango orchestra, which required me to learn much more about musical notation than I had previously needed. I learnt a great deal, but it also raised questions that I wanted to examine more carefully.
 
 ### On notation, interpretation, and what music asks of musicians
 

@@ -14,6 +14,8 @@ const articleSchema = z.object({
   keyPoints: z.array(z.string()).optional(),
   modelComponent: z.enum(['housing-policy', 'proper-time', 'consciousness', 'tango-movement', 'coffee-cups', 'car-needs']).optional(),
   modelLimitations: z.array(z.string()).optional(),
+  aiReviewModel: z.string().optional(),
+  aiReviewDate: z.string().optional(),
   draft: z.boolean().default(false)
 })
 

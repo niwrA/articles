@@ -16,12 +16,12 @@ modelLimitations:
   - Proposed processes beyond the horizon are speculative and not currently open to direct observation.
   - Black hole stars are an active research topic, not an established population of ordinary black holes.
   - The comparison with a living system concerns organisation and dynamics, not biology.
+aiReviewModel: GPT-5.6 Sol
+aiReviewDate: 2026-09-10
 draft: false
 ---
 
 ### From Black Hole Stars to a Universe of Concentration, Transformation and Renewal
-
-***Author's note:*** *This essay grew out of an extended conversation between me and OpenAI's ChatGPT (GPT-5.6 Sol). The underlying hypothesis and line of inquiry were developed iteratively through that dialogue, with ChatGPT contributing scientific context, critical examination, research, structure and editorial development. The final argument and publication are the author's responsibility.*
 
 The [**emerging discovery**](https://science.nasa.gov/missions/webb/nasa-webb-finds-strongest-evidence-yet-for-black-hole-stars/) of **black hole stars**, or BH★ objects, offers more than another exotic entry in the catalogue of things that exist in the universe. It challenges some of the mental pictures with which we have learned to think about black holes. The traditional image is remarkably static: matter falls inward, crosses an event horizon and disappears into a region from which nothing returns. Around that picture we have built familiar phrases such as *gravitational sink*, *point of no return* and even *black hole* itself. They are useful descriptions, but they can easily become conceptual traps.
 

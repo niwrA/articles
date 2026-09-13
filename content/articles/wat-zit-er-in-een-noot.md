@@ -16,10 +16,12 @@ modelLimitations:
   - De analyse richt zich vooral op westerse notatie, jazz en Argentijnse tango.
   - Uitvoeringspraktijken verschillen per periode, orkest, opname en lokale traditie.
   - Geen korte samenvatting kan het auditieve en lichamelijke karakter van stijlkennis vervangen.
+aiReviewModel: GPT-5.6 Sol
+aiReviewDate: 2026-09-10
 draft: false
 ---
 
-*Dit essay is onder meer ontstaan uit mijn ervaringen van de afgelopen jaren met spelen en zingen in een tango-orkest. Daardoor moest ik veel meer leren over muzieknotatie dan ik daarvoor ooit nodig had gehad. Ik heb daar veel van geleerd, maar het riep ook veel vragen en gedachten op die ik graag eens wilde opschrijven. Tijdens het schrijven heb ik OpenAI’s ChatGPT (GPT-5.6 Sol) gebruikt als sparringpartner om de feiten zo goed mogelijk te controleren, de structuur van het stuk scherp te krijgen en een flink deel van het schrijfwerk uit te voeren.*
+Dit essay is onder meer ontstaan uit mijn ervaringen met spelen en zingen in een tango-orkest. Daardoor moest ik veel meer leren over muzieknotatie dan ik daarvoor ooit nodig had gehad. Ik heb daar veel van geleerd, maar het riep ook vragen op die ik graag eens wilde uitwerken.
 
 ### Over notatie, interpretatie en wat muziek van musici vraagt
 
