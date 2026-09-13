@@ -1,10 +1,22 @@
-<script setup lang="ts">useSeoMeta({ title: 'About', description: 'How Arwin van Arum develops his articles and interactive models.' }); useHead({ htmlAttrs: { lang: 'en' } })</script>
+<script setup lang="ts">useSeoMeta({ title: 'About Interactive Thought', description: 'About Interactive Thought: long-form essays, concise summaries and transparent interactive models by Arwin van Arum.' }); useHead({ htmlAttrs: { lang: 'en' } })</script>
 <template>
   <div class="wrap page-top about-grid">
-    <div><p class="eyebrow">About</p><h1>Sharp, meaningful and considered.</h1></div>
+    <div><p class="eyebrow">About</p><h1>Sharp, meaningful and considered.</h1><p class="about-intro">Ideas become more interesting when you can examine not only the conclusion, but also the assumptions behind it.</p></div>
     <div class="prose">
-      <p>In the articles on this site, I set down my thoughts on subjects that occupy me. As I write, I test my ideas as thoroughly as possible against the available evidence and the current state of scientific knowledge. I use AI as a tool in that process: to investigate sources and arguments, scrutinise lines of reasoning, and translate or develop texts. The final choices, interpretations and conclusions remain my own.</p>
-      <p>Some questions cannot be captured adequately in prose or in a snapshot of the present. When the relationships between variables are what matter most, I therefore try to accompany the article with an interactive model. Such a model makes its assumptions visible and allows readers to explore different values and scenarios for themselves. It can consequently remain useful as circumstances change, when considering future developments, or when applying the ideas to other countries, places and situations. <NuxtLink to="/en/articles/the-greenest-coffee-cup-does-not-exist">The Greenest Coffee Cup Does Not Exist</NuxtLink> demonstrates this approach through a compact, everyday example.</p>
+      <h2>Why Interactive Thought?</h2>
+      <p>This site is my own durable home for essays on subjects that occupy me, ranging from physics and consciousness to housing, mobility, music and dance. The articles aim not merely to present a position, but to make a line of reasoning inspectable. I look for factual evidence, relevant scientific literature and counterarguments, while trying to distinguish what is well supported, plausible or still speculative.</p>
+      <p>The idea behind Interactive Thought grew from a simple question about coffee cups. Rather than claiming that one kind of cup is always more sustainable, it proved more useful to construct a formula showing the conditions under which each choice performs better. <NuxtLink to="/en/articles/the-greenest-coffee-cup-does-not-exist">The Greenest Coffee Cup Does Not Exist</NuxtLink> is the most everyday illustration of that approach.</p>
+
+      <h2>Two ways to read</h2>
+      <p>The essays are often long because interesting subjects rarely fit into one confident paragraph. Every article therefore also has an <em>At a glance</em> view containing its central idea, key insights and the scope or limitations of the analysis. This lets you decide whether you want to commit to the complete argument. The full article then provides the qualifications, evidence and sources.</p>
+
+      <h2>Models where they add something</h2>
+      <p>When an outcome depends primarily on interacting variables, I add an interactive model. It lets readers change assumptions, compare scenarios and, in some cases, observe how effects develop over time. Models accompanying articles on housing, car size, coffee cups, relativity, consciousness and tango each use an explicit calculation or state layer from which several visualisations can be derived.</p>
+      <p>A model is not proof, nor is it a substitute for reality. It is a simplification that should expose the assumed relationships and the conclusions that follow from them. The short view therefore also states what a model cannot establish. Where interaction contributes little, an article remains text; a model should never be present merely as a gimmick.</p>
+
+      <h2>The role of AI</h2>
+      <p>I use AI extensively as a research and editorial tool: to locate sources, check factual claims, formulate objections, develop models and software, and produce Dutch and English versions. AI can generate errors and misinterpret sources. Source verification, editorial choices, reasoning and publication therefore remain my responsibility. These articles are personal analyses, not peer-reviewed scientific publications.</p>
     </div>
   </div>
 </template>
+<style scoped>.about-intro{max-width:34rem;margin-top:1.5rem;color:var(--muted);font-family:'Newsreader',serif;font-size:1.35rem;line-height:1.5}.prose h2:first-child{margin-top:0}</style>
