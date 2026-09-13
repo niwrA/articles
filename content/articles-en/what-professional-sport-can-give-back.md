@@ -4,6 +4,9 @@ description: Can professional sport return some of its commercial value to the g
 date: 2026-09-13
 tags: [Sport, Economics, Solidarity]
 translationKey: sport-dividend
+featuredImage: /images/artikelen/sport-dividend/sport-dividend-community.webp
+featuredImageAlt: A large stadium in the background is connected by streams of light to lively local sports grounds and neighbourhood spectators.
+featuredImageFocalPoint: 50% 57%
 summary: Elite and grassroots sport form one ecosystem, yet commercial returns are concentrated at the top. A sport dividend could return funding to clubs, facilities and access. How much makes sense depends on market behaviour, international coverage, spending capacity and where the contribution is collected. The model therefore does not seek a politically desirable rate; it shows under which assumptions redistribution works or backfires.
 keyPoints:
   - High sporting incomes can be economically explicable; the question concerns the system, not personal merit.

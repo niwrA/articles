@@ -28,7 +28,7 @@ const date=(value:string)=>new Intl.DateTimeFormat(props.locale,{day:'numeric',m
     <div v-if="visible.length" class="article-grid">
       <article v-for="article in visible" :key="article.path" class="compact-card">
         <NuxtLink class="card-image" :to="article.path" :aria-label="article.title">
-          <img v-if="article.featuredImage" :src="article.featuredImage" :alt="article.featuredImageAlt||''" loading="lazy">
+          <img v-if="article.featuredImage" :src="article.featuredImage" :alt="article.featuredImageAlt||''" :style="{objectPosition:article.featuredImageFocalPoint||'50% 50%'}" loading="lazy">
           <span v-else aria-hidden="true">{{article.tags?.[0]||'Essay'}}</span>
         </NuxtLink>
         <div class="card-meta"><time :datetime="article.date">{{date(article.date)}}</time><span v-if="article.tags?.[0]">{{article.tags[0]}}</span><span>{{formatReadingTime(article.body,locale)}}</span></div>

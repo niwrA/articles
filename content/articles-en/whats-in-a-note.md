@@ -7,6 +7,7 @@ tags: [Music, Notation, Interpretation]
 translationKey: whats-in-a-note
 featuredImage: /images/artikelen/whats-in-a-note/whats-in-a-note.webp
 featuredImageAlt: A visual collage connecting musical notation, improvisation, jazz, tango and instrumental performance
+featuredImageFocalPoint: 50% 55%
 summary: A written note records pitch and duration, but never the whole music. Performance practice, instrumental technique, style, phrasing and the function of a part determine how notation sounds. Jazz and tango show especially clearly that sparse information on paper may presuppose extensive knowledge in the musician and ensemble.
 keyPoints:
   - Notation preserves selected information; it is not a recording of a performance.

@@ -4,6 +4,9 @@ description: Why a mug sometimes wins, a disposable cup sometimes comes surprisi
 date: 2026-09-13
 tags: [Sustainability, Systems, Models]
 translationKey: coffee-cups
+featuredImage: /images/artikelen/coffee-cups/coffee-cup-systems.webp
+featuredImageAlt: Three different coffee cups sit at the centre of a collage showing production, transport, energy, washing and waste treatment.
+featuredImageFocalPoint: 50% 54%
 summary: No cup material is environmentally best under every set of circumstances. Impact per drink depends on manufacture, weight, reuse, washing, energy supply, breakage and waste treatment. A ceramic mug can repay its larger production footprint, but only when it is used often enough and washed efficiently.
 keyPoints:
   - Compare cups per actual drink and across their full life cycle.

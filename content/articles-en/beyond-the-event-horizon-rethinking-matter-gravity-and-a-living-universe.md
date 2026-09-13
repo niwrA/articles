@@ -7,6 +7,7 @@ tags: [Physics, Black Holes, Cosmology]
 translationKey: beyond-the-event-horizon
 featuredImage: /images/artikelen/beyond-the-event-horizon/black-hole-inside.webp
 featuredImageAlt: A view inside a black hole represented as a luminous, dynamic cosmic structure
+featuredImageFocalPoint: 50% 54%
 summary: An event horizon marks a boundary to our access to information, not necessarily the end of physical dynamics. This essay examines how gravity concentrates matter, how matter changes state under compression and why black-hole-star candidates invite a more dynamic picture of black holes. Beyond the horizon, the argument deliberately becomes speculative because classical general relativity does not supply a complete empirically tested ontology there.
 keyPoints:
   - Black holes do not indiscriminately vacuum up distant matter; infalling material must lose energy and angular momentum.

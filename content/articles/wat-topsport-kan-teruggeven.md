@@ -4,6 +4,9 @@ description: Kan een deel van de commerciële waarde van topsport terugvloeien n
 date: 2026-09-13
 tags: [Sport, Economie, Solidariteit]
 translationKey: sport-dividend
+featuredImage: /images/artikelen/sport-dividend/sport-dividend-community.webp
+featuredImageAlt: Een groot stadion op de achtergrond is door lichtstromen verbonden met levendige lokale sportvelden en toeschouwers in de buurt.
+featuredImageFocalPoint: 50% 57%
 summary: Topsport en breedtesport vormen één ecosysteem, maar de commerciële opbrengsten zijn sterk aan de top geconcentreerd. Een sportdividend kan geld terugbrengen naar verenigingen, accommodaties en toegankelijkheid. Hoeveel zinvol is, hangt af van marktgedrag, internationale dekking, bestedingscapaciteit en de gekozen grondslag. Het model zoekt daarom geen politiek gewenst percentage, maar laat zien onder welke aannames herverdeling werkt of juist averechts uitpakt.
 keyPoints:
   - Hoge sportinkomens kunnen economisch verklaarbaar zijn; de vraag gaat over het systeem, niet over persoonlijke verdienste.

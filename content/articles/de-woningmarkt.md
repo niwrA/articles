@@ -6,6 +6,9 @@ updated: 2026-09-13
 tags: [Wonen, Beleid, Systemen]
 translationKey: housing-market
 originalUrl: https://www.linkedin.com/pulse/de-woningmarkt-arwin-van-arum-mruse
+featuredImage: /images/artikelen/de-woningmarkt/wooncapaciteit-knoppen.webp
+featuredImageAlt: Overzicht van beleidsknoppen om wooncapaciteit te vergroten, met indicaties voor impact, snelheid, kosten en structureel effect.
+featuredImageFocalPoint: 50% 44%
 summary: Nederland heeft niet alleen een tekort aan woningen, maar een verdelings- en capaciteitsprobleem waarin bevolkingsontwikkeling, huishoudensvorming, woonoppervlak, locatie en betaalbaarheid samenkomen. Het interactieve model laat zien hoe de vraag zich zonder ingrijpen ontwikkelt en hoe verschillende maatregelen afzonderlijk en gezamenlijk een deel van het tekort kunnen verminderen.
 keyPoints:
   - Woningvraag volgt het aantal huishoudens sterker dan alleen het aantal inwoners.

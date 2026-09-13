@@ -4,6 +4,9 @@ description: Waarom een mok soms wint, een wegwerpbeker soms verrassend dichtbij
 date: 2026-09-13
 tags: [Duurzaamheid, Systemen, Modellen]
 translationKey: coffee-cups
+featuredImage: /images/artikelen/coffee-cups/coffee-cup-systems.webp
+featuredImageAlt: Drie verschillende koffiebekers staan centraal in een collage van productie, transport, energie, afwassen en afvalverwerking.
+featuredImageFocalPoint: 50% 54%
 summary: Er bestaat geen bekermateriaal dat onder alle omstandigheden het duurzaamst is. De uitkomst per koffiemoment hangt af van productie, gewicht, hergebruik, afwaswijze, energiebron, breuk en afvalverwerking. Een keramische mok kan haar hogere productie-impact terugverdienen, maar alleen wanneer zij vaak genoeg en efficiënt wordt gebruikt.
 keyPoints:
   - Vergelijk bekers per werkelijk koffiemoment en over de volledige levenscyclus.
