@@ -8,6 +8,7 @@ translationKey: beyond-the-event-horizon
 featuredImage: /images/artikelen/beyond-the-event-horizon/voorbij-de-waarnemingshorizon.webp
 featuredImageAlt: Een zwart gat als dynamisch kosmisch systeem waarin materie wordt geconcentreerd en getransformeerd
 featuredImageFocalPoint: 50% 43%
+featuredImageMobileFocalPoint: 50% 29%
 summary: Een waarnemingshorizon markeert de grens van onze toegang tot informatie, niet noodzakelijk het einde van fysieke dynamiek. Dit essay onderzoekt hoe zwaartekracht materie concentreert, hoe materie onder druk van toestand verandert en waarom zwartegatsterren uitnodigen tot een dynamischer beeld van zwarte gaten. Voorbij de horizon wordt de gedachtegang bewust speculatief, omdat klassieke algemene relativiteit daar geen complete empirisch getoetste ontologie biedt.
 keyPoints:
   - Zwarte gaten zuigen niet op afstand alles op; materie moet energie en impulsmoment verliezen om in te vallen.

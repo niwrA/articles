@@ -7,6 +7,7 @@ tags: [Mobiliteit, Auto, Ruimte]
 translationKey: how-much-car-do-we-need
 featuredImage: /images/artikelen/hoeveel-auto/auto-parkeren.webp
 featuredImageAlt: Drie kleinere auto's en twee grotere auto's nemen samen ongeveer evenveel parkeerruimte in
+featuredImageMobileFocalPoint: 50% 54%
 summary: De juiste autogrootte wordt niet bepaald door de uitzonderlijkste rit, maar door de capaciteit die iemand structureel gebruikt en de alternatieven voor incidentele pieken. Grotere en zwaardere auto's vragen meer energie en ruimte en vergroten bepaalde veiligheidsrisico's. Een passende kleinere auto, aangevuld met huur of andere mobiliteit wanneer nodig, kan daarom functioneel én maatschappelijk gunstiger zijn.
 keyPoints:
   - Gebruikspatroon is relevanter dan één universeel ideaal voertuigformaat.

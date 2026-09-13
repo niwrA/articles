@@ -7,6 +7,7 @@ tags: [Physics, Relativity, Philosophy]
 translationKey: time-proper-place
 featuredImage: /images/artikelen/time-and-relativity/time-matters.webp
 featuredImageAlt: Two clocks follow different paths through curved spacetime before reuniting for comparison
+featuredImageMobileFocalPoint: 50% 38%
 summary: Relativity describes how physical systems following different worldlines accumulate different amounts of proper time. Conceptually, it can be clearer to begin not with time as something that controls processes, but with clocks and other material systems that undergo different physical histories and prove to have changed by different amounts when reunited.
 keyPoints:
   - A clock measures change by comparing one regular physical process with another process.

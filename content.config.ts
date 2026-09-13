@@ -10,6 +10,7 @@ const articleSchema = z.object({
   featuredImage: z.string().optional(),
   featuredImageAlt: z.string().optional(),
   featuredImageFocalPoint: z.string().optional(),
+  featuredImageMobileFocalPoint: z.string().optional(),
   originalUrl: z.string().url().optional(),
   summary: z.string().optional(),
   keyPoints: z.array(z.string()).optional(),
