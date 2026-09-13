@@ -22,14 +22,18 @@ const openFull = () => {
       </div>
     </section>
 
-    <div class="summary-model prose wrap">
+    <div v-if="article.modelComponent" class="summary-model prose wrap">
       <HousingPolicyExplorer v-if="article.modelComponent==='housing-policy'" />
       <ProperTimeExplorer v-else-if="article.modelComponent==='proper-time'" :locale="locale" />
       <ConsciousnessHypothesisExplorer v-else-if="article.modelComponent==='consciousness'" :locale="locale" />
+      <TangoMovementExplorer v-else-if="article.modelComponent==='tango-movement'" :locale="locale" />
+      <CoffeeCupModel v-else-if="article.modelComponent==='coffee-cups' && locale==='nl'" />
+      <CoffeeCupModelEn v-else-if="article.modelComponent==='coffee-cups'" />
+      <CarNeedsModel v-else-if="article.modelComponent==='car-needs'" />
     </div>
 
     <section v-if="article.modelLimitations?.length" class="limits wrap">
-      <h3>{{nl?'Wat dit model niet bewijst':'What this model does not establish'}}</h3>
+      <h3>{{article.modelComponent ? (nl?'Wat dit model niet bewijst':'What this model does not establish') : (nl?'Reikwijdte en beperkingen':'Scope and qualifications')}}</h3>
       <ul><li v-for="item in article.modelLimitations" :key="item">{{item}}</li></ul>
     </section>
     <div class="continue wrap">

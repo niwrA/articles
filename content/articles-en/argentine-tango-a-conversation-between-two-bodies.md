@@ -6,6 +6,17 @@ tags: [Tango, Dance, Improvisation]
 translationKey: argentine-tango-conversation
 featuredImage: /images/artikelen/argentine-tango/argentine-tango-conversation.webp
 featuredImageAlt: Two Argentine tango dancers in a close embrace at a warmly lit milonga
+summary: Argentine tango can be understood more fruitfully as an improvised conversation than as one-way transmission from leader to follower. The dancers need not initiate simultaneously, but listen, respond and shape one another's possibilities. Position, weight, connection, available space and music jointly determine what can sensibly happen next.
+keyPoints:
+  - Leading and following are temporary functions within a shared process.
+  - Each new bodily configuration enables some possibilities and excludes others.
+  - The dancers can express different aspects of the same music.
+  - Equality does not require both dancers to do the same thing at every moment.
+modelComponent: tango-movement
+modelLimitations:
+  - The simulation is a schematic state model, not dance instruction.
+  - Balance, contact and body geometry are greatly simplified.
+  - Actual communication includes subtle tension, timing and perception that the model cannot fully represent.
 draft: false
 ---
 

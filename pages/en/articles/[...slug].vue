@@ -25,7 +25,7 @@ useHead({ htmlAttrs: { lang: 'en' }, link: [
 ] })
 const date = (value: string) => new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(value))
 const renderedArticle = computed(() => withCitations(article.value!, 'en'))
-const hasSummary = computed(() => Boolean(article.value?.summary && article.value?.modelComponent))
+const hasSummary = computed(() => Boolean(article.value?.summary))
 const hydrated = ref(false)
 onMounted(() => { hydrated.value = true })
 const viewMode = computed<'summary'|'full'>({

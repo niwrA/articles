@@ -6,6 +6,16 @@ tags: [Muziek, Notatie, Interpretatie]
 translationKey: whats-in-a-note
 featuredImage: /images/artikelen/whats-in-a-note/wat-zit-er-in-een-noot.webp
 featuredImageAlt: Een beeldcollage waarin bladmuziek, tango, een bandoneon, viool, piano en muzikale interpretatie samenkomen
+summary: Een geschreven noot legt toonhoogte en duur vast, maar nooit de volledige muziek. Uitvoeringspraktijk, instrumenttechniek, stijl, frasering en de functie van een stem bepalen hoe notatie klinkt. Vooral jazz en tango laten zien dat weinig informatie op papier juist veel kennis in de musicus en het ensemble kan veronderstellen.
+keyPoints:
+  - Notatie bewaart selectieve informatie en is geen opname van een uitvoering.
+  - Dezelfde symbolen vragen op verschillende instrumenten om andere lichamelijke handelingen.
+  - Stijlkennis bepaalt welke timing, articulatie en rol achter de noten schuilgaan.
+  - Goed samenspel vraagt niet alleen correct lezen, maar begrip van functies en gedeelde conventies.
+modelLimitations:
+  - De analyse richt zich vooral op westerse notatie, jazz en Argentijnse tango.
+  - Uitvoeringspraktijken verschillen per periode, orkest, opname en lokale traditie.
+  - Geen korte samenvatting kan het auditieve en lichamelijke karakter van stijlkennis vervangen.
 draft: false
 ---
 

@@ -4,6 +4,17 @@ description: Waarom een mok soms wint, een wegwerpbeker soms verrassend dichtbij
 date: 2026-09-13
 tags: [Duurzaamheid, Systemen, Modellen]
 translationKey: coffee-cups
+summary: Er bestaat geen bekermateriaal dat onder alle omstandigheden het duurzaamst is. De uitkomst per koffiemoment hangt af van productie, gewicht, hergebruik, afwaswijze, energiebron, breuk en afvalverwerking. Een keramische mok kan haar hogere productie-impact terugverdienen, maar alleen wanneer zij vaak genoeg en efficiënt wordt gebruikt.
+keyPoints:
+  - Vergelijk bekers per werkelijk koffiemoment en over de volledige levenscyclus.
+  - Het omslagpunt van een herbruikbare mok hangt sterk af van afwassen en gebruiksduur.
+  - Licht wegwerpmateriaal kan voor klimaatimpact dichterbij komen dan intuïtie suggereert.
+  - Klimaatimpact is slechts één dimensie naast afval, grondstoffen, toxiciteit en zwerfvuil.
+modelComponent: coffee-cups
+modelLimitations:
+  - De invoerwaarden zijn scenarioaannames en variëren per product en keten.
+  - Het model concentreert zich vooral op broeikasgasuitstoot en dekt niet alle milieueffecten.
+  - Gedrag en lokale afvalverwerking kunnen de werkelijke uitkomst sterk veranderen.
 draft: false
 ---
 

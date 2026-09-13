@@ -6,6 +6,17 @@ tags: [Tango, Dans, Improvisatie]
 translationKey: argentine-tango-conversation
 featuredImage: /images/artikelen/argentine-tango/argentijnse-tango-gesprek.webp
 featuredImageAlt: Twee Argentijnse tangodansers in een nauwe omhelzing tijdens een warm verlichte milonga
+summary: Argentijnse tango kan beter worden begrepen als een geïmproviseerd gesprek dan als eenrichtingsverkeer van leider naar volger. De dansers nemen niet noodzakelijk tegelijk initiatief, maar luisteren, antwoorden en vormen elkaars mogelijkheden. Positie, gewicht, verbinding, beschikbare ruimte en muziek bepalen samen welke beweging logisch kan volgen.
+keyPoints:
+  - Leiden en volgen zijn tijdelijke functies binnen een gezamenlijk proces.
+  - Iedere nieuwe lichaamspositie opent sommige mogelijkheden en sluit andere af.
+  - De dansers kunnen verschillende aspecten van dezelfde muziek vertolken.
+  - Gelijkwaardigheid betekent niet dat beide dansers op ieder moment hetzelfde doen.
+modelComponent: tango-movement
+modelLimitations:
+  - De simulatie is een schematisch toestandsmodel en geen dansinstructie.
+  - Balans, contact en lichaamsgeometrie zijn sterk vereenvoudigd.
+  - Werkelijke communicatie omvat subtiele spanning, timing en waarneming die niet volledig worden gemodelleerd.
 draft: false
 ---
 

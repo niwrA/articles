@@ -6,6 +6,16 @@ tags: [Physics, Black Holes, Cosmology]
 translationKey: beyond-the-event-horizon
 featuredImage: /images/artikelen/beyond-the-event-horizon/black-hole-inside.webp
 featuredImageAlt: A view inside a black hole represented as a luminous, dynamic cosmic structure
+summary: An event horizon marks a boundary to our access to information, not necessarily the end of physical dynamics. This essay examines how gravity concentrates matter, how matter changes state under compression and why black-hole-star candidates invite a more dynamic picture of black holes. Beyond the horizon, the argument deliberately becomes speculative because classical general relativity does not supply a complete empirically tested ontology there.
+keyPoints:
+  - Black holes do not indiscriminately vacuum up distant matter; infalling material must lose energy and angular momentum.
+  - Compression can produce new phases and feedback mechanisms in matter.
+  - Through accretion and jets, black holes participate in the evolution of their environments and galaxies.
+  - Inaccessibility beyond the horizon calls for caution, not the assumption that nothing happens there.
+modelLimitations:
+  - Proposed processes beyond the horizon are speculative and not currently open to direct observation.
+  - Black hole stars are an active research topic, not an established population of ordinary black holes.
+  - The comparison with a living system concerns organisation and dynamics, not biology.
 draft: false
 ---
 
