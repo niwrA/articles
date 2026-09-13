@@ -7,16 +7,16 @@ tags: [Tango, Dance, Improvisation]
 translationKey: argentine-tango-conversation
 featuredImage: /images/artikelen/argentine-tango/argentine-tango-conversation.webp
 featuredImageAlt: Two Argentine tango dancers in a close embrace at a warmly lit milonga
-summary: Argentine tango can be understood more fruitfully as an improvised conversation than as one-way transmission from leader to follower. The dancers need not initiate simultaneously, but listen, respond and shape one another's possibilities. Position, weight, connection, available space and music jointly determine what can sensibly happen next.
+summary: Argentine tango can be understood more fruitfully as an improvised conversation than as one-way transmission from leader to follower. This article proposes abandoning the traditional fixed leader-follower division altogether and allowing functions such as initiative, navigation, execution and response to shift with each movement or moment. The dancers need not initiate simultaneously, but listen, respond and shape one another's possibilities; position, weight, connection, space and music jointly determine what can sensibly happen next.
 keyPoints:
-  - Leading and following are temporary functions within a shared process.
+  - The fixed division into one leader and one follower can be removed altogether; individual functions can shift between both dancers from moment to moment.
   - Each new bodily configuration enables some possibilities and excludes others.
   - The dancers can express different aspects of the same music.
   - Equality does not require both dancers to do the same thing at every moment.
 modelComponent: tango-movement
 modelLimitations:
   - The simulation distinguishes supporting leg, free foot, projection, placement, weight transfer and pivot.
-  - Foot and shoulder orientation, contact, centre of mass and open, half-open or closed embrace are shown separately.
+  - Foot, pelvis and shoulder orientation, contact, centre of mass and open, half-open or closed embrace are shown separately.
   - Initiative and response have a small time offset, making the proposal visible before the answer.
   - The movements remain schematic, testable variants and are not dance instruction.
 draft: false

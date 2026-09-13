@@ -7,16 +7,16 @@ tags: [Tango, Dans, Improvisatie]
 translationKey: argentine-tango-conversation
 featuredImage: /images/artikelen/argentine-tango/argentijnse-tango-gesprek.webp
 featuredImageAlt: Twee Argentijnse tangodansers in een nauwe omhelzing tijdens een warm verlichte milonga
-summary: Argentijnse tango kan beter worden begrepen als een geïmproviseerd gesprek dan als eenrichtingsverkeer van leider naar volger. De dansers nemen niet noodzakelijk tegelijk initiatief, maar luisteren, antwoorden en vormen elkaars mogelijkheden. Positie, gewicht, verbinding, beschikbare ruimte en muziek bepalen samen welke beweging logisch kan volgen.
+summary: Argentijnse tango kan beter worden begrepen als een geïmproviseerd gesprek dan als eenrichtingsverkeer van leider naar volger. Dit artikel stelt voor de traditionele, vaste leider-volgerverdeling helemaal los te laten en functies als initiatief, navigatie, uitvoering en respons per beweging of moment te laten verschuiven. De dansers hoeven niet tegelijk te initiëren, maar luisteren, antwoorden en vormen elkaars mogelijkheden; positie, gewicht, verbinding, ruimte en muziek bepalen samen wat logisch kan volgen.
 keyPoints:
-  - Leiden en volgen zijn tijdelijke functies binnen een gezamenlijk proces.
+  - De vaste verdeling in één leider en één volger kan geheel worden opgeheven; afzonderlijke functies kunnen per moment tussen beide dansers verschuiven.
   - Iedere nieuwe lichaamspositie opent sommige mogelijkheden en sluit andere af.
   - De dansers kunnen verschillende aspecten van dezelfde muziek vertolken.
   - Gelijkwaardigheid betekent niet dat beide dansers op ieder moment hetzelfde doen.
 modelComponent: tango-movement
 modelLimitations:
   - De simulatie onderscheidt standbeen, vrije voet, projectie, plaatsing, gewichtsoverdracht en pivot.
-  - Voet- en schouderoriëntatie, contact, zwaartepunt en open, halfopen of gesloten omhelzing zijn afzonderlijk zichtbaar.
+  - Voet-, bekken- en schouderoriëntatie, contact, zwaartepunt en open, halfopen of gesloten omhelzing zijn afzonderlijk zichtbaar.
   - Initiatief en respons hebben een klein tijdsverschil, zodat het voorstel vóór het antwoord zichtbaar wordt.
   - De bewegingen blijven schematische, te toetsen varianten en zijn geen dansinstructie.
 draft: false
