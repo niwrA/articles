@@ -3,7 +3,7 @@ import { centreOfMass, frameAt, sharedCentre, tangoMovements, withEmbrace, type 
 
 const props = withDefaults(defineProps<{ locale?: 'nl' | 'en' }>(), { locale: 'nl' })
 const nl = computed(() => props.locale === 'nl')
-const movementId = ref<MovementId>('giro')
+const movementId = ref<MovementId>('side-step')
 const progress = ref(0)
 const playing = ref(false)
 const showContacts = ref(true)
@@ -75,6 +75,12 @@ const support = (dancer: DancerState) => {
   const side = dancer.left.load > dancer.right.load ? (nl.value ? 'links' : 'left') : (nl.value ? 'rechts' : 'right')
   return `${side} (${Math.max(loadPct(dancer.left), loadPct(dancer.right))}%)`
 }
+const hipPoint = (dancer: DancerState, side: 'left'|'right') => {
+  const radians = dancer.pelvisAngle * Math.PI / 180
+  const offset = side === 'left' ? -13 : 13
+  return { x: dancer.torso.x - Math.sin(radians) * offset, y: dancer.torso.y + Math.cos(radians) * offset }
+}
+const torsion = (dancer: DancerState) => Math.round(Math.abs(((dancer.angle-dancer.pelvisAngle+540)%360)-180))
 
 const choicesFor = (id: DancerId) => {
   const initiates = movement.value.initiator === id
@@ -152,8 +158,9 @@ const roleFor = (id: DancerId) => movement.value.initiator === id
               <path class="toe-direction" d="M10-6 22 0 10 6" />
               <text x="-7" y="4">{{ side === 'left' ? 'L' : 'R' }}</text>
             </g>
-            <line :x1="frame[id].left.x" :y1="frame[id].left.y" :x2="frame[id].torso.x" :y2="frame[id].torso.y" />
-            <line :x1="frame[id].right.x" :y1="frame[id].right.y" :x2="frame[id].torso.x" :y2="frame[id].torso.y" />
+            <line :x1="frame[id].left.x" :y1="frame[id].left.y" :x2="hipPoint(frame[id],'left').x" :y2="hipPoint(frame[id],'left').y" />
+            <line :x1="frame[id].right.x" :y1="frame[id].right.y" :x2="hipPoint(frame[id],'right').x" :y2="hipPoint(frame[id],'right').y" />
+            <g :transform="transform({ ...frame[id].torso, angle: frame[id].pelvisAngle })" class="hips"><path d="M-5-17Q4-25 13-17L13 17Q4 25-5 17Z" /></g>
             <g :transform="transform({ ...frame[id].torso, angle: frame[id].angle })" class="body" filter="url(#tango-shadow)">
               <path class="shoulders" d="M-8-31C8-42 28-38 42-24L42 24C28 38 8 42-8 31Z" />
               <circle class="head" cx="3" cy="0" r="13" />
@@ -205,7 +212,7 @@ const roleFor = (id: DancerId) => movement.value.initiator === id
         <p class="eyebrow">{{ nl ? 'BALANS' : 'BALANCE' }}</p>
         <h4>{{ nl ? 'Belasting per voet' : 'Load per foot' }}</h4>
         <div v-for="id in (['a','b'] as const)" :key="id" class="load-row">
-          <div><strong>{{ nl ? 'Danser' : 'Dancer' }} {{ id.toUpperCase() }}</strong><small>{{ nl ? 'steun' : 'support' }}: {{ support(frame[id]) }}</small></div>
+          <div><strong>{{ nl ? 'Danser' : 'Dancer' }} {{ id.toUpperCase() }}</strong><small>{{ nl ? 'steun' : 'support' }}: {{ support(frame[id]) }}</small><small>{{ nl ? 'torsie bovenlijf–bekken' : 'upper-body–pelvis torsion' }}: {{ torsion(frame[id]) }}°</small></div>
           <div class="load-bars">
             <span class="left" :style="{ width: `${loadPct(frame[id].left)}%` }">L {{ loadPct(frame[id].left) }}%</span>
             <span class="right" :style="{ width: `${loadPct(frame[id].right)}%` }">R {{ loadPct(frame[id].right) }}%</span>
@@ -250,5 +257,5 @@ const roleFor = (id: DancerId) => movement.value.initiator === id
 .initiator-key{border:1px solid #d18b3b;border-radius:999px;padding:.25rem .55rem;color:#87551e;font-size:.72rem;white-space:nowrap}
 .embrace-picker{border:0;padding:0;margin:0 0 1.25rem;display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}.embrace-picker legend{font-weight:750;margin-bottom:.55rem}.embrace-picker label{border:1px solid #d2d8d5;background:#fff;border-radius:999px;padding:.5rem .8rem;cursor:pointer}.embrace-picker label.active{background:#ecf2ef;border-color:#315f58;box-shadow:inset 0 0 0 1px #315f58}.embrace-picker input{accent-color:#315f58}.embrace-picker small{width:100%;max-width:760px;color:#697570}.body .shoulders{fill:#c49a50;fill-opacity:.72;stroke:#fff;stroke-width:1.5}.body .head{fill:#243b38;fill-opacity:.38;stroke:#fff;stroke-width:1}.body .gaze{fill:none;stroke:#fff;stroke-width:2.4;stroke-linecap:round;stroke-linejoin:round}.support-ring{fill:none!important;stroke:#142e2a;stroke-width:4;opacity:.9}.initiative{pointer-events:none}.initiative circle{fill:none;stroke:#d18b3b;stroke-width:3;stroke-dasharray:5 6;animation:pulse-ring 1.1s ease-in-out infinite}.initiative text{fill:#87551e;text-anchor:middle;font:700 12px system-ui}.model-status{max-width:780px;margin:1.4rem 0 0;border-top:1px solid #dce2de;padding-top:1rem;color:#56635f}.model-status summary{cursor:pointer;font-weight:750;color:#263c38}.model-status p,.model-status li{font-size:.85rem;line-height:1.55}.model-status a{color:#9f482f}.model-status li+li{margin-top:.6rem}@keyframes pulse-ring{50%{transform:scale(1.08);opacity:.45}}
 @media(max-width:760px){.movement-grammar{align-items:flex-start;flex-direction:column;gap:.55rem}.movement-grammar ol{width:100%}}
-.sequence-explorer{border-top:1px solid #e3e7e4;padding:1.15rem 1.25rem 1.3rem;background:#fbfaf6}.sequence-heading{display:flex;justify-content:space-between;align-items:center;gap:1rem}.sequence-heading .eyebrow{margin-bottom:.2rem}.sequence-arrows{display:flex;align-items:center;gap:.55rem;white-space:nowrap}.sequence-arrows button{width:34px;height:34px;border:1px solid #ccd5d1;border-radius:50%;background:#fff;cursor:pointer}.sequence-arrows button:disabled{opacity:.35;cursor:default}.checkpoint-tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:.45rem;margin:1rem 0}.checkpoint-tabs button{min-width:0;border:1px solid #d9dfdc;border-radius:10px;background:#fff;color:#4f5d58;padding:.65rem;text-align:left;font-size:.74rem;cursor:pointer}.checkpoint-tabs button span{display:block;width:1.45rem;height:1.45rem;margin-bottom:.35rem;border-radius:50%;background:#edf1ef;text-align:center;line-height:1.45rem;font-weight:800}.checkpoint-tabs button.active{border-color:#315f58;background:#edf3f0;color:#183632;box-shadow:inset 0 0 0 1px #315f58}.checkpoint-tabs button.active span{background:#315f58;color:#fff}.checkpoint-detail{display:grid;grid-template-columns:.9fr 1.2fr 1.2fr;gap:.75rem}.checkpoint-detail>div{border:1px solid #e0e4e1;border-radius:12px;background:#fff;padding:.9rem}.checkpoint-detail small{display:block;color:#8a5c3c;font-size:.67rem;letter-spacing:.07em;font-weight:800}.checkpoint-state strong{display:block;margin:.3rem 0}.checkpoint-detail p,.checkpoint-detail ul{font-size:.82rem;margin:.45rem 0 0}.checkpoint-detail ul{padding-left:1.1rem}.checkpoint-detail li+li{margin-top:.25rem}.sequence-note{font-size:.78rem;color:#697570;margin:.75rem 0 0}@media(max-width:760px){.checkpoint-tabs{display:flex;overflow-x:auto}.checkpoint-tabs button{flex:0 0 145px}.checkpoint-detail{grid-template-columns:1fr}.sequence-heading{align-items:flex-end}}
+.sequence-explorer{border-top:1px solid #e3e7e4;padding:1.15rem 1.25rem 1.3rem;background:#fbfaf6}.sequence-heading{display:flex;justify-content:space-between;align-items:center;gap:1rem}.sequence-heading .eyebrow{margin-bottom:.2rem}.sequence-arrows{display:flex;align-items:center;gap:.55rem;white-space:nowrap}.sequence-arrows button{width:34px;height:34px;border:1px solid #ccd5d1;border-radius:50%;background:#fff;cursor:pointer}.sequence-arrows button:disabled{opacity:.35;cursor:default}.checkpoint-tabs{display:grid;grid-template-columns:repeat(5,1fr);gap:.45rem;margin:1rem 0}.checkpoint-tabs button{min-width:0;border:1px solid #d9dfdc;border-radius:10px;background:#fff;color:#4f5d58;padding:.65rem;text-align:left;font-size:.74rem;cursor:pointer}.checkpoint-tabs button span{display:block;width:1.45rem;height:1.45rem;margin-bottom:.35rem;border-radius:50%;background:#edf1ef;text-align:center;line-height:1.45rem;font-weight:800}.checkpoint-tabs button.active{border-color:#315f58;background:#edf3f0;color:#183632;box-shadow:inset 0 0 0 1px #315f58}.checkpoint-tabs button.active span{background:#315f58;color:#fff}.checkpoint-detail{display:grid;grid-template-columns:.9fr 1.2fr 1.2fr;gap:.75rem}.checkpoint-detail>div{border:1px solid #e0e4e1;border-radius:12px;background:#fff;padding:.9rem}.checkpoint-detail small{display:block;color:#8a5c3c;font-size:.67rem;letter-spacing:.07em;font-weight:800}.checkpoint-state strong{display:block;margin:.3rem 0}.checkpoint-detail p,.checkpoint-detail ul{font-size:.82rem;margin:.45rem 0 0}.checkpoint-detail ul{padding-left:1.1rem}.checkpoint-detail li+li{margin-top:.25rem}.sequence-note{font-size:.78rem;color:#697570;margin:.75rem 0 0}.hips path{fill:currentColor;fill-opacity:.58;stroke:#fff;stroke-width:1.2}@media(max-width:760px){.checkpoint-tabs{display:flex;overflow-x:auto}.checkpoint-tabs button{flex:0 0 145px}.checkpoint-detail{grid-template-columns:1fr}.sequence-heading{align-items:flex-end}}
 </style>
