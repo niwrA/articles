@@ -121,58 +121,6 @@ The model compares three routes for each drink:
 
 The defaults are intended to make the model’s behaviour understandable, not to provide a definitive assessment of one particular cup system. A concrete decision requires production data for the selected products, the actual loading and energy consumption of the dishwasher, the number of times each cup is genuinely used and the local waste-treatment route. The example scenarios immediately show which changes shift the ranking and the break-even points.
 
-### Inputs for the reusable mug
-
-| Variable | Meaning | Suitable representation |
-|---|---|---|
-| Material and weight | Determines production impact | Selection plus grams |
-| Total uses | Distributes production across the lifetime | Slider, e.g. 20–2,000 |
-| Drinks before washing | Distributes washing impact | 1–5 |
-| Washing method | Dishwasher or hand wash | Selection buttons |
-| Energy per cycle | Programme consumption | kWh |
-| Water per cycle | Direct water use | Litres |
-| Loading | Pieces of tableware or mug equivalents | Number |
-| Electricity impact | Average or marginal factor | g CO₂-eq/kWh |
-| Hot-water source | Gas, district heating, heat pump or electricity | Selection |
-| Detergent | Production impact per cycle | Adjustable advanced value |
-
-### Inputs for disposable cups
-
-| Variable | Meaning | Suitable representation |
-|---|---|---|
-| Material | Coated paper, PP, PS or PLA | Selection |
-| Cup weight | Material demand per drink | Grams |
-| Uses per cup | One cup may hold several drinks | 1–3 |
-| Recycled content in production | Partly avoids virgin material | Percentage |
-| Collection rate | Share reaching the correct waste stream | Percentage |
-| Sorting and recycling yield | Share of collected material becoming secondary feedstock | Percentage |
-| Treatment route | Incineration, recycling or another route | Selection |
-| Transport distance | Influence of logistics | Kilometres |
-
-The model presents impact per drink, cumulative impact over time, structural break-even points, a simple sensitivity indication and an adjustable uncertainty band. Climate is the default view, with water shown separately and no hidden overall score. Its line chart makes the central mechanism visible: disposable systems rise almost linearly, while the reusable mug starts with a production burden and then rises more slowly—unless inefficient washing or a short realised lifetime changes the outcome.
-
----
-
-## Four scenarios that test our intuition
-
-### Scenario 1: the ideal office mug
-
-The same mug is used for years. Employees drink from it two or three times before it is washed. The dishwasher runs on an efficient programme and only when full. Production impact is spread widely and cleaning impact per drink remains low. In many climate calculations, reuse will build a clear advantage in this scenario.
-
-### Scenario 2: the half-full dishwasher
-
-Every employee places a mug in the machine after one drink. The dishwasher runs several times a day while half full. Washing impact per drink now rises substantially. The mug may still win, but its break-even point moves backwards and its advantage may disappear in some impact categories.
-
-### Scenario 3: the collector of sustainable mugs
-
-A newly printed mug is ordered for every event. Many are used a few times and then stored or discarded. The label *reusable* guarantees nothing: the potential lifetime is never realised. The model must therefore use actual use rather than technically possible longevity.
-
-### Scenario 4: the well-organised disposable chain
-
-The cup is light, used twice, collected separately and recycled with little contamination. This is a much better disposable scenario than a cup that enters mixed waste after one sip. It nevertheless remains a system that continually produces new cups and depends on consistently correct collection.
-
----
-
 ## What can an office do tomorrow?
 
 The largest practical improvements do not require agreement on the perfect cup. They follow directly from the factors that dominate the result:

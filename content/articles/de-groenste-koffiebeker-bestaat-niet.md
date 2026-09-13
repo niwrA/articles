@@ -121,67 +121,6 @@ Het model vergelijkt drie routes per koffiemoment:
 
 De standaardwaarden zijn bedoeld om het gedrag van het model inzichtelijk te maken, niet om één specifieke bekerketen definitief te beoordelen. Voor een concrete keuze moeten de productiedata, de feitelijke belading en het energieverbruik van de vaatwasser, het aantal keren dat een beker werkelijk wordt gebruikt en de lokale afvalverwerking worden ingevuld. Met de voorbeeldscenario’s is direct zichtbaar welke veranderingen de rangorde en de omslagpunten verschuiven.
 
-### Instellingen voor de herbruikbare mok
-
-| Variabele | Betekenis | Zinnige modelweergave |
-|---|---|---|
-| Materiaal en gewicht | Bepaalt de productie-impact | Keuzelijst plus gram |
-| Totaal aantal gebruiken | Verdeelt productie over de levensduur | Schuifregelaar, bijv. 20–2.000 |
-| Consumpties vóór wassen | Verdeelt de wasimpact | 1–5 |
-| Wasmethode | Vaatwasser of handwas | Keuzeknoppen |
-| Energie per cyclus | Verbruik van het programma | kWh |
-| Water per cyclus | Direct watergebruik | liter |
-| Belading | Aantal serviesstukken of mok-equivalenten | aantal |
-| Elektriciteitsimpact | Gemiddelde of marginale factor | g CO₂-eq/kWh |
-| Warmwaterbron | Gas, warmtenet, warmtepomp of elektrisch | keuzelijst |
-| Reinigingsmiddel | Productie-impact per cyclus | instelbaar/verberg als gevorderd |
-
-### Instellingen voor wegwerpbekers
-
-| Variabele | Betekenis | Zinnige modelweergave |
-|---|---|---|
-| Materiaal | Papier met coating, PP, PS of PLA | keuzelijst |
-| Bekergewicht | Materiaalvraag per consumptie | gram |
-| Gebruik per beker | Eén beker kan meerdere koffies dragen | 1–3 |
-| Gerecycled aandeel in productie | Vermijdt deels primair materiaal | percentage |
-| Inzamelpercentage | Deel dat de juiste afvalstroom bereikt | percentage |
-| Sorteer- en recyclingrendement | Deel van inzameling dat secundair materiaal wordt | percentage |
-| Verwerkingsroute | Verbranding, recycling of andere route | keuzelijst |
-| Transportafstand | Invloed van logistiek | kilometer |
-
-### Resultaten die het model moet tonen
-
-1. **Impact per consumptie**, niet alleen per beker.
-2. **Cumulatieve impact** na 10, 50, 100, 500 en 1.000 koffies.
-3. **Omslagpunt**: na hoeveel gebruiken wordt de gekozen mok gunstiger dan ieder wegwerpalternatief?
-4. **Gevoeligheidsanalyse**: welke drie invoervariabelen veranderen de uitkomst het sterkst?
-5. **Onzekerheidsband**, bijvoorbeeld laag–midden–hoog in plaats van schijnprecisie tot op één gram.
-6. **Meerdere milieucategorieën naast elkaar**, met klimaat als standaardweergave en zonder verborgen totaalscore.
-
-Een sterke visualisatie is een lijnplot. Wegwerp begint dicht bij nul maar stijgt vrijwel lineair: iedere koffie voegt een nieuwe beker toe. De herbruikbare mok begint hoger door de productie, stijgt daarna langzamer, maar krijgt bij ieder wasmoment een stapje erbij. Waar de lijnen elkaar kruisen ligt het omslagpunt—voor precies de gekozen aannames.
-
----
-
-## Vier scenario’s die de intuïtie testen
-
-### Scenario 1: de ideale kantoormok
-
-Dezelfde mok wordt jarenlang gebruikt. Medewerkers drinken er twee of drie keer uit voordat hij wordt gewassen. De vaatwasser draait op een efficiënt programma en alleen als hij vol is. In dit scenario wordt de productie-impact sterk uitgesmeerd en blijft de reinigingsimpact per consumptie laag. Herbruikbaar zal in veel klimaatberekeningen duidelijk voordeel opbouwen.
-
-### Scenario 2: de halflege vaatwasser
-
-Iedere medewerker zet na één koffie een mok in de machine. De vaatwasser draait meerdere keren per dag terwijl hij halfvol is. Nu stijgt de wasimpact per consumptie sterk. De mok kan nog steeds winnen, maar het omslagpunt schuift naar achteren en in sommige impactcategorieën kan de voorsprong verdwijnen.
-
-### Scenario 3: de verzamelaar van duurzame mokken
-
-Voor ieder evenement wordt een nieuwe bedrukte mok besteld. Veel exemplaren worden enkele keren gebruikt en daarna opgeborgen of weggegooid. Het etiket *herbruikbaar* garandeert hier niets: de hoge potentiële levensduur wordt niet gerealiseerd. Het model moet daarom rekenen met feitelijk gebruik, niet met technisch mogelijke levensduur.
-
-### Scenario 4: de goed georganiseerde wegwerpketen
-
-De beker is licht, wordt tweemaal gebruikt, apart ingezameld en met weinig vervuiling gerecycled. Dat is een veel gunstiger wegwerpscenario dan een beker die na één slok in gemengd afval belandt. Het blijft wel een systeem dat voortdurend nieuwe bekers produceert en afhankelijk is van foutloze inzameling.
-
----
-
 ## Wat kan een kantoor morgen al doen?
 
 De grootste praktische verbeteringen vragen geen discussie over de perfecte beker. Ze volgen direct uit de factoren die de uitkomst domineren:

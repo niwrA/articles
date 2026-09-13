@@ -13,6 +13,13 @@ draft: false
 
 ---
 
+De grootte van een auto is geen keuze met één juist antwoord. Een gezin dat dagelijks met vier personen reist, een aannemer die gereedschap en een aanhanger vervoert en een stedelijke solorijder hebben verschillende functionele eisen. De relevante vraag is daarom niet of een kleine of grote auto in het algemeen beter is, maar hoeveel capaciteit iemand structureel nodig heeft en hoeveel slechts voor uitzonderingen wordt gekocht.
+
+::CarNeedsModel
+::
+
+De keuzehulp is bewust geen configurator voor automerken. De standaardwaarden zijn illustratieve klassegemiddelden die je onder **Kosten- en voertuigaannames aanpassen** kunt wijzigen. Het resultaat maakt vooral zichtbaar hoe vaak uitzonderingen moeten voorkomen voordat permanent een grotere auto bezitten rationeler wordt dan incidenteel extra capaciteit huren.
+
 ## Autobesitas
 
 Lubach had hier een tijdje geleden al een mooi item over, wat hij "Autobesitas" noemde. Maar het vraagstuk blijft terugkomen: de toekomst van automobiliteit. Daarbij gaat het meestal over twee vragen: hoeveel moeten we rijden en waarop moeten we rijden? Vooral die tweede vraag heeft door de overgang naar elektrisch rijden veel aandacht gekregen. Er is echter nog een derde variabele die nog steeds te weinig ter discussie staat: de grootte van de auto zelf.
