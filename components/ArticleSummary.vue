@@ -23,19 +23,21 @@ const openFull = () => {
     </section>
 
     <div v-if="article.modelComponent" class="summary-model prose wrap">
-      <HousingPolicyExplorer v-if="article.modelComponent==='housing-policy'" />
-      <ProperTimeExplorer v-else-if="article.modelComponent==='proper-time'" :locale="locale" />
-      <ConsciousnessHypothesisExplorer v-else-if="article.modelComponent==='consciousness'" :locale="locale" />
-      <SelfOrganizationExplorer v-else-if="article.modelComponent==='self-organization'" :locale="locale" />
-      <TangoMovementExplorer v-else-if="article.modelComponent==='tango-movement'" :locale="locale" />
-      <CoffeeCupModel v-else-if="article.modelComponent==='coffee-cups' && locale==='nl'" />
-      <CoffeeCupModelEn v-else-if="article.modelComponent==='coffee-cups'" />
-      <CarNeedsModel v-else-if="article.modelComponent==='car-needs'" />
-      <SportDividendExplorer v-else-if="article.modelComponent==='sport-dividend'" :locale="locale" />
-      <PathogenResponseExplorer v-else-if="article.modelComponent==='pathogen-response'" :locale="locale" />
+      <ModelDisclosure :open="true" :locale="locale" :title="nl?'Interactief model':'Interactive model'" :description="nl?'Open om aannames en uitkomsten te onderzoeken.':'Open to explore assumptions and outcomes.'">
+        <HousingPolicyExplorer v-if="article.modelComponent==='housing-policy'" />
+        <ProperTimeExplorer v-else-if="article.modelComponent==='proper-time'" :locale="locale" />
+        <ConsciousnessHypothesisExplorer v-else-if="article.modelComponent==='consciousness'" :locale="locale" />
+        <SelfOrganizationExplorer v-else-if="article.modelComponent==='self-organization'" :locale="locale" />
+        <TangoMovementExplorer v-else-if="article.modelComponent==='tango-movement'" :locale="locale" />
+        <CoffeeCupModel v-else-if="article.modelComponent==='coffee-cups' && locale==='nl'" />
+        <CoffeeCupModelEn v-else-if="article.modelComponent==='coffee-cups'" />
+        <CarNeedsModel v-else-if="article.modelComponent==='car-needs'" />
+        <SportDividendExplorer v-else-if="article.modelComponent==='sport-dividend'" :locale="locale" />
+        <PathogenResponseExplorer v-else-if="article.modelComponent==='pathogen-response'" :locale="locale" />
+      </ModelDisclosure>
     </div>
     <div v-if="article.modelComponent==='tango-movement'" class="summary-editor">
-      <TangoPoseEditor :locale="locale" />
+      <ModelDisclosure :open="true" :locale="locale" :title="nl?'Tango-editor':'Tango editor'" :description="nl?'Leg een beweging fase voor fase vast.':'Record a movement phase by phase.'"><TangoPoseEditor :locale="locale" /></ModelDisclosure>
     </div>
 
     <section v-if="article.modelLimitations?.length" class="limits wrap">

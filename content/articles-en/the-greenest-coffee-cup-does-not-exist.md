@@ -142,8 +142,10 @@ The model compares three routes for each drink:
 - a coated disposable paper cup;
 - a disposable plastic cup, such as one made of PP or PS.
 
+:::ModelDisclosure{title="Interactive model: comparing coffee cups" description="Compare material, reuse and actual use across the life cycle." locale="en"}
 ::CoffeeCupModelEn
 ::
+:::
 
 The defaults are intended to make the model’s behaviour understandable, not to provide a definitive assessment of one particular cup system. A concrete decision requires production data for the selected products, the actual loading and energy consumption of the dishwasher, the number of times each cup is genuinely used and the local waste-treatment route. The example scenarios immediately show which changes shift the ranking and the break-even points.
 

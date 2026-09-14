@@ -52,8 +52,10 @@ De omvang van die reactie is onbekend. Er bestaat geen natuurlijk experiment waa
 
 Sponsoring kan de andere kant op werken. Een aantoonbare bijdrage aan sportmogelijkheden voor kinderen kan een club of competitie aantrekkelijker maken voor sponsors. Dat effect vraagt meetbare resultaten; zonder controle dreigt vooral purpose-marketing. Ook deze mogelijke bonus is in het model een aanname, geen opbrengst die alvast wordt ingeboekt.
 
+:::ModelDisclosure{title="Interactief model: het sportdividend" description="Onderzoek hoe geld, aandacht en voorzieningen tussen top- en lokale sport kunnen verschuiven."}
 ::SportDividendExplorer{locale="nl"}
 ::
+:::
 
 ## Aandacht is zelf een geldstroom
 

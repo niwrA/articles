@@ -79,8 +79,10 @@ Dit verschijnsel kan worden gezien als woningverdunning: dezelfde bevolking word
 
 Op Nederlandse schaal hebben kleine veranderingen grote gevolgen. Bij een bevolking van 18 miljoen betekent een verschuiving van gemiddeld 2,10 naar 2,05 personen per huishouden grofweg tweehonderdduizend extra huishoudens. **Daarmee is huishoudensverdunning relevant op een schaal die vergelijkbaar is met meerdere jaren woningbouw.**
 
+:::ModelDisclosure{title="Interactief model: woningmarktbeleid" description="Vergelijk maatregelen op doorlooptijd, kosten en structureel effect."}
 ::HousingPolicyExplorer
 ::
+:::
 
 ### Mogelijke beleidsknoppen
 

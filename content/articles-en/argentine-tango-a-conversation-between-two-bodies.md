@@ -77,8 +77,10 @@ Again and again, this produces a simple process:
 
 The explorer below makes that idea concrete. Move through a short sequence and see how one simulated state can be read simultaneously as geometry, balance and agency. The movements are deliberately schematic: the interesting part is not a perfect reconstruction of a step, but how position, load, contact and choice constrain one another without fully determining the outcome.
 
+:::ModelDisclosure{title="Interactive tango simulator" description="Explore initiative, projection, weight transfer and possible continuations." locale="en"}
 ::TangoMovementExplorer{locale="en"}
 ::
+:::
 
 ### The music helps us choose
 

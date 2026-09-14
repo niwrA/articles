@@ -66,8 +66,10 @@ A second recollection should be kept separate. The swine-flu pandemic occurred i
 
 This therefore deserves a separate healthcare stress test in the model. Regular capacity, a flexible surge layer, ramp-up time, staff absence, length of stay, patient distribution and displaced regular care are not variants of one number. They form a chain in which the weakest link determines usable capacity. The explorer below makes that structure more explicit than a single “hospital capacity” slider.
 
+:::ModelDisclosure{title="Interactive capacity model" description="Explore baseline capacity, scaling, staffing, length of stay and displaced care." locale="en"}
 ::HealthcareCapacityExplorer{locale="en"}
 ::
+:::
 
 ## The same category can hide different systems
 
@@ -89,8 +91,10 @@ Spread, severity and healthcare demand follow. (R_0) conditionally describes ave
 
 Finally, the profile contains population immunity, diagnostics, vaccines, treatments, vulnerable groups and uncertainty. ‘Unknown’ is not an empty cell to be silently filled with an average. It is information about decision risk and should change monitoring, precaution and research priorities.
 
+:::ModelDisclosure{title="Interactive scenario explorer" description="Match disease characteristics to interventions and explore effects over time." locale="en"}
 ::PathogenResponseExplorer{locale="en"}
 ::
+:::
 
 ## From profile to package, not a single winner
 

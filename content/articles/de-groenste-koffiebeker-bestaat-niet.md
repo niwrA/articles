@@ -142,8 +142,10 @@ Het model vergelijkt drie routes per koffiemoment:
 - een gecoate papieren wegwerpbeker;
 - een plastic wegwerpbeker, bijvoorbeeld van PP of PS.
 
+:::ModelDisclosure{title="Interactief model: de koffiebeker vergelijken" description="Vergelijk materiaal, hergebruik en gebruikspraktijk over de hele levenscyclus."}
 ::CoffeeCupModel
 ::
+:::
 
 De standaardwaarden zijn bedoeld om het gedrag van het model inzichtelijk te maken, niet om één specifieke bekerketen definitief te beoordelen. Voor een concrete keuze moeten de productiedata, de feitelijke belading en het energieverbruik van de vaatwasser, het aantal keren dat een beker werkelijk wordt gebruikt en de lokale afvalverwerking worden ingevuld. Met de voorbeeldscenario’s is direct zichtbaar welke veranderingen de rangorde en de omslagpunten verschuiven.
 

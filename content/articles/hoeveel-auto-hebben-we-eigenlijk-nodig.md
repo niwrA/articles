@@ -42,8 +42,10 @@ draft: false
 
 De grootte van een auto is geen keuze met één juist antwoord. Een gezin dat dagelijks met vier personen reist, een aannemer die gereedschap en een aanhanger vervoert en een stedelijke solorijder hebben verschillende functionele eisen. De relevante vraag is daarom niet of een kleine of grote auto in het algemeen beter is, maar hoeveel capaciteit iemand structureel nodig heeft en hoeveel slechts voor uitzonderingen wordt gekocht.
 
+:::ModelDisclosure{title="Interactief model: hoeveel auto hebben we nodig?" description="Vergelijk gebruik, ruimtebeslag, veiligheid en energie."}
 ::CarNeedsModel
 ::
+:::
 
 De keuzehulp is bewust geen configurator voor automerken. De standaardwaarden zijn illustratieve klassegemiddelden die je onder **Kosten- en voertuigaannames aanpassen** kunt wijzigen. Het resultaat maakt vooral zichtbaar hoe vaak uitzonderingen moeten voorkomen voordat permanent een grotere auto bezitten rationeler wordt dan incidenteel extra capaciteit huren.
 

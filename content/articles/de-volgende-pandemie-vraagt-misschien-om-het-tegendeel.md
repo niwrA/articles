@@ -66,8 +66,10 @@ Een tweede herinnering moet daarvan worden onderscheiden. De Mexicaanse griep vo
 
 In het model verdient dit daarom een afzonderlijke zorgstresstest. Reguliere capaciteit, een flexibele schil, opschaaltijd, personeelsuitval, ligduur, patiëntenspreiding en verdrongen reguliere zorg zijn geen varianten van één getal. Ze vormen een keten waarin de zwakste schakel de werkelijk inzetbare capaciteit bepaalt. De verkenner hieronder maakt die structuur explicieter dan één schuifregelaar „ziekenhuiscapaciteit”.
 
+:::ModelDisclosure{title="Interactief capaciteitsmodel" description="Onderzoek reguliere capaciteit, opschaling, personeel, ligduur en verdrongen zorg."}
 ::HealthcareCapacityExplorer{locale="nl"}
 ::
+:::
 
 ## Dezelfde categorie, een ander systeemprobleem
 
@@ -89,8 +91,10 @@ Daar komen verspreidingsdynamiek, ernst en zorgbelasting bij. (R_0) beschrijft o
 
 Tot slot bevat het profiel bestaande immuniteit, diagnostiek, vaccins, behandelingen, kwetsbare groepen en onzekerheid. ‘Onbekend’ is geen lege cel die men stilzwijgend met een gemiddelde mag vullen. Het is informatie over het beslisrisico en hoort gevolgen te hebben voor monitoring, voorzichtigheid en onderzoeksprioriteiten.
 
+:::ModelDisclosure{title="Interactieve scenarioverkenner" description="Koppel ziektekenmerken aan maatregelen en verken effecten door de tijd."}
 ::PathogenResponseExplorer{locale="nl"}
 ::
+:::
 
 ## Van profiel naar een pakket, niet naar één winnaar
 

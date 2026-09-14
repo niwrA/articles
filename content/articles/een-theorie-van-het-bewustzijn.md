@@ -262,8 +262,10 @@ De merkwaardige combinatie van causale invloed en introspectieve onwetendheid vo
 
 De onderstaande verkenner maakt van dit verbale werkmodel een expliciete, toetsbare hypothese. Je kunt een taak meer of minder nieuw, conflicterend, relevant of geautomatiseerd maken en vervolgens zien wat het model voorspelt voor arbitrage, bewuste toegang en rapporteerbaarheid. De getallen zijn geen empirisch vastgestelde bewustzijnsmaat: juist doordat de aannames zichtbaar zijn, kan later onderzoek de gewichten en drempels aanscherpen of weerleggen.
 
+:::ModelDisclosure{title="Interactief model: hypothesen over bewustzijn" description="Vergelijk hoe verschillende aannames de voorspellingen van het bewustzijnsmodel veranderen."}
 ::ConsciousnessHypothesisExplorer{locale="nl"}
 ::
+:::
 
 ### Verhouding tot bestaande theorieën
 

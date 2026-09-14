@@ -64,8 +64,10 @@ Maar kijk eerst eens naar wat we werkelijk hebben gedaan. Twee fysieke systemen 
 
 Met de verkenner hieronder kun je precies die vergelijking uitvoeren. Snelheid en positie in het zwaartekrachtsveld blijven afzonderlijke variabelen, terwijl de twee klokken pas bij hereniging rechtstreeks worden vergeleken. Zo blijft zichtbaar welke fysieke geschiedenis achter het verschil in eigentijd ligt.
 
+:::ModelDisclosure{title="Interactief model: eigentijd en ruimtetijd" description="Onderzoek wat klokken langs verschillende trajecten meten."}
 ::ProperTimeExplorer{locale="nl"}
 ::
+:::
 
 ### Wat bedoelen natuurkundigen met “eigentijd”? 
 

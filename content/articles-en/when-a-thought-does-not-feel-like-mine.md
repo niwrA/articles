@@ -131,8 +131,10 @@ The functional ‘last word’ also acquires a more precise meaning. One body mu
 
 We must also distinguish the outcome of arbitration from its execution. Conscious consideration may produce a preference or decision without that outcome gaining sufficient access to motor, emotional or inhibitory processes. Conversely, a rapid automatic response may already be underway before conscious arbitration can redirect it. Even doing nothing is not always a freely selected outcome: it may reflect delay, deliberate inhibition, freezing, or a blockage between decision and execution. The interactive model therefore treats this execution coupling as a separate variable.
 
+:::ModelDisclosure{title="Interactive model: when does a thought feel like mine?" description="Change information boundaries, source recognition, attention, execution and time pressure." locale="en"}
 ::SelfOrganizationExplorer{locale="en"}
 ::
+:::
 
 ### Integration without explaining the experience away
 

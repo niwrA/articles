@@ -74,8 +74,10 @@ We should be careful here with the phrase “amount of change.” There is no ob
 
 The explorer below performs that comparison. Velocity and position in the gravitational field remain separate variables, while the clocks are compared directly only upon reunion. This keeps the physical history underlying the proper-time difference visible.
 
+:::ModelDisclosure{title="Interactive model: proper time and spacetime" description="Explore what clocks measure along different paths." locale="en"}
 ::ProperTimeExplorer{locale="en"}
 ::
+:::
 
 ### Putting proper time back into the experiment
 

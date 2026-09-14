@@ -77,8 +77,10 @@ Zo ontstaat steeds opnieuw een eenvoudig proces:
 
 De verkenner hieronder maakt die gedachte concreet. Beweeg door een korte sequentie en bekijk hoe dezelfde gesimuleerde toestand tegelijk kan worden gelezen als geometrie, balans en handelingsruimte. De bewegingen zijn bewust schematisch: het interessante is niet de perfecte reconstructie van een pas, maar hoe positie, belasting, contact en keuze elkaar begrenzen zonder de uitkomst volledig vast te leggen.
 
+:::ModelDisclosure{title="Interactieve tangosimulator" description="Bekijk initiatief, projectie, gewichtsoverdracht en mogelijke vervolgbewegingen."}
 ::TangoMovementExplorer{locale="nl"}
 ::
+:::
 
 ### De muziek kiest mee
 

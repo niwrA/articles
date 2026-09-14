@@ -262,8 +262,10 @@ The curious mixture of causal influence and introspective ignorance follows from
 
 The explorer below turns this verbal working model into an explicit, testable hypothesis. You can make a task more or less novel, conflicting, relevant or automatic and inspect what the model predicts for arbitration, conscious access and reportability. The numbers are not an empirically established measure of consciousness: making the assumptions visible is precisely what allows later evidence to refine or falsify the weights and thresholds.
 
+:::ModelDisclosure{title="Interactive model: hypotheses about consciousness" description="Compare how different assumptions change the consciousness model's predictions." locale="en"}
 ::ConsciousnessHypothesisExplorer{locale="en"}
 ::
+:::
 
 ### How this relates to existing theories
 

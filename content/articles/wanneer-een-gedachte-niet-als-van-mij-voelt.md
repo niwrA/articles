@@ -131,8 +131,10 @@ Ook het functionele ‘laatste woord’ krijgt daarmee een preciezere betekenis.
 
 Daarbij moeten we de uitkomst van arbitrage onderscheiden van de uitvoering ervan. Een bewuste afweging kan tot een voorkeur of besluit leiden zonder dat die uitkomst voldoende toegang krijgt tot motorische, emotionele of remmende processen. Omgekeerd kan een snelle automatische reactie al zijn ingezet voordat bewuste arbitrage haar nog kan bijsturen. Ook niets doen is niet altijd een vrij gekozen einduitkomst: het kan uitstel zijn, doelbewuste inhibitie, bevriezing of een blokkade tussen besluit en uitvoering. Het interactieve model maakt die uitvoeringskoppeling daarom tot een afzonderlijke variabele.
 
+:::ModelDisclosure{title="Interactief model: wanneer voelt een gedachte als van mij?" description="Verander informatiegrenzen, bronherkenning, aandacht, uitvoering en tijdsdruk."}
 ::SelfOrganizationExplorer{locale="nl"}
 ::
+:::
 
 ### Integreren zonder weg te verklaren
 

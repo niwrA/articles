@@ -52,8 +52,10 @@ We do not know the size of this response. No natural experiment has introduced d
 
 Sponsorship may work in the other direction. A demonstrable contribution to children's opportunities to play sport could make a club or competition more attractive to sponsors. This requires measured results; without scrutiny, it risks becoming little more than purpose marketing. The potential bonus in the model is therefore an assumption, not revenue booked in advance.
 
+:::ModelDisclosure{title="Interactive model: the sports dividend" description="Explore how money, attention and facilities could shift between elite and local sport." locale="en"}
 ::SportDividendExplorer{locale="en"}
 ::
+:::
 
 ## Attention is itself a flow of money
 

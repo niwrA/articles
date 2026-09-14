@@ -254,16 +254,6 @@ const roleFor = (id: DancerId) => selectedInitiator.value === id
     </section>
 
     <footer>{{ nl ? 'A en B zijn tijdelijke rollen, geen vaste leider/volger- of gendercategorieën. Iedere getoonde beweging kan vanuit de gespiegelde balans door de andere danser worden geïnitieerd zonder de abrazo te wisselen.' : 'A and B are temporary roles, not fixed leader/follower or gender categories. Every displayed movement can be initiated by the other dancer from the mirrored balance without switching the embrace.' }}</footer>
-    <details class="model-status">
-      <summary>{{ nl ? 'Model in ontwikkeling: inhoud en bronnen' : 'Model in progress: scope and sources' }}</summary>
-      <p>{{ nl ? 'De simulatie bevat nu afzonderlijke toestanden voor standbeen, vrije voet, projectie, plaatsing, gewichtsoverdracht, pivot, voetoriëntatie, schouderoriëntatie, contact, omhelzingsafstand, initiatief en vertraagde respons. Het is een onderzoekbare schematisering, geen dansinstructie.' : 'The simulation now represents supporting leg, free foot, projection, placement, weight transfer, pivot, foot orientation, shoulder orientation, contact, embrace distance, initiative and delayed response separately. It is an explorable schematic, not dance instruction.' }}</p>
-      <ul>
-        <li><a href="https://www.degruyter.com/document/doi/10.1515/cogsem.2012.4.1.76/html" target="_blank" rel="noopener">Kimmel — Intersubjectivity at Close Quarters</a>: {{ nl ? 'basis voor tango als wederzijdse, belichaamde coördinatie.' : 'basis for tango as reciprocal, embodied coordination.' }}</li>
-        <li><a href="https://www.researchgate.net/publication/334694663_Tango_Ocho_-_1_Functional_Anatomical_Characteristics_of_Dissociation_and_the_Tango_Pivot" target="_blank" rel="noopener">Noh — Tango Ocho: dissociation and pivot</a>: {{ nl ? 'anatomische beschrijving van dissociatie en pivot; de drie omhelzingen zijn hier modelvarianten, geen uit dit onderzoek overgenomen meetwaarden.' : 'anatomical account of dissociation and pivot; the three embraces here are model variants, not measurements taken from this paper.' }}</li>
-        <li><a href="https://tangolife.london/blog/the-molinete-and-giro-circular-movement-in-tango" target="_blank" rel="noopener">TangoLife — The Molinete and Giro</a>: {{ nl ? 'praktijkbron voor de reeks achter–zij–voor–zij en voor het onderscheid tussen molinete en de totale giro. De simulatie kan op een ander punt in die cyclische reeks beginnen.' : 'practice source for the back–side–forward–side cycle and the distinction between molinete and the complete giro. The simulation may enter that cyclic sequence at another point.' }}</li>
-        <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13453143/" target="_blank" rel="noopener">Torres et al. — Energetics, kinematics, and physiologic aspects of tango walking</a>: {{ nl ? '3D-bewegingsonderzoek naar onder meer zwaartepunttrajecten en knieflexie bij tangolopen. Het onderstreept waarom de geometrische toets nuttig is, maar een 2D-model geen volledige biomechanische geldigheid kan bewijzen.' : '3D motion research including centre-of-mass trajectories and knee flexion in tango walking. It supports the value of geometric validation while showing why a 2D model cannot establish complete biomechanical validity.' }}</li>
-      </ul>
-    </details>
   </section>
 </template>
 
