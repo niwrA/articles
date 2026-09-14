@@ -26,6 +26,7 @@ const openFull = () => {
       <HousingPolicyExplorer v-if="article.modelComponent==='housing-policy'" />
       <ProperTimeExplorer v-else-if="article.modelComponent==='proper-time'" :locale="locale" />
       <ConsciousnessHypothesisExplorer v-else-if="article.modelComponent==='consciousness'" :locale="locale" />
+      <SelfOrganizationExplorer v-else-if="article.modelComponent==='self-organization'" :locale="locale" />
       <TangoMovementExplorer v-else-if="article.modelComponent==='tango-movement'" :locale="locale" />
       <CoffeeCupModel v-else-if="article.modelComponent==='coffee-cups' && locale==='nl'" />
       <CoffeeCupModelEn v-else-if="article.modelComponent==='coffee-cups'" />

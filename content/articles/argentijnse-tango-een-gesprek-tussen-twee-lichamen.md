@@ -2,17 +2,18 @@
 title: 'Argentijnse tango: een gesprek tussen twee lichamen'
 description: Hoe Argentijnse tango door gedeeld initiatief, luisteren en reageren een rijker lichamelijk gesprek kan worden.
 date: 2026-09-10
-updated: 2026-09-13
+updated: 2026-09-14
 tags: [Tango, Dans, Improvisatie]
 translationKey: argentine-tango-conversation
 featuredImage: /images/artikelen/argentine-tango/argentijnse-tango-gesprek.webp
 featuredImageAlt: Twee Argentijnse tangodansers in een nauwe omhelzing tijdens een warm verlichte milonga
-summary: Argentijnse tango kan beter worden begrepen als een geïmproviseerd gesprek dan als eenrichtingsverkeer van leider naar volger. Dit artikel stelt voor de traditionele, vaste leider-volgerverdeling helemaal los te laten en functies als initiatief, navigatie, uitvoering en respons per beweging of moment te laten verschuiven. De dansers hoeven niet tegelijk te initiëren, maar luisteren, antwoorden en vormen elkaars mogelijkheden; positie, gewicht, verbinding, ruimte en muziek bepalen samen wat logisch kan volgen.
+summary: Argentijnse tango kan beter worden begrepen als een geïmproviseerd gesprek dan als eenrichtingsverkeer van leider naar volger. Dit artikel stelt voor de traditionele, vaste leider-volgerverdeling helemaal los te laten en functies als initiatief, navigatie, uitvoering en respons per beweging of moment te laten verschuiven. Daarvoor moet iedere beweging ook vanuit de gespiegelde balans kunnen beginnen, zodat initiatief kan wisselen zonder de abrazo fundamenteel te veranderen.
 keyPoints:
   - De vaste verdeling in één leider en één volger kan geheel worden opgeheven; afzonderlijke functies kunnen per moment tussen beide dansers verschuiven.
   - Iedere nieuwe lichaamspositie opent sommige mogelijkheden en sluit andere af.
   - De dansers kunnen verschillende aspecten van dezelfde muziek vertolken.
   - Gelijkwaardigheid betekent niet dat beide dansers op ieder moment hetzelfde doen.
+  - Volledige bewegingsvrijheid vraagt dat iedere techniek ook vanuit de gespiegelde balans door de andere danser kan worden ingezet.
 plainLanguage:
   title: Tango als gesprek in plaats van opdracht
   intro: In Argentijnse tango worden de rollen vaak leider en volger genoemd. Dat is praktisch, maar kan de indruk wekken dat één persoon alles beslist. Dit artikel stelt een rijker model voor waarin initiatief, navigatie, uitvoering en reactie per moment tussen beide dansers kunnen verschuiven.
@@ -26,6 +27,9 @@ plainLanguage:
     - heading: Rollen kunnen werkelijk wisselen
       paragraphs:
         - Gelijkwaardigheid betekent niet dat beide dansers tegelijk hetzelfde initiatief nemen. De ene kan navigeren terwijl de andere muzikaal timing of versiering voorstelt; even later kunnen functies wisselen. Zo kunnen twee lichamen verschillende stemmen in de muziek volgen en toch één gesprek vormen.
+    - heading: De abrazo hoeft daarvoor niet te wisselen
+      paragraphs:
+        - Als iedere beweging vanuit zowel de gewone als de gespiegelde balans kan beginnen, kan ook de andere danser haar inzetten in de richting die vanuit die houding natuurlijk is. Vrijheid ontstaat dan binnen dezelfde verbinding; de dansers hoeven niet eerst van plek, greep of rol te wisselen voordat het initiatief kan verschuiven.
   takeaway: Tango wordt wederkeriger wanneer leider en volger geen vaste eigenaars van initiatief zijn, maar beiden voortdurend voorstellen voelen, beantwoorden en verder vormen.
 modelComponent: tango-movement
 modelLimitations:
@@ -33,6 +37,7 @@ modelLimitations:
   - Voet-, bekken- en schouderoriëntatie, contact, zwaartepunt en open, halfopen of gesloten omhelzing zijn afzonderlijk zichtbaar.
   - Initiatief en respons hebben een klein tijdsverschil, zodat het voorstel vóór het antwoord zichtbaar wordt.
   - De bewegingen blijven schematische, te toetsen varianten en zijn geen dansinstructie.
+  - De gespiegelde varianten behouden dezelfde omhelzing en geometrische regels, maar moeten nog per beweging in de praktijk worden getoetst.
 draft: false
 ---
 
@@ -181,7 +186,11 @@ In traditioneel onderwijs kan iemand na jaren volgen bijzonder veel weten over h
 
 Als beide dansers beide kanten kennen, kunnen ze van plaats wisselen en elkaar een probleem laten voelen. Kennis wordt zo minder afhankelijk van rol en dansers krijgen meer gereedschap om samen te onderzoeken waarom iets wel of niet werkt.
 
-Als we de klassieke abrazo behouden, waar zeker wat voor te zeggen is, dan betekent dat ook dat we alle bewegingen binnen die abrazo ook in spiegelbeeld moeten kunnen inzetten. Dat geeft ook mogelijkheden en ruimte - veel van de huidige bewegingen hebben een sterke voorkeursrichting vanuit de houding die we traditioneel nemen waarbij aan een kant handcontact is en aan de ander armcontact. 
+Als we de klassieke abrazo behouden, waar veel voor te zeggen is, volgt daar nog een voorwaarde uit. Het is niet genoeg dat beide dansers ooit dezelfde techniek leren: iedere beweging moet ook **vanuit de gespiegelde balans** kunnen worden ingezet. De andere danser begint dan vanuit diens standbeen en gebruikt de richting die vanuit die houding en die kant van de abrazo het meest natuurlijk is.
+
+Dat is meer dan een spiegelbeeldige uitvoering van een bekende figuur. Het verplaatst het beginpunt van het initiatief. De danser die traditioneel zou volgen kan vanuit de bestaande verbinding een zijstap, looprichting, draai of andere techniek voorstellen; de partner krijgt de complementaire taak. Bij een volgende beweging kan het initiatief weer terugkeren.
+
+Daarmee hoeft de abrazo niet fundamenteel te worden aangepast en hoeven de dansers niet eerst zichtbaar van rol te wisselen. Handcontact aan de ene kant en armcontact aan de andere kant blijven asymmetrisch, maar bepalen niet langer wie mag beginnen. Als beide dansers de gewone én gespiegelde mogelijkheden lichamelijk kennen, ontstaat vrijheid binnen de omhelzing in plaats van pas nadat zij haar loslaten.
 
 ### Niet de figuur, maar de positie begrijpen
 

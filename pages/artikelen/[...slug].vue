@@ -49,6 +49,7 @@ const viewMode = computed<'summary'|'simple'|'full'>({
       <NuxtLink v-if="translation" :to="translation.path" hreflang="en" class="article-language">Read this article in English →</NuxtLink>
       <ArticleShare :title="article.title" :description="article.description" :url="canonicalUrl" :article-key="article.translationKey" locale="nl" />
     </header>
+    <ArticleRelations :article="article" locale="nl" />
     <ArticleViewToggle v-if="hasSummary" v-model="viewMode" locale="nl" :article-key="article.translationKey" :has-plain-language="hasPlainLanguage" />
     <figure v-if="article.featuredImage && viewMode === 'full'" class="article-cover wrap">
       <picture>

@@ -2,7 +2,7 @@
 title: A Theory of Consciousness
 description: A functional hypothesis in which consciousness helps arbitrate novel, conflicting, uncertain or consequential problems across brain and body.
 date: 2026-09-11
-updated: 2026-09-13
+updated: 2026-09-14
 tags: [Consciousness, Neuroscience, Philosophy]
 translationKey: theory-of-consciousness
 featuredImage: /images/artikelen/a-theory-of-consciousness/consciousness-arbitration.webp
@@ -13,6 +13,7 @@ keyPoints:
   - Considerable sophisticated processing can occur without conscious experience or report.
   - Conscious access is especially expected when information must be integrated broadly and competing options resolved.
   - Relevance, bodily state and goals determine why an outcome matters to the organism.
+  - The organism remains the reference point, while its current self-organisation and the information admitted by it may change with context or state.
   - Report is a downstream capability and need not be what creates consciousness.
 plainLanguage:
   title: What might consciousness be for?
@@ -27,6 +28,9 @@ plainLanguage:
     - heading: A solution can become automatic again
       paragraphs:
         - When a consciously found solution is repeated, learning may turn it into a routine. Consciousness would then be less like a permanent executive and more like a temporary workspace for problems without a reliable automatic answer. This may explain a function, but not why experience feels subjective.
+    - heading: The self is not an immutable whole
+      paragraphs:
+        - Memories, emotions, goals and possibilities for action are not equally accessible in every state. The organism remains the same, but its current self-representation can change with context. Usually enough coherence remains for one continuing ‘I’; stronger information boundaries may restrict that coherence.
   takeaway: The hypothesis treats consciousness as broad arbitration when automatic processes conflict or fall short. It is testable, but it is not yet an established theory.
 modelComponent: consciousness
 modelLimitations:
@@ -166,6 +170,8 @@ The embodied organism can distinguish its own state and actions from the environ
 
 Each layer expands what can be included in arbitration.
 
+These layers need not be fully integrated at every moment. The organism remains the biological reference point, while its current self-organisation may change with context, emotion and accessible memories. Different situations can activate different combinations of goals, experiences, ownership and possibilities for action. Ordinarily, enough information remains transferable between such states to sustain one continuing self. When information boundaries become more rigid, partly autonomous self-positions may emerge that share information, influence one another or compete for conscious and behavioural control. The application to voice-hearing develops this possibility separately.
+
 ### Other minds enlarge the problem
 
 Social cognition creates one of the most dramatic expansions. A child gradually learns that other people possess information, beliefs, goals and perspectives that can differ from its own. Classic false-belief research shows a robust developmental progression in explicit understanding that another person can believe something the child knows to be false.[13] More complex recursive reasoning continues to develop: I think that she believes that he knows.
@@ -210,7 +216,7 @@ This may be one reason human consciousness contains such a powerful sense of sel
 
 This offers a possible bridge between function and phenomenology. Consciousness does not feel like a neutral stream of data. Things happen to me. They matter to me. I experience fear, curiosity, embarrassment, desire, doubt, pain and relief.
 
-If conscious arbitration integrates information according to its relevance to a model of the organism, that first-person structure is exactly what we should expect. External information is combined with bodily state, memory, motivation and prediction. Possible consequences are evaluated in relation to an organism represented within the system. The self-model supplies the persistent reference around which the problem is organised.
+If conscious arbitration integrates information according to its relevance to a model of the organism, that first-person structure is exactly what we should expect. External information is combined with bodily state, memory, motivation and prediction. Possible consequences are evaluated in relation to an organism represented within the system. The organism supplies the persistent reference; the self-model is the changing representation within which information is selected and evaluated at that moment.
 
 The experienced “I” therefore need not be an additional entity watching consciousness. It may be the form taken by the organism’s model when that model participates in conscious coordination.
 
@@ -233,6 +239,8 @@ The proposed architecture can now be stated more precisely.
 The brain contains many specialised processes capable of sophisticated operation largely autonomously and in parallel. As long as their outputs are reliable and mutually compatible, extensive flexible coordination adds little value. Learned routines can govern behaviour efficiently.
 
 Certain situations create a different requirement. Something becomes sufficiently novel, conflicting, uncertain or consequential that the existing automatic response is inadequate or should not simply be trusted. Relevance gives the problem priority. Attention establishes a temporary focus. Information needed to address the problem becomes available across otherwise partly independent systems. Perception, memory, bodily state, learned value, current goals, possible actions, social knowledge and predicted consequences can constrain one another.
+
+This broad availability is not all-or-nothing. Arbitration proceeds with information accessible within the current state; other memories, emotions or goals may temporarily exert less influence even when retained elsewhere in the system.
 
 The system then arbitrates among the resulting possibilities until a temporary distributed state acquires a functional final say. The phrase does not imply a final neural executive. It means that competing influences have been resolved sufficiently for one trajectory to govern what the organism does next.
 

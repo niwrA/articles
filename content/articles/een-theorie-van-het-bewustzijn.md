@@ -2,6 +2,7 @@
 title: Een theorie van het bewustzijn
 description: Een functionele hypothese waarin bewustzijn helpt bij het arbitreren van nieuwe, conflicterende, onzekere of ingrijpende problemen in brein en lichaam.
 date: 2026-09-10
+updated: 2026-09-14
 tags: [Bewustzijn, Neurowetenschap, Filosofie]
 translationKey: theory-of-consciousness
 featuredImage: /images/artikelen/a-theory-of-consciousness/consciousness-arbitration.webp
@@ -12,6 +13,7 @@ keyPoints:
   - Veel geavanceerde verwerking kan plaatsvinden zonder bewuste ervaring of rapportage.
   - Bewuste toegang wordt vooral verwacht wanneer informatie breed moet worden geïntegreerd en concurrerende opties moeten worden beslecht.
   - Relevantie, lichamelijke toestand en doelen bepalen voor welk organisme de uitkomst ertoe doet.
+  - Het organisme blijft het referentiepunt, maar de actuele zelforganisatie en de informatie die zij toelaat kunnen per context of toestand veranderen.
   - Rapportage is een latere capaciteit en hoeft bewustzijn niet te veroorzaken.
 plainLanguage:
   title: Waar zou bewustzijn voor kunnen dienen?
@@ -26,6 +28,9 @@ plainLanguage:
     - heading: Een oplossing kan weer automatisch worden
       paragraphs:
         - Wanneer een bewuste oplossing vaak wordt herhaald, kan zij door leren een routine worden. Bewustzijn zou dan geen permanente bestuurder zijn, maar een tijdelijke werkruimte voor problemen waarvoor nog geen betrouwbare automatische oplossing bestaat. Dit verklaart een mogelijke functie, niet waarom ervaring subjectief voelt.
+    - heading: Het zelf is geen onveranderlijk geheel
+      paragraphs:
+        - Herinneringen, emoties, doelen en handelingsmogelijkheden zijn niet in iedere toestand even toegankelijk. Het organisme blijft hetzelfde, maar de actuele representatie van het zelf kan met context veranderen. Gewoonlijk blijft genoeg samenhang bestaan voor één doorlopend ik; sterkere informatiegrenzen kunnen die samenhang beperken.
   takeaway: De hypothese ziet bewustzijn als een vorm van brede arbitrage wanneer automatische processen botsen of tekortschieten; zij is toetsbaar, maar nog geen bewezen theorie.
 modelComponent: consciousness
 modelLimitations:
@@ -165,6 +170,8 @@ Het belichaamde organisme kan zijn eigen toestand en handelingen van de omgeving
 
 Iedere laag vergroot wat in de arbitrage kan worden opgenomen.
 
+Die lagen hoeven niet op ieder moment volledig geïntegreerd te zijn. Het organisme blijft het biologische referentiepunt, maar de actuele zelforganisatie kan veranderen met context, emotie en toegankelijke herinneringen. Verschillende situaties kunnen andere combinaties van doelen, ervaringen, eigenaarschap en handelingsmogelijkheden activeren. Gewoonlijk blijft voldoende informatie tussen zulke toestanden beschikbaar om één doorlopend zelf te ervaren. Wanneer de informatiegrenzen rigider worden, kunnen gedeeltelijk zelfstandige ik-posities ontstaan die informatie delen, elkaar beïnvloeden of concurreren om bewuste en gedragsmatige controle. De toepassing op stemmen horen werkt deze mogelijkheid afzonderlijk uit.
+
 ### Andere geesten vergroten het probleem
 
 Sociale cognitie zorgt voor een van de ingrijpendste uitbreidingen. Een kind leert geleidelijk dat andere mensen informatie, overtuigingen, doelen en perspectieven bezitten die van de zijne kunnen verschillen. Klassiek onderzoek naar onjuiste overtuigingen laat een robuuste ontwikkeling zien in het expliciete begrip dat iemand anders iets kan geloven waarvan het kind weet dat het onwaar is.[13] Complexere recursieve redenering blijft zich ontwikkelen: ik denk dat zij gelooft dat hij weet.
@@ -209,7 +216,7 @@ Dit kan een reden zijn waarom menselijk bewustzijn zo'n sterk besef van zelfbewu
 
 Dit biedt een mogelijke brug tussen functie en fenomenologie. Bewustzijn voelt niet als een neutrale gegevensstroom. Dingen overkomen mij. Ze doen ertoe voor mij. Ik ervaar angst, nieuwsgierigheid, schaamte, verlangen, twijfel, pijn en opluchting.
 
-Als bewuste arbitrage informatie integreert volgens haar relevantie voor een model van het organisme, is die eerstepersoonsstructuur precies wat we zouden verwachten. Externe informatie wordt gecombineerd met lichamelijke toestand, geheugen, motivatie en voorspelling. Mogelijke gevolgen worden geëvalueerd in relatie tot een organisme dat binnen het systeem wordt gerepresenteerd. Het zelfmodel levert het blijvende referentiepunt waaromheen het probleem is georganiseerd.
+Als bewuste arbitrage informatie integreert volgens haar relevantie voor een model van het organisme, is die eerstepersoonsstructuur precies wat we zouden verwachten. Externe informatie wordt gecombineerd met lichamelijke toestand, geheugen, motivatie en voorspelling. Mogelijke gevolgen worden geëvalueerd in relatie tot een organisme dat binnen het systeem wordt gerepresenteerd. Het organisme levert het blijvende referentiepunt; het zelfmodel is de veranderlijke representatie waarbinnen informatie op dat moment wordt geselecteerd en beoordeeld.
 
 Het ervaren „ik” hoeft daarom geen aanvullende entiteit te zijn die naar het bewustzijn kijkt. Het kan de vorm zijn die het model van het organisme aanneemt wanneer dat model aan bewuste coördinatie deelneemt.
 
@@ -232,6 +239,8 @@ De voorgestelde architectuur kan nu nauwkeuriger worden geformuleerd.
 Het brein bevat veel gespecialiseerde processen die grotendeels autonoom en parallel tot geavanceerd functioneren in staat zijn. Zolang hun uitkomsten betrouwbaar en onderling verenigbaar zijn, voegt uitgebreide flexibele coördinatie weinig waarde toe. Aangeleerde routines kunnen het gedrag efficiënt sturen.
 
 Bepaalde situaties scheppen een andere behoefte. Iets wordt voldoende nieuw, conflicterend, onzeker of ingrijpend dat de bestaande automatische reactie ontoereikend is of niet zonder meer vertrouwd moet worden. Relevantie geeft het probleem prioriteit. Aandacht vestigt een tijdelijke focus. Informatie die nodig is om het probleem aan te pakken wordt beschikbaar in anders gedeeltelijk onafhankelijke systemen. Waarneming, geheugen, lichamelijke toestand, aangeleerde waarde, actuele doelen, mogelijke handelingen, sociale kennis en voorspelde gevolgen kunnen elkaar begrenzen.
+
+Die brede beschikbaarheid is geen alles-of-niets-eigenschap. Arbitrage vindt plaats met de informatie die binnen de actuele toestand toegankelijk wordt; andere herinneringen, emoties of doelen kunnen tijdelijk minder invloed hebben, ook wanneer zij elders in het systeem behouden blijven.
 
 Het systeem arbitreert vervolgens tussen de ontstane mogelijkheden totdat een tijdelijke gedistribueerde toestand een functioneel laatste woord krijgt. Die uitdrukking impliceert geen uiteindelijke neurale bestuurder. Zij betekent dat concurrerende invloeden voldoende zijn opgelost om één traject te laten bepalen wat het organisme vervolgens doet.
 

@@ -174,3 +174,24 @@ export function withEmbrace(frame:TangoFrame,embrace:Embrace,movementId:Movement
   }]
   return{...frame,a,b,contacts}
 }
+
+/** Reassigns the same movement proposal to B without changing the abrazo.
+ * A half-turn around the couple's midpoint plus an identity swap preserves all
+ * relative distances and joint constraints, while reversing the initial
+ * balance, direction through the room and temporary initiator/responder roles. */
+export function withInitiator(frame:TangoFrame,initiator:DancerId):TangoFrame{
+  if(initiator==='a')return frame
+  const midpoint={x:(frame.a.torso.x+frame.b.torso.x)/2,y:(frame.a.torso.y+frame.b.torso.y)/2}
+  const turnPoint=(point:Point):Point=>({x:2*midpoint.x-point.x,y:2*midpoint.y-point.y})
+  const turnFoot=(foot:FootState):FootState=>({...foot,...turnPoint(foot),angle:foot.angle+180})
+  const turnDancer=(dancer:DancerState):DancerState=>({
+    torso:turnPoint(dancer.torso),angle:dancer.angle+180,pelvisAngle:dancer.pelvisAngle+180,
+    left:turnFoot(dancer.left),right:turnFoot(dancer.right)
+  })
+  return{
+    ...frame,
+    a:turnDancer(frame.b),
+    b:turnDancer(frame.a),
+    contacts:frame.contacts.map(contact=>({...contact,a:turnPoint(contact.b),b:turnPoint(contact.a)}))
+  }
+}

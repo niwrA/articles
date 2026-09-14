@@ -7,6 +7,10 @@ const articleSchema = z.object({
   updated: z.string().optional(),
   tags: z.array(z.string()).default([]),
   translationKey: z.string(),
+  articleRelations: z.array(z.object({
+    type: z.enum(['application-of', 'builds-on', 'complements', 'compare-with', 'response-to']),
+    article: z.string()
+  })).optional(),
   featuredImage: z.string().optional(),
   featuredImageAlt: z.string().optional(),
   featuredImageFocalPoint: z.string().optional(),
