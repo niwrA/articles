@@ -14,7 +14,7 @@ const openFull=()=>{trackAnalytics('open_full_article',{article:props.article.tr
    <h3>{{section.heading}}</h3>
    <p v-for="paragraph in section.paragraphs" :key="paragraph">{{paragraph}}</p>
   </section>
-  <aside><strong>{{nl?'Wat je moet onthouden':'What to remember'}}</strong><p>{{article.plainLanguage.takeaway}}</p></aside>
+  <aside><strong>{{nl?'In één zin':'In one sentence'}}</strong><p>{{article.plainLanguage.takeaway}}</p></aside>
   <div class="continue"><p>{{nl?'In de volledige versie staan de technische uitleg, de interactieve modellen en alle referenties.':'The full version contains the technical explanation, interactive models and all references.'}}</p><button @click="openFull">{{nl?'Lees het volledige artikel':'Read the full article'}} →</button></div>
  </main>
 </template>

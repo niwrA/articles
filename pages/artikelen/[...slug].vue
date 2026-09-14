@@ -25,6 +25,7 @@ useHead({ htmlAttrs: { lang: 'nl' }, link: [
   { rel: 'alternate', hreflang: 'x-default', href: absolute(route.path) }
 ] })
 const date = (value: string) => new Intl.DateTimeFormat('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(value))
+const mobileCover = (source: string) => source.replace(/(\.[^.]+)$/, '-card$1')
 const renderedArticle = computed(() => withCitations(article.value!, 'nl'))
 const hasSummary = computed(() => Boolean(article.value?.summary))
 const hasPlainLanguage = computed(() => Boolean(article.value?.plainLanguage))
@@ -50,7 +51,10 @@ const viewMode = computed<'summary'|'simple'|'full'>({
     </header>
     <ArticleViewToggle v-if="hasSummary" v-model="viewMode" locale="nl" :article-key="article.translationKey" :has-plain-language="hasPlainLanguage" />
     <figure v-if="article.featuredImage && viewMode === 'full'" class="article-cover wrap">
-      <img :src="article.featuredImage" :alt="article.featuredImageAlt || ''" width="1800" height="1024">
+      <picture>
+        <source media="(max-width: 750px)" :srcset="mobileCover(article.featuredImage)">
+        <img :src="article.featuredImage" :alt="article.featuredImageAlt || ''" width="1800" height="1024" fetchpriority="high" decoding="async">
+      </picture>
     </figure>
     <ArticleSummary v-if="viewMode === 'summary'" :article="article" locale="nl" @full="viewMode='full'" />
     <ArticlePlainLanguage v-else-if="viewMode === 'simple'" :article="article" locale="nl" @full="viewMode='full'" />
