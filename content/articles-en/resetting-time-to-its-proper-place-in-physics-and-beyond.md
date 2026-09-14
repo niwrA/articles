@@ -14,6 +14,20 @@ keyPoints:
   - Velocity and gravitational potential affect proper time along a worldline.
   - The difference is established operationally when clocks or other processes are compared.
   - Proper time is a powerful geometric measure, not an additional substance controlling matter.
+plainLanguage:
+  title: What does a clock actually measure?
+  intro: A clock does not detect an invisible substance called time. It is a physical system that changes in a regular way. By comparing that change with other processes, we can establish that two clocks following different journeys have not accumulated the same number of ticks.
+  sections:
+    - heading: Clocks compare changes
+      paragraphs:
+        - A pendulum, a quartz crystal and an atomic clock work differently, but each uses a repeatable process as a measure. A second means that such a process has completed an agreed number of changes. In this practical sense, time is a way of comparing change with change.
+    - heading: Different paths produce different results
+      paragraphs:
+        - Relativity says that accumulated proper time depends on velocity and gravity. Two accurate clocks following different paths can show a small difference when reunited. This is not an illusion but a measurable difference between their physical histories.
+    - heading: The physics remains intact
+      paragraphs:
+        - The article does not reject relativity. It proposes a different conceptual starting point. Begin with matter, motion and measurable change, and treat proper time as the geometric measure that compares their histories. This avoids making time sound like an independent force controlling clocks.
+  takeaway: Relativity predicts differences between physical histories. A clock records such a history; time need not be imagined as a separate active substance.
 modelComponent: proper-time
 modelLimitations:
   - The model combines special relativity with a simplified, spherically symmetric Earth model.

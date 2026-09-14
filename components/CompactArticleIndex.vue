@@ -4,7 +4,7 @@ const props=withDefaults(defineProps<{articles:any[];locale?:'nl-NL'|'en-GB';pag
 const nl=computed(()=>props.locale==='nl-NL')
 const query=ref(''),topic=ref('all'),sort=ref<SortMode>('newest'),page=ref(1)
 const topics=computed(()=>Array.from(new Set<string>(props.articles.flatMap(article=>article.tags||[]))).sort((a,b)=>a.localeCompare(b,props.locale)))
-const searchable=(article:any)=>[article.title,article.description,article.summary,(article.tags||[]).join(' '),JSON.stringify(article.body||'')].join(' ').toLocaleLowerCase(props.locale)
+const searchable=(article:any)=>[article.title,article.description,article.summary,(article.tags||[]).join(' '),article.searchText].join(' ').toLocaleLowerCase(props.locale)
 const filtered=computed(()=>{
   const needle=query.value.trim().toLocaleLowerCase(props.locale)
   const items=props.articles.filter(article=>(topic.value==='all'||article.tags?.includes(topic.value))&&(!needle||searchable(article).includes(needle)))
@@ -19,6 +19,7 @@ const imageStyle=(article:any)=>({
   '--focal-point':article.featuredImageFocalPoint||'50% 50%',
   '--mobile-focal-point':article.featuredImageMobileFocalPoint||article.featuredImageFocalPoint||'50% 50%'
 })
+const cardImage=(source:string)=>source.replace(/(\.[^.]+)$/,'-card$1')
 </script>
 
 <template>
@@ -32,10 +33,10 @@ const imageStyle=(article:any)=>({
     <div v-if="visible.length" class="article-grid">
       <article v-for="article in visible" :key="article.path" class="compact-card">
         <NuxtLink class="card-image" :to="article.path" :aria-label="article.title">
-          <img v-if="article.featuredImage" :src="article.featuredImage" :alt="article.featuredImageAlt||''" :style="imageStyle(article)" loading="lazy">
+          <img v-if="article.featuredImage" :src="cardImage(article.featuredImage)" :alt="article.featuredImageAlt||''" :style="imageStyle(article)" width="720" height="405" loading="lazy" decoding="async">
           <span v-else aria-hidden="true">{{article.tags?.[0]||'Essay'}}</span>
         </NuxtLink>
-        <div class="card-meta"><time :datetime="article.date">{{date(article.date)}}</time><span v-if="article.tags?.[0]">{{article.tags[0]}}</span><span>{{formatReadingTime(article.body,locale)}}</span></div>
+        <div class="card-meta"><time :datetime="article.date">{{date(article.date)}}</time><span v-if="article.tags?.[0]">{{article.tags[0]}}</span><span>{{article.readingTime}}</span></div>
         <h3><NuxtLink :to="article.path">{{article.title}}</NuxtLink></h3><p>{{article.description}}</p>
         <div class="card-footer"><div class="tags"><button v-for="tag in article.tags?.slice(0,3)" :key="tag" type="button" @click="topic=tag">{{tag}}</button></div><NuxtLink :to="article.path" :aria-label="`${nl?'Lees':'Read'} ${article.title}`">↗</NuxtLink></div>
       </article>

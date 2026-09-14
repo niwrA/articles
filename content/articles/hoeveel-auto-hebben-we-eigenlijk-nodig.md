@@ -14,6 +14,20 @@ keyPoints:
   - Massa en afmetingen beïnvloeden energiegebruik, materiaalvraag, parkeren en veiligheid voor anderen.
   - Capaciteit voor enkele uitzonderlijke dagen hoeft niet het hele jaar te worden meegedragen.
   - Beleidskeuzes en marktprikkels beïnvloeden welke voertuigen aantrekkelijk en beschikbaar zijn.
+plainLanguage:
+  title: Moet een auto iedere uitzonderlijke rit aankunnen?
+  intro: Auto's zijn gemiddeld groter en zwaarder geworden. Dat kan comfort en bescherming bieden, maar vraagt ook meer materiaal, energie en openbare ruimte. De kernvraag is daarom niet welke auto maximaal kan, maar welke capaciteit iemand meestal nodig heeft en hoe incidentele uitzonderingen anders kunnen worden opgelost.
+  sections:
+    - heading: Gewicht heeft gevolgen
+      paragraphs:
+        - Een zware auto heeft doorgaans meer energie nodig om te rijden en meer materiaal om te worden gemaakt. Bij een botsing tussen een zware en een lichte auto is de lichte partij vaak in het nadeel. Elektrische accu's verklaren een deel van het extra gewicht, maar niet de volledige groei in lengte, breedte en hoogte.
+    - heading: Ook stilstaande auto's gebruiken ruimte
+      paragraphs:
+        - Bredere auto's passen moeilijker in bestaande straten en parkeerplaatsen. Daardoor blijft minder ruimte over voor lopen, fietsen, groen en andere weggebruikers. Wat voor één eigenaar extra gemak is, kan voor de omgeving dus een gezamenlijke kostenpost worden.
+    - heading: Ontwerp voor normaal gebruik
+      paragraphs:
+        - Wie bijna altijd alleen of met twee personen rijdt, hoeft mogelijk niet dagelijks een auto voor vakantie, verhuizing of een groot gezelschap mee te nemen. Een kleinere auto kan worden aangevuld met huur, deelvervoer of bezorging op de zeldzame momenten dat meer capaciteit nodig is.
+  takeaway: Kies permanente autocapaciteit voor het gewone gebruik en organiseer uitzonderingen apart; dat kan energie, geld en publieke ruimte besparen.
 modelComponent: car-needs
 modelLimitations:
   - De keuzehulp adviseert een capaciteitsklasse, geen specifiek voertuig.
@@ -131,18 +145,18 @@ Regeren is vooruitzien, en de democratie is van ons allemaal. Met andere woorden
 
 ---
 
-### Bronnen en verdere lectuur
+## Referenties
 
-**CBS** — [**Personenauto's steeds langer, breder en zwaarder**](https://www.cbs.nl/nl-nl/nieuws/2025/18/personenauto-s-steeds-langer-breder-en-zwaarder). Nederlandse cijfers over massa, lengte, breedte, aandrijving en gereden kilometers naar gewichtsklasse.
+1. **CBS** — [**Personenauto's steeds langer, breder en zwaarder**](https://www.cbs.nl/nl-nl/nieuws/2025/18/personenauto-s-steeds-langer-breder-en-zwaarder). Nederlandse cijfers over massa, lengte, breedte, aandrijving en gereden kilometers naar gewichtsklasse.
 
-**International Energy Agency (IEA)** — [**Global EV Outlook 2024 – Trends in electric cars**](https://www.iea.org/reports/global-ev-outlook-2024/trends-in-electric-cars). Gegevens over voertuigformaat, energiegebruik, batterijcapaciteit en grondstoffengebruik.
+2. **International Energy Agency (IEA)** — [**Global EV Outlook 2024 – Trends in electric cars**](https://www.iea.org/reports/global-ev-outlook-2024/trends-in-electric-cars). Gegevens over voertuigformaat, energiegebruik, batterijcapaciteit en grondstoffengebruik.
 
-**International Energy Agency (IEA)** — [**Global EV Outlook 2024 – Outlook for emissions reductions**](https://www.iea.org/reports/global-ev-outlook-2024/outlook-for-emissions-reductions). Lifecyclevergelijkingen tussen voertuigcategorieën en aandrijvingen.
+3. **International Energy Agency (IEA)** — [**Global EV Outlook 2024 – Outlook for emissions reductions**](https://www.iea.org/reports/global-ev-outlook-2024/outlook-for-emissions-reductions). Lifecyclevergelijkingen tussen voertuigcategorieën en aandrijvingen.
 
-**VIAS Institute** — [**Impact van voertuigkenmerken op de ernst van verwondingen van auto-inzittenden en de tegenpartij**](https://vias.be/publications/Impact%20voertuigkenmerken/Impact_van_voertuigkenmerken.pdf). Belgische analyse van onder meer voertuiggewicht, motorkaphoogte en letselrisico.
+4. **VIAS Institute** — [**Impact van voertuigkenmerken op de ernst van verwondingen van auto-inzittenden en de tegenpartij**](https://vias.be/publications/Impact%20voertuigkenmerken/Impact_van_voertuigkenmerken.pdf). Belgische analyse van onder meer voertuiggewicht, motorkaphoogte en letselrisico.
 
-**Van Ommeren, Rietveld, Zagha Hop & Sabir** — [**Killing kilos in car accidents: Are external costs of car weight internalised?**](https://www.sciencedirect.com/science/article/abs/pii/S2212012213000142), *Economics of Transportation* 2 (2013). Nederlandse analyse van voertuiggewicht en externe veiligheidskosten.
+5. **Van Ommeren, Rietveld, Zagha Hop & Sabir** — [**Killing kilos in car accidents: Are external costs of car weight internalised?**](https://www.sciencedirect.com/science/article/abs/pii/S2212012213000142), *Economics of Transportation* 2 (2013). Nederlandse analyse van voertuiggewicht en externe veiligheidskosten.
 
-**AASHO Road Test / pavement-engineeringliteratuur** — achtergrond voor de zogenoemde *fourth-power law* waarmee de sterke relatie tussen aslast en structurele wegschade traditioneel wordt geïllustreerd. De werkelijke exponent varieert met wegconstructie, belasting en schademechanisme.
+6. **AASHO Road Test / pavement-engineeringliteratuur** — achtergrond voor de zogenoemde *fourth-power law* waarmee de sterke relatie tussen aslast en structurele wegschade traditioneel wordt geïllustreerd. De werkelijke exponent varieert met wegconstructie, belasting en schademechanisme.
 
 *De berekening van de snelheidsverandering bij de botsing van voertuigen van 1.200 en 2.000 kilogram is een vereenvoudigd impulsmodel en geen crashsimulatie. Ook de voorbeelden over parkeerbreedte en tijdelijke huurcapaciteit zijn illustratieve berekeningen. Voor de bijdrage van groeiende personenauto's aan Nederlandse congestie of totale wegonderhoudskosten is geen percentage gegeven, omdat daarvoor onvoldoende robuuste causale onderbouwing beschikbaar is.*

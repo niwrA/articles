@@ -13,6 +13,20 @@ keyPoints:
   - Dezelfde symbolen vragen op verschillende instrumenten om andere lichamelijke handelingen.
   - Stijlkennis bepaalt welke timing, articulatie en rol achter de noten schuilgaan.
   - Goed samenspel vraagt niet alleen correct lezen, maar begrip van functies en gedeelde conventies.
+plainLanguage:
+  title: Een partituur is niet de muziek zelf
+  intro: Notenschrift legt belangrijke informatie vast, zoals toonhoogte en relatieve duur. Maar het bewaart niet alles wat een uitvoering tot muziek maakt. Klank, timing, beweging, stijl en de rol binnen een ensemble moeten musici uit ervaring, traditie en onderling luisteren toevoegen.
+  sections:
+    - heading: Notatie kiest wat zij bewaart
+      paragraphs:
+        - Zelfs een zeer nauwkeurige partituur is geen geluidsopname. Dezelfde noten kunnen overtuigend, vlak, dansbaar of onhandig klinken. Een transcriptie van een improvisatie kan exact vastleggen wat ooit werd gespeeld zonder te betekenen dat iedere latere musicus precies hetzelfde moet herhalen.
+    - heading: Een noot is ook een lichamelijke handeling
+      paragraphs:
+        - Dezelfde toon vraagt op een viool, trompet, piano of met de stem om een andere beweging. Vingerzetting, adem, strijkrichting en houding beïnvloeden welke frasering natuurlijk is. Componisten en improvisatoren kunnen ideeën daarom vanuit het instrument en het lichaam ontwikkelen, niet alleen vanuit abstracte tonen.
+    - heading: Stijl vult de lege ruimte
+      paragraphs:
+        - In jazz en tango staat soms weinig op papier omdat musici verondersteld worden de gedeelde taal te kennen. Zij begrijpen functies, accenten en manieren van samenspelen. Goed onderwijs oefent daarom zowel nauwkeurig lezen als herkennen wat een passage muzikaal probeert te doen.
+  takeaway: Lees de noten precies, maar zoek daarnaast naar stijl, functie, beweging en samenspel; daar ontstaat de uitvoering die niet volledig op papier kan staan.
 modelLimitations:
   - De analyse richt zich vooral op westerse notatie, jazz en Argentijnse tango.
   - Uitvoeringspraktijken verschillen per periode, orkest, opname en lokale traditie.
@@ -142,62 +156,62 @@ Misschien is juist dat de bijzondere kracht van een partituur: zij bewaart genoe
 
 Ook beschikbaar in een Engelstalige versie: [**https://www.linkedin.com/pulse/whats-note-arwin-van-arum-09qie/**](https://www.linkedin.com/pulse/whats-note-arwin-van-arum-09qie/)
 
-### Bronnen en verdere lectuur
+## Referenties
 
-**[1] Keith Jarrett —** ***The Köln Concert: Original Transcription*****. Schott Music.** De uitgever beschrijft de transcriptie als door Jarrett geautoriseerd en vermeldt zowel zijn aanvankelijke weerstand tegen het project als zijn aanbeveling om de opname als ‘final-word reference’ te gebruiken. [**https://www.schott-music.com/en/the-koeln-concert-no38222.html**](https://www.schott-music.com/en/the-koeln-concert-no38222.html)
+1. **Keith Jarrett —** ***The Köln Concert: Original Transcription*****. Schott Music.** De uitgever beschrijft de transcriptie als door Jarrett geautoriseerd en vermeldt zowel zijn aanvankelijke weerstand tegen het project als zijn aanbeveling om de opname als ‘final-word reference’ te gebruiken. [**https://www.schott-music.com/en/the-koeln-concert-no38222.html**](https://www.schott-music.com/en/the-koeln-concert-no38222.html)
 
-**Peter Elsdon —** ***Keith Jarrett's The Köln Concert*****. Oxford University Press.** Over het concert, improvisatie, opname en de problematiek van transcriptie. [**https://academic.oup.com/book/27226**](https://academic.oup.com/book/27226)
+    **Peter Elsdon —** ***Keith Jarrett's The Köln Concert*****. Oxford University Press.** Over het concert, improvisatie, opname en de problematiek van transcriptie. [**https://academic.oup.com/book/27226**](https://academic.oup.com/book/27226)
 
-**[2] Frederick Neumann —** ***Ornamentation and Improvisation in Mozart*****. Princeton University Press.** Over ornamentatie, cadensen, *Eingänge* en improvisatorische aspecten van Mozarts uitvoeringspraktijk. [**https://www.degruyter.com/document/doi/10.1515/9780691194684/html**](https://www.degruyter.com/document/doi/10.1515/9780691194684/html)
+2. **Frederick Neumann —** ***Ornamentation and Improvisation in Mozart*****. Princeton University Press.** Over ornamentatie, cadensen, *Eingänge* en improvisatorische aspecten van Mozarts uitvoeringspraktijk. [**https://www.degruyter.com/document/doi/10.1515/9780691194684/html**](https://www.degruyter.com/document/doi/10.1515/9780691194684/html)
 
-**[3] David Hyun-Su Kim — “The Brahmsian Hairpin”,** ***19th-Century Music*** **36, nr. 1 (2012), 46–57.** Kim onderzoekt de historische betekenis van hairpins en betoogt dat hun betekenis in Brahms’ omgeving breder kon zijn dan uitsluitend harder en zachter spelen. [**https://online.ucpress.edu/ncm/article-abstract/36/1/46/69638/The-Brahmsian-Hairpin**](https://online.ucpress.edu/ncm/article-abstract/36/1/46/69638/The-Brahmsian-Hairpin) DOI: 10.1525/ncm.2012.36.1.046
+3. **David Hyun-Su Kim — “The Brahmsian Hairpin”,** ***19th-Century Music*** **36, nr. 1 (2012), 46–57.** Kim onderzoekt de historische betekenis van hairpins en betoogt dat hun betekenis in Brahms’ omgeving breder kon zijn dan uitsluitend harder en zachter spelen. [**https://online.ucpress.edu/ncm/article-abstract/36/1/46/69638/The-Brahmsian-Hairpin**](https://online.ucpress.edu/ncm/article-abstract/36/1/46/69638/The-Brahmsian-Hairpin) DOI: 10.1525/ncm.2012.36.1.046
 
-**[4] Tim Carter — onderzoek naar muziekdruk in het zestiende- en vroeg-zeventiende-eeuwse Italië.** Relevant voor de ontwikkeling van gedrukte muziek als reproduceerbaar en commercieel object. [**https://www.cambridge.org/core/journals/early-music-history/article/abs/musicprinting-in-late-sixteenth-and-early-seventeenthcentury-florence-giorgio-marescotti-cristofano-marescotti-and-zanobi-pignoni/CFA08F6021E7D7D338736EDDF43AD565**](https://www.cambridge.org/core/journals/early-music-history/article/abs/musicprinting-in-late-sixteenth-and-early-seventeenthcentury-florence-giorgio-marescotti-cristofano-marescotti-and-zanobi-pignoni/CFA08F6021E7D7D338736EDDF43AD565)
+4. **Tim Carter — onderzoek naar muziekdruk in het zestiende- en vroeg-zeventiende-eeuwse Italië.** Relevant voor de ontwikkeling van gedrukte muziek als reproduceerbaar en commercieel object. [**https://www.cambridge.org/core/journals/early-music-history/article/abs/musicprinting-in-late-sixteenth-and-early-seventeenthcentury-florence-giorgio-marescotti-cristofano-marescotti-and-zanobi-pignoni/CFA08F6021E7D7D338736EDDF43AD565**](https://www.cambridge.org/core/journals/early-music-history/article/abs/musicprinting-in-late-sixteenth-and-early-seventeenthcentury-florence-giorgio-marescotti-cristofano-marescotti-and-zanobi-pignoni/CFA08F6021E7D7D338736EDDF43AD565)
 
-**[5] Rupert Ridgewell — “Inside a Viennese Kunsthandlung: Artaria in 1784”, in** ***Consuming Music*****.** Over handel en distributie van gedrukte muziek in het achttiende-eeuwse Wenen. [**https://www.cambridge.org/core/books/consuming-music/inside-a-viennese-kunsthandlung-artaria-in-1784/D4CA01B497A5953DD477E1E0BD435FB1**](https://www.cambridge.org/core/books/consuming-music/inside-a-viennese-kunsthandlung-artaria-in-1784/D4CA01B497A5953DD477E1E0BD435FB1)
+5. **Rupert Ridgewell — “Inside a Viennese Kunsthandlung: Artaria in 1784”, in** ***Consuming Music*****.** Over handel en distributie van gedrukte muziek in het achttiende-eeuwse Wenen. [**https://www.cambridge.org/core/books/consuming-music/inside-a-viennese-kunsthandlung-artaria-in-1784/D4CA01B497A5953DD477E1E0BD435FB1**](https://www.cambridge.org/core/books/consuming-music/inside-a-viennese-kunsthandlung-artaria-in-1784/D4CA01B497A5953DD477E1E0BD435FB1)
 
-**Stanley Boorman — onderzoek naar vroege muziekdruk als factor in muzikale verandering.** [**https://academic.oup.com/book/25323/chapter-abstract/192342103**](https://academic.oup.com/book/25323/chapter-abstract/192342103)
+    **Stanley Boorman — onderzoek naar vroege muziekdruk als factor in muzikale verandering.** [**https://academic.oup.com/book/25323/chapter-abstract/192342103**](https://academic.oup.com/book/25323/chapter-abstract/192342103)
 
-**[6] Onderzoek naar Paganini, viooltechniek en gitaarinvloeden in de** ***24 Caprices*****.** [**https://repository.falmouth.ac.uk/2266/**](https://repository.falmouth.ac.uk/2266/)
+6. **Onderzoek naar Paganini, viooltechniek en gitaarinvloeden in de** ***24 Caprices*****.** [**https://repository.falmouth.ac.uk/2266/**](https://repository.falmouth.ac.uk/2266/)
 
-**[7] Dana Gooley —** ***Fantasies of Improvisation: Free Playing in Nineteenth-Century Music*****. Oxford University Press.** Over improvisatie, virtuositeit en de veranderende plaats van improviserend musiceren in de negentiende eeuw. [**https://academic.oup.com/book/25754**](https://academic.oup.com/book/25754)
+7. **Dana Gooley —** ***Fantasies of Improvisation: Free Playing in Nineteenth-Century Music*****. Oxford University Press.** Over improvisatie, virtuositeit en de veranderende plaats van improviserend musiceren in de negentiende eeuw. [**https://academic.oup.com/book/25754**](https://academic.oup.com/book/25754)
 
-**[8]** ***Bandoneon Technique*****.** Technische documentatie over onder meer articulatie, balgbeweging en fysieke productie van accenten. [**https://www.bandoneonist.ch/pdf/shalev/Bandoneon\_Technique.pdf**](https://www.bandoneonist.ch/pdf/shalev/Bandoneon_Technique.pdf)
+8. *Bandoneon Technique*. Technische documentatie over onder meer articulatie, balgbeweging en fysieke productie van accenten. [**https://www.bandoneonist.ch/pdf/shalev/Bandoneon\_Technique.pdf**](https://www.bandoneonist.ch/pdf/shalev/Bandoneon_Technique.pdf)
 
-**[9] Omar Caccia —** ***Writing for Bandoneon: A Guide for Composers*****.** Praktische beschrijving van bandoneontechniek, waaronder de productie van *marcato*. [**https://www.omarcaccia.com/writing-for-bandoneon-a-guide-for-composers/**](https://www.omarcaccia.com/writing-for-bandoneon-a-guide-for-composers/)
+9. **Omar Caccia —** ***Writing for Bandoneon: A Guide for Composers*****.** Praktische beschrijving van bandoneontechniek, waaronder de productie van *marcato*. [**https://www.omarcaccia.com/writing-for-bandoneon-a-guide-for-composers/**](https://www.omarcaccia.com/writing-for-bandoneon-a-guide-for-composers/)
 
-**[10] Tango Violin — Techniques.** Praktische documentatie van idiomatische tangoviooltechnieken, waaronder *tambor*. [**https://www.tangoviolin.com/techniques.html**](https://www.tangoviolin.com/techniques.html)
+10. **Tango Violin — Techniques.** Praktische documentatie van idiomatische tangoviooltechnieken, waaronder *tambor*. [**https://www.tangoviolin.com/techniques.html**](https://www.tangoviolin.com/techniques.html)
 
-**[11] Julián Graciano — “Tango and Jazz: Cross-Genre Relations in History and Practice”, in** ***The Cambridge Companion to Tango*****. Cambridge University Press, 2024, pp. 112–130.** Over historische en muzikale relaties tussen tango en jazz, waaronder improvisatie, spontaniteit en wederzijdse beïnvloeding. [**https://www.cambridge.org/core/books/abs/cambridge-companion-to-tango/tango-and-jazz-crossgenre-relations-in-history-and-practice/86A6D96F1A5A13FBFE4F00AEAB3E78B8**](https://www.cambridge.org/core/books/abs/cambridge-companion-to-tango/tango-and-jazz-crossgenre-relations-in-history-and-practice/86A6D96F1A5A13FBFE4F00AEAB3E78B8)
+11. **Julián Graciano — “Tango and Jazz: Cross-Genre Relations in History and Practice”, in** ***The Cambridge Companion to Tango*****. Cambridge University Press, 2024, pp. 112–130.** Over historische en muzikale relaties tussen tango en jazz, waaronder improvisatie, spontaniteit en wederzijdse beïnvloeding. [**https://www.cambridge.org/core/books/abs/cambridge-companion-to-tango/tango-and-jazz-crossgenre-relations-in-history-and-practice/86A6D96F1A5A13FBFE4F00AEAB3E78B8**](https://www.cambridge.org/core/books/abs/cambridge-companion-to-tango/tango-and-jazz-crossgenre-relations-in-history-and-practice/86A6D96F1A5A13FBFE4F00AEAB3E78B8)
 
-**[12] Jessica Dauterive, Matthew B. Karush & Michael O’Malley — “Hearing the Americas: Understanding the Early Recording Industry with Digital Tools”,** ***Journal of the Gilded Age and Progressive Era*** **22, nr. 4 (2023).** Over de commerciële en culturele netwerken waardoor populaire genres in de Amerika’s circuleerden. [**https://www.cambridge.org/core/journals/journal-of-the-gilded-age-and-progressive-era/article/hearing-the-americas-understanding-the-early-recording-industry-with-digital-tools/32F846C800B73D93ACC78B01949F1FE4**](https://www.cambridge.org/core/journals/journal-of-the-gilded-age-and-progressive-era/article/hearing-the-americas-understanding-the-early-recording-industry-with-digital-tools/32F846C800B73D93ACC78B01949F1FE4)
+12. **Jessica Dauterive, Matthew B. Karush & Michael O’Malley — “Hearing the Americas: Understanding the Early Recording Industry with Digital Tools”,** ***Journal of the Gilded Age and Progressive Era*** **22, nr. 4 (2023).** Over de commerciële en culturele netwerken waardoor populaire genres in de Amerika’s circuleerden. [**https://www.cambridge.org/core/journals/journal-of-the-gilded-age-and-progressive-era/article/hearing-the-americas-understanding-the-early-recording-industry-with-digital-tools/32F846C800B73D93ACC78B01949F1FE4**](https://www.cambridge.org/core/journals/journal-of-the-gilded-age-and-progressive-era/article/hearing-the-americas-understanding-the-early-recording-industry-with-digital-tools/32F846C800B73D93ACC78B01949F1FE4)
 
-**[13] Todo Tango — “Vida mía: The union details concerning Vida mía”.** Over de ontmoeting tussen Osvaldo Fresedo en Dizzy Gillespie in Buenos Aires in 1956 en hun gezamenlijke optredens. [**https://www.todotango.com/english/history/chronicle/354/Vida-mia-The-union-details-concerning-Vida-mia/**](https://www.todotango.com/english/history/chronicle/354/Vida-mia-The-union-details-concerning-Vida-mia/)
+13. **Todo Tango — “Vida mía: The union details concerning Vida mía”.** Over de ontmoeting tussen Osvaldo Fresedo en Dizzy Gillespie in Buenos Aires in 1956 en hun gezamenlijke optredens. [**https://www.todotango.com/english/history/chronicle/354/Vida-mia-The-union-details-concerning-Vida-mia/**](https://www.todotango.com/english/history/chronicle/354/Vida-mia-The-union-details-concerning-Vida-mia/)
 
-**[14]** ***The Cambridge Companion to Tango*** **— Musical Examples.** Bevat *Vida mía* door Orquesta Osvaldo Fresedo met Dizzy Gillespie als luistervoorbeeld. [**https://www.tangocompanion.com/tango-music/**](https://www.tangocompanion.com/tango-music/)
+14. **** ***The Cambridge Companion to Tango*** **— Musical Examples.** Bevat *Vida mía* door Orquesta Osvaldo Fresedo met Dizzy Gillespie als luistervoorbeeld. [**https://www.tangocompanion.com/tango-music/**](https://www.tangocompanion.com/tango-music/)
 
-**[15] Conservatoire de Paris — onderzoek naar** ***tocar a la parrilla*****.** Over spelen zonder speciaal voorbereid arrangement en de rol van gedeelde repertoire- en stijlkennis. [**https://larevue.conservatoiredeparis.fr/index.php?id=549**](https://larevue.conservatoiredeparis.fr/index.php?id=549)
+15. **Conservatoire de Paris — onderzoek naar** ***tocar a la parrilla*****.** Over spelen zonder speciaal voorbereid arrangement en de rol van gedeelde repertoire- en stijlkennis. [**https://larevue.conservatoiredeparis.fr/index.php?id=549**](https://larevue.conservatoiredeparis.fr/index.php?id=549)
 
-**[16] Charles Gorczynski —** ***Tango Parrilla Book*****.** Praktisch materiaal voor hedendaags *parrilla*-spel vanuit compacte lead sheets. [**https://www.charlesgorczynski.com/tangoarrangements/p/tango-parrilla-book**](https://www.charlesgorczynski.com/tangoarrangements/p/tango-parrilla-book)
+16. **Charles Gorczynski —** ***Tango Parrilla Book*****.** Praktisch materiaal voor hedendaags *parrilla*-spel vanuit compacte lead sheets. [**https://www.charlesgorczynski.com/tangoarrangements/p/tango-parrilla-book**](https://www.charlesgorczynski.com/tangoarrangements/p/tango-parrilla-book)
 
-**Adam Tully — materiaal over vorm en** ***parrilla*****-praktijk.** [**https://www.adamtully.com/single-post/2018/01/18/9-parrilla-concepts-form-1**](https://www.adamtully.com/single-post/2018/01/18/9-parrilla-concepts-form-1)
+    **Adam Tully — materiaal over vorm en** ***parrilla*****-praktijk.** [**https://www.adamtully.com/single-post/2018/01/18/9-parrilla-concepts-form-1**](https://www.adamtully.com/single-post/2018/01/18/9-parrilla-concepts-form-1)
 
-**[17] Ignacio Varchausky —** ***Los Estilos Fundamentales del Tango*****.** Cursussen en materiaal over uitvoeringspraktijk en de stilistische taal van historische tango-orkesten. [**https://www.ignaciovarchausky.com/**](https://www.ignaciovarchausky.com/)
+17. **Ignacio Varchausky —** ***Los Estilos Fundamentales del Tango*****.** Cursussen en materiaal over uitvoeringspraktijk en de stilistische taal van historische tango-orkesten. [**https://www.ignaciovarchausky.com/**](https://www.ignaciovarchausky.com/)
 
-Cursus over Carlos Di Sarli: [**https://www.ignaciovarchausky.com/curso-di-sarli**](https://www.ignaciovarchausky.com/curso-di-sarli)
+    Cursus over Carlos Di Sarli: [**https://www.ignaciovarchausky.com/curso-di-sarli**](https://www.ignaciovarchausky.com/curso-di-sarli)
 
-Cursus over Juan D’Arienzo: [**https://www.ignaciovarchausky.com/curso-d%27arienzo**](https://www.ignaciovarchausky.com/curso-d%27arienzo)
+    Cursus over Juan D’Arienzo: [**https://www.ignaciovarchausky.com/curso-d%27arienzo**](https://www.ignaciovarchausky.com/curso-d%27arienzo)
 
-**[18] Ignacio Varchausky & Adam Tully — “Orchestral Rhythmic Designs and Performance Practices: Juan D’Arienzo and Aníbal Troilo”, in** ***The Cambridge Companion to Tango*****, 2024, pp. 67–80.** Over instrumentale uitvoeringspraktijken en de orkeststijlen van D’Arienzo en Troilo. [**https://www.cambridge.org/core/books/abs/cambridge-companion-to-tango/orchestral-rhythmic-designs-and-performance-practices-juan-darienzo-and-anibal-troilo/DE45A656E2035768AA7E8F32641B861E**](https://www.cambridge.org/core/books/abs/cambridge-companion-to-tango/orchestral-rhythmic-designs-and-performance-practices-juan-darienzo-and-anibal-troilo/DE45A656E2035768AA7E8F32641B861E)
+18. **Ignacio Varchausky & Adam Tully — “Orchestral Rhythmic Designs and Performance Practices: Juan D’Arienzo and Aníbal Troilo”, in** ***The Cambridge Companion to Tango*****, 2024, pp. 67–80.** Over instrumentale uitvoeringspraktijken en de orkeststijlen van D’Arienzo en Troilo. [**https://www.cambridge.org/core/books/abs/cambridge-companion-to-tango/orchestral-rhythmic-designs-and-performance-practices-juan-darienzo-and-anibal-troilo/DE45A656E2035768AA7E8F32641B861E**](https://www.cambridge.org/core/books/abs/cambridge-companion-to-tango/orchestral-rhythmic-designs-and-performance-practices-juan-darienzo-and-anibal-troilo/DE45A656E2035768AA7E8F32641B861E)
 
-Aanvullend onderzoek naar *fraseo* en timing bij Troilo: [**https://sedici.unlp.edu.ar/handle/10915/54793**](https://sedici.unlp.edu.ar/handle/10915/54793)
+    Aanvullend onderzoek naar *fraseo* en timing bij Troilo: [**https://sedici.unlp.edu.ar/handle/10915/54793**](https://sedici.unlp.edu.ar/handle/10915/54793)
 
-**[19] Todo Tango — “Listening to tango dance music: A beginner’s guide”.** Onder meer over de plaats en functie van de *variación* in historische tango-arrangementen. [**https://www.todotango.com/english/history/chronicle/448/Listening-to-tango-dance-music-A-beginners-guide/**](https://www.todotango.com/english/history/chronicle/448/Listening-to-tango-dance-music-A-beginners-guide/)
+19. **Todo Tango — “Listening to tango dance music: A beginner’s guide”.** Onder meer over de plaats en functie van de *variación* in historische tango-arrangementen. [**https://www.todotango.com/english/history/chronicle/448/Listening-to-tango-dance-music-A-beginners-guide/**](https://www.todotango.com/english/history/chronicle/448/Listening-to-tango-dance-music-A-beginners-guide/)
 
-**Andrés Serafini — “Pichuco y su goma de borrar”.** Over een bewaard Piazzolla-arrangement voor Troilo en de verschillen tussen geschreven partituur, wijzigingen en opgenomen uitvoering. [**https://ojs.aamusicologia.ar/index.php/ram/es/article/view/270**](https://ojs.aamusicologia.ar/index.php/ram/es/article/view/270)
+    **Andrés Serafini — “Pichuco y su goma de borrar”.** Over een bewaard Piazzolla-arrangement voor Troilo en de verschillen tussen geschreven partituur, wijzigingen en opgenomen uitvoering. [**https://ojs.aamusicologia.ar/index.php/ram/es/article/view/270**](https://ojs.aamusicologia.ar/index.php/ram/es/article/view/270)
 
-**[20] Hugo Satorre / Los Suplentes.** Informatie over het duo en zijn muzikale werkwijze. [**https://hugosatorre.com.ar/**](https://hugosatorre.com.ar/)
+20. **Hugo Satorre / Los Suplentes.** Informatie over het duo en zijn muzikale werkwijze. [**https://hugosatorre.com.ar/**](https://hugosatorre.com.ar/)
 
-Aanvullende beschrijving van Los Suplentes en hun mondeling ontwikkelde arrangementen: [**https://www.tarbesentango.fr/en/artistes/artiste/159**](https://www.tarbesentango.fr/en/artistes/artiste/159)
+    Aanvullende beschrijving van Los Suplentes en hun mondeling ontwikkelde arrangementen: [**https://www.tarbesentango.fr/en/artistes/artiste/159**](https://www.tarbesentango.fr/en/artistes/artiste/159)
 
-**Kacey Link & Kristin Wendland —** ***Tracing Tangueros: Argentine Tango Instrumental Music*****. Oxford University Press.** Brede studie van instrumentale taal, uitvoeringspraktijk en stilistische ontwikkeling binnen Argentijnse tango. [**https://academic.oup.com/book/2271**](https://academic.oup.com/book/2271)
+    **Kacey Link & Kristin Wendland —** ***Tracing Tangueros: Argentine Tango Instrumental Music*****. Oxford University Press.** Brede studie van instrumentale taal, uitvoeringspraktijk en stilistische ontwikkeling binnen Argentijnse tango. [**https://academic.oup.com/book/2271**](https://academic.oup.com/book/2271)

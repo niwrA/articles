@@ -13,6 +13,20 @@ keyPoints:
   - A reusable mug's break-even point depends strongly on washing and service life.
   - Lightweight disposable material can come closer on climate impact than intuition suggests.
   - Climate impact is only one dimension alongside waste, resources, toxicity and litter.
+plainLanguage:
+  title: Which coffee cup is actually the most sustainable?
+  intro: No cup is always the greenest choice. A disposable cup requires new material and energy each time. A reusable mug often takes more to manufacture, but that burden is spread over many drinks. How long you keep the mug and how efficiently you wash it may matter more than its material alone.
+  sections:
+    - heading: Compare one cup of coffee
+      paragraphs:
+        - A fair comparison includes the whole life cycle. That means raw materials, manufacture, transport, washing, breakage, waste and recycling. For a reusable mug, divide its production impact by the number of times it is actually used, then add the impact of washing it each time.
+    - heading: Behaviour can change the winner
+      paragraphs:
+        - A mug used for years and washed efficiently with other dishes can perform well. One that is replaced often or washed alone under running hot water can perform much worse. A very light disposable cup can come closer on climate impact than expected, although it still creates waste.
+    - heading: Climate is not the whole environment
+      paragraphs:
+        - Greenhouse-gas emissions are only one measure. Resource use, water, toxic substances, litter and recyclability matter too. An option can be better on one measure and worse on another. The model therefore explores scenarios rather than declaring a universal winner.
+  takeaway: Do not choose by material alone. Keep reusable cups for a long time, wash them efficiently and judge disposable options over their entire life cycle.
 modelComponent: coffee-cups
 modelLimitations:
   - Input values are scenario assumptions and differ between products and supply chains.
@@ -166,10 +180,10 @@ The interactive model does not turn that conclusion into a new dogma. It shows w
 
 The following sources provide the scientific and policy basis for this article. The values in the interactive model are deliberately editable, illustrative central estimates and should not be interpreted without verification as parameters taken from any one of these studies.
 
-- Van der Harst, E. & Potting, J. (2015), *Facility arrangements and the environmental performance of disposable and reusable cups*, International Journal of Life Cycle Assessment, 20, 1143–1154. https://doi.org/10.1007/s11367-015-0914-7
-- Changwichan, K. & Gheewala, S.H. (2021), *Environmental payback periods of reusable alternatives to single-use plastic kitchenware products*, International Journal of Life Cycle Assessment, 26, 1521–1537. https://doi.org/10.1007/s11367-021-01946-6
-- CE Delft (2020), *Milieu-impact van eenmalige versus meermalige verpakkingen*. Background report on disposable products and alternatives. https://ce.nl/publicaties/impact-wegwerpproducten-en-hun-alternatieven/
-- Government of the Netherlands (19 December 2025), *Staatssecretaris maakt regels voor wegwerpbekers en -bakjes praktisch en duidelijker*. https://www.rijksoverheid.nl/actueel/nieuws/2025/12/19/staatssecretaris-maakt-regels-voor-wegwerpbekers-en--bakjes-praktisch-en-duidelijker
+1. Van der Harst, E. & Potting, J. (2015), *Facility arrangements and the environmental performance of disposable and reusable cups*, International Journal of Life Cycle Assessment, 20, 1143–1154. https://doi.org/10.1007/s11367-015-0914-7
+2. Changwichan, K. & Gheewala, S.H. (2021), *Environmental payback periods of reusable alternatives to single-use plastic kitchenware products*, International Journal of Life Cycle Assessment, 26, 1521–1537. https://doi.org/10.1007/s11367-021-01946-6
+3. CE Delft (2020), *Milieu-impact van eenmalige versus meermalige verpakkingen*. Background report on disposable products and alternatives. https://ce.nl/publicaties/impact-wegwerpproducten-en-hun-alternatieven/
+4. Government of the Netherlands (19 December 2025), *Staatssecretaris maakt regels voor wegwerpbekers en -bakjes praktisch en duidelijker*. https://www.rijksoverheid.nl/actueel/nieuws/2025/12/19/staatssecretaris-maakt-regels-voor-wegwerpbekers-en--bakjes-praktisch-en-duidelijker
 
 ### Editorial note on the model
 

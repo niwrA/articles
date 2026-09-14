@@ -13,6 +13,20 @@ keyPoints:
   - Het omslagpunt van een herbruikbare mok hangt sterk af van afwassen en gebruiksduur.
   - Licht wegwerpmateriaal kan voor klimaatimpact dichterbij komen dan intuïtie suggereert.
   - Klimaatimpact is slechts één dimensie naast afval, grondstoffen, toxiciteit en zwerfvuil.
+plainLanguage:
+  title: Welke koffiebeker is werkelijk het duurzaamst?
+  intro: Er is geen beker die altijd de groenste keuze is. Een wegwerpbeker kost bij ieder gebruik opnieuw materiaal en energie. Een herbruikbare mok kost bij de productie vaak meer, maar die belasting wordt over veel koffiemomenten verdeeld. Hoe vaak en hoe zuinig je de mok afwast kan uiteindelijk belangrijker zijn dan het materiaal alleen.
+  sections:
+    - heading: Vergelijk één koffiemoment
+      paragraphs:
+        - Een eerlijke vergelijking telt de hele levensloop mee. Denk aan grondstoffen, productie, vervoer, afwassen, breuk, afval en recycling. Deel bij een herbruikbare beker de productie-impact door het werkelijke aantal keren dat hij wordt gebruikt. Tel daar de impact van iedere afwasbeurt bij op.
+    - heading: Gedrag kan de winnaar veranderen
+      paragraphs:
+        - Een mok die jarenlang meegaat en samen met andere vaat efficiënt wordt afgewassen kan goed presteren. Een mok die vaak wordt vervangen of telkens alleen onder heet stromend water wordt gewassen kan veel slechter uitkomen. Een zeer lichte wegwerpbeker kan voor klimaatimpact dichter bij de mok komen dan je misschien verwacht, al blijft hij afval veroorzaken.
+    - heading: Klimaat is niet het hele milieu
+      paragraphs:
+        - CO₂-uitstoot is maar één maat. Ook grondstoffengebruik, water, giftige stoffen, zwerfafval en recyclebaarheid tellen mee. Een keuze kan op de ene maat beter en op een andere slechter zijn. Het model toont daarom scenario's en geen universele winnaar.
+  takeaway: Kies niet alleen een materiaal. Gebruik een herbruikbare beker lang, was hem efficiënt en beoordeel wegwerpopties over hun volledige levenscyclus.
 modelComponent: coffee-cups
 modelLimitations:
   - De invoerwaarden zijn scenarioaannames en variëren per product en keten.
@@ -166,10 +180,10 @@ Het interactieve model maakt van die conclusie geen nieuw dogma. Het laat zien w
 
 De onderstaande bronnen vormen de wetenschappelijke en beleidsmatige basis van het artikel. De waarden in het interactieve model zijn bewust als bewerkbare, illustratieve middenwaarden opgenomen en mogen niet zonder controle als parameters uit één van deze onderzoeken worden geïnterpreteerd.
 
-- Van der Harst, E. & Potting, J. (2015), *Facility arrangements and the environmental performance of disposable and reusable cups*, International Journal of Life Cycle Assessment, 20, 1143–1154. https://doi.org/10.1007/s11367-015-0914-7
-- Changwichan, K. & Gheewala, S.H. (2021), *Environmental payback periods of reusable alternatives to single-use plastic kitchenware products*, International Journal of Life Cycle Assessment, 26, 1521–1537. https://doi.org/10.1007/s11367-021-01946-6
-- CE Delft (2020), *Milieu-impact van eenmalige versus meermalige verpakkingen*. Achtergrondrapport over wegwerpproducten en alternatieven. https://ce.nl/publicaties/impact-wegwerpproducten-en-hun-alternatieven/
-- Rijksoverheid (19 december 2025), *Staatssecretaris maakt regels voor wegwerpbekers en -bakjes praktisch en duidelijker*. https://www.rijksoverheid.nl/actueel/nieuws/2025/12/19/staatssecretaris-maakt-regels-voor-wegwerpbekers-en--bakjes-praktisch-en-duidelijker
+1. Van der Harst, E. & Potting, J. (2015), *Facility arrangements and the environmental performance of disposable and reusable cups*, International Journal of Life Cycle Assessment, 20, 1143–1154. https://doi.org/10.1007/s11367-015-0914-7
+2. Changwichan, K. & Gheewala, S.H. (2021), *Environmental payback periods of reusable alternatives to single-use plastic kitchenware products*, International Journal of Life Cycle Assessment, 26, 1521–1537. https://doi.org/10.1007/s11367-021-01946-6
+3. CE Delft (2020), *Milieu-impact van eenmalige versus meermalige verpakkingen*. Achtergrondrapport over wegwerpproducten en alternatieven. https://ce.nl/publicaties/impact-wegwerpproducten-en-hun-alternatieven/
+4. Rijksoverheid (19 december 2025), *Staatssecretaris maakt regels voor wegwerpbekers en -bakjes praktisch en duidelijker*. https://www.rijksoverheid.nl/actueel/nieuws/2025/12/19/staatssecretaris-maakt-regels-voor-wegwerpbekers-en--bakjes-praktisch-en-duidelijker
 
 ### Redactionele noot bij het model
 

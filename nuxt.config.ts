@@ -13,6 +13,9 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Artikelen en modellen van Arwin van Arum over technologie, maatschappij en systemen.' },
         { name: 'theme-color', content: '#12251f' }
       ],
+      link: [
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
+      ],
       script: [
         {
           src: 'https://cloud.umami.is/script.js',

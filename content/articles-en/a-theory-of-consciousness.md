@@ -14,6 +14,20 @@ keyPoints:
   - Conscious access is especially expected when information must be integrated broadly and competing options resolved.
   - Relevance, bodily state and goals determine why an outcome matters to the organism.
   - Report is a downstream capability and need not be what creates consciousness.
+plainLanguage:
+  title: What might consciousness be for?
+  intro: The brain does a great deal without our noticing it consciously. This article examines the hypothesis that consciousness becomes especially useful when automatic systems cannot settle a problem together because a situation is novel, uncertain, important or internally conflicting.
+  sections:
+    - heading: Much happens automatically
+      paragraphs:
+        - Perception, movement and decision-making can all occur partly outside awareness. Practised actions often require less conscious attention, not more. Complex processing is therefore not automatically conscious processing.
+    - heading: Conflicts require arbitration
+      paragraphs:
+        - Different specialised processes may propose incompatible actions. Habit points one way, new information another, while a bodily signal warns of danger. The hypothesis is that consciousness makes information broadly available so the organism can weigh these competing concerns flexibly and select a course.
+    - heading: A solution can become automatic again
+      paragraphs:
+        - When a consciously found solution is repeated, learning may turn it into a routine. Consciousness would then be less like a permanent executive and more like a temporary workspace for problems without a reliable automatic answer. This may explain a function, but not why experience feels subjective.
+  takeaway: The hypothesis treats consciousness as broad arbitration when automatic processes conflict or fall short. It is testable, but it is not yet an established theory.
 modelComponent: consciousness
 modelLimitations:
   - The displayed score operationalises the hypothesis; it does not measure consciousness.

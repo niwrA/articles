@@ -13,6 +13,20 @@ keyPoints:
   - Each new bodily configuration enables some possibilities and excludes others.
   - The dancers can express different aspects of the same music.
   - Equality does not require both dancers to do the same thing at every moment.
+plainLanguage:
+  title: Tango as conversation rather than command
+  intro: Argentine tango commonly describes two roles as leader and follower. Those labels are practical, but can suggest that one person makes every decision. This article proposes a richer model in which initiative, navigation, execution and response can shift between the dancers from moment to moment.
+  sections:
+    - heading: A proposal comes before the answer
+      paragraphs:
+        - A movement usually begins with a small change in the upper body, direction or tension. The partner feels it, projects a free foot and responds with their own timing and step size. The first dancer must then perceive that response. Leading is therefore not a command but a proposal developed together.
+    - heading: The body closes and opens possibilities
+      paragraphs:
+        - Weight can rest only on particular feet, legs must physically pass one another and the upper bodies usually seek to remain connected and oriented towards each other. Every completed transfer of weight makes some next movements possible and others unlikely. The dance forms a path through these changing possibilities.
+    - heading: Roles can genuinely change
+      paragraphs:
+        - Equality does not mean that both dancers initiate the same thing simultaneously. One may navigate while the other proposes musical timing or decoration; a moment later those functions can shift. Two bodies can follow different voices in the music while still forming one conversation.
+  takeaway: Tango becomes more reciprocal when leader and follower do not permanently own initiative, but both continually sense, answer and develop proposals.
 modelComponent: tango-movement
 modelLimitations:
   - The simulation distinguishes supporting leg, free foot, projection, placement, weight transfer and pivot.

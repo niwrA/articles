@@ -13,6 +13,20 @@ keyPoints:
   - Bewuste toegang wordt vooral verwacht wanneer informatie breed moet worden geïntegreerd en concurrerende opties moeten worden beslecht.
   - Relevantie, lichamelijke toestand en doelen bepalen voor welk organisme de uitkomst ertoe doet.
   - Rapportage is een latere capaciteit en hoeft bewustzijn niet te veroorzaken.
+plainLanguage:
+  title: Waar zou bewustzijn voor kunnen dienen?
+  intro: Ons brein doet veel zonder dat we het bewust merken. Dit artikel onderzoekt de hypothese dat bewustzijn vooral nuttig wordt wanneer automatische systemen er samen niet uitkomen, bijvoorbeeld doordat een situatie nieuw, onzeker, belangrijk of tegenstrijdig is.
+  sections:
+    - heading: Veel gebeurt automatisch
+      paragraphs:
+        - Waarnemen, bewegen en beslissen kunnen voor een groot deel buiten het bewustzijn plaatsvinden. Geoefende handelingen vragen vaak zelfs minder bewuste aandacht. Dat betekent dat ingewikkelde verwerking niet automatisch bewust hoeft te zijn.
+    - heading: Conflicten vragen om overleg
+      paragraphs:
+        - Verschillende gespecialiseerde processen kunnen tegelijk iets anders voorstellen. Een gewoonte zegt het ene, nieuwe informatie het andere en een lichamelijk signaal waarschuwt voor risico. De hypothese is dat bewustzijn informatie breed beschikbaar maakt, zodat het organisme zulke belangen flexibel kan wegen en één koers kan kiezen.
+    - heading: Een oplossing kan weer automatisch worden
+      paragraphs:
+        - Wanneer een bewuste oplossing vaak wordt herhaald, kan zij door leren een routine worden. Bewustzijn zou dan geen permanente bestuurder zijn, maar een tijdelijke werkruimte voor problemen waarvoor nog geen betrouwbare automatische oplossing bestaat. Dit verklaart een mogelijke functie, niet waarom ervaring subjectief voelt.
+  takeaway: De hypothese ziet bewustzijn als een vorm van brede arbitrage wanneer automatische processen botsen of tekortschieten; zij is toetsbaar, maar nog geen bewezen theorie.
 modelComponent: consciousness
 modelLimitations:
   - De getoonde score is een operationalisering van de hypothese, geen meting van bewustzijn.

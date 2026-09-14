@@ -14,6 +14,20 @@ keyPoints:
   - Compression can produce new phases and feedback mechanisms in matter.
   - Through accretion and jets, black holes participate in the evolution of their environments and galaxies.
   - Inaccessibility beyond the horizon calls for caution, not the assumption that nothing happens there.
+plainLanguage:
+  title: A black hole is more than a cosmic drain
+  intro: An event horizon is a boundary beyond which information cannot reach us. We therefore cannot observe directly what happens inside it. That does not mean that all physical processes stop at the boundary.
+  sections:
+    - heading: Gravity concentrates matter
+      paragraphs:
+        - Matter is compressed ever more strongly in stars and other compact objects. New states can emerge and enormous amounts of energy can be released. Candidates called black hole stars may show a growing black hole still enclosed in an extremely dense cocoon of gas.
+    - heading: Black holes affect their surroundings
+      paragraphs:
+        - Matter falling towards a black hole can become hot, radiate and form powerful jets. These outflows move energy and matter across great distances and influence gas and star formation throughout a galaxy. The overall system is therefore more dynamic than matter simply falling inward.
+    - heading: Beyond the horizon, speculation begins
+      paragraphs:
+        - Established theories describe a great deal with high precision, but do not provide a tested account of all physics inside a black hole. The article therefore explores possible continuations of concentration, transformation and redistribution. These are research questions, not established discoveries.
+  takeaway: We can observe and model the surroundings of black holes, but claims about processes beyond the horizon must remain clearly labelled as speculation.
 modelLimitations:
   - Proposed processes beyond the horizon are speculative and not currently open to direct observation.
   - Black hole stars are an active research topic, not an established population of ordinary black holes.
@@ -295,27 +309,27 @@ Perhaps the most productive question is consequently not *What finally falls int
 
 Every increase in observational power has so far made the answer more dynamic, not less. Whether that dynamism ultimately ends at the event horizon, continues invisibly behind it, or reveals an entirely deeper cycle of matter and gravity remains one of the places where what we know meets what we have only begun to imagine.
 
-### Sources and further reading
+## References
 
 For readers interested in the observational evidence and scientific work that inspired this essay:
 
-**NASA / James Webb Space Telescope (2026)** *Webb Finds Strongest Evidence Yet for “Black Hole Stars”* [**https://science.nasa.gov/missions/webb/nasa-webb-finds-strongest-evidence-yet-for-black-hole-stars/**](https://science.nasa.gov/missions/webb/nasa-webb-finds-strongest-evidence-yet-for-black-hole-stars/)
+1. **NASA / James Webb Space Telescope (2026)** *Webb Finds Strongest Evidence Yet for “Black Hole Stars”* [**https://science.nasa.gov/missions/webb/nasa-webb-finds-strongest-evidence-yet-for-black-hole-stars/**](https://science.nasa.gov/missions/webb/nasa-webb-finds-strongest-evidence-yet-for-black-hole-stars/)
 
 An accessible overview of JWST observations of GLIMPSE-17775. Its spectrum contains more than 40 identified spectral lines and provides some of the strongest observational evidence so far for a rapidly accreting black hole embedded within a dense gas cocoon.
 
-**ESA / Webb (2026)** *Webb finds strongest evidence yet for “black hole stars”* [**https://esawebb.org/news/weic2610/**](https://esawebb.org/news/weic2610/)
+2. **ESA / Webb (2026)** *Webb finds strongest evidence yet for “black hole stars”* [**https://esawebb.org/news/weic2610/**](https://esawebb.org/news/weic2610/)
 
 The European Space Agency's Webb science release covering the same observations and the physical interpretation of the dense environment surrounding the black hole.
 
-**Rusakov et al., Nature (2026)** *Little red dots as young supermassive black holes in dense ionized cocoons* [**https://www.nature.com/articles/s41586-025-09900-4**](https://www.nature.com/articles/s41586-025-09900-4)
+3. **Rusakov et al., Nature (2026)** *Little red dots as young supermassive black holes in dense ionized cocoons* [**https://www.nature.com/articles/s41586-025-09900-4**](https://www.nature.com/articles/s41586-025-09900-4)
 
 Peer-reviewed research supporting the interpretation of some JWST Little Red Dots as rapidly growing supermassive black holes surrounded by dense ionized material.
 
-**Juodžbalis et al., Nature (2026)** *A direct black-hole mass measurement in a little red dot at high redshift* [**https://doi.org/10.1038/s41586-026-10579-4**](https://doi.org/10.1038/s41586-026-10579-4)
+4. **Juodžbalis et al., Nature (2026)** *A direct black-hole mass measurement in a little red dot at high redshift* [**https://doi.org/10.1038/s41586-026-10579-4**](https://doi.org/10.1038/s41586-026-10579-4)
 
 A direct dynamical measurement providing evidence for a roughly 50-million-solar-mass black hole at redshift 7.04, offering an important constraint on how massive black holes developed in the early universe.
 
-**Sun et al. (2026)** *Little Red Dot − Host Galaxy = Black Hole Star: A Gas-Enshrouded Heart at the Center of Every Little Red Dot* [**https://arxiv.org/abs/2601.20929**](https://arxiv.org/abs/2601.20929)
+5. **Sun et al. (2026)** *Little Red Dot − Host Galaxy = Black Hole Star: A Gas-Enshrouded Heart at the Center of Every Little Red Dot* [**https://arxiv.org/abs/2601.20929**](https://arxiv.org/abs/2601.20929)
 
 A more explicitly theoretical exploration of the “Black Hole Star” interpretation and its possible relationship to the Little Red Dot population.
 

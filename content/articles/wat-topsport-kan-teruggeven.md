@@ -13,6 +13,20 @@ keyPoints:
   - Een hoger percentage kan minder geld opleveren wanneer omzet en talent naar andere markten verdwijnen.
   - Het financiële optimum is niet noodzakelijk het maatschappelijke optimum.
   - Mediarechten, transfers, salarissen en persoonlijke rechten hebben verschillende effecten.
+plainLanguage:
+  title: Kan topsport investeren in de basis die haar mogelijk maakt?
+  intro: Topsport verdient veel geld dankzij kijkers, sponsors en media. Tegelijk ontstaan sporters, supporters en sportcultuur bij lokale clubs, vrijwilligers en publieke voorzieningen. Een sportdividend zou een deel van de commerciële opbrengst terugbrengen naar die basis.
+  sections:
+    - heading: Het gaat niet om één hoog salaris
+      paragraphs:
+        - Topsporters hebben schaars talent, een korte loopbaan en blessurerisico. Het is logisch dat zij delen in de waarde die het publiek voor hun prestaties betaalt. De systeemvraag is of een commercieel sportecosysteem daarnaast structureel kan bijdragen aan clubs, accommodaties en deelname voor mensen met weinig geld.
+    - heading: Een heffing verandert gedrag
+      paragraphs:
+        - Een percentage levert niet automatisch hetzelfde bedrag maal de huidige omzet op. Clubs, sponsors, spelers en mediabedrijven kunnen hun keuzes aanpassen of activiteiten verplaatsen. Een brede internationale regeling werkt daarom anders dan een heffing in één land, en mediarechten reageren anders dan salarissen of transfers.
+    - heading: Meer lokale aandacht kan waarde verplaatsen
+      paragraphs:
+        - Als publiek vaker lokale wedstrijden bezoekt, jeugd aanmoedigt en regionale media volgt, stroomt ook sponsoring en kaartverkoop meer naar de sportbasis. Dat kan kleinschalige accommodaties en evenementen aantrekkelijker maken. Het doel is niet alleen geld verdelen, maar een sterkere relatie tussen topsport, lokale sport en publiek bouwen.
+  takeaway: Een sportdividend kan maatschappelijke waarde terugbrengen naar de basis, maar het percentage, de grondslag en de besteding moeten samen worden ontworpen en gemeten.
 modelComponent: sport-dividend
 modelLimitations:
   - Alleen de Europese voetbalomzet is een geobserveerde standaardwaarde; gedragsreacties zijn scenarioaannames.
@@ -117,12 +131,12 @@ Het gedachte-experiment levert daarmee nog geen belastingtarief op, maar wel een
 
 ---
 
-## Bronnen
+## Referenties
 
-[1] **Deloitte — Annual Review of Football Finance 2026.** Europese voetbalomzet van €40,2 miljard in seizoen 2024/25, exclusief transferactiviteiten; methodologische toelichting op basis van club- en ligarekeningen. [Bekijk de publicatie](https://www.deloitte.com/de/de/Industries/tmt/research/annual-review-of-football-finance.html)
+1. **Deloitte — Annual Review of Football Finance 2026.** Europese voetbalomzet van €40,2 miljard in seizoen 2024/25, exclusief transferactiviteiten; methodologische toelichting op basis van club- en ligarekeningen. [Bekijk de publicatie](https://www.deloitte.com/de/de/Industries/tmt/research/annual-review-of-football-finance.html)
 
-[2] **UEFA — Solidarity payments.** Uitleg van bestaande uitkeringen aan niet-deelnemende clubs en de bestedingsvoorwaarden voor jeugd- en gemeenschapsontwikkeling. [Bekijk de regeling](https://www.uefa.com/development/our-support/solidarity-payments/)
+2. **UEFA — Solidarity payments.** Uitleg van bestaande uitkeringen aan niet-deelnemende clubs en de bestedingsvoorwaarden voor jeugd- en gemeenschapsontwikkeling. [Bekijk de regeling](https://www.uefa.com/development/our-support/solidarity-payments/)
 
-[3] **Politie, OM en KNVB — Voetbal & Veiligheid, seizoen 2024/2025.** Officiële registratie van wedstrijden, incidenten en politie-uren, inclusief beperkingen van de registratie. [Bekijk de rapportage](https://www.politie.nl/binaries/content/assets/politie/nieuws/2025/oktober/d0a97ebc-8556-44da-ae66-c744182c2014.pdf)
+3. **Politie, OM en KNVB — Voetbal & Veiligheid, seizoen 2024/2025.** Officiële registratie van wedstrijden, incidenten en politie-uren, inclusief beperkingen van de registratie. [Bekijk de rapportage](https://www.politie.nl/binaries/content/assets/politie/nieuws/2025/oktober/d0a97ebc-8556-44da-ae66-c744182c2014.pdf)
 
-[4] **Ye & Shi — Beyond the game: social interaction as a bridge from sports to community cohesion and belonging.** Cross-sectioneel onderzoek naar de rol van sociale interactie tussen sportdeelname, gemeenschapsbinding en vertrouwen; de auteurs benadrukken tevens dat de uitkomst afhangt van de kwaliteit van programma en relaties. [Lees het onderzoek](https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1886326/full)
+4. **Ye & Shi — Beyond the game: social interaction as a bridge from sports to community cohesion and belonging.** Cross-sectioneel onderzoek naar de rol van sociale interactie tussen sportdeelname, gemeenschapsbinding en vertrouwen; de auteurs benadrukken tevens dat de uitkomst afhangt van de kwaliteit van programma en relaties. [Lees het onderzoek](https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1886326/full)

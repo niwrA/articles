@@ -13,6 +13,20 @@ keyPoints:
   - A higher rate can raise less when revenue and talent move to other markets.
   - The financial optimum need not be the social optimum.
   - Media rights, transfers, salaries and personal rights respond differently.
+plainLanguage:
+  title: Can elite sport invest in the base that makes it possible?
+  intro: Elite sport earns substantial revenue from audiences, sponsors and media. Yet athletes, supporters and sporting culture begin with local clubs, volunteers and public facilities. A sports dividend would return part of the commercial value to that foundation.
+  sections:
+    - heading: This is not about one large salary
+      paragraphs:
+        - Elite athletes possess scarce talent, have short careers and face injury risk. It is reasonable for them to share in the value audiences place on their performances. The systemic question is whether commercial sport should also contribute structurally to clubs, facilities and access for people with limited means.
+    - heading: A levy changes behaviour
+      paragraphs:
+        - A percentage does not automatically yield that percentage of today's revenue. Clubs, sponsors, athletes and media companies may alter or relocate activity. A broad international arrangement therefore behaves differently from a levy in one country, while media rights respond differently from wages or transfers.
+    - heading: Local attention can redirect value
+      paragraphs:
+        - If audiences attend more local matches, encourage youth teams and follow regional coverage, sponsorship and ticket revenue can shift towards grassroots sport. That could support better small-scale facilities and events. The aim is not merely to redistribute money, but to strengthen the relationship between elite sport, local sport and its public.
+  takeaway: A sports dividend could return social value to the grassroots, but its rate, tax base and use of funds must be designed and measured together.
 modelComponent: sport-dividend
 modelLimitations:
   - Only European football revenue is an observed default; behavioural responses are scenario assumptions.
@@ -117,12 +131,12 @@ This thought experiment therefore supplies no tax rate, but it does sharpen the 
 
 ---
 
-## Sources
+## References
 
-[1] **Deloitte — Annual Review of Football Finance 2026.** European football revenue of €40.2 billion in 2024/25, excluding transfer activity, with methodology based on club and league accounts. [View the publication](https://www.deloitte.com/de/de/Industries/tmt/research/annual-review-of-football-finance.html)
+1. **Deloitte — Annual Review of Football Finance 2026.** European football revenue of €40.2 billion in 2024/25, excluding transfer activity, with methodology based on club and league accounts. [View the publication](https://www.deloitte.com/de/de/Industries/tmt/research/annual-review-of-football-finance.html)
 
-[2] **UEFA — Solidarity payments.** Explanation of existing distributions to non-participating clubs and conditions concerning youth and community development. [View the scheme](https://www.uefa.com/development/our-support/solidarity-payments/)
+2. **UEFA — Solidarity payments.** Explanation of existing distributions to non-participating clubs and conditions concerning youth and community development. [View the scheme](https://www.uefa.com/development/our-support/solidarity-payments/)
 
-[3] **Dutch police, public prosecution service and KNVB — Football & Safety, 2024/2025 season.** Official records of matches, incidents and police hours, including limitations of the registration. [View the report](https://www.politie.nl/binaries/content/assets/politie/nieuws/2025/oktober/d0a97ebc-8556-44da-ae66-c744182c2014.pdf)
+3. **Dutch police, public prosecution service and KNVB — Football & Safety, 2024/2025 season.** Official records of matches, incidents and police hours, including limitations of the registration. [View the report](https://www.politie.nl/binaries/content/assets/politie/nieuws/2025/oktober/d0a97ebc-8556-44da-ae66-c744182c2014.pdf)
 
-[4] **Ye & Shi — Beyond the game: social interaction as a bridge from sports to community cohesion and belonging.** Cross-sectional research on social interaction as a link between sport participation, community attachment and trust; the authors also stress that outcomes depend on programme and relationship quality. [Read the study](https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1886326/full)
+4. **Ye & Shi — Beyond the game: social interaction as a bridge from sports to community cohesion and belonging.** Cross-sectional research on social interaction as a link between sport participation, community attachment and trust; the authors also stress that outcomes depend on programme and relationship quality. [Read the study](https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2026.1886326/full)

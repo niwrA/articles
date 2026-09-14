@@ -15,6 +15,20 @@ keyPoints:
   - Compressie kan nieuwe fasen en terugkoppelingen in materie veroorzaken.
   - Zwarte gaten beïnvloeden via accretie en jets de ontwikkeling van hun omgeving en sterrenstelsel.
   - Onwaarneembaarheid voorbij de horizon rechtvaardigt voorzichtigheid, niet de conclusie dat daar niets gebeurt.
+plainLanguage:
+  title: Een zwart gat is meer dan een kosmische afvoerput
+  intro: Een waarnemingshorizon is de grens waarvandaan informatie ons niet meer kan bereiken. Daardoor weten we niet rechtstreeks wat daarachter gebeurt. Het betekent echter niet dat alle natuurkundige processen aan die grens ophouden.
+  sections:
+    - heading: Zwaartekracht concentreert materie
+      paragraphs:
+        - In sterren en andere compacte objecten wordt materie steeds sterker samengedrukt. Daarbij ontstaan nieuwe toestanden en komen enorme hoeveelheden energie vrij. Kandidaten voor zogeheten zwartegatsterren laten mogelijk een zwart gat zien dat nog in een zeer dichte gasomhulling groeit.
+    - heading: Zwarte gaten beïnvloeden hun omgeving
+      paragraphs:
+        - Materie die naar een zwart gat stroomt kan heet worden, stralen en krachtige jets vormen. Die uitstromen verplaatsen energie en materie over grote afstanden en beïnvloeden gas en stervorming in een sterrenstelsel. Het totale systeem is dus dynamischer dan alleen naar binnen vallen.
+    - heading: Voorbij de horizon begint de speculatie
+      paragraphs:
+        - De bekende theorieën beschrijven veel zeer nauwkeurig, maar geven nog geen getoetst beeld van alle fysica binnen een zwart gat. Het artikel verkent daarom mogelijke voortzettingen van concentratie, verandering en herverdeling. Die ideeën zijn vragen voor onderzoek en geen vastgestelde ontdekkingen.
+  takeaway: We kunnen de omgeving van zwarte gaten waarnemen en modelleren, maar uitspraken over processen voorbij de horizon moeten duidelijk als speculatie worden behandeld.
 modelLimitations:
   - Voorstellen over processen achter de horizon zijn speculatief en momenteel niet rechtstreeks toetsbaar.
   - Zwartegatsterren zijn een actief onderzoeksgebied en geen gevestigde populatie gewone zwarte gaten.

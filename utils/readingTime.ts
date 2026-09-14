@@ -4,7 +4,7 @@ type ContentNode = {
   children?: unknown[]
 }
 
-const collectText = (value: unknown): string => {
+export const getContentText = (value: unknown): string => {
   if (typeof value === 'string') return value
   if (!value) return ''
 
@@ -14,21 +14,21 @@ const collectText = (value: unknown): string => {
   // the textual children.
   if (Array.isArray(value)) {
     const children = typeof value[0] === 'string' ? value.slice(2) : value
-    return children.map(collectText).join(' ')
+    return children.map(getContentText).join(' ')
   }
 
   if (typeof value !== 'object') return ''
 
   const node = value as ContentNode
   const ownText = node.type === 'text' && typeof node.value === 'string' ? node.value : ''
-  const minimarkText = node.type === 'minimark' ? collectText(node.value) : ''
-  const childText = Array.isArray(node.children) ? node.children.map(collectText).join(' ') : ''
+  const minimarkText = node.type === 'minimark' ? getContentText(node.value) : ''
+  const childText = Array.isArray(node.children) ? node.children.map(getContentText).join(' ') : ''
 
   return `${ownText} ${minimarkText} ${childText}`
 }
 
 export const getReadingTimeRange = (body: unknown) => {
-  const words = collectText(body).match(/[\p{L}\p{N}]+(?:[’'-][\p{L}\p{N}]+)*/gu)?.length || 0
+  const words = getContentText(body).match(/[\p{L}\p{N}]+(?:[’'-][\p{L}\p{N}]+)*/gu)?.length || 0
 
   return {
     words,

@@ -1,5 +1,5 @@
 ---
-title: De volgende pandemie vraagt misschien om het tegendeel
+title: De ziekte bepaalt de aanpak
 description: Waarom infectieziektebeleid beter kan beginnen bij het profiel van de ziekte dan bij een vast pakket maatregelen.
 date: 2026-09-13
 tags: [Gezondheid, Wetenschap, Beleid, Modellen]

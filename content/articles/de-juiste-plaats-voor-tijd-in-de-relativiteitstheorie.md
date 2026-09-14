@@ -14,6 +14,20 @@ keyPoints:
   - Snelheid en gravitatiepotentiaal beïnvloeden de eigentijd langs een wereldlijn.
   - Het verschil wordt operationeel vastgesteld wanneer klokken of processen worden vergeleken.
   - Eigentijd is een krachtige geometrische maat, geen extra substantie die materie aanstuurt.
+plainLanguage:
+  title: Wat meet een klok eigenlijk?
+  intro: Een klok meet niet een onzichtbare stof die tijd heet. Het is zelf een fysiek systeem dat regelmatig verandert. Door die verandering te vergelijken met andere processen kunnen we vaststellen dat twee klokken na verschillende reizen niet evenveel hebben getikt.
+  sections:
+    - heading: Klokken vergelijken veranderingen
+      paragraphs:
+        - Een slinger, een kwartskristal en een atoomklok werken allemaal anders, maar gebruiken een herhaalbaar proces als maat. Een seconde betekent dat zo'n proces een afgesproken aantal veranderingen heeft doorgemaakt. Tijd is in deze praktische betekenis een manier om veranderingen met elkaar te vergelijken.
+    - heading: Verschillende routes geven verschillende uitkomsten
+      paragraphs:
+        - Volgens de relativiteitstheorie hangt de opgebouwde eigentijd af van snelheid en zwaartekracht. Twee nauwkeurige klokken die een verschillende route volgen kunnen bij hereniging een klein verschil tonen. Dat is geen gezichtsbedrog, maar een meetbaar verschil in hun fysieke geschiedenis.
+    - heading: De theorie blijft hetzelfde
+      paragraphs:
+        - Dit artikel verwerpt de relativiteitstheorie niet. Het stelt een andere denkrichting voor. Begin bij materie, beweging en meetbare verandering, en behandel eigentijd als de geometrische maat die hun geschiedenis vergelijkt. Zo voorkomen we dat tijd per ongeluk klinkt als een zelfstandige kracht die klokken bestuurt.
+  takeaway: Relativiteit voorspelt verschillen tussen fysieke geschiedenissen. Een klok registreert zo'n geschiedenis; tijd hoeft daarbij niet als een aparte werkzame stof te worden gezien.
 modelComponent: proper-time
 modelLimitations:
   - Het model combineert speciale relativiteit met een vereenvoudigd, bolsymmetrisch aardmodel.

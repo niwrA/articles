@@ -1,5 +1,8 @@
 <script setup lang="ts">
-const { data: articles } = await useAsyncData('home-articles-en', () => queryCollection('articlesEn').where('draft', '=', false).order('date', 'DESC').all())
+const { data: articles } = await useAsyncData('home-articles-en', async () => {
+  const entries = await queryCollection('articlesEn').where('draft', '=', false).order('date', 'DESC').all()
+  return entries.map(({ body, ...article }) => ({ ...article, readingTime: formatReadingTime(body, 'en-GB'), searchText: getContentText(body).replace(/\s+/g, ' ').trim() }))
+})
 useSeoMeta({ title: 'Articles and models', description: 'Evidence-based essays on technology, society and the systems behind them.' })
 useHead({ htmlAttrs: { lang: 'en' } })
 </script>

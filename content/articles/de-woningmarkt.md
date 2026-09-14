@@ -16,6 +16,20 @@ keyPoints:
   - Bestaand woonoppervlak kan door delen, splitsen en doorstroming effectiever worden benut.
   - Nieuwbouw is belangrijk, maar kosten, doorlooptijd en structureel effect verschillen sterk per maatregel.
   - De uitkomst hangt af van expliciete aannames over bevolkingsgroei, uitvoeringstempo en opbrengst.
+plainLanguage:
+  title: Woningnood gaat om meer dan huizen bouwen
+  intro: Nederland heeft te weinig passende woningen, maar het probleem is niet alleen het totale aantal gebouwen. Ook het aantal huishoudens, de verdeling van woonruimte, locatie, betaalbaarheid en doorstroming bepalen hoeveel mensen werkelijk een geschikte woning kunnen vinden.
+  sections:
+    - heading: Mensen wonen in huishoudens
+      paragraphs:
+        - Twee mensen die apart wonen hebben meestal meer woningen en meer basisruimte nodig dan twee mensen die samenwonen. Daardoor kan de woningvraag sneller groeien dan de bevolking. Alleen het aantal inwoners volgen geeft dus geen volledig beeld van de behoefte.
+    - heading: Bestaande ruimte kan beter passen
+      paragraphs:
+        - Een groot huis met weinig bewoners is niet automatisch verspilling, maar de voorraad kan soms beter worden benut. Splitsen, woningdelen, hospitaverhuur en aantrekkelijke kleinere woningen kunnen capaciteit toevoegen. Dat werkt alleen als privacy, kwaliteit, kosten en de wensen van bewoners serieus worden genomen.
+    - heading: Maatregelen werken samen
+      paragraphs:
+        - Nieuwbouw blijft nodig, maar kost tijd, geld, personeel en ruimte. Andere maatregelen kunnen soms sneller helpen en hebben ieder hun eigen grens. Het model maakt aannames zichtbaar en laat zien hoe een combinatie het tekort kan verkleinen zonder te doen alsof één knop het probleem oplost.
+  takeaway: Meet woningnood in passende wooncapaciteit, niet alleen in aantallen huizen, en combineer nieuwbouw met beter gebruik van de bestaande voorraad.
 modelComponent: housing-policy
 modelLimitations:
   - Het model voorspelt geen individuele verhuiskeuzes en geen regionale prijsontwikkeling.
@@ -295,7 +309,7 @@ De centrale beleidsvraag is uiteindelijk niet hoeveel woningen Nederland onder a
 
 Dat vraagt een combinatie van beter gebruik van bestaande woningen, lokale doorstroming, splitsing en transformatie, voldoende reguliere nieuwbouw en flexibele capaciteit voor ontwikkelingen die minder goed voorspelbaar zijn. Wanneer die variabelen systematisch worden gevolgd, kan woningbeleid worden aangepast zodra de werkelijkheid afwijkt van de prognose.
 
-### Bronnen
+## Referenties
 
 1. **CBS – Woningvoorraad; woningtype op 1 januari, regio** StatLine-tabel met omvang en samenstelling van de Nederlandse woningvoorraad en gemiddeld woonoppervlak. Per 1 januari 2026: 8.344.953 woningen, gemiddeld 120 m²; eengezinswoningen gemiddeld 144 m² en meergezinswoningen 79 m². [**CBS – Woningvoorraad en woonoppervlak**](https://www.cbs.nl/nl-nl/cijfers/detail/85035NED?utm_source=chatgpt.com)
 2. **CBS – Alleenstaande oudere vrouwen wonen het grootst** Woonbase-analyse over woonoppervlak naar leeftijd en huishoudtype. Gemiddeld beschikte een Nederlander in 2021 over 53 m² woonoppervlak. Alleenstaanden hadden gemiddeld 87 m² en alleenstaande 70-plussers gemiddeld 104 m². Deze bron is bijzonder relevant voor het gedeelte over woningverdunning en ouderen. [**CBS – Woonoppervlak per persoon en huishoudtype**](https://www.cbs.nl/nl-nl/nieuws/2022/48/alleenstaande-oudere-vrouwen-wonen-het-grootst?utm_source=chatgpt.com)

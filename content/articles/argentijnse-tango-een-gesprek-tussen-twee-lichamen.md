@@ -13,6 +13,20 @@ keyPoints:
   - Iedere nieuwe lichaamspositie opent sommige mogelijkheden en sluit andere af.
   - De dansers kunnen verschillende aspecten van dezelfde muziek vertolken.
   - Gelijkwaardigheid betekent niet dat beide dansers op ieder moment hetzelfde doen.
+plainLanguage:
+  title: Tango als gesprek in plaats van opdracht
+  intro: In Argentijnse tango worden de rollen vaak leider en volger genoemd. Dat is praktisch, maar kan de indruk wekken dat één persoon alles beslist. Dit artikel stelt een rijker model voor waarin initiatief, navigatie, uitvoering en reactie per moment tussen beide dansers kunnen verschuiven.
+  sections:
+    - heading: Een voorstel komt vóór het antwoord
+      paragraphs:
+        - Een beweging begint meestal met een kleine verandering in bovenlichaam, richting of spanning. De partner voelt dit, projecteert een vrije voet en antwoordt met eigen timing en stapgrootte. De eerste danser moet dat antwoord vervolgens waarnemen. Leiden is daardoor geen commando maar een voorstel waarop samen wordt voortgebouwd.
+    - heading: Het lichaam beperkt en opent mogelijkheden
+      paragraphs:
+        - Gewicht kan maar op bepaalde voeten rusten, benen moeten fysiek langs elkaar kunnen en de bovenlichamen proberen verbonden en op elkaar gericht te blijven. Iedere voltooide gewichtsverplaatsing maakt sommige vervolgbewegingen mogelijk en andere onwaarschijnlijk. De dans ontstaat als een pad door die veranderende mogelijkheden.
+    - heading: Rollen kunnen werkelijk wisselen
+      paragraphs:
+        - Gelijkwaardigheid betekent niet dat beide dansers tegelijk hetzelfde initiatief nemen. De ene kan navigeren terwijl de andere muzikaal timing of versiering voorstelt; even later kunnen functies wisselen. Zo kunnen twee lichamen verschillende stemmen in de muziek volgen en toch één gesprek vormen.
+  takeaway: Tango wordt wederkeriger wanneer leider en volger geen vaste eigenaars van initiatief zijn, maar beiden voortdurend voorstellen voelen, beantwoorden en verder vormen.
 modelComponent: tango-movement
 modelLimitations:
   - De simulatie onderscheidt standbeen, vrije voet, projectie, plaatsing, gewichtsoverdracht en pivot.
