@@ -61,9 +61,13 @@ For our purposes, something else is more interesting: men *did* dance with men. 
 
 The movement language also changed continuously. Dancers found solutions, copied and altered them. That history fits what attracts me to tango: improvising together through a relatively clear physical language.
 
-### Not knowing what comes next
+That development has not stopped. Alongside social tango at more or less traditional milongas, there are stage forms, queer tango, tango nuevo and neotango. These labels do not identify neatly bounded techniques. *Neotango* often refers both to dancing to electronic or non-traditional music and to events or styles that treat the embrace, line of dance, clothing and movement choices more freely. This may create more room for experimentation and role-switching, but reciprocity does not follow automatically from modern music or an open embrace. An innovative form can still be controlled by one person, while a traditional tanda may be exceptionally attentive and dialogic.
+
+### Tango now: from walking to an open movement vocabulary
 
 In Argentine tango, almost nothing about the next step has to be predetermined. Beginners often learn a *salida básica*, but the dance need not return to that cycle. *El caminar*, walking, describes the foundation better: two dancers can express an entire number through it. Another step, an ocho, giro, parada, cross, stillness or even an unfinished *amague* may follow at different moments in the music.
+
+A logical overview therefore starts not with long figures but with increasingly rich layers. First come posture, connection, one's own axis, weight transfer, projection, arrival and walking. Within those elements, each dancer shapes timing, step size and quality. Next come *adornos*: free musical additions that need not alter the shared movement. Then come recognisable introductory figures such as the basic salida, the cross, ochos, parada and giro. Only after that does it become useful to ask how much initiative and response each figure already requires from both bodies and how readily another direction can emerge along the way.
 
 Rather than learning the dance only as a collection of steps that can be strung together, we can therefore see it as a continuously changing situation in which we use a toolbox of techniques. At every moment, two bodies occupy particular positions in relation to each other. The weight is here, the free leg there, the torsos are at a certain angle, there is a certain distance between them, and perhaps some movement or rotation remains from what has just happened.
 
@@ -94,11 +98,19 @@ That helps explain why tango works with different kinds of music. Classical tang
 
 A phrase ending, silence, accent or change in instrumentation is heard by both dancers and offers natural moments to complete or continue an idea. Music therefore also assists communication.
 
-### Traditional tango already has two voices
+### Adornos: an individual voice without a new proposal
 
-We do not need to dismantle the existing dance before we can make tango more reciprocal. Much of what we need is already there. Take an ocho. One dancer may initiate the movement, but that by no means determines everything that follows. The other organises their own axis, makes the pivot and ultimately takes the step themselves. The actual size of that step and the time the movement takes become part of what the first dancer subsequently has to feel.
+An *adorno* is an optional embellishment. The movement works without it. A free foot may draw something extra, add a rhythmic detail or give a leg a different line. Such an embellishment often arises directly from something the dancer hears in the music. The partner need not respond to it.
+
+That distinction is fundamental. Some movements are necessary for my part in what we are doing together. Others express my own musical voice within it. Neither automatically means that I am asking you for a new direction. If every variation is read as an invitation, reciprocal tango becomes restless. Listening well also means recognising what the other person can simply be allowed to do independently.
+
+### Figures in increasing order of reciprocity
+
+We do not need to dismantle the existing dance before we can make tango more reciprocal. Much of what we need is already present in familiar movements, although not all to the same degree. A simple forward or side step has a clear initiating impulse, after which the other dancer organises projection and arrival. In the cross, the response becomes more specific: torsion, direction and a brief suspension make a crossing possible without directly forcing it. In an ocho, one dancer initiates direction and rotation while the other organises their own axis, pivot, step size and arrival.
 
 This becomes even clearer in a giro. One dancer can initiate the turn while the other steps around them. But the outside dancer takes real steps, with a real length and speed. Those steps determine the actual radius and tempo of the giro. The dancer in the centre cannot completely dictate this in advance and has to keep listening to what is actually happening.
+
+A parada interrupts an ongoing movement and creates time in which both dancers can interpret what that pause means. In a sacada, one dancer opens space that the other actually occupies; the result depends on the geometry and timing of both. A planeo is more reciprocal still: the dancer on the axis maintains balance and shape while the other influences direction and rotation. This is not an official ladder of difficulty. It orders figures by how much of their outcome emerges only through mutual sensing during execution.
 
 At a high level, you regularly see movements that beginners strongly associate with one role being used in both directions. Men or traditional leaders make ochos themselves, move around their partner, or are turned in a planeo by the traditional follower. Sometimes the roles visibly switch, but often something subtler happens: the basic roles remain recognisable while one particular function moves to the other side for a few beats.
 
@@ -111,22 +123,6 @@ So traditional tango has long contained that second voice. But what we want to i
 A temporary **division of tasks** then emerges. In an ocho, the person proposing the movement has different tasks from the person executing the ocho. In a giro, the division is different again. One dancer may be responsible for opening and maintaining a direction or rotation, while the other organises their own balance, pivot, step and actual arrival. These are not higher and lower tasks. They are different parts of the same shared movement.
 
 Much of the intelligence tango has accumulated over its development resides precisely in these divisions of tasks. Not every asymmetry is a problem we need to solve. Two bodies cannot occupy the same place, and many movements work precisely because each dancer temporarily does something different.
-
-### And then there are embellishments
-
-Alongside what is necessary to execute the shared movement, there is another kind of freedom: the embellishment, or *adorno*.
-
-An embellishment is optional. The movement works without it. A free foot can draw something extra, a rhythmic detail can be added, a leg can trace a different line. Such an embellishment often arises directly from something the dancer hears in the music.
-
-The important difference is that the partner does not have to respond to it.
-
-Some things I do are necessary for my part of our shared movement. Other things I do because I want to express my own voice within that movement. Neither automatically means that I am now asking something new of you.
-
-That distinction becomes important as soon as both dancers are allowed to propose new initiatives themselves. Otherwise the dance becomes restless. If every small variation or embellishment is interpreted by the partner as a new invitation, both bodies will constantly respond to messages that were never intended as messages.
-
-Listening well, then, does not mean reacting to everything. Listening well means being able to feel **what requires a response and what you can simply allow the other person to do**.
-
-That may initially seem like a minor detail, but I think it is one of the conditions for making reciprocal tango not only freer but genuinely pleasant to dance.
 
 ### A new proposal
 
@@ -174,19 +170,7 @@ That distinction is useful in tango as well. There can be a difference between *
 
 Equality therefore does not require simultaneity, nor does it require bookkeeping in which we check every eight beats whether both dancers have had exactly the same amount of influence. The freedom lies in both being allowed to speak and both having learned how to listen.
 
-### Everyone learns the whole language
-
-If we want to move in this direction, it also has consequences for how tango is taught. Everyone could learn the same movement principles from the beginning: walking, pivoting, making forward and backward ochos, moving around the partner, being the centre of a turn, opening and occupying space, making proposals and taking them up.
-
-That does not mean beginners should immediately try to do everything at once. Quite the opposite. To learn communication properly, it is often useful to make an exercise temporarily very asymmetrical.
-
-One dancer, for example, may be given only the task of proposing a weight change, while the other's only task is to feel and take it up. Then they switch. Next, they investigate what is actually divided between the dancers during an ocho: what must the person proposing it do, and what does the person executing it organise themselves? Free embellishment can then be added, with the explicit understanding that this is not a new proposal. Only after that does the dancer executing the movement get the opportunity to offer something new while it is still being performed.
-
-In this way we can **learn symmetrically, practise temporarily asymmetrically, and eventually dance freely and asymmetrically**. This has another advantage: it becomes much easier for everyone to teach everyone else something.
-
-In traditional teaching, someone who has followed for years may know an extraordinary amount about how an ocho feels and is performed, while having far less experience in offering the rotation. An experienced leader, conversely, may have initiated thousands of ochos without often performing the movement themselves.
-
-If both dancers know both sides, they can exchange places and let each other feel a problem. Knowledge becomes less dependent on role, and dancers gain more tools for investigating together why something does or does not work.
+### The final step: allowing initiative genuinely to change sides
 
 If we retain the classical abrazo—and there are good reasons to do so—one further requirement follows. It is not enough for both dancers eventually to learn the same technique: every movement must also be initiable **from the mirrored balance**. The other dancer begins from their supporting leg and uses the direction that is most natural from that position and that side of the embrace.
 
@@ -194,15 +178,19 @@ This is more than performing a familiar figure as a mirror image. It relocates t
 
 The abrazo therefore need not be fundamentally altered, and the dancers do not have to visibly exchange roles first. Hand contact on one side and arm contact on the other remain asymmetrical, but they no longer determine who may begin. Once both dancers physically know the ordinary and mirrored possibilities, freedom exists within the embrace rather than only after letting it go.
 
-### Understanding the position, not just the figure
+### Two ways of learning tango
 
-From quite early in tango's history, there have been teaching principles in which, instead of learning only *how a particular figure goes*, we learn to recognise **which possibilities arise from a particular position**, and which techniques those possibilities consist of.
+Broadly, there are two approaches to learning. In the first, dancers learn and practise figures and sequences. This provides structure, repetition and a concrete feeling for rhythm, direction and division of tasks. The risk is that the learned order becomes the main event: when a partner arrives differently than expected, you know which step the recipe prescribes but not why it does or does not fit here.
+
+The second approach centres concepts and techniques: axis, weight, projection, torsion, pivot, space, contact and the possibilities that follow from a state. Figures remain useful, but primarily as examples in which a principle becomes visible and testable. This approach has the opposite risk: an abstract vocabulary may sound correct without yet being fluent, musical or socially danceable. Sequences give concepts a practicable context; concepts make sequences understandable and adaptable.
 
 A sacada then becomes more than a sequence of steps: one dancer vacates space that the other can occupy from a particular geometry. With an ocho, you investigate which state permits a pivot, what the partner's movement changes, and whether the same technique can be performed in another direction or by the other body.
 
 A figure then ceases to be a recipe and becomes a recognisable instance of a more general principle. And it becomes much easier to understand why some possibilities are **preferred possibilities**. Not everything that is technically possible works equally well. The position of the feet matters, as does the abrazo, whether the arm around the back can slide or not, momentum, differences in height between the dancers, the available space on the floor and, of course, the music.
 
-If you know only the figure, you know one route. If you understand why the figure works from this particular state, you begin to read the landscape—and that is where creativity really begins. Suppose a movement has ended and we are each on our own axis, standing on one supporting leg. I can now move your free foot. The direction does not matter. Under certain circumstances I can even lift it. I can keep moving it until it becomes a pivot, move it with one leg and, after a step, move it back with the other. You can take the initiative and move my foot back to where it came from—something that is already becoming more common in traditional tango.
+When both participants learn both sides of a movement, these approaches deepen one another further. Someone who usually follows can not only perform an ocho but also feel which torsion offers it clearly. Someone who usually leads personally experiences how much time, axis and freedom the pivot requires. They can exchange places, let each other feel a problem and investigate more precisely why something does or does not work.
+
+This does not mean beginners should do everything at once. An exercise may be temporarily very asymmetric: one dancer only proposes a weight transfer and the other accepts it; then they switch. The same technique can subsequently be explored inside a figure, from the other role and from mirrored balance. Dancers can thus **learn symmetrically, practise temporarily asymmetrically and ultimately dance freely asymmetrically**.
 
 And what if a misunderstanding occurs? Those are interesting too. If an adorno is repeatedly mistaken for a proposal, perhaps the signal was unclear, and together you can investigate why—or ask another dancer or teacher. Sometimes a misunderstanding goes wrong in such an enjoyable way that it becomes inspiration for something completely new.
 
@@ -229,4 +217,7 @@ For those who would like to explore some of the ideas behind this article furthe
 
 **David Kaminsky —** ***Social Partner Dance: Body, Sound, and Space*** A broader book about social partner dance, drawing on tango, salsa, lindy hop and blues, among others. Kaminsky looks at partner dance as an interplay between yourself, your partner, the music and the surrounding space, and also examines why lead/follow is such an effective solution to the coordination problem faced by two improvising dancers. Precisely for that reason, his work provides an interesting counterpoint to the proposal made in this article. [**View the book at Routledge**](https://www.routledge.com/Social-Partner-Dance-Body-Sound-and-Space/Kaminsky/p/book/9781032236902)
 
-<TangoPoseEditor locale="en" />
+:::ModelDisclosure{title="Tango editor" description="Record a movement phase by phase and find the technical explanation and sources at the end." locale="en"}
+::TangoPoseEditor{locale="en"}
+::
+:::

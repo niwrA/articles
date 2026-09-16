@@ -61,9 +61,13 @@ Voor ons is vooral iets anders interessant: mannen hébben met mannen gedanst. D
 
 Ook de bewegingstaal veranderde voortdurend. Dansers vonden oplossingen, namen ze van elkaar over en pasten ze aan. Die geschiedenis past bij wat tango voor mij aantrekkelijk maakt: samen improviseren met een relatief duidelijke lichaamstaal.
 
-### Niet weten wat er komt
+Die ontwikkeling is niet gestopt. Naast sociale tango in min of meer traditionele milonga's bestaan podiumpresentaties, queer tango, tango nuevo en neotango. Die namen dekken geen strak afgebakende technieken. *Neotango* verwijst vaak zowel naar dansen op elektronische of niet-traditionele muziek als naar avonden en stijlen waarin de abrazo, dansrichting, kleding en bewegingskeuze vrijer worden behandeld. Dat kan meer ruimte geven voor experiment en rolwisseling, maar wederkerigheid volgt niet automatisch uit moderne muziek of een open omhelzing. Ook een vernieuwende vorm kan nog steeds door één persoon worden bestuurd, terwijl een traditionele tanda juist buitengewoon aandachtig en dialogisch kan zijn.
+
+### Tango nu: van lopen naar een open bewegingsvocabulaire
 
 In Argentijnse tango hoeft bijna niets vast te liggen over de volgende stap. Beginners leren vaak een *salida básica*, maar de dans hoeft niet naar die cyclus terug te keren. *El caminar*, het lopen, beschrijft de basis beter: twee dansers kunnen daarmee een heel nummer uitdrukken. Daarna kan een stap, ocho, giro, parada, kruising, stilstand of zelfs een onafgemaakte *amague* volgen, op uiteenlopende momenten in de muziek.
+
+Een logisch overzicht begint daarom niet met lange figuren, maar met steeds rijkere lagen. Eerst komen houding, verbinding, eigen as, gewichtsverplaatsing, projectie, aankomst en lopen. Daarbinnen kan iedere danser timing, stapgrootte en kwaliteit vormgeven. Vervolgens komen *adornos*: vrije, muzikale toevoegingen die de gezamenlijke beweging niet hoeven te veranderen. Daarna volgen herkenbare introductiefiguren zoals de basisuitgang, het kruisen, ochos, parada en giro. Pas daarna wordt interessant hoeveel initiatief en antwoord iedere figuur al van beide lichamen vraagt en hoe gemakkelijk er onderweg een andere richting uit kan ontstaan.
 
 In plaats van de dans alleen te leren als een verzameling passen die je achter elkaar kunt uitvoeren, kun je hem daarom ook zien als een voortdurend veranderende situatie waarin je een gereedschapskist aan technieken gebruikt. Op ieder moment staan twee lichamen op een bepaalde manier ten opzichte van elkaar. Het gewicht staat hier, het vrije been daar, de torso's hebben een bepaalde hoek, er is een bepaalde afstand en misschien zit er nog beweging of rotatie in wat er zojuist gebeurde.
 
@@ -94,39 +98,31 @@ Dat helpt verklaren waarom tango op verschillende muzieksoorten werkt. Klassieke
 
 Een frase-einde, stilte, accent of verandering van instrumentatie wordt door allebei gehoord en biedt natuurlijke momenten om een bewegingsidee af te ronden of voort te zetten. Zo helpt muziek ook de communicatie.
 
-### Traditionele tango heeft ook al twee stemmen
+### Adornos: een eigen stem zonder nieuw voorstel
 
-Voor een gelijkwaardiger tango hoeven we de bestaande dans niet eerst af te breken. Veel van wat we nodig hebben zit er al in. Neem een ocho. De ene danser kan de beweging inzetten, maar daarmee ligt nog lang niet alles vast. De andere organiseert de eigen as, maakt de pivot en zet uiteindelijk zelf de stap. Hoe groot die stap wordt en hoe lang de beweging duurt, wordt onderdeel van wat de eerste danser vervolgens moet voelen.
+Een *adorno* is een optionele versiering. De beweging werkt ook zonder. Een vrije voet kan iets extra's tekenen, een ritmisch detail kan worden toegevoegd of een been kan een andere lijn maken. Vaak ontstaat zo'n versiering rechtstreeks uit iets wat de danser in de muziek hoort. De partner hoeft daarop niet te reageren.
+
+Dat onderscheid is fundamenteel. Sommige bewegingen zijn nodig voor mijn aandeel in wat we samen uitvoeren. Andere laten binnen die beweging mijn eigen muzikale stem horen. Geen van beide betekent automatisch dat ik nu een nieuwe richting van jou vraag. Als iedere variatie als uitnodiging wordt gelezen, wordt wederkerige tango juist onrustig. Goed luisteren betekent ook herkennen wat je de ander zelfstandig kunt laten doen.
+
+### Figuren, in oplopende wederkerigheid
+
+Voor een gelijkwaardiger tango hoeven we de bestaande dans niet eerst af te breken. Veel van wat we nodig hebben zit al in bekende bewegingen, maar niet overal in dezelfde mate. Een eenvoudige voor- of zijwaartse stap heeft een duidelijke initiatiefimpuls, waarna de ander de projectie en aankomst organiseert. In de kruispas wordt de reactie al specifieker: torsie, richting en een korte inhouding maken een kruising mogelijk zonder haar rechtstreeks af te dwingen. Bij een ocho zet de ene danser de richting en rotatie in, terwijl de andere de eigen as, pivot, stapgrootte en aankomst organiseert.
 
 Bij een giro wordt dat nog duidelijker. Eén danser kan de draai inzetten terwijl de ander eromheen stapt. Maar die buitenste danser zet echte stappen, met een echte lengte en snelheid. Daardoor ontstaat de werkelijke straal en het tempo van de giro. De danser in het midden kan dat niet vooraf volledig dicteren en moet blijven luisteren naar wat er daadwerkelijk gebeurt. 
+
+Bij een parada wordt een doorgaande beweging onderbroken en ontstaat tijd waarin beide dansers kunnen interpreteren wat die stilstand betekent. In een sacada opent de ene danser ruimte die de ander daadwerkelijk inneemt; het resultaat hangt af van geometrie en timing van allebei. Bij een planeo wordt de verhouding nog wederkeriger: de danser op de as onderhoudt balans en vorm, terwijl de ander richting en rotatie beïnvloedt. Dit is geen officiële moeilijkheidsladder. Het is een ordening naar de vraag hoeveel van de uitkomst pas tijdens de uitvoering door wederzijds voelen ontstaat.
 
 Maar op hoog niveau zie je regelmatig dat bewegingen die beginners sterk aan één rol koppelen in beide richtingen worden gebruikt. Mannen of traditionele leiders maken zelf ochos, bewegen rond hun partner, of worden door de traditionele volger in een planeo gedraaid. Soms wisselen rollen zichtbaar, maar vaak gebeurt iets subtielers: de basisrollen blijven herkenbaar terwijl een bepaalde functie voor een paar tellen de andere kant op loopt.
 
 Binnen een beweging die door de ander is ingezet heeft de tweede danser bovendien ruimte om een eigen muzikale stem te houden. Een stap kan zacht of scherp worden neergezet. Een pivot kan een bepaalde frasering krijgen. Een vrije voet kan de muziek tekenen. Een beweging kan klein en ritmisch of juist ruim en vloeiend worden uitgevoerd, zolang dat past binnen wat de twee lichamen samen aan het doen zijn. Dat is een belangrijk onderscheid: **een eigen stem hebben is niet hetzelfde als een nieuw initiatief nemen**. 
 
-**Voorstel, aanname en taakverdeling**
+### Voorstel, aanname en taakverdeling
 
 Dus, de traditionele tango kent die tweede stem allang. Maar we willen onderzoeken hoe het zou zijn om echt een gelijkwaardig gesprek te hebben. Een nieuw initiatief begint met een **voorstel**. Eén danser laat via het lichaam een nieuwe mogelijkheid ontstaan. De ander voelt dat voorstel en kan het **aannemen**. Pas na die aanname wordt het iets wat ze samen gaan doen. 
 
 Daarna ontstaat tijdelijk een **taakverdeling**. Bij een ocho heeft degene die de beweging voorstelt andere taken dan degene die de ocho uitvoert. Bij een giro ligt die verdeling weer anders. De ene danser kan verantwoordelijk zijn voor het openen en onderhouden van een richting of rotatie, terwijl de ander de eigen balans, pivot, stap en werkelijke aankomst organiseert. Dat zijn geen hogere en lagere taken. Het zijn verschillende delen van dezelfde gezamenlijke beweging.
 
 Juist in die taakverdelingen zit veel van de intelligentie die tango in de loop van zijn ontwikkeling heeft opgebouwd. Niet iedere asymmetrie is een probleem dat we moeten oplossen. Twee lichamen kunnen niet op dezelfde plek staan en veel bewegingen werken juist doordat ieder tijdelijk iets anders doet.
-
-### En dan zijn er de versieringen
-
-Naast wat nodig is om de gezamenlijke beweging uit te voeren, bestaat nog een andere vrijheid: de versiering, de *adorno*.
-
-Een versiering is optioneel. De beweging werkt ook zonder. Een vrije voet kan iets extra's tekenen, een ritmisch detail kan worden toegevoegd, een been kan een andere lijn maken. Vaak ontstaat zo'n versiering rechtstreeks uit iets wat de danser in de muziek hoort.
-
-Het belangrijke verschil is dat de partner daarop niet hoeft te reageren.
-
-Sommige dingen die ik doe zijn nodig voor mijn deel van onze gezamenlijke beweging. Andere dingen doe ik omdat ik binnen die beweging mijn eigen stem wil laten horen. Geen van beide betekent automatisch dat ik nu iets nieuws van jou vraag.
-
-Dat onderscheid wordt belangrijk zodra beide dansers zelf nieuwe initiatieven mogen voorstellen. Anders wordt de dans onrustig. Als iedere kleine variatie of versiering door de partner wordt gelezen als een nieuwe uitnodiging, reageren beide lichamen voortdurend op boodschappen die nooit als boodschap bedoeld waren.
-
-Goed luisteren betekent dus niet dat je op alles reageert. Goed luisteren betekent dat je kunt voelen **waarop je moet reageren en wat je de ander gewoon kunt laten doen**.
-
-Dat lijkt in eerste instantie misschien een klein detail, maar het is volgens mij een van de voorwaarden om gelijkwaardige tango niet alleen vrijer, maar ook daadwerkelijk prettig dansbaar te maken.
 
 ### Een nieuw voorstel
 
@@ -174,19 +170,7 @@ Dat onderscheid is ook bruikbaar voor tango. Er kan verschil zijn tussen **initi
 
 Gelijkwaardigheid vraagt dus geen gelijktijdigheid, en ook geen boekhouding waarin we iedere acht tellen controleren of beide dansers evenveel invloed hebben gehad. De vrijheid zit erin dat beiden mogen spreken en beiden geleerd hebben te luisteren.
 
-### Iedereen leert de hele taal
-
-Als we die kant op willen, heeft dat ook gevolgen voor hoe tango wordt onderwezen. Iedereen zou vanaf het begin dezelfde bewegingsprincipes kunnen leren: lopen, pivoteren, voorwaartse en achterwaartse ochos maken, rond de partner bewegen, zelf centrum van een draai zijn, ruimte openen en innemen, voorstellen doen en voorstellen aannemen.
-
-Dat betekent niet dat beginners alles meteen tegelijk moeten proberen. Integendeel. Om communicatie goed te leren is het vaak nuttig een oefening tijdelijk heel asymmetrisch te maken.
-
-De ene danser krijgt bijvoorbeeld alleen de taak om een gewichtsverplaatsing voor te stellen, de andere alleen om te voelen en aan te nemen. Daarna wisselen ze. Vervolgens wordt onderzocht wat er tijdens een ocho werkelijk verdeeld is: wat moet degene die hem voorstelt doen en wat organiseert degene die hem uitvoert zelf? Daarna kan vrije versiering worden toegevoegd, met de nadrukkelijke afspraak dat die geen nieuw voorstel is. Pas daarna krijgt degene die de beweging uitvoert de mogelijkheid om tijdens de uitvoering alvast iets nieuws aan te bieden.
-
-Zo kun je **symmetrisch leren, tijdelijk asymmetrisch oefenen en uiteindelijk vrij asymmetrisch dansen**. Dat heeft nog een tweede voordeel. Iedereen kan veel gemakkelijker iedereen iets leren.
-
-In traditioneel onderwijs kan iemand na jaren volgen bijzonder veel weten over hoe een ocho voelt en uitgevoerd wordt, maar veel minder ervaring hebben met het aanbieden van de rotatie. Een ervaren leider kan op zijn beurt duizenden ochos hebben ingezet zonder de beweging zelf vaak te hebben gemaakt.
-
-Als beide dansers beide kanten kennen, kunnen ze van plaats wisselen en elkaar een probleem laten voelen. Kennis wordt zo minder afhankelijk van rol en dansers krijgen meer gereedschap om samen te onderzoeken waarom iets wel of niet werkt.
+### De laatste stap: het initiatief werkelijk laten wisselen
 
 Als we de klassieke abrazo behouden, waar veel voor te zeggen is, volgt daar nog een voorwaarde uit. Het is niet genoeg dat beide dansers ooit dezelfde techniek leren: iedere beweging moet ook **vanuit de gespiegelde balans** kunnen worden ingezet. De andere danser begint dan vanuit diens standbeen en gebruikt de richting die vanuit die houding en die kant van de abrazo het meest natuurlijk is.
 
@@ -194,15 +178,19 @@ Dat is meer dan een spiegelbeeldige uitvoering van een bekende figuur. Het verpl
 
 Daarmee hoeft de abrazo niet fundamenteel te worden aangepast en hoeven de dansers niet eerst zichtbaar van rol te wisselen. Handcontact aan de ene kant en armcontact aan de andere kant blijven asymmetrisch, maar bepalen niet langer wie mag beginnen. Als beide dansers de gewone én gespiegelde mogelijkheden lichamelijk kennen, ontstaat vrijheid binnen de omhelzing in plaats van pas nadat zij haar loslaten.
 
-### Niet de figuur, maar de positie begrijpen
+### Twee manieren om tango te leren
 
-Al vanaf dicht bij het begin van de tango zijn er leerprincipes geweest waarbij we in plaats van alleen te leren *hoe een bepaalde figuur gaat*, we leren herkennen **vanuit welke positie welke mogelijkheden ontstaan**, en uit welke technieken die mogelijkheden bestaat. 
+Grofweg zijn er twee leerbenaderingen. In de eerste leren en oefenen dansers figuren en sequenties. Dat geeft houvast, herhaling en een concreet gevoel voor ritme, richting en taakverdeling. Het risico is dat de geleerde volgorde de hoofdzaak wordt: als een partner anders aankomt dan verwacht, weet je wel welke stap volgens het recept volgt maar niet waarom die hier wel of niet past.
+
+In de tweede benadering staan concepten en technieken centraal: as, gewicht, projectie, torsie, pivot, ruimte, contact en de mogelijkheden die uit een toestand volgen. Figuren blijven nuttig, maar vooral als voorbeelden waarop zo'n principe zichtbaar en toetsbaar wordt. Het risico hier is het spiegelbeeld: een abstract vocabulaire kan correct klinken zonder dat het al vloeiend, muzikaal en sociaal dansbaar is. Sequenties geven concepten een oefenbare context; concepten maken sequenties begrijpelijk en veranderbaar.
 
 Een sacada wordt dan meer dan een reeks passen: de ene danser verlaat ruimte die de ander vanuit een bepaalde geometrie kan innemen. Bij een ocho onderzoek je welke toestand een pivot mogelijk maakt, wat de beweging van de partner verandert en of dezelfde techniek in een andere richting of door het andere lichaam kan worden uitgevoerd.
 
 Zo wordt een figuur geen recept maar een herkenbaar geval van een algemener principe. En dan wordt het ook veel gemakkelijker om te begrijpen waarom sommige mogelijkheden **voorkeursmogelijkheden** zijn. Niet alles wat technisch kan werkt even prettig. De positie van de voeten telt mee, de abrazo, de rugarm die wel of niet kan inschuiven, het momentum, het verschil in lengte tussen de dansers, de beschikbare ruimte op de vloer en natuurlijk de muziek.
 
-Als je alleen de figuur kent, weet je één route. Als je begrijpt waarom de figuur vanuit deze toestand werkt, begin je het landschap te lezen, en begint de creativiteit pas écht: we hebben een beweging eindigt en staan ieder in onze eigen as, op 1 standbeen. Nu kan ik je voet verschuiven van je niet standbeen. Welke kant op maakt niet uit. Optillen kan zelfs in bepaalde omstandigheden. Ik kan door blijven schuiven tot een pivot, met het ene been schuiven en dan na een stap met het ander terugschuiven. Jij kunt het initiatief overnemen en mijn voet terugschuiven naar waar het vandaan kwam - dit laatste wordt nu ook al vaker gedaan in de traditionele tango. 
+Als beide deelnemers beide kanten van een beweging leren, verdiepen die benaderingen elkaar nog verder. Iemand die meestal volgt kan niet alleen een ocho uitvoeren, maar ook voelen welke torsie haar leesbaar aanbiedt. Iemand die meestal leidt ervaart zelf hoeveel tijd, as en vrijheid de pivot nodig heeft. Ze kunnen van plaats wisselen, elkaar een probleem laten voelen en nauwkeuriger onderzoeken waarom iets wel of niet werkt.
+
+Dat betekent niet dat beginners alles tegelijk moeten doen. Een oefening kan tijdelijk zeer asymmetrisch zijn: de ene stelt alleen een gewichtsverplaatsing voor en de andere neemt haar aan; daarna wisselen ze. Vervolgens kan dezelfde techniek in een figuur, vanuit de andere rol en vanuit de gespiegelde balans worden onderzocht. Zo kun je **symmetrisch leren, tijdelijk asymmetrisch oefenen en uiteindelijk vrij asymmetrisch dansen**.
 
 En ontstaat er dan een misverstand? Juist die zijn ook interessant. Als een adorno telkens per ongeluk als voorstel wordt opgevat, was het signaal misschien onduidelijk en kun je samen uitzoeken of aan een andere danser of dansdocent vragen waarom. Soms gaat het mis op zo'n leuke manier dat het inspiratie geeft voor iets totaal nieuws. 
 
@@ -227,4 +215,7 @@ Voor wie verder wil lezen over de ideeën achter dit artikel:
 
 **David Kaminsky —** ***Social Partner Dance: Body, Sound, and Space*** Een breder boek over sociale partnerdans, gebaseerd op onder meer tango, salsa, lindy hop en blues. Kaminsky kijkt naar partnerdans als samenspel tussen jezelf, je partner, de muziek en de ruimte, en onderzoekt ook waarom lead/follow zo'n effectieve oplossing is voor het coördinatieprobleem van twee improviserende dansers. Juist daarom vormt zijn werk een interessante tegenstem bij het voorstel in dit artikel. [**Bekijk het boek bij Routledge**](https://www.routledge.com/Social-Partner-Dance-Body-Sound-and-Space/Kaminsky/p/book/9781032236902)
 
-<TangoPoseEditor locale="nl" />
+:::ModelDisclosure{title="Tango-editor" description="Leg een beweging fase voor fase vast en lees onderaan de technische uitleg en bronnen."}
+::TangoPoseEditor{locale="nl"}
+::
+:::
