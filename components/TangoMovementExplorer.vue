@@ -290,4 +290,36 @@ const roleFor = (id: DancerId) => selectedInitiator.value === id
 .model-header{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.8fr);column-gap:2rem;align-items:end;max-width:none}.model-header .eyebrow,.model-header h3{grid-column:1}.model-header>p:last-child{grid-column:2;grid-row:1/3;margin:0;font-size:.83rem;line-height:1.5;color:#5e6b67}.model-header h3{font-size:clamp(1.45rem,2.3vw,2.15rem);margin:.15rem 0 0}.explorer-controls{display:grid;grid-template-columns:1.25fr .85fr 1fr;gap:.8rem;margin:1rem 0}.explorer-controls .movement-picker,.explorer-controls fieldset{box-sizing:border-box;margin:0;padding:.65rem;background:#f5f7f5;border:1px solid #dce2de;border-radius:12px;align-content:start}.explorer-controls .movement-picker{align-items:flex-start}.explorer-controls .movement-picker button,.explorer-controls fieldset label{padding:.38rem .58rem;font-size:.72rem}.explorer-controls legend{padding:0 .2rem;font-size:.72rem}.explorer-controls small{font-size:.65rem;line-height:1.35}.explorer-main{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(330px,.8fr);gap:1rem;align-items:start}.explorer-main .views{grid-template-columns:1fr;gap:.75rem;margin:0}.explorer-main .balance-card,.explorer-main .agency-card{padding:.85rem}.explorer-main .views h4{font-size:1rem;margin:.1rem 0 .55rem}.explorer-main .load-row{grid-template-columns:1fr;margin:.5rem 0;gap:.35rem}.explorer-main .load-bars{height:27px}.explorer-main .choice-grid{gap:.45rem}.explorer-main .choice-grid article{padding:.65rem}.explorer-main .choice-grid ul{margin:.5rem 0 0;padding-left:1rem;font-size:.73rem}.explorer-main .choice-grid li{margin:.2rem 0}.stage-toolbar{padding:.7rem .85rem;gap:.6rem}.stage-toolbar label{font-size:.72rem}.music-choice{display:grid!important;grid-template-columns:auto minmax(130px,190px);gap:.35rem!important}.music-choice select{min-width:0;border:1px solid #ccd5d1;border-radius:6px;background:#fff;padding:.3rem;font-size:.68rem}.movement-grammar{padding:.55rem .85rem}.stage-note{min-height:0;padding:.6rem .85rem;font-size:.78rem}.timeline{padding:.6rem .85rem .15rem}.phase-track{padding:0 .85rem .65rem}.sequence-explorer{padding:.8rem .9rem}.checkpoint-tabs{margin:.65rem 0}.checkpoint-detail>div{padding:.65rem}.sequence-note{margin:.5rem 0 0}
 @media(max-width:900px){.model-header{grid-template-columns:1fr}.model-header>p:last-child{grid-column:1;grid-row:auto;margin-top:.55rem}.explorer-controls{grid-template-columns:1fr 1fr}.explorer-controls .movement-picker{grid-column:1/-1}.explorer-main{grid-template-columns:1fr}.explorer-main .views{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){.explorer-controls,.explorer-main .views{grid-template-columns:1fr}.explorer-controls .movement-picker{grid-column:auto}.explorer-controls small{font-size:.68rem}}
+@media(max-width:600px){
+  .tango-explorer{margin:2.5rem calc(50% - 50vw + 8px);width:calc(100vw - 16px)}
+  .model-header{padding-inline:.4rem}.model-header h3{font-size:1.45rem;line-height:1.12}.model-header>p:last-child{font-size:.78rem;line-height:1.45}
+  .explorer-controls{gap:.55rem;margin:.75rem 0}
+  .explorer-controls .movement-picker{display:flex;flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x proximity;padding:.55rem;overscroll-behavior-inline:contain;scrollbar-width:thin}
+  .explorer-controls .movement-picker button{flex:0 0 auto;scroll-snap-align:start;min-height:38px}
+  .explorer-controls fieldset{display:grid;gap:.4rem;padding:.55rem}
+  .explorer-controls .initiator-picker{grid-template-columns:1fr 1fr}
+  .explorer-controls .embrace-picker{grid-template-columns:repeat(3,1fr)}
+  .explorer-controls fieldset legend,.explorer-controls fieldset small{grid-column:1/-1}
+  .explorer-controls fieldset label{display:flex;align-items:center;justify-content:center;min-width:0;min-height:38px;padding:.38rem .3rem;text-align:center;line-height:1.15}
+  .explorer-controls fieldset input{position:absolute;opacity:0;pointer-events:none}
+  .explorer-controls small{line-height:1.4}
+  .stage-card{border-radius:14px;overflow:hidden}
+  .stage-toolbar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.45rem .6rem;padding:.65rem .7rem}
+  .stage-toolbar>strong:first-child{min-width:0;font-size:.95rem;line-height:1.15}
+  .stage-toolbar .initiator-key{justify-self:end}
+  .stage-toolbar>span{grid-column:1/-1;grid-row:auto;width:auto;margin:0;font-size:.76rem}
+  .stage-toolbar .music-choice{grid-column:1/-1;display:grid!important;grid-template-columns:auto minmax(0,1fr);width:100%}
+  .stage-toolbar .music-choice select{width:100%;font-size:.75rem;padding:.4rem}
+  .stage-toolbar>label:not(.music-choice){font-size:.75rem;min-height:28px}
+  .movement-grammar{padding:.5rem .7rem}.movement-grammar ol{padding-bottom:.15rem;scrollbar-width:thin}.system-label{font-size:.7rem}
+  .stage-scroll{overflow:hidden;background:#f7f5ef}.stage{width:100%;min-width:0;height:auto}
+  .stage-note{padding:.58rem .7rem;font-size:.76rem;line-height:1.4}
+  .timeline{grid-template-columns:38px minmax(0,1fr) 38px;gap:.45rem;padding:.65rem .7rem .2rem}.play{width:38px;height:38px;padding:0}.timeline output{text-align:right;font-size:.78rem;font-variant-numeric:tabular-nums}
+  .phase-track{margin-left:0;padding:0 .7rem .7rem;font-size:.62rem}.phase-track span:first-child{text-align:left}.phase-track span{text-align:center!important}.phase-track span:last-child{text-align:right!important}
+  .sequence-explorer{padding:.75rem .7rem}.sequence-heading{align-items:center}.sequence-heading strong{display:block;font-size:.82rem;line-height:1.25}.sequence-arrows{gap:.35rem}.sequence-arrows button{width:38px;height:38px}
+  .checkpoint-tabs{margin:.6rem -.1rem;scroll-snap-type:x proximity;overscroll-behavior-inline:contain}.checkpoint-tabs button{flex-basis:132px;scroll-snap-align:start}
+  .checkpoint-detail{gap:.5rem}.checkpoint-detail>div{padding:.65rem}.checkpoint-detail p,.checkpoint-detail ul{font-size:.78rem}
+  .explorer-main .views{gap:.55rem}.explorer-main .balance-card,.explorer-main .agency-card{padding:.75rem;border-radius:14px}.explorer-main .choice-grid{grid-template-columns:1fr 1fr}.explorer-main .choice-grid article{padding:.55rem}.explorer-main .choice-grid ul{font-size:.7rem}.choice-head small{font-size:.68rem;line-height:1.3}.note,footer{line-height:1.45}footer{padding:.8rem .4rem 0}
+}
+@media(max-width:380px){.explorer-main .choice-grid{grid-template-columns:1fr}.explorer-controls .embrace-picker{grid-template-columns:1fr 1fr}.explorer-controls .embrace-picker label:last-of-type{grid-column:1/-1}}
 </style>
