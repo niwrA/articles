@@ -16,6 +16,7 @@ keyPoints:
   - Inhoud, bewuste toegang, eigenaarschap en ervaren handelingsvermogen zijn verschillende eigenschappen van een gedachte.
   - Innerlijke spraak verschilt sterk tussen mensen en is niet altijd talig of voorzien van een hoorbare innerlijke stem.
   - Contextgevoeligheid is normaal; compartimentering wordt beperkend wanneer informatie, emoties of handelingsmogelijkheden niet meer tussen situaties kunnen worden meegenomen.
+  - Zelftoestanden kunnen functioneel sterk verschillen terwijl ze nog als hetzelfde ik voelen; stemmen en delen kunnen daarnaast eigen perspectieven, onderlinge communicatie en ongelijke toegang tot handelen krijgen.
   - Neurotransmitters dragen geen afzonderlijke gedachten, maar veranderen mede welke signalen gewicht krijgen en hoeveel invloed bewuste afweging en remming op gedrag kunnen uitoefenen.
   - Gedeeltelijk zelfstandige ik-posities passen na uitbreiding in het model, maar bewijzen niet dat er meerdere volledige bewustzijnen bestaan.
   - Dialoog kan mogelijk informatiegrenzen doorlaatbaarder maken zonder een stem te ontkennen of letterlijk als een afzonderlijke persoon te bevestigen.
@@ -56,6 +57,8 @@ Dit artikel is daarom geen uitbreiding van de algemene theorie alsof stemmen hor
 
 Stemmen horen is niet hetzelfde als schizofrenie. Auditief-verbale hallucinaties komen voor bij verschillende psychiatrische aandoeningen, bij neurologische en lichamelijke omstandigheden, rond slaap, na trauma en ook bij mensen die geen klinische diagnose hebben. Ervaringen lopen bovendien sterk uiteen: één of veel stemmen, woorden of andere geluiden, vriendelijk, neutraal of bedreigend, herkenbaar of onbekend, incidenteel of vrijwel voortdurend.[2]
 
+Een term die in gesprekken over meerstemmigheid eveneens kan opkomen is **dissociatieve-identiteitsstoornis (DIS)**. Officiële klinische beschrijvingen verbinden DIS met identiteitsdiscontinuïteit en met geheugenlacunes die verder gaan dan gewone vergeetachtigheid.[15] Dat raakt rechtstreeks aan de dimensies van dit artikel, maar DIS valt niet samen met stemmen horen, meervoudig innerlijk overleg of één bepaalde organisatie van bewustzijn. Het is daarom wel een relevante context voor de stresstest, maar geen preset waartoe het interactieve model een diagnose reduceert.
+
 Die verscheidenheid waarschuwt tegen één groot verklarend verhaal. Zelfs wanneer twee mensen allebei een stem horen, hoeft niet hetzelfde mechanisme doorslaggevend te zijn. Het ene geval kan sterk samenhangen met trauma en dissociatie, het andere met verwachtingen in de waarneming, taalproductie, slaaptekort, middelengebruik of een combinatie van kwetsbaarheid en omstandigheden.[3]
 
 Een goed model moet dus niet vragen: *wat is de oorzaak van stemmen horen?* Het moet vragen welke processen in een specifiek geval anders samenwerken en welke voorspellingen daaruit volgen.
@@ -95,6 +98,23 @@ Hier sluit de gedachte rechtstreeks aan op het arbitragemodel. Bewuste arbitrage
 
 Het zelfmodel is daarmee niet alleen het referentiepunt *waarvoor* informatie wordt beoordeeld. Het helpt ook bepalen **welke delen van het organisme en zijn geschiedenis tot die beoordeling worden toegelaten**.
 
+### Van schemamodi naar meer zelfstandige posities
+
+De schematherapie biedt hiervoor een bruikbare tussenstap. Zij beschrijft *modi*: tijdelijk geactiveerde combinaties van emoties, overtuigingen, lichamelijke reacties en copingstrategieën. Een gekwetst kind, een boze of afstandelijke beschermer en een straffende criticus kunnen vanuit dezelfde situatie geheel andere informatie selecteren en ander gedrag voortbrengen. Meestal blijft daarbij het gevoel bestaan dat al deze toestanden bij hetzelfde ik horen, ook wanneer iemand zich achteraf nauwelijks in een reactie herkent.
+
+Zo'n modus kan een eerder nuttige functie hebben. Terugtrekken, verdoven, controleren of boos worden kan iemand door omstandigheden hebben geholpen waarin open voelen, vertrouwen of tegenspreken onveilig was. De strategie kan later te breed, te snel of te star worden ingezet. Herkennen waarvoor zij ooit diende maakt het mogelijk haar bescherming te waarderen zonder iedere huidige reactie als noodzakelijk te aanvaarden. Binnen de schematherapie is deze functionele manier van kijken belangrijk, maar het precieze ontstaan en activeren van modi is nog beperkt experimenteel onderzocht.[14]
+
+Daarmee is niet aangetoond dat stemmen verzelfstandigde schemamodi zijn. De overeenkomst levert wel een mogelijke continuïteit op. Naarmate eigenaarschap, geheugen, onderlinge informatietoegang en invloed op handelen sterker uiteenlopen, kan een toestand minder als *ik in een bepaalde modus* en meer als een herkenbare andere positie, stem of deel worden ervaren. Dit is geen rechte ontwikkelingsladder: iemand kan meerdere duidelijk onderscheiden stemmen hebben en toch veel geheugen en samenwerking delen, terwijl een ander zonder uitgesproken stemmen sterke toestandgebonden geheugen- of gedragsverschillen kan hebben.
+
+| Dimensie | Sterk gedeelde zelftoestand | Meer zelfstandige stem of positie |
+|---|---|---|
+| Eigenaarschap | *Ik reageer nu zo* | *Dit komt niet van mij* of *dit is een ander deel* |
+| Perspectief | Tijdelijk patroon | Herkenbaar en relatief duurzaam standpunt |
+| Communicatie | Zelfreflectie binnen één ik | Dialoog tussen onderscheiden posities |
+| Geheugen | Overwegend gedeeld | Gedeeld, asymmetrisch of gedeeltelijk afgesloten |
+| Handelingsinvloed | Eén ervaren beslisser | Advies, concurrentie, veto of tijdelijke overname |
+| Identiteit | Eén individu in verschillende toestanden | Individu, groep of wisselende coalitie |
+
 ### Neurotransmitters veranderen het krachtenveld
 
 Tot dusver klinkt dit vooral als een beschrijving van informatieverwerking. Die organisatie bestaat echter niet los van de biologische toestand van het brein. Neurotransmitters dragen niet elk een bepaalde gedachte, emotie of stem en functioneren evenmin als onafhankelijke schuifregelaars. Ze moduleren op verschillende plaatsen en tijdschalen onder meer prikkelbaarheid, leren, aandacht, remming en de betekenis die aan signalen wordt toegekend. Hun effect hangt af van receptor, hersengebied, netwerktoestand en onderlinge wisselwerking.[11]
@@ -119,6 +139,8 @@ Wanneer informatiegrenzen sterker worden, zijn verschillende configuraties denkb
 
 Bij stemmen horen kan een gedeeltelijk afgeschermd perspectief een herkenbare taal, emotie, bedoeling of identiteit krijgen. Het wordt daarmee bijna als gesprekspartner zichtbaar. In een lichtere configuratie verschijnt alleen inhoud zonder vanzelfsprekend eigenaarschap. In een sterkere configuratie kunnen lokale ik-posities eigen herinneringen en doelen meenemen, met elkaar communiceren of concurreren om aandacht en gedrag. Mogelijk krijgt soms telkens één organisatie tijdelijk brede toegang tot de eindregie.
 
+Wat stemmenhoorders rapporteren is nog gevarieerder dan een opeenvolging van één stem en één luisterend ik. In een fenomenologisch onderzoek onder 153 deelnemers meldde 81 procent meerdere stemmen; stemmen konden karaktervolle eigenschappen hebben, converseren en in de loop van de tijd veranderen.[13] Andere beschrijvingen omvatten gelijktijdig aanwezige posities die met elkaar overleggen, verschillende niveaus van meekrijgen wat er gebeurt, asymmetrische communicatie en wisselende invloed op de uitvoering. Functioneel lijkt dat op een voertuig waarin één positie rijdt, een andere als bijrijder actief kan adviseren of ingrijpen, sommige posities vanaf de achterbank meepraten, andere slechts een deel van de informatie ontvangen en weer andere pas achteraf toegang krijgen tot wat er is gebeurd. De metafoor is geen neurologische kaart, maar maakt duidelijk dat bewust aanwezig zijn, communiceren, herinneren, arbitreren en handelen afzonderlijke eigenschappen zijn.
+
 Daarmee zijn nog niet letterlijk meerdere volledige bewustzijnen aangetoond. Zelfs onderzoek naar mensen bij wie de verbindingen tussen beide hersenhelften operatief zijn doorgesneden laat een combinatie zien van gescheiden verwerking en resterende eenheid. Of daarbij één of meerdere subjectieve bewustzijnen bestaan, kan op basis van het huidige bewijs niet eenvoudig worden beslist.[10] Voor dit model is het daarom nauwkeuriger om eerst over gedeeltelijk zelfstandige **zelforganisaties** te spreken.
 
 ### Wat past, wat moet veranderen?
@@ -127,11 +149,11 @@ De lichtere varianten passen al in het bestaande model. Gespecialiseerde process
 
 Het model moet het zelf dan voorstellen als een tijdelijke coalitie van toegankelijke herinneringen, een lichaams- en perspectiefmodel, doelen, waarden, eigenaarschap en handelingsmogelijkheden. Gewoonlijk overlappen deze onderdelen voldoende om als één doorlopend ik te functioneren. Bij compartimentering kunnen verschillende coalities ontstaan die gedeeltelijk andere informatie gebruiken.
 
-Ook het functionele ‘laatste woord’ krijgt daarmee een preciezere betekenis. Eén lichaam moet veel handelingen uiteindelijk tot één uitvoerbaar traject terugbrengen, maar de coalitie die aandacht, verdere verwerking of gedrag beheerst hoeft niet altijd dezelfde te zijn. Arbitrage kan binnen één zelforganisatie plaatsvinden, tussen ik-posities verlopen of tijdelijk door één positie worden gedomineerd. Het model blijft dus bruikbaar, maar zijn zelfmodel mag niet langer stilzwijgend enkelvoudig en volledig geïntegreerd zijn.
+Ook het functionele ‘laatste woord’ krijgt daarmee een preciezere betekenis. Eén lichaam moet veel handelingen uiteindelijk tot één uitvoerbaar traject terugbrengen, maar de coalitie die aandacht, verdere verwerking of gedrag beheerst hoeft niet altijd dezelfde te zijn. Meerdere posities kunnen gelijktijdig bewust zijn en lokaal afwegen, terwijl slechts één positie rechtstreeks stuurt, een tweede kan adviseren of ingrijpen en andere alleen indirect invloed hebben. Arbitrage is dan geen enkele cirkel, maar een netwerk van lokale afwegingen rond een gezamenlijke uitvoeringspoort. Het model blijft bruikbaar, maar zijn zelfmodel en arbitrage mogen niet langer stilzwijgend enkelvoudig en volledig geïntegreerd zijn.
 
 Daarbij moeten we de uitkomst van arbitrage onderscheiden van de uitvoering ervan. Een bewuste afweging kan tot een voorkeur of besluit leiden zonder dat die uitkomst voldoende toegang krijgt tot motorische, emotionele of remmende processen. Omgekeerd kan een snelle automatische reactie al zijn ingezet voordat bewuste arbitrage haar nog kan bijsturen. Ook niets doen is niet altijd een vrij gekozen einduitkomst: het kan uitstel zijn, doelbewuste inhibitie, bevriezing of een blokkade tussen besluit en uitvoering. Het interactieve model maakt die uitvoeringskoppeling daarom tot een afzonderlijke variabele.
 
-:::ModelDisclosure{title="Interactief model: wanneer voelt een gedachte als van mij?" description="Verander informatiegrenzen, bronherkenning, aandacht, uitvoering en tijdsdruk."}
+:::ModelDisclosure{title="Interactief model: wanneer voelt een gedachte als van mij?" description="Onderzoek informatiegrenzen en de organisatie van één of meerdere zelfposities rond een gedeelde uitvoeringspoort."}
 ::SelfOrganizationExplorer{locale="nl"}
 ::
 :::
@@ -141,6 +163,10 @@ Daarbij moeten we de uitkomst van arbitrage onderscheiden van de uitvoering erva
 Als een stem mede wordt onderhouden doordat haar inhoud als onbekend, extern of absoluut gescheiden wordt georganiseerd, dan zou integratie niet hoeven te beginnen met de boodschap: *jullie zijn dezelfde persoon*. Dat is een theoretische conclusie die de geleefde ervaring kan ontkennen. Het kan bovendien de werkelijke angst, betekenis of herinnering die met de stem samenhangt overslaan.
 
 Een subtielere route is de informatiegrens minder hard maken door kennismaking. Wanneer verschijnt de stem? Waar reageert zij op? Welke woorden, zorgen en machtsverhoudingen keren terug? Welke herinneringen, emoties en handelingsmogelijkheden worden in die toestand bereikbaar, en welke juist niet? Door zulke relaties zichtbaar te maken kan iets dat volledig vreemd leek meer samenhang krijgen met context en levensgeschiedenis.
+
+Integratie betekent dan niet noodzakelijk dat posities verdwijnen, samensmelten of voortaan één identiteit moeten onderschrijven. Zij kan ook bestaan uit wederzijdse erkenning, beter doorgeven van informatie en het ontwikkelen van een besluitvormingsprocedure. Sommige mensen beschrijven dat samenwerking pas mogelijk werd nadat verschillende delen konden erkennen dat ieder op een eigen manier had geprobeerd moeilijke omstandigheden te doorstaan. Beginnen met kleine, veilige gezamenlijke beslissingen kan vervolgens een oefening zijn in luisteren, beurtverdeling, compromis en vertrouwen. Dat is geen algemeen behandelprotocol, maar het maakt een belangrijk theoretisch punt zichtbaar: een stabiele organisatie kan ook democratischer en duurzaam meervoudig zijn.
+
+De *Gezonde Volwassene* uit de schematherapie hoeft binnen zo'n organisatie niet als één bevoorrechte interne persoon te worden opgevat. Het kan ook een verdeelde functie zijn: actuele omstandigheden van vroegere dreiging onderscheiden, verschillende belangen horen, grenzen stellen, voor het geheel zorgen en tot uitvoerbare afspraken komen. Bij een unitair ervaren zelf kan dat als één reflecterend ik voelen; bij een als groep ervaren zelf kan dezelfde regulerende functie in regels, overleg of een wisselende coalitie liggen.
 
 Dat idee raakt aan experimentele behandelvormen. *Talking With Voices* onderzoekt een gestructureerde dialoog met stemmen binnen therapie; vroege studies richten zich vooral op haalbaarheid en mogelijke mechanismen.[6] Bij AVATAR-therapie geeft een therapeut samen met de deelnemer een hinderlijke stem een gezicht en geluid, waarna in een gecontroleerde dialoog wordt geoefend met een andere verhouding tot die stem. Een gerandomiseerde studie vond dat twee varianten na zestien weken de ernst van stemmen meer verminderden dan de controlebehandeling, al waren verschillen bij 28 weken niet meer duidelijk.[7]
 
@@ -189,3 +215,6 @@ Dat levert een betere onderzoeksvraag op dan de keuze tussen ‘de stem is werke
 10. E.H.F. de Haan et al., [“Split-Brain: What We Know Now and Why This is Important for Understanding Consciousness”](https://pmc.ncbi.nlm.nih.gov/articles/PMC7305066/), *Neuropsychology Review* 30, 2020.
 11. M. Avery & J. Krichmar, [“Neuromodulatory Systems and Their Interactions: A Review of Models, Theories, and Experiments”](https://pmc.ncbi.nlm.nih.gov/articles/PMC5744617/), *Frontiers in Neural Circuits* 11, 2017.
 12. O.D. Howes, B.R. Bukala & K. Beck, [“Schizophrenia: from neurochemistry to circuits, symptoms and treatments”](https://www.nature.com/articles/s41582-023-00904-0), *Nature Reviews Neurology* 20, 2024.
+13. A. Woods et al., [“Experiences of hearing voices: analysis of a novel phenomenological survey”](https://eprints.gla.ac.uk/217404/1/217404.pdf), *The Lancet Psychiatry* 2(4), 2015.
+14. J. Krans, S. Hilgefort & J. Lobbestael, [“Experimental Research on Schema Modes: Guidelines and Research Agenda”](https://link.springer.com/article/10.1007/s11920-026-01663-7), *Current Psychiatry Reports* 28, 2026.
+15. NHS, [“Dissociative disorders”](https://www.nhs.uk/mental-health/conditions/dissociative-disorders/) (klinisch overzicht, geraadpleegd 16 september 2026).

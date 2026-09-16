@@ -16,6 +16,7 @@ keyPoints:
   - Content, conscious access, ownership and experienced agency are distinct properties of a thought.
   - Inner speech differs greatly between people and is not always verbal or accompanied by an audible inner voice.
   - Context-sensitivity is normal; compartmentalisation becomes restrictive when information, emotion or possibilities for action no longer transfer between situations.
+  - Self-states can differ strongly in function while still feeling like the same self; voices and parts may additionally acquire their own perspectives, mutual communication and unequal access to action.
   - Neurotransmitters do not carry individual thoughts, but help determine which signals gain weight and how much influence conscious evaluation and inhibition can exert over behaviour.
   - Partly autonomous self-positions fit the model after an extension, but do not demonstrate that several complete consciousnesses exist.
   - Dialogue might make information boundaries more permeable without denying a voice or literally confirming it as a separate person.
@@ -56,6 +57,8 @@ This article therefore does not extend the general theory as though voice-hearin
 
 Hearing voices is not synonymous with schizophrenia. Auditory verbal hallucinations occur across psychiatric diagnoses, in neurological and physical conditions, around sleep, after trauma and among people without a clinical diagnosis. Experiences also differ substantially: one voice or many, speech or other sounds, friendly, neutral or threatening, recognised or unknown, occasional or almost continuous.[2]
 
+Another term that can arise in discussions of multiplicity is **dissociative identity disorder (DID)**. Official clinical descriptions associate DID with discontinuity of identity and gaps in memory beyond ordinary forgetting.[15] That connects directly to dimensions examined in this article, but DID is not synonymous with voice-hearing, plural internal deliberation or one particular organisation of consciousness. It is therefore relevant context for the stress test, but not a preset to which the interactive model reduces a diagnosis.
+
 That diversity warns against one grand explanation. Even when two people both hear a voice, the decisive mechanism need not be the same. One case may be closely related to trauma and dissociation, another to perceptual expectations, speech production, sleep deprivation, substances, or a combination of vulnerability and circumstance.[3]
 
 A good model should therefore not ask for *the* cause of voice-hearing. It should ask which processes interact differently in a particular case and what predictions follow.
@@ -95,6 +98,23 @@ This connects directly to the arbitration model. Conscious arbitration can use o
 
 The self-model is therefore not only the reference point *for which* information is evaluated. It also helps determine **which parts of the organism and its history are admitted to that evaluation**.
 
+### From schema modes to more autonomous positions
+
+Schema therapy offers a useful intermediate case. It describes *modes*: temporarily activated combinations of emotion, belief, bodily response and coping strategy. A Vulnerable Child, an angry or detached protector and a punitive critic can select quite different information and produce quite different behaviour in response to the same situation. People will usually continue to experience these states as belonging to the same self, even when they can barely recognise a reaction afterwards.
+
+Such a mode may have served a useful function. Withdrawal, numbing, control or anger may have helped someone endure circumstances in which open feeling, trust or resistance was unsafe. The strategy may later be applied too broadly, too quickly or too rigidly. Recognising what it once accomplished can make it possible to appreciate its protection without treating every current response as necessary. This functional perspective is important in schema therapy, but the precise origin and activation of modes has received only limited experimental study.[14]
+
+This does not establish that voices are autonomous schema modes. The similarity does, however, suggest a possible continuity. As ownership, memory, mutual information access and influence over action diverge, a state may be experienced less as *me in a particular mode* and more as a recognisable other position, voice or part. This is not a linear developmental ladder: someone may have several clearly distinguished voices while sharing extensive memory and cooperation, whereas another person without pronounced voices may have strong state-dependent differences in memory or behaviour.
+
+| Dimension | Strongly shared self-state | More autonomous voice or position |
+|---|---|---|
+| Ownership | *I am reacting this way now* | *This does not come from me* or *this is another part* |
+| Perspective | Temporary pattern | Recognisable and relatively durable standpoint |
+| Communication | Self-reflection within one self | Dialogue between distinguished positions |
+| Memory | Largely shared | Shared, asymmetric or partly sealed off |
+| Influence on action | One experienced decision-maker | Advice, competition, veto or temporary takeover |
+| Identity | One individual in different states | Individual, group or changing coalition |
+
 ### Neurotransmitters change the field of forces
 
 So far, this may sound mainly like a description of information processing. Yet that organisation does not exist independently of the brain's biological state. Neurotransmitters do not each carry a particular thought, emotion or voice, nor do they function as independent sliders. Across different locations and timescales, they modulate excitability, learning, attention, inhibition and the significance assigned to signals. Their effects depend on receptor, brain region, network state and interactions with other systems.[11]
@@ -119,6 +139,8 @@ As information boundaries harden, several configurations become possible. These 
 
 In voice-hearing, a partly separated perspective may acquire recognisable language, emotion, intention or identity, becoming almost perceptible as an interlocutor. In a lighter configuration, only content appears without automatic ownership. In a stronger configuration, local self-positions may carry their own memories and goals, communicate with one another or compete for attention and behaviour. At times, one organisation may temporarily gain broad access to final control.
 
+Reports by voice-hearers are more varied still than a succession of one voice and one listening self. In a phenomenological study of 153 participants, 81% reported multiple voices; voices could have characterful properties, converse and change over time.[13] Other descriptions include several positions being present simultaneously, deliberating with one another, having different levels of awareness of events, communicating asymmetrically and exerting different degrees of influence over execution. Functionally, this resembles a vehicle in which one position drives, another actively advises or intervenes from the passenger seat, some positions converse from the back seat, others receive only part of the information and still others gain access only after the journey. The metaphor is not a neurological map, but it shows why conscious presence, communication, memory, arbitration and action must be represented as separate properties.
+
 This does not demonstrate that several complete consciousnesses literally exist. Even research on people whose cerebral hemispheres were surgically disconnected finds a mixture of separated processing and remaining unity. Current evidence does not settle whether one or more subjective consciousnesses result.[10] For this model, it is therefore more precise to begin with partly autonomous **self-organisations**.
 
 ### What fits, and what must change?
@@ -127,11 +149,11 @@ The lighter configurations already fit the existing model. Specialised processes
 
 The model must then represent the self as a temporary coalition of accessible memories, a model of body and perspective, goals, values, ownership and possibilities for action. These elements ordinarily overlap enough to function as one continuing ‘I’. Compartmentalisation may create different coalitions using partly different information.
 
-The functional ‘last word’ also acquires a more precise meaning. One body must ultimately reduce many actions to one executable trajectory, but the coalition controlling attention, further processing or behaviour need not always be the same. Arbitration may occur within one self-organisation, between self-positions or under the temporary dominance of one position. The model remains useful, but its self-model can no longer be assumed to be singular and fully integrated.
+The functional ‘last word’ also acquires a more precise meaning. One body must ultimately reduce many actions to one executable trajectory, but the coalition controlling attention, further processing or behaviour need not always be the same. Several positions may be conscious and deliberate locally at the same time, while one directly drives, a second advises or intervenes and others exert only indirect influence. Arbitration then becomes not one circle but a network of local evaluations around a shared execution gateway. The model remains useful, but neither its self-model nor its arbitration can continue to be assumed singular and fully integrated.
 
 We must also distinguish the outcome of arbitration from its execution. Conscious consideration may produce a preference or decision without that outcome gaining sufficient access to motor, emotional or inhibitory processes. Conversely, a rapid automatic response may already be underway before conscious arbitration can redirect it. Even doing nothing is not always a freely selected outcome: it may reflect delay, deliberate inhibition, freezing, or a blockage between decision and execution. The interactive model therefore treats this execution coupling as a separate variable.
 
-:::ModelDisclosure{title="Interactive model: when does a thought feel like mine?" description="Change information boundaries, source recognition, attention, execution and time pressure." locale="en"}
+:::ModelDisclosure{title="Interactive model: when does a thought feel like mine?" description="Explore information boundaries and the organisation of one or several self-positions around a shared execution gate." locale="en"}
 ::SelfOrganizationExplorer{locale="en"}
 ::
 :::
@@ -141,6 +163,10 @@ We must also distinguish the outcome of arbitration from its execution. Consciou
 If a voice is partly maintained because its content is organised as unknown, external or absolutely separate, integration need not begin by saying: *you are the same person*. That is a theoretical conclusion that can deny lived experience. It may also bypass the genuine fear, meaning or memory associated with a voice.
 
 A subtler route is to make the information boundary less absolute through acquaintance. When does the voice appear? What does it respond to? Which words, concerns and power relationships recur? Which memories, emotions and possibilities for action become accessible in that state, and which do not? Mapping such relationships may connect what felt wholly foreign to context and life history.
+
+Integration need not mean that positions disappear, merge or adopt one identity. It may instead consist of mutual recognition, better transmission of information and the development of a procedure for making decisions. Some people describe cooperation becoming possible only after different parts could acknowledge that each had tried, in its own way, to survive difficult circumstances. Beginning with small, safe joint decisions can then provide practice in listening, turn-taking, compromise and trust. This is not a universal treatment protocol, but it demonstrates an important theoretical point: a stable organisation may also be more democratic and durably plural.
+
+The *Healthy Adult* of schema therapy need not be treated as one privileged internal person within such an organisation. It can instead denote a distributed function: distinguishing present circumstances from past danger, hearing different interests, setting boundaries, caring for the whole and reaching executable agreements. In a self experienced as unitary, this may feel like one reflective ‘I’; in a self experienced as a group, the same regulatory function may reside in rules, deliberation or a changing coalition.
 
 This idea overlaps with experimental therapies. *Talking With Voices* studies structured dialogue with voices within therapy; early trials have concentrated on feasibility and possible mechanisms.[6] In AVATAR therapy, therapist and participant give a distressing voice a face and sound, then use controlled dialogue to practise a different relationship with it. A randomised trial found that two variants reduced voice severity more than the control treatment after sixteen weeks, although differences were no longer clear at 28 weeks.[7]
 
@@ -189,3 +215,6 @@ This gives us a better research question than choosing between ‘the voice real
 10. E.H.F. de Haan et al., [“Split-Brain: What We Know Now and Why This is Important for Understanding Consciousness”](https://pmc.ncbi.nlm.nih.gov/articles/PMC7305066/), *Neuropsychology Review* 30, 2020.
 11. M. Avery & J. Krichmar, [“Neuromodulatory Systems and Their Interactions: A Review of Models, Theories, and Experiments”](https://pmc.ncbi.nlm.nih.gov/articles/PMC5744617/), *Frontiers in Neural Circuits* 11, 2017.
 12. O.D. Howes, B.R. Bukala & K. Beck, [“Schizophrenia: from neurochemistry to circuits, symptoms and treatments”](https://www.nature.com/articles/s41582-023-00904-0), *Nature Reviews Neurology* 20, 2024.
+13. A. Woods et al., [“Experiences of hearing voices: analysis of a novel phenomenological survey”](https://eprints.gla.ac.uk/217404/1/217404.pdf), *The Lancet Psychiatry* 2(4), 2015.
+14. J. Krans, S. Hilgefort & J. Lobbestael, [“Experimental Research on Schema Modes: Guidelines and Research Agenda”](https://link.springer.com/article/10.1007/s11920-026-01663-7), *Current Psychiatry Reports* 28, 2026.
+15. NHS, [“Dissociative disorders”](https://www.nhs.uk/mental-health/conditions/dissociative-disorders/) (clinical overview, accessed 16 September 2026).
