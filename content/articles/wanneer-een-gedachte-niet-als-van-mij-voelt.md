@@ -191,15 +191,21 @@ De laatste twee voorspellingen maken het mechanisme beter toetsbaar. Neemt de li
 
 Onderzoek naar mensen die stemmen kunnen oproepen of beïnvloeden laat inderdaad zien dat controle geen alles-of-niets-eigenschap is en dat meer controle vaak samenhangt met minder lijdensdruk.[8] Maar oorzaak en gevolg zijn daarmee niet vastgesteld. Misschien vermindert controle de nood; misschien maakt minder nood controle mogelijk; waarschijnlijk werken beide richtingen mee.
 
-### Niet eenvormigheid, maar meer gezamenlijke vrijheid
+### Wat dit betekent voor stemmen en de omgang ermee
 
-Dit model zegt niet welke behandeling voor een persoon passend is; daarvoor zijn professionele beoordeling, veiligheid en individuele context nodig. Het suggereert wel dat meerstemmigheid of contextverschil niet automatisch het probleem zelf is. Belangrijker zijn lijdensdruk, gevaar, verlies van controle, slaapverstoring en de mate waarin iemand in het dagelijks leven kan functioneren.
+Dit model zegt niet welke behandeling voor een persoon passend is; daarvoor zijn professionele beoordeling, veiligheid en individuele context nodig. Het suggereert wel dat meerstemmigheid en contextverschillen op zichzelf niet automatisch problematisch zijn. Belangrijker zijn lijdensdruk, gevaar, verlies van controle, slaapverstoring en de mate waarin iemand in het dagelijks leven kan functioneren.
 
 Daarom kan het zinvol zijn eerst in kaart te brengen welke toestanden een stem activeren, welke informatie voor verschillende posities beschikbaar is, of zij gelijktijdig communiceren of elkaar afwisselen en welke beschermende functie een reactie mogelijk heeft. Bij de ene persoon kan herkenning van innerlijke processen belangrijk zijn, bij een ander een minder angstige verhouding tot een stabiele stem, en bij sterke compartimentering juist meer overdraagbaarheid van herinneringen, emoties en praktische afspraken.
 
 Het doel van integratie hoeft niet één uniforme persoonlijkheid te zijn die zich overal hetzelfde gedraagt. Een gezond zelf blijft contextgevoelig. Integratie betekent hier vooral **doorlaatbaarheid**: relevante informatie kan waar nodig grenzen passeren, verschillende posities worden voorspelbaarder voor elkaar en iemand krijgt meer vrijheid in hoe het gehele systeem antwoordt.
 
-Dat levert een betere onderzoeksvraag op dan de keuze tussen ‘de stem is werkelijk een ander’ en ‘de stem bestaat niet’. De ervaring is werkelijk. De open vragen zijn hoe inhoud, bron, betekenis, geheugen en gedragscontrole zijn georganiseerd, welke grenzen bescherming bieden en welke grenzen inmiddels vooral vrijheid wegnemen.
+De vruchtbaarste vraag is daarom niet of ‘de stem werkelijk een ander is’ of ‘de stem niet bestaat’. De ervaring is werkelijk, maar daarmee ligt haar organisatie nog niet vast. Relevanter is hoe inhoud, bron, betekenis, geheugen en gedragscontrole zich tot elkaar verhouden, welke grenzen nog bescherming bieden en welke grenzen inmiddels vooral vrijheid wegnemen. Dat perspectief laat ruimte voor vermindering van lijden en vergroting van regie zonder vooraf te eisen dat iedere stem verdwijnt of ieder verschil wordt opgeheven.
+
+### Wat deze casus leert over het bewustzijnsmodel
+
+Als casestudy laat stemmen horen vervolgens zien wat [het algemene bewustzijnsmodel](/artikelen/een-theorie-van-het-bewustzijn) al kon verhelderen en waar het te eenvoudig was. Het onderscheid tussen onbewuste verwerking, bewuste toegang, arbitrage en uitvoering helpt om niet-eigen gedachten uiteen te leggen in afzonderlijke functies. Daardoor hoeven bewust ervaren, als eigen herkennen en kunnen bijsturen niet als één en hetzelfde vermogen te worden behandeld.
+
+Tegelijkertijd maakt de casus een belangrijke aanscherping nodig. Het zelf en de arbitrage mogen niet stilzwijgend als volledig geïntegreerd en enkelvoudig worden voorgesteld. Het model moet ook plaats bieden aan meerdere lokaal georganiseerde posities, ongelijke informatietoegang, gelijktijdige of afwisselende invloed en een gezamenlijke uitvoeringspoort. Deze toepassing bewijst het bewustzijnsmodel niet. Zij laat wel zien dat het model een ingewikkelde ervaring systematisch in kaart kan brengen, door die toepassing zelf preciezer wordt en vervolgens specifiekere, toetsbare voorspellingen mogelijk maakt.
 
 ## Referenties
 

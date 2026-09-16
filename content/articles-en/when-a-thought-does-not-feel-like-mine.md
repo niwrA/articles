@@ -191,7 +191,7 @@ The final two predictions make the mechanism more discriminating. If distress fa
 
 Research involving people who can evoke or influence voices does indicate that control is not all-or-nothing and that greater control often accompanies less distress.[8] This does not establish cause and effect. Perhaps control reduces distress; perhaps lower distress enables control; both directions probably contribute.
 
-### Not uniformity, but greater shared freedom
+### What this means for voices and how to respond to them
 
 This model does not determine which treatment suits an individual; that requires professional assessment, safety and personal context. It does suggest that plurality or contextual variation is not automatically the problem itself. Distress, danger, loss of control, disrupted sleep and the ability to function in daily life matter more.
 
@@ -199,7 +199,13 @@ It may therefore be useful first to map which states activate a voice, what info
 
 The goal of integration need not be one uniform personality behaving identically everywhere. A healthy self remains context-sensitive. Here, integration primarily means **permeability**: relevant information can cross boundaries when needed, different positions become more predictable to one another, and the person gains more freedom in how the whole system responds.
 
-This gives us a better research question than choosing between ‘the voice really is another person’ and ‘the voice does not exist’. The experience is real. The open questions concern how content, source, meaning, memory and behavioural control are organised, which boundaries remain protective and which now mainly restrict freedom.
+The most productive question is therefore not whether ‘the voice really is another person’ or ‘the voice does not exist’. The experience is real, but that does not settle how it is organised. More relevant questions concern how content, source, meaning, memory and behavioural control relate to one another, which boundaries still provide protection and which now mainly restrict freedom. This perspective leaves room to reduce distress and increase agency without demanding in advance that every voice disappear or every difference be erased.
+
+### What this case teaches us about the model of consciousness
+
+As a case study, voice-hearing shows both what [the general model of consciousness](/en/articles/a-theory-of-consciousness) could already clarify and where it was too simple. Distinguishing unconscious processing, conscious access, arbitration and execution helps decompose thoughts experienced as not one's own into separate functions. Conscious experience, recognition as one's own and the ability to intervene therefore need not be treated as one and the same capacity.
+
+At the same time, the case requires an important refinement. Neither the self nor arbitration should be represented as implicitly unitary and fully integrated. The model must also accommodate several locally organised positions, unequal access to information, simultaneous or alternating influence and a shared execution gate. This application does not prove the model of consciousness. It does show that the model can map a complex experience systematically, become more precise through that application and subsequently generate more specific, testable predictions.
 
 ## References
 
