@@ -78,7 +78,7 @@ But ‘consciously available’ and ‘made by me’ are not equivalent. We can 
 
 These properties usually travel together in daily life. Exceptions reveal that they are different functions. An unexpected thought can clearly feel mine without being deliberately chosen. A familiar sentence may feel alien or inserted. Accounts of auditory verbal hallucination therefore connect inner-speech processes to altered source and self-monitoring, among other mechanisms, but no existing model explains the full variety.[5]
 
-### The self as organisation, not a little person
+### The self as an organising narrative
 
 The base article proposed treating the ‘I’ as an organising model. The brain must evaluate diverse signals and goals in relation to one organism: this body, this history, these capacities and consequences. That requires no indivisible controller inside the head. A workable sense of self may arise because information is usually marked consistently as belonging to this organism, caused by this organism and relevant to this organism.
 
@@ -102,7 +102,7 @@ The self-model is therefore not only the reference point *for which* information
 
 Schema therapy offers a useful intermediate case. It describes *modes*: temporarily activated combinations of emotion, belief, bodily response and coping strategy. A Vulnerable Child, an angry or detached protector and a punitive critic can select quite different information and produce quite different behaviour in response to the same situation. People will usually continue to experience these states as belonging to the same self, even when they can barely recognise a reaction afterwards.
 
-Such a mode may have served a useful function. Withdrawal, numbing, control or anger may have helped someone endure circumstances in which open feeling, trust or resistance was unsafe. The strategy may later be applied too broadly, too quickly or too rigidly. Recognising what it once accomplished can make it possible to appreciate its protection without treating every current response as necessary. This functional perspective is important in schema therapy, but the precise origin and activation of modes has received only limited experimental study.[14]
+Such a mode may once have served a protective function. Withdrawal, numbing, control or anger may have helped someone endure circumstances in which open feeling, trust or resistance was unsafe. The strategy may later be applied too broadly, too quickly or too rigidly. Recognising what it once accomplished can make it possible to appreciate its protection without treating every current response as necessary. This functional perspective is important in schema therapy, but the precise origin and activation of modes has received only limited experimental study.[14]
 
 This does not establish that voices are autonomous schema modes. The similarity does, however, suggest a possible continuity. As ownership, memory, mutual information access and influence over action diverge, a state may be experienced less as *me in a particular mode* and more as a recognisable other position, voice or part. This is not a linear developmental ladder: someone may have several clearly distinguished voices while sharing extensive memory and cooperation, whereas another person without pronounced voices may have strong state-dependent differences in memory or behaviour.
 
