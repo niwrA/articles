@@ -1,6 +1,6 @@
 ---
 title: "Payment: who bears the risk — and who bears the consequences?"
-description: A proposal for making financial safety and the distribution of benefit, power and harm visible within one economic architecture.
+description: A proposal for showing how much money is truly available, how much debt is created and where the consequences of financial choices fall.
 date: 2026-09-17
 tags: [Economics, Finance, Systems, Responsibility]
 translationKey: risk-and-responsibility
@@ -10,11 +10,11 @@ featuredImageFocalPoint: center center
 featuredImageMobileFocalPoint: center center
 summary: "Pay later sometimes mixes two different needs: assurance of delivery and credit. Reserving funds a buyer already owns, and treating only a genuine shortfall as credit, could make commitments visible sooner. The same design principle leads to a broader test: those who hold benefit and decision power should not be able to shift consequences quietly to others or the future."
 keyPoints:
-  - Paying after delivery with money already available is mainly a settlement and trust problem; only the shortfall is credit.
+  - If the purchase money already exists, the main need is assurance about delivery and payment; only the shortfall is credit.
   - Deferred payment can become far more expensive than the original purchase suggests through missed deadlines, interest and collection costs.
-  - A capacity ledger would have to reserve headroom transactionally, or concurrent providers could reuse the same capacity.
+  - A shared register must reserve used capacity immediately, or two providers may rely on the same available amount.
   - Financial safety and alignment are different dimensions: a transaction may be affordable while distributing harm or responsibility badly.
-  - The proposed infrastructure is a testable architecture hypothesis, not a description of the current system or personal financial advice.
+  - This proposal needs practical testing. It is not a description of the current system or personal financial advice.
 plainLanguage:
   title: What really happens when you pay later?
   intro: >-
@@ -57,16 +57,16 @@ plainLanguage:
 modelComponent: risk-responsibility
 modelLimitations:
   - The indices and thresholds are teaching assumptions, not empirically calibrated risk or credit scores.
-  - The transaction model abstracts from interest, late-payment charges, collection costs, income, term, default, returns, fraud, privacy, operating costs and legal protection.
+  - The transaction model simplifies statutory collection costs. It does not fully model interest, provider-specific charges, income, term, default, returns, privacy, operating costs or legal protection.
   - The CCDII-bill mode is a schematic reading of the proposal as at 17 September 2026, not a forecast of the final Act or secondary legislation.
-  - The alignment model deliberately keeps components visible and does not provide a complete moral, legal or prudential assessment.
+  - The alignment model deliberately keeps its parts visible and does not provide a complete moral, legal or financial-supervision assessment.
   - Real deployment would require a legal basis, data minimisation, independent scrutiny and validated domain-specific models.
 draft: false
 ---
 
 Pay later provides a real benefit: a buyer need not transfer money irrevocably before knowing that a product has arrived. Yet the same button can conceal a loan. Someone who sees €2,000 in an account while €700 in deferred payments is pending does not economically have €2,000 left to spend.
 
-Two needs have become entangled. The money may already exist while the buyer wants assurance of delivery: mainly a problem of **trust and settlement**. Or the money may be missing and future purchasing power is brought forward: **credit**. What changes when we model the actual obligation rather than the product name?
+Two needs have become entangled. The money may already exist while the buyer wants delivery and payment to match safely. Or the money may be missing and future purchasing power is brought forward. Only the second situation is **credit**. This article therefore looks beyond the product label to what a buyer actually owns, reserves and borrows.
 
 A pair of shoes may seem a small starting point for an essay about corporate governance and social harm. Yet both contain the same movement: a benefit appears in one place while risk or consequences become visible later, possibly somewhere else. The answer is not to compress everything into one moral score. We need two distinct but connected layers:
 
@@ -105,7 +105,7 @@ Dutch consumer collection follows statutory steps. Before collection costs may b
 
 This changes the design question. A credit limit indicates only how much principal someone might carry, not what happens after a missed date. A safer system therefore shows possible costs before purchase, sends timely reminders through a channel that actually reaches the customer, and offers a reasonable recovery path before charges accumulate. The AFM previously found that a simple SMS reminder reduced the proportion of customers paying late and incurring charges by about one fifth.[9] Arrears are therefore not solely a characteristic of the customer; they are also influenced by the design of reminders and recovery.
 
-The interactive explorer does not yet calculate these charges. A later extension could add a due date, cure period, interest, reminder charge and collection date for each payment method. The graph could then show not only outstanding principal but the growing total obligation. This would reveal how two products with the same purchase price and credit capacity can carry very different downside risks.
+The interactive explorer shows this in simplified form. You can set a due date and payment date for each order. After the statutory cure period, the model adds collection costs. Under the current situation and the bill, these apply to the full credit amount; under the reservation model, only to the share that was actually borrowed. Interest and provider-specific charges are not yet included. This shows how two payment methods with the same purchase price can still produce very different outcomes.
 
 ### Minors, microtransactions and parental payment methods
 
@@ -125,11 +125,11 @@ A wider capacity ledger should therefore count a credit-card authorisation as us
 
 The present explorer still abstracts from this distinction. It allocates every purchase first to owned funds and then to one general pool of credit. It does not yet represent a payment method, a separate card limit, authorisation or monthly collection. A later extension could therefore let each transaction use owned funds, BNPL, a credit card, a revolving card or prepaid value. A hotel booking would be a useful example: the hotel temporarily blocks an amount while final settlement occurs later and may be for a different sum.
 
-### From registration to transactional capacity
+### A check is not enough: capacity must be reserved immediately
 
 A register can show existing obligations. To stop the same room being promised twice, it must also handle concurrency. Imagine €500 of headroom and near-simultaneous applications for €400 from A and €400 from B. If both read the old state, each may act correctly in isolation while jointly creating €800.
 
-A transactional capacity ledger would use **CHECK → RESERVE → COMMIT**. Once A reserves €400, B sees €100. If A cancels, the reservation is released. This is an architecture hypothesis, not an existing shared system. It raises difficult questions about governance, outages, disputes, data minimisation and exclusion. The database analogy only identifies a problem that registration alone cannot solve.
+A shared capacity register would use **CHECK → RESERVE → COMMIT**. Once A reserves €400, B sees €100. If A cancels, the reservation is released. No such shared system currently exists in this form. It would need testing and raises important questions about management, outages, disputes, privacy and exclusion. The example mainly shows why registration alone is not enough.
 
 The same mechanism can handle owned funds as **RESERVE → DELIVER → SETTLE**. The buyer cannot spend the amount twice; the merchant knows payment is available; transfer follows an agreed state. Delivery is not a simple fact, of course. A scan can confirm the wrong parcel at the wrong door. A useful chain therefore needs states such as *authorised*, *reserved*, *shipped*, *delivered*, *accepted*, *disputed* and *settled*, with evidence and challenge rules proportionate to value and risk.
 
@@ -152,7 +152,7 @@ Assessment can change slowly while commitments change quickly. A regulated party
 
 Financial capacity does not answer who benefits and who carries the consequences. A business can easily fund a project while pollution falls on neighbours. An executive can be rewarded for profit now while maintenance risk or illness appears after departure. A derivative can hedge an existing exposure, but it can also create a powerful payoff from damage its holder can influence.
 
-We therefore need a second ledger—not necessarily a central database, but an analytical frame. It keeps separate:
+We therefore need a second overview—not a central database, but a way to organise the questions. It keeps separate:
 
 - **benefit:** who receives money, status or protection;
 - **power:** who can influence the probability or scale of the outcome;
@@ -175,7 +175,7 @@ Compensation has the same structure. Salary, shares and options have different p
 
 Externalities show the difference most clearly. If a decision produces €20 in private profit and €30 in harm elsewhere, its private result is positive while its social result is negative €10. This toy calculation does not prove how every effect should be monetised. It shows why accounts that follow only the decision-maker are structurally incomplete.
 
-### Is a PayLater provider responsible for consequences?
+### What is a pay-later provider responsible for?
 
 A lender is not automatically responsible for everything a customer buys with borrowed money. The customer, merchant and producer retain their own agency. Yet it would be too easy for the provider to present itself as a neutral payment pipe. It designs the choice architecture, determines acceptance and limits, profits from use and can observe aggregate patterns that no individual shop or consumer can see.
 
@@ -202,7 +202,7 @@ The alignment frame likewise needs to add something beyond accounting, supervisi
 
 Many economic products simplify a transaction by hiding several functions behind one button. That is convenient only while obligations remain visible. Pay later shows what can be lost: owned money, delivery assurance and credit become one experience while displayed balance and real room diverge.
 
-The proposed response is not a new omniscient institution. It is first a way of modelling: reserve what has been promised, call only the shortfall credit, and let concurrent decisions use the same current state. Add a second lens: reveal who has benefit and power, who bears consequences and how long accountability persists.
+The proposed response is not a new omniscient institution. It is first a way of looking: reserve what has been promised, call only the shortfall credit, and ensure that concurrent decisions use the same current balance. Then ask a second question: who has benefit and power, who bears the consequences and who can still be held accountable later?
 
 An economic system is not responsible because risk disappears. Risk rarely disappears; it moves. Good design shows **where it lands, who can influence it and who can still intervene when the outcome differs from what was hoped**.
 
