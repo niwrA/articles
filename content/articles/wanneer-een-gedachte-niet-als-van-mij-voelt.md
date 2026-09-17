@@ -10,9 +10,11 @@ articleRelations:
 featuredImage: /images/artikelen/voices-and-self-model/voices-and-self-model.webp
 featuredImageAlt: Een menselijk profiel met meerdere onderscheiden maar onderling verbonden stromen van innerlijke ervaring
 featuredImageFocalPoint: 48% 44%
-summary: Stemmen horen biedt een scherpe proef voor het idee dat het zelf geen ondeelbare bestuurder is, maar een veranderlijke organisatie van herinneringen, emoties, doelen, eigenaarschap en handelingsmogelijkheden. Die organisatie is ook in het dagelijks leven contextgevoelig, maar informatiegrenzen kunnen zo rigide worden dat gedeeltelijk zelfstandige ik-posities of stemmen ontstaan. Het model voorspelt dan niet alleen minder lijdensdruk bij herstel, maar vooral meer doorlaatbaarheid, wederzijdse voorspelbaarheid en handelingsvrijheid.
+summary: Stemmen horen is mogelijk één opvallende manifestatie van een veel algemener samenspel van deels zelfstandige processen. Zulke processen selecteren ook in het gewone leven herinneringen, emoties, doelen en handelingsvoorstellen, meestal zonder een eigen stem te krijgen. Deze casestudy onderzoekt wat er verandert wanneer hun perspectief, informatietoegang of invloed herkenbaar afzonderlijk wordt georganiseerd.
 keyPoints:
   - Stemmen horen is een ervaring en niet op zichzelf een diagnose van schizofrenie.
+  - Een stem kan één bewuste en talige verschijningsvorm zijn van processen die bij iedereen grotendeels parallel en buiten het bewustzijn werken.
+  - Die processen zijn vaak functioneel; problemen hangen eerder samen met dreiging, conflict, rigide informatiegrenzen en verlies van handelingsvrijheid dan met veelheid op zichzelf.
   - Inhoud, bewuste toegang, eigenaarschap en ervaren handelingsvermogen zijn verschillende eigenschappen van een gedachte.
   - Innerlijke spraak verschilt sterk tussen mensen en is niet altijd talig of voorzien van een hoorbare innerlijke stem.
   - Contextgevoeligheid is normaal; compartimentering wordt beperkend wanneer informatie, emoties of handelingsmogelijkheden niet meer tussen situaties kunnen worden meegenomen.
@@ -22,8 +24,11 @@ keyPoints:
   - Dialoog kan mogelijk informatiegrenzen doorlaatbaarder maken zonder een stem te ontkennen of letterlijk als een afzonderlijke persoon te bevestigen.
 plainLanguage:
   title: Hoe kan een eigen gedachte als een andere stem voelen?
-  intro: De meeste mensen ervaren niet iedere gedachte op dezelfde manier. Soms denken we in woorden, soms in beelden of gevoelens. Een gedachte kan bovendien in het bewustzijn verschijnen zonder dat duidelijk voelt hoe we haar hebben gemaakt. Dit artikel onderzoekt of stemmen horen soms met zo'n verschil in ervaren herkomst te maken kan hebben.
+  intro: De meeste mensen ervaren niet iedere gedachte op dezelfde manier. Veel verwerking blijft onbewust en verschijnt alleen als een gevoel, impuls, beeld of plotselinge gedachte. Dit artikel onderzoekt wat er gebeurt wanneer zo'n proces een herkenbare stem, een eigen perspectief of meer zelfstandige invloed krijgt.
   sections:
+    - heading: Een stem is maar één mogelijke uitkomst
+      paragraphs:
+        - Allerlei processen selecteren herinneringen, signaleren gevaar, bereiden handelingen voor en wegen doelen af. Meestal merken we alleen hun uitkomst. Een vergelijkbaar proces kan bij de ene persoon als stemming of intuïtie verschijnen en bij een andere als innerlijke taal of herkenbare stem.
     - heading: Een gedachte heeft meerdere kenmerken
       paragraphs:
         - Wat een gedachte zegt is iets anders dan wie haar volgens ons heeft gemaakt. Het brein kan de inhoud beschikbaar maken terwijl het gevoel van eigenaarschap of controle ontbreekt. De gedachte kan dan vertrouwd klinken en toch niet als ‘van mij’ voelen.
@@ -36,7 +41,7 @@ plainLanguage:
     - heading: De toestand van het brein doet mee
       paragraphs:
         - Stress, slaaptekort, middelen en veranderingen in neurotransmissie kunnen beïnvloeden hoeveel gewicht een signaal krijgt, hoe gemakkelijk aandacht ervan loskomt en hoeveel tijd bewuste afweging heeft om gedrag bij te sturen. Dat maakt informatiegrenzen en controle veranderlijke eigenschappen van een toestand, geen vaste standen van een persoon.
-  takeaway: Een stem kan mogelijk ontstaan wanneer niet alleen de herkomst van een gedachte, maar ook de toegang tot herinneringen, emoties, doelen en controle anders wordt georganiseerd. Dat is een toetsbare toepassing en uitbreiding van het zelfmodel, geen volledige verklaring.
+  takeaway: Stemmen horen kan één zichtbare vorm zijn van een veel algemenere organisatie van deels zelfstandige processen. De relevante vraag is niet alleen waarom een stem ontstaat, maar hoe informatie, perspectief en invloed op handelen tussen die processen worden verdeeld.
 modelComponent: self-organization
 modelLimitations:
   - Het artikel past een algemeen bewustzijnsmodel toe op één verschijnsel en bewijst daarmee geen causale verklaring.
@@ -62,6 +67,16 @@ Een term die in gesprekken over meerstemmigheid eveneens kan opkomen is **dissoc
 Die verscheidenheid waarschuwt tegen één groot verklarend verhaal. Zelfs wanneer twee mensen allebei een stem horen, hoeft niet hetzelfde mechanisme doorslaggevend te zijn. Het ene geval kan sterk samenhangen met trauma en dissociatie, het andere met verwachtingen in de waarneming, taalproductie, slaaptekort, middelengebruik of een combinatie van kwetsbaarheid en omstandigheden.[3]
 
 Een goed model moet dus niet vragen: *wat is de oorzaak van stemmen horen?* Het moet vragen welke processen in een specifiek geval anders samenwerken en welke voorspellingen daaruit volgen.
+
+### De stem is maar één zichtbare uitkomst
+
+Stemmen horen is in dit artikel het ingangspunt, maar waarschijnlijk niet de omvang van het verschijnsel. Het menselijk brein verwerkt voortdurend meerdere signalen, herinneringen, emoties, doelen en mogelijke handelingen naast elkaar. Die processen hoeven niet allemaal dezelfde informatie te gebruiken en worden niet eerst door één centrale bestuurder bedacht. Meestal merken we alleen een uitkomst: een stemming, lichamelijke spanning, intuïtie, plotselinge gedachte, neiging om iets te doen of verandering van aandacht.
+
+Veel van deze gedeeltelijk zelfstandige processen zijn normaal en nuttig. Ze herkennen gevaar, halen relevante ervaringen op, bereiden gedrag voor, corrigeren fouten of verdedigen tegen overweldigende pijn. Hun relatieve zelfstandigheid wordt pas opvallend wanneer een proces een herkenbaar perspectief, terugkerende taal of eigen invloed krijgt. Een stem kan daarmee één bewuste en talige verschijningsvorm zijn van een veel groter stelsel dat bij andere mensen grotendeels onbewust, onbenoemd of zonder afzonderlijke stem werkzaam blijft.[2][4]
+
+Dat betekent niet dat iedere stem slechts een gewone gedachte met geluid is, of dat alle stemmen uit hetzelfde mechanisme voortkomen. Het betekent evenmin dat een functioneel zelfstandig proces een letterlijk afzonderlijke persoon of neurologische actor is. *Zelfstandig* beschrijft hier een gradatie: hoeveel eigen informatie, continuïteit, initiatief en invloed een proces heeft, en in hoeverre het door andere processen kan worden bereikt of bijgestuurd.
+
+De klinisch relevante grens loopt dan niet eenvoudig tussen één en meerdere stemmen. Belangrijker zijn de inhoud, lijdensdruk, onderlinge samenwerking, doorlaatbaarheid van informatie en invloed op gedrag. Een meervoudige organisatie kan stabiel en bruikbaar zijn; een nauwelijks bewuste impuls kan juist ontregelend worden wanneer hij zonder voldoende tegenwicht de uitvoering bepaalt. Stemmen horen maakt deze grotere architectuur soms hoorbaar, maar is er slechts één mogelijke manifestatie van.
 
 ### Innerlijke spraak is geen enkelvoudig kanaal
 
@@ -103,6 +118,8 @@ Het zelfmodel is daarmee niet alleen het referentiepunt *waarvoor* informatie wo
 De schematherapie biedt hiervoor een bruikbare tussenstap. Zij beschrijft *modi*: tijdelijk geactiveerde combinaties van emoties, overtuigingen, lichamelijke reacties en copingstrategieën. Een gekwetst kind, een boze of afstandelijke beschermer en een straffende criticus kunnen vanuit dezelfde situatie geheel andere informatie selecteren en ander gedrag voortbrengen. Meestal blijft daarbij het gevoel bestaan dat al deze toestanden bij hetzelfde ik horen, ook wanneer iemand zich achteraf nauwelijks in een reactie herkent.
 
 Zo'n modus kan eerder een beschermende functie hebben gehad. Terugtrekken, verdoven, controleren of boos worden kan iemand door omstandigheden hebben geholpen waarin open voelen, vertrouwen of tegenspreken onveilig was. De strategie kan later te breed, te snel of te star worden ingezet. Herkennen waarvoor zij ooit diende maakt het mogelijk haar bescherming te waarderen zonder iedere huidige reactie als noodzakelijk te aanvaarden. Binnen de schematherapie is deze functionele manier van kijken belangrijk, maar het precieze ontstaan en activeren van modi is nog beperkt experimenteel onderzocht.[14]
+
+Het benoemen van zulke modi heeft zelf therapeutische waarde. Het maakt een patroon herkenbaar zonder de persoon als geheel ermee gelijk te stellen en nodigt uit om zowel zijn kracht als zijn beperkingen te onderzoeken. De relevante vragen worden dan niet alleen *hoe kom ik hiervan af?*, maar ook: welke taak probeert deze positie te vervullen, waartegen beschermt zij, welke informatie gebruikt zij en wat kan zij vanuit haar beperkte perspectief niet goed overzien? Verschillende innerlijke posities herkennen is binnen deze benadering dus geen bevestiging dat iemand uit afzonderlijke personen bestaat, maar een manier om terugkerende organisaties van ervaring en gedrag beter te begrijpen en bij te sturen.
 
 Daarmee is niet aangetoond dat stemmen verzelfstandigde schemamodi zijn. De overeenkomst levert wel een mogelijke continuïteit op. Naarmate eigenaarschap, geheugen, onderlinge informatietoegang en invloed op handelen sterker uiteenlopen, kan een toestand minder als *ik in een bepaalde modus* en meer als een herkenbare andere positie, stem of deel worden ervaren. Dit is geen rechte ontwikkelingsladder: iemand kan meerdere duidelijk onderscheiden stemmen hebben en toch veel geheugen en samenwerking delen, terwijl een ander zonder uitgesproken stemmen sterke toestandgebonden geheugen- of gedragsverschillen kan hebben.
 
@@ -193,9 +210,13 @@ Onderzoek naar mensen die stemmen kunnen oproepen of beïnvloeden laat inderdaad
 
 ### Wat dit betekent voor stemmen en de omgang ermee
 
-Dit model zegt niet welke behandeling voor een persoon passend is; daarvoor zijn professionele beoordeling, veiligheid en individuele context nodig. Het suggereert wel dat meerstemmigheid en contextverschillen op zichzelf niet automatisch problematisch zijn. Belangrijker zijn lijdensdruk, gevaar, verlies van controle, slaapverstoring en de mate waarin iemand in het dagelijks leven kan functioneren.
+Dit model zegt niet welke behandeling voor een persoon passend is; daarvoor zijn professionele beoordeling, veiligheid en individuele context nodig. Het suggereert wel dat meerstemmigheid of contextverschil niet automatisch het probleem zelf is. Belangrijker zijn lijdensdruk, gevaar, verlies van controle, slaapverstoring en de mate waarin iemand in het dagelijks leven kan functioneren.
+
+Daarbij moet de stem niet voor het volledige systeem worden aangezien. Zij kan de hoorbare uitkomst zijn van één proces binnen een veel ruimer samenspel van herinneren, voorspellen, beschermen, evalueren en handelen. Ook zonder herkenbare stemmen kunnen zulke processen langs elkaar heen werken, elkaar afremmen of buiten bewuste arbitrage invloed op gedrag uitoefenen. Omgekeerd kunnen meerdere herkenbare posities onderling goed samenwerken en weinig beperkingen veroorzaken.
 
 Daarom kan het zinvol zijn eerst in kaart te brengen welke toestanden een stem activeren, welke informatie voor verschillende posities beschikbaar is, of zij gelijktijdig communiceren of elkaar afwisselen en welke beschermende functie een reactie mogelijk heeft. Bij de ene persoon kan herkenning van innerlijke processen belangrijk zijn, bij een ander een minder angstige verhouding tot een stabiele stem, en bij sterke compartimentering juist meer overdraagbaarheid van herinneringen, emoties en praktische afspraken.
+
+De parallel met schematherapie helpt hier een asymmetrie vermijden. Bij een niet-hoorbare modus vinden we het normaal om haar te benoemen, haar functie te onderzoeken en haar sterke en zwakke kanten zichtbaar te maken. Een sterker verzelfstandigd of hoorbaar perspectief hoeft niet automatisch een geheel andere houding op te roepen. Ook daar kan de eerste hulpvraag zijn wat de persoon daadwerkelijk belemmert: de stem zelf, de innerlijke strijd die zij verwoordt, een onderliggende toestand, of juist de angstige en beperkende reactie van de omgeving. Dat onderzoek mag de stem niet bij voorbaat reduceren tot een schemamodus; de overeenkomst rechtvaardigt vooral dezelfde functionele nieuwsgierigheid.
 
 Het doel van integratie hoeft niet één uniforme persoonlijkheid te zijn die zich overal hetzelfde gedraagt. Een gezond zelf blijft contextgevoelig. Integratie betekent hier vooral **doorlaatbaarheid**: relevante informatie kan waar nodig grenzen passeren, verschillende posities worden voorspelbaarder voor elkaar en iemand krijgt meer vrijheid in hoe het gehele systeem antwoordt.
 
@@ -204,6 +225,8 @@ De vruchtbaarste vraag is daarom niet of ‘de stem werkelijk een ander is’ of
 ### Wat deze casus leert over het bewustzijnsmodel
 
 Als casestudy laat stemmen horen vervolgens zien wat [het algemene bewustzijnsmodel](/artikelen/een-theorie-van-het-bewustzijn) al kon verhelderen en waar het te eenvoudig was. Het onderscheid tussen onbewuste verwerking, bewuste toegang, arbitrage en uitvoering helpt om niet-eigen gedachten uiteen te leggen in afzonderlijke functies. Daardoor hoeven bewust ervaren, als eigen herkennen en kunnen bijsturen niet als één en hetzelfde vermogen te worden behandeld.
+
+De casus maakt bovendien zichtbaar dat stemmen horen niet het algemene mechanisme is, maar één mogelijke manifestatie ervan. Het bredere onderwerp is hoe gedeeltelijk zelfstandige processen tot een werkbaar zelf worden gecoördineerd, hoeveel van hun activiteit bewust wordt en hoe hun uitkomsten toegang tot handelen krijgen. Juist doordat een stem zo'n proces herkenbaar kan maken, biedt zij een bijzonder duidelijke maar niet noodzakelijk uitzonderlijke blik op die organisatie.
 
 Tegelijkertijd maakt de casus een belangrijke aanscherping nodig. Het zelf en de arbitrage mogen niet stilzwijgend als volledig geïntegreerd en enkelvoudig worden voorgesteld. Het model moet ook plaats bieden aan meerdere lokaal georganiseerde posities, ongelijke informatietoegang, gelijktijdige of afwisselende invloed en een gezamenlijke uitvoeringspoort. Deze toepassing bewijst het bewustzijnsmodel niet. Zij laat wel zien dat het model een ingewikkelde ervaring systematisch in kaart kan brengen, door die toepassing zelf preciezer wordt en vervolgens specifiekere, toetsbare voorspellingen mogelijk maakt.
 

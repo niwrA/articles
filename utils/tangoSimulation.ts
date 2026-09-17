@@ -139,7 +139,7 @@ const moveDancer=(x:DancerState,dx:number,dy:number,shoulderAngle:number):Dancer
 export function withEmbrace(frame:TangoFrame,embrace:Embrace,movementId:MovementId):TangoFrame{
   const midpoint={x:(frame.a.torso.x+frame.b.torso.x)/2,y:(frame.a.torso.y+frame.b.torso.y)/2}
   const distanceFactor={open:1,'half-open':.76,closed:.58}[embrace]
-  const shoulderFollow={open:.24,'half-open':.68,closed:.94}[embrace]
+  const shoulderFollow={open:.24,'half-open':.78,closed:.84}[embrace]
   const adapt=(x:DancerState,other:DancerState,id:DancerId)=>{
     const baseTarget={x:midpoint.x+(x.torso.x-midpoint.x)*distanceFactor,y:midpoint.y+(x.torso.y-midpoint.y)*distanceFactor}
     const facing=direction(baseTarget,other.torso)
@@ -151,8 +151,10 @@ export function withEmbrace(frame:TangoFrame,embrace:Embrace,movementId:Movement
     const ochoExtra=(movementId==='forward-ocho'||movementId==='backward-ocho')&&embrace==='open'?.08:0
     // In a half-open embrace both chests turn slightly in the same stage
     // direction: their right side meets while the left side remains open.
-    const halfOpenOffset=embrace==='half-open'?(id==='a'?10:-10):0
-    return moveDancer(x,target.x-x.torso.x,target.y-x.torso.y,angleLerp(x.angle,facing,Math.min(1,shoulderFollow+ochoExtra))+halfOpenOffset)
+    // Both contact embraces keep a small right-side offset. Half-open is now
+    // straighter than before; closed no longer forces the chests exactly square.
+    const contactOffset=embrace==='open'?0:(id==='a'?5:-5)
+    return moveDancer(x,target.x-x.torso.x,target.y-x.torso.y,angleLerp(x.angle,facing,Math.min(1,shoulderFollow+ochoExtra))+contactOffset)
   }
   const a=adapt(frame.a,frame.b,'a'),b=adapt(frame.b,frame.a,'b')
   const contacts:Contact[]=embrace==='open'?[{

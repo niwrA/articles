@@ -10,9 +10,11 @@ articleRelations:
 featuredImage: /images/artikelen/voices-and-self-model/voices-and-self-model.webp
 featuredImageAlt: A human profile containing several distinct but interconnected streams of inner experience
 featuredImageFocalPoint: 48% 44%
-summary: Voice-hearing offers a demanding test of the idea that the self is not an indivisible controller but a changing organisation of memories, emotions, goals, ownership and possibilities for action. That organisation is context-sensitive in ordinary life, but information boundaries may become so rigid that partly autonomous self-positions or voices emerge. The model then predicts not only less distress in recovery, but especially greater permeability, mutual predictability and freedom to act.
+summary: Voice-hearing may be one conspicuous manifestation of a much broader interaction among partly autonomous processes. Such processes also select memories, emotions, goals and proposals for action in ordinary life, usually without acquiring voices of their own. This case study asks what changes when their perspective, access to information or influence becomes recognisably separate.
 keyPoints:
   - Hearing voices is an experience, not by itself a diagnosis of schizophrenia.
+  - A voice may be one conscious and linguistic expression of processes that operate largely in parallel and outside awareness in everyone.
+  - These processes are often functional; problems relate more to threat, conflict, rigid information boundaries and loss of freedom to act than to plurality itself.
   - Content, conscious access, ownership and experienced agency are distinct properties of a thought.
   - Inner speech differs greatly between people and is not always verbal or accompanied by an audible inner voice.
   - Context-sensitivity is normal; compartmentalisation becomes restrictive when information, emotion or possibilities for action no longer transfer between situations.
@@ -22,8 +24,11 @@ keyPoints:
   - Dialogue might make information boundaries more permeable without denying a voice or literally confirming it as a separate person.
 plainLanguage:
   title: How can your own thought feel like another voice?
-  intro: People do not experience every thought in the same way. We may think in words, images or feelings. A thought can also enter awareness without making clear how we produced it. This article explores whether hearing voices can sometimes involve such a difference in experienced origin.
+  intro: People do not experience every thought in the same way. Much processing remains unconscious and appears only as a feeling, impulse, image or sudden thought. This article asks what happens when such a process acquires a recognisable voice, a perspective of its own or more independent influence.
   sections:
+    - heading: A voice is only one possible outcome
+      paragraphs:
+        - Many processes select memories, detect danger, prepare actions and weigh goals. Usually we notice only their outcome. A comparable process may appear in one person as a mood or intuition and in another as inner language or a recognisable voice.
     - heading: A thought has several properties
       paragraphs:
         - What a thought says is different from who seems to have produced it. The brain may make its content available while the sense of ownership or control is absent. The thought may sound familiar yet not feel like mine.
@@ -36,7 +41,7 @@ plainLanguage:
     - heading: The brain's state matters
       paragraphs:
         - Stress, sleep deprivation, substances and changes in neurotransmission can affect how much weight a signal receives, how readily attention disengages from it and how much time conscious evaluation has to redirect behaviour. Information boundaries and control are therefore variable properties of a state, not fixed settings of a person.
-  takeaway: A voice may sometimes arise when not only a thought's origin, but also access to memories, emotions, goals and control is organised differently. This is a testable application and extension of the self-model, not a complete explanation.
+  takeaway: Voice-hearing may be one visible form of a much more general organisation of partly autonomous processes. The relevant question is not only why a voice appears, but how information, perspective and influence over action are distributed among those processes.
 modelComponent: self-organization
 modelLimitations:
   - The article applies a general consciousness model to one phenomenon and does not establish a causal explanation.
@@ -62,6 +67,16 @@ Another term that can arise in discussions of multiplicity is **dissociative ide
 That diversity warns against one grand explanation. Even when two people both hear a voice, the decisive mechanism need not be the same. One case may be closely related to trauma and dissociation, another to perceptual expectations, speech production, sleep deprivation, substances, or a combination of vulnerability and circumstance.[3]
 
 A good model should therefore not ask for *the* cause of voice-hearing. It should ask which processes interact differently in a particular case and what predictions follow.
+
+### A voice is only one visible outcome
+
+Voice-hearing is the point of entry into this article, but probably not the full extent of the phenomenon. The human brain continuously processes several signals, memories, emotions, goals and possible actions in parallel. Those processes need not all use the same information, nor are they first conceived by a single central controller. Usually, we notice only an outcome: a mood, bodily tension, intuition, sudden thought, disposition to act or shift of attention.
+
+Many of these partly autonomous processes are normal and useful. They detect danger, retrieve relevant experience, prepare behaviour, correct errors or defend against overwhelming pain. Their relative autonomy becomes conspicuous when a process acquires a recognisable perspective, recurring language or influence of its own. A voice may therefore be one conscious and linguistic expression of a much larger system that, in other people, remains largely unconscious, unnamed or active without a separate voice.[2][4]
+
+This does not mean that every voice is merely an ordinary thought with sound, or that all voices arise from the same mechanism. Nor does a functionally autonomous process establish the existence of a literally separate person or neurological actor. Here, *autonomy* is a matter of degree: how much distinct information, continuity, initiative and influence a process has, and how readily other processes can reach or redirect it.
+
+The clinically relevant boundary therefore does not simply separate one voice from many. Content, distress, cooperation, permeability of information and influence over behaviour matter more. A plural organisation can be stable and useful; a barely conscious impulse can be disruptive if it determines execution without sufficient counterweight. Voice-hearing sometimes makes this wider architecture audible, but is only one possible manifestation of it.
 
 ### Inner speech is not a single channel
 
@@ -103,6 +118,8 @@ The self-model is therefore not only the reference point *for which* information
 Schema therapy offers a useful intermediate case. It describes *modes*: temporarily activated combinations of emotion, belief, bodily response and coping strategy. A Vulnerable Child, an angry or detached protector and a punitive critic can select quite different information and produce quite different behaviour in response to the same situation. People will usually continue to experience these states as belonging to the same self, even when they can barely recognise a reaction afterwards.
 
 Such a mode may once have served a protective function. Withdrawal, numbing, control or anger may have helped someone endure circumstances in which open feeling, trust or resistance was unsafe. The strategy may later be applied too broadly, too quickly or too rigidly. Recognising what it once accomplished can make it possible to appreciate its protection without treating every current response as necessary. This functional perspective is important in schema therapy, but the precise origin and activation of modes has received only limited experimental study.[14]
+
+Naming such modes can itself have therapeutic value. It makes a pattern recognisable without equating it with the person as a whole, and invites examination of both its strengths and its limitations. The relevant question is no longer only *how do I get rid of this?*, but also: what task is this position trying to perform, what does it protect against, which information does it use and what can it not see from its limited perspective? Within this approach, recognising different inner positions does not confirm that someone consists of separate people; it is a way to understand and redirect recurring organisations of experience and behaviour.
 
 This does not establish that voices are autonomous schema modes. The similarity does, however, suggest a possible continuity. As ownership, memory, mutual information access and influence over action diverge, a state may be experienced less as *me in a particular mode* and more as a recognisable other position, voice or part. This is not a linear developmental ladder: someone may have several clearly distinguished voices while sharing extensive memory and cooperation, whereas another person without pronounced voices may have strong state-dependent differences in memory or behaviour.
 
@@ -195,7 +212,11 @@ Research involving people who can evoke or influence voices does indicate that c
 
 This model does not determine which treatment suits an individual; that requires professional assessment, safety and personal context. It does suggest that plurality or contextual variation is not automatically the problem itself. Distress, danger, loss of control, disrupted sleep and the ability to function in daily life matter more.
 
+The voice should not be mistaken for the whole system. It may be the audible outcome of one process within a much broader interaction among remembering, predicting, protecting, evaluating and acting. Even without recognisable voices, such processes may work at cross-purposes, inhibit one another or influence behaviour beyond conscious arbitration. Conversely, several recognisable positions may cooperate effectively and cause little impairment.
+
 It may therefore be useful first to map which states activate a voice, what information is available to different positions, whether they communicate simultaneously or alternate, and what protective function a response might serve. For one person, recognising inner processes may matter; for another, a less fearful relationship with a stable voice; with strong compartmentalisation, greater transferability of memories, emotions and practical agreements may be more important.
+
+The parallel with schema therapy helps avoid an asymmetry here. With a non-audible mode, it seems ordinary to name it, examine its function and identify its strengths and weaknesses. A more autonomous or audible perspective need not automatically invite an entirely different stance. Here too, the first question may be what is actually causing difficulty: the voice itself, the inner conflict it expresses, an underlying condition, or the fearful and restrictive response of the environment. This inquiry must not reduce the voice to a schema mode in advance; the comparison primarily warrants the same functional curiosity.
 
 The goal of integration need not be one uniform personality behaving identically everywhere. A healthy self remains context-sensitive. Here, integration primarily means **permeability**: relevant information can cross boundaries when needed, different positions become more predictable to one another, and the person gains more freedom in how the whole system responds.
 
@@ -204,6 +225,8 @@ The most productive question is therefore not whether ‘the voice really is ano
 ### What this case teaches us about the model of consciousness
 
 As a case study, voice-hearing shows both what [the general model of consciousness](/en/articles/a-theory-of-consciousness) could already clarify and where it was too simple. Distinguishing unconscious processing, conscious access, arbitration and execution helps decompose thoughts experienced as not one's own into separate functions. Conscious experience, recognition as one's own and the ability to intervene therefore need not be treated as one and the same capacity.
+
+The case also shows that voice-hearing is not the general mechanism but one possible manifestation of it. The broader subject is how partly autonomous processes are coordinated into a workable self, how much of their activity becomes conscious and how their outcomes gain access to action. Precisely because a voice can make such a process recognisable, it provides an unusually clear but not necessarily exceptional view of that organisation.
 
 At the same time, the case requires an important refinement. Neither the self nor arbitration should be represented as implicitly unitary and fully integrated. The model must also accommodate several locally organised positions, unequal access to information, simultaneous or alternating influence and a shared execution gate. This application does not prove the model of consciousness. It does show that the model can map a complex experience systematically, become more precise through that application and subsequently generate more specific, testable predictions.
 
