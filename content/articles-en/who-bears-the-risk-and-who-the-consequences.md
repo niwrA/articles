@@ -11,6 +11,7 @@ featuredImageMobileFocalPoint: center center
 summary: "Pay later sometimes mixes two different needs: assurance of delivery and credit. Reserving funds a buyer already owns, and treating only a genuine shortfall as credit, could make commitments visible sooner. The same design principle leads to a broader test: those who hold benefit and decision power should not be able to shift consequences quietly to others or the future."
 keyPoints:
   - Paying after delivery with money already available is mainly a settlement and trust problem; only the shortfall is credit.
+  - Deferred payment can become far more expensive than the original purchase suggests through missed deadlines, interest and collection costs.
   - A capacity ledger would have to reserve headroom transactionally, or concurrent providers could reuse the same capacity.
   - Financial safety and alignment are different dimensions: a transaction may be affordable while distributing harm or responsibility badly.
   - The proposed infrastructure is a testable architecture hypothesis, not a description of the current system or personal financial advice.
@@ -31,6 +32,10 @@ plainLanguage:
       paragraphs:
         - Age checks for pay later do not prevent a child from buying through a parent's account, a stored payment method or previously purchased game currency. Individual microtransactions may look small while adding up to a large amount. Virtual currencies and repeated exchanges can also make the real price harder to understand.
         - A safer design can display prices in real money, monitor cumulative spending, disable real-money spending by default and request renewed permission above a threshold. Parental controls are useful, but they do not remove providers' responsibility not to pressure children into purchases through timers, obscured prices or other manipulative techniques.
+    - heading: Paying late can quickly increase a small amount
+      paragraphs:
+        - Pay later often appears free if every deadline is met. Missing one can lead to interest, collection charges and ultimately a debt collector. A small purchase can therefore increase substantially. The risk is not only how much someone borrows, but also what happens after one missed date.
+        - In the Netherlands, a consumer must first receive a payment reminder and fourteen days to pay before statutory collection costs may be charged. Collection costs then have a minimum of €40. For a small purchase, that can be large compared with the original bill.
     - heading: A check must immediately change the available capacity
       paragraphs:
         - Suppose you may still borrow €500. Two online shops ask almost simultaneously whether €400 is available. If both only read the same old balance, both may approve the purchase. Together they create €800 of debt even though the limit was €500.
@@ -52,7 +57,7 @@ plainLanguage:
 modelComponent: risk-responsibility
 modelLimitations:
   - The indices and thresholds are teaching assumptions, not empirically calibrated risk or credit scores.
-  - The transaction model abstracts from interest, income, term, default, returns, fraud, privacy, operating costs and legal protection.
+  - The transaction model abstracts from interest, late-payment charges, collection costs, income, term, default, returns, fraud, privacy, operating costs and legal protection.
   - The CCDII-bill mode is a schematic reading of the proposal as at 17 September 2026, not a forecast of the final Act or secondary legislation.
   - The alignment model deliberately keeps components visible and does not provide a complete moral, legal or prudential assessment.
   - Real deployment would require a legal basis, data minimisation, independent scrutiny and validated domain-specific models.
@@ -91,6 +96,16 @@ For minors, the proposal mainly repairs a gap between the rule and its enforceme
 These measures can reveal sooner that someone is borrowing too much or from several providers. The issue is material: four providers processed about 53 million transactions worth €5.1 billion in 2024. Among frequent users under 35, 65 per cent paid more than one BNPL provider within a month.[1]
 
 As currently described, however, the proposal does not make a principled distinction between **delivery assurance backed by money already owned** and credit. Nor does it introduce shared real-time reservation of free capacity, a transaction state linking delivery to settlement, or a mechanism that treats only the genuine shortfall as debt. BKR records obligations and arrears, but it is not the transactional view of current free capacity explored here.[3] The bill therefore improves protection around credit; this model additionally asks whether some transactions currently offered as credit should instead be designed as reservations followed by conditional settlement.
+
+### Free as long as everything happens on time
+
+The price of deferred payment is not limited to the amount borrowed. Many BNPL transactions carry no interest while the customer pays within the agreed term. Missing a deadline can lead to costs and escalation. According to the AFM, BNPL providers issued approximately 6.9 million notices of default in 2024, charged reminder fees on 1.8 million transactions and transferred about 600,000 transactions to debt collectors.[14] At three major e-commerce platforms, almost 900,000 customers also paid reminder fees. This is therefore not a rare edge case.
+
+Dutch consumer collection follows statutory steps. Before collection costs may be charged, the creditor must send at least one payment reminder and allow fourteen days to pay. Statutory collection costs then have a minimum of €40, and interest may also be due.[15] For a small original purchase, €40 can be a very large relative increase. The everyday word *fine* is understandable, but legally these may be reminder charges, interest and collection costs, each subject to different conditions.
+
+This changes the design question. A credit limit indicates only how much principal someone might carry, not what happens after a missed date. A safer system therefore shows possible costs before purchase, sends timely reminders through a channel that actually reaches the customer, and offers a reasonable recovery path before charges accumulate. The AFM previously found that a simple SMS reminder reduced the proportion of customers paying late and incurring charges by about one fifth.[9] Arrears are therefore not solely a characteristic of the customer; they are also influenced by the design of reminders and recovery.
+
+The interactive explorer does not yet calculate these charges. A later extension could add a due date, cure period, interest, reminder charge and collection date for each payment method. The graph could then show not only outstanding principal but the growing total obligation. This would reveal how two products with the same purchase price and credit capacity can carry very different downside risks.
 
 ### Minors, microtransactions and parental payment methods
 
@@ -206,3 +221,5 @@ An economic system is not responsible because risk disappears. Risk rarely disap
 11. Consumer Protection Cooperation Network. *Key Principles on In-game Virtual Currencies*. 2025. [View source](https://commission.europa.eu/document/download/8af13e88-6540-436c-b137-9853e7fe866a_en)
 12. Netherlands Authority for Consumers and Markets. *ACM fines Epic for unfair commercial practices aimed at children in Fortnite* (Dutch). 2024. [View source](https://www.acm.nl/nl/publicaties/acm-beboet-epic-voor-oneerlijke-praktijken-gericht-op-kinderen-fortnite)
 13. Government of the Netherlands. *New rules for Buy Now, Pay Later* (Dutch). 2025. [View source](https://www.rijksoverheid.nl/actueel/nieuws/2025/10/31/nieuwe-regels-voor-buy-now-pay-later)
+14. Dutch Authority for the Financial Markets. *Buy Now, Pay Later: consumers need additional protection* (Dutch). 2025. [View source](https://www.afm.nl/nl-nl/sector/actueel/2025/juli/pb-marktupdate-BNPL-2025)
+15. Government of the Netherlands. *How much do I pay in collection costs?* (Dutch). [View source](https://www.rijksoverheid.nl/vraag-en-antwoord/schulden/hoogte-incassokosten)

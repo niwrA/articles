@@ -11,6 +11,7 @@ featuredImageMobileFocalPoint: center center
 summary: "Achteraf betalen mengt soms twee verschillende behoeften: zekerheid over levering en krediet. Door eigen geld te reserveren en alleen een werkelijk tekort als krediet te behandelen, kunnen verplichtingen eerder zichtbaar worden. Datzelfde ontwerpprincipe leidt tot een bredere toets: degene die voordeel en beslissingsmacht heeft, hoort niet ongemerkt de gevolgen naar anderen of de toekomst te kunnen verplaatsen."
 keyPoints:
   - Achteraf betalen met reeds aanwezig geld is vooral een settlement- en vertrouwensvraag; alleen het ontbrekende bedrag is krediet.
+  - Uitgesteld betalen kan door gemiste termijnen, rente en incassokosten veel duurder worden dan de oorspronkelijke aankoop doet vermoeden.
   - Een capacity ledger zou beschikbare ruimte transactioneel moeten reserveren, anders kunnen gelijktijdige aanbieders dezelfde capaciteit dubbel gebruiken.
   - Financiële veiligheid en belangenafstemming zijn verschillende dimensies: een transactie kan betaalbaar zijn en toch schade of verantwoordelijkheid verkeerd verdelen.
   - De voorgestelde infrastructuur is een toetsbare architectuurhypothese, geen beschrijving van het huidige stelsel en geen individueel financieel advies.
@@ -31,6 +32,10 @@ plainLanguage:
       paragraphs:
         - Leeftijdscontrole bij achteraf betalen voorkomt niet dat een kind via een ouderlijk account, een opgeslagen betaalmiddel of vooraf gekochte spelmunten aankopen doet. Afzonderlijke microtransacties kunnen klein lijken, terwijl ze samen een groot bedrag vormen. Virtuele munten en meerdere omwisselstappen maken de prijs in euro’s bovendien moeilijker te overzien.
         - Een veilig ontwerp kan daarom de prijs in echt geld tonen, cumulatieve uitgaven bewaken, standaard uitgaven uitschakelen en boven een grens opnieuw toestemming vragen. Ouderlijke instellingen zijn nuttig, maar nemen de verantwoordelijkheid van aanbieders niet weg om kinderen niet met tijdsdruk, verborgen prijzen of andere manipulatieve technieken tot aankopen te bewegen.
+    - heading: Te laat betalen kan een klein bedrag snel groter maken
+      paragraphs:
+        - Achteraf betalen lijkt vaak gratis zolang je op tijd betaalt. Wie een termijn mist, kan echter met rente, incassokosten en uiteindelijk een incassobureau te maken krijgen. Daardoor kan een kleine aankoop relatief sterk in prijs stijgen. Het risico zit dus niet alleen in hoeveel iemand leent, maar ook in wat er na één gemiste datum gebeurt.
+        - In Nederland moet een consument eerst een betalingsherinnering krijgen en veertien dagen de tijd krijgen om alsnog te betalen voordat wettelijke incassokosten mogen worden gerekend. Daarna geldt voor incassokosten een minimum van €40. Bij een kleine aankoop kan dat bedrag groot zijn in verhouding tot de oorspronkelijke rekening.
     - heading: Een controle moet ook meteen de beschikbare ruimte veranderen
       paragraphs:
         - Stel dat je nog €500 kunt lenen. Twee webwinkels vragen vrijwel tegelijk of je €400 ruimte hebt. Als beide alleen naar dezelfde oude stand kijken, kunnen ze allebei toestemming geven. Samen ontstaat dan €800 schuld, hoewel de grens €500 was.
@@ -52,7 +57,7 @@ plainLanguage:
 modelComponent: risk-responsibility
 modelLimitations:
   - De indices en drempels zijn didactische aannames, geen empirisch gekalibreerde risico- of kredietscore.
-  - Het transactiemodel abstraheert van rente, inkomen, looptijd, wanbetaling, retouren, fraude, privacy, uitvoeringskosten en rechtsbescherming.
+  - Het transactiemodel abstraheert van rente, te-laatkosten, incassokosten, inkomen, looptijd, wanbetaling, retouren, fraude, privacy, uitvoeringskosten en rechtsbescherming.
   - De modus voor het CCDII-wetsvoorstel is een schematische lezing van het voorstel per 17 september 2026, geen voorspelling van de definitieve wet of lagere regelgeving.
   - Het belangenmodel houdt de componenten bewust zichtbaar en levert geen volledige morele, juridische of prudentiële beoordeling.
   - Werkelijke toepassing vereist wettelijke grondslag, dataminimalisatie, onafhankelijke toetsing en gevalideerde domeinspecifieke modellen.
@@ -91,6 +96,16 @@ Voor minderjarigen repareert het voorstel vooral een verschil tussen norm en uit
 Daarmee kan de wet eerder zichtbaar maken dat iemand te veel of bij meerdere partijen leent. Dat is materieel: vier aanbieders verwerkten volgens de AFM in 2024 ongeveer 53 miljoen transacties ter waarde van €5,1 miljard. Bij frequente gebruikers onder 35 jaar betaalde 65 procent binnen één maand aan meerdere BNPL-aanbieders.[1]
 
 Maar het voorstel maakt voor zover nu bekend geen principieel onderscheid tussen **leveringszekerheid met reeds aanwezig eigen geld** en krediet. Het introduceert ook geen gedeelde real-time reservering van vrije capaciteit, geen transactietoestand die levering en afrekening aan elkaar koppelt en geen mechanisme dat alleen een werkelijk tekort als schuld aanmerkt. BKR registreert verplichtingen en achterstanden, maar is niet het transactionele overzicht van actuele vrije ruimte dat hier wordt verkend.[3] De wetswijziging verbetert dus de bescherming rond krediet; het model vraagt daarnaast of een deel van wat nu als krediet wordt aangeboden beter als reservering en voorwaardelijke afrekening kan worden ontworpen.
+
+### Gratis zolang alles op tijd gaat
+
+De prijs van uitgesteld betalen is niet alleen het geleende bedrag. Veel BNPL-transacties worden zonder rente aangeboden zolang de klant binnen de termijn betaalt. Zodra een termijn wordt gemist, kunnen kosten en escalatie volgen. In 2024 stelden BNPL-aanbieders klanten volgens de AFM circa 6,9 miljoen keer in gebreke, brachten zij bij 1,8 miljoen transacties aanmaningskosten in rekening en droegen zij ongeveer 600.000 transacties over aan een incassobureau.[14] Bij drie grote e-commerceplatforms moesten bovendien bijna 900.000 klanten aanmaningskosten betalen. Het gaat dus niet om een zeldzame randgebeurtenis.
+
+Bij consumentenincasso gelden wettelijke stappen. Voordat incassokosten mogen worden gerekend, moet de schuldeiser ten minste één betalingsherinnering sturen en veertien dagen geven om alsnog te betalen. Daarna bedragen de wettelijke incassokosten minimaal €40; daarnaast kan rente verschuldigd zijn.[15] Voor een kleine oorspronkelijke aankoop kan €40 een zeer grote relatieve opslag zijn. Het alledaagse woord *boete* is begrijpelijk, maar juridisch gaat het vaak om aanmaningskosten, rente en incassokosten, elk met eigen voorwaarden.
+
+Dit verandert ook de ontwerpvraag. Een kredietlimiet zegt alleen hoeveel hoofdsom iemand kan dragen, niet wat er gebeurt bij een gemiste datum. Een veiliger systeem maakt daarom vóór de aankoop zichtbaar welke kosten kunnen volgen, waarschuwt tijdig via een kanaal dat de klant daadwerkelijk bereikt en biedt een redelijke herstelroute voordat kosten zich opstapelen. De AFM vond eerder dat een eenvoudige sms-herinnering het aandeel klanten met te late betaling en kosten met ongeveer een vijfde kon verminderen.[9] Dat wijst erop dat betalingsachterstand niet alleen een eigenschap van de klant is, maar mede wordt beïnvloed door het ontwerp van herinneringen en herstel.
+
+De interactieve verkenner rekent deze kosten nog niet door. Een toekomstige uitbreiding kan per betaalvorm een vervaldatum, hersteltermijn, rente, aanmaningskosten en incassomoment opnemen. De grafiek kan dan behalve openstaande hoofdsom ook de oplopende totale verplichting tonen. Zo wordt zichtbaar hoe twee producten met dezelfde aankoopprijs en kredietruimte toch een heel verschillend neerwaarts risico kunnen hebben.
 
 ### Minderjarigen, microtransacties en ouderlijke betaalmiddelen
 
@@ -206,3 +221,5 @@ Een economisch systeem is niet verantwoord omdat risico verdwijnt. Risico verdwi
 11. Consumer Protection Cooperation Network. *Key Principles on In-game Virtual Currencies*. 2025. [Bron bekijken](https://commission.europa.eu/document/download/8af13e88-6540-436c-b137-9853e7fe866a_en)
 12. Autoriteit Consument & Markt. *ACM beboet Epic voor oneerlijke praktijken gericht op kinderen in Fortnite*. 2024. [Bron bekijken](https://www.acm.nl/nl/publicaties/acm-beboet-epic-voor-oneerlijke-praktijken-gericht-op-kinderen-fortnite)
 13. Rijksoverheid. *Nieuwe regels voor Buy Now Pay Later*. 2025. [Bron bekijken](https://www.rijksoverheid.nl/actueel/nieuws/2025/10/31/nieuwe-regels-voor-buy-now-pay-later)
+14. Autoriteit Financiële Markten. *Buy Now, Pay Later: extra bescherming consumenten nodig*. 2025. [Bron bekijken](https://www.afm.nl/nl-nl/sector/actueel/2025/juli/pb-marktupdate-BNPL-2025)
+15. Rijksoverheid. *Hoeveel betaal ik voor incassokosten?* [Bron bekijken](https://www.rijksoverheid.nl/vraag-en-antwoord/schulden/hoogte-incassokosten)
