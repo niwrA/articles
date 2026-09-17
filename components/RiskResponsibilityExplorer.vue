@@ -9,7 +9,7 @@ const transactions=ref<Tx[]>([
  {id:1,at:'2026-09-17T09:10',label:'Webshop',amount:180,outcome:'delivered',outcomeAt:'2026-09-19T14:20',dueAt:'2026-09-30T23:59',paidAt:'2026-09-19T16:00'},
  {id:2,at:'2026-09-17T12:35',label:'Fietsreparatie',amount:320,outcome:'delivered',outcomeAt:'2026-09-17T17:10',dueAt:'2026-09-18T09:00',paidAt:'2026-10-05T09:00'},
  {id:3,at:'2026-09-17T12:36',label:'Laptop',amount:950,outcome:'fraud',outcomeAt:'2026-09-20T11:30',dueAt:'2026-10-01T23:59',paidAt:'2026-09-24T15:00'},
- {id:4,at:'2026-09-18T08:20',label:'Boodschappen',amount:85,outcome:'delivered',outcomeAt:'2026-09-18T08:55',dueAt:'2026-09-18T23:59',paidAt:'2026-09-18T09:00'}
+ {id:4,at:'2026-09-18T08:20',label:'Boodschappen',amount:85,outcome:'delivered',outcomeAt:'2026-09-18T08:55',dueAt:'2026-09-30T23:59',paidAt:''}
 ])
 let nextId=5
 const day=86400000
@@ -63,8 +63,8 @@ const animationSteps=computed(()=>{
  if(!item||!result)return[]
  const rejected=!result.accepted
  const names=nl.value
-  ?['Beginsituatie','Bestelling geplaatst',rejected?'Controle: geweigerd':'Controle: geaccepteerd','Winkel maakt gereed',item.outcome==='delivered'?'Levering aanvaard':item.outcome==='pending'?'Goederen onderweg':'Levering betwist of uitgebleven',item.outcome==='delivered'?'Afgerekend':item.paidAt?'Reservering vrijgegeven':'In afwachting van oplossing']
-  :['Initial situation','Order placed',rejected?'Check: rejected':'Check: accepted','Merchant prepares order',item.outcome==='delivered'?'Delivery accepted':item.outcome==='pending'?'Goods in transit':'Delivery disputed or absent',item.outcome==='delivered'?'Settled':item.paidAt?'Reservation released':'Awaiting resolution']
+  ?['Beginsituatie','Bestelling geplaatst',rejected?'Controle: geweigerd':'Controle: geaccepteerd','Winkel maakt gereed',item.outcome==='delivered'?'Levering aanvaard':item.outcome==='pending'?'Goederen onderweg':'Levering betwist of uitgebleven',item.outcome==='delivered'?(item.paidAt?'Betaald':'Schuld blijft open'):item.paidAt?'Reservering vrijgegeven':'In afwachting van oplossing']
+  :['Initial situation','Order placed',rejected?'Check: rejected':'Check: accepted','Merchant prepares order',item.outcome==='delivered'?'Delivery accepted':item.outcome==='pending'?'Goods in transit':'Delivery disputed or absent',item.outcome==='delivered'?(item.paidAt?'Paid':'Debt remains open'):item.paidAt?'Reservation released':'Awaiting resolution']
  return names.map((name,index)=>({name,index}))
 })
 const animationState=computed(()=>{
@@ -92,7 +92,7 @@ const animationState=computed(()=>{
   :step===2?(animationRegime.value==='ledger'?(nl.value?'Eigen geld en alleen het eventuele tekort aan krediet worden gereserveerd.':'Own funds and only any credit shortfall are reserved.'):(nl.value?'Het volledige bedrag wordt als kredietverplichting beoordeeld.':'The full amount is assessed as a credit obligation.'))
   :step===3?(nl.value?'De winkel heeft een geaccepteerde bestelling en verzendt de goederen.':'The merchant has an accepted order and dispatches the goods.')
   :step===4?(item.outcome==='delivered'?(nl.value?'De levering is aanvaard; nu kan definitieve afrekening plaatsvinden.':'Delivery is accepted; final settlement can now occur.'):(nl.value?'Zonder aanvaarde levering blijft de reservering geblokkeerd en wordt niet definitief afgerekend.':'Without accepted delivery, the reservation remains blocked and is not settled definitively.'))
-  :item.outcome==='delivered'?(collectionCosts?(nl.value?`De klant betaalt na de hersteltermijn: ${money(creditBase)} plus ${money(collectionCosts)} incassokosten. Het aankoopbedrag blijft bij de winkel.`:`The customer pays after the cure period: ${money(creditBase)} plus ${money(collectionCosts)} collection costs. The purchase amount remains with the merchant.`):(nl.value?'De betaling is voltooid. Het aankoopbedrag blijft bij de winkel en een eventuele schuld bij de klant verdwijnt.':'Payment is complete. The purchase amount remains with the merchant and any customer debt disappears.'))
+  :item.outcome==='delivered'?(paid?(collectionCosts?(nl.value?`De klant betaalt na de hersteltermijn: ${money(creditBase)} plus ${money(collectionCosts)} incassokosten. Het aankoopbedrag blijft bij de winkel.`:`The customer pays after the cure period: ${money(creditBase)} plus ${money(collectionCosts)} collection costs. The purchase amount remains with the merchant.`):(nl.value?'De betaling is voltooid. Het aankoopbedrag blijft bij de winkel en de schuld bij de klant verdwijnt.':'Payment is complete. The purchase amount remains with the merchant and the customer debt disappears.')):(nl.value?`De winkel ontvangt ${money(item.amount)} via de betaal-/kredietlaag. De klant houdt ${money(debt)} schuld; die ruimte komt pas na echte betaling terug.`:`The merchant receives ${money(item.amount)} through the payment/credit layer. The customer retains ${money(debt)} debt; that capacity returns only after actual payment.`))
   :refunded?(nl.value?'De kwestie is opgelost en eigen geld en kredietreservering worden aan de klant vrijgegeven.':'The issue is resolved and own funds and the credit reservation are released to the customer.'):(nl.value?'Geld en kredietruimte blijven beschermd maar tijdelijk niet beschikbaar tot de kwestie is opgelost.':'Funds and credit capacity remain protected but temporarily unavailable until the issue is resolved.')
  return{rejected,active,delivered,paid,refunded,ownReserved,creditReserved,creditAvailable,debt,freeOwn,merchantPaid,collectionCosts:paid?collectionCosts:0,moneyAt,goodsAt,action}
 })
