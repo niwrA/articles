@@ -105,17 +105,19 @@ Dit model past bij het advies van de AFM: dat achteraf betalen zekerheid kan bie
 
 ### De uitvoering
 
-Let op: dit is een ontwerpvoorstel en geen bestaand Nederlands systeem. Het moet worden getest en roept vragen op over privacy, storingen, foutieve blokkades en uitsluiting. De kern is eenvoudiger: een controle die de gebruikte ruimte niet meteen reserveert, kan bij gelijktijdige aanvragen een juist antwoord geven op verouderde informatie.
+_Let op: dit is een ontwerpvoorstel en geen bestaand Nederlands systeem. Het moet worden getest en roept vragen op over privacy, storingen, foutieve blokkades en uitsluiting._ 
 
-#### Een controle moet de beschikbare ruimte meteen veranderen
+De kern is eenvoudig: alleen een controle die de gebruikte ruimte (eigen geld of krediet) meteen reserveert, kan bij gelijktijdige aanvragen het juist antwoord geven.
+
+#### Een controle moet de beschikbare ruimte (eigen geld of krediet) meteen veranderen
 
 Stel dat iemand nog €500 kan lenen en twee winkels vrijwel tegelijk €400 aanvragen. Als beide dezelfde oude stand lezen, kunnen ze allebei toestemming geven. Een gedeeld capaciteitsregister moet daarom werken als **CONTROLEREN → RESERVEREN → VASTLEGGEN**. Na de eerste reservering ziet de tweede winkel nog maar €100. Gaat de eerste aankoop niet door, dan komt de ruimte weer vrij.
 
 #### Koppel betaling aan de toestand van de bestelling
 
-Ook levering is geen ja-neevraag. Een bruikbare keten onderscheidt bijvoorbeeld *goedgekeurd*, *geld gereserveerd*, *verzonden*, *geleverd*, *geaccepteerd*, *betwist* en *afgerekend*. Bij annulering of een gegrond geschil komt de reservering vrij. Bij mogelijke fraude blijft zichtbaar dat het product niet is geaccepteerd en hoeft gereserveerd eigen geld niet eerst als schuld te worden geïncasseerd.
+Ook levering heeft meerdere statussen: een bruikbare keten onderscheidt bijvoorbeeld *goedgekeurd*, *geld gereserveerd*, *verzonden*, *geleverd*, *geaccepteerd*, *betwist* en *afgerekend*. Bij annulering of een gegrond geschil komt de reservering vrij. Bij mogelijke fraude blijft zichtbaar dat het product niet is geaccepteerd en hoeft gereserveerd eigen geld niet eerst als schuld te worden geïncasseerd. Dit sluit al behoorlijk aan bij hoe de levering nu al wordt gevolgd bij de meeste bezorgers. 
 
-De winkel hoeft daarbij niet iemands volledige financiële situatie te zien. Een bank of kredietverstrekker kan de grens bepalen, een beperkte infrastructuur kan reserveringen bijhouden en een afzonderlijk leverings- of geschillenproces kan bewijs beoordelen. Uitvoering hoort waar de toestand verandert; toezicht hoort bij een partij die niet aan zoveel mogelijk transacties verdient.
+De winkel hoeft nooit iemands financiële situatie te zien. Een bank of kredietverstrekker kan de grens bepalen, een beperkte infrastructuur kan krediet limieten en reserveringen bijhouden, en een afzonderlijk leverings- of geschillenproces kan bewijs beoordelen. In de regel: uitvoering hoort waar de toestand verandert, en toezicht hoort bij een partij die zelf geen financieel belang heeft.
 
 ### Hoe de oplossing de zes betaalvormen verwerkt
 
