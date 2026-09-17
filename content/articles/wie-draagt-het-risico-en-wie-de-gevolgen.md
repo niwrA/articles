@@ -99,9 +99,9 @@ De gebruikelijke betaalvormen combineren die functies op verschillende manieren:
 
 Stel dat schoenen €500 kosten en de koper €2.000 bezit. De bank kan €500 apart zetten. Het saldo blijft zichtbaar, maar nog slechts €1.500 is vrij te besteden. De winkel weet dat betaling beschikbaar is en ontvangt het bedrag nadat levering volgens de afgesproken regels is geaccepteerd. Er ontstaat geen lening. Je kunt het geld niet twee keer uitgeven. Maar het is ook niet overgemaakt voordat de goederen zijn ontvangen.
 
-Heeft de koper niet genoeg geld, wordt het te lenen bedrag gereserveerd. En stel de koper heeft 200 euro die nu wel gemist kunnen worden, maar wil de ontbrekende €300 op krediet, dan zou dat ook nog kunnen in dit model. Eigen geld, gereserveerd geld en schuld blijven afzonderlijk zichtbaar.
+Heeft de koper niet genoeg geld, wordt het te lenen bedrag gereserveerd. En stel de koper heeft 200 euro die nu wel gemist kunnen worden, maar wil de ontbrekende €300 op krediet, dan zou dat ook nog kunnen in dit model. Eigen geld, gereserveerd geld en schuld blijven afzonderlijk zichtbaar. Dit model past bij het advies van de AFM: dat achteraf betalen zekerheid kan bieden, maar ook een lening en risico op schuldstapeling meebrengt, en ze dus betaalvormen aanmoedigt die dezelfde zekerheid biedt zonder leningcomponent.[1]
 
-Dit model past bij het advies van de AFM: dat achteraf betalen zekerheid kan bieden, maar ook een lening en risico op schuldstapeling meebrengt, en ze dus betaalvormen aanmoedigt die dezelfde zekerheid biedt zonder leningcomponent.[1]
+Daarnaast zou je net zoals dat je soms kunt aangeven hoeveel je rood wil kunnen staan of per dag online mag betalen of contact opnemen, in kunnen stellen hoeveel overkoepelende kredietruimte je mag hebben. Daar kunnen wettelijke grenzen of standaarden bovenop komen, eventueel gekoppeld aan leeftijd, eventueel gebaseerd op de regels en adviezen die er nu al zijn voor de vormen van krediet en BKR regels die er nu al zijn. 
 
 ### De uitvoering
 
