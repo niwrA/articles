@@ -1,6 +1,6 @@
 ---
 title: "Betalen: wie draagt het risico — en wie de gevolgen?"
-description: Een voorstel om zichtbaar te maken hoeveel geld werkelijk vrij is, hoeveel schuld ontstaat en bij wie de gevolgen van financiële keuzes terechtkomen.
+description: Een onderzoek naar de werkelijke kosten van lenen en betalen, met voorstellen en modellen.
 date: 2026-09-17
 updated: 2026-09-17
 tags: [Economie, Financiën, Systemen, Verantwoordelijkheid]
