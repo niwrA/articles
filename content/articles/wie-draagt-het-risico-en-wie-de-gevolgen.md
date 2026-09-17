@@ -2,6 +2,7 @@
 title: "Betalen: wie draagt het risico — en wie de gevolgen?"
 description: Een voorstel om zichtbaar te maken hoeveel geld werkelijk vrij is, hoeveel schuld ontstaat en bij wie de gevolgen van financiële keuzes terechtkomen.
 date: 2026-09-17
+updated: 2026-09-17
 tags: [Economie, Financiën, Systemen, Verantwoordelijkheid]
 translationKey: risk-and-responsibility
 featuredImage: /images/artikelen/risk-and-responsibility/risk-and-responsibility.webp
@@ -64,147 +65,124 @@ modelLimitations:
 draft: false
 ---
 
-Achteraf betalen biedt een reëel voordeel: je hoeft een verkoper niet definitief te betalen voordat je weet dat het product is aangekomen. Maar dezelfde knop kan ook een lening verbergen. Wie €2.000 op de rekening ziet terwijl €700 aan latere afschrijvingen klaarstaat, heeft economisch geen €2.000 meer vrij te besteden.
+Achteraf betalen lost een herkenbaar probleem op: de koper wil niet definitief betalen voordat duidelijk is dat het juiste product is aangekomen. Toch kan dezelfde knop ook krediet creëren, kosten uitstellen en risico's verbergen. Dit artikel begint daarom niet bij een betaalproduct of wetsvoorstel, maar bij de functies die een veilig systeem moet vervullen.
 
-Daar lopen twee behoeften door elkaar. Misschien is het geld aanwezig, maar wil de koper zekerheid dat levering en betaling goed op elkaar aansluiten. Misschien ontbreekt het geld en wordt toekomstige koopkracht naar voren gehaald. Alleen dat tweede is **krediet**. Dit artikel kijkt daarom niet naar het etiket van het betaalproduct, maar naar wat iemand werkelijk bezit, reserveert en leent.
-
-Een paar schoenen lijkt een klein vertrekpunt voor een artikel over ondernemingsbestuur en maatschappelijke schade. Toch zit in beide gevallen dezelfde beweging: een voordeel verschijnt op de ene plaats, terwijl risico of gevolgen pas later en mogelijk bij iemand anders zichtbaar worden. De oplossing is niet om alles in één morele score te persen. We hebben twee verschillende, samenhangende bouwlagen nodig:
+Een paar schoenen lijkt een klein vertrekpunt voor een artikel over ondernemingsbestuur en maatschappelijke schade. De verbinding zit in het tijdsverschil: voordeel ontstaat nu, terwijl kosten of risico's later en mogelijk bij iemand anders zichtbaar worden. Op persoonlijke schaal kunnen bedragen exact worden gereserveerd. Op maatschappelijke schaal zijn gevolgen vaak onzeker en alleen als scenario of risicoschaal te beschrijven. Dat verschil is essentieel.
 
 ::RiskResponsibilityLayers{locale="nl"}
 ::
 
-De eerste laag kan relatief hard worden afgedwongen: een euro kan niet tweemaal worden gereserveerd. De tweede blijft deels normatief: hoeveel schade is aanvaardbaar en wie hoort waarvoor verantwoordelijk te zijn? Juist daarom moeten we de twee niet verwarren. Technische veiligheid is noodzakelijk, maar nog geen morele rechtvaardiging.
+## Deel I — Eerst het functionele probleem
 
-## Deel I — Een veilig financieel systeem op persoonlijke schaal
+### Eén betaalknop verbergt meerdere vragen
 
-### Eén aankoop, twee economische handelingen
+Een betaling na levering moet minstens vijf zaken uit elkaar houden. Is het geld al aanwezig of wordt het geleend? Is het bedrag nog vrij te besteden of al aan een andere aankoop toegezegd? Is het juiste product geleverd en geaccepteerd? Wie draagt het verlies bij niet-levering of fraude? En wat gebeurt er wanneer een betaaldatum wordt gemist?
 
-Stel dat schoenen €500 kosten en de koper €2.000 beschikbaar heeft. De bank kan €500 reserveren: het rekeningsaldo blijft zichtbaar, maar het vrij besteedbare bedrag wordt €1.500. De winkel krijgt betalingszekerheid en ontvangt het geld na de afgesproken bevestiging van levering. Economisch hoeft niemand hiervoor geld uit te lenen.
+Die vragen worden nu niet altijd in één samenhangend beeld beantwoord. Een banksaldo kan €2.000 tonen terwijl €700 aan latere afschrijvingen klaarstaat. Verschillende kredietaanbieders kunnen ieder afzonderlijk een aanvraag beoordelen zonder dezelfde actuele vrije ruimte te zien. Een bezorgscan kan bestaan terwijl het verkeerde pakket is geleverd. Een kleine rekening kan na een gemiste termijn relatief sterk groeien door rente en incassokosten. Bij kinderen komt daar nog de vraag bij wie werkelijk toestemming gaf voor een reeks microtransacties.
 
-Heeft de koper slechts €200, dan kunnen die €200 worden gereserveerd en is €300 aanvullende financiering nodig. Alleen dat tekort behoort de kredietwaardigheid en beschikbare kredietcapaciteit te belasten. Eén gebruikerservaring kan zo bestaan uit twee expliciete bronnen in plaats van één ondoorzichtige categorie.
+Het probleem is dus breder dan “kan deze klant €500 lenen?”. Een veilig systeem moet tegelijk omgaan met beschikbaar geld, kredietruimte, gelijktijdige aankopen, levering, betwisting, fraude, toestemming en kosten door de tijd.
 
-Dit onderscheid is niet alleen theoretisch. De AFM schrijft dat BNPL zekerheid bij online aankopen kan bieden, maar ook een lening en risico's op schuldgewenning en schuldenstapeling meebrengt. Zij moedigt daarom betaalvormen aan die dezelfde zekerheid zonder leningcomponent bieden.[1]
+## Deel II — De voorgestelde oplossing
 
-### Wat het wetsvoorstel oplost — en wat niet
+### Reserveer eigen geld en leen alleen het tekort
 
-De herziene Europese richtlijn consumentenkrediet breidt de kredietbescherming uit naar onder meer achteraf betalen.[2] Het Nederlandse implementatiewetsvoorstel lag op 17 september 2026 nog bij de Tweede Kamer; de wetgevingsbehandeling stond gepland voor 28 september. De onderstaande beschrijving gaat dus over het **wetsvoorstel**, niet over reeds vaststaande regels.[7]
+Stel dat schoenen €500 kosten en de koper €2.000 bezit. De bank kan €500 apart zetten. Het saldo blijft zichtbaar, maar nog slechts €1.500 is vrij te besteden. De winkel weet dat betaling beschikbaar is en ontvangt het bedrag nadat levering volgens de afgesproken regels is geaccepteerd. Er ontstaat geen lening.
 
-Het voorstel pakt belangrijke zwakke plekken aan. BNPL-aanbieders komen in beginsel onder de Wet op het financieel toezicht en het toezicht van de AFM. Er komen vergunning- of registratieplichten, uitgebreidere informatie- en instemmingseisen en gedragsregels voor aanbieders. Vooraf moet de kredietwaardigheid worden beoordeeld aan de hand van relevante inkomsten en uitgaven, evenredig aan aard, looptijd, waarde en risico van het krediet. Daarbij worden kredietdatabanken zoals BKR gebruikt. Ook bevat het voorstel waarborgen rond beloningsprikkels, vroegtijdige signalering van betalingsproblemen en toegang tot buitengerechtelijke geschilbeslechting.[8]
+Heeft de koper maar €200 beschikbaar, dan wordt dat bedrag gereserveerd en is alleen de ontbrekende €300 krediet. Eigen geld, gereserveerd geld en schuld blijven zo afzonderlijk zichtbaar. De AFM wijst er eveneens op dat achteraf betalen zekerheid kan bieden, maar ook een lening en risico op schuldstapeling meebrengt; zij moedigt betaalvormen aan die dezelfde zekerheid zonder leningcomponent bieden.[1]
 
-Voor minderjarigen repareert het voorstel vooral een verschil tussen norm en uitvoering. BNPL-krediet mocht hun in beginsel al niet worden verstrekt en de branchecode stelde de minimumleeftijd al op achttien jaar. Toch vond de AFM over 2023 bijna 600.000 iDEAL-transacties via rekeningen van minderjarigen die aan BNPL-aanbieders konden worden gekoppeld. Het ging hoofdzakelijk om 13- tot en met 17-jarigen en gemiddeld om ongeveer €50. De AFM formuleerde dit voorzichtig als mogelijk ongeoorloofd gebruik en vermoedde dat bestaande leeftijdscontroles werden omzeild. De Nederlandse implementatie maakt het verbod expliciet en verplicht aanbieders tot effectieve leeftijdsverificatie.[9] De cijfers gelden voor de BNPL-sector als geheel en mogen niet zonder nadere gegevens uitsluitend aan Klarna of een andere aanbieder worden toegeschreven.
+### Een controle moet de beschikbare ruimte meteen veranderen
 
-Daarmee kan de wet eerder zichtbaar maken dat iemand te veel of bij meerdere partijen leent. Dat is materieel: vier aanbieders verwerkten volgens de AFM in 2024 ongeveer 53 miljoen transacties ter waarde van €5,1 miljard. Bij frequente gebruikers onder 35 jaar betaalde 65 procent binnen één maand aan meerdere BNPL-aanbieders.[1]
+Stel dat iemand nog €500 kan lenen en twee winkels vrijwel tegelijk €400 aanvragen. Als beide dezelfde oude stand lezen, kunnen ze allebei toestemming geven. Een gedeeld capaciteitsregister moet daarom werken als **CONTROLEREN → RESERVEREN → VASTLEGGEN**. Na de eerste reservering ziet de tweede winkel nog maar €100. Gaat de eerste aankoop niet door, dan komt de ruimte weer vrij.
 
-Maar het voorstel maakt voor zover nu bekend geen principieel onderscheid tussen **leveringszekerheid met reeds aanwezig eigen geld** en krediet. Het introduceert ook geen gedeelde real-time reservering van vrije capaciteit, geen transactietoestand die levering en afrekening aan elkaar koppelt en geen mechanisme dat alleen een werkelijk tekort als schuld aanmerkt. BKR registreert verplichtingen en achterstanden, maar is niet het transactionele overzicht van actuele vrije ruimte dat hier wordt verkend.[3] De wetswijziging verbetert dus de bescherming rond krediet; het model vraagt daarnaast of een deel van wat nu als krediet wordt aangeboden beter als reservering en voorwaardelijke afrekening kan worden ontworpen.
+Dit is een ontwerpvoorstel en geen bestaand Nederlands systeem. Het moet worden getest en roept vragen op over privacy, storingen, foutieve blokkades en uitsluiting. De kern is eenvoudiger: een controle die de gebruikte ruimte niet meteen reserveert, kan bij gelijktijdige aanvragen een juist antwoord geven op verouderde informatie.
 
-### Gratis zolang alles op tijd gaat
+### Koppel betaling aan de toestand van de bestelling
 
-De prijs van uitgesteld betalen is niet alleen het geleende bedrag. Veel BNPL-transacties worden zonder rente aangeboden zolang de klant binnen de termijn betaalt. Zodra een termijn wordt gemist, kunnen kosten en escalatie volgen. In 2024 stelden BNPL-aanbieders klanten volgens de AFM circa 6,9 miljoen keer in gebreke, brachten zij bij 1,8 miljoen transacties aanmaningskosten in rekening en droegen zij ongeveer 600.000 transacties over aan een incassobureau.[14] Bij drie grote e-commerceplatforms moesten bovendien bijna 900.000 klanten aanmaningskosten betalen. Het gaat dus niet om een zeldzame randgebeurtenis.
+Ook levering is geen ja-neevraag. Een bruikbare keten onderscheidt bijvoorbeeld *goedgekeurd*, *geld gereserveerd*, *verzonden*, *geleverd*, *geaccepteerd*, *betwist* en *afgerekend*. Bij annulering of een gegrond geschil komt de reservering vrij. Bij mogelijke fraude blijft zichtbaar dat het product niet is geaccepteerd en hoeft gereserveerd eigen geld niet eerst als schuld te worden geïncasseerd.
 
-Bij consumentenincasso gelden wettelijke stappen. Voordat incassokosten mogen worden gerekend, moet de schuldeiser ten minste één betalingsherinnering sturen en veertien dagen geven om alsnog te betalen. Daarna bedragen de wettelijke incassokosten minimaal €40; daarnaast kan rente verschuldigd zijn.[15] Voor een kleine oorspronkelijke aankoop kan €40 een zeer grote relatieve opslag zijn. Het alledaagse woord *boete* is begrijpelijk, maar juridisch gaat het vaak om aanmaningskosten, rente en incassokosten, elk met eigen voorwaarden.
+De winkel hoeft daarbij niet iemands volledige financiële situatie te zien. Een bank of kredietverstrekker kan de grens bepalen, een beperkte infrastructuur kan reserveringen bijhouden en een afzonderlijk leverings- of geschillenproces kan bewijs beoordelen. Uitvoering hoort waar de toestand verandert; toezicht hoort bij een partij die niet aan zoveel mogelijk transacties verdient.
 
-Dit verandert ook de ontwerpvraag. Een kredietlimiet zegt alleen hoeveel hoofdsom iemand kan dragen, niet wat er gebeurt bij een gemiste datum. Een veiliger systeem maakt daarom vóór de aankoop zichtbaar welke kosten kunnen volgen, waarschuwt tijdig via een kanaal dat de klant daadwerkelijk bereikt en biedt een redelijke herstelroute voordat kosten zich opstapelen. De AFM vond eerder dat een eenvoudige sms-herinnering het aandeel klanten met te late betaling en kosten met ongeveer een vijfde kon verminderen.[9] Dat wijst erop dat betalingsachterstand niet alleen een eigenschap van de klant is, maar mede wordt beïnvloed door het ontwerp van herinneringen en herstel.
+## Deel III — Wat het wetsvoorstel wel en niet doet
 
-De interactieve verkenner laat dit vereenvoudigd zien. Per bestelling kun je een vervaldatum en betaaldatum instellen. Na de wettelijke hersteltermijn telt het model incassokosten mee. Bij de huidige situatie en het wetsvoorstel gelden die over het hele kredietbedrag; in het reserveringsmodel alleen over het deel dat werkelijk is geleend. Rente en aanbiederspecifieke kosten zijn nog niet opgenomen. Zo blijft zichtbaar dat twee betaalvormen met dezelfde aankoopprijs toch heel anders kunnen uitpakken.
+De herziene Europese richtlijn consumentenkrediet brengt onder meer achteraf betalen nadrukkelijker onder kredietbescherming.[2] Op 17 september 2026 lag de Nederlandse implementatie nog als wetsvoorstel bij de Tweede Kamer. De precieze uitwerking kan dus veranderen.[7]
 
-### Minderjarigen, microtransacties en ouderlijke betaalmiddelen
+Het voorstel pakt belangrijke problemen aan. Aanbieders komen in beginsel onder financieel toezicht, moeten kredietwaardigheid beoordelen, duidelijker informeren en instemming vastleggen. Ook bevat het regels rond beloningsprikkels, betalingsproblemen, geschillen en effectieve leeftijdsverificatie.[8] Dat laatste is relevant omdat de AFM over 2023 bijna 600.000 mogelijk ongeoorloofde BNPL-transacties via rekeningen van minderjarigen vond.[9]
 
-Effectieve leeftijdscontrole bij BNPL sluit een ander risico niet af. Een kind kan via een ouderlijk account, een opgeslagen betaalkaart, een appwinkel of eerder gekochte spelvaluta veel kleine bedragen uitgeven zonder zelf een kredietovereenkomst aan te gaan. Juridisch is niet iedere aankoop automatisch voor rekening van de ouder. Minderjarigen hebben meestal toestemming nodig voor overeenkomsten, behalve bij aankopen die voor hun leeftijd gebruikelijk zijn; ongebruikelijke aankopen kunnen vaak worden teruggedraaid.[10] Praktisch kan het geld ondertussen wel rechtstreeks via het account of betaalmiddel van de ouder zijn verdwenen, waarna toestemming en herstel moeten worden betwist.
+De wet behandelt achteraf betalen echter hoofdzakelijk als krediet. Zij maakt voor zover nu bekend geen afzonderlijk systeem voor leveringszekerheid met reeds aanwezig eigen geld. Ook creëert zij geen gedeelde reservering die twee gelijktijdige aanbieders onmiddellijk dezelfde resterende ruimte laat zien, en geen gezamenlijke transactietoestand voor levering, betwisting en afrekening. BKR registreert verplichtingen en achterstanden, maar vervult die functie niet.[3] Het wetsvoorstel en dit ontwerp overlappen dus, maar lossen niet hetzelfde probleem op.
 
-Microtransacties voegen een ontwerprisico toe. Een aankoop van enkele euro's lijkt beperkt, maar opeenvolgende betalingen kunnen samen aanzienlijk worden. Virtuele valuta en meerdere omwisselingen verbergen bovendien gemakkelijk de prijs in echt geld. Europese consumententoezichthouders adviseren daarom onder meer prijzen ook in echte valuta te tonen, uitgaven met echt geld standaard uit te schakelen in spellen die niet uitsluitend voor volwassenen zijn en bruikbare ouderlijke controles te bieden. Zij benadrukken tegelijk dat zulke controles de verantwoordelijkheid van aanbieders niet vervangen.[11]
+## Deel IV — Aansluiting bij bestaande situaties
 
-Dat laatste is geen theoretisch bezwaar. De ACM beboette Epic wegens praktijken in Fortnite die kinderen rechtstreeks tot kopen aanzetten en met misleidende timers tijdsdruk en schaarste opriepen.[12] Voor dit artikel volgt daaruit een bredere ontwerpregel: controleer niet alleen of één betaling technisch mogelijk is, maar ook wat een reeks kleine betalingen doet, wie werkelijk toestemming gaf en welke gedragsprikkels de aanbieder bewust heeft ingebouwd. Denk aan een afzonderlijk kinderbudget, cumulatieve dag- of maandgrenzen, opnieuw toestemming vragen boven een drempel en een helder bedrag in euro's naast iedere virtuele prijs.
+### Creditcards bewijzen dat reserveren praktisch mogelijk is
 
-### Creditcards laten zien dat reserveren al bestaat
+Bij een creditcard vraagt de verkoper eerst autorisatie en verlaagt de kaartuitgever de beschikbare limiet met een tijdelijke reservering. Later wordt die een geboekte transactie. Bij annulering kan de reservering vervallen; bij niet-levering of fraude kan een geschil of chargeback volgen. Een prepaidkaart gebruikt eigen geld, een kaart met maandaflossing tijdelijk krediet en een revolving creditcard krediet dat langer kan blijven staan en rente kan dragen.[13]
 
-Het voorgestelde toestandsmodel is voor creditcards niet geheel nieuw. Bij een kaartbetaling vraagt de verkoper doorgaans eerst autorisatie. De kaartuitgever verlaagt vervolgens de beschikbare kaartlimiet met een tijdelijke reservering. Wanneer de verkoper de betaling definitief indient, wordt de reservering een geboekte transactie en uiteindelijk een openstaand kaartsaldo. Bij annulering kan de reservering vervallen; bij niet-levering of fraude kan na boeking een betwisting of chargeback volgen.
+Het voorstel breidt dat bekende principe uit: ook andere relevante kredietbeslissingen zouden dezelfde actuele verplichting moeten meenemen. De kaartreservering en de vermelding in het bredere register zijn dan twee weergaven van hetzelfde bedrag, geen twee schulden. Het interactieve model vereenvoudigt dit nog tot eigen geld en één algemene kredietruimte.
 
-Daarbij moeten drie vormen uit elkaar blijven. Een prepaidkaart gebruikt geld dat vooraf al van de gebruiker is en lijkt economisch op de reservering van eigen geld. Een creditcard met volledige maandaflossing creëert tijdelijk krediet dat op een vaste datum wordt afgeschreven. Bij een revolving creditcard kan de schuld langer blijven staan en rente dragen. Het Nederlandse CCDII-voorstel brengt ook creditcards met maandelijkse aflossing verder onder de kredietregels, zij het met enkele uitzonderingen om het product uitvoerbaar te houden.[13]
+### Te laat betalen maakt het tijdsverloop zichtbaar
 
-Een breder capaciteitsregister zou een creditcardautorisatie daarom vanaf het eerste moment als gebruikte kredietruimte moeten zien. De reservering bij de kaartuitgever en de vermelding in het bredere register zijn geen twee schulden, maar twee perspectieven op dezelfde verplichting. Bij definitieve boeking verandert alleen de toestand: *beschikbaar* → *gereserveerd* → *geboekt* → *afgelost* of *betwist*. De meerwaarde ten opzichte van de huidige kaartadministratie is dat ook andere relevante kredietbeslissingen de actuele verplichting kunnen meenemen, binnen duidelijke privacy- en toegangsgrenzen.
+Achteraf betalen lijkt vaak gratis zolang alles op tijd gaat. In 2024 stelden BNPL-aanbieders klanten volgens de AFM ongeveer 6,9 miljoen keer in gebreke, rekenden zij bij 1,8 miljoen transacties aanmaningskosten en droegen zij circa 600.000 transacties over aan incassobureaus.[14] Voor wettelijke incassokosten moet eerst een herinnering en hersteltermijn van veertien dagen volgen. Daarna geldt een minimum van €40 en kan ook rente verschuldigd zijn.[15]
 
-De huidige verkenner abstraheert dit nog. Zij verdeelt iedere aankoop eerst over eigen geld en vervolgens over één algemene kredietruimte. Er is nog geen afzonderlijke betaalwijze, kaartlimiet, autorisatie of maandelijkse afschrijving. Een latere uitbreiding kan daarom per transactie laten kiezen tussen eigen geld, BNPL, een creditcard, een revolving creditcard en prepaid. Een hotelreservering zou daarbij een goed voorbeeld zijn: het hotel blokkeert tijdelijk een bedrag, terwijl de definitieve afrekening later en mogelijk voor een ander bedrag volgt.
+Een veiliger ontwerp toont die mogelijke gevolgen vóór de aankoop en waarschuwt tijdig. De AFM vond dat een eenvoudige sms-herinnering het aandeel klanten met te late betaling en kosten met ongeveer een vijfde kon verminderen.[9] Het model rekent incassokosten vereenvoudigd door: over het hele kredietbedrag in de huidige situatie en het wetsvoorstel, maar alleen over het werkelijk geleende deel in het reserveringsmodel.
 
-### Controleren is niet genoeg: reserveren moet meteen
+### Minderjarigen en microtransacties vragen aanvullende bescherming
 
-Een register kan bestaande verplichtingen tonen. Wil het voorkomen dat dezelfde vrije ruimte tweemaal wordt toegezegd, dan moet het ook gelijktijdigheid afhandelen. Stel dat iemand €500 kredietruimte over heeft en vrijwel tegelijk €400 aanvraagt bij A en €400 bij B. Wanneer beide aanbieders alleen de oude stand lezen, kunnen beide correct lijken te handelen en samen toch €800 creëren.
+Leeftijdscontrole bij krediet voorkomt niet dat een kind via een ouderlijk account, opgeslagen betaalmiddel of spelvaluta veel kleine aankopen doet. Virtuele munten kunnen de prijs in euro's verhullen en losse kleine bedragen kunnen samen groot worden. Europese toezichthouders adviseren daarom prijzen in echte valuta, bruikbare ouderlijke controle en het standaard uitschakelen van echt-gelduitgaven in spellen die niet uitsluitend voor volwassenen zijn.[11]
 
-Een gedeeld capaciteitsregister zou daarom werken als **CONTROLEREN → RESERVEREN → VASTLEGGEN**. Zodra A €400 reserveert, ziet B nog €100. Gaat A niet door, dan vervalt de reservering. Zo'n gedeeld systeem bestaat nu niet in deze vorm. Het moet eerst worden getest en roept belangrijke vragen op over bestuur, storingen, betwisting, privacy en uitsluiting. Het voorbeeld laat vooral zien waarom alleen registreren niet genoeg is.
+De ACM beboette Epic wegens technieken in Fortnite die kinderen rechtstreeks tot kopen aanzetten en kunstmatige tijdsdruk opriepen.[12] Dit vraagt naast transactieveiligheid om cumulatieve limieten, hernieuwde toestemming boven een grens en bescherming tegen manipulatief ontwerp. Ouderlijke controle helpt, maar vervangt de verantwoordelijkheid van de aanbieder niet.[10]
 
-Hetzelfde mechanisme kan eigen geld verwerken als **RESERVEREN → LEVEREN → AFREKENEN**. De koper kan het bedrag niet dubbel uitgeven; de verkoper weet dat betaling beschikbaar is; overdracht volgt pas op de afgesproken toestand. Een levering is natuurlijk geen enkelvoudig feit. Een scan kan de verkeerde doos bij de verkeerde deur bevestigen. Een bruikbare keten kent daarom bijvoorbeeld de statussen *goedgekeurd*, *geld gereserveerd*, *verzonden*, *geleverd*, *geaccepteerd*, *betwist* en *afgerekend*, met bewijs- en bezwaarregels die passen bij waarde en risico.
-
-:::ModelDisclosure{title="Interactief model: wetsvoorstel en reserveringsmodel" description="Vergelijk de huidige situatie, een schematische toepassing van het CCDII-wetsvoorstel en het voorgestelde reserveringsmodel. Koppel per bestelling levering, betwisting en betaling en volg de openstaande reservering en schuld."}
+:::ModelDisclosure{title="Interactief model: van aankoop tot afrekening" description="Voeg transacties toe en vergelijk de huidige situatie, een schematische toepassing van het CCDII-wetsvoorstel en het reserveringsmodel. Het model toont levering, krediet, fraude, betaaldatums en incassokosten vereenvoudigd."}
 ::RiskResponsibilityExplorer{locale="nl" mode="transaction"}
 ::
 :::
 
-### Handhaving waar de toestand verandert
+## Deel V — Kan hetzelfde beginsel op grotere schaal werken?
 
-De winkel hoeft niet te weten waarom een betaling is goedgekeurd. Een betaalprovider kan orkestreren, een bank of kredietverstrekker kan capaciteit beoordelen, een onafhankelijke infrastructuur kan reserveringen bijhouden en een bezorg- of geschillenproces kan bewijs leveren. Toezichthouders bewaken afhankelijk van de inrichting gedrag, soliditeit, mededinging en rechten.
+Bij een consument kan €500 letterlijk worden gereserveerd. Bij een fabriek, bank of infrastructuurproject is het toekomstige risico geen precies bedrag. Schade hangt af van markten, storingen, gedrag en zeldzame scenario's. Opschaling betekent daarom niet dat ieder mogelijk verlies vooraf exact op een rekening wordt geblokkeerd.
 
-Daaruit volgt een nuttig principe: **plaats uitvoering waar de toestand verandert, maar toezicht waar de prikkels onafhankelijk zijn**. De partij die aan meer transacties verdient, hoort niet zonder tegenmacht te bepalen hoeveel risico acceptabel is. Tegelijk is een centrale databak niet vanzelf beter. Een ontwerp moet informatie scheiden, alleen noodzakelijke antwoorden teruggeven en herstel mogelijk maken wanneer data of besluiten fout zijn.
+Wel kan een onderneming blootstelling vergelijken met haar balans, liquiditeit, buffers en herstelvermogen. Voor verschillende scenario's kan zij een risicoschaal gebruiken: hoe groot kan de schade worden, hoe waarschijnlijk is zij, wanneer wordt zij zichtbaar en wie kan haar dragen? DNB gebruikt bij derivaten bijvoorbeeld niet alleen nominale posities, maar ook stresstests, liquiditeitsbehoefte en buffers.[4] Het overeenkomstige beginsel is dat aangegane risico's de resterende draagkracht zichtbaar moeten verkleinen, ook wanneer de precieze uitkomst onzeker is.
 
-Iemands maximale kredietruimte hoeft niet ieder uur te veranderen, maar nieuwe reserveringen wel. Een gereguleerde partij kan daarom periodiek een bovengrens bepalen; het register houdt vervolgens direct bij welk deel daarvan al is gebruikt. Een vrijwillige persoonlijke limiet kan lager liggen dan het toegestane maximum. Eigen geld blijft bruikbaar, ook wanneer er geen ruimte is voor een nieuwe lening.
+## Deel VI — Wat niet direct op de balans verschijnt
 
-## Deel II — Een moreel en bestuurlijk systeem op maatschappelijke schaal
+### Toekomstige waarde, milieuschade en andere verborgen kosten
 
-### Ook een financieel veilig systeem kan op lange termijn onrechtvaardig uitpakken
+Een financieel haalbaar project kan op lange termijn toch waarde vernietigen. Achterstallig onderhoud kan winst nu verhogen en storingen later veroorzaken. Vervuiling kan buiten de onderneming bij omwonenden of toekomstige generaties belanden. Een keuze met €20 miljoen private winst en €30 miljoen schade elders ziet er op de bedrijfsbalans positief uit, maar maatschappelijk niet.
 
-Financiële capaciteit beantwoordt niet wie profiteert en wie de gevolgen draagt. Een onderneming kan een project ruim betalen terwijl vervuiling bij omwonenden belandt. Een bestuurder kan worden beloond voor winst die nu zichtbaar is, terwijl onderhoudsrisico of gezondheidsschade pas na zijn vertrek verschijnt. Een derivaat kan bestaand risico afdekken, maar ook een sterke uitbetaling creëren bij schade waar de houder invloed op heeft.
+Daarom zijn naast financiële capaciteit vijf vragen nodig: wie ontvangt het voordeel, wie beslist, wie kan de uitkomst beïnvloeden, wie draagt de gevolgen en wanneer worden die zichtbaar? Niet ieder effect laat zich betrouwbaar in euro's uitdrukken. Scenario's en afzonderlijke risicoschalen zijn eerlijker dan één schijnbaar precieze morele score.
 
-Daarom is een tweede overzicht nodig — niet als centrale database, maar als manier om de vragen te ordenen. Het houdt afzonderlijk zichtbaar:
+### Managementbeloning kan tijd en verantwoordelijkheid losmaken
 
-- **voordeel:** wie ontvangt geld, status of bescherming;
-- **macht:** wie kan de kans of omvang van de uitkomst beïnvloeden;
-- **gevolgen:** wie draagt financieel, lichamelijk, sociaal of ecologisch verlies;
-- **aanspreekbaarheid:** wie moet uitleg geven, herstellen of betalen;
-- **tijd:** wanneer voordeel en gevolgen zichtbaar worden.
+Salaris, aandelen en opties verdelen opwaarts en neerwaarts risico verschillend. Een bestuurder kan nu voor winst worden beloond terwijl onderhouds-, gezondheids- of milieurisico pas na vertrek zichtbaar wordt. Uitgestelde beloning, terugvordering, persoonlijke aansprakelijkheid, onafhankelijke controle en vooraf gevormde buffers kunnen voordeel en verantwoordelijkheid langer aan elkaar koppelen.
 
-Die variabelen mogen niet verdwijnen in één magische score. Een lage eindscore kan anders verhullen dat grote externe schade wordt gecompenseerd door een arbitrair gewicht. De verkenner hieronder houdt daarom de onderliggende aannames zichtbaar en plaatst directe prikkels naast later optredende schade en waarborgen.
+Dat is geen pleidooi voor onbeperkte persoonlijke aansprakelijkheid. Besluitvorming vereist ruimte om verantwoorde risico's te nemen. Het doel is te voorkomen dat iemand voorspelbare langetermijnschade kan negeren, de kortetermijnwinst persoonlijk ontvangt en de latere rekening volledig bij het bedrijf, aandeelhouders of samenleving achterlaat.
 
 :::ModelDisclosure{title="Interactief model: beloning, schade en aanspreekbaarheid door de tijd" description="Onderzoek hoe directe en uitgestelde beloning, financiële buffers, toezicht en persoonlijke verantwoordelijkheid de verdeling van gevolgen veranderen."}
 ::RiskResponsibilityExplorer{locale="nl" mode="governance"}
 ::
 :::
 
-### Afdekking, speculatie en perverse prikkels
+## Deel VII — Twee toepassingen brengen de lagen samen
 
-Een putoptie is niet moreel verdacht doordat zij in waarde stijgt wanneer een aandeel daalt. Voor een belegger kan zij precies het risico begrenzen dat elders al bestaat. Derivaten kunnen tegelijk nieuwe liquiditeitsbehoeften veroorzaken wanneer onderpand moet worden bijgestort; DNB behandelt daarom niet alleen nominale posities maar ook stresstests, buffers en beheersing.[4] Short selling kan informatie in prijzen brengen en overwaardering zichtbaar maken. De relevante vraag is niet alleen *wie verdient aan een daling?*, maar ook *welke onderliggende positie wordt afgedekt, welke invloed heeft de partij op de uitkomst en kan haar winst de schade voor anderen vergroten?*
+### Achteraf betalen
 
-Hetzelfde geldt voor beloning. Salaris, aandelen en opties hebben verschillende uitbetalingscurves. Opties kunnen opwaarts potentieel belonen zonder symmetrisch neerwaarts verlies. Aandelen geven meer neerwaartse blootstelling, maar kunnen nog steeds kortetermijngedrag stimuleren wanneer verkoop vroeg mogelijk is en gevolgen laat verschijnen. Clawbacks, uitgestelde beloning en aansprakelijkheid zijn pogingen om tijd en aanspreekbaarheid opnieuw te koppelen; hun werking hangt af van de concrete voorwaarden.
+Een aanbieder is niet verantwoordelijk voor iedere aankoop van een klant. Hij is wel verantwoordelijk voor voorzienbare effecten van zijn productontwerp op schaal. De aanbieder bepaalt limieten, herinneringen en interfaces, verdient aan gebruik en kan patronen zien die een individuele winkel niet ziet. Volgens de AFM moeten financiële ondernemingen bij productontwikkeling aantoonbaar kijken naar doelgroep, werking in verschillende scenario's, klantbelang en herbeoordeling.[5] OECD-richtlijnen vragen ondernemingen daarnaast negatieve gevolgen van hun producten en diensten te onderzoeken en beperken.[6]
 
-Externe effecten maken het verschil het scherpst. Als een keuze €20 private winst en €30 schade elders oplevert, is de private uitkomst positief maar de maatschappelijke uitkomst €10 negatief. Dat rekenvoorbeeld bewijst niet hoe ieder effect in euro's moet worden gewaardeerd. Het toont waarom een boekhouding die alleen de beslisser volgt structureel onvolledig is.
+De relevante vraag is dus niet of één paar schoenen moreel mocht worden gekocht, maar of het systeem stapeling, impulsief gebruik of schade bij kwetsbare groepen voorzienbaar bevordert en hoe de aanbieder daarop reageert. Hier komen persoonlijke financiële veiligheid en verantwoordelijkheid op systeemniveau samen.
 
-### Waarvoor is een aanbieder van achteraf betalen verantwoordelijk?
+### Afdekking en speculatie
 
-Een kredietaanbieder is niet automatisch verantwoordelijk voor alles wat een klant met geleend geld koopt. De klant, verkoper en producent behouden ieder hun eigen handelingsruimte. Toch zou het te gemakkelijk zijn wanneer de aanbieder zich als neutrale betaalpijp beschouwt. Hij bepaalt hoe de keuzes worden aangeboden, stelt acceptatieregels en limieten vast, verdient aan gebruik en kan in verzamelde gegevens patronen zien die een individuele winkel of consument niet ziet.
+Een putoptie is niet verkeerd omdat zij stijgt wanneer een aandeel daalt; zij kan een bestaand risico juist begrenzen. De analyse verandert wanneer een partij veel verdient aan schade die zij zelf kan beïnvloeden. Dan moeten onderliggende positie, beslissingsmacht, mogelijke schade en aanspreekbaarheid gezamenlijk worden bekeken. Hetzelfde instrument kan dus nuttige afdekking of een perverse prikkel vormen, afhankelijk van de relatie tussen voordeel, macht en gevolgen.
 
-Daar bestaat al een juridisch en bestuurlijk aanknopingspunt voor. Volgens de AFM moeten financiële ondernemingen bij het ontwerpen en aanbieden van een product aantoonbaar kijken naar de doelgroep, de werking in verschillende situaties, het klantbelang en regelmatige herbeoordeling. Hoe complexer en ingrijpender het product, hoe grondiger die afweging behoort te zijn.[5] OECD-richtlijnen voegen daaraan toe dat ondernemingen negatieve gevolgen van hun activiteiten, producten en diensten moeten onderzoeken en beperken.[6]
+## Wat zou het voorstel beperken of weerleggen?
 
-Daaruit volgt nog niet dat PayLaterCo iedere aankoop vooraf moreel moet goedkeuren; dat zou paternalistisch, privacygevoelig en onuitvoerbaar kunnen worden. Een proportionele verantwoordelijkheid ligt eerder op product- en systeemniveau: onderzoek of het ontwerp problematische stapeling, impulsief gebruik of concentratie bij kwetsbare groepen bevordert; publiceer relevante uitkomsten; pas limieten en interfaces aan; en laat onafhankelijk toetsen of commerciële prikkels het klantbelang verdringen. De kernvraag wordt dan niet *had deze ene aankoop verboden moeten worden?*, maar *welke voorzienbare gedragseffecten creëert deze financiële infrastructuur op schaal, en wat heeft de aanbieder gedaan toen die zichtbaar werden?*
+Een proef moet uitwijzen of een gedeeld register werkelijk minder betalingsproblemen, dubbele toezeggingen en onnodige leningen oplevert dan eenvoudigere oplossingen. Mogelijk bereiken gewone bankreserveringen, bestaande kredietregistratie en een duidelijker saldo vrijwel hetzelfde tegen lagere kosten. Een centraal overzicht kan door fouten, uitval of privacyproblemen ook nieuwe schade veroorzaken.
 
-### Twee assen in plaats van één oordeel
-
-De analyse eindigt daarom met twee onafhankelijke vragen:
-
-1. **Veiligheid:** past de mogelijke blootstelling binnen financiële en operationele draagkracht?
-2. **Afstemming:** blijven voordeel en beslissingsmacht verbonden met gevolgen en aanspreekbaarheid?
-
-Dat levert vier situaties op. Een handeling kan op beide assen redelijk geborgd zijn. Zij kan financieel te groot zijn zonder duidelijke belangentegenstelling. Zij kan perfect betaalbaar zijn maar schade afwentelen. Of zij kan zowel capaciteit overschrijden als verantwoordelijkheid ontkoppelen. Vooral die laatste categorie verdient vroege interventie, maar ook de derde verdwijnt niet doordat de balans sterk genoeg is.
-
-### Wat zou deze hypothese weerleggen of beperken?
-
-Het voorstel wordt niet sterker door alleen voordelen te verzamelen. Een proef moet uitwijzen of het gedeelde register werkelijk minder betalingsproblemen, dubbele toezeggingen en onnodige leningen oplevert dan eenvoudiger oplossingen. Mogelijk bereiken bankreserveringen, bestaande kredietregistratie en een duidelijker banksaldo vrijwel hetzelfde tegen lagere kosten. Ook kan één centraal overzicht door foutieve blokkades of privacyrisico's juist meer schade veroorzaken dan het voorkomt.
-
-Ook het belangenkader moet iets toevoegen boven bestaande boekhouding, toezicht en aansprakelijkheid. Dat kan worden getoetst door vooraf te voorspellen welke besluiten het als problematisch markeert en die uitkomsten te vergelijken met onafhankelijke casusanalyses. Wanneer de categorieën achteraf naar iedere gewenste conclusie kunnen worden gebogen, is het geen bruikbaar model.
+Ook het tweede model moet aantoonbaar iets toevoegen boven bestaande boekhouding, toezicht en aansprakelijkheid. Dat kan worden getoetst door vooraf vast te leggen welke situaties het als riskant aanwijst en die voorspellingen met onafhankelijke casusanalyses te vergelijken. Een kader dat achteraf naar iedere gewenste conclusie kan worden gebogen, is niet bruikbaar.
 
 ## Conclusie
 
-Veel economische producten maken een transactie eenvoudiger door verschillende functies achter één knop te verbergen. Dat is prettig zolang ook de verplichtingen zichtbaar blijven. Achteraf betalen laat zien wat verloren kan gaan: eigen geld, leveringszekerheid en krediet worden één ervaring, terwijl saldo en werkelijke ruimte uiteenlopen.
+De kern van het eerste voorstel is functioneel: maak zichtbaar welk geld vrij is, reserveer wat al is toegezegd, noem alleen het tekort krediet en koppel betaling aan levering en betwisting. Het wetsvoorstel versterkt de bescherming rond krediet, maar bouwt niet hetzelfde reserverings- en transactiemodel.
 
-De voorgestelde oplossing is geen nieuwe alleswetende instelling. Het is eerst een manier van kijken: reserveer wat al is toegezegd, noem alleen het tekort krediet en zorg dat gelijktijdige beslissingen met dezelfde actuele stand rekenen. Voeg daar een tweede vraag aan toe: wie heeft voordeel en macht, wie draagt de gevolgen en wie kan ook later nog worden aangesproken?
-
-Een economisch systeem is niet verantwoord omdat risico verdwijnt. Risico verdwijnt zelden. Het wordt verplaatst. Goed ontwerp maakt zichtbaar **waar het landt, wie het kan beïnvloeden en wie nog kan ingrijpen wanneer de uitkomst anders wordt dan gehoopt**.
+Op grotere schaal kan het exacte bedrag plaatsmaken voor scenario's, risicoschalen en buffers. Dan wordt een tweede probleem zichtbaar: winst, beslissingsmacht en persoonlijke beloning kunnen vroeg ontstaan, terwijl financiële, sociale of ecologische gevolgen pas later bij anderen terechtkomen. Goed ontwerp laat daarom niet alleen zien hoeveel risico een systeem kan dragen, maar ook **waar de gevolgen landen, wie ze kan beïnvloeden en wie nog verantwoordelijk is wanneer ze zichtbaar worden**.
 
 ## Referenties
 
