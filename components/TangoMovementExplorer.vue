@@ -21,7 +21,7 @@ const standardInterpretations=computed<PlaybackInterpretation[]>(()=>[
 ])
 const playbackInterpretations=computed(()=>[...standardInterpretations.value,...editorInterpretations.value])
 const selectedInterpretation=computed(()=>playbackInterpretations.value.find(item=>item.id===selectedInterpretationId.value)??standardInterpretations.value[0])
-const hiddenMovements: MovementId[] = ['forward-ocho', 'backward-ocho']
+const hiddenMovements: MovementId[] = ['forward-ocho']
 const availableMovements = computed(() => tangoMovements.filter(item => !hiddenMovements.includes(item.id)))
 let timer: ReturnType<typeof setInterval> | undefined
 
