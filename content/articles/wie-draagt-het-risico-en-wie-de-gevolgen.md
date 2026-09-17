@@ -14,6 +14,7 @@ keyPoints:
   - Wie het aankoopbedrag al bezit, heeft vooral zekerheid over levering en betaling nodig; alleen het ontbrekende bedrag is krediet.
   - Uitgesteld betalen kan door gemiste termijnen, rente en incassokosten veel duurder worden dan de oorspronkelijke aankoop doet vermoeden.
   - Een gedeeld register moet gebruikte ruimte meteen reserveren, anders kunnen twee aanbieders tegelijk van hetzelfde beschikbare bedrag uitgaan.
+  - Regels horen de economische functie, risico's en machtsverdeling te volgen, niet de productnaam of gebruikte techniek.
   - Financiële veiligheid en belangenafstemming zijn verschillende dimensies: een transactie kan betaalbaar zijn en toch schade of verantwoordelijkheid verkeerd verdelen.
   - Dit is een voorstel dat eerst in de praktijk moet worden getest, geen beschrijving van het huidige stelsel en geen individueel financieel advies.
 plainLanguage:
@@ -29,6 +30,7 @@ plainLanguage:
       paragraphs:
         - Het Nederlandse wetsvoorstel voor de herziene Europese richtlijn consumentenkrediet brengt aanbieders van achteraf betalen onder strengere regels en toezicht. Minderjarigen mochten in beginsel al geen BNPL-krediet krijgen, maar bestaande leeftijdscontroles hielden hen niet effectief tegen. Het voorstel verplicht aanbieders daarom tot een goede leeftijdsverificatie. Ook komen er eisen aan kredietwaardigheid, informatie, instemming, beloning van medewerkers en hulp bij betalingsproblemen.
         - Tijdens het schrijven was dit nog een wetsvoorstel. De precieze uitvoering kan dus veranderen. Het voorstel behandelt achteraf betalen bovendien vooral als krediet. Het maakt nog geen apart betalingssysteem waarin geld dat iemand al bezit wordt gereserveerd tot de levering. De nieuwe regels en het voorstel uit dit artikel lossen daarom niet precies hetzelfde probleem op.
+        - Om ook nieuwe betaalvormen te omvatten, zouden regels moeten kijken naar wat een constructie feitelijk doet. Wanneer betaling en levering worden gescheiden, kredietruimte wordt gebruikt of een toekomstige verplichting ontstaat, horen dezelfde basiswaarborgen te gelden, ongeacht de naam, techniek of verdeling over aanbieders.
     - heading: Een kind kan het betaalmiddel van een ouder gebruiken
       paragraphs:
         - Leeftijdscontrole bij achteraf betalen voorkomt niet dat een kind via een ouderlijk account of opgeslagen betaalmiddel geld van de ouder uitgeeft. Voor dit artikel is vooral van belang wie toestemming gaf en welke reservering of schuld vervolgens op de rekening van de ouder verschijnt.
@@ -54,7 +56,7 @@ plainLanguage:
       paragraphs:
         - Tot zover gaat het vooral over persoonlijke financiële veiligheid. Maar hetzelfde basisprobleem bestaat op grotere schaal. Een bedrijf kan winst maken met een besluit terwijl werknemers, omwonenden of toekomstige generaties de schade dragen. Het besluit kan financieel betaalbaar zijn en toch onrechtvaardig uitpakken.
         - Daarom kijkt het tweede deel van het artikel afzonderlijk naar voordeel, beslissingsmacht, gevolgen, verantwoordelijkheid en tijd. Een model kan niet bepalen wat moreel juist is. Het kan wel zichtbaar maken dat degene die beslist en profiteert weinig van de nadelige gevolgen draagt. Dat maakt een gerichter gesprek over toezicht, schadevergoeding en verantwoordelijkheid mogelijk.
-  takeaway: Maak afzonderlijk zichtbaar welk geld al bestaat, welk bedrag wordt gereserveerd, welke schuld werkelijk ontstaat en wanneer levering tot betaling leidt. Vraag daarnaast wie voordeel en beslissingsmacht heeft, wie mogelijke schade draagt en wie ook later nog verantwoordelijk kan worden gehouden.
+  takeaway: Maak afzonderlijk zichtbaar welk geld al bestaat, welk bedrag wordt gereserveerd, welke schuld werkelijk ontstaat en wanneer levering tot betaling leidt. Laat regels daarbij de werkelijke functie en risico's volgen, niet de productnaam. Vraag daarnaast wie voordeel en beslissingsmacht heeft, wie mogelijke schade draagt en wie ook later nog verantwoordelijk kan worden gehouden.
 modelComponent: risk-responsibility
 modelLimitations:
   - De indices en drempels zijn didactische aannames, geen empirisch gekalibreerde risico- of kredietscore.
@@ -132,6 +134,16 @@ Het voorstel pakt belangrijke problemen aan. Aanbieders komen in beginsel onder 
 
 De wet behandelt achteraf betalen echter hoofdzakelijk als krediet. In termen van de tabellen verbetert zij vooral de kredietvarianten: creditcards, uitgesteld betalen, achteraf betalen en gespreide betaling. Zij maakt voor zover nu bekend geen afzonderlijk systeem waarin eigen geld voor diezelfde betaalvormen tot levering of betaaldatum wordt gereserveerd. Ook creëert zij geen gedeelde reservering die twee gelijktijdige aanbieders onmiddellijk dezelfde resterende ruimte laat zien, en geen gezamenlijke transactietoestand voor levering, betwisting en afrekening. BKR registreert verplichtingen en achterstanden, maar vervult die functie niet.[3] Het wetsvoorstel en dit ontwerp overlappen dus, maar lossen niet hetzelfde probleem op.
 
+### Reguleer de functie, niet de productnaam
+
+Een wet die alleen *Buy Now, Pay Later*, creditcards of andere bestaande producten opsomt, loopt onvermijdelijk achter. Dezelfde economische constructie kan later terugkeren als wallet, abonnement, token, speltegoed of combinatie van verschillende dienstverleners. De algemene regel zou daarom moeten zijn dat vergelijkbare functies en risico's gelijk worden behandeld, ongeacht naam, contractvorm of techniek.
+
+Voor dit eerste deel betekent dat dat regelgeving aangrijpt zodra een professionele partij geld of kredietruimte reserveert, een toekomstige betaalverplichting creëert, betaling afhankelijk maakt van levering of meerdere partijen toegang geeft tot dezelfde financiële ruimte. Daar kunnen vervolgens concrete verplichtingen aan worden gekoppeld: maak onderscheid tussen eigen geld, reservering en krediet; leg een verplichting onmiddellijk vast; toon de totale kosten; en regel annulering, niet-levering, fraude en betwisting.
+
+Een bepaling tegen ontwijking hoort daarbij naar de economische werking te kijken. Het opsplitsen van één dienst over een winkel, wallet, kredietverstrekker en technisch platform mag er niet toe leiden dat geen van die partijen verantwoordelijk is voor het geheel. Tegelijk vraagt rechtszekerheid om begrenzing: incidenteel uitstel tussen partijen of een kosteloze korte reservering hoeft niet automatisch aan alle eisen voor langdurig consumentenkrediet te voldoen. De zwaarte van de regels kan afhangen van bedrag, duur, herhaling en voorzienbaar risico.
+
+Deze aanpak kan in lagen worden uitgewerkt. De wet legt technologie- en productneutrale beginselen vast; lagere regelgeving vertaalt die naar meetbare minimumeisen; toezichthouders publiceren actuele voorbeelden; en aanbieders mogen aantonen dat een andere inrichting minstens hetzelfde beschermingsniveau bereikt. Bezwaar en rechterlijke toetsing blijven nodig, omdat geen open norm zichzelf volledig automatisch en foutloos kan toepassen.
+
 ### Aansluiting bij bestaande situaties
 
 #### Creditcards bewijzen dat reserveren praktisch mogelijk is
@@ -183,6 +195,16 @@ Salaris, aandelen en opties verdelen risico verschillend, opwaarts en neerwaarts
 
 Dat is niet meteen geen pleidooi voor onbeperkte persoonlijke aansprakelijkheid: besluitvorming vereist ruimte om verantwoorde risico's te nemen. Het doel is wel om te voorkomen dat iemand voorspelbare langetermijnschade kan negeren, de kortetermijnwinst persoonlijk ontvangt en de latere rekening volledig bij het bedrijf, aandeelhouders of samenleving achterlaat.
 
+#### Ook verantwoordelijkheid moet vormneutraal worden geregeld
+
+Hetzelfde probleem doet zich op deze schaal voor. Wetgeving die alleen één soort onderneming, financieel instrument of beloningsvorm aanwijst, kan worden omzeild door risico's anders te verpakken. Een bredere zorgplicht kan daarom aansluiten bij vier feitelijke kenmerken: wie heeft materiële beslissingsmacht, wie ontvangt voordeel, welke nadelige gevolgen zijn redelijkerwijs voorzienbaar en wie kan die gevolgen voorkomen, beperken of herstellen?
+
+Zo'n regel maakt een bestuurder niet verantwoordelijk voor ieder denkbaar toekomstig verlies. De reikwijdte hoort af te hangen van invloed, voorzienbaarheid en ernst. Wie een risico veroorzaakt of er wezenlijk aan bijdraagt, draagt een zwaardere plicht dan een partij die er slechts ver van af staat. Wie geen directe controle heeft maar wel grote invloed bezit, kan ten minste worden verplicht risico's te onderzoeken, voorwaarden te stellen en over de uitkomst te rapporteren.
+
+Ook beloningsregels kunnen deze functie volgen. Niet het etiket *bonus*, *aandeel* of *optie* is beslissend, maar de vraag of iemand vroeg persoonlijk voordeel kan ontvangen uit een besluit waarvan materiële gevolgen pas later zichtbaar worden. In dat geval kan een passend deel van de beloning langer met die gevolgen verbonden blijven, bijvoorbeeld door uitstel, terugvordering of aansprakelijkheid bij verwijtbaar handelen.
+
+De combinatie van een algemene zorgplicht en sectorspecifieke uitwerking voorkomt twee uitersten. Alleen gedetailleerde productregels verouderen snel; uitsluitend open normen maken de uitkomst moeilijk voorspelbaar. Beginselen in de wet, concrete drempels en scenario-eisen in lagere regels, onafhankelijke toetsing en periodieke herziening kunnen samen sneller op nieuwe constructies reageren zonder de rechtsbescherming los te laten.
+
 :::ModelDisclosure{title="Interactief model: beloning, schade en aanspreekbaarheid door de tijd" description="Onderzoek hoe directe en uitgestelde beloning, financiële buffers, toezicht en persoonlijke verantwoordelijkheid de verdeling van gevolgen veranderen."}
 ::RiskResponsibilityExplorer{locale="nl" mode="governance"}
 ::
@@ -208,9 +230,9 @@ Ook het tweede model moet aantoonbaar iets toevoegen boven bestaande boekhouding
 
 ### Conclusie
 
-De kern van het eerste voorstel is functioneel: maak zichtbaar welk geld vrij is, reserveer wat al is toegezegd, noem alleen het tekort krediet en koppel betaling aan levering en betwisting. Het wetsvoorstel versterkt de bescherming rond krediet, maar bouwt niet hetzelfde reserverings- en transactiemodel.
+De kern van het eerste voorstel is functioneel: maak zichtbaar welk geld vrij is, reserveer wat al is toegezegd, noem alleen het tekort krediet en koppel betaling aan levering en betwisting. Het wetsvoorstel versterkt de bescherming rond krediet, maar bouwt niet hetzelfde reserverings- en transactiemodel. Toekomstbestendige regels zouden daarom niet alleen bestaande betaalproducten benoemen, maar iedere constructie omvatten die economisch dezelfde functie en risico's heeft.
 
-Op grotere schaal kan het exacte bedrag plaatsmaken voor scenario's, risicoschalen en buffers. Dan wordt een tweede probleem zichtbaar: winst, beslissingsmacht en persoonlijke beloning kunnen vroeg ontstaan, terwijl financiële, sociale of ecologische gevolgen pas later bij anderen terechtkomen. Goed ontwerp laat daarom niet alleen zien hoeveel risico een systeem kan dragen, maar ook **waar de gevolgen landen, wie ze kan beïnvloeden en wie nog verantwoordelijk is wanneer ze zichtbaar worden**.
+Op grotere schaal kan het exacte bedrag plaatsmaken voor scenario's, risicoschalen en buffers. Dan wordt een tweede probleem zichtbaar: winst, beslissingsmacht en persoonlijke beloning kunnen vroeg ontstaan, terwijl financiële, sociale of ecologische gevolgen pas later bij anderen terechtkomen. Ook daar moeten regels de feitelijke macht, het voordeel en de voorzienbare gevolgen volgen in plaats van de juridische verpakking. Goed ontwerp laat daarom niet alleen zien hoeveel risico een systeem kan dragen, maar ook **waar de gevolgen landen, wie ze kan beïnvloeden en wie nog verantwoordelijk is wanneer ze zichtbaar worden**.
 
 ## Referenties
 
