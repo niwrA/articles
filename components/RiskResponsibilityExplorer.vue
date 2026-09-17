@@ -9,7 +9,7 @@ const transactions=ref<Tx[]>([
  {id:1,at:'2026-09-17T09:10',label:'Webshop',amount:180,outcome:'delivered',outcomeAt:'2026-09-19T14:20',dueAt:'2026-09-30T23:59',paidAt:'2026-09-19T16:00'},
  {id:2,at:'2026-09-17T12:35',label:'Fietsreparatie',amount:320,outcome:'delivered',outcomeAt:'2026-09-17T17:10',dueAt:'2026-09-18T09:00',paidAt:'2026-10-05T09:00'},
  {id:3,at:'2026-09-17T12:36',label:'Laptop',amount:950,outcome:'fraud',outcomeAt:'2026-09-20T11:30',dueAt:'2026-10-01T23:59',paidAt:'2026-09-24T15:00'},
- {id:4,at:'2026-09-18T08:20',label:'Boodschappen',amount:85,outcome:'pending',outcomeAt:'',dueAt:'',paidAt:''}
+ {id:4,at:'2026-09-18T08:20',label:'Boodschappen',amount:85,outcome:'delivered',outcomeAt:'2026-09-18T08:55',dueAt:'2026-09-18T23:59',paidAt:'2026-09-18T09:00'}
 ])
 let nextId=5
 const day=86400000
