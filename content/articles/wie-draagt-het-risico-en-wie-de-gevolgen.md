@@ -29,10 +29,10 @@ plainLanguage:
       paragraphs:
         - Het Nederlandse wetsvoorstel voor de herziene Europese richtlijn consumentenkrediet brengt aanbieders van achteraf betalen onder strengere regels en toezicht. Minderjarigen mochten in beginsel al geen BNPL-krediet krijgen, maar bestaande leeftijdscontroles hielden hen niet effectief tegen. Het voorstel verplicht aanbieders daarom tot een goede leeftijdsverificatie. Ook komen er eisen aan kredietwaardigheid, informatie, instemming, beloning van medewerkers en hulp bij betalingsproblemen.
         - Tijdens het schrijven was dit nog een wetsvoorstel. De precieze uitvoering kan dus veranderen. Het voorstel behandelt achteraf betalen bovendien vooral als krediet. Het maakt nog geen apart betalingssysteem waarin geld dat iemand al bezit wordt gereserveerd tot de levering. De nieuwe regels en het voorstel uit dit artikel lossen daarom niet precies hetzelfde probleem op.
-    - heading: Kinderen kunnen ook zonder krediet veel kleine bedragen uitgeven
+    - heading: Een kind kan het betaalmiddel van een ouder gebruiken
       paragraphs:
-        - Leeftijdscontrole bij achteraf betalen voorkomt niet dat een kind via een ouderlijk account, een opgeslagen betaalmiddel of vooraf gekochte spelmunten aankopen doet. Afzonderlijke microtransacties kunnen klein lijken, terwijl ze samen een groot bedrag vormen. Virtuele munten en meerdere omwisselstappen maken de prijs in euro’s bovendien moeilijker te overzien.
-        - Een veilig ontwerp kan daarom de prijs in echt geld tonen, cumulatieve uitgaven bewaken, standaard uitgaven uitschakelen en boven een grens opnieuw toestemming vragen. Ouderlijke instellingen zijn nuttig, maar nemen de verantwoordelijkheid van aanbieders niet weg om kinderen niet met tijdsdruk, verborgen prijzen of andere manipulatieve technieken tot aankopen te bewegen.
+        - Leeftijdscontrole bij achteraf betalen voorkomt niet dat een kind via een ouderlijk account of opgeslagen betaalmiddel geld van de ouder uitgeeft. Voor dit artikel is vooral van belang wie toestemming gaf en welke reservering of schuld vervolgens op de rekening van de ouder verschijnt.
+        - Een afzonderlijk kinderbudget, een cumulatieve grens en opnieuw toestemming vragen boven die grens kunnen helpen. De bredere problemen rond microtransacties, virtuele valuta en gokachtige mechanismen vallen buiten dit artikel.
     - heading: Te laat betalen kan een klein bedrag snel groter maken
       paragraphs:
         - Achteraf betalen lijkt vaak gratis zolang je op tijd betaalt. Wie een termijn mist, kan echter met rente, incassokosten en uiteindelijk een incassobureau te maken krijgen. Daardoor kan een kleine aankoop relatief sterk in prijs stijgen. Het risico zit dus niet alleen in hoeveel iemand leent, maar ook in wat er na één gemiste datum gebeurt.
@@ -65,120 +65,148 @@ modelLimitations:
 draft: false
 ---
 
-Achteraf betalen lost een herkenbaar probleem op: de koper wil niet definitief betalen voordat duidelijk is dat het juiste product is aangekomen. Toch kan dezelfde knop ook krediet creëren, kosten uitstellen en risico's verbergen. Dit artikel begint daarom niet bij een betaalproduct of wetsvoorstel, maar bij de functies die een veilig systeem moet vervullen.
+Online artikelen kopen: we doen het massaal. Soms moeten we ook iets terugsturen, bijvoorbeeld omdat het niet past, of moeten we geld terugvragen omdat het product niet of niet op tijd werd geleverd. Soms betalen we, maar krijgen we niks, en lukt het ons ook alleen maar met veel moeite of zelfs helemaal niet (fraude) om dat geld weer terug te krijgen. 
 
-Een paar schoenen lijkt een klein vertrekpunt voor een artikel over ondernemingsbestuur en maatschappelijke schade. De verbinding zit in het tijdsverschil: voordeel ontstaat nu, terwijl kosten of risico's later en mogelijk bij iemand anders zichtbaar worden. Op persoonlijke schaal kunnen bedragen exact worden gereserveerd. Op maatschappelijke schaal zijn gevolgen vaak onzeker en alleen als scenario of risicoschaal te beschrijven. Dat verschil is essentieel.
+Een van de nieuwere manieren om met die problemen om te gaan is achteraf betalen. Maar achteraf betalen heeft nog een bijeffect - het is ook een vorm van op de pof/krediet kopen, een vorm van uitgesteld betalen, met bovendien meestal in plaats van rente op krediet, een kans op flinke boetes.
+
+Een paar schoenen online bestellen lijkt een klein vertrekpunt voor een artikel over ondernemingsbestuur en maatschappelijke schade, maar de paralel zit in het tijdsverschil: voordeel ontstaat nu, terwijl kosten of risico's later en mogelijk bij iemand anders (bijvoorbeeld ouders, partners) zichtbaar worden. De verbinding zit in de morele plicht om na te denken over de gevolgen van wat je op de markt brengt. We brengen de problemen hier in kaart en praten ook over mogelijke oplossingen, waarbij we voor in elk geval een veilig betaalsysteem een concreet voorbeeldontwerp van een veilige oplossing presenteren.
+
+Daarnaast ligt er ook regelgeving vanuit de EU klaar om door de tweede kamer behandeld te worden. Die voorstellen nemen we ook mee, en we zullen het artikel bijwerken als daar besluiten uit volgen.
 
 ::RiskResponsibilityLayers{locale="nl"}
 ::
 
-## Deel I — Eerst het functionele probleem
+## Deel I — Een veilig financieel systeem op persoonlijke schaal
 
 ### Eén betaalknop verbergt meerdere vragen
 
 Een betaling na levering moet minstens vijf zaken uit elkaar houden. Is het geld al aanwezig of wordt het geleend? Is het bedrag nog vrij te besteden of al aan een andere aankoop toegezegd? Is het juiste product geleverd en geaccepteerd? Wie draagt het verlies bij niet-levering of fraude? En wat gebeurt er wanneer een betaaldatum wordt gemist?
 
-Die vragen worden nu niet altijd in één samenhangend beeld beantwoord. Een banksaldo kan €2.000 tonen terwijl €700 aan latere afschrijvingen klaarstaat. Verschillende kredietaanbieders kunnen ieder afzonderlijk een aanvraag beoordelen zonder dezelfde actuele vrije ruimte te zien. Een bezorgscan kan bestaan terwijl het verkeerde pakket is geleverd. Een kleine rekening kan na een gemiste termijn relatief sterk groeien door rente en incassokosten. Bij kinderen komt daar nog de vraag bij wie werkelijk toestemming gaf voor een reeks microtransacties.
+Die vragen worden nu niet altijd in één samenhangend beeld beantwoord. Een banksaldo kan €2.000 tonen terwijl €700 aan latere afschrijvingen klaarstaat. Verschillende kredietaanbieders kunnen ieder afzonderlijk een aanvraag beoordelen zonder dezelfde actuele vrije ruimte te zien. Een bezorgscan kan bestaan terwijl het verkeerde pakket is geleverd. Een kleine rekening kan na een gemiste termijn sterk groeien door rente en incassokosten.
 
 Het probleem is dus breder dan “kan deze klant €500 lenen?”. Een veilig systeem moet tegelijk omgaan met beschikbaar geld, kredietruimte, gelijktijdige aankopen, levering, betwisting, fraude, toestemming en kosten door de tijd.
 
-## Deel II — De voorgestelde oplossing
+De gebruikelijke betaalvormen combineren die functies op verschillende manieren:
 
-### Reserveer eigen geld en leen alleen het tekort
+::PaymentScenarioComparison{locale="nl" mode="overview"}
+::
 
-Stel dat schoenen €500 kosten en de koper €2.000 bezit. De bank kan €500 apart zetten. Het saldo blijft zichtbaar, maar nog slechts €1.500 is vrij te besteden. De winkel weet dat betaling beschikbaar is en ontvangt het bedrag nadat levering volgens de afgesproken regels is geaccepteerd. Er ontstaat geen lening.
+### De voorgestelde oplossing
 
-Heeft de koper maar €200 beschikbaar, dan wordt dat bedrag gereserveerd en is alleen de ontbrekende €300 krediet. Eigen geld, gereserveerd geld en schuld blijven zo afzonderlijk zichtbaar. De AFM wijst er eveneens op dat achteraf betalen zekerheid kan bieden, maar ook een lening en risico op schuldstapeling meebrengt; zij moedigt betaalvormen aan die dezelfde zekerheid zonder leningcomponent bieden.[1]
+#### Koppel beschikbaar geld, levering en afrekening
 
-### Een controle moet de beschikbare ruimte meteen veranderen
+Stel dat schoenen €500 kosten en de koper €2.000 bezit. De bank kan €500 apart zetten. Het saldo blijft zichtbaar, maar nog slechts €1.500 is vrij te besteden. De winkel weet dat betaling beschikbaar is en ontvangt het bedrag nadat levering volgens de afgesproken regels is geaccepteerd. Er ontstaat geen lening. Je kunt het geld niet twee keer uitgeven. Maar het is ook niet overgemaakt voordat de goederen zijn ontvangen.
+
+Heeft de koper niet genoeg geld, wordt het te lenen bedrag gereserveerd. En stel de koper heeft 200 euro die nu wel gemist kunnen worden, maar wil de ontbrekende €300 op krediet, dan zou dat ook nog kunnen in dit model. Eigen geld, gereserveerd geld en schuld blijven afzonderlijk zichtbaar.
+
+Dit model past bij het advies van de AFM: dat achteraf betalen zekerheid kan bieden, maar ook een lening en risico op schuldstapeling meebrengt, en ze dus betaalvormen aanmoedigt die dezelfde zekerheid biedt zonder leningcomponent.[1]
+
+### De uitvoering
+
+Let op: dit is een ontwerpvoorstel en geen bestaand Nederlands systeem. Het moet worden getest en roept vragen op over privacy, storingen, foutieve blokkades en uitsluiting. De kern is eenvoudiger: een controle die de gebruikte ruimte niet meteen reserveert, kan bij gelijktijdige aanvragen een juist antwoord geven op verouderde informatie.
+
+#### Een controle moet de beschikbare ruimte meteen veranderen
 
 Stel dat iemand nog €500 kan lenen en twee winkels vrijwel tegelijk €400 aanvragen. Als beide dezelfde oude stand lezen, kunnen ze allebei toestemming geven. Een gedeeld capaciteitsregister moet daarom werken als **CONTROLEREN → RESERVEREN → VASTLEGGEN**. Na de eerste reservering ziet de tweede winkel nog maar €100. Gaat de eerste aankoop niet door, dan komt de ruimte weer vrij.
 
-Dit is een ontwerpvoorstel en geen bestaand Nederlands systeem. Het moet worden getest en roept vragen op over privacy, storingen, foutieve blokkades en uitsluiting. De kern is eenvoudiger: een controle die de gebruikte ruimte niet meteen reserveert, kan bij gelijktijdige aanvragen een juist antwoord geven op verouderde informatie.
-
-### Koppel betaling aan de toestand van de bestelling
+#### Koppel betaling aan de toestand van de bestelling
 
 Ook levering is geen ja-neevraag. Een bruikbare keten onderscheidt bijvoorbeeld *goedgekeurd*, *geld gereserveerd*, *verzonden*, *geleverd*, *geaccepteerd*, *betwist* en *afgerekend*. Bij annulering of een gegrond geschil komt de reservering vrij. Bij mogelijke fraude blijft zichtbaar dat het product niet is geaccepteerd en hoeft gereserveerd eigen geld niet eerst als schuld te worden geïncasseerd.
 
 De winkel hoeft daarbij niet iemands volledige financiële situatie te zien. Een bank of kredietverstrekker kan de grens bepalen, een beperkte infrastructuur kan reserveringen bijhouden en een afzonderlijk leverings- of geschillenproces kan bewijs beoordelen. Uitvoering hoort waar de toestand verandert; toezicht hoort bij een partij die niet aan zoveel mogelijk transacties verdient.
 
-## Deel III — Wat het wetsvoorstel wel en niet doet
+### Hoe de oplossing de zes betaalvormen verwerkt
 
-De herziene Europese richtlijn consumentenkrediet brengt onder meer achteraf betalen nadrukkelijker onder kredietbescherming.[2] Op 17 september 2026 lag de Nederlandse implementatie nog als wetsvoorstel bij de Tweede Kamer. De precieze uitwerking kan dus veranderen.[7]
+Het voorstel schrijft niet één betaalmoment voor. Het geeft iedere betaalvorm dezelfde bouwstenen en laat daarna het passende moment van reserveren en afrekenen kiezen:
+
+::PaymentScenarioComparison{locale="nl" mode="proposal"}
+::
+
+Dezelfde betaalvorm kan daardoor anders uitpakken afhankelijk van wat iemand werkelijk bezit. “Achteraf” of “gespreid” zegt op zichzelf nog niet hoeveel schuld ontstaat: dat volgt pas uit het deel dat niet met gereserveerd eigen geld wordt gedekt.
+
+### Europese richtlijn consumentenkrediet komt eraan: wat het komende wetsvoorstel wel en niet doet
+
+De herziene Europese richtlijn consumentenkrediet brengt onder meer achteraf betalen nadrukkelijker onder kredietbescherming.[2] Op 17 september 2026 lag de Nederlandse implementatie nog als wetsvoorstel bij de Tweede Kamer (geplande behandeling 28 sept). De precieze uitwerking kan dus nog veranderen.[7]
 
 Het voorstel pakt belangrijke problemen aan. Aanbieders komen in beginsel onder financieel toezicht, moeten kredietwaardigheid beoordelen, duidelijker informeren en instemming vastleggen. Ook bevat het regels rond beloningsprikkels, betalingsproblemen, geschillen en effectieve leeftijdsverificatie.[8] Dat laatste is relevant omdat de AFM over 2023 bijna 600.000 mogelijk ongeoorloofde BNPL-transacties via rekeningen van minderjarigen vond.[9]
 
-De wet behandelt achteraf betalen echter hoofdzakelijk als krediet. Zij maakt voor zover nu bekend geen afzonderlijk systeem voor leveringszekerheid met reeds aanwezig eigen geld. Ook creëert zij geen gedeelde reservering die twee gelijktijdige aanbieders onmiddellijk dezelfde resterende ruimte laat zien, en geen gezamenlijke transactietoestand voor levering, betwisting en afrekening. BKR registreert verplichtingen en achterstanden, maar vervult die functie niet.[3] Het wetsvoorstel en dit ontwerp overlappen dus, maar lossen niet hetzelfde probleem op.
+De wet behandelt achteraf betalen echter hoofdzakelijk als krediet. In termen van de tabellen verbetert zij vooral de kredietvarianten: creditcards, uitgesteld betalen, achteraf betalen en gespreide betaling. Zij maakt voor zover nu bekend geen afzonderlijk systeem waarin eigen geld voor diezelfde betaalvormen tot levering of betaaldatum wordt gereserveerd. Ook creëert zij geen gedeelde reservering die twee gelijktijdige aanbieders onmiddellijk dezelfde resterende ruimte laat zien, en geen gezamenlijke transactietoestand voor levering, betwisting en afrekening. BKR registreert verplichtingen en achterstanden, maar vervult die functie niet.[3] Het wetsvoorstel en dit ontwerp overlappen dus, maar lossen niet hetzelfde probleem op.
 
-## Deel IV — Aansluiting bij bestaande situaties
+### Aansluiting bij bestaande situaties
 
-### Creditcards bewijzen dat reserveren praktisch mogelijk is
+#### Creditcards bewijzen dat reserveren praktisch mogelijk is
 
-Bij een creditcard vraagt de verkoper eerst autorisatie en verlaagt de kaartuitgever de beschikbare limiet met een tijdelijke reservering. Later wordt die een geboekte transactie. Bij annulering kan de reservering vervallen; bij niet-levering of fraude kan een geschil of chargeback volgen. Een prepaidkaart gebruikt eigen geld, een kaart met maandaflossing tijdelijk krediet en een revolving creditcard krediet dat langer kan blijven staan en rente kan dragen.[13]
+Bij een creditcard vraagt de verkoper eerst autorisatie en verlaagt de kaartuitgever de beschikbare limiet met een tijdelijke reservering. Later wordt die een geboekte transactie. Bij annulering kan de reservering vervallen; bij niet-levering of fraude kan een geschil of chargeback volgen. Een prepaidkaart gebruikt eigen geld, een kaart met maandaflossing tijdelijk krediet en een revolving creditcard krediet dat langer kan blijven staan en rente kan dragen.[11]
 
 Het voorstel breidt dat bekende principe uit: ook andere relevante kredietbeslissingen zouden dezelfde actuele verplichting moeten meenemen. De kaartreservering en de vermelding in het bredere register zijn dan twee weergaven van hetzelfde bedrag, geen twee schulden. Het interactieve model vereenvoudigt dit nog tot eigen geld en één algemene kredietruimte.
 
-### Te laat betalen maakt het tijdsverloop zichtbaar
+#### Te laat betalen maakt het tijdsverloop zichtbaar
 
-Achteraf betalen lijkt vaak gratis zolang alles op tijd gaat. In 2024 stelden BNPL-aanbieders klanten volgens de AFM ongeveer 6,9 miljoen keer in gebreke, rekenden zij bij 1,8 miljoen transacties aanmaningskosten en droegen zij circa 600.000 transacties over aan incassobureaus.[14] Voor wettelijke incassokosten moet eerst een herinnering en hersteltermijn van veertien dagen volgen. Daarna geldt een minimum van €40 en kan ook rente verschuldigd zijn.[15]
+Achteraf betalen lijkt vaak gratis zolang alles op tijd gaat. In 2024 stelden BNPL-aanbieders klanten volgens de AFM ongeveer 6,9 miljoen keer in gebreke, rekenden zij bij 1,8 miljoen transacties aanmaningskosten en droegen zij circa 600.000 transacties over aan incassobureaus.[12] Voor wettelijke incassokosten moet eerst een herinnering en hersteltermijn van veertien dagen volgen. Daarna geldt een minimum van €40 en kan ook rente verschuldigd zijn.[13]
 
 Een veiliger ontwerp toont die mogelijke gevolgen vóór de aankoop en waarschuwt tijdig. De AFM vond dat een eenvoudige sms-herinnering het aandeel klanten met te late betaling en kosten met ongeveer een vijfde kon verminderen.[9] Het model rekent incassokosten vereenvoudigd door: over het hele kredietbedrag in de huidige situatie en het wetsvoorstel, maar alleen over het werkelijk geleende deel in het reserveringsmodel.
 
-### Minderjarigen en microtransacties vragen aanvullende bescherming
+#### Minderjarigen die het betaalmiddel van hun ouders gebruiken
 
-Leeftijdscontrole bij krediet voorkomt niet dat een kind via een ouderlijk account, opgeslagen betaalmiddel of spelvaluta veel kleine aankopen doet. Virtuele munten kunnen de prijs in euro's verhullen en losse kleine bedragen kunnen samen groot worden. Europese toezichthouders adviseren daarom prijzen in echte valuta, bruikbare ouderlijke controle en het standaard uitschakelen van echt-gelduitgaven in spellen die niet uitsluitend voor volwassenen zijn.[11]
+Leeftijdscontrole bij krediet voorkomt niet dat een kind via een ouderlijk account of opgeslagen betaalmiddel bedragen ten laste van de ouder uitgeeft. Voor dit model is vooral relevant wie toestemming gaf en welke reservering of schuld op de rekening van de ouder verschijnt. Een afzonderlijk kinderbudget, een cumulatieve grens en hernieuwde toestemming boven die grens kunnen dat verband duidelijker maken.[10]
 
-De ACM beboette Epic wegens technieken in Fortnite die kinderen rechtstreeks tot kopen aanzetten en kunstmatige tijdsdruk opriepen.[12] Dit vraagt naast transactieveiligheid om cumulatieve limieten, hernieuwde toestemming boven een grens en bescherming tegen manipulatief ontwerp. Ouderlijke controle helpt, maar vervangt de verantwoordelijkheid van de aanbieder niet.[10]
+Microtransacties, virtuele valuta en gokachtige beloningsmechanismen vormen daarnaast een veel bredere problematiek die ook volwassenen raakt. Die vraagt een eigen analyse van verslavingsrisico, prijsweergave en manipulatief ontwerp en wordt hier niet verder behandeld.
 
 :::ModelDisclosure{title="Interactief model: van aankoop tot afrekening" description="Voeg transacties toe en vergelijk de huidige situatie, een schematische toepassing van het CCDII-wetsvoorstel en het reserveringsmodel. Het model toont levering, krediet, fraude, betaaldatums en incassokosten vereenvoudigd."}
 ::RiskResponsibilityExplorer{locale="nl" mode="transaction"}
 ::
 :::
 
-## Deel V — Kan hetzelfde beginsel op grotere schaal werken?
+## Deel II — Risico en verantwoordelijkheid op maatschappelijke schaal
 
-Bij een consument kan €500 letterlijk worden gereserveerd. Bij een fabriek, bank of infrastructuurproject is het toekomstige risico geen precies bedrag. Schade hangt af van markten, storingen, gedrag en zeldzame scenario's. Opschaling betekent daarom niet dat ieder mogelijk verlies vooraf exact op een rekening wordt geblokkeerd.
+### Kan hetzelfde beginsel op grotere schaal werken?
 
-Wel kan een onderneming blootstelling vergelijken met haar balans, liquiditeit, buffers en herstelvermogen. Voor verschillende scenario's kan zij een risicoschaal gebruiken: hoe groot kan de schade worden, hoe waarschijnlijk is zij, wanneer wordt zij zichtbaar en wie kan haar dragen? DNB gebruikt bij derivaten bijvoorbeeld niet alleen nominale posities, maar ook stresstests, liquiditeitsbehoefte en buffers.[4] Het overeenkomstige beginsel is dat aangegane risico's de resterende draagkracht zichtbaar moeten verkleinen, ook wanneer de precieze uitkomst onzeker is.
+Bij een consument kan €500 letterlijk worden gereserveerd. Zouden we zoiets misschien ook op grotere schaal kunnen inzetten om fraude en te hoge schulden te voorkomen?
 
-## Deel VI — Wat niet direct op de balans verschijnt
+Het korte antwoord is: nee, niet direct. Bij een fabriek, bank of infrastructuurproject is het toekomstige risico geen precies bedrag. Schade hangt af van markten, storingen, gedrag en zeldzame scenario's. Opschaling betekent daarom niet dat ieder mogelijk verlies vooraf exact op een rekening wordt geblokkeerd. En hoeveel lening mag je afsluiten (meestal in de vorm van aandelen) op de kans dat een nieuw online platform in de, soms verre, toekomst heel veel geld gaat opleveren?
 
-### Toekomstige waarde, milieuschade en andere verborgen kosten
+Een onderneming blootstelling vergelijken met haar balans, liquiditeit, buffers en herstelvermogen. Voor verschillende scenario's kan zij een risicoschaal gebruiken: hoe groot kan de schade worden, hoe waarschijnlijk treedt ze op, wanneer wordt ze zichtbaar en wie kan haar dragen? Daar kan op zijn minst een risicoprofiel uit komen, waar dan rapportage verplichtingen en consequenties aan verbonden kunnen worden zoals verscherpte toezicht of toestemming door een authoriteit. 
 
-Een financieel haalbaar project kan op lange termijn toch waarde vernietigen. Achterstallig onderhoud kan winst nu verhogen en storingen later veroorzaken. Vervuiling kan buiten de onderneming bij omwonenden of toekomstige generaties belanden. Een keuze met €20 miljoen private winst en €30 miljoen schade elders ziet er op de bedrijfsbalans positief uit, maar maatschappelijk niet.
+DNB gebruikt ook nu bijvoorbeeld bij derivaten niet alleen nominale posities, maar ook stresstests, liquiditeitsbehoefte en buffers.[4] Het overeenkomstige beginsel is dat aangegane risico's de resterende draagkracht zichtbaar moeten verkleinen, ook wanneer de precieze uitkomst onzeker is.
 
-Daarom zijn naast financiële capaciteit vijf vragen nodig: wie ontvangt het voordeel, wie beslist, wie kan de uitkomst beïnvloeden, wie draagt de gevolgen en wanneer worden die zichtbaar? Niet ieder effect laat zich betrouwbaar in euro's uitdrukken. Scenario's en afzonderlijke risicoschalen zijn eerlijker dan één schijnbaar precieze morele score.
+### Wat niet direct op de balans verschijnt
 
-### Managementbeloning kan tijd en verantwoordelijkheid losmaken
+#### Toekomstige waarde, milieuschade en andere verborgen kosten
 
-Salaris, aandelen en opties verdelen opwaarts en neerwaarts risico verschillend. Een bestuurder kan nu voor winst worden beloond terwijl onderhouds-, gezondheids- of milieurisico pas na vertrek zichtbaar wordt. Uitgestelde beloning, terugvordering, persoonlijke aansprakelijkheid, onafhankelijke controle en vooraf gevormde buffers kunnen voordeel en verantwoordelijkheid langer aan elkaar koppelen.
+Ook een financieel haalbaar project kan op lange termijn toch waarde vernietigen. Achterstallig onderhoud kan nu winst verhogen maar later storingen veroorzaken. Vervuiling kan buiten de onderneming bij omwonenden of toekomstige generaties belanden. Een keuze met €20 miljoen private winst en €30 miljoen schade elders ziet er op de bedrijfsbalans positief uit, maar maatschappelijk niet.
 
-Dat is geen pleidooi voor onbeperkte persoonlijke aansprakelijkheid. Besluitvorming vereist ruimte om verantwoorde risico's te nemen. Het doel is te voorkomen dat iemand voorspelbare langetermijnschade kan negeren, de kortetermijnwinst persoonlijk ontvangt en de latere rekening volledig bij het bedrijf, aandeelhouders of samenleving achterlaat.
+Daarom zijn naast financiële capaciteit nog vijf vragen nodig: wie ontvangt het voordeel, wie beslist, wie kan de uitkomst beïnvloeden, wie draagt de gevolgen en wanneer worden die zichtbaar? Niet ieder effect laat zich betrouwbaar in euro's uitdrukken. Scenario's en afzonderlijke risicoschalen zijn eerlijker dan één schijnbaar precieze morele score.
+
+#### Managementbeloning kan tijd en verantwoordelijkheid losmaken
+
+Salaris, aandelen en opties verdelen risico verschillend, opwaarts en neerwaarts. Een bestuurder kan nu voor winst worden beloond terwijl onderhouds-, gezondheids- of milieurisico pas na vertrek zichtbaar wordt. Uitgestelde beloning, terugvordering, persoonlijke aansprakelijkheid, onafhankelijke controle en vooraf gevormde buffers kunnen voordeel en verantwoordelijkheid langer aan elkaar koppelen.
+
+Dat is niet meteen geen pleidooi voor onbeperkte persoonlijke aansprakelijkheid: besluitvorming vereist ruimte om verantwoorde risico's te nemen. Het doel is wel om te voorkomen dat iemand voorspelbare langetermijnschade kan negeren, de kortetermijnwinst persoonlijk ontvangt en de latere rekening volledig bij het bedrijf, aandeelhouders of samenleving achterlaat.
 
 :::ModelDisclosure{title="Interactief model: beloning, schade en aanspreekbaarheid door de tijd" description="Onderzoek hoe directe en uitgestelde beloning, financiële buffers, toezicht en persoonlijke verantwoordelijkheid de verdeling van gevolgen veranderen."}
 ::RiskResponsibilityExplorer{locale="nl" mode="governance"}
 ::
 :::
 
-## Deel VII — Twee toepassingen brengen de lagen samen
+### Twee toepassingen brengen de lagen samen
 
-### Achteraf betalen
+#### Achteraf betalen
 
-Een aanbieder is niet verantwoordelijk voor iedere aankoop van een klant. Hij is wel verantwoordelijk voor voorzienbare effecten van zijn productontwerp op schaal. De aanbieder bepaalt limieten, herinneringen en interfaces, verdient aan gebruik en kan patronen zien die een individuele winkel niet ziet. Volgens de AFM moeten financiële ondernemingen bij productontwikkeling aantoonbaar kijken naar doelgroep, werking in verschillende scenario's, klantbelang en herbeoordeling.[5] OECD-richtlijnen vragen ondernemingen daarnaast negatieve gevolgen van hun producten en diensten te onderzoeken en beperken.[6]
+Dat brengt ons naar de tweede laag die de eerste laag raakt. Een aanbieder van een uitgesteld betalen dienst is verantwoordelijk voor voorzienbare effecten van zijn productontwerp op schaal. De aanbieder bepaalt limieten, herinneringen en interfaces, verdient aan gebruik en kan patronen zien die een individuele winkel niet ziet. Dat wordt deels ook nu al verwacht van de authoriteit - volgens de AFM moeten financiële ondernemingen bij productontwikkeling aantoonbaar kijken naar doelgroep, werking in verschillende scenario's, klantbelang en herbeoordeling.[5] OECD-richtlijnen vragen ondernemingen daarnaast negatieve gevolgen van hun producten en diensten te onderzoeken en beperken.[6] 
 
 De relevante vraag is dus niet of één paar schoenen moreel mocht worden gekocht, maar of het systeem stapeling, impulsief gebruik of schade bij kwetsbare groepen voorzienbaar bevordert en hoe de aanbieder daarop reageert. Hier komen persoonlijke financiële veiligheid en verantwoordelijkheid op systeemniveau samen.
 
-### Afdekking en speculatie
+#### Afdekking en speculatie
 
 Een putoptie is niet verkeerd omdat zij stijgt wanneer een aandeel daalt; zij kan een bestaand risico juist begrenzen. De analyse verandert wanneer een partij veel verdient aan schade die zij zelf kan beïnvloeden. Dan moeten onderliggende positie, beslissingsmacht, mogelijke schade en aanspreekbaarheid gezamenlijk worden bekeken. Hetzelfde instrument kan dus nuttige afdekking of een perverse prikkel vormen, afhankelijk van de relatie tussen voordeel, macht en gevolgen.
 
-## Wat zou het voorstel beperken of weerleggen?
+### Wat zou het voorstel beperken of weerleggen?
 
 Een proef moet uitwijzen of een gedeeld register werkelijk minder betalingsproblemen, dubbele toezeggingen en onnodige leningen oplevert dan eenvoudigere oplossingen. Mogelijk bereiken gewone bankreserveringen, bestaande kredietregistratie en een duidelijker saldo vrijwel hetzelfde tegen lagere kosten. Een centraal overzicht kan door fouten, uitval of privacyproblemen ook nieuwe schade veroorzaken.
 
 Ook het tweede model moet aantoonbaar iets toevoegen boven bestaande boekhouding, toezicht en aansprakelijkheid. Dat kan worden getoetst door vooraf vast te leggen welke situaties het als riskant aanwijst en die voorspellingen met onafhankelijke casusanalyses te vergelijken. Een kader dat achteraf naar iedere gewenste conclusie kan worden gebogen, is niet bruikbaar.
 
-## Conclusie
+### Conclusie
 
 De kern van het eerste voorstel is functioneel: maak zichtbaar welk geld vrij is, reserveer wat al is toegezegd, noem alleen het tekort krediet en koppel betaling aan levering en betwisting. Het wetsvoorstel versterkt de bescherming rond krediet, maar bouwt niet hetzelfde reserverings- en transactiemodel.
 
@@ -196,8 +224,6 @@ Op grotere schaal kan het exacte bedrag plaatsmaken voor scenario's, risicoschal
 8. Ministerie van Financiën. *Memorie van toelichting bij de Implementatiewet herziene richtlijn consumentenkrediet*. 2026. [Bron bekijken](https://zoek.officielebekendmakingen.nl/kst-36924-3.html)
 9. Autoriteit Financiële Markten. *Aanpak nodig om gebruik van buy now pay later door minderjarigen te stoppen*. 2024. [Bron bekijken](https://www.afm.nl/nl-nl/sector/actueel/2024/april/bnpl-marktbeeld-experiment)
 10. Rijksoverheid. *Ben ik aansprakelijk voor de schulden van mijn minderjarige kinderen?* [Bron bekijken](https://www.rijksoverheid.nl/vraag-en-antwoord/schulden/schulden-van-kinderen)
-11. Consumer Protection Cooperation Network. *Key Principles on In-game Virtual Currencies*. 2025. [Bron bekijken](https://commission.europa.eu/document/download/8af13e88-6540-436c-b137-9853e7fe866a_en)
-12. Autoriteit Consument & Markt. *ACM beboet Epic voor oneerlijke praktijken gericht op kinderen in Fortnite*. 2024. [Bron bekijken](https://www.acm.nl/nl/publicaties/acm-beboet-epic-voor-oneerlijke-praktijken-gericht-op-kinderen-fortnite)
-13. Rijksoverheid. *Nieuwe regels voor Buy Now Pay Later*. 2025. [Bron bekijken](https://www.rijksoverheid.nl/actueel/nieuws/2025/10/31/nieuwe-regels-voor-buy-now-pay-later)
-14. Autoriteit Financiële Markten. *Buy Now, Pay Later: extra bescherming consumenten nodig*. 2025. [Bron bekijken](https://www.afm.nl/nl-nl/sector/actueel/2025/juli/pb-marktupdate-BNPL-2025)
-15. Rijksoverheid. *Hoeveel betaal ik voor incassokosten?* [Bron bekijken](https://www.rijksoverheid.nl/vraag-en-antwoord/schulden/hoogte-incassokosten)
+11. Rijksoverheid. *Nieuwe regels voor Buy Now Pay Later*. 2025. [Bron bekijken](https://www.rijksoverheid.nl/actueel/nieuws/2025/10/31/nieuwe-regels-voor-buy-now-pay-later)
+12. Autoriteit Financiële Markten. *Buy Now, Pay Later: extra bescherming consumenten nodig*. 2025. [Bron bekijken](https://www.afm.nl/nl-nl/sector/actueel/2025/juli/pb-marktupdate-BNPL-2025)
+13. Rijksoverheid. *Hoeveel betaal ik voor incassokosten?* [Bron bekijken](https://www.rijksoverheid.nl/vraag-en-antwoord/schulden/hoogte-incassokosten)
