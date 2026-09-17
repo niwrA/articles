@@ -23,7 +23,30 @@ const lateCost=(amount:number,item:Tx,t=Infinity)=>{if(!amount||item.outcome!=='
 const paymentLabel=(item:Tx)=>{if(item.outcome!=='delivered')return outcomeLabel(item);if(!item.dueAt)return nl.value?'Geen vervaldatum':'No due date';if(!item.paidAt)return nl.value?'Nog niet betaald':'Not yet paid';const paid=new Date(item.paidAt).getTime(),due=new Date(item.dueAt).getTime();if(paid<=due)return nl.value?'Op tijd betaald':'Paid on time';if(paid<=feeAt(item))return nl.value?'Te laat, binnen hersteltermijn':'Late, within cure period';return nl.value?'Na hersteltermijn betaald':'Paid after cure period'}
 const isEditing=(id:number)=>editingIds.value.includes(id)
 const toggleEditing=(id:number)=>{editingIds.value=isEditing(id)?[]:[id]}
-const simulate=(selected:Regime)=>{let own=Math.max(0,tx.balance),credit=Math.max(0,Math.min(tx.capacity-tx.committed,tx.personalLimit));return [...transactions.value].sort((a,b)=>a.at.localeCompare(b.at)||a.id-b.id).map(item=>{const ownNeeded=selected==='ledger'?Math.min(item.amount,own):0;const creditNeeded=selected==='ledger'?Math.max(0,item.amount-ownNeeded):item.amount;const accepted=selected==='current'||creditNeeded<=credit;if(accepted){if(selected==='ledger')own-=ownNeeded;if(selected!=='current')credit-=creditNeeded}return{...item,ownNeeded,creditNeeded,accepted,ownAfter:own,creditAfter:credit}})}
+const simulate=(selected:Regime)=>{
+ let own=Math.max(0,tx.balance),credit=Math.max(0,Math.min(tx.capacity-tx.committed,tx.personalLimit))
+ const ownReleases:{at:number;amount:number}[]=[],creditReleases:{at:number;amount:number}[]=[]
+ const releasedOwn=new Set<number>(),releasedCredit=new Set<number>()
+ return [...transactions.value].sort((a,b)=>a.at.localeCompare(b.at)||a.id-b.id).map(item=>{
+  const at=new Date(item.at).getTime()
+  ownReleases.forEach((release,index)=>{if(!releasedOwn.has(index)&&release.at<=at){own+=release.amount;releasedOwn.add(index)}})
+  creditReleases.forEach((release,index)=>{if(!releasedCredit.has(index)&&release.at<=at){credit+=release.amount;releasedCredit.add(index)}})
+  const ownBefore=own,creditBefore=credit
+  const ownNeeded=selected==='ledger'?Math.min(item.amount,own):0
+  const creditNeeded=selected==='ledger'?Math.max(0,item.amount-ownNeeded):item.amount
+  const accepted=selected==='current'||creditNeeded<=credit
+  if(accepted){
+   if(selected==='ledger')own-=ownNeeded
+   if(selected!=='current')credit-=creditNeeded
+   const closesAt=item.paidAt?new Date(item.paidAt).getTime():NaN
+   if(Number.isFinite(closesAt)){
+    if(selected==='ledger'&&item.outcome!=='delivered'&&ownNeeded)ownReleases.push({at:closesAt,amount:ownNeeded})
+    if(selected!=='current'&&creditNeeded)creditReleases.push({at:closesAt,amount:creditNeeded})
+   }
+  }
+  return{...item,ownNeeded,creditNeeded,accepted,ownBefore,creditBefore,ownAfter:own,creditAfter:credit}
+ })
+}
 const comparison=computed(()=>{const current=simulate('current'),ccdii=simulate('ccdii'),ledger=simulate('ledger');return current.map((item,index)=>({item,current:item,ccdii:ccdii[index],ledger:ledger[index],currentCost:lateCost(item.amount,item),ccdiiCost:ccdii[index].accepted?lateCost(item.amount,item):0,ledgerCost:ledger[index].accepted?lateCost(ledger[index].creditNeeded,item):0}))})
 const addTransaction=()=>{const last=[...transactions.value].sort((a,b)=>a.at.localeCompare(b.at)).at(-1);const d=new Date(last?.at||'2026-09-17T09:00');d.setMinutes(d.getMinutes()+45);const delivery=new Date(d);delivery.setDate(delivery.getDate()+2);const due=new Date(delivery);due.setDate(due.getDate()+14);const paid=new Date(delivery);paid.setDate(paid.getDate()+1);const id=nextId++;transactions.value.push({id,at:d.toISOString().slice(0,16),label:nl.value?'Nieuwe aankoop':'New purchase',amount:250,outcome:'delivered',outcomeAt:delivery.toISOString().slice(0,16),dueAt:due.toISOString().slice(0,16),paidAt:paid.toISOString().slice(0,16)});editingIds.value=[id]}
 const removeTransaction=(id:number)=>{transactions.value=transactions.value.filter(x=>x.id!==id);editingIds.value=editingIds.value.filter(x=>x!==id)}
@@ -50,13 +73,18 @@ const animationState=computed(()=>{
  const rejected=!result.accepted
  const active=step>=2&&!rejected
  const delivered=active&&item.outcome==='delivered'&&step>=4
- const resolved=active&&!!item.paidAt&&step>=5
- const ownReserved=animationRegime.value==='ledger'&&active&&!delivered&&!resolved?result.ownNeeded:0
- const creditReserved=animationRegime.value==='ledger'&&active&&!delivered&&!resolved?result.creditNeeded:0
- const debt=active&&((animationRegime.value!=='ledger'&&step>=2)||(animationRegime.value==='ledger'&&delivered&&!resolved))?(animationRegime.value==='ledger'?result.creditNeeded:item.amount):0
- const freeOwn=animationRegime.value==='ledger'&&active&&!resolved?result.ownAfter:Math.max(0,result.ownAfter+(animationRegime.value==='ledger'?result.ownNeeded:0))
+ const paid=delivered&&!!item.paidAt&&step>=5
+ const refunded=active&&item.outcome!=='delivered'&&!!item.paidAt&&step>=5
+ const creditBase=animationRegime.value==='ledger'?result.creditNeeded:item.amount
+ const collectionCosts=delivered?lateCost(creditBase,item):0
+ const ownReserved=animationRegime.value==='ledger'&&active&&!delivered&&!refunded?result.ownNeeded:0
+ const creditReserved=animationRegime.value==='ledger'&&active&&!delivered&&!refunded?result.creditNeeded:0
+ const debt=active&&!paid&&((animationRegime.value!=='ledger'&&step>=2)||(animationRegime.value==='ledger'&&delivered))?creditBase+(step>=4?collectionCosts:0):0
+ const freeOwn=animationRegime.value==='ledger'?(refunded||!active?result.ownBefore:result.ownAfter):result.ownBefore
+ const sharedCreditBefore=animationRegime.value==='current'?null:result.creditBefore
+ const creditAvailable=sharedCreditBefore===null?null:(!active||paid||refunded?sharedCreditBefore:Math.max(0,result.creditAfter-(delivered&&step>=4?collectionCosts:0)))
  const merchantPaid=active&&((animationRegime.value==='ledger'&&delivered)||(animationRegime.value!=='ledger'&&step>=3))
- const moneyAt=rejected||step<2||resolved?'customer':animationRegime.value==='ledger'&&!delivered?'provider':merchantPaid?'merchant':'provider'
+ const moneyAt=rejected||step<2||refunded?'customer':animationRegime.value==='ledger'&&!delivered?'provider':merchantPaid?'merchant':'provider'
  const goodsAt=step<3||rejected?'merchant':step===3?'transit':item.outcome==='delivered'?'customer':item.outcome==='pending'?'transit':'missing'
  const action=rejected&&step>=2?(nl.value?'Transactie stopt: onvoldoende toegestane kredietruimte.':'Transaction stops: insufficient permitted credit capacity.')
   :step===0?(nl.value?'Geld en goederen bevinden zich nog bij hun oorspronkelijke eigenaar.':'Money and goods remain with their original owner.')
@@ -64,9 +92,9 @@ const animationState=computed(()=>{
   :step===2?(animationRegime.value==='ledger'?(nl.value?'Eigen geld en alleen het eventuele tekort aan krediet worden gereserveerd.':'Own funds and only any credit shortfall are reserved.'):(nl.value?'Het volledige bedrag wordt als kredietverplichting beoordeeld.':'The full amount is assessed as a credit obligation.'))
   :step===3?(nl.value?'De winkel heeft een geaccepteerde bestelling en verzendt de goederen.':'The merchant has an accepted order and dispatches the goods.')
   :step===4?(item.outcome==='delivered'?(nl.value?'De levering is aanvaard; nu kan definitieve afrekening plaatsvinden.':'Delivery is accepted; final settlement can now occur.'):(nl.value?'Zonder aanvaarde levering blijft de reservering geblokkeerd en wordt niet definitief afgerekend.':'Without accepted delivery, the reservation remains blocked and is not settled definitively.'))
-  :item.outcome==='delivered'?(nl.value?'De winkel ontvangt het bedrag; alleen het kredietdeel blijft als schuld bij de klant.':'The merchant receives the amount; only the credit share remains as customer debt.')
-  :resolved?(nl.value?'De kwestie is opgelost en reserveringen worden vrijgegeven.':'The issue is resolved and reservations are released.'):(nl.value?'Geld en kredietruimte blijven beschermd maar tijdelijk niet beschikbaar tot de kwestie is opgelost.':'Funds and credit capacity remain protected but temporarily unavailable until the issue is resolved.')
- return{rejected,active,delivered,resolved,ownReserved,creditReserved,debt,freeOwn,merchantPaid,moneyAt,goodsAt,action}
+  :item.outcome==='delivered'?(collectionCosts?(nl.value?`De klant betaalt na de hersteltermijn: ${money(creditBase)} plus ${money(collectionCosts)} incassokosten. Het aankoopbedrag blijft bij de winkel.`:`The customer pays after the cure period: ${money(creditBase)} plus ${money(collectionCosts)} collection costs. The purchase amount remains with the merchant.`):(nl.value?'De betaling is voltooid. Het aankoopbedrag blijft bij de winkel en een eventuele schuld bij de klant verdwijnt.':'Payment is complete. The purchase amount remains with the merchant and any customer debt disappears.'))
+  :refunded?(nl.value?'De kwestie is opgelost en eigen geld en kredietreservering worden aan de klant vrijgegeven.':'The issue is resolved and own funds and the credit reservation are released to the customer.'):(nl.value?'Geld en kredietruimte blijven beschermd maar tijdelijk niet beschikbaar tot de kwestie is opgelost.':'Funds and credit capacity remain protected but temporarily unavailable until the issue is resolved.')
+ return{rejected,active,delivered,paid,refunded,ownReserved,creditReserved,creditAvailable,debt,freeOwn,merchantPaid,collectionCosts:paid?collectionCosts:0,moneyAt,goodsAt,action}
 })
 const stopAnimation=()=>{animationPlaying.value=false;if(animationTimer)clearInterval(animationTimer);animationTimer=undefined}
 const playAnimation=()=>{stopAnimation();animationStep.value=0;animationPlaying.value=true;animationTimer=setInterval(()=>{if(animationStep.value>=animationSteps.value.length-1){stopAnimation();return}animationStep.value++},1300)}
@@ -156,9 +184,9 @@ const delayedReward=computed(()=>Math.round(governanceRisk.value.delayedReward*1
    <section ref="animationSection" class="transaction-animation">
     <div class="animation-head"><div><strong>{{nl?'Van bestelling tot levering en betaling':'From order to delivery and payment'}}</strong><small>{{nl?'Volg waar geld, kredietruimte en goederen zich tijdens iedere stap bevinden.':'Follow where money, credit capacity and goods are located during each step.'}}</small></div><div class="animation-selectors"><select v-model="animationRegime" :aria-label="nl?'Scenario':'Scenario'"><option value="current">{{nl?'Huidige situatie':'Current situation'}}</option><option value="ccdii">CCDII</option><option value="ledger">{{nl?'Reserveringsmodel':'Reservation model'}}</option></select><select v-model.number="animationTxId" :aria-label="nl?'Transactie':'Transaction'"><option v-for="item in transactions" :key="item.id" :value="item.id">{{item.label}} · {{money(item.amount)}}</option></select></div></div>
     <div v-if="animationState&&animationItem" class="flow-stage" :class="[`money-${animationState.moneyAt}`,`goods-${animationState.goodsAt}`,{rejected:animationState.rejected}]">
-     <article class="actor customer"><span>👤</span><b>{{nl?'Klant':'Customer'}}</b><dl><div><dt>{{nl?'Vrij geld':'Free funds'}}</dt><dd>{{money(animationState.freeOwn)}}</dd></div><div><dt>{{nl?'Gereserveerd eigen geld':'Reserved own funds'}}</dt><dd>{{money(animationState.ownReserved)}}</dd></div><div><dt>{{nl?'Schuld':'Debt'}}</dt><dd>{{money(animationState.debt)}}</dd></div></dl></article>
+     <article class="actor customer"><span>👤</span><b>{{nl?'Klant':'Customer'}}</b><dl><div><dt>{{nl?'Vrij geld':'Free funds'}}</dt><dd>{{money(animationState.freeOwn)}}</dd></div><div><dt>{{nl?'Gereserveerd eigen geld':'Reserved own funds'}}</dt><dd>{{money(animationState.ownReserved)}}</dd></div><div><dt>{{nl?'Beschikbare kredietruimte':'Available credit capacity'}}</dt><dd>{{animationState.creditAvailable===null?(nl?'niet centraal bewaakt':'not centrally tracked'):money(animationState.creditAvailable)}}</dd></div><div><dt>{{nl?'Schuld inclusief kosten':'Debt including costs'}}</dt><dd>{{money(animationState.debt)}}</dd></div></dl></article>
      <div class="flow-space"><div class="money-token"><span>€</span><small>{{money(animationItem.amount)}}</small></div><div class="goods-token"><span>▣</span><small>{{animationItem.label}}</small></div><div v-if="animationState.rejected&&animationStep>=2" class="stop-token">×</div></div>
-     <article class="actor provider"><span>🏦</span><b>{{nl?'Betaal- en reserveringslaag':'Payment and reservation layer'}}</b><dl><div><dt>{{nl?'Eigen geld geblokkeerd':'Own funds blocked'}}</dt><dd>{{money(animationState.ownReserved)}}</dd></div><div><dt>{{nl?'Kredietruimte bezet':'Credit capacity occupied'}}</dt><dd>{{money(animationState.creditReserved)}}</dd></div><div><dt>{{nl?'Te innen schuld':'Debt receivable'}}</dt><dd>{{money(animationState.debt)}}</dd></div></dl></article>
+     <article class="actor provider"><span>🏦</span><b>{{nl?'Betaal- en reserveringslaag':'Payment and reservation layer'}}</b><dl><div><dt>{{nl?'Eigen geld geblokkeerd':'Own funds blocked'}}</dt><dd>{{money(animationState.ownReserved)}}</dd></div><div><dt>{{nl?'Kredietruimte bezet':'Credit capacity occupied'}}</dt><dd>{{money(animationState.creditReserved)}}</dd></div><div><dt>{{nl?'Te innen schuld':'Debt receivable'}}</dt><dd>{{money(animationState.debt)}}</dd></div><div><dt>{{nl?'Betaalde incassokosten':'Collection costs paid'}}</dt><dd>{{money(animationState.collectionCosts)}}</dd></div></dl></article>
      <div class="flow-space second"></div>
      <article class="actor merchant"><span>🏪</span><b>{{nl?'Winkel':'Merchant'}}</b><dl><div><dt>{{nl?'Bestelling':'Order'}}</dt><dd>{{animationStep>=1&&!animationState.rejected?(nl?'ontvangen':'received'):'—'}}</dd></div><div><dt>{{nl?'Goederen':'Goods'}}</dt><dd>{{animationState.goodsAt==='merchant'?(nl?'op voorraad':'in stock'):animationState.goodsAt==='transit'?(nl?'onderweg':'in transit'):animationState.goodsAt==='customer'?(nl?'bij klant':'with customer'):(nl?'niet aangetroffen':'not located')}}</dd></div><div><dt>{{nl?'Betaling ontvangen':'Payment received'}}</dt><dd>{{animationState.merchantPaid?money(animationItem.amount):money(0)}}</dd></div></dl></article>
     </div>
