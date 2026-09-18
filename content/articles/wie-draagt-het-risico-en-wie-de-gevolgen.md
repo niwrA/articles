@@ -106,11 +106,13 @@ Zoals iemand nu soms kan instellen hoeveel die rood mag staan of per dag online 
 
 ### De uitvoering
 
-Let op: dit is een ontwerpvoorstel en geen bestaand Nederlands systeem. Het moet worden getest en roept vragen op over privacy, storingen, foutieve blokkades en uitsluiting. De kern is eenvoudiger: een controle die de gebruikte ruimte niet meteen reserveert, kan bij gelijktijdige aanvragen een juist antwoord geven op verouderde informatie.
+_Let op: dit is een ontwerpvoorstel en geen bestaand Nederlands systeem. Het moet worden getest en roept vragen op over privacy, storingen, foutieve blokkades en uitsluiting._
+
+De kern is eenvoudiger: een controle die de gebruikte ruimte niet meteen reserveert, kan bij gelijktijdige aanvragen een juist antwoord geven op verouderde informatie.
 
 #### Een controle moet de beschikbare ruimte meteen veranderen
 
-Stel dat iemand nog €500 kan lenen en twee winkels vrijwel tegelijk €400 aanvragen. Als beide dezelfde oude stand lezen, kunnen ze allebei toestemming geven. Een gedeeld capaciteitsregister moet daarom werken als **CONTROLEREN → RESERVEREN → VASTLEGGEN**. Na de eerste reservering ziet de tweede winkel nog maar €100. Gaat de eerste aankoop niet door, dan komt de ruimte weer vrij.
+Stel dat iemand nog €500 kan lenen en twee winkels vrijwel tegelijk €400 aanvragen. Als beide dezelfde oude stand lezen, kunnen ze allebei toestemming geven. Een gedeeld capaciteitsregister moet daarom werken als **CONTROLEREN → RESERVEREN → VASTLEGGEN**. Na de eerste reservering is bij het moment dat de betaling via de tweede winkel wordt behandeld nog maar €100 beschikbaar. Gaat de eerste aankoop niet door, dan komt de ruimte weer vrij.
 
 #### Koppel betaling aan de toestand van de bestelling
 
