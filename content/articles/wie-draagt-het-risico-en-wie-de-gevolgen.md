@@ -15,7 +15,7 @@ keyPoints:
   - Uitgesteld betalen kan door gemiste termijnen, rente en incassokosten veel duurder worden dan de oorspronkelijke aankoop doet vermoeden.
   - Een gedeeld register moet gebruikte ruimte meteen reserveren, anders kunnen twee aanbieders tegelijk van hetzelfde beschikbare bedrag uitgaan.
   - Regels horen de economische functie, risico's en machtsverdeling te volgen, niet de productnaam of gebruikte techniek.
-  - Financiële veiligheid en belangenafstemming zijn verschillende dimensies: een transactie kan betaalbaar zijn en toch schade of verantwoordelijkheid verkeerd verdelen.
+  - Financiële veiligheid en belangenafstemming zijn verschillende dimensies; een transactie kan betaalbaar zijn en toch schade of verantwoordelijkheid verkeerd verdelen.
   - Dit is een voorstel dat eerst in de praktijk moet worden getest, geen beschrijving van het huidige stelsel en geen individueel financieel advies.
 plainLanguage:
   title: Wat gebeurt er werkelijk wanneer je achteraf betaalt?
@@ -67,18 +67,20 @@ modelLimitations:
 draft: false
 ---
 
-Online artikelen kopen: we doen het massaal. Soms moeten we ook iets terugsturen, bijvoorbeeld omdat het niet past, of moeten we geld terugvragen omdat het product niet of niet op tijd werd geleverd. Soms betalen we, maar krijgen we niks, en lukt het ons ook alleen maar met veel moeite of zelfs helemaal niet (fraude) om dat geld weer terug te krijgen. 
+Online artikelen kopen: we doen het massaal. Soms moeten we ook iets terugsturen, bijvoorbeeld omdat het niet past, of moeten we geld terugvragen omdat het product niet of niet op tijd werd geleverd. Soms betalen we, maar krijgen we niks, en lukt het ons ook alleen maar met veel moeite of zelfs helemaal niet om dat geld weer terug te krijgen - in dat laatste geval gaat het meestal om fraude. 
 
-Een van de nieuwere manieren om met die problemen om te gaan is achteraf betalen. Maar achteraf betalen heeft nog een bijeffect - het is ook een vorm van op de pof/krediet kopen, een vorm van uitgesteld betalen, met bovendien meestal in plaats van rente op krediet, een kans op flinke boetes.
+Een van de nieuwere manieren om met online betalingsproblemen om te gaan is achteraf betalen. Met achteraf betalen loop je minder risico - je betaalt pas als je daadwerkelijk in je handen hebt wat je wil. Maar achteraf betalen heeft wel een bijeffect: het is ook een vorm van op krediet kopen, met bovendien vaak niet zozeer rente maar wel flinke boetes. In 2024 leidde ongeveer 1 op de 29 BNPL-transacties tot aanmaningskosten en ongeveer 1 op de 88 tot overdracht aan een incassobureau. Bij zo'n incassotraject bedragen de incassokosten minimaal €40 — opvallend veel bij een betaalvorm waarbij juist kleine bedragen vaak in de problemen komen
 
-Een paar schoenen online bestellen lijkt een klein vertrekpunt voor een artikel over ondernemingsbestuur en maatschappelijke schade, maar de paralel zit in het tijdsverschil: voordeel ontstaat nu, terwijl kosten of risico's later en mogelijk bij iemand anders (bijvoorbeeld ouders, partners) zichtbaar worden. De verbinding zit in de morele plicht om na te denken over de gevolgen van wat je op de markt brengt. We brengen de problemen hier in kaart en praten ook over mogelijke oplossingen, waarbij we voor in elk geval een veilig betaalsysteem een concreet voorbeeldontwerp van een veilige oplossing presenteren.
+De problemen beperken zich bovendien niet tot aanmaningskosten. Onder BNPL-gebruikers onder de 35 jaar stond in 2024 één op de zes meer dan 90 dagen per jaar rood. Deze groep miste of storneerde gemiddeld ook ongeveer tien incasso's per jaar, en dat aantal liep op naarmate mensen vaker gebruikmaakten van achteraf betalen. De AFM benadrukt daarbij dat deze cijfers niet bewijzen dat BNPL de financiële problemen veroorzaakt: het kan ook zijn dat mensen die financieel al kwetsbaar zijn vaker achteraf betalen. Maar precies die samenhang maakt kredietverlening zonder goed zicht op iemands totale verplichtingen riskant.
+
+Een paar schoenen online bestellen lijkt een klein vertrekpunt voor een artikel over ondernemingsbestuur en maatschappelijke schade, maar de paralel zit in het tijdsverschil: voordeel ontstaat nu, terwijl kosten of risico's later en mogelijk bij iemand anders (bijvoorbeeld ouders, partners) zichtbaar worden. De verbinding zit in de morele plicht om na te denken over de gevolgen van wat je op de markt brengt. We brengen de problemen hier in kaart en praten ook over mogelijke oplossingen, waarbij we voor in elk geval een veilig betaalsysteem een concreet voorbeeldontwerp van een veilige oplossing presenteren, en voor het hogere niveau een denkrichting.
 
 Daarnaast ligt er ook regelgeving vanuit de EU klaar om door de tweede kamer behandeld te worden. Die voorstellen nemen we ook mee, en we zullen het artikel bijwerken als daar besluiten uit volgen.
 
 ::RiskResponsibilityLayers{locale="nl"}
 ::
 
-## Deel I — Een veilig financieel systeem op persoonlijke schaal
+## Een veilig financieel systeem op persoonlijke schaal
 
 ### Eén betaalknop verbergt meerdere vragen
 
@@ -128,7 +130,7 @@ Het voorstel schrijft niet één betaalmoment voor. Het geeft iedere betaalvorm 
 
 Dezelfde betaalvorm kan daardoor anders uitpakken afhankelijk van wat iemand werkelijk bezit. “Achteraf” of “gespreid” zegt op zichzelf nog niet hoeveel schuld ontstaat: dat volgt pas uit het deel dat niet met gereserveerd eigen geld wordt gedekt.
 
-### Europese richtlijn consumentenkrediet komt eraan: wat het komende wetsvoorstel wel en niet doet
+### Europese richtlijn consumentenkrediet
 
 De herziene Europese richtlijn consumentenkrediet brengt onder meer achteraf betalen nadrukkelijker onder kredietbescherming.[2] Op 17 september 2026 lag de Nederlandse implementatie nog als wetsvoorstel bij de Tweede Kamer (geplande behandeling 28 sept). De precieze uitwerking kan dus nog veranderen.[7]
 
@@ -136,7 +138,7 @@ Het voorstel pakt belangrijke problemen aan. Aanbieders komen in beginsel onder 
 
 De wet behandelt achteraf betalen echter hoofdzakelijk als krediet. In termen van de tabellen verbetert zij vooral de kredietvarianten: creditcards, uitgesteld betalen, achteraf betalen en gespreide betaling. Zij maakt voor zover nu bekend geen afzonderlijk systeem waarin eigen geld voor diezelfde betaalvormen tot levering of betaaldatum wordt gereserveerd. Ook creëert zij geen gedeelde reservering die twee gelijktijdige aanbieders onmiddellijk dezelfde resterende ruimte laat zien, en geen gezamenlijke transactietoestand voor levering, betwisting en afrekening. BKR registreert verplichtingen en achterstanden, maar vervult die functie niet.[3] Het wetsvoorstel en dit ontwerp overlappen dus, maar lossen niet hetzelfde probleem op.
 
-### Reguleer de functie, niet de productnaam
+### Maak regels en wetten op doel en functie
 
 Een wet die alleen *Buy Now, Pay Later*, creditcards of andere bestaande producten opsomt, loopt onvermijdelijk achter. Dezelfde economische constructie kan later terugkeren als wallet, abonnement, token, speltegoed of combinatie van verschillende dienstverleners. De algemene regel zou daarom moeten zijn dat vergelijkbare functies en risico's gelijk worden behandeld, ongeacht naam, contractvorm of techniek.
 
@@ -171,19 +173,20 @@ Microtransacties, virtuele valuta en gokachtige beloningsmechanismen vormen daar
 ::
 :::
 
-## Deel II — Risico en verantwoordelijkheid op maatschappelijke schaal
+##  Risico en verantwoordelijkheid op maatschappelijke schaal
 
-### Kan hetzelfde beginsel op grotere schaal werken?
+### Kan hetzelfde beginsel op grotere schaal werken en dit soort problemen structureel voorkomen?
 
-Bij een consument kan €500 letterlijk worden gereserveerd. Zouden we zoiets misschien ook op grotere schaal kunnen inzetten om fraude en te hoge schulden te voorkomen?
+Bij een consument kan €500 dus in principe letterlijk worden gereserveerd. Zouden we zoiets misschien ook op grotere schaal kunnen inzetten om fraude en te hoge schulden te voorkomen? En zouden we daarnaast bedrijven kunnen vragen voordat ze iets nieuws op de markt brengen mee te denken over de risicos die dat met zich meebrengt en zouden we ze kunnen aanmoedigen om die te voorkomen, en zo ja hoe? 
 
-Het korte antwoord is: nee, niet direct. Bij een fabriek, bank of infrastructuurproject is het toekomstige risico geen precies bedrag. Schade hangt af van markten, storingen, gedrag en zeldzame scenario's. Opschaling betekent daarom niet dat ieder mogelijk verlies vooraf exact op een rekening wordt geblokkeerd. En hoeveel lening mag je afsluiten (meestal in de vorm van aandelen) op de kans dat een nieuw online platform in de, soms verre, toekomst heel veel geld gaat opleveren?
 
-Een onderneming blootstelling vergelijken met haar balans, liquiditeit, buffers en herstelvermogen. Voor verschillende scenario's kan zij een risicoschaal gebruiken: hoe groot kan de schade worden, hoe waarschijnlijk treedt ze op, wanneer wordt ze zichtbaar en wie kan haar dragen? Daar kan op zijn minst een risicoprofiel uit komen, waar dan rapportage verplichtingen en consequenties aan verbonden kunnen worden zoals verscherpte toezicht of toestemming door een authoriteit. 
+Dat blijkt wat minder eenvoudig. Bij een fabriek, bank of infrastructuurproject is het toekomstige risico geen precies bedrag. Schade hangt af van markten, storingen, gedrag en zeldzame scenario's. Opschaling maakt het daarom moeilijk verlies vooraf exact op een rekening te bolkkeren. En hoeveel lening mag je afsluiten, of aandelen uitgeven, speculerend op de kans dat een nieuw online platform in de, soms verre, toekomst wel geld gaat opleveren?
 
-DNB gebruikt ook nu bijvoorbeeld bij derivaten niet alleen nominale posities, maar ook stresstests, liquiditeitsbehoefte en buffers.[4] Het overeenkomstige beginsel is dat aangegane risico's de resterende draagkracht zichtbaar moeten verkleinen, ook wanneer de precieze uitkomst onzeker is.
+Een onderneming heeft  balans, liquiditeit, buffers en herstelvermogen. Voor verschillende scenario's kan zij een risicoschaal gebruiken: hoe groot kan de schade worden, hoe waarschijnlijk treedt ze op, wanneer wordt ze zichtbaar en wie kan haar dragen? Daar kan bijvoorbeeld een risicoprofiel uit worden berekend. Dat profiel kunnen we dan weer verplicht op laten nemen in financiele cijfers en forecasts, en daar kunnen we vervolgens consequenties aan verbinden:  verscherpte toezicht, toestemming door een authoriteit voor verdergaande financiering, enzovoorts. 
 
-### Wat niet direct op de balans verschijnt
+Kijken we naar de huidige praktijk, dan gebruikt de DNB ook nu bij derivaten niet alleen nominale posities, maar ook stresstests, liquiditeitsbehoefte en buffers.[4] Het overeenkomstige beginsel is dat aangegane risico's de resterende draagkracht zichtbaar moeten verkleinen, uiteindelijk op een vergelijkbare manier als bij een individu: binnen redelijke marges.
+
+### Verborgen gebreken en kosten voor de maatschappij
 
 #### Toekomstige waarde, milieuschade en andere verborgen kosten
 
