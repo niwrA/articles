@@ -1,26 +1,28 @@
 ---
-title: "Payment: who bears the risk — and who bears the consequences?"
-description: A proposal for showing how much money is truly available, how much debt is created and where the consequences of financial choices fall.
+title: "Payment: who bears the risk?"
+description: A proposal for showing owned money, reservations, credit, delivery and costs as one coherent payment process.
 date: 2026-09-17
-updated: 2026-09-17
-tags: [Economics, Finance, Systems, Responsibility]
+updated: 2026-09-18
+tags: [Economics, Finance, Payments, Consumer protection]
 translationKey: risk-and-responsibility
-featuredImage: /images/artikelen/risk-and-responsibility/risk-and-responsibility.webp
-featuredImageAlt: A transparent network connects a buyer, shop, bank and factory while money flows and social consequences remain separately visible.
+articleRelations:
+  - type: complements
+    article: consequences-and-accountability
+featuredImage: /images/artikelen/risk-and-responsibility/payment-reservation.webp
+featuredImageAlt: A buyer safely reserves owned money while a parcel is delivered; the funds reach the shop only after delivery is accepted
 featuredImageFocalPoint: center center
 featuredImageMobileFocalPoint: center center
-summary: "Pay later can combine two different needs: assurance of delivery and credit. Reserving money a buyer already owns, while treating only a real shortfall as credit, could make commitments visible sooner. The same design principle leads to a broader test: those with benefit and decision-making power should not quietly shift consequences to others or the future."
+summary: "Pay later can combine two different needs: assurance of delivery and credit. Reserving money a buyer already owns, treating only a real shortfall as credit and connecting settlement to the state of the order could make commitments and risks visible sooner."
 keyPoints:
   - If the purchase amount already exists, the main need is assurance about delivery and payment; only the shortfall requires credit.
   - Deferred payment can become much more expensive through missed deadlines, interest and collection costs.
   - A shared register must reserve used capacity immediately, or two providers may rely on the same available amount.
-  - Rules should follow economic function, risk and the distribution of power, not a product name or technology.
-  - Financial safety and alignment are different dimensions; an affordable transaction can still distribute harm or responsibility unfairly.
+  - Rules should follow economic function and risk, not a product name or technology.
   - This proposal requires practical testing and is neither a description of the current system nor personal financial advice.
 plainLanguage:
   title: What really happens when you pay later?
   intro: >-
-    Imagine ordering shoes online for €500. You want to pay only after knowing that they have arrived. That is understandable. But the same pay-later button can cover two very different situations. You may already own the €500, or you may need to borrow all or part of it. This article proposes making that difference visible. It then asks a broader question: who receives the benefit of an economic decision, and who ultimately carries its consequences?
+    Imagine ordering shoes online for €500. You want to pay only after knowing that they have arrived. That is understandable. But the same pay-later button can cover two very different situations. You may already own the €500, or you may need to borrow all or part of it. This article proposes making that difference visible and treating payment, delivery and dispute as one process.
   sections:
     - heading: If the money already exists, no loan is needed
       paragraphs:
@@ -52,33 +54,30 @@ plainLanguage:
         - An order is not complete when money has merely been reserved. The system must also know whether the product was delivered, accepted, returned or disputed. Only then should funds be transferred or released. Clear evidence and appeal rules are needed.
         - >-
           In the interactive model you can set order, delivery, due and payment dates. You can compare the current situation, a simplified representation of the bill and the reservation model. The outcomes are examples, not personal financial advice.
-    - heading: A financially safe decision can still be unjust
-      paragraphs:
-        - The first part concerns personal financial safety. At a larger scale, a company can profit while workers, neighbours or future generations bear the harm. A decision may be affordable and still be unjust.
-        - The second part therefore considers benefit, decision-making power, consequences, accountability and time separately. A model cannot determine what is morally right, but it can reveal when those who decide and benefit carry little of the harm.
-  takeaway: Show separately which money exists, how much is reserved, what debt is created and when delivery leads to payment. Let rules follow actual functions and risks rather than product names. Also ask who has benefit and decision-making power, who bears possible harm and who can still be held accountable later.
-modelComponent: risk-responsibility
+  takeaway: Show separately which money exists, how much is reserved, what debt is created and when delivery leads to payment. Let rules follow actual functions and risks rather than product names.
+modelComponent: payment-system
 modelLimitations:
-  - The indices and thresholds are teaching assumptions, not empirically calibrated risk or credit scores.
+  - The thresholds are teaching assumptions, not empirically calibrated credit scores.
   - The transaction model simplifies statutory collection costs. It does not fully model interest, provider-specific charges, income, term, default, returns, privacy, operating costs or legal protection.
   - The CCDII-bill mode is a schematic reading of the proposal as at 17 September 2026, not a forecast of the final Act or secondary legislation.
-  - The alignment model keeps its parts visible and does not provide a complete moral, legal or financial-supervision assessment.
   - Real deployment would require a legal basis, data minimisation, independent scrutiny and validated domain-specific models.
 draft: false
 ---
 
 Online shopping is commonplace. Products may need to be returned because they do not fit, and buyers sometimes need a refund because an order arrives late or not at all. Sometimes payment is made but nothing is delivered, and recovering the money is difficult or impossible because of fraud.
 
-Pay later is one relatively recent response to those problems. But it has a second effect: it can also turn the purchase into buying on credit. Instead of ordinary interest, the customer may face substantial reminder and collection costs after a missed deadline.
+Pay later is one relatively recent response to online-payment problems. It reduces delivery risk because payment follows receipt of the product. But it also has a second effect: the purchase becomes credit, often carrying substantial costs after a missed deadline rather than ordinary interest. In 2024, roughly one in 29 BNPL transactions led to reminder charges and about one in 88 was transferred to a collection agency. Dutch statutory collection costs then start at €40 — a substantial addition to the small purchases that frequently encounter difficulty.[9][10]
 
-A pair of shoes may seem a small starting point for an article about corporate management and social harm. The connection is the time difference: benefit arises now, while costs or risks become visible later and perhaps to somebody else, such as a parent or partner. Both parts of this article concern a duty to consider the foreseeable consequences of what is placed on the market. For the payment problem, the article also develops a concrete example of a safer system.
+The problem is not limited to reminder charges. Among BNPL users below 35, one in six spent more than ninety days overdrawn during 2024. This group also missed or reversed about ten direct debits on average, with that number increasing among more frequent BNPL users. The AFM stresses that these figures do not prove BNPL caused the financial difficulties: people who were already financially vulnerable may use pay later more often. That association nevertheless makes lending without a current view of someone’s total commitments risky.[1]
+
+This article therefore starts with the functional problem: one payment button can conceal available money, credit, delivery, consent, fraud and costs over time. It then develops a reservation model and compares it with existing payment methods and forthcoming consumer-credit rules. The broader question of who benefits while others carry later social harm is developed in the linked article about consequences and accountability.
 
 The EU has adopted revised consumer-credit rules which still required Dutch implementation at the time of writing. This article compares that bill with the proposed system and should be updated as the legislative process develops.
 
 ::RiskResponsibilityLayers{locale="en"}
 ::
 
-## Part I — A safe financial system at personal scale
+## A safe financial system at personal scale
 
 ### One payment button hides several questions
 
@@ -102,6 +101,8 @@ Suppose shoes cost €500 and the buyer owns €2,000. The bank can set aside �
 If the buyer lacks sufficient funds, the amount to be borrowed is reserved as credit. A mixed transaction is possible as well: €200 of owned funds may be reserved and the missing €300 financed. Owned money, reserved money and debt remain visible as different things.
 
 This is consistent with the AFM's observation that pay later may provide delivery assurance but also creates a loan and a risk of accumulating debts. The AFM therefore encourages payment methods that provide the same assurance without a lending component.[1]
+
+Just as people may currently set an overdraft or daily online-payment limit, the system could allow an overarching personal credit ceiling. Statutory limits or defaults could sit above that setting, informed by age and existing credit rules.
 
 ### Implementation
 
@@ -128,9 +129,9 @@ The same payment method can therefore have different effects depending on what t
 
 ### The revised Consumer Credit Directive: what the bill does and does not solve
 
-The revised EU Consumer Credit Directive brings services such as BNPL more clearly under credit protection.[2] On 17 September 2026, Dutch implementation was still a bill before the House of Representatives, with debate scheduled for 28 September. Its precise form could therefore still change.[7]
+The revised EU Consumer Credit Directive brings services such as BNPL more clearly under credit protection.[2] On 17 September 2026, Dutch implementation was still a bill before the House of Representatives, with debate scheduled for 28 September. Its precise form could therefore still change.[4]
 
-The proposal addresses important problems. Providers would generally come under financial supervision, assess creditworthiness, provide clearer information and record consent. It also addresses remuneration incentives, payment difficulties, disputes and effective age verification.[8] The latter matters because the AFM found almost 600,000 potentially unauthorised BNPL transactions through minors' accounts in 2023.[9]
+The proposal addresses important problems. Providers would generally come under financial supervision, assess creditworthiness, provide clearer information and record consent. It also addresses remuneration incentives, payment difficulties, disputes and effective age verification.[5] The latter matters because the AFM found almost 600,000 potentially unauthorised BNPL transactions through minors' accounts in 2023.[6]
 
 The bill nevertheless treats pay later mainly as credit. In terms of the scenario comparison, it chiefly improves credit-card, deferred-payment, pay-after-delivery and instalment variants. As currently described, it does not create a separate system that reserves owned money until delivery or the due date. Nor does it create a shared reservation that gives concurrent providers the same remaining capacity or one transaction state connecting delivery, dispute and settlement. BKR records obligations and arrears but does not perform that function.[3] The bill and this design overlap, but they do not solve the same problem.
 
@@ -148,19 +149,19 @@ This can be implemented in layers. Legislation states technology- and product-ne
 
 #### Credit cards show that reservation is practical
 
-For a credit-card payment, the merchant first requests authorisation and the issuer temporarily reduces the available limit. The hold later becomes a posted transaction. Cancellation may release it; non-delivery or fraud may lead to a dispute or chargeback. A prepaid card uses owned money, a card settled monthly creates temporary credit, and a revolving card can carry debt and interest for longer.[11]
+For a credit-card payment, the merchant first requests authorisation and the issuer temporarily reduces the available limit. The hold later becomes a posted transaction. Cancellation may release it; non-delivery or fraud may lead to a dispute or chargeback. A prepaid card uses owned money, a card settled monthly creates temporary credit, and a revolving card can carry debt and interest for longer.[8]
 
 This proposal extends that familiar principle: other relevant credit decisions should also recognise the same current obligation. The card hold and wider register entry are two views of one amount, not two debts. The interactive model still simplifies this to owned funds and one general credit pool.
 
 #### Late payment reveals the effect of time
 
-Pay later often appears free while every deadline is met. According to the AFM, providers issued about 6.9 million notices of default in 2024, charged reminder fees on 1.8 million transactions and transferred roughly 600,000 transactions to debt collectors.[12] Statutory collection costs require a reminder and fourteen-day cure period first. They then have a €40 minimum, and interest may also be due.[13]
+Pay later often appears free while every deadline is met. According to the AFM, providers issued about 6.9 million notices of default in 2024, charged reminder fees on 1.8 million transactions and transferred roughly 600,000 transactions to debt collectors.[9] Statutory collection costs require a reminder and fourteen-day cure period first. They then have a €40 minimum, and interest may also be due.[10]
 
-A safer design shows possible consequences before purchase and sends timely warnings. The AFM found that a simple SMS reminder reduced late payments with charges by about one fifth.[9] The model simplifies collection costs: they apply to the full credit amount under the current situation and bill, but only to the amount actually borrowed under the reservation model.
+A safer design shows possible consequences before purchase and sends timely warnings. The AFM found that a simple SMS reminder reduced late payments with charges by about one fifth.[6] The model simplifies collection costs: they apply to the full credit amount under the current situation and bill, but only to the amount actually borrowed under the reservation model.
 
 #### Minors using a parent's payment method
 
-Age verification for credit does not prevent a child from spending through a parent's account or stored payment method. The relevant questions for this model are who gave consent and which reservation or debt appears on the parent's account. A separate child budget, cumulative limit and renewed consent above that limit may make the relationship clearer.[10]
+Age verification for credit does not prevent a child from spending through a parent's account or stored payment method. The relevant questions for this model are who gave consent and which reservation or debt appears on the parent's account. A separate child budget, cumulative limit and renewed consent above that limit may make the relationship clearer.[7]
 
 Microtransactions, virtual currencies and gambling-like reward mechanisms form a broader problem that also affects adults. They require a separate analysis of addiction risk, price presentation and manipulative design and are not examined further here.
 
@@ -169,83 +170,21 @@ Microtransactions, virtual currencies and gambling-like reward mechanisms form a
 ::
 :::
 
-## Part II — Risk and responsibility at societal scale
-
-### Can the same principle work at a larger scale?
-
-For a consumer, €500 can literally be reserved. Could a similar approach prevent fraud and excessive debt at a larger scale?
-
-The short answer is: not directly. For a factory, bank or infrastructure project, future risk is not one precise amount. Harm depends on markets, failures, behaviour and rare scenarios. Scaling up therefore cannot mean blocking every possible future loss in cash. Nor is there one exact answer to how much capital a new online platform may raise against a chance of distant future profit.
-
-An enterprise can instead compare exposure with its balance sheet, liquidity, buffers and ability to recover. Scenarios can express how large harm might be, how likely it is, when it appears and who can bear it. The resulting risk profile can trigger reporting, closer supervision or approval requirements.
-
-For derivatives, DNB similarly considers stress tests, liquidity needs and buffers rather than notional positions alone.[4] The shared principle is that assumed risks should visibly reduce remaining capacity even when their exact outcome is uncertain.
-
-### What does not immediately appear on the balance sheet
-
-#### Future value, environmental harm and other hidden costs
-
-A financially feasible project may still destroy long-term value. Deferred maintenance can raise profit now and cause failures later. Pollution may fall on neighbours or future generations. A choice producing €20 million of private profit and €30 million of harm elsewhere looks positive on the corporate balance sheet but not to society.
-
-Five questions are therefore needed alongside financial capacity: who benefits, who decides, who can influence the outcome, who bears the consequences and when do they appear? Not every effect can be priced reliably. Separate scenarios and risk ranges are more honest than one falsely precise moral score.
-
-#### Management rewards can separate time from responsibility
-
-Salary, shares and options distribute upside and downside differently. An executive may be rewarded now for profit while maintenance, health or environmental costs appear after departure. Deferred compensation, clawbacks, personal liability, independent oversight and advance provisions can keep benefit and responsibility connected for longer.
-
-This is not an argument for unlimited personal liability. Decision-makers need room to take responsible risks. The aim is to prevent someone from ignoring foreseeable long-term harm, receiving the short-term gain personally and leaving the later bill entirely to the company, shareholders or society.
-
-#### Responsibility should also be regulated independently of form
-
-The same issue arises at this scale. Legislation aimed only at one company type, financial instrument or remuneration form can be avoided by repackaging risk. A broader duty of care can therefore follow four factual features: who has material decision-making power, who receives benefit, which adverse consequences are reasonably foreseeable and who can prevent, limit or repair them?
-
-Such a rule does not make executives responsible for every imaginable future loss. Its reach should depend on influence, foreseeability and severity. A party that causes or materially contributes to a risk has a stronger duty than one remotely connected to it. A party without direct control but with substantial leverage may at least be required to investigate risks, set conditions and report outcomes.
-
-Remuneration rules can follow function as well. The decisive question is not whether value is labelled a bonus, share or option, but whether somebody can receive early personal benefit from a decision whose material consequences appear later. An appropriate part of that reward can remain connected to those consequences through deferral, clawback or liability for culpable conduct.
-
-Combining a general duty with sector-specific detail avoids two extremes. Detailed product rules age quickly; open standards alone make outcomes unpredictable. Statutory principles, concrete thresholds and scenario requirements in secondary rules, independent review and periodic revision can respond faster to new constructions without abandoning legal protection.
-
-:::ModelDisclosure{title="Interactive model: reward, harm and accountability over time" description="Explore how immediate and deferred rewards, financial buffers, oversight and personal accountability change the distribution of consequences." locale="en"}
-::RiskResponsibilityExplorer{locale="en" mode="governance"}
-::
-:::
-
-### Two applications connect the layers
-
-#### Pay later
-
-A deferred-payment provider is responsible for foreseeable effects of its product design at scale. It sets limits, reminders and interfaces, earns from use and may see patterns that no individual shop sees. The AFM expects financial firms to consider target markets, performance in different scenarios, customer interests and review during product development.[5] OECD guidance also asks enterprises to identify and limit adverse impacts from their products and services.[6]
-
-The relevant question is not whether one pair of shoes was morally permissible, but whether the system foreseeably promotes stacking, impulsive use or harm among vulnerable groups and how the provider responds. Personal financial safety and system-level responsibility meet here.
-
-#### Hedging and speculation
-
-A put option is not wrong because it rises when a share falls; it may limit an existing risk. The analysis changes when a party profits greatly from harm it can influence. The underlying position, decision power, possible harm and accountability must then be considered together. The same instrument may provide useful protection or create a perverse incentive depending on the relationship between benefit, power and consequences.
-
-### What could limit or refute the proposal?
-
-A pilot should test whether a shared register actually reduces missed payments, double commitments and unnecessary borrowing more than simpler measures. Ordinary bank holds, existing credit registration and a clearer balance display may achieve almost the same at lower cost. A central overview may also create new harm through errors, outages or privacy failures.
-
-The second model must likewise add something beyond existing accounting, supervision and liability. This can be tested by stating in advance which situations it identifies as risky and comparing those predictions with independent case analyses. A framework that can be bent retrospectively towards any conclusion is not useful.
-
 ### Conclusion
 
-The first proposal is functional: show which money is free, reserve what has already been promised, call only the shortfall credit, and connect payment to delivery and dispute. The bill strengthens protection around credit but does not build the same reservation and transaction model. Future-proof rules should therefore cover not only named payment products but every construction with the same economic function and risks.
+Show which money is free, reserve what has already been promised, call only the shortfall credit, and connect payment to delivery and dispute. The bill strengthens protection around credit but does not build the same reservation and transaction model. Future-proof rules should cover not only named payment products but every construction with the same economic function and risks.
 
-At larger scale, exact amounts give way to scenarios, risk ranges and buffers. A second problem then becomes visible: profit, decision-making power and personal reward may arise early while financial, social or environmental consequences reach others later. Here too, rules should follow actual power, benefit and foreseeable consequences rather than legal packaging. Good design therefore shows not only how much risk a system can bear, but also **where consequences land, who can influence them and who remains accountable when they appear**.
+The design must still demonstrate that it improves on simpler alternatives. A pilot should therefore compare whether a shared register prevents missed payments, double commitments and unnecessary borrowing better than ordinary bank holds, existing credit registration and a clearer balance display. Errors, outages, privacy failures and wrongful blocks must count as harms caused by the system itself.
 
 ## References
 
 1. Dutch Authority for the Financial Markets. *Buy Now, Pay Later Market Update 2025* (Dutch). 2025. [View source](https://www.afm.nl/~/profmedia/files/rapporten/2025/rapport-marktupdate--bnpl-2025-ned.pdf)
 2. European Union. *Directive (EU) 2023/2225 on credit agreements for consumers*. 2023. [View source](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32023L2225)
 3. Dutch Credit Registration Foundation. *Credit registration at BKR* (Dutch). [View source](https://www.bkr.nl/media/ssqbz200/kredietregistratie-bij-stichting-bkr.pdf)
-4. De Nederlandsche Bank. *Liquidity risks in pension funds' derivatives portfolios*. 2025. [View source](https://www.dnb.nl/media/j4tlwfyw/77879-dnb-liquiditeitsrisico-s-derivatenportefeuilles-pensioenfondsen-eng_web.pdf)
-5. Dutch Authority for the Financial Markets. *Product governance*. [View source](https://www.afm.nl/en/sector/themas/dienstverlening-aan-consumenten/financiele-producten/productontwikkeling--en-distributie)
-6. OECD. *Due Diligence Guidance for Responsible Business Conduct*. 2018. [View source](https://www.oecd.org/en/publications/oecd-due-diligence-guidance-for-responsible-business-conduct_15f5f4b3-en.html)
-7. House of Representatives of the Netherlands. *Implementation Act for the revised Consumer Credit Directive (36 924)* (Dutch). Status accessed 17 September 2026. [View source](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel%3A36924)
-8. Dutch Ministry of Finance. *Explanatory memorandum to the Implementation Act for the revised Consumer Credit Directive* (Dutch). 2026. [View source](https://zoek.officielebekendmakingen.nl/kst-36924-3.html)
-9. Dutch Authority for the Financial Markets. *Action needed to stop minors from using Buy Now, Pay Later*. 2024. [View source](https://www.afm.nl/en/sector/actueel/2024/april/bnpl-marktbeeld-experiment)
-10. Government of the Netherlands. *Am I liable for the debts of my minor children?* (Dutch). [View source](https://www.rijksoverheid.nl/vraag-en-antwoord/schulden/schulden-van-kinderen)
-11. Government of the Netherlands. *New rules for Buy Now, Pay Later* (Dutch). 2025. [View source](https://www.rijksoverheid.nl/actueel/nieuws/2025/10/31/nieuwe-regels-voor-buy-now-pay-later)
-12. Dutch Authority for the Financial Markets. *Buy Now, Pay Later: consumers need additional protection* (Dutch). 2025. [View source](https://www.afm.nl/nl-nl/sector/actueel/2025/juli/pb-marktupdate-BNPL-2025)
-13. Government of the Netherlands. *How much do I pay in collection costs?* (Dutch). [View source](https://www.rijksoverheid.nl/vraag-en-antwoord/schulden/hoogte-incassokosten)
+4. House of Representatives of the Netherlands. *Implementation Act for the revised Consumer Credit Directive (36 924)* (Dutch). Status accessed 17 September 2026. [View source](https://www.tweedekamer.nl/kamerstukken/wetsvoorstellen/detail?cfg=wetsvoorsteldetails&qry=wetsvoorstel%3A36924)
+5. Dutch Ministry of Finance. *Explanatory memorandum to the Implementation Act for the revised Consumer Credit Directive* (Dutch). 2026. [View source](https://zoek.officielebekendmakingen.nl/kst-36924-3.html)
+6. Dutch Authority for the Financial Markets. *Action needed to stop minors from using Buy Now, Pay Later*. 2024. [View source](https://www.afm.nl/en/sector/actueel/2024/april/bnpl-marktbeeld-experiment)
+7. Government of the Netherlands. *Am I liable for the debts of my minor children?* (Dutch). [View source](https://www.rijksoverheid.nl/vraag-en-antwoord/schulden/schulden-van-kinderen)
+8. Government of the Netherlands. *New rules for Buy Now, Pay Later* (Dutch). 2025. [View source](https://www.rijksoverheid.nl/actueel/nieuws/2025/10/31/nieuwe-regels-voor-buy-now-pay-later)
+9. Dutch Authority for the Financial Markets. *Buy Now, Pay Later: consumers need additional protection* (Dutch). 2025. [View source](https://www.afm.nl/nl-nl/sector/actueel/2025/juli/pb-marktupdate-BNPL-2025)
+10. Government of the Netherlands. *How much do I pay in collection costs?* (Dutch). [View source](https://www.rijksoverheid.nl/vraag-en-antwoord/schulden/hoogte-incassokosten)

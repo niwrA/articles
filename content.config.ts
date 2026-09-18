@@ -24,7 +24,7 @@ const articleSchema = z.object({
     sections: z.array(z.object({ heading: z.string(), paragraphs: z.array(z.string()) })),
     takeaway: z.string()
   }).optional(),
-  modelComponent: z.enum(['housing-policy', 'proper-time', 'consciousness', 'tango-movement', 'coffee-cups', 'car-needs', 'sport-dividend', 'pathogen-response']).optional(),
+  modelComponent: z.enum(['housing-policy', 'proper-time', 'consciousness', 'self-organization', 'tango-movement', 'coffee-cups', 'car-needs', 'sport-dividend', 'pathogen-response', 'risk-responsibility', 'payment-system', 'risk-accountability']).optional(),
   modelLimitations: z.array(z.string()).optional(),
   aiReviewModel: z.string().optional(),
   aiReviewDate: z.string().optional(),

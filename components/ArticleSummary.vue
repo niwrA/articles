@@ -35,6 +35,8 @@ const openFull = () => {
         <SportDividendExplorer v-else-if="article.modelComponent==='sport-dividend'" :locale="locale" />
         <PathogenResponseExplorer v-else-if="article.modelComponent==='pathogen-response'" :locale="locale" />
         <RiskResponsibilityExplorer v-else-if="article.modelComponent==='risk-responsibility'" :locale="locale" />
+        <RiskResponsibilityExplorer v-else-if="article.modelComponent==='payment-system'" :locale="locale" mode="transaction" />
+        <RiskResponsibilityExplorer v-else-if="article.modelComponent==='risk-accountability'" :locale="locale" mode="governance" />
       </ModelDisclosure>
     </div>
     <div v-if="article.modelComponent==='tango-movement'" class="summary-editor">
