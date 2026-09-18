@@ -172,9 +172,9 @@ Microtransactions, virtual currencies and gambling-like reward mechanisms form a
 
 ### Conclusion
 
-Show which money is free, reserve what has already been promised, call only the shortfall credit, and connect payment to delivery and dispute. The bill strengthens protection around credit but does not build the same reservation and transaction model. Future-proof rules should cover not only named payment products but every construction with the same economic function and risks.
+Show which money is free, reserve what has already been promised, call only the shortfall credit, and connect payment to delivery and dispute. The bill strengthens protection around credit but does not build the same reservation and transaction model, and misses an opportunity to address the most important fundamental issues with online payments. 
 
-The design must still demonstrate that it improves on simpler alternatives. A pilot should therefore compare whether a shared register prevents missed payments, double commitments and unnecessary borrowing better than ordinary bank holds, existing credit registration and a clearer balance display. Errors, outages, privacy failures and wrongful blocks must count as harms caused by the system itself.
+In addition, future-proof rules should cover named or pre-existing payment products, but every construction with the same economic function and risks.
 
 ## References
 
