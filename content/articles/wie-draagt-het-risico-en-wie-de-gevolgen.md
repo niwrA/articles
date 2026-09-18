@@ -172,9 +172,9 @@ Microtransacties, virtuele valuta en gokachtige beloningsmechanismen vormen daar
 
 ### Conclusie
 
-Maak zichtbaar welk geld vrij is, reserveer wat al is toegezegd, noem alleen het tekort krediet en koppel betaling aan levering en betwisting. Het wetsvoorstel versterkt de bescherming rond krediet, maar bouwt niet hetzelfde reserverings- en transactiemodel. Toekomstbestendige regels zouden daarom niet alleen bestaande betaalproducten benoemen, maar iedere constructie omvatten die economisch dezelfde functie en risico's heeft.
+Maak zichtbaar welk geld echt vrij is, reserveer wat al is toegezegd, noem alleen het tekort krediet en koppel betaling aan levering. Het Europese wetsvoorstel versterkt de bescherming rond krediet, maar dit is een goed moment om de problemen grondiger aan te pakken. 
 
-Het ontwerp moet wel aantonen dat het meer oplevert dan eenvoudiger oplossingen. Een proef moet daarom vergelijken of een gedeeld register betalingsproblemen, dubbele toezeggingen en onnodige leningen beter voorkomt dan gewone bankreserveringen, bestaande kredietregistratie en een duidelijker saldo. Fouten, uitval, privacyproblemen en onterechte blokkades tellen daarbij als schade van het systeem zelf.
+Daarnaast is het verstandig om bij regelgeving expliciet ook na te denken over toekomstbestendigheid: niet  bestaande betaalproducten benoemen, maar iedere mogelijke constructie proberen te omvatten die economisch dezelfde functie en risico's heeft.
 
 ## Referenties
 
