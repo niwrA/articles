@@ -6,10 +6,10 @@ updated: 2026-09-13
 tags: [Housing, Policy, Systems]
 translationKey: housing-market
 originalUrl: https://www.linkedin.com/pulse/de-woningmarkt-arwin-van-arum-mruse
-featuredImage: /images/artikelen/de-woningmarkt/wooncapaciteit-knoppen.webp
-featuredImageAlt: Overview of policy levers for increasing housing capacity, with indications of impact, speed, cost and structural effect
-featuredImageFocalPoint: 50% 44%
-featuredImageMobileFocalPoint: 50% 20%
+featuredImage: /images/artikelen/de-woningmarkt/woningmarkt-als-systeem.webp
+featuredImageAlt: Different Dutch housing types, households and infrastructure presented as an interconnected system of housing capacity and residential mobility.
+featuredImageFocalPoint: 50% 50%
+featuredImageMobileFocalPoint: 50% 50%
 summary: The Netherlands faces not only a shortage of dwellings but a distribution and capacity problem in which population development, household formation, living space, location and affordability interact. The model shows how demand develops without intervention and how separate and combined measures can reduce part of the shortage.
 keyPoints:
   - Housing demand follows the number of households more closely than population alone.
