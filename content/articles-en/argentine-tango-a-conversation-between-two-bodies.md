@@ -196,6 +196,8 @@ And what if a misunderstanding occurs? Those are interesting too. If an adorno i
 
 ### A conversation with two voices
 
+Video example: [**Cristian Cerezo and Valentin Arias - Precise, powerful tango**](https://www.youtube.com/watch?v=-JqNiFRz_Rs)
+
 This finally brings us back to the image with which we began: two dancers moving in a giro. One of them initiated the movement at some point, but that does not determine everything that follows. The other helps determine its speed and geometry, hears a different line in the music and gives it form. The first dancer listens and adapts. Perhaps, meanwhile, a small proposal for what comes next emerges from that second voice. The other feels it, makes room, and without anyone formally announcing that the roles have now been reversed, initiative shifts. A little later it can move the other way again.
 
 None of this means traditional tango is wrong, or that nobody should want to be a leader or follower anymore. Sometimes it is wonderful to spend an entire tanda mostly following. Sometimes someone has a musical idea you are happy to explore with them for several minutes. Sometimes a clear temporary asymmetry simply works best.
