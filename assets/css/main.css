@@ -55,5 +55,6 @@ h1 { font-size:clamp(3.25rem,8vw,7rem); letter-spacing:-.045em; max-width:1050px
 .citation-link:hover,.citation-link:focus{text-decoration:underline}
 .reference-entry{scroll-margin-top:100px}
 .reference-entry:target{background:color-mix(in srgb,var(--accent) 10%,transparent);outline:4px solid color-mix(in srgb,var(--accent) 10%,transparent)}
+.prose .references-list{display:block;visibility:visible;margin:1.25rem 0 3rem;padding-left:1.5rem}.prose .references-list .reference-entry{display:list-item;margin:.8rem 0;padding-left:.25rem;line-height:1.55}
 .citation-backlink{font-size:.72rem;white-space:nowrap;text-decoration:none;color:var(--muted)}
 .citation-backlink:hover,.citation-backlink:focus{color:var(--accent);text-decoration:underline}

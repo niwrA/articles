@@ -27,15 +27,34 @@ export function withCitations<T extends { body?: { value?: MiniMarkNode[] } }>(a
   const root = result.body?.value
   if (!Array.isArray(root)) return result
 
-  const headingIndex = root.findIndex((node) =>
-    Array.isArray(node) && /^h[1-6]$/.test(node[0]) && referencesHeadingPattern.test(nodeText(node).trim())
-  )
-  if (headingIndex < 0) return result
+  function findReferenceSection(nodes: MiniMarkNode[]): { nodes: MiniMarkNode[], headingIndex: number } | undefined {
+    const headingIndex = nodes.findIndex((node) =>
+      Array.isArray(node) && /^h[1-6]$/.test(node[0]) && referencesHeadingPattern.test(nodeText(node).trim())
+    )
+    if (headingIndex >= 0) return { nodes, headingIndex }
+    for (const node of nodes) {
+      if (!Array.isArray(node)) continue
+      const nested = findReferenceSection(node.slice(2))
+      if (nested) return nested
+    }
+  }
+  const section = findReferenceSection(root)
+  if (!section) return result
 
   const labels = locale === 'nl'
     ? { reference: 'Ga naar referentie', back: 'Terug naar tekst', backTitle: 'Terug naar de vindplaats in de tekst', occurrence: 'vindplaats' }
     : { reference: 'Go to reference', back: 'Back to text', backTitle: 'Back to the citation in the text', occurrence: 'occurrence' }
   const occurrences = new Map<number, string[]>()
+  const referenceList = section.nodes.slice(section.headingIndex + 1).find((node) => Array.isArray(node) && node[0] === 'ol')
+  if (!Array.isArray(referenceList)) return result
+  referenceList[1] = { ...referenceList[1], class: 'references-list' }
+  const referenceEntries = referenceList.slice(2)
+    .filter((node): node is [string, Record<string, unknown>, ...MiniMarkNode[]] => Array.isArray(node) && node[0] === 'li')
+    .map((item, index) => ({ reference: index + 1, item }))
+  const referencePreviews = new Map(referenceEntries.map(({ reference, item }) => {
+    const text = nodeText(item).replace(/\s+/g, ' ').trim()
+    return [reference, text.length > 220 ? `${text.slice(0, 217)}…` : text]
+  }))
 
   function citationNode(value: string): MiniMarkNode {
     const children: MiniMarkNode[] = []
@@ -48,7 +67,7 @@ export function withCitations<T extends { body?: { value?: MiniMarkNode[] } }>(a
         id: citationId,
         href: `#ref-${reference}`,
         class: 'citation-link',
-        title: `${labels.reference} ${reference}`
+        title: `${labels.reference} ${reference}: ${referencePreviews.get(reference) || ''}`.trim()
       }, String(reference)])
       if (index < references.length - 1) children.push('\u202f')
     })
@@ -56,7 +75,7 @@ export function withCitations<T extends { body?: { value?: MiniMarkNode[] } }>(a
   }
 
   function walk(node: MiniMarkNode) {
-    if (!Array.isArray(node)) return
+    if (!Array.isArray(node) || node === referenceList) return
     for (let index = 2; index < node.length; index += 1) {
       const child = node[index]
       if (!Array.isArray(child)) continue
@@ -66,12 +85,7 @@ export function withCitations<T extends { body?: { value?: MiniMarkNode[] } }>(a
     }
   }
 
-  root.slice(0, headingIndex).forEach(walk)
-  const referenceList = root.slice(headingIndex + 1).find((node) => Array.isArray(node) && node[0] === 'ol')
-  if (!Array.isArray(referenceList)) return result
-  const referenceEntries = referenceList.slice(2)
-    .filter((node): node is [string, Record<string, unknown>, ...MiniMarkNode[]] => Array.isArray(node) && node[0] === 'li')
-    .map((item, index) => ({ reference: index + 1, item }))
+  root.forEach(walk)
 
   referenceEntries.forEach(({ reference, item }) => {
     item[1] = { ...item[1], id: `ref-${reference}`, class: 'reference-entry' }
