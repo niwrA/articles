@@ -196,6 +196,8 @@ En ontstaat er dan een misverstand? Juist die zijn ook interessant. Als een ador
 
 ### Een gesprek met twee stemmen
 
+Videovoorbeeld: [**Cristian Cerezo and Valentin Arias - Precise, powerful tango**](https://www.youtube.com/watch?v=-JqNiFRz_Rs)
+
 Dat brengt ons uiteindelijk terug bij het beeld waarmee we begonnen: twee dansers bewegen in een giro. Eén van hen heeft de beweging ooit ingezet, maar dat zegt niet alles over wat er daarna gebeurt. De ander bepaalt mede de snelheid en geometrie, hoort een eigen lijn in de muziek en geeft die vorm. De eerste danser luistert en past zich aan. Misschien ontstaat uit die tweede stem ondertussen een klein voorstel voor het vervolg. De ander voelt het, geeft ruimte, en zonder dat iemand formeel heeft aangekondigd dat de rollen nu zijn omgedraaid verschuift het initiatief. En even later kan het weer de andere kant op gaan.
 
 Dat hoeft niet te betekenen dat de traditionele tango fout is of dat niemand meer leider of volger mag willen zijn. Soms is het heerlijk om een hele tanda grotendeels te volgen. Soms heeft iemand een muzikaal idee waar je graag minutenlang in meegaat. Soms werkt een duidelijke tijdelijke asymmetrie simpelweg het beste.
