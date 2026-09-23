@@ -88,7 +88,7 @@ Migration can temporarily improve this relationship because migrants are often y
 
 ## Could existing residents simply work more?
 
-The Netherlands combines high participation with extensive part-time work. In the second quarter of 2026, the quarterly release counted 568,000 part-time workers who wanted and were immediately available to work more.[3] The related StatLine table can show a slightly different figure because of definitions or revision status and also records desired additional hours.[4] There is real potential here.
+The Netherlands already brings a large share of its population into paid employment, but many people work part time. Labour supply can therefore grow not only when more people enter employment, but also when those who want to do so work more hours. In the second quarter of 2026, 568,000 part-time workers wanted more hours and were immediately available for them.[3] The StatLine data also show how many additional hours they wanted on average.[4] This is not a labour reserve that can simply be activated, but it is concrete potential within the existing population.
 
 ### Paid work is not all work
 
@@ -132,7 +132,11 @@ Healthcare, construction, agriculture, logistics, hospitality, industry and high
 
 Agricultural land covered 43.2 per cent of the Netherlands' total area in 2025.[8] The wider agricultural complex contributes substantially to output and employment but includes much more than primary agriculture.[9] Land, jobs and value added therefore cannot simply be divided into one another.
 
-Shrinking intensive livestock farming also changes suppliers, processing and transport. Land and environmental capacity may be released, while exports fall and imports may rise if consumption is unchanged. That does not always mean exporting an identical environmental problem.
+Shrinking intensive livestock farming also changes suppliers, processing and transport. Land and environmental capacity may be released, while exports of animal products fall and more of those products may be imported if consumption remains unchanged.
+
+Yet the current livestock system itself relies heavily on imports. Maintaining high animal numbers requires large quantities of feed, and converting plant-based feed into meat, dairy or eggs inevitably loses part of its food energy and protein. The Netherlands can therefore be a major agricultural exporter in monetary terms while simultaneously being a net importer when measured in calories, protein and the use of foreign agricultural land. A recent WUR exploration estimates that the present Dutch food system uses about 4.7 million hectares abroad, in addition to roughly 1.6 million hectares of domestic agricultural land, mainly for imported food and animal feed.[10] A smaller livestock sector therefore need not increase total import dependence; the outcome also depends on what people continue to consume and what replaces domestic production.
+
+Even when animal production moves abroad, that does not always amount to exporting precisely the same environmental problem.
 
 CO₂ is global. Nitrogen deposition, odour, noise, water quality and ecosystem pressure are much more location-specific. Reduced Dutch production can lower local pressure while raising the global consumption footprint. Both can be true.
 
@@ -221,3 +225,4 @@ A model can certainly help find more efficient combinations within selected obje
 7. Government of the Netherlands. *Freedom of movement and residence in the EU/EEA and Switzerland*. [View source](https://www.rijksoverheid.nl/onderwerpen/migratie/vraag-en-antwoord/kan-ik-als-eu-burger-in-nederland-wonen-en-werken)
 8. Statistics Netherlands. *SDG 2: Zero hunger — agriculture*. Monitor of Well-being, 2026. [View source](https://www.cbs.nl/nl-nl/visualisaties/monitor-brede-welvaart-en-de-sustainable-development-goals/sdg-s/sdg-2-geen-honger)
 9. Wageningen Economic Research and Statistics Netherlands. *Staat van Landbouw, Visserij, Voedsel en Natuur 2025*. 2025. [View source](https://www.cbs.nl/-/media/_pdf/2025/50/staat-van-landbouw_-visserij_-voedsel-en-natuur_-editie-2025.pdf)
+10. Wageningen University & Research. *Does the Netherlands feed the world? Study questions a familiar agricultural narrative*. 2026. [View source](https://www.wur.nl/nl/nieuws/voedt-nederland-de-wereld-studie-zet-vraagtekens-bij-bekend-landbouwbeeld)

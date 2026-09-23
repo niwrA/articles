@@ -92,7 +92,7 @@ Migratie kan die verhouding tijdelijk verbeteren, omdat migranten bij aankomst r
 
 ## Kunnen we gewoon meer gaan werken?
 
-Nederland heeft een hoge arbeidsparticipatie, maar ook veel deeltijdwerk. In het tweede kwartaal van 2026 waren volgens het kwartaalbericht 568.000 deeltijders direct beschikbaar om meer uren te werken.[3] De bijbehorende StatLine-tabel kan door definitie en revisiestand een iets ander aantal tonen en registreert ook de gewenste extra uren.[4] Daar zit dus reëel potentieel.
+Nederland haalt al een groot deel van de bevolking naar de arbeidsmarkt, maar veel mensen werken in deeltijd. Daardoor kan het arbeidsaanbod niet alleen groeien doordat méér mensen gaan werken, maar ook doordat mensen die dat willen meer uren maken. In het tweede kwartaal van 2026 wilden 568.000 deeltijdwerkers meer uren werken en waren zij daarvoor direct beschikbaar.[3] De StatLine-gegevens laten bovendien zien hoeveel extra uren zij gemiddeld wensen.[4] Dat is geen arbeidsreserve die zonder meer kan worden ingezet, maar wel concreet potentieel binnen de bestaande bevolking.
 
 ### Betaald werk is niet al het werk
 
@@ -140,7 +140,11 @@ Zorg, bouw, landbouw, logistiek, horeca, industrie en hightech gebruiken andere 
 
 In 2025 bestond 43,2 procent van de Nederlandse oppervlakte uit cultuurgrond.[8] Het bredere agrocomplex leverde volgens de landbouwrapportage een substantieel deel van productie en werkgelegenheid, maar omvat meer dan primaire landbouw.[9] Grondgebruik, banen en toegevoegde waarde mogen dus niet rechtstreeks tegen elkaar worden weggestreept.
 
-Als intensieve veehouderij krimpt, veranderen ook toelevering, verwerking en transport. Grond en milieuruimte kunnen vrijkomen, terwijl export verdwijnt en bij gelijkblijvende consumptie import kan toenemen. Dat laatste is niet altijd hetzelfde als het exporteren van hetzelfde milieuprobleem.
+Als intensieve veehouderij krimpt, veranderen ook toelevering, verwerking en transport. Grond en milieuruimte kunnen vrijkomen, terwijl de export van dierlijke producten afneemt en bij gelijkblijvende consumptie meer daarvan kan worden ingevoerd.
+
+Daar staat tegenover dat de huidige veehouderij zelf sterk op import steunt. Voor hoge dieraantallen is veel veevoer nodig, en bij de omzetting van plantaardig voer in vlees, zuivel of eieren gaat onvermijdelijk een deel van de voedselenergie en het eiwit verloren. Nederland kan daardoor in euro's een grote landbouwexporteur zijn, maar gemeten in calorieën, eiwit en beslag op buitenlandse landbouwgrond tegelijk netto-importeur. Een recente WUR-verkenning schat dat het huidige Nederlandse voedselsysteem naast circa 1,6 miljoen hectare binnenlandse landbouwgrond ongeveer 4,7 miljoen hectare in het buitenland gebruikt, vooral voor geïmporteerd voedsel en veevoer.[10] Krimp van de veehouderij hoeft de totale importafhankelijkheid dus niet te vergroten; dat hangt ook af van wat Nederlanders blijven consumeren en waarmee de productie wordt vervangen.
+
+Ook wanneer dierlijke productie naar het buitenland verschuift, is dat niet altijd hetzelfde als het exporteren van precies hetzelfde milieuprobleem.
 
 CO₂ werkt mondiaal. Stikstofdepositie, geur, geluid, waterkwaliteit en druk op lokale ecosystemen zijn veel sterker plaatsgebonden. Minder Nederlandse productie kan daarom tegelijk lokale druk verlagen en de mondiale consumptievoetafdruk verhogen. Beide kunnen waar zijn.
 
@@ -229,3 +233,4 @@ Een model kan binnen gekozen doelen en randvoorwaarden wel degelijk helpen om ef
 7. Rijksoverheid. *Vrij verkeer en verblijf personen binnen EU/EER en Zwitserland*. [Bron bekijken](https://www.rijksoverheid.nl/onderwerpen/migratie/vraag-en-antwoord/kan-ik-als-eu-burger-in-nederland-wonen-en-werken)
 8. Centraal Bureau voor de Statistiek. *SDG 2: Geen honger — landbouw*. Monitor Brede Welvaart, 2026. [Bron bekijken](https://www.cbs.nl/nl-nl/visualisaties/monitor-brede-welvaart-en-de-sustainable-development-goals/sdg-s/sdg-2-geen-honger)
 9. Wageningen Economic Research en Centraal Bureau voor de Statistiek. *Staat van Landbouw, Visserij, Voedsel en Natuur 2025*. 2025. [Bron bekijken](https://www.cbs.nl/-/media/_pdf/2025/50/staat-van-landbouw_-visserij_-voedsel-en-natuur_-editie-2025.pdf)
+10. Wageningen University & Research. *Voedt Nederland de wereld? Studie zet vraagtekens bij bekend landbouwbeeld*. 2026. [Bron bekijken](https://www.wur.nl/nl/nieuws/voedt-nederland-de-wereld-studie-zet-vraagtekens-bij-bekend-landbouwbeeld)
