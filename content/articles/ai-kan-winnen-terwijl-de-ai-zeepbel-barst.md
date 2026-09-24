@@ -1,9 +1,12 @@
 ---
-title: AI kan winnen terwijl de AI-zeepbel barst
+title: Een AI-zeepbel — of een zeepbel in AI-infrastructuur?
 description: Waarom het economische belang van AI, het rendement op infrastructuur, de verdeling van de opbrengst en de toekomstige rekenvraag vier verschillende vragen zijn.
 date: 2026-09-24
 tags: [AI, Economie, Infrastructuur, Systemen]
 translationKey: ai-can-win-while-the-ai-bubble-bursts
+articleRelations:
+  - type: complements
+    article: who-owns-ai-knowledge-layer
 featuredImage: /images/artikelen/ai-investment/ai-value-infrastructure-paths.webp
 featuredImageAlt: Een datacenter voedt meerdere uiteenlopende stromen naar economische activiteit, huishoudens, infrastructuur en steeds lichtere uitvoeringsvormen.
 featuredImageFocalPoint: 50% 53%
@@ -171,6 +174,8 @@ Dat is geen voorspelling dat de totale rekenvraag zal dalen. Het betekent dat ee
 Technologische afhankelijkheid is ook geopolitieke afhankelijkheid. De Verenigde Staten legden in 2025 via een presidentieel besluit sancties op in verband met het Internationaal Strafhof; OFAC wees daarbij functionarissen aan.[9][10] Amerikaanse sancties kunnen Amerikaanse personen en bedrijven verbieden transacties of diensten aan aangewezen personen te leveren. Dit voorbeeld zegt hier niets over de rechtvaardiging van de sancties. Het laat zien dat financiële en digitale infrastructuur beleidsmacht kan dragen.
 
 Overheden en instellingen kunnen daardoor waarde hechten aan eigen clouds, chips, betaalinfrastructuur, besturingssystemen, modellen en standaarden, ook wanneer die aanvankelijk duurder zijn. Parallelle ecosystemen vergroten het aantal architecturen dat wordt onderzocht. Een efficiëntere vondst in één ecosysteem kan vervolgens de infrastructuureconomie elders veranderen. Daaruit volgt niet welk land of blok zal winnen; alleen dat één wereldwijd, stabiel technologiepad een zwakke investeringsaanname is.
+
+Ook de kennislaag hoeft daarbij niet aan één model, interface of aanbieder vast te zitten. Wanneer open kennisobjecten door verschillende AI-systemen kunnen worden gebruikt, wordt niet alleen de uitvoering efficiënter of vervangbaarder: ook de toegang tot kennis kan loskomen van de partij die het antwoord formuleert. Het aanvullende artikel *Wie bezit de kennislaag van AI?* werkt die scheiding tussen kennisinfrastructuur en intelligentie verder uit.
 
 ## Wanneer wordt capaciteit onderbenut?
 

@@ -39,6 +39,7 @@ const openFull = () => {
         <RiskResponsibilityExplorer v-else-if="article.modelComponent==='risk-accountability'" :locale="locale" mode="governance" />
         <MigrationLabourExplorer v-else-if="article.modelComponent==='migration-labour-system'" :locale="locale" view="full" />
         <AiInvestmentExplorer v-else-if="article.modelComponent==='ai-investment-system'" :locale="locale" view="compute" />
+        <KnowledgeLayerExplorer v-else-if="article.modelComponent==='knowledge-layer'" :locale="locale" />
       </ModelDisclosure>
     </div>
     <div v-if="article.modelComponent==='tango-movement'" class="summary-editor">

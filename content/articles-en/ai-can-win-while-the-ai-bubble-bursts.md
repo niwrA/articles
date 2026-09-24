@@ -1,9 +1,12 @@
 ---
-title: AI Can Win While the AI Bubble Bursts
+title: An AI Bubble—or an AI Infrastructure Bubble?
 description: Why AI's economic importance, infrastructure returns, distribution of gains and future compute intensity are four separate questions.
 date: 2026-09-24
 tags: [AI, Economics, Infrastructure, Systems]
 translationKey: ai-can-win-while-the-ai-bubble-bursts
+articleRelations:
+  - type: complements
+    article: who-owns-ai-knowledge-layer
 featuredImage: /images/artikelen/ai-investment/ai-value-infrastructure-paths.webp
 featuredImageAlt: A data centre feeds diverging paths towards economic activity, households, infrastructure and progressively lighter execution forms.
 featuredImageFocalPoint: 50% 53%
@@ -171,6 +174,8 @@ This does not predict falling total compute demand. It means that demand project
 Technological dependence is also geopolitical dependence. In 2025 the United States imposed sanctions connected to the International Criminal Court through an executive order, with OFAC designating officials.[9][10] US sanctions can prohibit US persons and companies from supplying transactions or services to designated individuals. The example says nothing here about whether those sanctions were justified. It shows that financial and digital infrastructure can carry policy power.
 
 Governments and institutions may therefore value domestic clouds, chips, payment systems, operating systems, models and standards even when these initially cost more. Parallel ecosystems enlarge the set of architectures being explored. A more efficient discovery in one ecosystem may then change infrastructure economics elsewhere. This does not tell us which country or bloc will win; it only makes one stable global technology path a weak investment assumption.
+
+The knowledge layer need not remain tied to one model, interface or provider either. If different AI systems can use the same open knowledge objects, it is not only execution that becomes more efficient or replaceable: access to knowledge can also be separated from the party composing the answer. The companion essay *Who owns the knowledge layer of AI?* develops that separation between knowledge infrastructure and intelligence.
 
 ## When does capacity become underused?
 
