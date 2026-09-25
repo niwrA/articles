@@ -95,6 +95,20 @@ Books make a related tension tangible. In a US court case, it emerged that Anthr
 
 Consider a research paper, a news report or an explanation of a government policy. Its author publishes the work; an AI service helps someone find and understand it. Today, the service provider often decides independently how to discover, copy, update and present that source. These functions could instead be organized so that the source remains identifiable and multiple services can use it under appropriate terms.
 
+Three functions need to be distinguished. **Publication and rights:** the creator or rights holder makes an identifiable, current source available and specifies permitted uses and any terms or compensation. **Search and representation:** services make it discoverable through text indexes, embeddings or other methods; multiple representations of the same source can coexist. **AI application:** a model chooses sources, processes what it finds and composes an answer. Different parties can provide these functions; they need not all move into a new system.
+
+For search, an open standard would mainly describe the **interface**: which source and version does an index represent, which model and method produced a representation, how can an AI service query it, and how does a result point back to the passage it used? That does not prescribe one universal vector format. Existing search software can already store multiple vector representations of the same object side by side.[19] A better search method could then be added without requiring a publisher to republish the work.
+
+### Do we need a new layer for that?
+
+**Extend the existing web.** A publisher can leave a work on its own website and add machine-readable information to the page: who created it, which version is current, where corrections can be found and what kinds of AI use are permitted. HTML can already carry such information; Creative Commons demonstrates how a web page can express licensing information in machine-readable form. A policy language such as ODRL can describe permissions and terms of use.[17][18] This builds on existing websites and leaves publication with the creator. Search services would still need to discover, interpret and keep that information current at scale.
+
+**Add a shared service.** An independent service could register works hosted on existing websites, track versions and corrections, and give search providers access under common agreements. It could also record agreed forms of use so that publishers and users of their work can establish when compensation is due. That requires rules about who can measure use, how authors and rights holders are identified, what counts as use, which records are retained and how disputes are resolved. A registry alone cannot prove what an AI service does with material after retrieval or guarantee fair payment.
+
+Here, **making a source discoverable**, **retrieving a passage**, **showing text in an answer** and **using content to train a model** are different actions. The permissions and any compensation need not be identical for each. ODRL can help express such terms in machine-readable form, but a technical protocol cannot decide who is legally entitled to payment or what constitutes a fair price.[18] That takes agreements about actual usage, auditing and disputes; a system that records usage must also avoid unnecessarily exposing readers' questions.
+
+The approaches can coexist. Publications and their terms can remain on the existing web, with shared services for discovery, different search indexes and possibly settlement. **Share the source, its provenance and its terms of use durably; allow search representations and AI models to compete on top.** A shared knowledge layer would then be neither a required copy of the entire web nor one fixed vector index, but a way to connect publications to multiple services under identifiable terms.
+
 ### How could different services find the same sources?
 
 Imagine a publisher making a new work available. In a shared knowledge layer, it could specify where the current version can be found, who published it and which terms apply to different kinds of use. A search provider and two competing AI assistants could then discover that same source without each building a separate collection from scratch. They could still search, select and answer differently: shared access does not require uniform answers.
@@ -176,3 +190,6 @@ The test is concrete: if an AI provider disappears or changes its terms, can ano
 14. Xu et al. *RAG in the Wild: On the (In)effectiveness of LLMs with Mixture-of-Knowledge Retrieval Augmentation*. ACL Findings, 2026. [View source](https://aclanthology.org/2026.findings-acl.849/)
 15. Ollama. *Embedding models*. [View source](https://ollama.com/blog/embedding-models)
 16. Ollama. *Web search*. [View source](https://ollama.com/blog/web-search)
+17. Creative Commons. *ccREL: The Creative Commons Rights Expression Language*. [View source](https://opensource.creativecommons.org/ccrel/)
+18. W3C. *ODRL Information Model 2.2*. [View source](https://www.w3.org/TR/odrl-model/)
+19. Weaviate. *Data structure: multiple vector embeddings*. [View source](https://docs.weaviate.io/weaviate/concepts/data)
