@@ -71,7 +71,9 @@ A search engine mainly ranks references. A generative system can also select, in
 
 This is not an accusation against one company. Even a benevolent provider remains a single point of control. Prices and terms can change, a company can be acquired or fail, and a competitor may have to rebuild much of the same crawling, storage and indexing infrastructure.
 
-That is also a cost problem. Anyone seeking to offer a broad AI service independently must discover sources, retrieve them, clean them, keep them current and make them searchable. A competitor cannot simply use someone else's private index. Shared collections such as Common Crawl already demonstrate that web data and indexes can be made available to more than one user.[12] Even so, each provider's own selection, processing and supplementation still take work. A shared knowledge layer could reduce that repetition, provided that maintenance, access and creators' rights are addressed.
+The scale is easy to underestimate. Common Crawl's September 2026 collection alone contains 2.17 billion web pages, amounting to 361 tebibytes of uncompressed content.[20] That is one periodic collection, not the entire web or a ready-made search service capable of answering questions. A provider must continually retrieve pages, detect changes, clean content, select sources and index the results for search. That consumes network capacity, storage, computation and human effort before a language model even uses the retrieved material to compose an answer.
+
+A competitor cannot simply use another provider's private index. Common Crawl shows that web data and a URL index can be shared,[12] but each service's selection, processing and updating still take work. A shared knowledge layer could reduce some of that duplication, provided that maintenance, access and creators' rights are addressed. Shared infrastructure still has to pay for its resources and operation; it distributes those costs differently.
 
 ## The old exchange with publishers is weakening
 
@@ -193,3 +195,4 @@ The test is concrete: if an AI provider disappears or changes its terms, can ano
 17. Creative Commons. *ccREL: The Creative Commons Rights Expression Language*. [View source](https://opensource.creativecommons.org/ccrel/)
 18. W3C. *ODRL Information Model 2.2*. [View source](https://www.w3.org/TR/odrl-model/)
 19. Weaviate. *Data structure: multiple vector embeddings*. [View source](https://docs.weaviate.io/weaviate/concepts/data)
+20. Common Crawl. *September 2026 Crawl Archive Now Available*. 2026. [View source](https://commoncrawl.org/blog/september-2026-crawl-archive-now-available)

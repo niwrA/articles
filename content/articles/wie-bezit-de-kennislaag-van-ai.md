@@ -71,7 +71,9 @@ Een zoekmachine rangschikt vooral verwijzingen. Een generatief systeem kan daarn
 
 Dit is geen beschuldiging aan één bedrijf. Ook een welwillende aanbieder blijft een enkel controlepunt. Prijzen en voorwaarden kunnen veranderen, een bedrijf kan worden overgenomen of verdwijnen, en een concurrent moet mogelijk dezelfde crawl-, opslag- en indexinfrastructuur opnieuw bouwen.
 
-Dat laatste is ook een kostenprobleem. Wie zelfstandig een breed AI-systeem wil aanbieden, moet bronnen ontdekken, ophalen, opschonen, bijwerken en doorzoekbaar maken. Een concurrent kan daarvoor niet zomaar de private index van een ander gebruiken. Gedeelde verzamelingen zoals Common Crawl laten al zien dat webdata en indexen beschikbaar kunnen worden gesteld aan meer dan één gebruiker.[12] Toch vergt iedere eigen selectie, verwerking en aanvulling opnieuw werk. Een gemeenschappelijke kennislaag kan die herhaling beperken, mits er afspraken zijn over onderhoud, toegang en de rechten van makers.
+De schaal daarvan is gemakkelijk te onderschatten. Alleen al de webverzameling van Common Crawl van september 2026 bevat 2,17 miljard pagina's, met een ongecomprimeerde omvang van 361 tebibyte.[20] Dat is één periodieke verzameling, niet het hele web en nog geen zoekdienst die antwoord kan geven. Een aanbieder moet doorlopend pagina's ophalen, wijzigingen herkennen, inhoud opschonen, bronnen selecteren en het resultaat indexeren en doorzoekbaar houden. Dat kost netwerkcapaciteit, opslag, rekenkracht en beheer, nog vóór een taalmodel de gevonden informatie in een antwoord verwerkt.
+
+Een concurrent kan daarvoor niet zomaar de private index van een ander gebruiken. Common Crawl laat zien dat webdata en een URL-index gedeeld kunnen worden,[12] maar eigen selectie, verwerking en actualisering blijven werk vragen. Een gemeenschappelijke kennislaag kan een deel van die herhaling beperken, mits er afspraken zijn over onderhoud, toegang en de rechten van makers. Ook een gedeelde voorziening moet voor haar middelen en beheer betalen; zij verdeelt die kosten anders.
 
 ## De oude ruil met uitgevers verzwakt
 
@@ -193,3 +195,4 @@ De toets is concreet: als een AI-aanbieder verdwijnt of zijn voorwaarden wijzigt
 17. Creative Commons. *ccREL: The Creative Commons Rights Expression Language*. [Bron bekijken](https://opensource.creativecommons.org/ccrel/)
 18. W3C. *ODRL Information Model 2.2*. [Bron bekijken](https://www.w3.org/TR/odrl-model/)
 19. Weaviate. *Data structure: multiple vector embeddings*. [Bron bekijken](https://docs.weaviate.io/weaviate/concepts/data)
+20. Common Crawl. *September 2026 Crawl Archive Now Available*. 2026. [Bron bekijken](https://commoncrawl.org/blog/september-2026-crawl-archive-now-available)
