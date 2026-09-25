@@ -1,6 +1,6 @@
 ---
 title: "Wie beheert de kennislaag van AI?"
-description: "AI wordt een toegangspoort tot menselijke kennis. Moet de infrastructuur daaronder eigendom zijn van afzonderlijke AI-bedrijven, of een open en vervangbare laag van het internet worden?"
+description: "AI is voor veel mensen al een toegangspoort tot kennis. Moet de infrastructuur daaronder eigendom zijn van afzonderlijke AI-bedrijven, of een open en vervangbare laag van het internet worden?"
 date: "2026-09-24"
 tags: ["AI", "Internet", "Kennis", "Infrastructuur"]
 translationKey: "who-owns-ai-knowledge-layer"
@@ -29,7 +29,7 @@ plainLanguage:
     - heading: "Wat lost dat niet op?"
       paragraphs:
         - "Open techniek bepaalt niet vanzelf wat waar is. Ook spam, auteursrecht, privacy, verwijdering en betaling blijven moeilijke vragen. Verschillende toepassingen mogen bovendien verschillende regels voor vertrouwen gebruiken."
-  takeaway: "Als AI een belangrijke toegang tot kennis wordt, moet een model of aanbieder vervangen kunnen worden zonder dat ook de onderliggende kennisinfrastructuur verdwijnt."
+  takeaway: "Nu AI voor steeds meer mensen een toegang tot kennis is, moet een model of aanbieder vervangen kunnen worden zonder dat ook de onderliggende kennisinfrastructuur verdwijnt."
 modelComponent: "knowledge-layer"
 modelLimitations:
   - "Het schema vergelijkt architectuureigenschappen; het voorspelt niet welke technische implementatie zal winnen."
@@ -135,7 +135,7 @@ Zo'n gedeelde laag neemt de kosten van verzamelen, indexeren, actualiseren en co
 
 Die scheiding heeft ook economische gevolgen. Als kennisinfrastructuur, modellen en uitvoering afzonderlijk kunnen worden vervangen en geoptimaliseerd, hoeft groeiend AI-gebruik niet automatisch dezelfde groei van private rekeninfrastructuur te veroorzaken. Het aanvullende artikel *Een AI-zeepbel — of een zeepbel in AI-infrastructuur?* onderzoekt hoeveel terugkerende rekenkracht economische AI-activiteit uiteindelijk nodig kan hebben en wat dat voor de huidige investeringen betekent.
 
-::ModelDisclosure{title="Van private keten naar open kennislaag" description="Bekijk op vier vlakken hoe dezelfde publicatie door meerdere AI-diensten kan worden gevonden, bijgewerkt en beoordeeld." open=true}
+::ModelDisclosure{title="Drie routes van publicatie naar AI-antwoord" description="Vergelijk een private productketen met bestaande webpagina’s met metadata of gedeelde diensten, vanuit vier invalshoeken." open=true}
   ::KnowledgeLayerExplorer{locale="nl"}
   ::
 ::

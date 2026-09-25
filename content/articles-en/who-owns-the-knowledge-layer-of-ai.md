@@ -1,6 +1,6 @@
 ---
 title: "Who Controls AI’s Knowledge Layer?"
-description: "AI is becoming an interface to human knowledge. Should its underlying infrastructure belong to individual AI companies, or become an open and replaceable layer of the internet?"
+description: "For many people, AI is already a route to knowledge. Should its underlying infrastructure belong to individual AI companies, or become an open and replaceable layer of the internet?"
 date: "2026-09-24"
 tags: ["AI", "Internet", "Knowledge", "Infrastructure"]
 translationKey: "who-owns-ai-knowledge-layer"
@@ -29,7 +29,7 @@ plainLanguage:
     - heading: "What would it not solve?"
       paragraphs:
         - "Open technology does not decide what is true. Spam, copyright, privacy, removal and payment remain difficult questions. Different applications may also need different trust policies."
-  takeaway: "If AI becomes an important route to knowledge, a model or provider should be replaceable without losing the underlying knowledge infrastructure."
+  takeaway: "As AI already provides a route to knowledge for many people, a model or provider should be replaceable without losing the underlying knowledge infrastructure."
 modelComponent: "knowledge-layer"
 modelLimitations:
   - "The diagram compares architectural properties; it does not predict which implementation will prevail."
@@ -135,7 +135,7 @@ A shared layer would still have to pay for collecting, indexing, updating and ch
 
 That separation also has economic consequences. If knowledge infrastructure, models and execution can be replaced and optimized independently, growing AI use need not produce equivalent growth in private compute infrastructure. The companion essay *An AI Bubble—or an AI Infrastructure Bubble?* examines how much recurring computation economically useful AI may ultimately require and what that means for today's investments.
 
-::ModelDisclosure{title="From private stack to open knowledge layer" description="Compare how different AI services could discover, update and assess the same publication across four perspectives." open=true}
+::ModelDisclosure{title="Three routes from publication to AI answer" description="Compare a private product stack with existing web pages plus metadata or shared services, across four perspectives." open=true}
   ::KnowledgeLayerExplorer{locale="en"}
   ::
 ::
