@@ -1,5 +1,5 @@
 ---
-title: "Wie bezit de kennislaag van AI?"
+title: "Wie beheert de kennislaag van AI?"
 description: "AI wordt een toegangspoort tot menselijke kennis. Moet de infrastructuur daaronder eigendom zijn van afzonderlijke AI-bedrijven, of een open en vervangbare laag van het internet worden?"
 date: "2026-09-24"
 tags: ["AI", "Internet", "Kennis", "Infrastructuur"]
@@ -38,32 +38,28 @@ modelLimitations:
 draft: false
 ---
 
-Het internet maakte ooit een opmerkelijke architectuurkeuze. Niemand bezit HTTP. Voor een webserver is geen toestemming van Google, Microsoft of Amazon nodig. Iedereen kan een browser bouwen en een website publiceren. Daarboven zijn zoekmachines, cloudplatforms en sociale media sterk geconcentreerd geraakt, maar daaronder ligt een duurzamere verzameling open protocollen.
-
-Als Google morgen verdwijnt, verdwijnt het web niet mee.
+Het internet maakte ooit een opmerkelijke architectuurkeuze. Niemand bezit HTTP. Voor een webserver is geen toestemming van Google, Microsoft of Amazon nodig. Iedereen kan een browser bouwen en een website publiceren. Daarboven zijn zoekmachines, cloudplatforms en sociale media sterk geconcentreerd geraakt, maar daaronder ligt een duurzamere verzameling open protocollen. Als Google morgen verdwijnt, verdwijnt het web niet mee.
 
 Met AI dreigen we iets anders te bouwen. We zoeken steeds minder zelf door pagina's en vragen steeds vaker een systeem om informatie te vinden, selecteren, combineren en uitleggen. Een reis langs bronnen verandert in een gesprek met een tussenpersoon.
 
-Dat is al zichtbaar. In een analyse van zoekgedrag van 900 Amerikaanse volwassenen zag Pew Research Center in 2025 dat gebruikers bij Google-resultaten zonder AI-samenvatting in 15% van de bezoeken op een traditioneel zoekresultaat klikten. Met zo'n samenvatting was dat 8%; op een bron ín de samenvatting klikte men in 1% van de bezoeken.[1] Die cijfers tonen een samenhang en bewijzen niet dat de samenvatting de daling veroorzaakt. Wel laten ze zien dat de interface tussen mens en web verandert. In een Amerikaanse Pew-enquête uit 2026 zei 60% van de volwassenen weleens zulke samenvattingen te lezen.[2]
+Een deel van die verschuiving is bij zoekmachines te zien: in een Amerikaanse studie klikten mensen bij Google-resultaten met een AI-samenvatting minder vaak door naar gewone resultaten, en in een afzonderlijke enquête zei een meerderheid zulke samenvattingen te lezen.[1][2] Wie een vraag rechtstreeks aan een AI-assistent stelt, krijgt zelfs geen resultatenpagina als vertrekpunt. In beide gevallen komt er een systeem tussen de bron en de lezer te staan dat mede bepaalt welke informatie het antwoord bereikt.
 
 ## Hoe een AI-systeem een vraag behandelt
 
-Een AI-product is meer dan het taalmodel dat het antwoord schrijft. De applicatie stelt eerst de invoer samen uit de actuele vraag, instructies, relevante gesprekscontext en een beschrijving van beschikbare hulpmiddelen. Het taalmodel verwerkt die invoer en kan direct antwoorden, maar ook als volgende actie een zoekopdracht, berekening of andere toolaanroep produceren.
+Een AI-product is meer dan het taalmodel dat het antwoord schrijft. De applicatie geeft de vraag eerst mét instructies, relevante gesprekscontext en een beschrijving van beschikbare hulpmiddelen aan het model. Dat interpreteert wat de gebruiker vraagt, welke deelvragen daarin zitten en of er actuele of controleerbare informatie ontbreekt. Het kan een aanpak kiezen en als volgende stap bijvoorbeeld een zoekopdracht voorstellen. Zo'n aanpak kan gaandeweg veranderen; er hoeft geen volledig uitgeschreven plan vooraf te bestaan.
 
-Zo'n actie wordt buiten het taalmodel uitgevoerd. Het resultaat komt als nieuwe context terug bij het model, dat opnieuw beoordeelt wat nodig is. Een onderzoeksvraag kan daardoor meerdere modelpassages en zoek- of leesacties doorlopen voordat het uiteindelijke antwoord wordt geschreven. Er hoeft daarbij niet eerst een volledig uitgeschreven intern handelplan te bestaan: het model kan ook stapsgewijs telkens de volgende actie kiezen.
+De applicatie voert de gevraagde actie buiten het taalmodel uit. Een zoekdienst raadpleegt zijn index en geeft een selectie van bronnen terug; gelezen documenten worden nieuwe context voor een volgende modelpassage. Het model kan die informatie beoordelen, verder zoeken en uiteindelijk het antwoord formuleren. Bij een algemene vraag kan de externe zoekstap ontbreken.
 
 > **vraag en context → taalmodel → eventueel hulpmiddel → nieuwe context → taalmodel → antwoord**
 
 Het taalmodel beschikt daarnaast over patronen en informatie die tijdens de training indirect in zijn modelgewichten zijn terechtgekomen. Dat is geen ordelijke bibliotheek waarin iedere bewering met haar bron kan worden opgezocht of afzonderlijk kan worden bijgewerkt. Extern opgehaalde kennis kan actueler en beter herleidbaar zijn, maar alleen als de infrastructuur haar identiteit, versie en herkomst bewaart. Niet ieder systeem doorloopt bij iedere vraag alle stappen, en commerciële producten maken de precieze route vaak maar beperkt zichtbaar.
 
-Dit artikel gaat daarom niet primair over wie het taalmodel bezit. Het onderzoekt wie de infrastructuur beheert waarmee AI externe kennis vindt, selecteert, actualiseert en van herkomstinformatie voorziet. Die kennislaag kan onderdeel zijn van één private productketen, maar zou ook los van modellen en interfaces als open infrastructuur kunnen worden ingericht.
+Dit artikel gaat daarom over wie de infrastructuur beheert waarmee AI externe kennis vindt, selecteert, actualiseert en van herkomstinformatie voorziet. Die kennislaag kan onderdeel zijn van één private productketen, maar zou ook los van modellen en interfaces als open infrastructuur kunnen worden ingericht. Daarmee wordt de route van publicatie naar antwoord een maatschappelijke vraag.
 
-::ModelDisclosure{title="Van vraag naar antwoord" description="Volg een algemene vraag of een actuele onderzoeksvraag door contextopbouw, modelpassages, externe hulpmiddelen en het uiteindelijke antwoord."}
+::ModelDisclosure{title="Van vraag naar antwoord" description="Volg de interactie tussen persoon, applicatie, taalmodel en externe bronnen. Het script laat per stap zien wanneer welke kennis wordt gebruikt." locale="nl"}
   ::AiQuestionFlowExplorer{locale="nl"}
   ::
 ::
-
-Daarmee wordt de architectuur onder AI een maatschappelijke vraag: **wie beheert de weg van publicatie naar antwoord?**
 
 ## Het web kan open blijven terwijl toegang zich sluit
 
@@ -72,6 +68,8 @@ Stel dat over twintig jaar nog miljarden onafhankelijke websites bestaan. HTTP i
 Een zoekmachine rangschikt vooral verwijzingen. Een generatief systeem kan daarnaast selecteren, interpreteren, samenvoegen en presenteren. De interface wordt zo ook verteller. Wie die interface en de onderliggende index beheert, bepaalt mede wat wordt gecrawld, hoe vaak bronnen worden ververst, welke metadata blijven bestaan en hoe informatie wordt teruggevonden.
 
 Dit is geen beschuldiging aan één bedrijf. Ook een welwillende aanbieder blijft een enkel controlepunt. Prijzen en voorwaarden kunnen veranderen, een bedrijf kan worden overgenomen of verdwijnen, en een concurrent moet mogelijk dezelfde crawl-, opslag- en indexinfrastructuur opnieuw bouwen.
+
+Dat laatste is ook een kostenprobleem. Wie zelfstandig een breed AI-systeem wil aanbieden, moet bronnen ontdekken, ophalen, opschonen, bijwerken en doorzoekbaar maken. Een concurrent kan daarvoor niet zomaar de private index van een ander gebruiken. Gedeelde verzamelingen zoals Common Crawl laten al zien dat webdata en indexen beschikbaar kunnen worden gesteld aan meer dan één gebruiker.[12] Toch vergt iedere eigen selectie, verwerking en aanvulling opnieuw werk. Een gemeenschappelijke kennislaag kan die herhaling beperken, mits er afspraken zijn over onderhoud, toegang en de rechten van makers.
 
 ## De oude ruil met uitgevers verzwakt
 
@@ -87,60 +85,60 @@ naar:
 
 > gebruik mijn informatie om de vraag zelf af te handelen
 
-Dat beïnvloedt niet alleen vindbaarheid, maar ook de prikkel om betrouwbare informatie te maken en te onderhouden.
+Als een uitgever minder lezers bereikt, kan dat ook zijn inkomsten veranderen. Zo beïnvloedt de nieuwe toegang tot bronnen zowel hun vindbaarheid als de prikkel om betrouwbare informatie te maken en te onderhouden. Een gedeelde kennislaag moet daarom ook ruimte laten voor gebruiksvoorwaarden en mogelijke vormen van vergoeding.
 
-## Scheid kennis van intelligentie
+Bij boeken wordt een verwante spanning tastbaar. In een Amerikaanse rechtszaak bleek dat Anthropic miljoenen gedrukte boeken kocht, vaak tweedehands, en de banden liet verwijderen om de pagina's te scannen. De rechter beoordeelde de omzetting van de gekochte exemplaren naar digitale bibliotheekexemplaren afzonderlijk van de verkrijging van boeken uit piratensites.[13] Dat fysieke boeken voor een private kennisverzameling op die schaal werden gekocht en vernietigd, laat zien hoeveel werk en materiaal het opbouwen van zo'n eigen verzameling kan vragen. Het is op zichzelf geen bewijs dat een open alternatief goedkoper zou zijn of dit juridische vraagstuk zou oplossen.
 
-Er is een andere architectuur denkbaar. Uitgevers publiceren informatie met machineleesbare gegevens over maker, datum, versie, relaties en gebruiksvoorwaarden. Cryptografische handtekeningen helpen aantonen wie iets publiceerde en of het veranderde. Open mechanismen maken de informatie vindbaar op betekenis, terwijl verschillende modellen dezelfde kennisobjecten kunnen gebruiken.
+## Wat zou een gedeelde kennislaag veranderen?
 
-Het model levert dan intelligentie; de open laag levert toegang tot kennis. Geen van beide hoeft eigenaar van de ander te zijn.
+Neem een onderzoeksartikel, een nieuwsbericht of de uitleg bij een overheidsregeling. De maker publiceert het werk; een AI-dienst helpt iemand het te vinden en te begrijpen. Vandaag bepaalt de aanbieder van die dienst vaak zelf hoe hij de bron ontdekt, kopieert, bijwerkt en presenteert. We kunnen die functies ook zo organiseren dat de bron herkenbaar blijft en meerdere diensten er onder passende voorwaarden gebruik van kunnen maken.
+
+### Hoe vinden verschillende diensten dezelfde bronnen?
+
+Stel dat een uitgever een nieuwe publicatie beschikbaar maakt. In een gedeelde kennislaag zou hij kunnen vastleggen waar de actuele versie te vinden is, wie haar publiceerde en welke voorwaarden voor verschillende vormen van gebruik gelden. Een zoekdienst en twee concurrerende AI-assistenten zouden diezelfde bron dan kunnen ontdekken zonder ieder vanaf nul een eigen verzameling op te bouwen. Ze mogen nog steeds verschillend zoeken, selecteren en antwoorden: gedeelde toegang schrijft geen gemeenschappelijke uitkomst voor.
+
+Voor oudere of uitsluitend gedrukte werken blijft digitalisering soms nodig, maar een rechtmatig beschikbaar gemaakte digitale versie hoeft niet voor iedere afzonderlijke aanbieder opnieuw te worden vervaardigd. Dat vraagt afspraken over toegang, vergoeding en gebruik. **Een bron kunnen vinden is geen toestemming om haar voor modeltraining te gebruiken of te herpubliceren.** Een kennislaag die bronnen ontsluit, vervult een andere functie dan een trainingsdataset.
+
+### Hoe kan een maker een correctie doorgeven?
+
+Stel dat een journalist een fout corrigeert of een overheidsinstantie een regeling wijzigt. In een private keten kan iedere aanbieder een oude kopie bewaren en op een ander moment bijwerken. Met gedeelde afspraken kan de maker een herkenbare nieuwe versie publiceren, aangeven wat die vervangt en een intrekking of correctie aan dezelfde publicatie koppelen. Andere diensten kunnen dat signaal volgen en in het antwoord naar de actuele bron verwijzen. Ze moeten dat wel daadwerkelijk doen; een afspraak garandeert geen automatische correctie van antwoorden of van wat een model tijdens training heeft geleerd.
+
+### Hoe kan een lezer een antwoord beoordelen?
+
+Bij een antwoord over gezondheid wil een lezer kunnen nagaan waar de bewering vandaan komt, welke versie is gebruikt en waarom juist die bron is gekozen. Een herkomstvermelding bewijst niet dat de inhoud klopt. Daarom horen **relevantie** (past de bron bij de vraag?), **herkomst** (wie publiceerde deze versie?) en **vertrouwen** (welk bewijs ondersteunt de claim?) verschillende vragen te blijven. Een medische assistent kan daarvoor strengere bewijsregels toepassen dan een winkelassistent, terwijl beide dezelfde publicaties kunnen vinden.
 
 Die scheiding heeft ook economische gevolgen. Als kennisinfrastructuur, modellen en uitvoering afzonderlijk kunnen worden vervangen en geoptimaliseerd, hoeft groeiend AI-gebruik niet automatisch dezelfde groei van private rekeninfrastructuur te veroorzaken. Het aanvullende artikel *Een AI-zeepbel — of een zeepbel in AI-infrastructuur?* onderzoekt hoeveel terugkerende rekenkracht economische AI-activiteit uiteindelijk nodig kan hebben en wat dat voor de huidige investeringen betekent.
 
-::ModelDisclosure{title="Van private keten naar open kennislaag" description="Bekijk op vier vlakken hoe de gangbare verticale AI-keten verschilt van een architectuur waarin de kennislaag losstaat van modellen en interfaces." open=true}
+::ModelDisclosure{title="Van private keten naar open kennislaag" description="Bekijk op vier vlakken hoe dezelfde publicatie door meerdere AI-diensten kan worden gevonden, bijgewerkt en beoordeeld." open=true}
   ::KnowledgeLayerExplorer{locale="nl"}
   ::
 ::
 
-DNS is hiervoor een bruikbare analogie, geen technisch ontwerp. DNS standaardiseert hoe namen worden gevonden zonder één browser of website aan te wijzen. Een kennislaag zou vergelijkbaar enkele functies kunnen scheiden:
+## Hoe maken we aanbieders vervangbaar?
 
-**kennis → identiteit → opslag → ontdekking → herkomst → vertrouwen**
+Daarvoor moeten andere partijen dezelfde publicaties kunnen vinden, de herkomst kunnen controleren en een eigen zoekdienst kunnen bouwen. Zo kan een uitgever overstappen en kan een gebruiker een andere assistent kiezen zonder dat de weg naar de bronnen opnieuw moet worden aangelegd. Geen organisatie zou voor altijd actief en commercieel meewerkend hoeven blijven om toegang tot machineleesbare kennis te behouden.
 
-Veel bouwstenen bestaan al. IPFS laat zien hoe inhoud via een cryptografische identifier herkenbaar kan blijven wanneer kopieën op verschillende machines staan.[4] Kademlia en andere distributed hash tables laten zien hoe objecten zonder centrale index kunnen worden gevonden.[5] C2PA specificeert controleerbare informatie over de herkomst en bewerking van media.[6] Semantische zoektechnieken kunnen inhoud op betekenis vinden in plaats van alleen op exacte woorden.
+Een gedeelde infrastructuur kan verschillende aanbieders van opslag, zoeken en modellen naast elkaar laten bestaan. Welke daarvan iemand vertrouwt, blijft een keuze; ook het web combineert open afspraken met uiteenlopende diensten en beheerders. Hoe je die functies technisch uit elkaar kunt houden, staat hieronder voor wie verder wil lezen.
 
-Onderzoekers combineren delen hiervan. DeSearch onderzocht gedistribueerd crawlen, indexeren, rangschikken en zoeken; DeScan richtte zich op een decentrale en censuurbestendige index.[7][8] Het recente Semord-voorstel onderzoekt een gedistribueerde overlay voor vectorzoeken.[9] Dit zijn onderzoeksprototypes, geen kant-en-klare publieke infrastructuur. Ze laten vooral zien dat het probleem niet eerst op een onbekende wetenschappelijke doorbraak hoeft te wachten.
+:::ModelDisclosure{title="Technische verdieping: identiteit, zoeken en herkomst" description="Welke bestaande bouwstenen zijn bruikbaar en waarom is een blockchain geen voorwaarde?" locale="nl" notes=true}
+DNS biedt een analogie: namen zijn vindbaar via gedeelde afspraken, terwijl browsers en websites zelfstandig blijven. Een kennislaag zou vergelijkbaar publicatie, identiteit, opslag, ontdekking, herkomst en vertrouwen van elkaar kunnen scheiden. DNS is daarmee een voorbeeld van een functie, geen uitgewerkt ontwerp voor kennis.
 
-## De vector is niet de kennis
+IPFS laat zien hoe inhoud via een cryptografische identifier herkenbaar kan blijven wanneer kopieën op verschillende machines staan.[4] Kademlia en andere distributed hash tables laten zien hoe objecten zonder één centrale index kunnen worden gevonden.[5] C2PA specificeert controleerbare informatie over de herkomst en bewerking van media.[6] Zulke onderdelen kunnen samen worden onderzocht; geen ervan beslist wat waar is of wie toestemming heeft voor hergebruik.
 
-Een belangrijk ontwerpdetail is dat embeddings geen duurzame identiteit vormen. Dezelfde zin levert bij verschillende embeddingmodellen verschillende vectoren en soms zelfs verschillende aantallen dimensies op.
+Ook zoeken op betekenis mag een publicatie niet vastleggen aan één techniek. Een embedding is een berekende representatie die verandert met het gebruikte model. Rond hetzelfde herkenbare document kunnen vandaag en morgen verschillende zoekindices bestaan. DeSearch onderzocht gedistribueerd crawlen, indexeren, rangschikken en zoeken; DeScan richtte zich op een decentrale index.[7][8] Semord verkent een gedistribueerde overlay voor vectorzoeken.[9] Dit zijn onderzoeksvoorstellen, geen kant-en-klare publieke infrastructuur.
 
-Daarom moet het kennisobject permanent herkenbaar zijn, niet zijn huidige wiskundige representatie. Rond één document kunnen meerdere zoekindices bestaan: vandaag met model A, morgen met model B, later misschien zonder conventionele embeddings. Zo kan zoektechniek verouderen zonder de kennislaag mee te nemen.
+Cryptografische hashes en handtekeningen kunnen helpen de identiteit en herkomst van een versie te controleren. Daarvoor hoeft niet elk object op een blockchain te staan of een token te krijgen. Een digitale handtekening toont evenmin dat een bewering klopt: voor inhoudelijk vertrouwen blijven citaties, onafhankelijke bevestiging, redactionele controle en vakspecifieke bewijsregels nodig.
+:::
 
-## Relevant, afkomstig en betrouwbaar zijn drie vragen
+## Welke problemen moet een open kennislaag oplossen?
 
-Een open semantisch netwerk trekt onmiddellijk spam, propaganda en commerciële manipulatie aan. Wie producten verkoopt, wil dicht bij waardevolle begrippen verschijnen. Een digitale handtekening kan aantonen wie een claim publiceerde; zij bewijst niet dat die claim klopt.
+Private AI-systemen hebben deze vragen al, maar lossen ze grotendeels binnen hun eigen grenzen op. Een aanbieder kiest welke bronnen hij ophaalt, hoe hij ze rangschikt en hoe lang hij kopieën bewaart. Voor uitgevers en lezers is vaak moeilijk te volgen welke versie van een bron in een antwoord terechtkwam, of een correctie is meegenomen en hoeveel waarde naar de oorspronkelijke maker terugvloeit. Een open kennislaag kan afspraken over herkomst, versies, verwijzingen en gebruiksvoorwaarden voor meerdere diensten tegelijk leesbaar maken. Zulke afspraken geven makers meer mogelijkheden om gebruik te volgen en erover te onderhandelen; ze garanderen geen betaling of naleving.
 
-Een serieuze architectuur moet daarom minstens drie zaken uit elkaar houden:
+Ook correctie en verwijdering vragen een ontwerpkeuze. Een aanbieder kan een fout in zijn eigen index aanpassen, maar buitenstaanders zien niet vanzelf waar oude kopieën nog circuleren. Een gedeelde laag kan correcties en intrekkingen herkenbaar publiceren en afspreken welke gegevens überhaupt worden gekopieerd. Zij kan echter niet beloven dat elke eenmaal verspreide kopie verdwijnt: bij verspreide opslag hangt beschikbaarheid juist af van wie een kopie bewaart.[10] Voor persoonsgegevens blijven daarom beperking van opslag, toegangsregels en een uitvoerbare procedure voor verwijderverzoeken nodig; ook het recht op gegevenswissing vergt soms een afweging met andere rechten.[11]
 
-- **relevantie:** gaat dit over de gestelde vraag?
-- **herkomst:** wie publiceerde deze versie en is zij gewijzigd?
-- **vertrouwen:** welk bewijs en welke instituties geven reden om haar te geloven?
+Dan is er de macht over vindbaarheid. Een gesloten zoekdienst kan eigen rangschikking en vertrouwensregels wijzigen zonder dat anderen die kunnen inspecteren of vervangen. In een open laag zouden onafhankelijke indexen, verschillende vertrouwensregels en controleerbare herkomst naast elkaar kunnen bestaan. Dat maakt manipulatie niet onmogelijk: één actor kan nog steeds veel schijnbaar onafhankelijke publicaties produceren, en publieke rangschikking kan worden bespeeld. Identiteitsverklaringen, bewijsregels en toezicht blijven nodig, met ruimte om een onbetrouwbare dienst te verlaten.
 
-Voor vertrouwen bestaan bronnen als citaties, onafhankelijke bevestiging, reputatie, wetenschappelijke methoden en redactionele controle. Waarschijnlijk hoort daar juist geen universeel algoritme boven te staan. Een medische assistent moet andere bewijsregels kunnen toepassen dan een restaurant- of winkelassistent. Die keuze kan losstaan van de gedeelde kennislaag.
-
-## Open betekent niet automatisch blockchain
-
-Cryptografische hashes, sleutels en handtekeningen liggen voor de hand. Daaruit volgt niet dat elk kennisobject op een blockchain moet staan, een token nodig heeft of dat netwerkconsensus waarheid kan bepalen.
-
-Het internet biedt een nuttiger precedent. DNS is hiërarchisch en verdeeld, e-mail is federatief, peer-to-peernetwerken verdelen opslag en certificaatautoriteiten zijn centrale organisaties binnen een open standaard. Het geheel is niet zuiver of elegant, maar geen enkele organisatie bezit alle lagen.
-
-Het belangrijkste ontwerpdoel is daarom niet decentralisatie als ideologie, maar **vervangbaarheid**. Geen organisatie zou voor altijd actief, welwillend en commercieel meewerkend hoeven blijven om machineleesbare kennis toegankelijk te houden.
-
-## Een open laag erft moeilijke politieke vragen
-
-Wie betaalt opslag, actualisering en rekenwerk? Hoe voorkom je dat één partij miljoenen schijnbaar onafhankelijke deelnemers maakt? Hoe verwijder je onrechtmatige of persoonlijke informatie? Hoe werken auteursrecht, intrekkingen en correcties wanneer gegevens worden gerepliceerd? Kan een technisch verspreid systeem economisch opnieuw centraliseren?
-
-Dit zijn geen details; sommige zijn waarschijnlijk moeilijker dan het zoeken zelf. Toch zit er een asymmetrie in het debat. Van een open alternatief verlangen we vaak vooraf een antwoord op elke vraag, terwijl private AI-ketens al worden uitgerold zonder die vragen definitief te hebben opgelost. Hun voorlopige productkeuzes kunnen zo ongemerkt infrastructuur worden.
+Ten slotte moet iemand opslag, actualisering en rekenwerk betalen. Een open protocol voorkomt niet dat de goedkoopste of grootste aanbieder uiteindelijk het merendeel van de markt beheerst. De toets is of anderen een index kunnen bouwen, gegevens onder passende voorwaarden kunnen meenemen en een aanbieder kunnen vervangen. Dat zijn politieke en economische keuzes naast technische keuzes. We hoeven niet te doen alsof een open systeem deze problemen vanzelf oplost; het kan wel voorkomen dat één private productkeuze ongemerkt de standaard voor iedereen wordt.
 
 ## Beslis over eigenschappen voordat de standaard vastligt
 
@@ -148,7 +146,7 @@ Infrastructuur wordt moeilijk te veranderen zodra uitgevers, software en verdien
 
 Daarom moeten we nu niet één wereldwijd systeem kiezen, maar wel bepalen welke eigenschappen we willen behouden: open protocollen, interoperabiliteit, controleerbare herkomst, meerdere implementaties en vertrouwensstelsels, deelname zonder toestemming van één AI-bedrijf en de mogelijkheid om een aanbieder te vervangen zonder de kennisinfrastructuur te vervangen.
 
-Het web is zo ontworpen dat geen browser eigenaar hoeft te zijn van het web. Als AI een belangrijke toegang tot menselijke kennis wordt, verdient de kennislaag daaronder dezelfde bescherming.
+De toets is concreet: als een AI-aanbieder verdwijnt of zijn voorwaarden wijzigt, kan een andere dienst dan onder de geldende gebruiksvoorwaarden dezelfde bronnen vinden, hun actuele versies herkennen en correcties verwerken? Kan een uitgever van dienst wisselen zonder zijn vindbaarheid opnieuw te moeten opbouwen? Een kennislaag die dat mogelijk maakt, geeft makers, lezers en ontwikkelaars van AI een keuze die ook blijft bestaan wanneer de dominante producten veranderen. Zo blijft toegang tot kennis een eigenschap van het netwerk, in plaats van een gunst van de aanbieder die vandaag het antwoord geeft.
 
 ## Referenties
 
@@ -161,3 +159,7 @@ Het web is zo ontworpen dat geen browser eigenaar hoeft te zijn van het web. Als
 7. USENIX OSDI '21. *DeSearch*. 2021. [Bron bekijken](https://www.usenix.org/conference/osdi21/presentation/li)
 8. TU Delft. *DeScan*. [Bron bekijken](https://repository.tudelft.nl/file/File_765dd13d-e07e-4dcf-b3c5-5dc213375d45)
 9. *Semord — Semantic Overlay Routing for Decentralized Vector Search*. Preprint, 2026. [Bron bekijken](https://arxiv.org/abs/2609.25514)
+10. IPFS Docs. *Persistence*. [Bron bekijken](https://docs.ipfs.tech/concepts/persistence/)
+11. European Data Protection Board. *EDPB identifies challenges hindering the full implementation of the right to erasure*. 2026. [Bron bekijken](https://www.edpb.europa.eu/news/edpb-identifies-challenges-hindering-the-full-implementation-of-the-right-to-erasure_en)
+12. Common Crawl. *Overview*. [Bron bekijken](https://commoncrawl.org/overview)
+13. United States District Court, Northern District of California. *Bartz et al. v. Anthropic PBC, Order on Fair Use*. 2025. [Bron bekijken](https://docs.justia.com/cases/federal/district-courts/california/candce/3:2024cv05417/434709/231)

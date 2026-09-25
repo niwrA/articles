@@ -40,11 +40,11 @@ aiReviewDate: 2026-09-10
 draft: false
 ---
 
-Nederland heeft woningnood. In 2026 ligt het statistische woningtekort rond 4,8 procent en het beleid richt zich sterk op het realiseren van ongeveer 100.000 woningen per jaar. Zonder extra woningen zal een groeiend aantal huishoudens moeilijk passende woonruimte kunnen vinden.
+Nederland heeft woningnood. In 2026 ligt het statistische woningtekort rond 4,8 procent en het beleid richt zich sterk op het realiseren van ongeveer 100.000 woningen per jaar.[12] Zonder extra woningen zal een groeiend aantal huishoudens moeilijk passende woonruimte kunnen vinden.
 
-Tegelijkertijd beschikt Nederland over veel woonruimte. Begin 2026 telde Nederland ongeveer 8,345 miljoen woningen met een gemiddelde oppervlakte van circa 120 vierkante meter. Bij elkaar gaat het om ongeveer één miljard vierkante meter woningoppervlak. Bij iets meer dan 18 miljoen inwoners komt dat grofweg neer op 55 vierkante meter fysieke woningvoorraad per inwoner.
+Tegelijkertijd beschikt Nederland over veel woonruimte. Begin 2026 telde Nederland ongeveer 8,345 miljoen woningen met een gemiddelde oppervlakte van circa 120 vierkante meter.[1] Bij elkaar gaat het om ongeveer één miljard vierkante meter woningoppervlak. Bij iets meer dan 18 miljoen inwoners komt dat grofweg neer op 55 vierkante meter fysieke woningvoorraad per inwoner.
 
-Dat betekent niet dat iedere Nederlander over 55 vierkante meter beschikt. De verdeling verschilt sterk naar leeftijd, huishoudtype, woningtype en regio. Wel laat het zien dat de woningnood niet alleen kan worden verklaard door een absoluut tekort aan vierkante meters.
+Dat betekent niet dat iedere Nederlander over 55 vierkante meter beschikt. De verdeling verschilt sterk naar leeftijd, huishoudtype, woningtype en regio. Wel laat het zien dat de woningnood niet alleen kan worden verklaard door een absoluut tekort aan vierkante meters. Volgens CBS beschikten alleenstaanden in 2021 gemiddeld over 87 vierkante meter woonoppervlak en alleenstaande zeventigplussers over 104 vierkante meter; dat zijn gemiddelden, geen oordeel over individuele woonwensen.[2]
 
 We gaan zoveel mogelijk factoren en hun beinvloedbaarheid door beleid en maatregelen eens af. Maar eerst verscherpen we de probleemstelling nog iets.
 
@@ -71,7 +71,7 @@ Vier personen die samen één huishouden vormen gebruiken in dit voorbeeld 90 vi
 ::HousingSpaceModel
 ::
 
-CBS verwachtte voor 2025 ongeveer 8,47 miljoen particuliere huishoudens. In de centrale prognose stijgt dat aantal naar ongeveer 8,79 miljoen in 2030 en 9,21 miljoen in 2040. Tussen 2025 en 2040 komen er daarmee ongeveer 747.000 huishoudens bij.
+CBS verwachtte voor 2025 ongeveer 8,47 miljoen particuliere huishoudens. In de centrale prognose stijgt dat aantal naar ongeveer 8,79 miljoen in 2030 en 9,21 miljoen in 2040. Tussen 2025 en 2040 komen er daarmee ongeveer 747.000 huishoudens bij.[3] Het CBS geeft voor 2040 ook een 67%-prognose-interval van circa 8,85 tot 9,58 miljoen huishoudens; de precieze toekomstige vraag blijft dus onzeker.[4]
 
 Een belangrijk deel van die groei bestaat uit eenpersoonshuishoudens. Vergrijzing speelt daarbij een belangrijke rol, maar ook scheidingen, jongeren die zelfstandig gaan wonen, veranderende relatiepatronen en langer zelfstandig wonen.
 
@@ -94,7 +94,7 @@ Hier ligt een relatief snelle beleidsoptie. Nieuwe woningen bouwen duurt jaren, 
 
 ### De woningvoorraad en de huishoudensstructuur sluiten niet goed op elkaar aan
 
-De Nederlandse woningvoorraad is voor een belangrijk deel gebouwd voor grotere huishoudens dan veel huishoudens nu en in de toekomst hebben. Nederland heeft miljoenen ruime eengezinswoningen, terwijl juist het aantal een- en tweepersoonshuishoudens groeit.
+De Nederlandse woningvoorraad is voor een belangrijk deel gebouwd voor grotere huishoudens dan veel huishoudens nu en in de toekomst hebben. Nederland heeft miljoenen ruime eengezinswoningen, terwijl juist het aantal een- en tweepersoonshuishoudens groeit. CBS laat bovendien zien dat woningen van bewoners tussen grofweg 45 en 80 jaar relatief weinig vrijkomen.[5]
 
 Een woning die ooit goed paste bij een gezin met kinderen kan tientallen jaren later door één of twee personen worden gebruikt. Dat is op zichzelf geen probleem. Een woning is een thuis en bewoners hoeven niet te verhuizen omdat hun woning statistisch ruim is.
 
@@ -134,11 +134,11 @@ Dat betekent praktisch dat een geschikte woning twintig kilometer verderop of me
 
 Doorstroming kan waarschijnlijk beter worden bevorderd door lokaal te bouwen voor huishoudens die al in de wijk wonen. Gemeenten kunnen per buurt onderzoeken waar relatief veel grote woningen door kleine oudere huishoudens worden bewoond en daar dichtbij geschikte alternatieven toevoegen.
 
-Die alternatieven moeten niet alleen qua oppervlakte geschikt zijn. Gedeelde hobbyruimte, opslag, logeermogelijkheden, tuin en ontmoetingsruimte kunnen het verschil maken tussen een theoretisch passend appartement en een woning waar iemand daadwerkelijk naartoe wil verhuizen.
+Die alternatieven moeten niet alleen qua oppervlakte geschikt zijn. Gedeelde hobbyruimte, opslag, logeermogelijkheden, tuin en ontmoetingsruimte kunnen het verschil maken tussen een theoretisch passend appartement en een woning waar iemand daadwerkelijk naartoe wil verhuizen. WoON’24 beschrijft hoe wensen van oudere doorstromers verder gaan dan een kleiner aantal vierkante meters.[7]
 
 Ook financiële frictie speelt een rol. Kleiner wonen kan hogere maandlasten opleveren, terwijl er daarnaast verhuis-, inrichtings- en aanpassingskosten zijn. In zo'n situatie is niet verhuizen financieel rationeel, al kan een deel wel vrijkomen uit de verkoop (of verhuur) van het bestaande huis, maar ook daar zouden dan eventueel financiele prikkels kunnen helpen - de opbrengst van de verkoop van het huis kan deels belastingvrij of uitgesteld van belasting worden gereserveerd voor toekomstige huur, ik zeg maar iets. Ook verhuisbegeleiding, tijdelijke opslag en ondersteuning bij het opruimen van een huis kunnen relatief goedkope maatregelen zijn wanneer daarmee een hele verhuisketen wordt gestart.
 
-Een geschikte woning voor een oudere voegt niet alleen één woning aan de voorraad toe. Er kan ook een gezinswoning vrijkomen, waarna het gezin dat daarin trekt weer een andere woning achterlaat. De relevante maatstaf is daarom niet alleen het aantal gebouwde woningen, maar ook het aantal verhuizingen en opgeloste mismatches dat een woning veroorzaakt.
+Een geschikte woning voor een oudere voegt niet alleen één woning aan de voorraad toe. Er kan ook een gezinswoning vrijkomen, waarna het gezin dat daarin trekt weer een andere woning achterlaat. CBS telde voor nieuwbouw uit 2019–2022 gemiddeld 1,8 andere vrijgekomen woningen per nieuwbouwwoning; dat gemiddelde verschilt per woningtype.[6] De relevante maatstaf is daarom niet alleen het aantal gebouwde woningen, maar ook het aantal verhuizingen en opgeloste mismatches dat een woning veroorzaakt.
 
 ### Woningen splitsen
 
@@ -150,7 +150,7 @@ Niet iedere woning is hiervoor geschikt. Brandveiligheid, geluid, parkeren, buit
 
 Economisch is splitsen echter interessant omdat een groot deel van de fysieke structuur al aanwezig is: grond, fundering, gevel, dak en infrastructuur hoeven niet opnieuw te worden aangelegd.
 
-Splitsen kan eenvoudiger worden gemaakt met duidelijkere technische normen, snellere vergunningen en financiering voor verbouwingen. Daarbij is het zinvoller om steun te koppelen aan daadwerkelijk toegevoegde wooncapaciteit dan aan verbouwingskosten op zichzelf.
+Splitsen kan eenvoudiger worden gemaakt met duidelijkere technische normen, snellere vergunningen en financiering voor verbouwingen. Platform31 bespreekt ook de praktische en juridische belemmeringen bij delen en splitsen.[8] Daarbij is het zinvoller om steun te koppelen aan daadwerkelijk toegevoegde wooncapaciteit dan aan verbouwingskosten op zichzelf.
 
 Een bruikbare maatstaf is de investering per extra woonjaar. Een verbouwing van €40.000 die twintig jaar één extra zelfstandige woning oplevert komt bruto neer op €2.000 per extra woonjaar, exclusief onderhoud en restwaarde.
 
@@ -198,11 +198,11 @@ Snellere procedures kunnen helpen, maar verkorten niet iedere stap in het proces
 
 De woningvraag wordt niet alleen bepaald door huishoudensverdunning en de bestaande voorraad. Ook het aantal inwoners verandert.
 
-De Nederlandse bevolkingsgroei is de afgelopen jaren steeds sterker door migratie bepaald. Inmiddels overlijden jaarlijks meer mensen dan er geboren worden. De netto bevolkingsgroei komt daardoor op dit moment volledig voort uit migratie.
+De Nederlandse bevolkingsgroei is de afgelopen jaren steeds sterker door migratie bepaald. CBS laat zien dat sinds 2015 buitenlandse migratie de belangrijkste bron van bevolkingsgroei is.[9] Inmiddels overlijden jaarlijks meer mensen dan er geboren worden. De netto bevolkingsgroei kwam daardoor in 2025 volledig voort uit migratie; dat is een jaarcijfer, geen tijdloze eigenschap van Nederland.[10]
 
 Migratie is geen homogene categorie. Mensen komen voor arbeid, gezin, studie, asiel, tijdelijke bescherming en andere redenen. Ze blijven bovendien niet allemaal even lang en vormen verschillende soorten huishoudens.
 
-Voor de woningmarkt is daarom niet alleen de bruto immigratie relevant. Belangrijker zijn het migratiesaldo, de verblijfsduur, de huishoudensvorming en de gebruikte woonvorm.
+Voor de woningmarkt is daarom niet alleen de bruto immigratie relevant. CBS’ overzicht maakt zichtbaar waarom immigratie en migratiesaldo afzonderlijk moeten worden gevolgd; voor de woningvraag zijn daarnaast verblijfsduur, huishoudensvorming en woonvorm van belang.[11]
 
 Een gezin van vier vraagt niet vier woningen. Vier alleenstaanden die langdurig in Nederland blijven kunnen uiteindelijk wel vier zelfstandige huishoudens vormen.
 

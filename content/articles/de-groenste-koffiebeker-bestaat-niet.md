@@ -108,11 +108,11 @@ Biobased plastic lost dit niet automatisch op. *Biobased* zegt iets over de herk
 
 Levenscyclusanalyses van bekers leveren niet steeds dezelfde winnaar op. Dat is geen teken dat wetenschap nutteloos is. Het laat juist zien welke variabelen beslissend zijn en waar stellige claims meer zekerheid suggereren dan de data toelaten.
 
-Een peer-reviewed studie naar Nederlandse kantooromgevingen vergeleek polystyreen, PLA, gecoat papier en herbruikbare bekers. De spreiding tussen realistische aannames was groot en overlapte. Bij de herbruikbare beker werd de uitkomst sterk bepaald door afwasgedrag en de belading van de vaatwasser. Opvallend was een robuuste, praktische bevinding: twee consumpties uit dezelfde beker vóór het wassen halveerden ongeveer het afwasgerelateerde aandeel per consumptie; een derde consumptie gaf nog extra winst, al nam het voordeel daarna af.
+Een peer-reviewed studie naar Nederlandse kantooromgevingen vergeleek polystyreen, PLA, gecoat papier en herbruikbare bekers. De spreiding tussen realistische aannames was groot en overlapte. Bij de herbruikbare beker werd de uitkomst sterk bepaald door afwasgedrag en de belading van de vaatwasser. Opvallend was een robuuste, praktische bevinding: twee consumpties uit dezelfde beker vóór het wassen halveerden ongeveer het afwasgerelateerde aandeel per consumptie; een derde consumptie gaf nog extra winst, al nam het voordeel daarna af.[1]
 
 Dat leidt tot een belangrijker inzicht dan de vraag “papier of plastic?”. **Voorkomen van een nieuw product of een nieuwe washandeling is vaak krachtiger dan optimaliseren van het materiaal aan het einde van de keten.** Dezelfde wegwerpbeker nog eenmaal gebruiken vermijdt een tweede beker. Dezelfde mok nog eenmaal gebruiken vóór de vaatwasser verdeelt één reiniging over twee koffies. In beide gevallen verandert gedrag direct de noemer van de berekening.
 
-Andere LCA-studies vinden vaak een omslagpunt waarna herbruikbaar gunstiger wordt dan eenmalig gebruik. Maar dat omslagpunt is geen natuurconstante. Het verschuift met het materiaal en gewicht van de mok, de vergeleken wegwerpbeker, de levensduur, het elektriciteitssysteem, de waswijze en de gekozen milieucategorie. Een getal als “na 30 keer is een mok beter” is alleen geldig binnen de aannames van het onderzoek dat het getal berekende.
+Andere LCA-studies vinden vaak een omslagpunt waarna herbruikbaar gunstiger wordt dan eenmalig gebruik.[2] Maar dat omslagpunt is geen natuurconstante. Het verschuift met het materiaal en gewicht van de mok, de vergeleken wegwerpbeker, de levensduur, het elektriciteitssysteem, de waswijze en de gekozen milieucategorie. Een getal als “na 30 keer is een mok beter” is alleen geldig binnen de aannames van het onderzoek dat het getal berekende.
 
 ---
 
@@ -128,7 +128,7 @@ De verleiding is groot om alles om te rekenen naar gram CO₂-equivalent. Dat is
 - landgebruik;
 - afval, zwerfafval en microplastics.
 
-Een alternatief kan op klimaat beter scoren en tegelijk meer water vragen. Papier kan aantrekkelijk zijn vanwege hernieuwbare grondstoffen, maar zwaarder zijn en veel proceswater vragen. Plastic kan een lage productiemassa hebben, maar fossiele koolstof gebruiken en bij verlies naar het milieu langdurige vervuiling veroorzaken. Keramiek kan lang meegaan, maar vraagt energie bij productie en reiniging.
+Een alternatief kan op klimaat beter scoren en tegelijk meer water vragen. Papier kan aantrekkelijk zijn vanwege hernieuwbare grondstoffen, maar zwaarder zijn en veel proceswater vragen. Plastic kan een lage productiemassa hebben, maar fossiele koolstof gebruiken en bij verlies naar het milieu langdurige vervuiling veroorzaken. Keramiek kan lang meegaan, maar vraagt energie bij productie en reiniging. Het onderzoek van CE Delft illustreert waarom ook die gebruiks- en afvalfases in de vergelijking horen.[3]
 
 Daarom zou het interactieve model de effecten naast elkaar moeten tonen. Een samengestelde “milieuscore” is alleen verantwoord als gebruikers zelf zien welke weging eraan ten grondslag ligt. Wie klimaat twee keer zo zwaar laat meetellen als watergebruik maakt een normatieve keuze, geen natuurkundige berekening.
 
@@ -160,7 +160,7 @@ De grootste praktische verbeteringen vragen geen discussie over de perfecte beke
 5. **Voorkom verlies en breuk.** Een mok die lang meegaat hoeft zijn productie-impact maar eenmaal terug te verdienen.
 6. **Als wegwerp nodig is: ontwerp de inzameling als systeem.** Kies beker, afvalbak, logistiek en recycler samen. Alleen een recyclinglogo op de beker verandert nog geen afvalstroom.
 
-In Nederland beweegt ook de regelgeving richting hergebruik. Volgens de eind 2025 aangekondigde aanpassing wordt herbruikbaar op kantoren vanaf 2027 de standaard en verdwijnt daar de recyclinguitzondering voor wegwerpbekers. Dat is een beleidskeuze om eenmalig gebruik terug te dringen; het vervangt geen analyse van het daadwerkelijke gebruikssysteem.
+In Nederland beweegt ook de regelgeving richting hergebruik. Volgens de eind 2025 aangekondigde aanpassing wordt herbruikbaar op kantoren vanaf 2027 de standaard en verdwijnt daar de recyclinguitzondering voor wegwerpbekers.[4] Dat is een beleidskeuze om eenmalig gebruik terug te dringen; het vervangt geen analyse van het daadwerkelijke gebruikssysteem.
 
 ---
 

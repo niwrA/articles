@@ -108,11 +108,11 @@ Biobased plastic does not automatically solve the problem. *Biobased* describes 
 
 Life-cycle assessments of cups do not consistently identify the same winner. That does not make the science useless. On the contrary, it reveals which variables are decisive and where categorical claims imply more certainty than the evidence supports.
 
-A peer-reviewed study of Dutch office environments compared polystyrene, PLA, coated paper and reusable cups. The ranges produced by realistic assumptions were broad and overlapping. For reusable cups, the result was strongly influenced by washing behaviour and dishwasher loading. One robust and practical finding stood out: consuming two drinks from the same cup before washing approximately halved the washing-related contribution per drink. A third drink produced a further benefit, although the additional gain diminished thereafter.
+A peer-reviewed study of Dutch office environments compared polystyrene, PLA, coated paper and reusable cups. The ranges produced by realistic assumptions were broad and overlapping. For reusable cups, the result was strongly influenced by washing behaviour and dishwasher loading. One robust and practical finding stood out: consuming two drinks from the same cup before washing approximately halved the washing-related contribution per drink. A third drink produced a further benefit, although the additional gain diminished thereafter.[1]
 
 This leads to a more important insight than “paper or plastic?”. **Avoiding a new product or an additional wash is often more powerful than optimising the material at the end of the chain.** Using the same disposable cup once more avoids a second cup. Using the same mug once more before running the dishwasher distributes one cleaning operation across two drinks. In both cases, behaviour changes the denominator directly.
 
-Other LCA studies often find a break-even point after which reuse performs better than single use. But that point is not a constant of nature. It shifts with the material and weight of the mug, the disposable cup used for comparison, its lifetime, the electricity system, the washing method and the environmental category selected. A statement such as “a mug is better after 30 uses” is valid only under the assumptions of the study that calculated it.
+Other LCA studies often find a break-even point after which reuse performs better than single use.[2] But that point is not a constant of nature. It shifts with the material and weight of the mug, the disposable cup used for comparison, its lifetime, the electricity system, the washing method and the environmental category selected. A statement such as “a mug is better after 30 uses” is valid only under the assumptions of the study that calculated it.
 
 ---
 
@@ -128,7 +128,7 @@ It is tempting to express everything in grams of CO₂ equivalent. That is usefu
 - land use;
 - waste, litter and microplastics.
 
-One alternative may perform better on climate while requiring more water. Paper may seem attractive because it uses renewable feedstocks, but can be heavier and require substantial process water. Plastic may have a low production mass while still using fossil carbon and causing persistent pollution when it escapes into the environment. Ceramics can last a long time but require energy during both production and cleaning.
+One alternative may perform better on climate while requiring more water. Paper may seem attractive because it uses renewable feedstocks, but can be heavier and require substantial process water. Plastic may have a low production mass while still using fossil carbon and causing persistent pollution when it escapes into the environment. Ceramics can last a long time but require energy during both production and cleaning. CE Delft’s study illustrates why use and waste treatment must also be included in the comparison.[3]
 
 The interactive model should therefore present effects separately. A composite “environmental score” is defensible only if users can see the weighting behind it. Giving climate twice the weight of water use is a normative choice, not a physical calculation.
 
@@ -160,7 +160,7 @@ The largest practical improvements do not require agreement on the perfect cup. 
 5. **Prevent loss and breakage.** A mug that lasts needs to repay its production impact only once.
 6. **If disposables are necessary, design collection as a system.** Select the cup, bin, logistics and recycler together. A recycling symbol alone does not create a functioning waste stream.
 
-Dutch regulation is also moving towards reuse. Under the changes announced at the end of 2025, reusable cups are due to become the standard in Dutch offices from 2027, while the recycling exemption for disposable cups in those settings will end. That is a policy choice intended to reduce single use; it does not replace analysis of the system as it actually operates.
+Dutch regulation is also moving towards reuse. Under the changes announced at the end of 2025, reusable cups are due to become the standard in Dutch offices from 2027, while the recycling exemption for disposable cups in those settings will end.[4] That is a policy choice intended to reduce single use; it does not replace analysis of the system as it actually operates.
 
 ---
 
