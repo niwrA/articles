@@ -54,6 +54,8 @@ The application executes the requested action outside the language model. A sear
 
 The language model also contains patterns and information captured indirectly in its weights during training. This is not an orderly library in which every statement can be retrieved with its original source or updated separately. Externally retrieved knowledge can be more current and attributable, but only if the surrounding infrastructure preserves its identity, version and provenance. Not every system follows every step for every question, and commercial products often reveal only part of the route.
 
+This site is an example. The author brings questions, experience and knowledge to the work; the AI assistant contributes information and patterns from its training and helps organize and write the essay. Where factual claims need support, we check them against external publications and link them through notes and references to sources that actually support them. Readers can then examine the evidence without treating a citation as automatic proof of our interpretation.
+
 This essay asks who controls the infrastructure through which AI finds, selects, updates and attributes external knowledge. That knowledge layer can remain inside one private product stack, or it could be separated from models and interfaces and developed as open infrastructure. The route from publication to answer is therefore a public question.
 
 ::ModelDisclosure{title="From question to answer" description="Follow the interaction among person, application, language model and external sources. The script shows when and why each kind of knowledge is used." locale="en"}
@@ -106,6 +108,14 @@ Imagine a journalist correcting an error or a government agency changing a polic
 ### How could a reader assess an answer?
 
 For a health-related answer, a reader may want to know where a claim came from, which version was used and why that particular source was selected. Provenance alone cannot establish that the claim is true. **Relevance** (does it address the question?), **provenance** (who published this version?) and **trust** (what evidence supports the claim?) must remain distinct questions. A medical assistant might apply stricter evidence standards than a shopping assistant while both can discover the same publications.
+
+### Could a smaller model use the same sources?
+
+Imagine a small language model sending a question to a shared knowledge layer, then using the retrieved publications to compose its answer. Its provider would not need to build a collection of the entire web independently. For questions that mainly require finding current facts and explaining them clearly, this could cost less than maintaining both a large model and a private search infrastructure. Research on external retrieval finds benefits for smaller models; it does not establish equal performance on complex judgments or conflicting evidence.[14]
+
+The same principle could work with a model running on someone's own computer. Ollama, for example, can combine local models with retrieved documents and search tools.[15][16] Where the model runs and where it searches are separate choices: Ollama's own web search uses an external service and account, while a future shared knowledge layer could offer another route.[16] Local inference does not automatically make the sources local, open or independent.
+
+A shared layer would still have to pay for collecting, indexing, updating and checking sources. The possibility is that multiple models and providers could use those functions without rebuilding the same collection separately. Whether **smaller model + shared search service** really costs less at comparable answer quality depends on the question, retrieval quality and the full cost of both search and inference. It is a testable possibility, not a promised result.
 
 That separation also has economic consequences. If knowledge infrastructure, models and execution can be replaced and optimized independently, growing AI use need not produce equivalent growth in private compute infrastructure. The companion essay *An AI Bubble—or an AI Infrastructure Bubble?* examines how much recurring computation economically useful AI may ultimately require and what that means for today's investments.
 
@@ -163,3 +173,6 @@ The test is concrete: if an AI provider disappears or changes its terms, can ano
 11. European Data Protection Board. *EDPB identifies challenges hindering the full implementation of the right to erasure*. 2026. [View source](https://www.edpb.europa.eu/news/edpb-identifies-challenges-hindering-the-full-implementation-of-the-right-to-erasure_en)
 12. Common Crawl. *Overview*. [View source](https://commoncrawl.org/overview)
 13. United States District Court, Northern District of California. *Bartz et al. v. Anthropic PBC, Order on Fair Use*. 2025. [View source](https://docs.justia.com/cases/federal/district-courts/california/candce/3:2024cv05417/434709/231)
+14. Xu et al. *RAG in the Wild: On the (In)effectiveness of LLMs with Mixture-of-Knowledge Retrieval Augmentation*. ACL Findings, 2026. [View source](https://aclanthology.org/2026.findings-acl.849/)
+15. Ollama. *Embedding models*. [View source](https://ollama.com/blog/embedding-models)
+16. Ollama. *Web search*. [View source](https://ollama.com/blog/web-search)

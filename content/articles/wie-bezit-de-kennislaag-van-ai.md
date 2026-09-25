@@ -54,6 +54,8 @@ De applicatie voert de gevraagde actie buiten het taalmodel uit. Een zoekdienst 
 
 Het taalmodel beschikt daarnaast over patronen en informatie die tijdens de training indirect in zijn modelgewichten zijn terechtgekomen. Dat is geen ordelijke bibliotheek waarin iedere bewering met haar bron kan worden opgezocht of afzonderlijk kan worden bijgewerkt. Extern opgehaalde kennis kan actueler en beter herleidbaar zijn, maar alleen als de infrastructuur haar identiteit, versie en herkomst bewaart. Niet ieder systeem doorloopt bij iedere vraag alle stappen, en commerciële producten maken de precieze route vaak maar beperkt zichtbaar.
 
+Deze site is daar zelf een voorbeeld van. De auteur brengt eigen vragen, ervaringen en kennis in; de AI-assistent helpt met informatie en patronen uit zijn training en met het ordenen en formuleren van het artikel. Feitelijke beweringen waarvoor onderbouwing nodig is, toetsen we vervolgens aan externe publicaties en koppelen we via notities en referenties aan de bronnen die ze daadwerkelijk ondersteunen. Zo kan de lezer de onderbouwing nagaan, zonder dat een bronverwijzing onze interpretatie automatisch bewijst.
+
 Dit artikel gaat daarom over wie de infrastructuur beheert waarmee AI externe kennis vindt, selecteert, actualiseert en van herkomstinformatie voorziet. Die kennislaag kan onderdeel zijn van één private productketen, maar zou ook los van modellen en interfaces als open infrastructuur kunnen worden ingericht. Daarmee wordt de route van publicatie naar antwoord een maatschappelijke vraag.
 
 ::ModelDisclosure{title="Van vraag naar antwoord" description="Volg de interactie tussen persoon, applicatie, taalmodel en externe bronnen. Het script laat per stap zien wanneer welke kennis wordt gebruikt." locale="nl"}
@@ -106,6 +108,14 @@ Stel dat een journalist een fout corrigeert of een overheidsinstantie een regeli
 ### Hoe kan een lezer een antwoord beoordelen?
 
 Bij een antwoord over gezondheid wil een lezer kunnen nagaan waar de bewering vandaan komt, welke versie is gebruikt en waarom juist die bron is gekozen. Een herkomstvermelding bewijst niet dat de inhoud klopt. Daarom horen **relevantie** (past de bron bij de vraag?), **herkomst** (wie publiceerde deze versie?) en **vertrouwen** (welk bewijs ondersteunt de claim?) verschillende vragen te blijven. Een medische assistent kan daarvoor strengere bewijsregels toepassen dan een winkelassistent, terwijl beide dezelfde publicaties kunnen vinden.
+
+### Kan een kleiner model dezelfde bronnen benutten?
+
+Stel dat een klein taalmodel een vraag eerst laat opzoeken in een gedeelde kennislaag en daarna de gevonden publicaties gebruikt om een antwoord te formuleren. Dan hoeft de aanbieder niet zelf een verzameling van het hele web op te bouwen. Voor vragen waarbij vooral actuele feiten moeten worden gevonden en helder uitgelegd, zou dat goedkoper kunnen zijn dan een groot model én een eigen zoekinfrastructuur onderhouden. Onderzoek naar het ophalen van externe kennis laat zien dat kleinere modellen daarvan kunnen profiteren; het zegt niet dat ze bij ingewikkelde afwegingen of tegenstrijdige bronnen even goed presteren als grotere modellen.[14]
+
+Hetzelfde principe kan werken met een model dat op iemands eigen computer draait. Ollama laat bijvoorbeeld lokale modellen werken met opgehaalde documenten en met hulpmiddelen voor zoekopdrachten.[15][16] De plaats waar het model draait en de plaats waar het zoekt zijn afzonderlijke keuzes: Ollama's eigen webzoekfunctie gebruikt een externe dienst met een account, terwijl een toekomstige gedeelde kennislaag een andere zoekroute zou bieden.[16] Lokaal rekenen maakt de bronnen dus niet vanzelf lokaal, open of onafhankelijk.
+
+Zo'n gedeelde laag neemt de kosten van verzamelen, indexeren, actualiseren en controleren niet weg; iemand moet die functies blijven uitvoeren en betalen. De interessante mogelijkheid is dat meerdere modellen en aanbieders ze kunnen gebruiken zonder allemaal dezelfde verzameling opnieuw op te bouwen. Of **kleiner model + gedeelde zoekdienst** bij vergelijkbare antwoordkwaliteit werkelijk goedkoper is, hangt af van de vraag, de kwaliteit van de gevonden bronnen en de volledige kosten van zoeken én rekenen. Dat is een toetsbare mogelijkheid, geen beloofd resultaat.
 
 Die scheiding heeft ook economische gevolgen. Als kennisinfrastructuur, modellen en uitvoering afzonderlijk kunnen worden vervangen en geoptimaliseerd, hoeft groeiend AI-gebruik niet automatisch dezelfde groei van private rekeninfrastructuur te veroorzaken. Het aanvullende artikel *Een AI-zeepbel — of een zeepbel in AI-infrastructuur?* onderzoekt hoeveel terugkerende rekenkracht economische AI-activiteit uiteindelijk nodig kan hebben en wat dat voor de huidige investeringen betekent.
 
@@ -163,3 +173,6 @@ De toets is concreet: als een AI-aanbieder verdwijnt of zijn voorwaarden wijzigt
 11. European Data Protection Board. *EDPB identifies challenges hindering the full implementation of the right to erasure*. 2026. [Bron bekijken](https://www.edpb.europa.eu/news/edpb-identifies-challenges-hindering-the-full-implementation-of-the-right-to-erasure_en)
 12. Common Crawl. *Overview*. [Bron bekijken](https://commoncrawl.org/overview)
 13. United States District Court, Northern District of California. *Bartz et al. v. Anthropic PBC, Order on Fair Use*. 2025. [Bron bekijken](https://docs.justia.com/cases/federal/district-courts/california/candce/3:2024cv05417/434709/231)
+14. Xu et al. *RAG in the Wild: On the (In)effectiveness of LLMs with Mixture-of-Knowledge Retrieval Augmentation*. ACL Findings, 2026. [Bron bekijken](https://aclanthology.org/2026.findings-acl.849/)
+15. Ollama. *Embedding models*. [Bron bekijken](https://ollama.com/blog/embedding-models)
+16. Ollama. *Web search*. [Bron bekijken](https://ollama.com/blog/web-search)
