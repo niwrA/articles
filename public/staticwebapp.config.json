@@ -1,6 +1,11 @@
 {
   "routes": [
     {
+      "route": "/artikelen/ai-kan-winnen-terwijl-de-ai-zeepbel-barst",
+      "redirect": "/artikelen/ai-zeepbel-of-infrastructuurzeepbel",
+      "statusCode": 301
+    },
+    {
       "route": "/_nuxt/*",
       "headers": {
         "Cache-Control": "public, max-age=31536000, immutable"

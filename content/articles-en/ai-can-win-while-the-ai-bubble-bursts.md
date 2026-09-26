@@ -62,9 +62,9 @@ Composition matters too. In the central estimate, roughly sixty per cent consist
 
 These corrections do not remove the return question. A basic annuity calculation makes the order of magnitude visible:
 
-$$
-A=P\frac{r}{1-(1+r)^{-n}}
-$$
+> **Annual capital cost = invested capital × r ÷ (1 − (1 + r)⁻ⁿ)**
+
+Here **r** is the required annual return and **n** is the asset’s economic life in years. The calculation spreads capital recovery and the required return over that period.
 
 At $5.2 trillion of capital, a ten-year economic life and a ten per cent required return, the annual capital burden is about $846 billion. If forty per cent of revenue is available to support that burden, required annual revenue is about $2.1 trillion.
 
@@ -102,9 +102,7 @@ The third uncertainty reaches the heart of the infrastructure case. A common cha
 
 The weak link lies between economic AI activity and compute demand. A better model is:
 
-$$
-\text{compute demand}=\text{economically useful AI activity}\times\text{compute per useful activity}
-$$
+> **Total compute demand = useful AI activity × compute per activity**
 
 Investment narratives mostly emphasize the first term. Almost the entire technology sector is simultaneously trying to reduce the second.
 
@@ -175,7 +173,7 @@ Technological dependence is also geopolitical dependence. In 2025 the United Sta
 
 Governments and institutions may therefore value domestic clouds, chips, payment systems, operating systems, models and standards even when these initially cost more. Parallel ecosystems enlarge the set of architectures being explored. A more efficient discovery in one ecosystem may then change infrastructure economics elsewhere. This does not tell us which country or bloc will win; it only makes one stable global technology path a weak investment assumption.
 
-The knowledge layer need not remain tied to one model, interface or provider either. If different AI systems can use the same open knowledge objects, it is not only execution that becomes more efficient or replaceable: access to knowledge can also be separated from the party composing the answer. The companion essay *Who owns the knowledge layer of AI?* develops that separation between knowledge infrastructure and intelligence.
+The knowledge layer need not remain tied to one model, interface or provider either. If different AI systems can use the same open knowledge objects, it is not only execution that becomes more efficient or replaceable: access to knowledge can also be separated from the party composing the answer. The companion essay [*Who Controls AI’s Knowledge Layer?*](/en/articles/who-owns-the-knowledge-layer-of-ai) develops that separation between knowledge infrastructure and intelligence.
 
 ## When does capacity become underused?
 
@@ -196,7 +194,7 @@ AI can become extraordinarily important while some current infrastructure invest
 
 Efficiency may also create so much new demand through lower prices that total compute still grows. We therefore cannot infer the outcome from adoption figures alone or from efficiency benchmarks alone. We must ask simultaneously how much value is created, who receives it and which execution architecture ultimately remains.
 
-The trillion-dollar bet is not merely that AI will succeed. It is that AI will succeed in roughly the form we currently expect it to.
+The trillion-dollar bet is not merely that AI will succeed. It is that AI will succeed in roughly the form we currently expect it to. That assumption deserves testing. Even if it holds, we should ask whether this form of AI, with its demands on resources and distribution of gains, is the one we want to pursue.
 
 ## References
 

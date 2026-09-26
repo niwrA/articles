@@ -16,7 +16,7 @@ keyPoints:
   - Economisch succesvolle AI garandeert niet dat iedere huidige infrastructuurinvestering voldoende rendement behaalt.
   - Een besparing op arbeid verschuift ook inkomen; de macro-economische uitkomst hangt af van herplaatsing, prijzen en verdeling.
   - AI-gebruik en rekenvraag hoeven niet even snel te groeien wanneer taken verschuiven naar kleinere modellen, proxy's of deterministische software.
-  - Efficiëntie kan de vraag juist vergroten, waardoor activiteit, efficiëntie en rebound gezamenlijk moeten worden gemodelleerd.
+  - Goedkopere AI kan nieuw gebruik uitlokken. Daarom moeten groeiend gebruik en dalende kosten per taak samen worden bekeken.
 plainLanguage:
   title: AI kan belangrijk worden zonder dat iedere AI-investering goed uitpakt
   intro: De discussie gaat vaak over de vraag of AI echt is of een zeepbel. Dat zijn niet de enige mogelijkheden. Een technologie kan zeer nuttig worden terwijl bedrijven toch te veel of in de verkeerde infrastructuur investeren.
@@ -52,19 +52,21 @@ Deze verwachtingen hangen samen, maar geen ervan volgt automatisch uit de vorige
 
 De betere vraag is daarom niet of *AI* een zeepbel is, maar welke van de onderliggende investeringsaannames standhouden.
 
-## Drie manieren waarop de huidige investeringsverwachting kan breken
+<span id="drie-manieren-waarop-de-huidige-investeringsverwachting-kan-breken"></span>
 
-### AI creëert te weinig waarde, of te langzaam
+## Drie onzekerheden achter de huidige AI-investeringen
+
+### Leveren de investeringen genoeg op?
 
 McKinsey schatte in 2025 dat wereldwijd tot 2030 ongeveer 6,7 biljoen dollar aan datacenterinvesteringen nodig zou kunnen zijn, waarvan 5,2 biljoen voor AI-gerelateerde capaciteit. Het bureau presenteert daarbij nadrukkelijk scenario's van ongeveer 3,7 tot 7,9 biljoen dollar voor AI, afhankelijk van vraag, innovatie en beperkingen.[1] Ook het IMF beschrijft de huidige AI-golf als uitzonderlijk kapitaalintensief en wijst erop dat de productiviteitsopbrengst afhangt van brede toepassing buiten een kleine groep technologiebedrijven.[2] Het gaat dus om een geraamde kapitaalbehoefte en een mogelijke productiviteitstransformatie, niet om reeds aangegane schuld of een gegarandeerde markt.
 
 Ook de samenstelling is belangrijk. In de centrale raming bestaat ongeveer zestig procent uit chips en andere IT-apparatuur, een kwart uit energie en koeling en vijftien procent uit locaties en gebouwen.[1] Een accelerator kan na enkele jaren economisch verouderen, terwijl een netaansluiting, transformator, koelsysteem of gebouw meerdere hardwaregeneraties kan dienen. Eén uniforme afschrijvingstermijn is daarom een vereenvoudiging.
 
-Maar deze correcties nemen de rendementsvraag niet weg. Een eenvoudige annuïteitsberekening maakt de orde van grootte zichtbaar:
+Maar deze correcties nemen de rendementsvraag niet weg. Met een annuïteitsberekening kunnen we schatten welke jaarlijkse opbrengst tegenover de investering moet staan:
 
-$$
-A=P\frac{r}{1-(1+r)^{-n}}
-$$
+> **Jaarlijkse kapitaallast = geïnvesteerd bedrag × r ÷ (1 − (1 + r)⁻ⁿ)**
+
+Hierbij is **r** het vereiste jaarlijkse rendement en **n** de economische levensduur in jaren. De berekening verdeelt de terugverdienlast over die periode, inclusief het vereiste rendement.
 
 Bij 5,2 biljoen dollar kapitaal, een economische levensduur van tien jaar en een vereist rendement van tien procent bedraagt de jaarlijkse kapitaallast ongeveer 846 miljard dollar. Wanneer veertig procent van de omzet beschikbaar is om die last te dragen, is ongeveer 2,1 biljoen dollar jaaromzet nodig.
 
@@ -75,9 +77,9 @@ Dat is geen voorspelling. Exploitatiekosten, belastingen, verschillende activakl
   ::
 ::
 
-De eerste manier waarop de investeringsthese kan mislukken is daarmee minder spectaculair dan de bewering dat AI waardeloos zou zijn. AI kan echte waarde creëren, maar niet snel genoeg of niet in voldoende omvang om al het ingezette kapitaal tegen de betaalde prijs te laten renderen.
+Het eerste risico is daarmee minder spectaculair dan de bewering dat AI waardeloos zou zijn. AI kan echte waarde creëren, maar niet snel genoeg of in voldoende omvang om alle investeringen terug te verdienen.
 
-### AI creëert veel waarde, maar verschuift inkomen
+### Wie ontvangt de opbrengst als AI werk overneemt?
 
 De tweede kwetsbaarheid ontstaat juist wanneer AI bijzonder goed werkt. Voor een bedrijf is automatisering aantrekkelijk wanneer de kosten van AI plus de resterende arbeid lager zijn dan de oorspronkelijke loonkosten. Het bedrijf produceert dan goedkoper en de winst kan stijgen.
 
@@ -92,30 +94,28 @@ De werkelijkheid bevat sterke tegenkrachten. Werknemers kunnen ander werk vinden
   ::
 ::
 
-De tweede faalwijze is dus geen onvermijdelijke vraagcrisis. Het is een terugkoppeling die vaak uit bedrijfsberekeningen verdwijnt: productieve capaciteit kan sneller groeien dan breed verdeelde koopkracht. De relevante vraag is wat er gebeurt met het inkomen van mensen wier huidige economische taken AI goedkoper kan uitvoeren.
+Dit leidt niet onvermijdelijk tot een tekort aan vraag. Het laat wel een terugkoppeling zien die in berekeningen van afzonderlijke bedrijven gemakkelijk ontbreekt: de productie kan sneller groeien dan de koopkracht van huishoudens. De relevante vraag is wat er gebeurt met het inkomen van mensen wier werk AI goedkoper kan uitvoeren.
 
-### AI slaagt, maar heeft minder terugkerende rekenkracht nodig
+### Hoeveel rekenkracht blijft AI nodig hebben?
 
-De derde onzekerheid raakt het hart van de infrastructuurverwachting. Een gebruikelijke redenering is:
+De derde onzekerheid raakt de vraag hoeveel infrastructuur uiteindelijk nodig blijft. Een gebruikelijke redenering is:
 
 > meer AI-gebruik → meer inferentie → meer rekenkracht → meer datacenters
 
 De zwakke stap zit tussen economische AI-activiteit en rekenvraag. Beter is:
 
-$$
-\text{rekenvraag}=\text{economisch nuttige AI-activiteit}\times\text{rekenkracht per nuttige activiteit}
-$$
+> **Totale rekenvraag = nuttig AI-gebruik × rekenkracht per toepassing**
 
 Investeringsverhalen leggen meestal de nadruk op het eerste deel. Tegelijk probeert vrijwel de hele technologiesector het tweede deel te verlagen.
 
-::ModelDisclosure{title="AI-activiteit versus rekenefficiëntie" description="Laat activiteit, efficiëntie en rebound tegen elkaar in groeien. Dit is het centrale model van het artikel." open=true}
+::ModelDisclosure{title="AI-gebruik en benodigde rekenkracht" description="Onderzoek hoe meer gebruik, efficiëntere uitvoering en extra vraag door lagere kosten samen de rekenvraag bepalen." open=true}
   ::AiInvestmentExplorer{view="compute" locale="nl"}
   ::
 ::
 
 ## Van generatief model naar goedkope uitvoering
 
-Niet iedere economisch waardevolle taak vraagt om vrije tekstgeneratie. Rangschikken, routeren, fraude signaleren, modereren, classificeren en een volgende agenthandeling kiezen zijn vaak begrensde beslissingen.
+Niet iedere economisch waardevolle taak vraagt om het schrijven van nieuwe tekst. Rangschikken, routeren, fraude signaleren, modereren, classificeren en bepalen wat een assistent vervolgens moet doen zijn vaak afgebakende beslissingen.
 
 Jev presenteert bijvoorbeeld een model dat ongestructureerde invoer rechtstreeks omzet in vooraf getypeerde scores en beslissingen, zonder autoregressief uitvoertekst te genereren. De ontwikkelaar claimt voor geschikte zogenoemde *System One*-taken een 40 tot 200 maal lagere latentie dan frontier-LLM's.[5] Dat is een leveranciersclaim uit vroege toegang, geen universele onafhankelijke benchmark. Het architectuurverschil is wel relevant: een toepassing die alleen een score of route nodig heeft, hoeft niet noodzakelijk eerst een tekstantwoord te produceren.
 
@@ -129,17 +129,17 @@ De productiviteitswinst blijft bestaan, maar terugkerende LLM-inferentie kan bij
 
 ### De terugkeer van het expertsysteem
 
-Klassieke expertsystemen legden kennis expliciet vast in regels. Hun zwakke plek was de kennisacquisitie: menselijke experts moesten hun vaak impliciete afwegingen vertalen naar een onderhoudbare regelbasis. Neurale netwerken omzeilden een deel van dat probleem door representaties uit voorbeelden te leren.
+Klassieke expertsystemen legden kennis expliciet vast in regels. Hun zwakke plek was het verzamelen van die kennis: menselijke experts moesten hun vaak impliciete afwegingen vertalen naar een onderhoudbare regelbasis. Neurale netwerken omzeilden een deel van dat probleem door patronen uit voorbeelden te leren.
 
-Generatieve modellen maken nu een omgekeerde beweging mogelijk. Zij kunnen helpen structuur te ontdekken, regels te formuleren, implementaties te genereren en deterministische systemen te controleren. Zo kan een neuraal netwerk bijdragen aan de bouw van een nieuw expertsysteem en daarna uit de runtime verdwijnen.
+Generatieve modellen maken nu een omgekeerde beweging mogelijk. Zij kunnen helpen structuur te ontdekken, regels te formuleren, software te schrijven en systemen met voorspelbaar gedrag te controleren. Zo kan een neuraal netwerk bijdragen aan de bouw van een nieuw expertsysteem zonder daarna voor iedere beslissing opnieuw nodig te zijn.
 
 Dit vormt een continuüm:
 
-> frontier-LLM → kleiner model → gespecialiseerd beslismodel → proxy → expliciete regels → deterministische code
+> groot algemeen taalmodel → kleiner model → gespecialiseerd beslismodel → vervangend model → expliciete regels → gewone software
 
 Naar rechts neemt de algemeenheid meestal af. Daar staan lagere kosten en latentie, meer determinisme en vaak betere auditbaarheid en onderhoudbaarheid tegenover. De juiste positie hangt af van de taak. Open onderzoek en gesprek blijven links; stabiele, veelvuldig herhaalde beslissingen kunnen mogelijk naar rechts.
 
-::ModelDisclosure{title="Intelligentie compileren" description="Verdeel honderd taken over vier uitvoeringsvormen en zie hoeveel terugkerende compute overblijft."}
+::ModelDisclosure{title="Intelligentie vooraf omzetten in goedkopere uitvoering" description="Verdeel honderd taken over vier uitvoeringsvormen en zie hoeveel rekenkracht bij herhaald gebruik nodig blijft."}
   ::AiInvestmentExplorer{view="compilation" locale="nl"}
   ::
 ::
@@ -150,14 +150,14 @@ Softwarebouw kent dit principe al. Een compiler doet vooraf kostbare analyse en 
 
 *AI-ondersteunde compilatie van intelligentie* is hier een beschrijvend begrip, geen gevestigde academische term. De economisch succesvolste inzet van AI kan soms zijn: AI gebruiken totdat dezelfde taak geen AI meer nodig heeft.
 
-::ModelDisclosure{title="Bouwtijd versus runtime" description="Vergelijk blijvende LLM-inferentie met een hogere ontwikkelpiek en vrijwel deterministische productie."}
+::ModelDisclosure{title="Rekenwerk tijdens ontwikkeling en gebruik" description="Vergelijk een taalmodel dat bij iedere taak meedraait met hogere ontwikkelkosten en goedkope, voorspelbare uitvoering."}
   ::AiInvestmentExplorer{view="build-runtime" locale="nl"}
   ::
 ::
 
 ## Waarom efficiëntie de totale vraag toch kan verhogen
 
-Minder rekenkracht per taak betekent niet automatisch minder rekenkracht in totaal. Goedkopere intelligentie maakt bestaande toepassingen groter en maakt toepassingen rendabel die daarvoor te duur waren. Dit is de Jevons-tegenwerping.
+Minder rekenkracht per taak betekent niet automatisch minder rekenkracht in totaal. Goedkopere AI kan bestaand gebruik vergroten en nieuwe toepassingen mogelijk maken. Dat extra gebruik kan een deel van de besparing tenietdoen: het zogenoemde reboundeffect.
 
 Als nuttige AI-activiteit honderdmaal groeit en rekenkracht per taak honderdmaal daalt, blijft de totale vraag ongeveer gelijk. Groeit activiteit duizendmaal, dan stijgt de totale rekenvraag ondanks dezelfde efficiëntiewinst nog altijd tienmaal.
 
@@ -165,23 +165,23 @@ Daar komt een recursieve lus bij. AI wordt gebruikt voor modelarchitectuur, kwan
 
 > betere AI → snellere AI-R&D → efficiëntere AI → goedkopere experimenten → betere AI
 
-De tijdschalen botsen. Een gebouw, elektriciteitsaansluiting of energiecentrale heeft een economische horizon van decennia. Accelerators volgen cycli van enkele jaren. Een algoritmische verbetering kan binnen maanden wereldwijd worden verspreid. We bouwen dus zeer langlevende infrastructuur voor een technologie die mogelijk zelf de ontdekking versnelt van manieren om minder infrastructuur per taak nodig te hebben.
+Die ontwikkelingen verlopen in een heel ander tempo dan de bouw van infrastructuur. Een gebouw, elektriciteitsaansluiting of energiecentrale wordt voor decennia gebouwd. Chips verouderen veel sneller en een verbetering van software kan binnen maanden wereldwijd worden toegepast. We investeren dus voor de lange termijn in infrastructuur voor een technologie die mogelijk zelf manieren vindt om per taak minder rekenkracht te gebruiken.
 
-Dat is geen voorspelling dat de totale rekenvraag zal dalen. Het betekent dat een vraagprognose zowel activiteit als efficiëntie, architectuurverschuiving en rebound moet bevatten.
+Dat is geen voorspelling dat de totale rekenvraag zal dalen. Een schatting moet rekening houden met meer gebruik, efficiëntere uitvoering, andere soorten software en het extra gebruik dat lagere kosten kunnen uitlokken.
 
 ### Geopolitiek vergroot het aantal ontwikkelpaden
 
 Technologische afhankelijkheid is ook geopolitieke afhankelijkheid. De Verenigde Staten legden in 2025 via een presidentieel besluit sancties op in verband met het Internationaal Strafhof; OFAC wees daarbij functionarissen aan.[9][10] Amerikaanse sancties kunnen Amerikaanse personen en bedrijven verbieden transacties of diensten aan aangewezen personen te leveren. Dit voorbeeld zegt hier niets over de rechtvaardiging van de sancties. Het laat zien dat financiële en digitale infrastructuur beleidsmacht kan dragen.
 
-Overheden en instellingen kunnen daardoor waarde hechten aan eigen clouds, chips, betaalinfrastructuur, besturingssystemen, modellen en standaarden, ook wanneer die aanvankelijk duurder zijn. Parallelle ecosystemen vergroten het aantal architecturen dat wordt onderzocht. Een efficiëntere vondst in één ecosysteem kan vervolgens de infrastructuureconomie elders veranderen. Daaruit volgt niet welk land of blok zal winnen; alleen dat één wereldwijd, stabiel technologiepad een zwakke investeringsaanname is.
+Overheden en instellingen kunnen daardoor waarde hechten aan eigen clouddiensten, chips, betaalsystemen, besturingssystemen, modellen en standaarden, ook wanneer die aanvankelijk duurder zijn. Als verschillende partijen eigen oplossingen ontwikkelen, worden meer technische benaderingen beproefd. Een belangrijke efficiëntiewinst in één daarvan kan vervolgens de waarde van infrastructuur elders veranderen. Daaruit volgt niet welk land of blok zal winnen; wel dat investeerders niet op één onveranderlijk technologiepad kunnen rekenen.
 
-Ook de kennislaag hoeft daarbij niet aan één model, interface of aanbieder vast te zitten. Wanneer open kennisobjecten door verschillende AI-systemen kunnen worden gebruikt, wordt niet alleen de uitvoering efficiënter of vervangbaarder: ook de toegang tot kennis kan loskomen van de partij die het antwoord formuleert. Het aanvullende artikel *Wie bezit de kennislaag van AI?* werkt die scheiding tussen kennisinfrastructuur en intelligentie verder uit.
+Ook de toegang tot bronnen hoeft niet aan één model of aanbieder vast te zitten. Als verschillende AI-systemen dezelfde bronnen onder passende voorwaarden kunnen vinden, kan een gebruiker van model wisselen zonder de weg naar die bronnen kwijt te raken. Het aanvullende artikel [*Wie beheert de kennislaag van AI?*](/artikelen/wie-bezit-de-kennislaag-van-ai) werkt die mogelijkheid verder uit.
 
-## Wanneer wordt capaciteit onderbenut?
+## Wanneer bouwen we meer capaciteit dan nodig?
 
 De drie risico's kunnen nu worden samengebracht. Economische activiteit kan sterk groeien, terwijl rekenefficiëntie en verschuiving naar goedkopere uitvoeringsvormen de benodigde capaciteit temperen. Tegelijk kan infrastructuur al met lange doorlooptijden zijn besteld en gebouwd.
 
-::ModelDisclosure{title="De infrastructuurenvelop" description="Vergelijk geïnstalleerde en benodigde capaciteit. Een overschot heet hier onderbenutting, niet automatisch een zeepbel."}
+::ModelDisclosure{title="Capaciteit en vraag in de tijd" description="Vergelijk beschikbare en benodigde rekenkracht. Een overschot betekent onderbenutting, niet automatisch een zeepbel."}
   ::AiInvestmentExplorer{view="envelope" locale="nl"}
   ::
 ::
@@ -194,9 +194,9 @@ Het economische belang van AI, de winstgevendheid van de huidige AI-infrastructu
 
 AI kan buitengewoon belangrijk worden terwijl een deel van de huidige infrastructuurinvesteringen achteraf te groot of verkeerd getimed blijkt. AI kan op bedrijfsniveau uitstekend renderen en tegelijk macro-economische verdelingsvragen oproepen. En AI kan dieper in vrijwel iedere sector doordringen terwijl de terugkerende rekenkracht per eenheid economische waarde sterk daalt.
 
-Efficiëntie kan via lagere prijzen ook zoveel nieuwe vraag scheppen dat de totale compute alsnog groeit. Daarom kunnen we de uitkomst niet aflezen uit alleen adoptiecijfers of alleen efficiëntiebenchmarks. We moeten tegelijk vragen hoeveel waarde wordt gecreëerd, wie die waarde ontvangt en welke uitvoeringsarchitectuur uiteindelijk overblijft.
+Efficiëntie kan via lagere prijzen ook zoveel nieuw gebruik uitlokken dat de totale rekenvraag alsnog groeit. Daarom kunnen we de uitkomst niet aflezen uit alleen gebruikscijfers of alleen metingen van efficiëntie. We moeten tegelijk vragen hoeveel waarde wordt gecreëerd, wie die waarde ontvangt en hoe AI-taken uiteindelijk worden uitgevoerd.
 
-De biljoenenweddenschap is niet alleen dat AI zal slagen. Het is dat AI zal slagen in ongeveer de vorm die we nu verwachten.
+De inzet van biljoenen dollars berust niet alleen op de verwachting dat AI waardevol wordt. Zij berust ook op de aanname dat daarvoor ongeveer de infrastructuur nodig is die we nu bouwen. Of die aanname klopt, verdient toetsing. Zelfs als zij klopt, blijft de vraag of we juist deze vorm van AI, met dit beslag op middelen en deze verdeling van opbrengsten, willen nastreven.
 
 ## Referenties
 
