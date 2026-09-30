@@ -4,6 +4,17 @@ const { data: articles } = await useAsyncData('home-articles', async () => {
   return entries.map(({ body, ...article }) => ({ ...article, readingTime: formatReadingTime(body, 'nl-NL'), searchText: getContentText(body).replace(/\s+/g, ' ').trim() }))
 })
 useSeoMeta({ title: 'Artikelen en modellen', description: 'Onderbouwde essays over technologie, maatschappij en de systemen daarachter.' })
+const config = useRuntimeConfig()
+const absolute = (path: string) => new URL(path, config.public.siteUrl).toString()
+useHead({
+  htmlAttrs: { lang: 'nl' },
+  link: [
+    { rel: 'canonical', href: absolute('/') },
+    { rel: 'alternate', hreflang: 'nl', href: absolute('/') },
+    { rel: 'alternate', hreflang: 'en', href: absolute('/en') },
+    { rel: 'alternate', hreflang: 'x-default', href: absolute('/') }
+  ]
+})
 </script>
 
 <template>

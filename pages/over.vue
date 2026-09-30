@@ -1,4 +1,14 @@
-<script setup lang="ts">useSeoMeta({ title: 'Over Interactive Thought', description: 'Over Interactive Thought: lange essays, compacte samenvattingen en transparante interactieve modellen van Arwin van Arum.' })</script>
+<script setup lang="ts">
+useSeoMeta({ title: 'Over Interactive Thought', description: 'Over Interactive Thought: lange essays, compacte samenvattingen en transparante interactieve modellen van Arwin van Arum.' })
+const config = useRuntimeConfig()
+const absolute = (path: string) => new URL(path, config.public.siteUrl).toString()
+useHead({ htmlAttrs: { lang: 'nl' }, link: [
+  { rel: 'canonical', href: absolute('/over') },
+  { rel: 'alternate', hreflang: 'nl', href: absolute('/over') },
+  { rel: 'alternate', hreflang: 'en', href: absolute('/en/about') },
+  { rel: 'alternate', hreflang: 'x-default', href: absolute('/over') }
+] })
+</script>
 <template>
   <div class="wrap page-top about-grid">
     <div><p class="eyebrow">Over</p><h1>Scherp, zinnig en met aandacht.</h1><p class="about-intro">Gedachten worden interessanter wanneer je niet alleen de conclusie kunt lezen, maar ook de aannames erachter kunt onderzoeken.</p></div>

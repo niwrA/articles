@@ -1,4 +1,14 @@
-<script setup lang="ts">useSeoMeta({ title: 'About Interactive Thought', description: 'About Interactive Thought: long-form essays, concise summaries and transparent interactive models by Arwin van Arum.' }); useHead({ htmlAttrs: { lang: 'en' } })</script>
+<script setup lang="ts">
+useSeoMeta({ title: 'About Interactive Thought', description: 'About Interactive Thought: long-form essays, concise summaries and transparent interactive models by Arwin van Arum.' })
+const config = useRuntimeConfig()
+const absolute = (path: string) => new URL(path, config.public.siteUrl).toString()
+useHead({ htmlAttrs: { lang: 'en' }, link: [
+  { rel: 'canonical', href: absolute('/en/about') },
+  { rel: 'alternate', hreflang: 'nl', href: absolute('/over') },
+  { rel: 'alternate', hreflang: 'en', href: absolute('/en/about') },
+  { rel: 'alternate', hreflang: 'x-default', href: absolute('/over') }
+] })
+</script>
 <template>
   <div class="wrap page-top about-grid">
     <div><p class="eyebrow">About</p><h1>Sharp, meaningful and considered.</h1><p class="about-intro">Ideas become more interesting when you can examine not only the conclusion, but also the assumptions behind it.</p></div>

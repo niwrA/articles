@@ -7,6 +7,24 @@ const config = useRuntimeConfig()
 const absolute = (path: string) => config.public.siteUrl ? new URL(path, config.public.siteUrl).toString() : path
 const canonicalUrl = absolute(route.path)
 const socialImage = article.value.featuredImage ? absolute(article.value.featuredImage) : undefined
+const articleJsonLd = JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: article.value.title,
+  description: article.value.description,
+  ...(socialImage ? { image: [socialImage] } : {}),
+  datePublished: new Date(article.value.date).toISOString(),
+  dateModified: new Date(article.value.updated || article.value.date).toISOString(),
+  inLanguage: 'nl-NL',
+  keywords: article.value.tags?.join(', '),
+  author: {
+    '@type': 'Person',
+    name: 'Arwin van Arum',
+    url: absolute('/over'),
+    sameAs: ['https://www.linkedin.com/in/arwin-van-arum-2153364']
+  },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl }
+}).replace(/</g, '\\u003c')
 useSeoMeta({
   title: article.value.title, description: article.value.description,
   ogTitle: article.value.title, ogDescription: article.value.description,
@@ -18,12 +36,16 @@ useSeoMeta({
   twitterDescription: article.value.description, twitterImage: socialImage,
   twitterImageAlt: article.value.featuredImageAlt
 })
-useHead({ htmlAttrs: { lang: 'nl' }, link: [
-  { rel: 'canonical', href: canonicalUrl },
-  { rel: 'alternate', hreflang: 'nl', href: absolute(route.path) },
-  ...(translation.value ? [{ rel: 'alternate', hreflang: 'en', href: absolute(translation.value.path) }] : []),
-  { rel: 'alternate', hreflang: 'x-default', href: absolute(route.path) }
-] })
+useHead({
+  htmlAttrs: { lang: 'nl' },
+  link: [
+    { rel: 'canonical', href: canonicalUrl },
+    { rel: 'alternate', hreflang: 'nl', href: absolute(route.path) },
+    ...(translation.value ? [{ rel: 'alternate', hreflang: 'en', href: absolute(translation.value.path) }] : []),
+    { rel: 'alternate', hreflang: 'x-default', href: absolute(route.path) }
+  ],
+  script: [{ type: 'application/ld+json', textContent: articleJsonLd }]
+})
 const date = (value: string) => new Intl.DateTimeFormat('nl-NL', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(value))
 const mobileCover = (source: string) => source.replace(/(\.[^.]+)$/, '-card$1')
 const renderedArticle = computed(() => withCitations(article.value!, 'nl'))
