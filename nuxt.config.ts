@@ -11,7 +11,8 @@ export default defineNuxtConfig({
       titleTemplate: '%s · Arwin van Arum',
       meta: [
         { name: 'description', content: 'Artikelen en modellen van Arwin van Arum over technologie, maatschappij en systemen.' },
-        { name: 'theme-color', content: '#12251f' }
+        { name: 'theme-color', content: '#12251f' },
+        { name: 'google-site-verification', content: 'uzol073pNgTCikNj6yf5BAEDgHlUcJFlPG15-JNaSOE' }
       ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }
