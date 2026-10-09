@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Van AI-vraag naar maatschappelijke waarde</title>
+  <desc id="desc">Een informatietaak, maatschappelijke waarde en de groei van datacenterenergie.</desc>
+  <rect width="1200" height="900" fill="#f3f2ed"/>
+  <path d="M0 670 C250 565 430 760 680 650 S980 565 1200 620 V900 H0Z" fill="#dbe5df"/>
+  <text x="72" y="118" font-family="Georgia,serif" font-size="62" font-weight="700" fill="#173b34">Van vraag</text>
+  <text x="72" y="187" font-family="Georgia,serif" font-size="62" font-weight="700" fill="#173b34">naar waarde</text>
+  <text x="74" y="238" font-family="Arial,sans-serif" font-size="25" fill="#526a63">AI, energie en verantwoordelijkheid</text>
+  <g font-family="Arial,sans-serif">
+    <rect x="72" y="320" width="370" height="250" rx="22" fill="#fff" stroke="#cbd8d1" stroke-width="3"/>
+    <text x="108" y="374" font-size="23" font-weight="700" fill="#173b34">INFORMATIETAAK</text>
+    <text x="108" y="431" font-size="23" fill="#405c54">Zoeken</text>
+    <text x="108" y="473" font-size="23" fill="#405c54">Redeneren</text>
+    <text x="108" y="515" font-size="23" fill="#a86141">Hybride uitvoeren</text>
+    <path d="M472 445 H605" stroke="#a86141" stroke-width="8" stroke-linecap="round"/>
+    <path d="M580 421 L613 445 L580 469" fill="none" stroke="#a86141" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="650" y="320" width="390" height="250" rx="22" fill="#173b34"/>
+    <text x="690" y="370" font-size="22" font-weight="700" fill="#f6f5ef">MAATSCHAPPELIJKE</text>
+    <text x="690" y="402" font-size="22" font-weight="700" fill="#f6f5ef">WAARDE</text>
+    <text x="690" y="451" font-size="22" fill="#d7e4df">Kennis · klimaat</text>
+    <text x="690" y="491" font-size="22" fill="#d7e4df">publieke capaciteit</text>
+    <text x="690" y="535" font-size="18" fill="#d7e4df">Wat levert de energie op?</text>
+  </g>
+  <text x="72" y="760" font-family="Georgia,serif" font-size="35" fill="#173b34">Niet alleen wattuur per prompt.</text>
+  <text x="72" y="811" font-family="Arial,sans-serif" font-size="22" fill="#60736d">Vergelijk de volledige taak en de aantoonbare opbrengst.</text>
+</svg>
