@@ -40,7 +40,9 @@ const openFull = () => {
         <MigrationLabourExplorer v-else-if="article.modelComponent==='migration-labour-system'" :locale="locale" view="full" />
         <AiInvestmentExplorer v-else-if="article.modelComponent==='ai-investment-system'" :locale="locale" view="compute" />
         <KnowledgeLayerExplorer v-else-if="article.modelComponent==='knowledge-layer'" :locale="locale" />
-        <AiEnergyExplorer v-else-if="article.modelComponent==='ai-energy'" />
+        <AiEnergyExplorer v-else-if="article.modelComponent==='ai-energy'" :locale="locale" />
+        <AdaptiveCognitionLab v-else-if="article.modelComponent==='adaptive-cognition'" :locale="locale" />
+        <AgentAuthorizationLab v-else-if="article.modelComponent==='agent-authorization'" :locale="locale" />
       </ModelDisclosure>
     </div>
     <div v-if="article.modelComponent==='tango-movement'" class="summary-editor">
