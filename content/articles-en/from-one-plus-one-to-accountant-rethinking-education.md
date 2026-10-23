@@ -5,7 +5,7 @@ date: 2026-10-23
 tags: [Education, Learning, AI, Labour market, Systems]
 translationKey: capability-network-education
 featuredImage: /images/artikelen/capability-network/capability-network.webp
-featuredImageAlt: One highlighted learning path runs from basic numeracy through financial skills to accountancy, among many other routes.
+featuredImageAlt: A top-down learning-path network shows children at the foundation, skill nodes, and adults at different professions.
 featuredImageFocalPoint: 50% 50%
 featuredImageMobileFocalPoint: 50% 50%
 summary: An open capability graph could connect a guaranteed educational foundation with flexible pathways, distinct evidence types and lifelong learning. The Capability Atlas makes the proposal explorable without pretending that a graph is already a curriculum, assessment or authorization system.

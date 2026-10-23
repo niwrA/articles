@@ -5,7 +5,7 @@ date: 2026-10-23
 tags: [Onderwijs, Leren, AI, Arbeidsmarkt, Systemen]
 translationKey: capability-network-education
 featuredImage: /images/artikelen/capability-network/capability-network.webp
-featuredImageAlt: Een gemarkeerd leerpad loopt van basisrekenen via financiële vaardigheden naar een accountantsberoep, tussen vele andere routes.
+featuredImageAlt: Een top-down leerpadennetwerk toont kinderen bij de basis, vaardigheidsknooppunten en volwassenen bij verschillende beroepen.
 featuredImageFocalPoint: 50% 50%
 featuredImageMobileFocalPoint: 50% 50%
 summary: Een open vaardighedengraaf kan een gemeenschappelijke onderwijsbasis verbinden met flexibele routes, verschillende soorten bewijs en levenslang leren. De Capability Atlas maakt dit voorstel onderzoekbaar zonder te doen alsof een graaf al een curriculum, beoordeling of bevoegdheid is.
