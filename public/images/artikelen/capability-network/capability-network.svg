@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Van 1 + 1 naar nieuwe mogelijkheden</title>
+  <desc id="desc">Een sober netwerk van leerroutes verbindt rekenen, leren en bewijs met financiële vaardigheden en nieuwe richtingen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef2ed"/><stop offset="1" stop-color="#dfe8e3"/></linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#dd6651"/><stop offset=".55" stop-color="#78978d"/><stop offset="1" stop-color="#244e49"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#18322e" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1800" height="1024" fill="url(#bg)"/>
+  <g opacity=".34" stroke="#94aaa2" stroke-width="2">
+    <path d="M90 180H1710M90 330H1710M90 480H1710M90 630H1710M90 780H1710"/>
+    <path d="M240 90V920M510 90V920M780 90V920M1050 90V920M1320 90V920M1590 90V920"/>
+  </g>
+  <g fill="none" stroke="url(#path)" stroke-width="9" stroke-linecap="round">
+    <path d="M215 525C410 525 442 322 640 322S868 512 1030 512s245-234 518-234"/>
+    <path d="M215 525C402 525 470 720 685 720s250-208 345-208" opacity=".68"/>
+    <path d="M1030 512c185 0 248 188 480 188" opacity=".76"/>
+  </g>
+  <g filter="url(#shadow)" font-family="system-ui,-apple-system,Segoe UI,sans-serif" text-anchor="middle">
+    <g transform="translate(215 525)"><circle r="102" fill="#fff" stroke="#dd6651" stroke-width="7"/><text y="18" fill="#203a36" font-size="67" font-weight="750">1 + 1</text></g>
+    <g transform="translate(640 322)"><circle r="82" fill="#f9fbf9" stroke="#78978d" stroke-width="6"/><path d="M-28 8l17 17 41-48" fill="none" stroke="#244e49" stroke-width="10" stroke-linecap="round"/><text y="124" fill="#385650" font-size="31" font-weight="650">bewijs</text></g>
+    <g transform="translate(685 720)"><circle r="82" fill="#f9fbf9" stroke="#78978d" stroke-width="6"/><path d="M-33-8c26-36 76-7 61 28-13 31-61 23-61-10 0-39 53-64 92-35" fill="none" stroke="#244e49" stroke-width="8" stroke-linecap="round"/><text y="124" fill="#385650" font-size="31" font-weight="650">leren leren</text></g>
+    <g transform="translate(1030 512)"><circle r="112" fill="#244e49"/><text y="-5" fill="#fff" font-size="39" font-weight="750">financiële</text><text y="43" fill="#fff" font-size="39" font-weight="750">expertise</text></g>
+    <g transform="translate(1548 278)"><circle r="78" fill="#fff" stroke="#244e49" stroke-width="6"/><text y="12" fill="#244e49" font-size="34" font-weight="700">beroep</text></g>
+    <g transform="translate(1510 700)"><circle r="78" fill="#fff" stroke="#244e49" stroke-width="6"/><text y="-4" fill="#244e49" font-size="29" font-weight="700">nieuwe</text><text y="31" fill="#244e49" font-size="29" font-weight="700">richting</text></g>
+  </g>
+  <g font-family="system-ui,-apple-system,Segoe UI,sans-serif"><text x="112" y="142" fill="#203a36" font-size="72" font-weight="780">Geen ladder, maar een netwerk</text><text x="115" y="205" fill="#536b65" font-size="31">Een gemeenschappelijke basis · verschillende routes · zichtbaar bewijs</text><text x="112" y="918" fill="#385650" font-size="25">Capability Atlas v0.3 · onderzoeksmodel</text></g>
+</svg>

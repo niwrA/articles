@@ -43,6 +43,7 @@ const openFull = () => {
         <AiEnergyExplorer v-else-if="article.modelComponent==='ai-energy'" :locale="locale" />
         <AdaptiveCognitionLab v-else-if="article.modelComponent==='adaptive-cognition'" :locale="locale" />
         <AgentAuthorizationLab v-else-if="article.modelComponent==='agent-authorization'" :locale="locale" />
+        <CapabilityAtlasEmbed v-else-if="article.modelComponent==='capability-atlas'" :locale="locale" compact />
       </ModelDisclosure>
     </div>
     <div v-if="article.modelComponent==='tango-movement'" class="summary-editor">
