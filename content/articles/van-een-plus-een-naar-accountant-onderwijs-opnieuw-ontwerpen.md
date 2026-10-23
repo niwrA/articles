@@ -4,8 +4,8 @@ description: Wat als we onderwijs opnieuw ontwerpen rond aantoonbare vaardighede
 date: 2026-10-23
 tags: [Onderwijs, Leren, AI, Arbeidsmarkt, Systemen]
 translationKey: capability-network-education
-featuredImage: /images/artikelen/capability-network/capability-network.svg
-featuredImageAlt: Een netwerk verbindt elementair rekenen via leren en bewijs met financiële vakken, terwijl meerdere routes naar nieuwe mogelijkheden leiden.
+featuredImage: /images/artikelen/capability-network/capability-network.webp
+featuredImageAlt: Een gemarkeerd leerpad loopt van basisrekenen via financiële vaardigheden naar een accountantsberoep, tussen vele andere routes.
 featuredImageFocalPoint: 50% 50%
 featuredImageMobileFocalPoint: 50% 50%
 summary: Een open vaardighedengraaf kan een gemeenschappelijke onderwijsbasis verbinden met flexibele routes, verschillende soorten bewijs en levenslang leren. De Capability Atlas maakt dit voorstel onderzoekbaar zonder te doen alsof een graaf al een curriculum, beoordeling of bevoegdheid is.

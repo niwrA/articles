@@ -4,8 +4,8 @@ description: What if education were redesigned around demonstrated capabilities,
 date: 2026-10-23
 tags: [Education, Learning, AI, Labour market, Systems]
 translationKey: capability-network-education
-featuredImage: /images/artikelen/capability-network/capability-network.svg
-featuredImageAlt: A network connects elementary arithmetic through learning and evidence to financial practice, with multiple pathways opening further possibilities.
+featuredImage: /images/artikelen/capability-network/capability-network.webp
+featuredImageAlt: One highlighted learning path runs from basic numeracy through financial skills to accountancy, among many other routes.
 featuredImageFocalPoint: 50% 50%
 featuredImageMobileFocalPoint: 50% 50%
 summary: An open capability graph could connect a guaranteed educational foundation with flexible pathways, distinct evidence types and lifelong learning. The Capability Atlas makes the proposal explorable without pretending that a graph is already a curriculum, assessment or authorization system.
