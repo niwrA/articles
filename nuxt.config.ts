@@ -1,3 +1,37 @@
+import { readdirSync, readFileSync } from 'node:fs'
+import { join, relative, resolve } from 'node:path'
+
+function articleRoutes(directory: string, prefix: string) {
+  const root = resolve(directory)
+  const routes: string[] = []
+
+  function visit(current: string) {
+    for (const entry of readdirSync(current, { withFileTypes: true })) {
+      const path = join(current, entry.name)
+      if (entry.isDirectory()) {
+        visit(path)
+        continue
+      }
+      if (!entry.isFile() || !entry.name.endsWith('.md') || entry.name.toLowerCase() === 'readme.md') continue
+
+      const markdown = readFileSync(path, 'utf8')
+      const frontmatter = markdown.match(/^---\s*\n([\s\S]*?)\n---/)?.[1] || ''
+      if (/^draft:\s*true\s*$/m.test(frontmatter)) continue
+
+      const slug = relative(root, path).replace(/\\/g, '/').replace(/\.md$/, '')
+      routes.push(`${prefix}/${slug}`)
+    }
+  }
+
+  visit(root)
+  return routes
+}
+
+const prerenderArticleRoutes = [
+  ...articleRoutes('content/articles', '/artikelen'),
+  ...articleRoutes('content/articles-en', '/en/articles')
+]
+
 export default defineNuxtConfig({
   compatibilityDate: '2026-09-01',
   modules: ['@nuxt/content'],
@@ -33,7 +67,7 @@ export default defineNuxtConfig({
   nitro: {
     prerender: {
       crawlLinks: true,
-      routes: ['/', '/artikelen', '/artikelen/de-woningmarkt', '/over']
+      routes: ['/', '/en', '/artikelen', '/en/articles', '/artikelen/de-woningmarkt', '/over', '/en/about', ...prerenderArticleRoutes]
     }
   }
 })
