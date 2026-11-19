@@ -40,7 +40,10 @@ modelLimitations:
 draft: false
 ---
 
+::::ArticleMarginTrack
+::ArticleMarginNote{label="Opening example" heading="A spider on your hand" detail="A quick urge to pull away can give way to a response informed by what you recognise and remember." locale="en"}
 Imagine noticing a spider crawling across your hand. Before you have consciously considered what it is, much of the relevant processing may already have happened. Visual systems have detected and classified features of the animal, learned associations may have activated a threat response, muscles may tense, autonomic state may change, and an impulse to withdraw may already be developing. A moment later, however, the situation can change. You recognise the spider, recall that it is harmless, notice your own fear, remember previous encounters and decide not to follow the immediate impulse. With repeated safe exposure, even that first automatic reaction may eventually diminish.
+::
 
 This small example contains much of the puzzle of consciousness. The brain can perceive, classify, predict, evaluate and prepare actions without waiting for conscious deliberation. A substantial amount of sophisticated processing can occur outside awareness.[1–3] Yet there are also situations in which leaving those specialised processes to continue on their own appears insufficient. Their outputs may conflict, circumstances may be unfamiliar, a habitual solution may suddenly fail, or information from several domains may have to be combined before the organism can determine what to do. At such moments, something like a higher level of arbitration seems functionally useful.
 
@@ -82,7 +85,7 @@ The present hypothesis locates the functional value of consciousness close to th
 
 This gives attention a central role, though the term must be used carefully. Attention and consciousness are closely related but not identical. Experimental studies show that some attentional selection can occur without awareness, and neural effects of attention and awareness can sometimes be dissociated.[4] The broader word “attention” also covers a range of mechanisms, from local enhancement of sensory processing to deliberate maintenance of a problem in working focus.
 
-::ArticleMarginNote{label="03 / Mechanism" heading="What gets priority?" detail="Flexible coordination is limited. Your goals, bodily state and what’s at stake help determine which problem gets priority." locale="en"}
+::ArticleMarginNote{label="03 / Attention" heading="What gets priority?" detail="Flexible coordination is limited. Attention helps select which problems get that capacity." locale="en"}
 For the present model, the crucial concept is priority. At any moment, enormous numbers of processes could potentially influence the organism, while flexible coordination is limited and comparatively expensive. Some mechanism must determine which problem deserves access to that capacity.
 ::
 
@@ -96,7 +99,9 @@ From this perspective, the focus of consciousness is not merely a processing lim
 
 That immediately raises a deeper question: priority according to what?
 
+::ArticleMarginNote{label="04 / Motivation" heading="Priority depends on what matters" detail="Needs, learned rewards and long-term goals help determine which outcomes are worth pursuing." locale="en"}
 A living system is not a neutral information processor. It has a body whose internal variables must remain within viable ranges. It has needs, capabilities and vulnerabilities. It learns which events predict reward or harm. It develops goals through biology, experience, social learning and culture. In humans, it can eventually represent consequences extending decades into the future.
+::
 
 Motivational relevance therefore becomes part of the explanation for why some information acquires attention. Research on value-driven attention provides a clear example. Stimuli associated with reward can later attract attention even when they are no longer useful for the current task.[5] Learning has changed the competitive weight of the representation.
 
@@ -108,7 +113,9 @@ The detective’s question—what was the motive?—has a biological analogue. B
 
 ### Feeling is part of the calculation
 
+::ArticleMarginNote{label="05 / Bodily signals" heading="The body changes the stakes" detail="Interoception brings information about the body into the assessment of what to do." locale="en"}
 The state of the body is an important part of this evaluation. Interoception refers broadly to the sensing and integration of signals originating within the body, involving distributed systems that include brainstem, hypothalamic, insular and cingulate regions. These systems participate in homeostatic regulation, emotion and cognition.[6,7]
+::
 
 Different theories disagree about exactly how bodily information contributes to conscious feeling. Damasio and colleagues emphasise the representation of bodily and homeostatic states as foundational to feelings, while predictive-processing approaches describe emotion partly in terms of inference about the causes of interoceptive signals.[6–8] The present argument does not depend on choosing one account as complete.
 
@@ -120,7 +127,9 @@ That relationship offers a potentially important bridge between function and exp
 
 ### Consciousness works with summaries
 
+::ArticleMarginNote{label="06 / Compression" heading="We get the result of recognition" detail="You recognise a friend without experiencing the steps your visual system used to recognise them." locale="en"}
 Despite this sophistication, consciousness has remarkably little access to the computations that generate its contents. When you recognise a familiar person, you do not consciously experience the successive visual operations required to make recognition possible. You simply see Sarah. When unease appears, you may become aware that something is wrong without knowing which cues produced that judgement.
+::
 
 This is exactly what an efficient coordination architecture would need. Specialised processors do not have to expose their implementation details to every other system. They need to make useful outputs available.
 
@@ -132,7 +141,9 @@ This mixture of power and ignorance is a recurring feature of consciousness. We 
 
 ### Passenger and participant
 
+::ArticleMarginNote{label="07 / Influence" heading="An impulse can start before deliberation" detail="Conscious processing can still change what happens next." locale="en"}
 This architecture also makes sense of a familiar duality in conscious experience. Sometimes consciousness appears to be a passenger. An action has begun before deliberate thought, a judgement simply arrives, or a feeling appears without invitation. At other times, conscious processing clearly participates in what happens next. Explicit information changes an action, a remembered rule suppresses a habitual response, deliberation alters a plan, and repeated consciously guided behaviour contributes to later learning.
+::
 
 These are not necessarily contradictory observations. Consciousness does not need to originate every process in order to influence arbitration among processes. Indeed, if it had to generate every percept, impulse and proposal itself, the efficiency of specialised parallel processing would be lost.
 
@@ -146,7 +157,7 @@ Learning, in that sense, often teaches the organism how not to need consciousnes
 
 ### Arbitration needs a reference point
 
-::ArticleMarginNote{label="04 / The self" heading="Who does it matter to?" detail="The organism’s body, needs and goals provide the reference point for weighing outcomes." locale="en"}
+::ArticleMarginNote{label="08 / Reference point" heading="Who does it matter to?" detail="The organism’s body, needs and goals provide the reference point for weighing outcomes." locale="en"}
 The argument becomes more interesting when we ask what arbitration is actually for. Possible outcomes can only be evaluated in relation to the organism whose state they affect. The nervous system therefore benefits from maintaining information about its own body, capabilities, current needs, previous experiences, social commitments, goals and possible future states.
 ::
 
@@ -162,7 +173,9 @@ This offers a functional route toward the self-awareness component of consciousn
 
 Subjectively, it often feels as though there is an “I” inside the brain observing experiences and making decisions. Mechanistically, that intuition creates an obvious problem: if an inner observer receives conscious information, what observes the observer?
 
+::ArticleMarginNote{label="09 / Self-model" heading="The ‘I’ can be part of the model" detail="A representation of the organism can help guide decisions without requiring an inner observer." locale="en"}
 A self-model offers a different possibility. The self need not be the observer of the coordination process. It can instead be one of the most important representations within it.
+::
 
 Information is continually evaluated in relation to the organism represented by that model. What is happening to me? What do I know about this? How do I feel? What can I do? What do I want? What will happen if I choose this?
 
@@ -174,7 +187,9 @@ The “I” may therefore be part of the solution to the arbitration problem.
 
 This distinction also prevents us from identifying basic consciousness with mature human self-awareness. Infants almost certainly have conscious experiences before possessing anything resembling an adult autobiographical self. Neural studies have identified candidate signatures of conscious perceptual access in infants as young as five months, although transferring adult markers of consciousness to infants remains methodologically difficult and conclusions are strongest when multiple indicators converge.[11,12]
 
+::ArticleMarginNote{label="10 / Development" heading="Self-representation has layers" detail="Representing a body, an agent and a person with a history gives arbitration different kinds of information." locale="en"}
 Self-representation appears to develop in layers rather than appearing all at once. A useful conceptual progression might run from organismic reference to embodied self, agentive self, social self, reflective self and narrative self. These are not meant as rigid developmental stages with precise age boundaries. They distinguish functions that are often collapsed into the single term “self-awareness.”
+::
 
 The embodied organism can distinguish its own state and actions from the environment. The agentive self represents itself as a source of actions and consequences. The social self represents itself as one agent among others. The reflective self can direct cognition toward its own beliefs, motives and mental states. The narrative self organises these representations across an extended personal history and imagined future.
 
@@ -184,7 +199,9 @@ These layers need not be fully integrated at every moment. The organism remains 
 
 ### Other minds enlarge the problem
 
+::ArticleMarginNote{label="11 / Social cognition" heading="Other people have their own information" detail="Anticipating what others believe or want adds consequences you cannot infer from your own perspective alone." locale="en"}
 Social cognition creates one of the most dramatic expansions. A child gradually learns that other people possess information, beliefs, goals and perspectives that can differ from its own. Classic false-belief research shows a robust developmental progression in explicit understanding that another person can believe something the child knows to be false.[13] More complex recursive reasoning continues to develop: I think that she believes that he knows.
+::
 
 Once other minds become part of the model, the space of possible consequences expands enormously. A decision can depend on what another person believes, what they believe about us, and what we predict they will do as a result. Reputation, trust, deception, obligation, loyalty and cooperation become relevant to behaviour.
 
@@ -200,7 +217,9 @@ Basic consciousness does not require language. Infant research alone makes a sim
 
 Language nevertheless gives the arbitration system an extraordinary new capacity. Internal states can become symbolic objects.
 
+::ArticleMarginNote{label="12 / Language" heading="Putting fear into words lets you reflect on it" detail="Once you can think ‘I am afraid’, you can ask what you fear and whether that fear is warranted." locale="en"}
 The organism can experience fear. It can then represent that state as “I am afraid.” That representation can itself become the object of attention. The system can ask why it is afraid, whether the fear is justified, whether it wants the fear to control behaviour, and eventually what it means about the kind of person it believes itself to be.
+::
 
 The output of one round of conscious processing can therefore become the input to another. Experience becomes representation; representation can become linguistic abstraction; abstraction can become a new focus of attention; and the resulting reflection can feed back into further arbitration.
 
@@ -210,7 +229,9 @@ Language is therefore better understood as an amplifier of reflective consciousn
 
 ### The self becomes an object in its own world
 
+::ArticleMarginNote{label="13 / Past and future" heading="You can weigh consequences for a future self" detail="Language helps make a remembered, imagined or socially perceived version of yourself part of today’s decision." locale="en"}
 Language also allows the self-model to escape the immediate present. “I” can refer to the organism sitting here now, but also to the child I remember being, the person I expect to become, the person another individual believes me to be, or a hypothetical future self decades away.
+::
 
 This allows present behaviour to be evaluated in relation to a symbolic future organism that does not yet exist. Social language adds roles, reputations, identities and descriptions acquired from other people. The self becomes temporally extended, socially situated and increasingly abstract.
 
@@ -226,7 +247,9 @@ This may be one reason human consciousness contains such a powerful sense of sel
 
 This offers a possible bridge between function and phenomenology. Consciousness does not feel like a neutral stream of data. Things happen to me. They matter to me. I experience fear, curiosity, embarrassment, desire, doubt, pain and relief.
 
+::ArticleMarginNote{label="14 / First-person experience" heading="Why it feels personally relevant" detail="The hypothesis connects the first-person structure of experience to how outcomes are weighed for the organism." locale="en"}
 If conscious arbitration integrates information according to its relevance to a model of the organism, that first-person structure is exactly what we should expect. External information is combined with bodily state, memory, motivation and prediction. Possible consequences are evaluated in relation to an organism represented within the system. The organism supplies the persistent reference; the self-model is the changing representation within which information is selected and evaluated at that moment.
+::
 
 The experienced “I” therefore need not be an additional entity watching consciousness. It may be the form taken by the organism’s model when that model participates in conscious coordination.
 
@@ -234,7 +257,7 @@ This does not solve the philosophical hard problem by definition. There remains 
 
 ### Report comes later
 
-::ArticleMarginNote{label="05 / Distinction" heading="Experiencing and reporting" detail="Describing what you saw adds steps such as remembering, deciding how to respond and finding words." locale="en"}
+::ArticleMarginNote{label="15 / Measurement" heading="Experiencing and reporting" detail="Describing what you saw adds steps such as remembering, deciding how to respond and finding words." locale="en"}
 Language also makes it important to distinguish experience from reporting experience. Traditional consciousness experiments often ask participants to say what they saw, but report requires additional processing: decision, memory, action preparation and often language. No-report paradigms were developed precisely to separate neural processes associated with conscious contents from processes required to describe those contents.[19]
 ::
 
@@ -250,7 +273,9 @@ The proposed architecture can now be stated more precisely.
 
 The brain contains many specialised processes capable of sophisticated operation largely autonomously and in parallel. As long as their outputs are reliable and mutually compatible, extensive flexible coordination adds little value. Learned routines can govern behaviour efficiently.
 
+::ArticleMarginNote{label="16 / Working model" heading="From relevance to action and learning" detail="An unreliable routine can prompt wider coordination. The resulting action can change how the next encounter is handled." locale="en"}
 Certain situations create a different requirement. Something becomes sufficiently novel, conflicting, uncertain or consequential that the existing automatic response is inadequate or should not simply be trusted. Relevance gives the problem priority. Attention establishes a temporary focus. Information needed to address the problem becomes available across otherwise partly independent systems. Perception, memory, bodily state, learned value, current goals, possible actions, social knowledge and predicted consequences can constrain one another.
+::
 
 This broad availability is not all-or-nothing. Arbitration proceeds with information accessible within the current state; other memories, emotions or goals may temporarily exert less influence even when retained elsewhere in the system.
 
@@ -272,7 +297,9 @@ Together, these loops provide a plausible functional account of several properti
 
 The curious mixture of causal influence and introspective ignorance follows from the same architecture. Conscious processing can use the outputs of specialised systems without possessing access to the computations that generated them.
 
+::ArticleMarginNote{label="Interactive model" heading="Try varying one assumption at a time" detail="The explorer shows what this hypothesis predicts under different assumptions. Its score is not a measurement of consciousness." locale="en"}
 The explorer below turns this verbal working model into an explicit, testable hypothesis. You can make a task more or less novel, conflicting, relevant or automatic and inspect what the model predicts for arbitration, conscious access and reportability. The numbers are not an empirically established measure of consciousness: making the assumptions visible is precisely what allows later evidence to refine or falsify the weights and thresholds.
+::
 
 :::ModelDisclosure{title="Interactive model: hypotheses about consciousness" description="Compare how different assumptions change the consciousness model's predictions." locale="en"}
 ::ConsciousnessHypothesisExplorer{locale="en"}
@@ -285,7 +312,9 @@ None of the constituent mechanisms is new. Global Workspace and Global Neuronal 
 
 Contemporary consciousness science has not established a single winner among these theories. A major review in 2022 emphasised both their differences and the difficulty of translating many of their claims into decisive experimental contrasts.[23] A large preregistered adversarial collaboration published in 2025 directly tested predictions of Global Neuronal Workspace Theory and Integrated Information Theory and found results that challenged important predictions of both rather than producing a simple victory for either.[24]
 
+::ArticleMarginNote{label="17 / Existing theories" heading="Different theories describe parts of the same process" detail="The proposal connects established ideas about attention, access and self-representation through the problem of arbitration." locale="en"}
 The present proposal can therefore be understood as a functional synthesis rather than a rival claim that one existing theory should be discarded. Global availability may describe how information escapes local specialisation. Attention research helps explain how information acquires priority. Cognitive-control research examines aspects of arbitration. Affective and interoceptive neuroscience investigates how consequences acquire organismic significance. Predictive processing addresses how current information is evaluated against models and possible futures. Research on agency and selfhood examines representations of the organism performing and experiencing actions. Developmental psychology shows how increasingly sophisticated models of other minds and the self emerge. Language research shows how symbolic representation adds recursive and temporally extended forms of self-reflection.
+::
 
 These may be related because they contribute to a common functional problem: how a living organism determines what matters now and what to do about it when its specialised automatic machinery does not provide a sufficient answer.
 
@@ -297,7 +326,7 @@ Participants could receive visual, auditory and contextual information under fou
 
 The critical information can be manipulated around the threshold of conscious visibility using established masking techniques.
 
-::ArticleMarginNote{label="06 / Test" heading="Vary two things independently" detail="Cross four levels of arbitration with three levels of relevance: twelve experimental conditions." locale="en"}
+::ArticleMarginNote{label="18 / Experiment" heading="Vary two things independently" detail="Cross four levels of arbitration with three levels of relevance: twelve experimental conditions." locale="en"}
 A second dimension would vary relevance independently of sensory input. Some decisions would have trivial consequences, while others would affect a meaningful reward, loss, current goal or socially relevant outcome.
 ::
 
@@ -314,7 +343,9 @@ Relevance should alter this relationship. Information associated with larger con
 
 Training provides a further test. With repeated practice, parts of the task should become more automatic and the demand for conscious arbitration should decline. If the rule is suddenly changed, the automated solution should fail and the problem should return to focal conscious processing until a new reliable solution is learned.
 
+::ArticleMarginNote{label="Possible counterexample" heading="What would count against the hypothesis?" detail="If people can flexibly resolve genuinely novel conflicts using critical information they never consciously see, the proposed role needs revision." locale="en"}
 The strongest result against the model would be equally informative. If participants can use genuinely unconscious critical information to identify competing proposals, interpret a novel rule, determine which source should have priority and generalise that arbitration to combinations they have never encountered, then the proposed functional boundary is in the wrong place.
+::
 
 That would force the model to become more precise.
 
@@ -330,7 +361,9 @@ That would change the aim of a useful consciousness theory. The challenge would 
 
 Why is conscious processing focused and limited? Why does novelty recruit it? Why does practice make it recede? Why can it override some automatic responses while remaining powerless over others? Why does information in consciousness seem to matter rather than simply exist? Why is experience organised around a self, and why can that self itself become an object of thought? Why does language amplify the phenomenon so dramatically?
 
+::ArticleMarginNote{label="19 / Conclusion" heading="A possible role for conscious access" detail="The proposal brings together mechanisms that can help an organism choose what to do when its usual responses fall short." locale="en"}
 The arbitration hypothesis offers one possible answer. A living system contains many specialised processes that normally function without broad supervision. When their outputs become insufficient, incompatible or important enough to reconsider, limited flexible capacity is concentrated around the problem. Relevant information from across brain and body becomes mutually influential. Possible outcomes are evaluated relative to an organism represented through an increasingly sophisticated self-model. The resulting coordination determines what happens next and can change future automatic behaviour through learning.
+::
 
 In humans, language transforms the architecture further. The organism can symbolically represent its own states, beliefs, motives, history and possible futures. Those representations can themselves become objects of attention and arbitration. The system can reconsider not only what it should do, but why it wants to do it and whether the goals directing the decision should themselves be changed.
 
@@ -340,7 +373,7 @@ Perhaps the apparent observer at the centre of this process is not an additional
 
 On this view, consciousness is not merely information becoming globally available. Its functional significance lies in what broad availability makes possible: the capacity to focus the organism’s limited flexible processing on what matters, bring otherwise separate sources of information into a common decision context, and resolve competing possibilities into a coherent response.
 
-::ArticleMarginNote{label="07 / Open question" heading="Why does it feel like anything?" detail="The hypothesis proposes a function for consciousness. Confirming that function would still leave a question about why it is accompanied by experience." locale="en"}
+::ArticleMarginNote{label="Open question" heading="Why does it feel like anything?" detail="Even if this account explains a function of consciousness, why that function is accompanied by experience remains open." locale="en"}
 That is a plausible reason for such a mechanism to have enormous evolutionary value. It also offers a plausible explanation for why consciousness has the form we experience: focused, limited, affective, first-personal, sometimes decisive, sometimes merely observant, and capable of turning back upon itself.
 ::
 
@@ -349,6 +382,8 @@ The scientific task is now to see how well the pieces already known from neurosc
 That is a more interesting question than asking where consciousness sits in the brain.
 
 It asks what consciousness is doing there in the first place.
+
+::::
 
 ## Notes
 

@@ -40,7 +40,10 @@ modelLimitations:
 draft: false
 ---
 
+::::ArticleMarginTrack
+::ArticleMarginNote{label="Openingsvoorbeeld" heading="Een spin op je hand" detail="De neiging om je hand weg te trekken kan plaatsmaken voor een reactie waarin herkenning en herinnering meespelen."}
 Stel je voor dat je een spin over je hand ziet kruipen. Nog voordat je bewust hebt overwogen wat het is, kan een groot deel van de relevante verwerking al hebben plaatsgevonden. Visuele systemen hebben kenmerken van het dier gedetecteerd en geclassificeerd, aangeleerde associaties kunnen een dreigingsreactie hebben geactiveerd, spieren kunnen zich aanspannen, de autonome toestand kan veranderen en een impuls om je terug te trekken kan zich al ontwikkelen. Een moment later kan de situatie echter veranderen. Je herkent de spin, herinnert je dat hij ongevaarlijk is, merkt je eigen angst op, denkt terug aan eerdere ontmoetingen en besluit de eerste impuls niet te volgen. Bij herhaalde veilige blootstelling kan uiteindelijk zelfs die eerste automatische reactie afnemen.
+::
 
 Dit kleine voorbeeld bevat een groot deel van het raadsel van bewustzijn. Het brein kan waarnemen, classificeren, voorspellen, evalueren en handelingen voorbereiden zonder op bewuste afweging te wachten. Een aanzienlijke hoeveelheid geavanceerde verwerking kan buiten het bewustzijn plaatsvinden.[1–3] Toch bestaan er ook situaties waarin het onvoldoende lijkt om deze gespecialiseerde processen op eigen kracht te laten doorgaan. Hun uitkomsten kunnen conflicteren, omstandigheden kunnen onbekend zijn, een gebruikelijke oplossing kan plotseling falen of informatie uit verschillende domeinen moet worden gecombineerd voordat het organisme kan bepalen wat het moet doen. Op zulke momenten lijkt een hoger niveau van arbitrage functioneel nuttig.
 
@@ -82,7 +85,7 @@ De huidige hypothese plaatst de functionele waarde van bewustzijn dicht bij dit 
 
 Dit geeft aandacht een centrale rol, al moet die term zorgvuldig worden gebruikt. Aandacht en bewustzijn hangen nauw samen, maar zijn niet identiek. Experimenteel onderzoek laat zien dat enige aandachtsselectie zonder bewustzijn kan plaatsvinden en dat neurale effecten van aandacht en bewustzijn soms van elkaar kunnen worden onderscheiden.[4] Het bredere woord „aandacht” omvat bovendien uiteenlopende mechanismen, van lokale versterking van sensorische verwerking tot het doelbewust in de werkfocus houden van een probleem.
 
-::ArticleMarginNote{label="03 / Mechanisme" heading="Wat krijgt voorrang?" detail="Flexibele afstemming is beperkt. Je doelen, je lichamelijke toestand en wat er op het spel staat bepalen mede welk probleem voorrang krijgt."}
+::ArticleMarginNote{label="03 / Aandacht" heading="Wat krijgt voorrang?" detail="Flexibele afstemming is beperkt. Aandacht helpt bepalen welke problemen die capaciteit krijgen."}
 Voor dit model is prioriteit het cruciale begrip. Op ieder moment zouden enorme aantallen processen het organisme kunnen beïnvloeden, terwijl flexibele coördinatie beperkt en relatief kostbaar is. Een mechanisme moet bepalen welk probleem toegang tot die capaciteit verdient.
 ::
 
@@ -96,7 +99,9 @@ Vanuit dit perspectief is de focus van bewustzijn niet slechts een verwerkingsbe
 
 Dat roept onmiddellijk een diepere vraag op: prioriteit volgens welke maatstaf?
 
+::ArticleMarginNote{label="04 / Motivatie" heading="Voorrang hangt af van wat ertoe doet" detail="Behoeften, aangeleerde beloningen en langetermijndoelen helpen bepalen welke uitkomsten de moeite waard zijn."}
 Een levend systeem is geen neutrale informatieverwerker. Het heeft een lichaam waarvan interne variabelen binnen levensvatbare grenzen moeten blijven. Het heeft behoeften, vermogens en kwetsbaarheden. Het leert welke gebeurtenissen beloning of schade voorspellen. Het ontwikkelt doelen door biologie, ervaring, sociaal leren en cultuur. Bij mensen kan het uiteindelijk gevolgen representeren die zich tientallen jaren in de toekomst uitstrekken.
+::
 
 Motivationele relevantie wordt daarmee onderdeel van de verklaring waarom bepaalde informatie aandacht krijgt. Onderzoek naar waardegedreven aandacht biedt een duidelijk voorbeeld. Stimuli die met beloning zijn geassocieerd, kunnen later de aandacht trekken, zelfs wanneer zij niet langer nuttig zijn voor de actuele taak.[5] Leren heeft het competitieve gewicht van de representatie veranderd.
 
@@ -108,7 +113,9 @@ De vraag van de rechercheur — wat was het motief? — heeft een biologische te
 
 ### Gevoel maakt deel uit van de berekening
 
+::ArticleMarginNote{label="05 / Lichaamssignalen" heading="Het lichaam verandert wat er op het spel staat" detail="Via interoceptie speelt informatie over het lichaam mee in de afweging wat te doen."}
 De toestand van het lichaam is een belangrijk onderdeel van deze evaluatie. Interoceptie verwijst in brede zin naar het waarnemen en integreren van signalen die uit het lichaam afkomstig zijn, via gedistribueerde systemen waartoe delen van de hersenstam, hypothalamus, insula en cingulate cortex behoren. Deze systemen dragen bij aan homeostatische regulatie, emotie en cognitie.[6,7]
+::
 
 Theorieën verschillen van mening over de precieze wijze waarop lichamelijke informatie bijdraagt aan bewust gevoel. Damasio en collega's benadrukken de representatie van lichamelijke en homeostatische toestanden als fundament van gevoelens, terwijl benaderingen vanuit voorspellende verwerking emotie gedeeltelijk beschrijven als gevolgtrekking over de oorzaken van interoceptieve signalen.[6–8] Het huidige argument is er niet van afhankelijk dat één verklaring als volledig wordt gekozen.
 
@@ -120,7 +127,9 @@ Die relatie biedt een mogelijk belangrijke brug tussen functie en ervaring. Bewu
 
 ### Bewustzijn werkt met samenvattingen
 
+::ArticleMarginNote{label="06 / Samenvatting" heading="Je merkt de uitkomst van herkenning" detail="Je herkent een bekende zonder de stappen te ervaren waarmee je visuele systeem die persoon herkende."}
 Ondanks deze verfijning heeft het bewustzijn opmerkelijk weinig toegang tot de berekeningen die zijn inhoud voortbrengen. Wanneer je een bekende persoon herkent, ervaar je niet bewust de opeenvolgende visuele bewerkingen die voor herkenning nodig zijn. Je ziet simpelweg Sarah. Wanneer een onbehaaglijk gevoel opkomt, kun je je ervan bewust worden dat er iets niet klopt zonder te weten welke aanwijzingen dat oordeel hebben voortgebracht.
+::
 
 Dit is precies wat een efficiënte coördinatiearchitectuur nodig zou hebben. Gespecialiseerde verwerkers hoeven hun implementatiedetails niet aan ieder ander systeem bloot te leggen. Zij moeten bruikbare uitkomsten beschikbaar maken.
 
@@ -132,7 +141,9 @@ Deze combinatie van macht en onwetendheid is een terugkerend kenmerk van bewustz
 
 ### Passagier en deelnemer
 
+::ArticleMarginNote{label="07 / Invloed" heading="Een impuls kan voorafgaan aan de afweging" detail="Bewuste verwerking kan nog wel veranderen wat er vervolgens gebeurt."}
 Deze architectuur maakt ook een bekende dubbelheid in bewuste ervaring begrijpelijk. Soms lijkt bewustzijn een passagier. Een handeling is al begonnen voordat doelbewust denken optreedt, een oordeel dient zich eenvoudigweg aan of een gevoel verschijnt ongevraagd. Op andere momenten neemt bewuste verwerking duidelijk deel aan wat er vervolgens gebeurt. Expliciete informatie verandert een handeling, een herinnerde regel onderdrukt een gebruikelijke reactie, overweging verandert een plan en herhaald bewust gestuurd gedrag draagt bij aan later leren.
+::
 
 Dit zijn niet noodzakelijk tegenstrijdige waarnemingen. Bewustzijn hoeft niet ieder proces te initiëren om de arbitrage tussen processen te beïnvloeden. Als het iedere waarneming, impuls en voorstel zelf zou moeten produceren, zou juist de efficiëntie van gespecialiseerde parallelle verwerking verloren gaan.
 
@@ -146,7 +157,7 @@ In die zin leert leren het organisme vaak hoe het bewustzijn voor hetzelfde prob
 
 ### Arbitrage heeft een referentiepunt nodig
 
-::ArticleMarginNote{label="04 / Het zelf" heading="Voor wie doet het ertoe?" detail="Het eigen lichaam, de behoeften en de doelen van het organisme vormen het referentiepunt bij het afwegen van uitkomsten."}
+::ArticleMarginNote{label="08 / Referentiepunt" heading="Voor wie doet het ertoe?" detail="Het eigen lichaam, de behoeften en de doelen van het organisme vormen het referentiepunt bij het afwegen van uitkomsten."}
 Het argument wordt interessanter wanneer we vragen waarvoor de arbitrage eigenlijk plaatsvindt. Mogelijke uitkomsten kunnen alleen worden geëvalueerd in relatie tot het organisme waarvan zij de toestand beïnvloeden. Het zenuwstelsel heeft daarom baat bij informatie over het eigen lichaam, zijn vermogens, actuele behoeften, eerdere ervaringen, sociale verplichtingen, doelen en mogelijke toekomstige toestanden.
 ::
 
@@ -162,7 +173,9 @@ Dit biedt een functionele route naar de zelfbewuste component van bewustzijn. Ar
 
 Subjectief voelt het vaak alsof er een „ik” in het brein zit die ervaringen waarneemt en beslissingen neemt. Mechanistisch schept die intuïtie een voor de hand liggend probleem: als een innerlijke waarnemer bewuste informatie ontvangt, wat neemt die waarnemer dan waar?
 
+::ArticleMarginNote{label="09 / Zelfmodel" heading="Het ‘ik’ kan deel zijn van het model" detail="Een voorstelling van het organisme kan helpen bij beslissingen zonder dat er een innerlijke waarnemer nodig is."}
 Een zelfmodel biedt een andere mogelijkheid. Het zelf hoeft niet de waarnemer van het coördinatieproces te zijn. Het kan in plaats daarvan een van de belangrijkste representaties binnen dat proces zijn.
+::
 
 Informatie wordt voortdurend geëvalueerd in relatie tot het organisme dat door dit model wordt gerepresenteerd. Wat gebeurt er met mij? Wat weet ik hiervan? Hoe voel ik mij? Wat kan ik doen? Wat wil ik? Wat gebeurt er wanneer ik hiervoor kies?
 
@@ -174,7 +187,9 @@ Het „ik” kan daarom onderdeel zijn van de oplossing van het arbitrageproblee
 
 Dit onderscheid voorkomt ook dat we basaal bewustzijn gelijkstellen aan volwassen menselijk zelfbewustzijn. Baby's hebben vrijwel zeker bewuste ervaringen voordat zij iets bezitten wat op een volwassen autobiografisch zelf lijkt. Neuraal onderzoek heeft mogelijke kenmerken van bewuste perceptuele toegang gevonden bij baby's van slechts vijf maanden oud, al blijft het methodologisch moeilijk om volwassen indicatoren van bewustzijn op baby's toe te passen en zijn conclusies het sterkst wanneer meerdere indicatoren samenvallen.[11,12]
 
+::ArticleMarginNote{label="10 / Ontwikkeling" heading="Het zelfbeeld bestaat uit lagen" detail="Een lichaam, een handelend wezen en een persoon met een geschiedenis leveren elk andere informatie voor de afweging."}
 Zelfrepresentatie lijkt zich in lagen te ontwikkelen in plaats van in één keer te verschijnen. Een bruikbare conceptuele voortgang kan lopen van organismisch referentiepunt naar belichaamd zelf, handelend zelf, sociaal zelf, reflectief zelf en narratief zelf. Dit zijn niet bedoeld als rigide ontwikkelingsstadia met exacte leeftijdsgrenzen. Ze onderscheiden functies die vaak onder de enkele term „zelfbewustzijn” worden samengevoegd.
+::
 
 Het belichaamde organisme kan zijn eigen toestand en handelingen van de omgeving onderscheiden. Het handelende zelf representeert zichzelf als bron van handelingen en gevolgen. Het sociale zelf representeert zichzelf als één actor tussen andere actoren. Het reflectieve zelf kan cognitie richten op zijn eigen overtuigingen, motieven en mentale toestanden. Het narratieve zelf organiseert deze representaties over een uitgebreide persoonlijke geschiedenis en verbeelde toekomst.
 
@@ -184,7 +199,9 @@ Die lagen hoeven niet op ieder moment volledig geïntegreerd te zijn. Het organi
 
 ### Andere geesten vergroten het probleem
 
+::ArticleMarginNote{label="11 / Sociaal inzicht" heading="Anderen weten en willen andere dingen" detail="Wie rekening houdt met andermans overtuigingen en doelen, moet gevolgen afwegen die vanuit het eigen perspectief niet meteen zichtbaar zijn."}
 Sociale cognitie zorgt voor een van de ingrijpendste uitbreidingen. Een kind leert geleidelijk dat andere mensen informatie, overtuigingen, doelen en perspectieven bezitten die van de zijne kunnen verschillen. Klassiek onderzoek naar onjuiste overtuigingen laat een robuuste ontwikkeling zien in het expliciete begrip dat iemand anders iets kan geloven waarvan het kind weet dat het onwaar is.[13] Complexere recursieve redenering blijft zich ontwikkelen: ik denk dat zij gelooft dat hij weet.
+::
 
 Zodra andere geesten onderdeel worden van het model, groeit de ruimte van mogelijke gevolgen enorm. Een beslissing kan afhangen van wat iemand anders gelooft, wat diegene over ons gelooft en wat wij voorspellen dat diegene als gevolg daarvan zal doen. Reputatie, vertrouwen, misleiding, verplichting, loyaliteit en samenwerking worden relevant voor gedrag.
 
@@ -200,7 +217,9 @@ Basaal bewustzijn vereist geen taal. Alleen al onderzoek bij baby's maakt een ee
 
 Taal geeft het arbitragesysteem niettemin een uitzonderlijk nieuw vermogen. Interne toestanden kunnen symbolische objecten worden.
 
+::ArticleMarginNote{label="12 / Taal" heading="Woorden maken het mogelijk over angst na te denken" detail="Als je kunt denken ‘ik ben bang’, kun je ook vragen waarvoor je bang bent en of die angst terecht is."}
 Het organisme kan angst ervaren. Vervolgens kan het die toestand representeren als „ik ben bang”. Die representatie kan zelf het object van aandacht worden. Het systeem kan vragen waarom het bang is, of de angst gerechtvaardigd is, of het de angst zijn gedrag wil laten beheersen en uiteindelijk wat die angst zegt over het soort persoon dat het denkt te zijn.
+::
 
 De uitkomst van één ronde bewuste verwerking kan zo de invoer voor een volgende worden. Ervaring wordt representatie; representatie kan talige abstractie worden; abstractie kan een nieuw aandachtsobject worden; en de resulterende reflectie kan terugvloeien in verdere arbitrage.
 
@@ -210,7 +229,9 @@ Taal kan daarom beter worden begrepen als een versterker van reflectief bewustzi
 
 ### Het zelf wordt een object in zijn eigen wereld
 
+::ArticleMarginNote{label="13 / Verleden en toekomst" heading="Je kunt gevolgen voor je toekomstige zelf meewegen" detail="Taal helpt om een herinnerde, verwachte of door anderen gevormde versie van jezelf mee te nemen in een beslissing."}
 Taal stelt het zelfmodel ook in staat aan het onmiddellijke heden te ontsnappen. „Ik” kan verwijzen naar het organisme dat hier nu zit, maar ook naar het kind dat ik mij herinner te zijn geweest, de persoon die ik verwacht te worden, de persoon die iemand anders denkt dat ik ben of een hypothetisch toekomstig zelf over tientallen jaren.
+::
 
 Hierdoor kan huidig gedrag worden geëvalueerd in relatie tot een symbolisch toekomstig organisme dat nog niet bestaat. Sociale taal voegt rollen, reputaties, identiteiten en beschrijvingen toe die van andere mensen zijn verkregen. Het zelf wordt uitgestrekt in de tijd, sociaal gesitueerd en steeds abstracter.
 
@@ -226,7 +247,9 @@ Dit kan een reden zijn waarom menselijk bewustzijn zo'n sterk besef van zelfbewu
 
 Dit biedt een mogelijke brug tussen functie en fenomenologie. Bewustzijn voelt niet als een neutrale gegevensstroom. Dingen overkomen mij. Ze doen ertoe voor mij. Ik ervaar angst, nieuwsgierigheid, schaamte, verlangen, twijfel, pijn en opluchting.
 
+::ArticleMarginNote{label="14 / Ervaring" heading="Waarom het voelt alsof het jou raakt" detail="De hypothese verbindt het persoonlijke karakter van ervaringen met de manier waarop het organisme gevolgen voor zichzelf afweegt."}
 Als bewuste arbitrage informatie integreert volgens haar relevantie voor een model van het organisme, is die eerstepersoonsstructuur precies wat we zouden verwachten. Externe informatie wordt gecombineerd met lichamelijke toestand, geheugen, motivatie en voorspelling. Mogelijke gevolgen worden geëvalueerd in relatie tot een organisme dat binnen het systeem wordt gerepresenteerd. Het organisme levert het blijvende referentiepunt; het zelfmodel is de veranderlijke representatie waarbinnen informatie op dat moment wordt geselecteerd en beoordeeld.
+::
 
 Het ervaren „ik” hoeft daarom geen aanvullende entiteit te zijn die naar het bewustzijn kijkt. Het kan de vorm zijn die het model van het organisme aanneemt wanneer dat model aan bewuste coördinatie deelneemt.
 
@@ -234,7 +257,7 @@ Dit lost het filosofische moeilijke probleem niet per definitie op. De legitieme
 
 ### Rapportage komt later
 
-::ArticleMarginNote{label="05 / Onderscheid" heading="Ervaren en erover vertellen" detail="Vertellen wat je zag vraagt extra stappen: het onthouden, een reactie kiezen en er woorden voor vinden."}
+::ArticleMarginNote{label="15 / Meting" heading="Ervaren en erover vertellen" detail="Vertellen wat je zag vraagt extra stappen: het onthouden, een reactie kiezen en er woorden voor vinden."}
 Taal maakt het ook belangrijk ervaring te onderscheiden van het rapporteren van ervaring. Traditionele bewustzijnsexperimenten vragen deelnemers vaak te zeggen wat zij zagen, maar rapportage vereist aanvullende verwerking: beslissing, geheugen, handelingsvoorbereiding en vaak taal. Paradigma's zonder rapportage werden juist ontwikkeld om neurale processen die met bewuste inhoud samenhangen te scheiden van processen die nodig zijn om die inhoud te beschrijven.[19]
 ::
 
@@ -250,7 +273,9 @@ De voorgestelde architectuur kan nu nauwkeuriger worden geformuleerd.
 
 Het brein bevat veel gespecialiseerde processen die grotendeels autonoom en parallel tot geavanceerd functioneren in staat zijn. Zolang hun uitkomsten betrouwbaar en onderling verenigbaar zijn, voegt uitgebreide flexibele coördinatie weinig waarde toe. Aangeleerde routines kunnen het gedrag efficiënt sturen.
 
+::ArticleMarginNote{label="16 / Werkmodel" heading="Van relevantie naar handelen en leren" detail="Een onbetrouwbare routine kan bredere afstemming vragen. Hoe je dan handelt, kan je reactie bij een volgende ontmoeting veranderen."}
 Bepaalde situaties scheppen een andere behoefte. Iets wordt voldoende nieuw, conflicterend, onzeker of ingrijpend dat de bestaande automatische reactie ontoereikend is of niet zonder meer vertrouwd moet worden. Relevantie geeft het probleem prioriteit. Aandacht vestigt een tijdelijke focus. Informatie die nodig is om het probleem aan te pakken wordt beschikbaar in anders gedeeltelijk onafhankelijke systemen. Waarneming, geheugen, lichamelijke toestand, aangeleerde waarde, actuele doelen, mogelijke handelingen, sociale kennis en voorspelde gevolgen kunnen elkaar begrenzen.
+::
 
 Die brede beschikbaarheid is geen alles-of-niets-eigenschap. Arbitrage vindt plaats met de informatie die binnen de actuele toestand toegankelijk wordt; andere herinneringen, emoties of doelen kunnen tijdelijk minder invloed hebben, ook wanneer zij elders in het systeem behouden blijven.
 
@@ -272,7 +297,9 @@ Samen bieden deze lussen een aannemelijke functionele verklaring voor verschille
 
 De merkwaardige combinatie van causale invloed en introspectieve onwetendheid volgt uit dezelfde architectuur. Bewuste verwerking kan de uitkomsten van gespecialiseerde systemen gebruiken zonder toegang te hebben tot de berekeningen die ze hebben voortgebracht.
 
+::ArticleMarginNote{label="Interactief model" heading="Verander eens één aanname tegelijk" detail="Het model laat zien wat de hypothese bij verschillende aannames voorspelt. De score is geen meting van bewustzijn."}
 De onderstaande verkenner maakt van dit verbale werkmodel een expliciete, toetsbare hypothese. Je kunt een taak meer of minder nieuw, conflicterend, relevant of geautomatiseerd maken en vervolgens zien wat het model voorspelt voor arbitrage, bewuste toegang en rapporteerbaarheid. De getallen zijn geen empirisch vastgestelde bewustzijnsmaat: juist doordat de aannames zichtbaar zijn, kan later onderzoek de gewichten en drempels aanscherpen of weerleggen.
+::
 
 :::ModelDisclosure{title="Interactief model: hypothesen over bewustzijn" description="Vergelijk hoe verschillende aannames de voorspellingen van het bewustzijnsmodel veranderen."}
 ::ConsciousnessHypothesisExplorer{locale="nl"}
@@ -285,7 +312,9 @@ Geen van de samenstellende mechanismen is nieuw. Global Workspace- en Global Neu
 
 De hedendaagse bewustzijnswetenschap heeft geen enkele winnaar onder deze theorieën vastgesteld. Een belangrijk overzicht uit 2022 benadrukte zowel hun verschillen als de moeilijkheid om veel van hun beweringen in beslissende experimentele contrasten om te zetten.[23] Een grote vooraf geregistreerde adversariële samenwerking die in 2025 werd gepubliceerd, toetste rechtstreeks voorspellingen van Global Neuronal Workspace Theory en Integrated Information Theory. De resultaten daagden belangrijke voorspellingen van beide uit en leverden geen eenvoudige overwinning voor een van beide op.[24]
 
+::ArticleMarginNote{label="17 / Bestaande theorieën" heading="Theorieën belichten verschillende delen van hetzelfde proces" detail="Het voorstel verbindt bestaande ideeën over aandacht, bewuste toegang en het zelf via het arbitrageprobleem."}
 Het huidige voorstel kan daarom worden begrepen als een functionele synthese en niet als een concurrerende bewering dat één bestaande theorie moet worden verworpen. Globale beschikbaarheid kan beschrijven hoe informatie aan lokale specialisatie ontsnapt. Aandachtsonderzoek helpt verklaren hoe informatie prioriteit krijgt. Onderzoek naar cognitieve controle bestudeert aspecten van arbitrage. Affectieve en interoceptieve neurowetenschap onderzoekt hoe gevolgen organismische betekenis krijgen. Voorspellende verwerking behandelt hoe actuele informatie tegen modellen en mogelijke toekomsten wordt geëvalueerd. Onderzoek naar handelingsvermogen en zelfbesef bestudeert representaties van het organisme dat handelingen uitvoert en ervaart. Ontwikkelingspsychologie laat zien hoe steeds geavanceerdere modellen van andere geesten en het zelf ontstaan. Taalonderzoek laat zien hoe symbolische representatie recursieve en in de tijd uitgestrekte vormen van zelfreflectie toevoegt.
+::
 
 Deze onderwerpen kunnen samenhangen doordat ze bijdragen aan één gemeenschappelijk functioneel probleem: hoe een levend organisme bepaalt wat er nu toe doet en wat het daarmee moet doen wanneer zijn gespecialiseerde automatische machinerie geen toereikend antwoord geeft.
 
@@ -297,7 +326,7 @@ Deelnemers kunnen onder vier omstandigheden visuele, auditieve en contextuele in
 
 De kritieke informatie kan met gevestigde maskeringstechnieken rond de drempel van bewuste zichtbaarheid worden gemanipuleerd.
 
-::ArticleMarginNote{label="06 / Toets" heading="Varieer twee dingen onafhankelijk" detail="Vier niveaus van arbitrage en drie niveaus van relevantie leveren samen twaalf experimentele condities."}
+::ArticleMarginNote{label="18 / Experiment" heading="Varieer twee dingen onafhankelijk" detail="Vier niveaus van arbitrage en drie niveaus van relevantie leveren samen twaalf experimentele condities."}
 Een tweede dimensie varieert de relevantie onafhankelijk van de sensorische invoer. Sommige beslissingen hebben triviale gevolgen, terwijl andere een betekenisvolle beloning, verlies, actueel doel of sociaal relevante uitkomst beïnvloeden.
 ::
 
@@ -314,7 +343,9 @@ Relevantie zou deze relatie moeten veranderen. Informatie die met grotere gevolg
 
 Training biedt een aanvullende toets. Door herhaalde oefening zouden delen van de taak automatischer moeten worden en zou de behoefte aan bewuste arbitrage moeten afnemen. Als de regel plotseling verandert, zou de geautomatiseerde oplossing moeten falen en het probleem naar gerichte bewuste verwerking moeten terugkeren totdat een nieuwe betrouwbare oplossing is geleerd.
 
+::ArticleMarginNote{label="Mogelijk tegenvoorbeeld" heading="Wat zou tegen de hypothese spreken?" detail="Als mensen echt nieuwe conflicten flexibel oplossen met cruciale informatie die ze nooit bewust zien, moet de voorgestelde rol worden herzien."}
 Het sterkste resultaat tegen het model zou even informatief zijn. Als deelnemers werkelijk onbewuste kritieke informatie kunnen gebruiken om concurrerende voorstellen te identificeren, een nieuwe regel te interpreteren, te bepalen welke bron prioriteit moet krijgen en die arbitrage te generaliseren naar combinaties die zij nooit eerder hebben gezien, dan ligt de voorgestelde functionele grens op de verkeerde plaats.
+::
 
 Dat zou het model dwingen nauwkeuriger te worden.
 
@@ -330,7 +361,9 @@ Dat zou het doel van een bruikbare bewustzijnstheorie veranderen. De uitdaging z
 
 Waarom is bewuste verwerking gericht en beperkt? Waarom trekt nieuwheid haar aan? Waarom treedt zij door oefening terug? Waarom kan zij sommige automatische reacties overrulen terwijl zij tegenover andere machteloos blijft? Waarom lijkt informatie in het bewustzijn ertoe te doen in plaats van alleen te bestaan? Waarom is ervaring rond een zelf georganiseerd en waarom kan dat zelf zelf een object van denken worden? Waarom versterkt taal het verschijnsel zo sterk?
 
+::ArticleMarginNote{label="19 / Conclusie" heading="Een mogelijke functie van bewuste toegang" detail="Het voorstel brengt mechanismen samen die een organisme kunnen helpen kiezen wat het doet als de gebruikelijke reacties tekortschieten."}
 De arbitragehypothese biedt één mogelijk antwoord. Een levend systeem bevat veel gespecialiseerde processen die normaal zonder brede supervisie functioneren. Wanneer hun uitkomsten ontoereikend of onverenigbaar worden, of belangrijk genoeg om opnieuw te overwegen, wordt beperkte flexibele capaciteit rond het probleem geconcentreerd. Relevante informatie uit het hele brein en lichaam gaat elkaar beïnvloeden. Mogelijke uitkomsten worden geëvalueerd in relatie tot een organisme dat door een steeds geavanceerder zelfmodel wordt gerepresenteerd. De resulterende coördinatie bepaalt wat er vervolgens gebeurt en kan door leren toekomstig automatisch gedrag veranderen.
+::
 
 Bij mensen transformeert taal de architectuur verder. Het organisme kan zijn eigen toestanden, overtuigingen, motieven, geschiedenis en mogelijke toekomsten symbolisch representeren. Die representaties kunnen zelf objecten van aandacht en arbitrage worden. Het systeem kan niet alleen heroverwegen wat het moet doen, maar ook waarom het dit wil doen en of de doelen die de beslissing sturen zelf moeten worden veranderd.
 
@@ -340,7 +373,7 @@ Misschien is de schijnbare waarnemer in het centrum van dit proces geen aanvulle
 
 Volgens deze zienswijze is bewustzijn niet slechts informatie die globaal beschikbaar wordt. De functionele betekenis ligt in wat die brede beschikbaarheid mogelijk maakt: het vermogen de beperkte flexibele verwerking van het organisme te richten op wat ertoe doet, anders gescheiden informatiebronnen in een gezamenlijke beslissingscontext bijeen te brengen en concurrerende mogelijkheden tot een coherente respons terug te brengen.
 
-::ArticleMarginNote{label="07 / Open vraag" heading="Waarom voelt het als iets?" detail="De hypothese geeft bewustzijn een mogelijke functie. Ook als die functie klopt, blijft de vraag waarom er een ervaring mee gepaard gaat."}
+::ArticleMarginNote{label="Open vraag" heading="Waarom voelt het als iets?" detail="Zelfs als dit een functie van bewustzijn verklaart, blijft de vraag waarom die functie met ervaring gepaard gaat."}
 Dat is een aannemelijke reden waarom een dergelijk mechanisme enorme evolutionaire waarde kan hebben. Het biedt ook een aannemelijke verklaring waarom bewustzijn de vorm heeft die we ervaren: gericht, beperkt, affectief, eerstepersoons, soms beslissend, soms slechts waarnemend en in staat zich op zichzelf terug te richten.
 ::
 
@@ -349,6 +382,8 @@ De wetenschappelijke taak is nu te onderzoeken hoe goed de onderdelen die al uit
 Dat is een interessantere vraag dan waar bewustzijn zich in het brein bevindt.
 
 Zij vraagt wat bewustzijn daar überhaupt doet.
+
+::::
 
 ## Noten
 
