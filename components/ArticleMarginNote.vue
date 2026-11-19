@@ -12,7 +12,6 @@ withDefaults(defineProps<{
 
 <template>
   <div class="article-margin-pair">
-    <div :id="anchor" class="article-margin-passage"><slot /></div>
     <aside class="article-margin-note" role="note" :aria-label="label" :class="{ 'has-diagram': diagram }">
       <span class="article-margin-label" aria-hidden="true">{{ label }}</span>
       <strong class="article-margin-heading">{{ heading }}</strong>
@@ -46,6 +45,7 @@ withDefaults(defineProps<{
         {{ locale === 'en' ? '↶ Back to 01: automatic processing' : '↶ Terug naar 01: automatische verwerking' }}
       </a>
     </aside>
+    <div :id="anchor" class="article-margin-passage"><slot /></div>
   </div>
 </template>
 
@@ -56,7 +56,7 @@ withDefaults(defineProps<{
   min-inline-size: 0;
   margin-block: 1.25em;
 }
-.article-margin-passage { min-inline-size: 0; scroll-margin-block-start: 5rem; }
+.article-margin-passage { grid-row: 1; min-inline-size: 0; scroll-margin-block-start: 5rem; }
 .article-margin-passage :deep(> :first-child) { margin-block-start: 0; }
 .article-margin-passage :deep(> :last-child) { margin-block-end: 0; }
 .article-margin-note {
@@ -110,13 +110,18 @@ withDefaults(defineProps<{
 .article-margin-sequence li::marker { color: var(--accent); font-weight: 600; }
 .article-margin-sequence figcaption { margin-block-start: .3rem; }
 @media (min-width: 768px) {
-  .article-margin-pair {
-    grid-template-columns: var(--margin-note-width, 184px) minmax(0, 1fr);
-    column-gap: var(--margin-note-gap, 24px);
-    margin-inline-start: calc(0px - var(--margin-note-width, 184px) - var(--margin-note-gap, 24px));
+  .article-margin-pair { display: block; }
+  .article-margin-note {
+    position: relative;
+    float: left;
+    clear: left;
+    width: var(--margin-note-width);
+    margin: 0 var(--margin-note-gap) .75rem calc(0px - var(--margin-note-width) - var(--margin-note-gap));
+    border-inline-start: 0;
   }
-  .article-margin-passage { grid-area: 1 / 2; }
-  .article-margin-note { grid-area: 1 / 1; position: relative; margin-block-start: 0; border-inline-start: 0; }
+  :global(.article-margin-track) { display: flow-root; }
+  :global(.article-margin-track .experiment-matrix),
+  :global(.article-margin-track .model-disclosure[open]) { clear: left; }
   .article-margin-note::before {
     content: '';
     position: absolute;
