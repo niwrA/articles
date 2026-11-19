@@ -54,7 +54,9 @@ Waar het om gaat, is dat gespecialiseerde processen die normaal met aanzienlijke
 
 ### Een brein dat al weet hoe het dingen moet doen
 
+::ArticleMarginNote{label="01 / Vertrekpunt" heading="Veel gebeurt automatisch" detail="Je brein kan al kenmerken herkennen en een beweging voorbereiden voordat je bewust weet wat je ziet." anchor="automatic-processing"}
 Het is verleidelijk bewustzijn te zien als de plaats waar cognitie plaatsvindt. Mechanistisch is dat vrijwel zeker onjuist. Het zenuwstelsel werkt massaal parallel. Gespecialiseerde corticale en subcorticale systemen verwerken tegelijkertijd visuele kenmerken, geluiden, lichaamssignalen, herinneringen, beloningen, bedreigingen en mogelijke handelingen, terwijl het grootste deel van deze activiteit nooit onderdeel wordt van wat we naar eigen zeggen ervaren.
+::
 
 Onderzoek naar onbewuste cognitie heeft herhaaldelijk laten zien dat de relevante grens geen eenvoudige scheiding is tussen elementaire onbewuste en geavanceerde bewuste verwerking. Informatie buiten het gerapporteerde bewustzijn kan gedrag, responsinhibitie, conflictverwerking en sommige vormen van cognitieve controle beïnvloeden.[2,3] Ook kunnen aandacht, besluitvorming en integratie niet afzonderlijk met bewustzijn worden gelijkgesteld, omdat varianten van elk zonder bewustzijn kunnen optreden.[4]
 
@@ -66,7 +68,9 @@ De interessante vraag begint wanneer die inrichting niet langer volstaat.
 
 ### Het arbitrageprobleem
 
+::ArticleMarginNote{label="02 / Kernhypothese" heading="Wanneer reacties botsen" diagram="arbitration"}
 Een flexibel organisme komt voortdurend in situaties waarin verschillende systemen onverenigbare uitkomsten bevorderen. Een dreigingsreactie zet aan tot terugtrekken, terwijl expliciete kennis zegt dat er geen gevaar is. Een onmiddellijke beloning pleit voor de ene keuze, terwijl een langetermijndoel voor een andere pleit. Een goed ingesleten gewoonte produceert een reactie die gisteren passend was, maar vandaag verkeerd is. Visueel bewijs suggereert één interpretatie, terwijl herinnerde context een andere suggereert.
+::
 
 Veel van zulke conflicten kunnen lokaal en automatisch worden opgelost. Interessant zijn de gevallen waarin geen enkele bestaande gespecialiseerde oplossing betrouwbaar genoeg is. Relevante informatie moet dan mogelijk worden betrokken uit processen die gewoonlijk zeer verschillende functies vervullen: actuele waarneming, geheugen, lichamelijke toestand, sociale kennis, aangeleerde waarden, langetermijndoelen en voorspellingen van toekomstige gevolgen.
 
@@ -78,7 +82,9 @@ De huidige hypothese plaatst de functionele waarde van bewustzijn dicht bij dit 
 
 Dit geeft aandacht een centrale rol, al moet die term zorgvuldig worden gebruikt. Aandacht en bewustzijn hangen nauw samen, maar zijn niet identiek. Experimenteel onderzoek laat zien dat enige aandachtsselectie zonder bewustzijn kan plaatsvinden en dat neurale effecten van aandacht en bewustzijn soms van elkaar kunnen worden onderscheiden.[4] Het bredere woord „aandacht” omvat bovendien uiteenlopende mechanismen, van lokale versterking van sensorische verwerking tot het doelbewust in de werkfocus houden van een probleem.
 
+::ArticleMarginNote{label="03 / Mechanisme" heading="Wat krijgt voorrang?" detail="Flexibele afstemming is beperkt. Je doelen, je lichamelijke toestand en wat er op het spel staat bepalen mede welk probleem voorrang krijgt."}
 Voor dit model is prioriteit het cruciale begrip. Op ieder moment zouden enorme aantallen processen het organisme kunnen beïnvloeden, terwijl flexibele coördinatie beperkt en relatief kostbaar is. Een mechanisme moet bepalen welk probleem toegang tot die capaciteit verdient.
+::
 
 Fysieke intensiteit is één manier om die competitie te winnen, maar relevantie kan belangrijker zijn. Een zacht uitgesproken vermelding van je naam kan belangrijker worden dan een hard maar irrelevant geluid. Een stimulus die eerder met beloning werd geassocieerd, kan de aandacht blijven trekken nadat die beloningsrelatie is verdwenen.[5] Ervaring verandert dus wat prioriteit verkrijgt.
 
@@ -132,13 +138,17 @@ Dit zijn niet noodzakelijk tegenstrijdige waarnemingen. Bewustzijn hoeft niet ie
 
 Het voorbeeld van de spin illustreert dit opnieuw. Automatische dreigingsverwerking kan al een sterke neiging tot terugtrekken hebben voortgebracht. Expliciete kennis dat de spin ongevaarlijk is, kan niettemin veranderen wat het organisme doet. Herhaalde uitkomsten van dit type kunnen later de automatische reactie zelf veranderen.
 
+::ArticleMarginNote{label="Leren" heading="Een oplossing kan routine worden" detail="Als een reactie betrouwbaar werkt, hoef je niet telkens dezelfde mogelijkheden af te wegen." href="#automatic-processing"}
 Zo ontstaat een bruikbare functionele cyclus: nieuwe of conflicterende situaties roepen gerichte coördinatie op; succesvolle oplossingen beïnvloeden gedrag en leren; herhaald succes maakt het mogelijk delen van de oplossing steeds automatischer te maken. Wanneer omstandigheden onverwacht veranderen, kan de geautomatiseerde oplossing falen en keert het probleem terug in de bewuste focus.
+::
 
 In die zin leert leren het organisme vaak hoe het bewustzijn voor hetzelfde probleem niet opnieuw nodig hoeft te hebben.
 
 ### Arbitrage heeft een referentiepunt nodig
 
+::ArticleMarginNote{label="04 / Het zelf" heading="Voor wie doet het ertoe?" detail="Het eigen lichaam, de behoeften en de doelen van het organisme vormen het referentiepunt bij het afwegen van uitkomsten."}
 Het argument wordt interessanter wanneer we vragen waarvoor de arbitrage eigenlijk plaatsvindt. Mogelijke uitkomsten kunnen alleen worden geëvalueerd in relatie tot het organisme waarvan zij de toestand beïnvloeden. Het zenuwstelsel heeft daarom baat bij informatie over het eigen lichaam, zijn vermogens, actuele behoeften, eerdere ervaringen, sociale verplichtingen, doelen en mogelijke toekomstige toestanden.
+::
 
 Op een primitief niveau vereist dit niets wat lijkt op het volwassen narratieve zelf. Sensorimotorische controle is al afhankelijk van onderscheid tussen zelf veroorzaakte en extern veroorzaakte gebeurtenissen. Onderzoek naar handelingsvermogen en minimaal zelfbesef suggereert bovendien rollen voor multisensorische integratie, lichamelijke voorspelling en interoceptie bij het voortbrengen van elementaire vormen van eigenaarschap en handelingsvermogen.[9,10]
 
@@ -224,7 +234,9 @@ Dit lost het filosofische moeilijke probleem niet per definitie op. De legitieme
 
 ### Rapportage komt later
 
+::ArticleMarginNote{label="05 / Onderscheid" heading="Ervaren en erover vertellen" detail="Vertellen wat je zag vraagt extra stappen: het onthouden, een reactie kiezen en er woorden voor vinden."}
 Taal maakt het ook belangrijk ervaring te onderscheiden van het rapporteren van ervaring. Traditionele bewustzijnsexperimenten vragen deelnemers vaak te zeggen wat zij zagen, maar rapportage vereist aanvullende verwerking: beslissing, geheugen, handelingsvoorbereiding en vaak taal. Paradigma's zonder rapportage werden juist ontwikkeld om neurale processen die met bewuste inhoud samenhangen te scheiden van processen die nodig zijn om die inhoud te beschrijven.[19]
+::
 
 Deze paradigma's hebben hun eigen beperkingen. Het wegnemen van een zichtbare respons garandeert niet dat interne reflectie of taakgerelateerde cognitie verdwenen is.[20] De discussie onderstreept niettemin een belangrijk punt: ervaring, cognitieve toegang en expliciete rapportage zijn voldoende van elkaar te scheiden om experimenteel onderscheiden te moeten worden.
 
@@ -285,7 +297,9 @@ Deelnemers kunnen onder vier omstandigheden visuele, auditieve en contextuele in
 
 De kritieke informatie kan met gevestigde maskeringstechnieken rond de drempel van bewuste zichtbaarheid worden gemanipuleerd.
 
+::ArticleMarginNote{label="06 / Toets" heading="Varieer twee dingen onafhankelijk" detail="Vier niveaus van arbitrage en drie niveaus van relevantie leveren samen twaalf experimentele condities."}
 Een tweede dimensie varieert de relevantie onafhankelijk van de sensorische invoer. Sommige beslissingen hebben triviale gevolgen, terwijl andere een betekenisvolle beloning, verlies, actueel doel of sociaal relevante uitkomst beïnvloeden.
+::
 
 Het resultaat is een matrix:
 
@@ -326,7 +340,9 @@ Misschien is de schijnbare waarnemer in het centrum van dit proces geen aanvulle
 
 Volgens deze zienswijze is bewustzijn niet slechts informatie die globaal beschikbaar wordt. De functionele betekenis ligt in wat die brede beschikbaarheid mogelijk maakt: het vermogen de beperkte flexibele verwerking van het organisme te richten op wat ertoe doet, anders gescheiden informatiebronnen in een gezamenlijke beslissingscontext bijeen te brengen en concurrerende mogelijkheden tot een coherente respons terug te brengen.
 
+::ArticleMarginNote{label="07 / Open vraag" heading="Waarom voelt het als iets?" detail="De hypothese geeft bewustzijn een mogelijke functie. Ook als die functie klopt, blijft de vraag waarom er een ervaring mee gepaard gaat."}
 Dat is een aannemelijke reden waarom een dergelijk mechanisme enorme evolutionaire waarde kan hebben. Het biedt ook een aannemelijke verklaring waarom bewustzijn de vorm heeft die we ervaren: gericht, beperkt, affectief, eerstepersoons, soms beslissend, soms slechts waarnemend en in staat zich op zichzelf terug te richten.
+::
 
 De wetenschappelijke taak is nu te onderzoeken hoe goed de onderdelen die al uit neurowetenschap en psychologie bekend zijn in deze architectuur passen, waar hiaten blijven bestaan en of experimenten die specifiek op die hiaten zijn gericht het model ondersteunen of ondermijnen.
 

@@ -54,7 +54,9 @@ What matters is that specialised processes which normally operate with considera
 
 ### A brain that already knows how to do things
 
+::ArticleMarginNote{label="01 / Starting point" heading="Much happens automatically" detail="The brain can detect features and prepare to move before you consciously recognise what you’re seeing." locale="en" anchor="automatic-processing"}
 It is easy to think about consciousness as the place where cognition happens. Mechanistically, that is almost certainly wrong. The nervous system is massively parallel. Specialised cortical and subcortical systems process visual features, sounds, bodily signals, memories, rewards, threats and possible actions simultaneously, and most of this activity never becomes part of what we can report experiencing.
+::
 
 Research on unconscious cognition has repeatedly shown that the relevant boundary is not a simple divide between elementary unconscious processing and sophisticated conscious processing. Information outside reported awareness can influence behaviour, response inhibition, conflict processing and some forms of cognitive control.[2,3] Likewise, attention, decision-making and integration cannot individually be identified with consciousness, because versions of each can occur without awareness.[4]
 
@@ -66,7 +68,9 @@ The interesting question begins when that arrangement stops being sufficient.
 
 ### The arbitration problem
 
+::ArticleMarginNote{label="02 / Core hypothesis" heading="When routines disagree" locale="en" diagram="arbitration"}
 A flexible organism constantly encounters situations in which different systems favour incompatible outcomes. A threat response promotes withdrawal while explicit knowledge says there is no danger. Immediate reward favours one choice while a long-term objective favours another. A well-learned habit produces a response that was appropriate yesterday but is wrong today. Visual evidence suggests one interpretation while remembered context suggests another.
+::
 
 Many such conflicts can be resolved locally and automatically. The cases of interest are those in which no existing specialised solution is reliable enough. Relevant information may then have to be drawn from processes that ordinarily serve very different functions: current perception, memory, bodily state, social knowledge, learned values, long-term goals and predictions of future consequences.
 
@@ -78,7 +82,9 @@ The present hypothesis locates the functional value of consciousness close to th
 
 This gives attention a central role, though the term must be used carefully. Attention and consciousness are closely related but not identical. Experimental studies show that some attentional selection can occur without awareness, and neural effects of attention and awareness can sometimes be dissociated.[4] The broader word “attention” also covers a range of mechanisms, from local enhancement of sensory processing to deliberate maintenance of a problem in working focus.
 
+::ArticleMarginNote{label="03 / Mechanism" heading="What gets priority?" detail="Flexible coordination is limited. Your goals, bodily state and what’s at stake help determine which problem gets priority." locale="en"}
 For the present model, the crucial concept is priority. At any moment, enormous numbers of processes could potentially influence the organism, while flexible coordination is limited and comparatively expensive. Some mechanism must determine which problem deserves access to that capacity.
+::
 
 Physical intensity is one way to win that competition, but relevance can matter more. A quiet mention of your name can become more important than a loud but irrelevant sound. A stimulus previously associated with reward can continue to capture attention after the reward contingency has disappeared.[5] Experience therefore changes what acquires priority.
 
@@ -132,13 +138,17 @@ These are not necessarily contradictory observations. Consciousness does not nee
 
 The spider example again illustrates the point. Automatic threat processing may already have produced a strong withdrawal tendency. Explicit knowledge that the spider is harmless can nevertheless alter what the organism does. Repeated outcomes of that kind can later change the automatic response itself.
 
+::ArticleMarginNote{label="Learning" heading="A solution can become routine" detail="Once a response works reliably, you may no longer need to weigh the same alternatives each time." locale="en" href="#automatic-processing"}
 A useful functional cycle therefore emerges: novel or conflicting situations recruit focal coordination; successful resolutions influence behaviour and learning; repeated success allows parts of the solution to become increasingly automatic. When circumstances unexpectedly change, the automated solution can fail and the problem returns to conscious focus.
+::
 
 Learning, in that sense, often teaches the organism how not to need consciousness for the same problem again.
 
 ### Arbitration needs a reference point
 
+::ArticleMarginNote{label="04 / The self" heading="Who does it matter to?" detail="The organism’s body, needs and goals provide the reference point for weighing outcomes." locale="en"}
 The argument becomes more interesting when we ask what arbitration is actually for. Possible outcomes can only be evaluated in relation to the organism whose state they affect. The nervous system therefore benefits from maintaining information about its own body, capabilities, current needs, previous experiences, social commitments, goals and possible future states.
+::
 
 At a primitive level, this need does not require anything resembling the adult narrative self. Sensorimotor control already depends on distinctions between self-produced and externally produced events, and research on agency and minimal selfhood suggests roles for multisensory integration, bodily prediction and interoception in generating elementary forms of ownership and agency.[9,10]
 
@@ -224,7 +234,9 @@ This does not solve the philosophical hard problem by definition. There remains 
 
 ### Report comes later
 
+::ArticleMarginNote{label="05 / Distinction" heading="Experiencing and reporting" detail="Describing what you saw adds steps such as remembering, deciding how to respond and finding words." locale="en"}
 Language also makes it important to distinguish experience from reporting experience. Traditional consciousness experiments often ask participants to say what they saw, but report requires additional processing: decision, memory, action preparation and often language. No-report paradigms were developed precisely to separate neural processes associated with conscious contents from processes required to describe those contents.[19]
+::
 
 These paradigms have limitations of their own. Eliminating an overt response does not guarantee that internal reflection or task-related cognition has disappeared.[20] The debate nonetheless reinforces an important point: experience, cognitive access and explicit report are separable enough that they must be distinguished experimentally.
 
@@ -285,7 +297,9 @@ Participants could receive visual, auditory and contextual information under fou
 
 The critical information can be manipulated around the threshold of conscious visibility using established masking techniques.
 
+::ArticleMarginNote{label="06 / Test" heading="Vary two things independently" detail="Cross four levels of arbitration with three levels of relevance: twelve experimental conditions." locale="en"}
 A second dimension would vary relevance independently of sensory input. Some decisions would have trivial consequences, while others would affect a meaningful reward, loss, current goal or socially relevant outcome.
+::
 
 The result would be a matrix:
 
@@ -326,7 +340,9 @@ Perhaps the apparent observer at the centre of this process is not an additional
 
 On this view, consciousness is not merely information becoming globally available. Its functional significance lies in what broad availability makes possible: the capacity to focus the organism’s limited flexible processing on what matters, bring otherwise separate sources of information into a common decision context, and resolve competing possibilities into a coherent response.
 
+::ArticleMarginNote{label="07 / Open question" heading="Why does it feel like anything?" detail="The hypothesis proposes a function for consciousness. Confirming that function would still leave a question about why it is accompanied by experience." locale="en"}
 That is a plausible reason for such a mechanism to have enormous evolutionary value. It also offers a plausible explanation for why consciousness has the form we experience: focused, limited, affective, first-personal, sometimes decisive, sometimes merely observant, and capable of turning back upon itself.
+::
 
 The scientific task is now to see how well the pieces already known from neuroscience and psychology fit this architecture, where the gaps remain, and whether experiments aimed specifically at those gaps support or undermine the model.
 
