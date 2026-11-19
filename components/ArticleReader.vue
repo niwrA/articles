@@ -2,8 +2,22 @@
 const props=defineProps<{article:any;locale:'en'|'nl'}>()
 const nl=computed(()=>props.locale==='nl')
 const outline=computed(()=>buildArticleOutline(props.article,props.locale))
-const compact=ref(false), chosen=ref(false), reader=ref<HTMLElement>()
+const compact=ref(false), chosen=ref(true), reader=ref<HTMLElement>()
 const folding=computed(()=>compact.value && chosen.value)
+const visited=reactive(new Set<number>())
+const progressKey=()=>['reading-outline',props.article.path,props.article.updatedAt || props.article.date || ''].join(':')
+function restoreOpened(){
+  try {
+    const saved=JSON.parse(localStorage.getItem(progressKey()) || '[]')
+    if(Array.isArray(saved)) for(const i of saved) if(Number.isInteger(i) && i>=0 && i<outline.value.sections.length) visited.add(i)
+  } catch { /* Storage is optional. */ }
+}
+function markOpened(event:Event, index:number){
+  if(!(event.currentTarget as HTMLDetailsElement).open || visited.has(index)) return
+  visited.add(index)
+  try { localStorage.setItem(progressKey(),JSON.stringify([...visited])) } catch { /* Keep the mark for this visit. */ }
+}
+const plain=computed(()=>part(outline.value.sections.flatMap(s=>s.blocks)))
 let media:MediaQueryList|undefined
 function size(){compact.value=!!media?.matches}
 function reveal(){
@@ -18,7 +32,7 @@ function reveal(){
 function anchorClick(e:MouseEvent){
   if((e.target as Element)?.closest('a[href^="#"]')) requestAnimationFrame(reveal)
 }
-onMounted(()=>{media=matchMedia('(max-width: 767px)');size();media.addEventListener('change',size);window.addEventListener('hashchange',reveal)})
+onMounted(()=>{restoreOpened();media=matchMedia('(max-width: 767px)');size();media.addEventListener('change',size);window.addEventListener('hashchange',reveal)})
 onBeforeUnmount(()=>{media?.removeEventListener('change',size);window.removeEventListener('hashchange',reveal)})
 watch(folding,()=>nextTick(reveal))
 const part=(blocks:any[])=>({...props.article,body:{...props.article.body,value:blocks}})
@@ -28,16 +42,16 @@ const part=(blocks:any[])=>({...props.article,body:{...props.article.body,value:
     <button v-if="compact" class="reading-switch" type="button" :aria-pressed="folding" @click="chosen=!chosen">
       {{ nl?'In de marge':'In the margin' }} · {{ folding?(nl?'volledige tekst tonen':'show full text'):(nl?'lees als overzicht':'read as outline') }}
     </button>
-    <ContentRenderer v-if="!folding" :value="outline.full" />
+    <ContentRenderer v-if="!folding" :value="compact ? plain : outline.full" />
     <div v-else class="reading-outline">
-      <details v-for="(s,i) in outline.sections" :key="i" class="reading-point">
+      <details v-for="(s,i) in outline.sections" :key="i" class="reading-point" @toggle="markOpened($event,i)">
         <summary>
-          <span class="point-label">{{ s.point.label }}</span>
+          <span class="point-label">{{ s.point.label }} <span v-if="visited.has(i)" class="visited" role="img" :aria-label="nl?'Eerder geopend':'Previously opened'">✓</span></span>
           <strong>{{ s.point.heading }}</strong>
           <span v-if="s.point.detail" class="point-detail">{{ s.point.detail }}</span>
           <ArticleMarginVisual v-if="s.point.diagram" :diagram="s.point.diagram" :locale="locale" />
         </summary>
-        <ContentRenderer :value="part(s.blocks)" />
+        <div class="point-passage"><ContentRenderer :value="part(s.blocks)" /></div>
         <a v-if="s.point.href" :href="s.point.href">{{ nl?'Terug naar het vertrekpunt':'Back to the starting point' }}</a>
       </details>
     </div>
@@ -55,5 +69,8 @@ const part=(blocks:any[])=>({...props.article,body:{...props.article.body,value:
 .point-label{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
 .point-detail{font-size:.88rem;color:var(--muted);margin-top:.25rem}
 .reading-outline :deep(.reading-breakout > *), .reading-outline :deep(.model-content > *) { max-width:100%;margin-inline:0; }
+.visited{margin-inline-start:.35em;color:var(--muted)}
+.point-passage{display:flow-root;padding-block-start:.85rem}
+.point-passage :deep(> div > :is(h1,h2,h3,h4,h5,h6):first-child){margin-block-start:.3rem}
 @media print{.reading-switch{display:none}}
 </style>
