@@ -34,6 +34,15 @@
     margin-inline-start: calc(0px - var(--margin-note-width) - var(--margin-note-gap));
     margin-inline-end: 0;
   }
+  .prose .article-margin-track .reading-breakout {
+    clear: both;
+    width: var(--reading-layout-width);
+    margin-inline-start: calc(0px - var(--margin-note-width) - var(--margin-note-gap));
+    background: var(--paper);
+  }
+  .prose .reading-breakout > *, .prose .reading-breakout .model-content > * {
+    width: 100%; max-width: 100%; margin-inline: 0;
+  }
   .article-margin-track .experiment-matrix {
     background: var(--paper);
     padding-block: 1rem;

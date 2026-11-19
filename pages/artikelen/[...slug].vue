@@ -83,7 +83,7 @@ const viewMode = computed<'summary'|'simple'|'full'>({
     </div>
     <ArticleSummary v-if="viewMode === 'summary'" :article="article" locale="nl" @full="viewMode='full'" />
     <ArticlePlainLanguage v-else-if="viewMode === 'simple'" :article="article" locale="nl" @full="viewMode='full'" />
-    <div v-else id="article-content" class="prose wrap"><ContentRenderer :value="renderedArticle" /></div>
+    <ArticleReader v-else :key="article.path" :article="renderedArticle" locale="nl" />
     <ArticleEngagement :key="viewMode" :article-key="article.translationKey" language="nl" :version="article.updated || article.date" :view-mode="viewMode" :content-id="viewMode === 'summary' ? 'article-summary' : viewMode === 'simple' ? 'article-simple' : 'article-content'" />
     <div class="wrap"><ArticleShare :title="article.title" :description="article.description" :url="canonicalUrl" :article-key="article.translationKey" locale="nl" closing /></div>
   </article>
