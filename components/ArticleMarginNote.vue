@@ -3,7 +3,7 @@ withDefaults(defineProps<{
   label: string
   heading: string
   detail?: string
-  diagram?: 'arbitration'
+  diagram?: 'arbitration' | 'learning' | 'self'
   locale?: 'en' | 'nl'
   anchor?: string
   href?: string
@@ -24,6 +24,23 @@ withDefaults(defineProps<{
         </div>
         <div class="article-margin-join" aria-hidden="true"></div>
         <figcaption>{{ locale === 'en' ? 'Weigh both signals' : 'Weeg beide signalen' }}</figcaption>
+      </figure>
+      <figure v-else-if="diagram === 'learning'" class="article-margin-sequence">
+        <ol>
+          <li>{{ locale === 'en' ? 'A new situation' : 'Een nieuwe situatie' }}</li>
+          <li>{{ locale === 'en' ? 'Weigh the options' : 'Weeg de mogelijkheden' }}</li>
+          <li>{{ locale === 'en' ? 'Learn what works' : 'Leer wat werkt' }}</li>
+          <li>{{ locale === 'en' ? 'Build a routine' : 'Bouw een routine op' }}</li>
+        </ol>
+        <figcaption>{{ locale === 'en' ? 'If the routine fails, weigh the options again.' : 'Werkt de routine niet meer, weeg de mogelijkheden dan opnieuw af.' }}</figcaption>
+      </figure>
+      <figure v-else-if="diagram === 'self'" class="article-margin-sequence">
+        <ol>
+          <li>{{ locale === 'en' ? 'Body: what am I sensing?' : 'Lichaam: wat voel ik?' }}</li>
+          <li>{{ locale === 'en' ? 'Agency: what can I do?' : 'Handelen: wat kan ik doen?' }}</li>
+          <li>{{ locale === 'en' ? 'History: what have I learned?' : 'Verleden: wat heb ik geleerd?' }}</li>
+        </ol>
+        <figcaption>{{ locale === 'en' ? 'Examples of layers in the essay’s self-model' : 'Voorbeelden van lagen in het zelfmodel uit het essay' }}</figcaption>
       </figure>
       <a v-if="href" class="article-margin-back" :href="href">
         {{ locale === 'en' ? '↶ Back to 01: automatic processing' : '↶ Terug naar 01: automatische verwerking' }}
@@ -77,13 +94,29 @@ withDefaults(defineProps<{
   color: var(--ink);
   font-weight: 600;
 }
+.article-margin-sequence { max-inline-size: 16rem; margin: .55rem 0 0; font-size: .75rem; }
+.article-margin-sequence ol {
+  display: grid;
+  gap: 3px;
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+.article-margin-sequence li {
+  padding: .22rem .45rem;
+  background: color-mix(in srgb, var(--line) 40%, transparent);
+  color: var(--ink);
+}
+.article-margin-sequence li::marker { color: var(--accent); font-weight: 600; }
+.article-margin-sequence figcaption { margin-block-start: .3rem; }
 @media (min-width: 768px) {
   .article-margin-pair {
-    grid-template-columns: minmax(0, 1fr) var(--margin-note-width, 184px);
+    grid-template-columns: var(--margin-note-width, 184px) minmax(0, 1fr);
     column-gap: var(--margin-note-gap, 24px);
-    margin-inline-end: calc(0px - var(--margin-note-width, 184px) - var(--margin-note-gap, 24px));
+    margin-inline-start: calc(0px - var(--margin-note-width, 184px) - var(--margin-note-gap, 24px));
   }
-  .article-margin-note { position: relative; margin-block-start: 0; border-inline-start: 0; }
+  .article-margin-passage { grid-area: 1 / 2; }
+  .article-margin-note { grid-area: 1 / 1; position: relative; margin-block-start: 0; border-inline-start: 0; }
   .article-margin-note::before {
     content: '';
     position: absolute;

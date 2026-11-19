@@ -135,7 +135,9 @@ Dit is precies wat een efficiënte coördinatiearchitectuur nodig zou hebben. Ge
 
 Bewuste verwerking kan daarom werken met gecomprimeerde representaties zoals „gevaarlijk”, „bekend”, „ik weet dit”, „ik ben bang” of „dit doet ertoe”. Elk daarvan kan een enorme hoeveelheid ontoegankelijke verwerking samenvatten. Dit helpt ook verklaren waarom introspectie vaak onbetrouwbaar is. Bewuste toegang tot een conclusie garandeert geen bewuste toegang tot haar causale geschiedenis. Het systeem kan de uitkomst ontvangen en vervolgens een verklaring construeren uit de informatie die op dat moment beschikbaar is.
 
+::ArticleMarginNote{label="Grens van introspectie" heading="Een aannemelijke verklaring kan onjuist zijn" detail="We merken sommige uitkomsten van verwerking op, terwijl veel van de stappen ernaartoe buiten beeld blijven."}
 Soms is die verklaring correct. Soms is zij alleen aannemelijk.
+::
 
 Deze combinatie van macht en onwetendheid is een terugkerend kenmerk van bewustzijn. We kunnen redeneren over zeer abstracte informatie, terwijl we vrijwel volledig blind blijven voor de machinerie die de representaties heeft voortgebracht waarmee we redeneren.
 
@@ -149,7 +151,7 @@ Dit zijn niet noodzakelijk tegenstrijdige waarnemingen. Bewustzijn hoeft niet ie
 
 Het voorbeeld van de spin illustreert dit opnieuw. Automatische dreigingsverwerking kan al een sterke neiging tot terugtrekken hebben voortgebracht. Expliciete kennis dat de spin ongevaarlijk is, kan niettemin veranderen wat het organisme doet. Herhaalde uitkomsten van dit type kunnen later de automatische reactie zelf veranderen.
 
-::ArticleMarginNote{label="Leren" heading="Een oplossing kan routine worden" detail="Als een reactie betrouwbaar werkt, hoef je niet telkens dezelfde mogelijkheden af te wegen." href="#automatic-processing"}
+::ArticleMarginNote{label="Leren" heading="Een oplossing kan routine worden" detail="Als een reactie betrouwbaar werkt, hoef je niet telkens dezelfde mogelijkheden af te wegen." href="#automatic-processing" diagram="learning"}
 Zo ontstaat een bruikbare functionele cyclus: nieuwe of conflicterende situaties roepen gerichte coördinatie op; succesvolle oplossingen beïnvloeden gedrag en leren; herhaald succes maakt het mogelijk delen van de oplossing steeds automatischer te maken. Wanneer omstandigheden onverwacht veranderen, kan de geautomatiseerde oplossing falen en keert het probleem terug in de bewuste focus.
 ::
 
@@ -187,7 +189,7 @@ Het „ik” kan daarom onderdeel zijn van de oplossing van het arbitrageproblee
 
 Dit onderscheid voorkomt ook dat we basaal bewustzijn gelijkstellen aan volwassen menselijk zelfbewustzijn. Baby's hebben vrijwel zeker bewuste ervaringen voordat zij iets bezitten wat op een volwassen autobiografisch zelf lijkt. Neuraal onderzoek heeft mogelijke kenmerken van bewuste perceptuele toegang gevonden bij baby's van slechts vijf maanden oud, al blijft het methodologisch moeilijk om volwassen indicatoren van bewustzijn op baby's toe te passen en zijn conclusies het sterkst wanneer meerdere indicatoren samenvallen.[11,12]
 
-::ArticleMarginNote{label="10 / Ontwikkeling" heading="Het zelfbeeld bestaat uit lagen" detail="Een lichaam, een handelend wezen en een persoon met een geschiedenis leveren elk andere informatie voor de afweging."}
+::ArticleMarginNote{label="10 / Ontwikkeling" heading="Het zelfbeeld bestaat uit lagen" detail="Een lichaam, een handelend wezen en een persoon met een geschiedenis leveren elk andere informatie voor de afweging." diagram="self"}
 Zelfrepresentatie lijkt zich in lagen te ontwikkelen in plaats van in één keer te verschijnen. Een bruikbare conceptuele voortgang kan lopen van organismisch referentiepunt naar belichaamd zelf, handelend zelf, sociaal zelf, reflectief zelf en narratief zelf. Dit zijn niet bedoeld als rigide ontwikkelingsstadia met exacte leeftijdsgrenzen. Ze onderscheiden functies die vaak onder de enkele term „zelfbewustzijn” worden samengevoegd.
 ::
 
@@ -261,7 +263,9 @@ Dit lost het filosofische moeilijke probleem niet per definitie op. De legitieme
 Taal maakt het ook belangrijk ervaring te onderscheiden van het rapporteren van ervaring. Traditionele bewustzijnsexperimenten vragen deelnemers vaak te zeggen wat zij zagen, maar rapportage vereist aanvullende verwerking: beslissing, geheugen, handelingsvoorbereiding en vaak taal. Paradigma's zonder rapportage werden juist ontwikkeld om neurale processen die met bewuste inhoud samenhangen te scheiden van processen die nodig zijn om die inhoud te beschrijven.[19]
 ::
 
+::ArticleMarginNote{label="Experimentele kanttekening" heading="Ook zonder antwoord kan iemand nadenken" detail="Als iemand niets hoeft te zeggen of in te drukken, betekent dat nog niet dat diegene niet nadenkt over wat die zag."}
 Deze paradigma's hebben hun eigen beperkingen. Het wegnemen van een zichtbare respons garandeert niet dat interne reflectie of taakgerelateerde cognitie verdwenen is.[20] De discussie onderstreept niettemin een belangrijk punt: ervaring, cognitieve toegang en expliciete rapportage zijn voldoende van elkaar te scheiden om experimenteel onderscheiden te moeten worden.
+::
 
 Binnen dit model is externe rapportage een vermogen verderop in de keten. Informatie die bij bewuste arbitrage betrokken is, kan beschikbaar worden voor taal en doelbewuste communicatie zonder dat talige rapportage de informatie oorspronkelijk bewust maakt.
 

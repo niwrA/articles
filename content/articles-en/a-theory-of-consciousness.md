@@ -135,7 +135,9 @@ This is exactly what an efficient coordination architecture would need. Speciali
 
 Conscious processing can therefore operate on compressed representations such as “dangerous,” “familiar,” “I know this,” “I am afraid” or “this matters.” Each may summarise an enormous amount of inaccessible processing. This also helps explain why introspection is often unreliable. Conscious access to a conclusion does not guarantee conscious access to its causal history. The system may receive the outcome and then construct an explanation from whatever information is currently available.
 
+::ArticleMarginNote{label="Limit of introspection" heading="A plausible explanation can be wrong" detail="Awareness gives us access to some results of processing, while leaving much of how those results arose out of view." locale="en"}
 Sometimes that explanation is accurate. Sometimes it is only plausible.
+::
 
 This mixture of power and ignorance is a recurring feature of consciousness. We can reason about highly abstract information while remaining almost completely blind to the machinery that produced the representations we are reasoning with.
 
@@ -149,7 +151,7 @@ These are not necessarily contradictory observations. Consciousness does not nee
 
 The spider example again illustrates the point. Automatic threat processing may already have produced a strong withdrawal tendency. Explicit knowledge that the spider is harmless can nevertheless alter what the organism does. Repeated outcomes of that kind can later change the automatic response itself.
 
-::ArticleMarginNote{label="Learning" heading="A solution can become routine" detail="Once a response works reliably, you may no longer need to weigh the same alternatives each time." locale="en" href="#automatic-processing"}
+::ArticleMarginNote{label="Learning" heading="A solution can become routine" detail="Once a response works reliably, you may no longer need to weigh the same alternatives each time." locale="en" href="#automatic-processing" diagram="learning"}
 A useful functional cycle therefore emerges: novel or conflicting situations recruit focal coordination; successful resolutions influence behaviour and learning; repeated success allows parts of the solution to become increasingly automatic. When circumstances unexpectedly change, the automated solution can fail and the problem returns to conscious focus.
 ::
 
@@ -187,7 +189,7 @@ The “I” may therefore be part of the solution to the arbitration problem.
 
 This distinction also prevents us from identifying basic consciousness with mature human self-awareness. Infants almost certainly have conscious experiences before possessing anything resembling an adult autobiographical self. Neural studies have identified candidate signatures of conscious perceptual access in infants as young as five months, although transferring adult markers of consciousness to infants remains methodologically difficult and conclusions are strongest when multiple indicators converge.[11,12]
 
-::ArticleMarginNote{label="10 / Development" heading="Self-representation has layers" detail="Representing a body, an agent and a person with a history gives arbitration different kinds of information." locale="en"}
+::ArticleMarginNote{label="10 / Development" heading="Self-representation has layers" detail="Representing a body, an agent and a person with a history gives arbitration different kinds of information." locale="en" diagram="self"}
 Self-representation appears to develop in layers rather than appearing all at once. A useful conceptual progression might run from organismic reference to embodied self, agentive self, social self, reflective self and narrative self. These are not meant as rigid developmental stages with precise age boundaries. They distinguish functions that are often collapsed into the single term “self-awareness.”
 ::
 
@@ -261,7 +263,9 @@ This does not solve the philosophical hard problem by definition. There remains 
 Language also makes it important to distinguish experience from reporting experience. Traditional consciousness experiments often ask participants to say what they saw, but report requires additional processing: decision, memory, action preparation and often language. No-report paradigms were developed precisely to separate neural processes associated with conscious contents from processes required to describe those contents.[19]
 ::
 
+::ArticleMarginNote{label="Experimental caution" heading="No report is still not a clean baseline" detail="Taking away the button press or verbal answer does not guarantee that the person stopped reflecting on what they saw." locale="en"}
 These paradigms have limitations of their own. Eliminating an overt response does not guarantee that internal reflection or task-related cognition has disappeared.[20] The debate nonetheless reinforces an important point: experience, cognitive access and explicit report are separable enough that they must be distinguished experimentally.
+::
 
 Within the present model, external report is a downstream capability. Information involved in conscious arbitration can become available to language and deliberate communication without linguistic report being what originally makes the information conscious.
 

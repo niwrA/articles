@@ -9,7 +9,7 @@
     --margin-note-width: clamp(164px, 22vw, 300px);
     --margin-note-gap: clamp(22px, 3vw, 44px);
     width: min(780px, calc(var(--reading-layout-width) - var(--margin-note-width) - var(--margin-note-gap)));
-    margin-inline-start: max(24px, calc((100% - 1180px) / 2));
+    margin-inline-start: calc(max(24px, (100% - 1180px) / 2) + var(--margin-note-width) + var(--margin-note-gap));
     margin-inline-end: auto;
   }
 
@@ -21,7 +21,7 @@
     content: '';
     position: absolute;
     inset-block: .65rem 0;
-    inset-inline-start: calc(100% + var(--margin-note-gap));
+    inset-inline-start: calc(0px - var(--margin-note-width) - var(--margin-note-gap));
     inline-size: 1px;
     background: var(--line);
     pointer-events: none;
@@ -31,7 +31,8 @@
   .article-margin-track .model-disclosure[open]:has(.consciousness-model) {
     position: relative;
     width: var(--reading-layout-width);
-    margin-inline: 0;
+    margin-inline-start: calc(0px - var(--margin-note-width) - var(--margin-note-gap));
+    margin-inline-end: 0;
   }
   .article-margin-track .experiment-matrix {
     background: var(--paper);
