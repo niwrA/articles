@@ -77,13 +77,11 @@ withDefaults(defineProps<{
   color: var(--ink);
   font-weight: 600;
 }
-@media (min-width: 1240px) {
+@media (min-width: 768px) {
   .article-margin-pair {
-    --margin-note-width: 184px;
-    --margin-note-gap: 24px;
-    grid-template-columns: minmax(0, 1fr) var(--margin-note-width);
-    column-gap: var(--margin-note-gap);
-    margin-inline-end: calc(-1 * (var(--margin-note-width) + var(--margin-note-gap)));
+    grid-template-columns: minmax(0, 1fr) var(--margin-note-width, 184px);
+    column-gap: var(--margin-note-gap, 24px);
+    margin-inline-end: calc(0px - var(--margin-note-width, 184px) - var(--margin-note-gap, 24px));
   }
   .article-margin-note { position: relative; margin-block-start: 0; }
   .article-margin-note::before {
@@ -98,5 +96,30 @@ withDefaults(defineProps<{
     background: var(--paper);
   }
   .has-diagram::before { border-color: var(--accent); background: var(--accent); }
+}
+</style>
+
+<style>
+@media (min-width: 768px) and (max-width: 1239.99px) {
+  .article-page > .prose:has(.article-margin-pair) {
+    --margin-note-width: clamp(156px, 17vw, 184px);
+    --margin-note-gap: clamp(16px, 2vw, 24px);
+    --reading-layout-width: min(988px, calc(100vw - 64px));
+    --reading-prose-width: min(780px, calc(var(--reading-layout-width) - var(--margin-note-width) - var(--margin-note-gap)));
+    width: var(--reading-prose-width);
+    margin-inline-start: min(calc((100% - var(--reading-prose-width)) / 2), calc(100% - var(--reading-layout-width) - 24px));
+    margin-inline-end: auto;
+  }
+
+  .prose:has(.article-margin-pair) :is(.experiment-matrix, .consciousness-model) {
+    width: var(--reading-layout-width);
+    margin-inline: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 849.99px) {
+  .prose:has(.article-margin-pair) .consciousness-model .model-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }
 </style>
