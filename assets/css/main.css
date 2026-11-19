@@ -76,8 +76,7 @@ h1 { font-size:clamp(3.25rem,8vw,7rem); letter-spacing:-.045em; max-width:1050px
     min-width: 0;
     padding: 12px clamp(16px, 2.4vw, 32px) 14px 0;
     border-bottom: 0;
-    background: var(--paper);
-    background: linear-gradient(90deg, var(--paper) 47%, color-mix(in srgb, var(--paper) 86%, transparent) 100%);
+    background: linear-gradient(to right, #fff 40%, rgb(255 255 255 / 97%) 60%, rgb(255 255 255 / 86%) 100%);
     position: relative;
   }
   .article-opening--illustrated > .article-hero::after {
@@ -85,8 +84,8 @@ h1 { font-size:clamp(3.25rem,8vw,7rem); letter-spacing:-.045em; max-width:1050px
     position: absolute;
     inset-block: 0;
     inset-inline-start: 100%;
-    width: clamp(32px, 5vw, 76px);
-    background: linear-gradient(to right, color-mix(in srgb, var(--paper) 86%, transparent), transparent);
+    width: clamp(64px, 8vw, 120px);
+    background: linear-gradient(to right, rgb(255 255 255 / 86%), rgb(255 255 255 / 38%) 52%, rgb(255 255 255 / 0%));
     pointer-events: none;
   }
   .article-opening--illustrated .back-link { margin-bottom: 10px; font-size: .8rem; }
