@@ -61,24 +61,26 @@ const viewMode = computed<'summary'|'simple'|'full'>({
 
 <template>
   <article v-if="article" class="article-page">
-    <header class="article-hero wrap">
-      <NuxtLink to="/artikelen" class="back-link">← Alle artikelen</NuxtLink>
-      <p class="eyebrow">{{ article.tags?.join(' · ') }}</p>
-      <h1>{{ article.title }}</h1>
-      <p class="lead">{{ article.description }}</p>
-      <div class="byline"><span>Door Arwin van Arum</span><span>Eerste publicatie <time :datetime="article.date">{{ date(article.date) }}</time></span><span v-if="article.updated && article.updated !== article.date">Laatst gewijzigd <time :datetime="article.updated">{{ date(article.updated) }}</time></span><span>{{ formatReadingTime(article.body) }}</span></div>
-      <p v-if="article.aiReviewModel && article.aiReviewDate" class="review-provenance">AI-ondersteunde inhoudelijke controle: {{ article.aiReviewModel }} · <time :datetime="article.aiReviewDate">{{ date(article.aiReviewDate) }}</time></p>
-      <NuxtLink v-if="translation" :to="translation.path" hreflang="en" class="article-language">Read this article in English →</NuxtLink>
-      <ArticleShare :title="article.title" :description="article.description" :url="canonicalUrl" :article-key="article.translationKey" locale="nl" />
-    </header>
-    <ArticleRelations :article="article" locale="nl" />
-    <ArticleViewToggle v-if="hasSummary" v-model="viewMode" locale="nl" :article-key="article.translationKey" :has-plain-language="hasPlainLanguage" />
-    <figure v-if="article.featuredImage && viewMode === 'full'" class="article-cover wrap">
-      <picture>
-        <source media="(max-width: 750px)" :srcset="mobileCover(article.featuredImage)">
-        <img :src="article.featuredImage" :alt="article.featuredImageAlt || ''" width="1800" height="1024" fetchpriority="high" decoding="async">
-      </picture>
-    </figure>
+    <div class="article-opening" :class="{ 'article-opening--illustrated': article.featuredImage && viewMode === 'full' }">
+      <header class="article-hero wrap">
+        <NuxtLink to="/artikelen" class="back-link">← Alle artikelen</NuxtLink>
+        <p class="eyebrow">{{ article.tags?.join(' · ') }}</p>
+        <h1>{{ article.title }}</h1>
+        <p class="lead">{{ article.description }}</p>
+        <div class="byline"><span>Door Arwin van Arum</span><span>Eerste publicatie <time :datetime="article.date">{{ date(article.date) }}</time></span><span v-if="article.updated && article.updated !== article.date">Laatst gewijzigd <time :datetime="article.updated">{{ date(article.updated) }}</time></span><span>{{ formatReadingTime(article.body) }}</span></div>
+        <p v-if="article.aiReviewModel && article.aiReviewDate" class="review-provenance">AI-ondersteunde inhoudelijke controle: {{ article.aiReviewModel }} · <time :datetime="article.aiReviewDate">{{ date(article.aiReviewDate) }}</time></p>
+        <NuxtLink v-if="translation" :to="translation.path" hreflang="en" class="article-language">Read this article in English →</NuxtLink>
+        <ArticleShare :title="article.title" :description="article.description" :url="canonicalUrl" :article-key="article.translationKey" locale="nl" />
+      </header>
+      <ArticleRelations :article="article" locale="nl" />
+      <ArticleViewToggle v-if="hasSummary" v-model="viewMode" locale="nl" :article-key="article.translationKey" :has-plain-language="hasPlainLanguage" />
+      <figure v-if="article.featuredImage && viewMode === 'full'" class="article-cover wrap">
+        <picture>
+          <source media="(max-width: 750px)" :srcset="mobileCover(article.featuredImage)">
+          <img :src="article.featuredImage" :alt="article.featuredImageAlt || ''" width="1800" height="1024" fetchpriority="high" decoding="async">
+        </picture>
+      </figure>
+    </div>
     <ArticleSummary v-if="viewMode === 'summary'" :article="article" locale="nl" @full="viewMode='full'" />
     <ArticlePlainLanguage v-else-if="viewMode === 'simple'" :article="article" locale="nl" @full="viewMode='full'" />
     <div v-else id="article-content" class="prose wrap"><ContentRenderer :value="renderedArticle" /></div>
