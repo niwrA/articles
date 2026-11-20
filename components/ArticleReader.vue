@@ -44,7 +44,8 @@ function reveal(){
     collapsed.querySelector<HTMLButtonElement>('.margin-toggle')?.click()
     nextTick(()=>target.scrollIntoView())
   }
-  const group=target.closest<HTMLDetailsElement>('details.reading-point')
+  const group=target.closest<HTMLDetailsElement>('details.reading-point') ??
+    target.closest('.outline-prose-tail')?.parentElement?.querySelector<HTMLDetailsElement>(':scope > details.reading-point')
   if(group && !group.open){group.open=true; nextTick(()=>target.scrollIntoView())}
 }
 function anchorClick(e:MouseEvent){
@@ -64,7 +65,28 @@ function mobileSection(s: ReturnType<typeof buildArticleOutline>['sections'][num
   const start = blocks[0]
   const repeatsIntro = !!s.point.detail && Array.isArray(start) && start[0]==='p' &&
     normalize(text(start)).startsWith(normalize(s.point.detail))
-  return {...s,blocks,headingId:repeated ? first[1].id : undefined,repeatsIntro}
+  type Block=typeof blocks[number]
+  function visibleModel(n:Block):Block|null {
+    if(!Array.isArray(n)) return null
+    if(n[0]==='model-disclosure' && !('notes' in n[1]) && n.slice(2).some(x=>Array.isArray(x) && x[0].includes('-')))
+      return [n[0],{...n[1],open:true},...n.slice(2) as Block[]]
+    if(n[0]==='housing-space-model') return n
+    if(n[0]==='div' && n.length===3){
+      const child=visibleModel(n[2])
+      if(child) return [n[0],n[1],child]
+    }
+    return null
+  }
+  const intro:Block[]=[]
+  const tail:{model:boolean;blocks:Block[]}[]=[]
+  for(const b of blocks){
+    const m=visibleModel(b)
+    if(m) tail.push({model:true,blocks:[m]})
+    else if(!tail.length) intro.push(b)
+    else if(tail[tail.length-1].model) tail.push({model:false,blocks:[b]})
+    else tail[tail.length-1].blocks.push(b)
+  }
+  return {...s,blocks:intro,tail,headingId:repeated ? first[1].id : undefined,repeatsIntro}
 }
 const mobileSections=computed(()=>outline.value.sections.map(mobileSection))
 </script>
@@ -75,20 +97,25 @@ const mobileSections=computed(()=>outline.value.sections.map(mobileSection))
     </button>
     <ContentRenderer v-if="!folding" :value="compact ? plain : desktopArticle" />
     <div v-else class="reading-outline">
-      <details v-for="(s,i) in mobileSections" :key="i" class="reading-point" @toggle="markOpened($event,i)">
+      <div v-for="(s,i) in mobileSections" :key="i" class="outline-section">
+      <details class="reading-point" @toggle="markOpened($event,i)">
         <summary :id="s.headingId">
           <span class="point-label">{{ s.point.label }} <span v-if="visited.has(i)" class="visited" role="img" :aria-label="nl?'Eerder geopend':'Previously opened'">✓</span></span>
           <strong>{{ s.point.heading }}</strong>
           <span v-if="s.point.detail" class="point-detail" :class="{repeated:s.repeatsIntro}">{{ s.point.detail }}</span>
           <ArticleMarginVisual v-if="s.point.diagram" :diagram="s.point.diagram" :locale="locale" />
         </summary>
-        <div class="point-passage"><ContentRenderer :value="part(s.blocks)" /></div>
+        <div v-if="s.blocks.length" class="point-passage"><ContentRenderer :value="part(s.blocks)" /></div>
         <a v-if="s.point.href" :href="s.point.href">{{ nl?'Terug naar het vertrekpunt':'Back to the starting point' }}</a>
       </details>
+      <div v-for="(chunk,j) in s.tail" :key="j" :class="chunk.model ? 'outline-model' : 'outline-prose-tail point-passage'"><ContentRenderer :value="part(chunk.blocks)" /></div>
+      </div>
     </div>
   </div>
 </template>
 <style scoped>
+.reading-point:not([open]) ~ .outline-prose-tail{display:none}
+.outline-model{min-width:0}
 .reading-switch{background:var(--white);color:var(--ink);border:1px solid var(--line);padding:.65rem .85rem;min-height:44px;font:inherit;font-size:.85rem;margin-bottom:1rem}
 .reading-point{border-top:1px solid var(--line);padding:.35rem 0}
 .reading-point>summary{position:relative;cursor:pointer;list-style:none;min-height:44px;padding:.6rem 2rem .6rem .85rem;border-left:2px solid var(--line)}
