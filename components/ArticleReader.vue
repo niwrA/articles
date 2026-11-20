@@ -116,6 +116,22 @@ const mobileSections=computed(()=>outline.value.sections.map(mobileSection))
 <style scoped>
 .reading-point:not([open]) ~ .outline-prose-tail{display:none}
 .outline-model{min-width:0}
+.outline-model :deep(.model-disclosure){
+  box-sizing:border-box;
+  width:calc(100% + 2px);
+  margin:.2rem 0 .35rem;
+  margin-inline-start:-2px;
+  border:1px solid var(--line);
+  border-inline-start:3px solid #84988c;
+  border-radius:.4rem;
+  background:color-mix(in srgb,#edf1ec 38%,var(--paper));
+}
+.outline-model :deep(.model-disclosure > summary){
+  background:#edf1ec;
+  border-radius:.3rem;
+  padding:.7rem .85rem .7rem calc(.85rem + 2px);
+}
+.outline-model :deep(.model-disclosure > summary:focus-visible){outline:2px solid var(--ink);outline-offset:2px}
 .outline-model :deep(.model-disclosure){margin:.45rem 0 .85rem;border:1px solid var(--line);border-inline-start:3px solid #84988c;border-radius:.45rem;background:var(--paper)}
 .outline-model :deep(.model-disclosure > summary){background:#edf1ec;border-radius:.3rem;padding:.7rem .85rem}
 .outline-model :deep(.model-disclosure > summary:focus-visible){outline:2px solid var(--ink);outline-offset:2px}
