@@ -6,7 +6,6 @@ const compact=ref(false), chosen=ref(true), reader=ref<HTMLElement>()
 const folding=computed(()=>compact.value && chosen.value)
 const desktopArticle=computed(()=>{
   const source=outline.value.full
-  if(props.article.translationKey!=='theory-of-consciousness') return source
   const value=source.body.value.map((block:any)=>{
     if(!Array.isArray(block) || block[0]!=='article-margin-track') return block
     const sections=buildArticleOutline({...source,body:{...source.body,value:[block]}},props.locale).sections
