@@ -10,7 +10,7 @@ const desktopArticle=computed(()=>{
   const value=source.body.value.map((block:any)=>{
     if(!Array.isArray(block) || block[0]!=='article-margin-track') return block
     const sections=buildArticleOutline({...source,body:{...source.body,value:[block]}},props.locale).sections
-    return [block[0],block[1],...sections.map(s=>['article-margin-note',{...s.point,anchor:undefined,locale:props.locale,foldable:true},...s.blocks])]
+    return [block[0],block[1],...sections.map((s,index)=>['article-margin-note',{...s.point,anchor:undefined,locale:props.locale,foldable:true,progressIndex:index},...s.blocks])]
   })
   return {...source,body:{...source.body,value}}
 })
@@ -23,7 +23,11 @@ function restoreOpened(){
   } catch { /* Storage is optional. */ }
 }
 function markOpened(event:Event, index:number){
-  if(!(event.currentTarget as HTMLDetailsElement).open || visited.has(index)) return
+  if((event.currentTarget as HTMLDetailsElement).open) markVisited(index)
+}
+provide("article-reading-progress",{visited,markVisited})
+function markVisited(index:number){
+  if(visited.has(index)) return
   visited.add(index)
   try { localStorage.setItem(progressKey(),JSON.stringify([...visited])) } catch { /* Keep the mark for this visit. */ }
 }

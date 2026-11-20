@@ -1,11 +1,12 @@
 <script setup lang="ts">
-withDefaults(defineProps<{
+const props=withDefaults(defineProps<{
   label: string
   heading: string
   detail?: string
   diagram?: 'arbitration' | 'learning' | 'self'
   locale?: 'en' | 'nl'
   anchor?: string
+  progressIndex?: number
   foldable?: boolean
   href?: string
 }>(), { locale: 'nl' })
@@ -13,11 +14,41 @@ const closed=ref(false)
 const passageId=useId()
 const toggle=ref<HTMLButtonElement>()
 function reopen(){closed.value=false;nextTick(()=>toggle.value?.focus({preventScroll:true}))}
+const passage=ref<HTMLElement>()
+const progress=inject<{visited:Set<number>;markVisited:(i:number)=>void}>('article-reading-progress')
+const seen=computed(()=>props.progressIndex!=null && progress?.visited.has(Number(props.progressIndex)))
+let observer:IntersectionObserver|undefined
+let lastY=0, startedAt=0
+function sample(){
+  if(closed.value || document.hidden || !passage.value || seen.value || props.progressIndex==null){startedAt=0;return}
+  const y=window.scrollY, delta=y-lastY, height=window.innerHeight
+  lastY=y
+  if(Math.abs(delta)>height*.9) startedAt=0
+  const {top,bottom}=passage.value.getBoundingClientRect()
+  if(top>=height || bottom<=0){startedAt=0;return}
+  if(!startedAt && top>=-40 && top<height*.85) startedAt=performance.now()
+  if(startedAt && delta>0 && bottom<=height*.85 && performance.now()-startedAt>=1500){
+    progress?.markVisited(Number(props.progressIndex))
+  }
+}
+function stop(){window.removeEventListener('scroll',sample);startedAt=0}
+watch(closed,()=>{startedAt=0})
+onMounted(()=>{
+  if(!props.foldable || !passage.value || !('IntersectionObserver' in window))return
+  observer=new IntersectionObserver(([entry])=>{
+    if(entry.isIntersecting){lastY=window.scrollY;sample();window.addEventListener('scroll',sample,{passive:true})}
+    else stop()
+  })
+  observer.observe(passage.value)
+})
+onBeforeUnmount(()=>{observer?.disconnect();stop()})
 </script>
 
 <template>
   <div class="article-margin-pair" :class="{'is-folded':foldable && closed}">
     <aside class="article-margin-note" role="note" :aria-label="label" :class="{ 'has-diagram': diagram }">
+      <small v-if="foldable && Number(progressIndex)===0" class="margin-hint">{{ locale==='en'?'Tap a margin note to fold or unfold its passage.':'Tik op een kantlijnnotitie om de passage in of uit te klappen.' }}</small>
+      <span v-if="seen" class="progress-tick" role="img" :aria-label="locale==='en'?'Previously viewed':'Eerder bekeken'" :title="locale==='en'?'Previously viewed':'Eerder bekeken'">✓</span>
       <span class="article-margin-label" aria-hidden="true">{{ label }}</span>
       <button v-if="foldable" ref="toggle" type="button" class="margin-toggle" :aria-expanded="!closed" :aria-controls="passageId" @click="closed=!closed"><span aria-hidden="true">{{ closed ? '▸' : '▾' }}</span> {{ heading }}</button>
       <strong v-else class="article-margin-heading">{{ heading }}</strong>
@@ -30,11 +61,14 @@ function reopen(){closed.value=false;nextTick(()=>toggle.value?.focus({preventSc
     <button v-if="foldable && closed" class="restore-passage" type="button" :aria-controls="passageId" @click="reopen" aria-expanded="false">
       <span class="fold-copy"><span>{{ locale==='en'?'Passage collapsed':'Passage ingeklapt' }}</span><span v-if="detail" class="fold-detail">{{ detail }}</span></span>
       <strong>{{ locale==='en'?'Show passage':'Toon passage' }} ＋</strong></button>
-    <div v-show="!closed" :id="foldable ? passageId : anchor" class="article-margin-passage"><slot /></div>
+    <div ref="passage" v-show="!closed" :id="foldable ? passageId : anchor" class="article-margin-passage"><slot /></div>
   </div>
 </template>
 
 <style scoped>
+.margin-hint{display:block;margin-bottom:.65rem;color:var(--muted);font-size:.78rem;font-style:italic;line-height:1.4}
+.progress-tick{float:right;color:var(--muted);font-size:.8rem}
+@media(hover:hover){.article-margin-note:has(.margin-toggle:hover) .margin-toggle{text-decoration:underline;text-underline-offset:.2em}}
 .margin-toggle{display:block;text-align:start;padding:.35rem 0;background:transparent;border:0;color:var(--ink);font:inherit;font-weight:650;cursor:pointer}
 /* Stretch the native button over its note; keep the cross-reference above it. */
 .article-margin-note:has(.margin-toggle){position:relative;isolation:isolate}
