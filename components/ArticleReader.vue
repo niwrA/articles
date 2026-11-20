@@ -69,8 +69,8 @@ function mobileSection(s: ReturnType<typeof buildArticleOutline>['sections'][num
   function visibleModel(n:Block):Block|null {
     if(!Array.isArray(n)) return null
     if(n[0]==='model-disclosure' && !('notes' in n[1]) && n.slice(2).some(x=>Array.isArray(x) && x[0].includes('-')))
-      return [n[0],{...n[1],open:true},...n.slice(2) as Block[]]
-    if(n[0]==='housing-space-model') return n
+      return [n[0],{...n[1],open:false,locale:props.locale},...n.slice(2) as Block[]]
+    if(n[0]==='housing-space-model') return ['model-disclosure',{title:nl.value?'Interactief model: woonruimte':'Interactive model: housing space',locale:props.locale,open:false},n]
     if(n[0]==='div' && n.length===3){
       const child=visibleModel(n[2])
       if(child) return [n[0],n[1],child]
@@ -116,6 +116,9 @@ const mobileSections=computed(()=>outline.value.sections.map(mobileSection))
 <style scoped>
 .reading-point:not([open]) ~ .outline-prose-tail{display:none}
 .outline-model{min-width:0}
+.outline-model :deep(.model-disclosure){margin:.45rem 0 .85rem;border:1px solid var(--line);border-inline-start:3px solid #84988c;border-radius:.45rem;background:var(--paper)}
+.outline-model :deep(.model-disclosure > summary){background:#edf1ec;border-radius:.3rem;padding:.7rem .85rem}
+.outline-model :deep(.model-disclosure > summary:focus-visible){outline:2px solid var(--ink);outline-offset:2px}
 .reading-switch{background:var(--white);color:var(--ink);border:1px solid var(--line);padding:.65rem .85rem;min-height:44px;font:inherit;font-size:.85rem;margin-bottom:1rem}
 .reading-point{border-top:1px solid var(--line);padding:.35rem 0}
 .reading-point>summary{position:relative;cursor:pointer;list-style:none;min-height:44px;padding:.6rem 2rem .6rem .85rem;border-left:2px solid var(--line)}
