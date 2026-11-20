@@ -6,26 +6,38 @@ withDefaults(defineProps<{
   diagram?: 'arbitration' | 'learning' | 'self'
   locale?: 'en' | 'nl'
   anchor?: string
+  foldable?: boolean
   href?: string
 }>(), { locale: 'nl' })
+const closed=ref(false)
+const passageId=useId()
+const toggle=ref<HTMLButtonElement>()
+function reopen(){closed.value=false;nextTick(()=>toggle.value?.focus({preventScroll:true}))}
 </script>
 
 <template>
-  <div class="article-margin-pair">
+  <div class="article-margin-pair" :class="{'is-folded':foldable && closed}">
     <aside class="article-margin-note" role="note" :aria-label="label" :class="{ 'has-diagram': diagram }">
       <span class="article-margin-label" aria-hidden="true">{{ label }}</span>
-      <strong class="article-margin-heading">{{ heading }}</strong>
-      <div v-if="detail" class="article-margin-detail">{{ detail }}</div>
-      <ArticleMarginVisual v-if="diagram" :diagram="diagram" :locale="locale" />
-      <a v-if="href" class="article-margin-back" :href="href">
+      <button v-if="foldable" ref="toggle" type="button" class="margin-toggle" :aria-expanded="!closed" :aria-controls="passageId" @click="closed=!closed"><span aria-hidden="true">{{ closed ? '▸' : '▾' }}</span> {{ heading }}</button>
+      <strong v-else class="article-margin-heading">{{ heading }}</strong>
+      <div v-if="detail && !closed" class="article-margin-detail">{{ detail }}</div>
+      <ArticleMarginVisual v-if="diagram && !closed" :diagram="diagram" :locale="locale" />
+      <a v-if="href && !closed" class="article-margin-back" :href="href">
         {{ locale === 'en' ? '↶ Back to 01: automatic processing' : '↶ Terug naar 01: automatische verwerking' }}
       </a>
     </aside>
-    <div :id="anchor" class="article-margin-passage"><slot /></div>
+    <button v-if="foldable && closed" class="restore-passage" type="button" :aria-controls="passageId" @click="reopen"><span>{{ locale==='en'?'Passage collapsed':'Passage ingeklapt' }}</span><strong>{{ locale==='en'?'Show passage':'Toon passage' }} ＋</strong></button>
+    <div v-show="!closed" :id="foldable ? passageId : anchor" class="article-margin-passage"><slot /></div>
   </div>
 </template>
 
 <style scoped>
+.margin-toggle{display:block;text-align:start;padding:.35rem 0;background:transparent;border:0;color:var(--ink);font:inherit;font-weight:650;cursor:pointer}
+.margin-toggle>span{color:var(--accent)}
+.restore-passage{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;min-height:44px;padding:.55rem .85rem;border:1px dashed var(--muted);background:var(--paper);color:var(--muted);font:inherit;font-size:.85rem;cursor:pointer}
+.restore-passage strong{color:var(--accent)}
+.article-margin-pair.is-folded{clear:left}
 .article-margin-pair {
   display: grid;
   grid-template-columns: minmax(0, 1fr);

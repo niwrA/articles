@@ -4,6 +4,16 @@ const nl=computed(()=>props.locale==='nl')
 const outline=computed(()=>buildArticleOutline(props.article,props.locale))
 const compact=ref(false), chosen=ref(true), reader=ref<HTMLElement>()
 const folding=computed(()=>compact.value && chosen.value)
+const desktopArticle=computed(()=>{
+  const source=outline.value.full
+  if(props.article.translationKey!=='theory-of-consciousness') return source
+  const value=source.body.value.map((block:any)=>{
+    if(!Array.isArray(block) || block[0]!=='article-margin-track') return block
+    const sections=buildArticleOutline({...source,body:{...source.body,value:[block]}},props.locale).sections
+    return [block[0],block[1],...sections.map(s=>['article-margin-note',{...s.point,anchor:undefined,locale:props.locale,foldable:true},...s.blocks])]
+  })
+  return {...source,body:{...source.body,value}}
+})
 const visited=reactive(new Set<number>())
 const progressKey=()=>['reading-outline',props.article.path,props.article.updatedAt || props.article.date || ''].join(':')
 function restoreOpened(){
@@ -21,11 +31,16 @@ const plain=computed(()=>part(outline.value.sections.flatMap(s=>s.blocks)))
 let media:MediaQueryList|undefined
 function size(){compact.value=!!media?.matches}
 function reveal(){
-  if(!folding.value || !location.hash) return
+  if(!location.hash) return
   let id:string
   try{id=decodeURIComponent(location.hash.slice(1))}catch{return}
   const target=document.getElementById(id)
   if(!target || !reader.value?.contains(target))return
+  const collapsed=target.closest('.article-margin-pair.is-folded')
+  if(collapsed){
+    collapsed.querySelector<HTMLButtonElement>('.margin-toggle')?.click()
+    nextTick(()=>target.scrollIntoView())
+  }
   const group=target.closest<HTMLDetailsElement>('details.reading-point')
   if(group && !group.open){group.open=true; nextTick(()=>target.scrollIntoView())}
 }
@@ -42,7 +57,7 @@ const part=(blocks:any[])=>({...props.article,body:{...props.article.body,value:
     <button v-if="compact" class="reading-switch" type="button" :aria-pressed="folding" @click="chosen=!chosen">
       {{ nl?'In de marge':'In the margin' }} · {{ folding?(nl?'volledige tekst tonen':'show full text'):(nl?'lees als overzicht':'read as outline') }}
     </button>
-    <ContentRenderer v-if="!folding" :value="compact ? plain : outline.full" />
+    <ContentRenderer v-if="!folding" :value="compact ? plain : desktopArticle" />
     <div v-else class="reading-outline">
       <details v-for="(s,i) in outline.sections" :key="i" class="reading-point" @toggle="markOpened($event,i)">
         <summary>
