@@ -51,6 +51,19 @@ onMounted(()=>{restoreOpened();media=matchMedia('(max-width: 767px)');size();med
 onBeforeUnmount(()=>{media?.removeEventListener('change',size);window.removeEventListener('hashchange',reveal)})
 watch(folding,()=>nextTick(reveal))
 const part=(blocks:any[])=>({...props.article,body:{...props.article.body,value:blocks}})
+function mobileSection(s: ReturnType<typeof buildArticleOutline>['sections'][number]) {
+  const text = (node:any):string => typeof node === 'string' ? node : node.slice(2).map(text).join('')
+  const normalize = (value:string) => value.replace(/\s+/g,' ').trim()
+  const first = s.blocks[0]
+  const repeated = Array.isArray(first) && /^h[1-6]$/.test(first[0]) &&
+    normalize(text(first)) === normalize(s.point.heading)
+  const blocks = repeated ? s.blocks.slice(1) : s.blocks
+  const start = blocks[0]
+  const repeatsIntro = !!s.point.detail && Array.isArray(start) && start[0]==='p' &&
+    normalize(text(start)).startsWith(normalize(s.point.detail))
+  return {...s,blocks,headingId:repeated ? first[1].id : undefined,repeatsIntro}
+}
+const mobileSections=computed(()=>outline.value.sections.map(mobileSection))
 </script>
 <template>
   <div id="article-content" ref="reader" class="prose wrap" @click="anchorClick">
@@ -59,11 +72,11 @@ const part=(blocks:any[])=>({...props.article,body:{...props.article.body,value:
     </button>
     <ContentRenderer v-if="!folding" :value="compact ? plain : desktopArticle" />
     <div v-else class="reading-outline">
-      <details v-for="(s,i) in outline.sections" :key="i" class="reading-point" @toggle="markOpened($event,i)">
-        <summary>
+      <details v-for="(s,i) in mobileSections" :key="i" class="reading-point" @toggle="markOpened($event,i)">
+        <summary :id="s.headingId">
           <span class="point-label">{{ s.point.label }} <span v-if="visited.has(i)" class="visited" role="img" :aria-label="nl?'Eerder geopend':'Previously opened'">✓</span></span>
           <strong>{{ s.point.heading }}</strong>
-          <span v-if="s.point.detail" class="point-detail">{{ s.point.detail }}</span>
+          <span v-if="s.point.detail" class="point-detail" :class="{repeated:s.repeatsIntro}">{{ s.point.detail }}</span>
           <ArticleMarginVisual v-if="s.point.diagram" :diagram="s.point.diagram" :locale="locale" />
         </summary>
         <div class="point-passage"><ContentRenderer :value="part(s.blocks)" /></div>
@@ -85,7 +98,9 @@ const part=(blocks:any[])=>({...props.article,body:{...props.article.body,value:
 .point-detail{font-size:.88rem;color:var(--muted);margin-top:.25rem}
 .reading-outline :deep(.reading-breakout > *), .reading-outline :deep(.model-content > *) { max-width:100%;margin-inline:0; }
 .visited{margin-inline-start:.35em;color:var(--muted)}
-.point-passage{display:flow-root;padding-block-start:.85rem}
-.point-passage :deep(> div > :is(h1,h2,h3,h4,h5,h6):first-child){margin-block-start:.3rem}
+.point-passage{display:flow-root;padding-block-start:.55rem}
+.reading-point[open]>summary>.point-detail.repeated{display:none}
+.point-passage :deep(> div > :first-child){margin-block-start:0}
+.point-passage :deep(> div > :last-child){margin-block-end:.65rem}
 @media print{.reading-switch{display:none}}
 </style>
