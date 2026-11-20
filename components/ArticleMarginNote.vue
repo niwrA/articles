@@ -59,8 +59,9 @@ onBeforeUnmount(()=>{observer?.disconnect();stop()})
       </a>
     </aside>
     <button v-if="foldable && closed" class="restore-passage" type="button" :aria-controls="passageId" @click="reopen" aria-expanded="false">
-      <span class="fold-copy"><span>{{ locale==='en'?'Passage collapsed':'Passage ingeklapt' }}</span><span v-if="detail" class="fold-detail">{{ detail }}</span></span>
-      <strong>{{ locale==='en'?'Show passage':'Toon passage' }} ＋</strong></button>
+      <span v-if="detail" class="fold-detail">{{ detail }}</span>
+      <span class="fold-action"><span aria-hidden="true">＋</span> {{ locale==='en'?'Expand passage':'Passage uitklappen' }}</span>
+    </button>
     <div ref="passage" v-show="!closed" :id="foldable ? passageId : anchor" class="article-margin-passage"><slot /></div>
   </div>
 </template>
@@ -76,10 +77,11 @@ onBeforeUnmount(()=>{observer?.disconnect();stop()})
 .margin-toggle:focus-visible::after{outline:2px solid var(--accent);outline-offset:2px}
 .article-margin-note:has(.margin-toggle) .article-margin-back{position:relative;z-index:2}
 .margin-toggle>span{color:var(--accent)}
-.restore-passage{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;min-height:44px;padding:.55rem .85rem;border:1px dashed var(--muted);background:var(--paper);color:var(--muted);font:inherit;font-size:.85rem;cursor:pointer}
-.fold-copy{display:grid;gap:.2rem;text-align:start;min-width:0}
-.fold-detail{color:var(--ink);line-height:1.45}
-.restore-passage strong{flex:none;color:var(--accent)}
+.restore-passage{display:grid;align-content:center;justify-items:start;gap:.2rem;width:100%;min-height:44px;padding:.3rem .75rem;border:0;border-inline-start:2px solid var(--line);background:transparent;color:var(--ink);text-align:start;font:inherit;cursor:pointer}
+.fold-detail{font-size:.89rem;line-height:1.45}
+.fold-action{color:var(--muted);font-size:.76rem;line-height:1.4}
+.restore-passage:focus-visible .fold-action{text-decoration:underline}
+@media(hover:hover){.restore-passage:hover .fold-action{color:var(--accent);text-decoration:underline}}
 .article-margin-pair.is-folded{clear:left}
 .article-margin-pair {
   display: grid;
