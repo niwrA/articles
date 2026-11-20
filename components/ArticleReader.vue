@@ -132,9 +132,6 @@ const mobileSections=computed(()=>outline.value.sections.map(mobileSection))
   padding:.7rem .85rem .7rem calc(.85rem + 2px);
 }
 .outline-model :deep(.model-disclosure > summary:focus-visible){outline:2px solid var(--ink);outline-offset:2px}
-.outline-model :deep(.model-disclosure){margin:.45rem 0 .85rem;border:1px solid var(--line);border-inline-start:3px solid #84988c;border-radius:.45rem;background:var(--paper)}
-.outline-model :deep(.model-disclosure > summary){background:#edf1ec;border-radius:.3rem;padding:.7rem .85rem}
-.outline-model :deep(.model-disclosure > summary:focus-visible){outline:2px solid var(--ink);outline-offset:2px}
 .reading-switch{background:var(--white);color:var(--ink);border:1px solid var(--line);padding:.65rem .85rem;min-height:44px;font:inherit;font-size:.85rem;margin-bottom:1rem}
 .reading-point{border-top:1px solid var(--line);padding:.35rem 0}
 .reading-point>summary{position:relative;cursor:pointer;list-style:none;min-height:44px;padding:.6rem 2rem .6rem .85rem;border-left:2px solid var(--line)}
