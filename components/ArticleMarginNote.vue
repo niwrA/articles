@@ -27,7 +27,9 @@ function reopen(){closed.value=false;nextTick(()=>toggle.value?.focus({preventSc
         {{ locale === 'en' ? '↶ Back to 01: automatic processing' : '↶ Terug naar 01: automatische verwerking' }}
       </a>
     </aside>
-    <button v-if="foldable && closed" class="restore-passage" type="button" :aria-controls="passageId" @click="reopen"><span>{{ locale==='en'?'Passage collapsed':'Passage ingeklapt' }}</span><strong>{{ locale==='en'?'Show passage':'Toon passage' }} ＋</strong></button>
+    <button v-if="foldable && closed" class="restore-passage" type="button" :aria-controls="passageId" @click="reopen" aria-expanded="false">
+      <span class="fold-copy"><span>{{ locale==='en'?'Passage collapsed':'Passage ingeklapt' }}</span><span v-if="detail" class="fold-detail">{{ detail }}</span></span>
+      <strong>{{ locale==='en'?'Show passage':'Toon passage' }} ＋</strong></button>
     <div v-show="!closed" :id="foldable ? passageId : anchor" class="article-margin-passage"><slot /></div>
   </div>
 </template>
@@ -36,7 +38,9 @@ function reopen(){closed.value=false;nextTick(()=>toggle.value?.focus({preventSc
 .margin-toggle{display:block;text-align:start;padding:.35rem 0;background:transparent;border:0;color:var(--ink);font:inherit;font-weight:650;cursor:pointer}
 .margin-toggle>span{color:var(--accent)}
 .restore-passage{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;min-height:44px;padding:.55rem .85rem;border:1px dashed var(--muted);background:var(--paper);color:var(--muted);font:inherit;font-size:.85rem;cursor:pointer}
-.restore-passage strong{color:var(--accent)}
+.fold-copy{display:grid;gap:.2rem;text-align:start;min-width:0}
+.fold-detail{color:var(--ink);line-height:1.45}
+.restore-passage strong{flex:none;color:var(--accent)}
 .article-margin-pair.is-folded{clear:left}
 .article-margin-pair {
   display: grid;
