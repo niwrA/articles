@@ -58,10 +58,11 @@ onBeforeUnmount(()=>{observer?.disconnect();stop()})
         {{ locale === 'en' ? '↶ Back to 01: automatic processing' : '↶ Terug naar 01: automatische verwerking' }}
       </a>
     </aside>
-    <button v-if="foldable && closed" class="restore-passage" type="button" :aria-controls="passageId" @click="reopen" aria-expanded="false">
+    <div v-if="foldable && closed" class="restore-passage">
       <span v-if="detail" class="fold-detail">{{ detail }}</span>
-      <span class="fold-action"><span aria-hidden="true">＋</span> {{ locale==='en'?'Expand passage':'Passage uitklappen' }}</span>
-    </button>
+      <ArticleMarginVisual v-if="diagram" :diagram="diagram" :locale="locale" />
+      <button class="fold-action" type="button" :aria-controls="passageId" aria-expanded="false" @click="reopen"><span aria-hidden="true">＋</span> {{ locale==='en'?'Expand passage':'Passage uitklappen' }}</button>
+    </div>
     <div ref="passage" v-show="!closed" :id="foldable ? passageId : anchor" class="article-margin-passage"><slot /></div>
   </div>
 </template>
@@ -77,10 +78,11 @@ onBeforeUnmount(()=>{observer?.disconnect();stop()})
 .margin-toggle:focus-visible::after{outline:2px solid var(--accent);outline-offset:2px}
 .article-margin-note:has(.margin-toggle) .article-margin-back{position:relative;z-index:2}
 .margin-toggle>span{color:var(--accent)}
-.restore-passage{display:grid;align-content:center;justify-items:start;gap:.2rem;width:100%;min-height:44px;padding:.3rem .75rem;border:0;border-inline-start:2px solid var(--line);background:transparent;color:var(--ink);text-align:start;font:inherit;cursor:pointer}
+.restore-passage{position:relative;box-sizing:border-box;display:grid;align-content:center;justify-items:start;gap:.2rem;width:100%;min-height:44px;padding:.3rem .75rem;border:0;border-inline-start:2px solid var(--line);background:transparent;color:var(--ink);text-align:start;font:inherit;cursor:pointer}
 .fold-detail{font-size:.89rem;line-height:1.45}
-.fold-action{color:var(--muted);font-size:.76rem;line-height:1.4}
-.restore-passage:focus-visible .fold-action{text-decoration:underline}
+.fold-action::after{content:'';position:absolute;inset:0}
+.fold-action{border:0;padding:0;background:transparent;font:inherit;cursor:pointer;color:var(--muted);font-size:.76rem;line-height:1.4}
+.fold-action:focus-visible{text-decoration:underline}
 @media(hover:hover){.restore-passage:hover .fold-action{color:var(--accent);text-decoration:underline}}
 .article-margin-pair.is-folded{clear:left}
 .article-margin-pair {
