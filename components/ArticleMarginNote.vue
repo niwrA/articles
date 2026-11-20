@@ -36,6 +36,11 @@ function reopen(){closed.value=false;nextTick(()=>toggle.value?.focus({preventSc
 
 <style scoped>
 .margin-toggle{display:block;text-align:start;padding:.35rem 0;background:transparent;border:0;color:var(--ink);font:inherit;font-weight:650;cursor:pointer}
+/* Stretch the native button over its note; keep the cross-reference above it. */
+.article-margin-note:has(.margin-toggle){position:relative;isolation:isolate}
+.margin-toggle::after{content:'';position:absolute;inset:0;z-index:1;cursor:pointer}
+.margin-toggle:focus-visible::after{outline:2px solid var(--accent);outline-offset:2px}
+.article-margin-note:has(.margin-toggle) .article-margin-back{position:relative;z-index:2}
 .margin-toggle>span{color:var(--accent)}
 .restore-passage{display:flex;align-items:center;justify-content:space-between;gap:1rem;width:100%;min-height:44px;padding:.55rem .85rem;border:1px dashed var(--muted);background:var(--paper);color:var(--muted);font:inherit;font-size:.85rem;cursor:pointer}
 .fold-copy{display:grid;gap:.2rem;text-align:start;min-width:0}
