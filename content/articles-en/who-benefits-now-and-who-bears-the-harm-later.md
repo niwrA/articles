@@ -47,6 +47,26 @@ modelLimitations:
   - Not all social, environmental or health consequences can be expressed reliably in money.
   - The model does not provide a complete moral, legal, accounting or financial-supervision judgement.
 draft: false
+outlineNotes:
+  - heading: "From an exact amount to risk scenarios"
+    detail: "A range of plausible harms can guide a decision even when no single cost can be defended."
+  - heading: "Future value, environmental harm and other hidden costs"
+    detail: "Ask when future benefits and harms happen, who receives them and which consequences remain unpriced."
+  - heading: "Management rewards can separate time from responsibility"
+    detail: "Paying rewards before the harms emerge can leave the decision maker with little stake in what happens next."
+  - heading: "Severity alone does not determine prevention"
+    detail: "A severe sanction has little deterrent effect if harm is rarely detected, attributed or acted on."
+    diagram: accountability-chain
+  - heading: "Regulating responsibility independently of form"
+    detail: "Responsibility should track actual control and foreseeable consequences across different legal or product forms."
+  - heading: "Pay later"
+    detail: "A short delay can look cheap while leaving the buyer exposed to substantial costs if repayment fails."
+  - heading: "Hedging and speculation"
+    detail: "Similar contracts can reduce an existing exposure or create a new one. Assess what risk the transaction actually changes."
+  - heading: "What could limit or refute the framework?"
+    detail: "The framework needs observable effects and limits, including costs or side effects that could outweigh its gains."
+  - heading: "Conclusion"
+    detail: "Aim to bring decisions and consequences closer together where influence and foreseeable harm justify responsibility."
 ---
 
 A company can profit today from a decision whose real costs become visible only years later. Deferred maintenance may temporarily improve margins and subsequently cause failures. A product may grow rapidly while addiction risks, health harm or problematic debt emerge only after widespread adoption. Pollution may fall outside the enterprise and reach neighbours or future generations.

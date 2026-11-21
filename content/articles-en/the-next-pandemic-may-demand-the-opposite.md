@@ -44,6 +44,23 @@ modelLimitations:
   - Real use requires current pathogen-specific evidence, local capacity, and legal, ethical and economic review.
   - The ranking demonstrates decision logic; it is not medical advice or a recommendation for real policy.
 draft: false
+outlineNotes:
+  - heading: "An important answer that arrived remarkably late—and quietly"
+    detail: "A review can arrive too late to guide the decisions that produced it. Plan the learning before the next crisis."
+  - heading: "The same category can hide different systems"
+    detail: "A shared label can conceal differences in who is affected and how a disease spreads; those differences change which measures matter."
+  - heading: "Profile the disease and situation first"
+    detail: "Incubation, latency and infectiousness answer different questions. Keeping them apart avoids starting from the wrong timeline."
+  - heading: "From profile to package, not a single winner"
+    detail: "Look for measures that work together in this situation and weigh the burdens of the package as a whole."
+  - heading: "Facts do not calculate values"
+    detail: "Evidence can show likely effects; deciding whose costs and benefits get priority still requires a judgement."
+  - heading: "Uncertainty changes the question"
+    detail: "Prefer choices that still make sense across plausible scenarios, and ask which new evidence could change them."
+  - heading: "Decide in advance what should change the decision"
+    detail: "Set review points and agree in advance what would lead to relaxing, tightening or replacing a measure."
+  - heading: "The model must be able to contradict itself"
+    detail: "A useful decision model can change its recommendation when the circumstances or assumptions change."
 ---
 
 After COVID-19, many debates have examined which measures worked, arrived too late or caused more harm than expected. That evaluation is necessary, but it can also trap preparedness inside the previous crisis. The next serious outbreak need not involve a respiratory virus, transmission before symptoms or the same pressure on hospitals. A plan that chiefly remembers measures therefore learns less than a system that remembers **why** a measure made sense under particular conditions.

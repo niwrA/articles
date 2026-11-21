@@ -47,6 +47,26 @@ modelLimitations:
   - Niet alle maatschappelijke, ecologische of gezondheidsgevolgen kunnen betrouwbaar in geld worden uitgedrukt.
   - Het model geeft geen volledig moreel, juridisch, boekhoudkundig of financieel-toezichtsoordeel.
 draft: false
+outlineNotes:
+  - heading: "Van een exact bedrag naar risicoscenario’s"
+    detail: "Een reeks aannemelijke schades kan een besluit sturen, ook als één exact bedrag niet te verdedigen is."
+  - heading: "Toekomstige waarde, milieuschade en andere verborgen kosten"
+    detail: "Vraag wanneer latere baten en schade optreden, bij wie ze terechtkomen en welke gevolgen geen prijs hebben."
+  - heading: "Managementbeloning kan tijd en verantwoordelijkheid losmaken"
+    detail: "Beloningen uitkeren voordat de schade zichtbaar wordt, kan de beslisser weinig belang geven bij wat er daarna gebeurt."
+  - heading: "Zwaarte alleen bepaalt de preventieve werking niet"
+    detail: "Een zware sanctie schrikt weinig af als schade zelden wordt ontdekt, toegerekend of opgevolgd."
+    diagram: accountability-chain
+  - heading: "Verantwoordelijkheid vormneutraal regelen"
+    detail: "Verantwoordelijkheid moet in verschillende juridische vormen of producten aansluiten bij feitelijke zeggenschap en voorzienbare gevolgen."
+  - heading: "Achteraf betalen"
+    detail: "Kort uitstel kan goedkoop lijken terwijl de koper hoge kosten riskeert als terugbetaling misgaat."
+  - heading: "Afdekking en speculatie"
+    detail: "Vergelijkbare contracten kunnen een bestaand risico verkleinen of een nieuw risico scheppen. Kijk welk risico de transactie feitelijk verandert."
+  - heading: "Wat zou het kader beperken of weerleggen?"
+    detail: "Het kader vraagt om waarneembare effecten en grenzen, waaronder kosten of bijwerkingen die de baten kunnen overtreffen."
+  - heading: "Conclusie"
+    detail: "Breng besluiten en gevolgen dichter bij elkaar waar invloed en voorzienbare schade verantwoordelijkheid rechtvaardigen."
 ---
 
 Een bedrijf kan vandaag winst maken met een besluit waarvan de werkelijke kosten pas jaren later zichtbaar worden. Achterstallig onderhoud verhoogt tijdelijk de marge, maar kan later tot storingen leiden. Een product kan snel groeien, terwijl verslavingsrisico, gezondheidsschade of problematische schulden zich pas na brede verspreiding aftekenen. Vervuiling kan buiten de onderneming bij omwonenden of toekomstige generaties belanden.

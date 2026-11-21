@@ -39,6 +39,26 @@ modelLimitations:
 aiReviewModel: GPT-6.1 Sol
 aiReviewDate: 2026-10-09
 draft: false
+outlineNotes:
+  - heading: "An agent is a system, not merely a model"
+    detail: "Follow a decision from goal and memory through tools to its effects. Safety depends on that whole chain."
+  - heading: "Capability, utility and authorization"
+    detail: "An action can be possible and useful while still requiring permission from someone else."
+    diagram: agent-permission
+  - heading: "Why a safe agent must still learn"
+    detail: "The system needs to adapt to unfamiliar situations without granting itself broader powers."
+  - heading: "Stable knowledge resource, adaptive agent"
+    detail: "Keep shared knowledge inspectable while letting the agent form provisional judgements from new experience."
+  - heading: "Skills as inspectable data"
+    detail: "Treat a newly learned skill as something to inspect and validate before allowing it to run."
+  - heading: "Working memory, attention and truth"
+    detail: "What is salient for this task can shape the next decision without becoming a permanent fact."
+  - heading: "Learning from failure without learning the wrong lesson"
+    detail: "A failure can teach the wrong lesson if the system records an outcome without its circumstances or cause."
+  - heading: "What experiments would count?"
+    detail: "Test whether learning improves performance while permission boundaries still hold in unfamiliar cases."
+  - heading: "Safety as architecture"
+    detail: "Independent enforcement and a trace of decisions give people a way to contain and understand failures."
 ---
 
 Imagine an AI agent assigned an apparently harmless task. It has a goal, access to tools and the ability to decide what to do next. During execution it encounters an obstacle: a website blocks automated access, a tool refuses a request or the environment prevents one step. A narrowly goal-directed system can treat the obstacle mainly as something to overcome. If sufficiently capable, it may discover an alternative route that its operator neither intended nor authorized.

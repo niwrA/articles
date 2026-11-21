@@ -36,6 +36,23 @@ modelLimitations:
 aiReviewModel: GPT-5.6 Sol
 aiReviewDate: 2026-09-10
 draft: false
+outlineNotes:
+  - heading: "Autobesitas"
+    detail: "Grotere auto’s worden mede de norm doordat de markt andere keuzes aanbiedt en beloont dan vroeger."
+  - heading: "Massagedrag"
+    detail: "Extra massa verandert de gevolgen van een botsing, ook voor mensen buiten de zwaardere auto."
+  - heading: "Kwestie van perspectief"
+    detail: "Een auto die veilig voelt vanuit de bestuurdersstoel kan een deel van het risico verschuiven naar anderen."
+  - heading: "\"Geef me de ruimte\""
+    detail: "Breedte en lengte maken van een particuliere aankoop ook een vraag over gedeelde ruimte op straat en op parkeerterreinen."
+  - heading: "Energiek op pad"
+    detail: "Een grotere auto kan meer energie vragen om te rijden, ongeacht welke techniek die energie levert."
+  - heading: "De functionele vraag"
+    detail: "Scheid wat de auto elke week moet kunnen van de extra ruimte die je maar een paar dagen nodig hebt."
+  - heading: "De gedeelde verantwoordelijkheid"
+    detail: "Ontwerp, aanbod en beleid bepalen mede welke keuzes mensen in de praktijk hebben."
+  - heading: "Conclusie"
+    detail: "Beoordeel het formaat aan de hand van werkelijk gebruik en de extra ruimte, energie en risico’s voor anderen."
 ---
 
 ---

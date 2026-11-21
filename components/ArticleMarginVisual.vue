@@ -1,5 +1,115 @@
 <script setup lang="ts">
-withDefaults(defineProps<{diagram:string;locale?:string}>(), { locale: "nl" })
+const props = withDefaults(defineProps<{diagram:string;locale?:string}>(), { locale: "nl" })
+type MarginSteps = { items: string[]; caption: string }
+const sequences: Record<string, Record<'nl' | 'en', MarginSteps>> = {
+  "agent-permission": {
+    "en": {
+      "items": [
+        "Can it do this?",
+        "Would it help?",
+        "Is it authorised?"
+      ],
+      "caption": "Three different questions about the same action."
+    },
+    "nl": {
+      "items": [
+        "Kan het dit?",
+        "Helpt het?",
+        "Mag het dit?"
+      ],
+      "caption": "Drie afzonderlijke vragen over dezelfde handeling."
+    }
+  },
+  "skill-evidence": {
+    "en": {
+      "items": [
+        "Capability: what can you do?",
+        "Evidence: what shows it?",
+        "Authority: what may you do?"
+      ],
+      "caption": "Each needs its own answer."
+    },
+    "nl": {
+      "items": [
+        "Vaardigheid: wat kun je?",
+        "Bewijs: waar blijkt het uit?",
+        "Bevoegdheid: wat mag je?"
+      ],
+      "caption": "Elke vraag vraagt een eigen antwoord."
+    }
+  },
+  "cup-break-even": {
+    "en": {
+      "items": [
+        "Reusable: make once, then wash per use",
+        "Disposable: make and discard per use"
+      ],
+      "caption": "Where the totals cross depends on washing and how long the mug stays in use."
+    },
+    "nl": {
+      "items": [
+        "Herbruikbaar: één keer maken, daarna per gebruik afwassen",
+        "Wegwerp: per gebruik maken en afdanken"
+      ],
+      "caption": "Waar de totalen elkaar kruisen hangt af van de afwas en hoe lang de mok meegaat."
+    }
+  },
+  "sport-loop": {
+    "en": {
+      "items": [
+        "Invest locally",
+        "More reasons to play and watch",
+        "A stronger base for reinvestment"
+      ],
+      "caption": "A possible feedback loop; the outcome depends on how funds are used."
+    },
+    "nl": {
+      "items": [
+        "Investeer lokaal",
+        "Meer redenen om te spelen en te kijken",
+        "Een sterkere basis om opnieuw te investeren"
+      ],
+      "caption": "Een mogelijke terugkoppeling. De uitkomst hangt af van de besteding."
+    }
+  },
+  "payment-order": {
+    "en": {
+      "items": [
+        "Reserve available funds",
+        "Check delivery, cancellation or return",
+        "Settle or release the reservation"
+      ],
+      "caption": "A proposed order-linked payment flow."
+    },
+    "nl": {
+      "items": [
+        "Reserveer beschikbaar geld",
+        "Controleer levering, annulering of retour",
+        "Reken af of geef de reservering vrij"
+      ],
+      "caption": "Een voorgestelde koppeling tussen bestelling en betaling."
+    }
+  },
+  "accountability-chain": {
+    "en": {
+      "items": [
+        "Detect the harm",
+        "Attribute responsibility",
+        "Enforce the consequence"
+      ],
+      "caption": "A weak link reduces deterrence even when the sanction is severe."
+    },
+    "nl": {
+      "items": [
+        "Ontdek de schade",
+        "Reken verantwoordelijkheid toe",
+        "Handhaaf de consequentie"
+      ],
+      "caption": "Een zwakke schakel vermindert de afschrikking, ook bij een zware sanctie."
+    }
+  }
+}
+const sequence = computed(() => sequences[props.diagram]?.[props.locale === 'en' ? 'en' : 'nl'])
 </script>
 <template>
 <figure v-if="diagram === 'arbitration'" class="article-margin-fork">
@@ -80,6 +190,10 @@ withDefaults(defineProps<{diagram:string;locale?:string}>(), { locale: "nl" })
           <li>{{ locale === 'en' ? 'History: what have I learned?' : 'Verleden: wat heb ik geleerd?' }}</li>
         </ol>
         <figcaption>{{ locale === 'en' ? 'Examples of layers in the essay’s self-model' : 'Voorbeelden van lagen in het zelfmodel uit het essay' }}</figcaption>
+      </figure>
+      <figure v-else-if="sequence" class="article-margin-sequence">
+        <ol><li v-for="item in sequence.items" :key="item">{{ item }}</li></ol>
+        <figcaption>{{ sequence.caption }}</figcaption>
       </figure>
 </template>
 <style scoped>

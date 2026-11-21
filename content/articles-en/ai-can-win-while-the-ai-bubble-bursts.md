@@ -37,6 +37,25 @@ modelLimitations:
   - Costs, consumption propensities and relative compute units are visible scenario assumptions.
   - Prices, taxes, monetary policy, international trade and new industries are only partly modelled or omitted.
 draft: false
+outlineNotes:
+  - heading: "AI creates too little value, or creates it too slowly"
+    detail: "A useful product can arrive too late to pay back infrastructure built for demand today."
+  - heading: "AI creates substantial value but redistributes income"
+    detail: "Saving labour changes whose income supports demand. Lower costs alone say little about who gains purchasing power."
+  - heading: "AI succeeds but needs less recurring compute"
+    detail: "Count the work that still needs a large model after the process has become routine."
+  - heading: "From generative model to cheap execution"
+    detail: "A large model can help design a procedure once; a small model or ordinary software can then repeat it."
+  - heading: "The return of the expert system"
+    detail: "Once a task’s rules are understood, a specialised system can carry them out more predictably and cheaply."
+  - heading: "Why efficiency may still raise total demand"
+    detail: "Cheaper tasks may attract enough new use to outweigh the savings on existing work."
+  - heading: "Geopolitics expands the number of technological paths"
+    detail: "Chip restrictions and industrial policy can push regions toward different ways of obtaining the same computational result."
+  - heading: "When does capacity become underused?"
+    detail: "Watch the gap between capacity coming online and demand at prices that can pay for it."
+  - heading: "Conclusion"
+    detail: "AI’s success and the returns on today’s data centre investments can move in different directions."
 ---
 
 Debate about the current wave of artificial-intelligence investment is often reduced to one question: is AI a bubble?

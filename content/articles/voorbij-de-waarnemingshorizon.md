@@ -36,6 +36,41 @@ modelLimitations:
 aiReviewModel: GPT-5.6 Sol
 aiReviewDate: 2026-09-10
 draft: false
+outlineNotes:
+  - heading: "Zwartegatsterren en de verborgen dynamiek van een levend heelal"
+    detail: "Zwartegatsterren in wording maken de vraag concreter wat sterk geconcentreerde materie kan doen. Ze vertellen nog niet wat er achter een horizon gebeurt."
+  - heading: "Zwaartekracht: de grote verzamelaar"
+    detail: "Een kleine concentratie kan extra materie aantrekken en zo verder groeien."
+  - heading: "Als je materie samenperst, verandert ze"
+    detail: "Compressie verandert temperatuur, druk en de toestand van materie. Daardoor kunnen ook krachten ontstaan die verdere instorting tegengaan."
+  - heading: "Wat als we nog harder persen?"
+    detail: "Bij verdere instorting veranderen de omstandigheden zo sterk dat de materie andere vormen kan aannemen."
+  - heading: "Zelfs licht en materie zijn minder verschillend dan ze lijken"
+    detail: "Onder passende omstandigheden kan straling in deeltjes worden omgezet en omgekeerd, binnen de natuurkundige behoudswetten."
+  - heading: "Een zwart gat is geen kosmische stofzuiger"
+    detail: "Een zwart gat met dezelfde massa als de zon zou de aarde op grote afstand niet sterker aantrekken."
+  - heading: "De grens waar we het spoor kwijtraken"
+    detail: "De horizon geeft aan vanwaar signalen niet meer naar de buitenwereld kunnen terugkeren."
+  - heading: "Kijk eens naar wat er vlak vóór die horizon gebeurt"
+    detail: "Materie met draai-impuls valt doorgaans niet direct naar binnen. In de schijf rondom het zwarte gat kunnen warmte en straling vrijkomen."
+  - heading: "Een zwart gat kan een heel sterrenstelsel veranderen"
+    detail: "Energie uit de omgeving van een zwart gat kan ver daarbuiten gas beïnvloeden en daarmee de omstandigheden voor stervorming veranderen."
+  - heading: "En dan verschijnt de zwartegatster"
+    detail: "Een groeiend zwart gat in een dichte gasmantel is een mogelijke uitleg voor sommige Little Red Dots."
+  - heading: "En nu gaan we naar binnen"
+    detail: "Hier verschuift het artikel van waarneembare processen naar vragen over een gebied dat geen signalen terugstuurt."
+  - heading: "Wat gebeurt er als we nóg verder gaan?"
+    detail: "Bekende faseovergangen maken de vraag naar nog extremere toestanden zinvol. Ze tonen niet aan dat zo’n volgende overgang bestaat."
+  - heading: "Kan een zwart gat ooit “ontploffen”?"
+    detail: "Een gewone explosie biedt van binnenuit geen ontsnappingsroute. Een ander scenario zou een nieuwe fysische verklaring vragen."
+  - heading: "Van samenpersen naar nieuwe structuur?"
+    detail: "Een nieuwe uitdijing is hier een gedachte-experiment. Om weer structuur te krijgen zijn ook verschillen nodig die kunnen groeien."
+  - heading: "Een heelal dat nooit stilstaat"
+    detail: "Plaatselijke concentratie kan samengaan met uitdijing op grote schaal. Het heelal doet beide tegelijk."
+  - heading: "Misschien is het “gat” wel het minst interessante deel"
+    detail: "Wat we al kunnen onderzoeken is hoe zwarte gaten hun omgeving veranderen. Wat erbinnen gebeurt blijft een open vraag."
+  - heading: "Verder lezen"
+    detail: "De uitgebreidere Engelse versie werkt de stap van waarneming naar speculatie verder uit."
 ---
 
 ### Zwartegatsterren en de verborgen dynamiek van een levend heelal

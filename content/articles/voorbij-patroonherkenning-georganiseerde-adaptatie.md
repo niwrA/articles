@@ -39,6 +39,25 @@ modelLimitations:
 aiReviewModel: GPT-6.1 Sol
 aiReviewDate: 2026-10-09
 draft: false
+outlineNotes:
+  - heading: "Herkenning is belangrijk, maar niet voldoende"
+    detail: "Een patroon herkennen, ontbrekende delen invullen en voorspellen wat volgt zijn verschillende opgaven."
+  - heading: "Blijvende kennis en actuele toestand"
+    detail: "Een bekend onderdeel kan terugkomen in een onbekende combinatie als het systeem die combinatie tijdelijk kan vasthouden."
+  - heading: "Biologische berekening vindt op meerdere niveaus plaats"
+    detail: "Signalen, netwerken en grotere systemen werken op verschillende schalen. Eén niveau verklaart maar een deel van het rekenwerk."
+  - heading: "Een architectuur die is ingericht om zich te ontwikkelen"
+    detail: "Een systeem dat zich ontwikkelt heeft manieren nodig om wat het leert op te bouwen en gaandeweg te herzien."
+  - heading: "Aandacht bepaalt wat hierna wordt berekend"
+    detail: "Aandacht verdeelt beperkte verwerkingsruimte over wat voor de huidige taak van belang is."
+  - heading: "Neuromodulatie verandert de bedrijfsmodus"
+    detail: "Neuromodulatie kan veranderen hoe zwaar signalen wegen en hoe gemakkelijk ervaring het systeem verandert."
+  - heading: "Snel leren en de prijs van generalisatie"
+    detail: "Eén voorbeeld snel leren helpt nu. Toepassing elders vraagt aanwijzingen voor wat de gevallen gemeen hebben."
+  - heading: "Een raamwerk van georganiseerde adaptatie"
+    detail: "Blijvende kennis, tijdelijke toestand, gerichte aandacht en leren moeten met elkaar samenwerken."
+  - heading: "Wat dit voor kunstmatige intelligentie betekent"
+    detail: "De bruikbare les voor AI gaat over het organiseren van aanpassing op verschillende tijdschalen. Dat kan op meerdere manieren."
 ---
 
 Wat doet het brein eigenlijk? Het is verleidelijk om één principe als antwoord te geven. Het herkent patronen, voorspelt wat volgt, minimaliseert verrassing of leert associaties. Iedere verklaring raakt iets wezenlijks, maar geen ervan verklaart afzonderlijk de flexibiliteit van biologische intelligentie. Een mens kan een gezicht herkennen, een nooit bestaand object verbeelden, een nieuw probleem oplossen, van één gevaarlijke gebeurtenis leren en later opnieuw beoordelen wat die ervaring betekende.

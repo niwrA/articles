@@ -3,7 +3,7 @@ const props=withDefaults(defineProps<{
   label: string
   heading: string
   detail?: string
-  diagram?: 'arbitration' | 'learning' | 'self' | 'vote-entry' | 'power-loop' | 'institutional-tests' | 'housing-dilution' | 'tango-proposal' | 'energy-rebound'
+  diagram?: string
   locale?: 'en' | 'nl'
   anchor?: string
   progressIndex?: number

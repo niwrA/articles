@@ -36,6 +36,31 @@ modelLimitations:
   - "Een open protocol voorkomt niet vanzelf economische machtsconcentratie, spam of misbruik."
   - "Herkomst maakt een publicatie controleerbaar, maar bewijst niet dat de inhoud waar is."
 draft: false
+outlineNotes:
+  - heading: "Hoe een AI-systeem een vraag behandelt"
+    detail: "Achter één antwoord gaan keuzes schuil over de formulering van de vraag, de gevonden bronnen en wat buiten beeld blijft."
+  - heading: "Het web kan open blijven terwijl toegang zich sluit"
+    detail: "Bronnen kunnen openbaar blijven terwijl de route waarlangs de meeste lezers ze vinden bij enkele aanbieders belandt."
+  - heading: "De oude ruil met uitgevers verzwakt"
+    detail: "Als antwoorden bezoeken vervangen, kunnen uitgevers het onderliggende werk blijven leveren zonder er evenveel lezers voor terug te krijgen."
+  - heading: "Wat zou een gedeelde kennislaag veranderen?"
+    detail: "Met stabiele verwijzingen kunnen verschillende systemen dezelfde bron gebruiken en erkennen, inclusief de versie die ze echt raadpleegden."
+  - heading: "Hebben we daarvoor een nieuwe laag nodig?"
+    detail: "Begin bij wat bestaande webstandaarden al kunnen. Voeg alleen infrastructuur toe voor functies die daarmee nog niet betrouwbaar werken."
+  - heading: "Hoe vinden verschillende diensten dezelfde bronnen?"
+    detail: "Gedeelde identificatoren laten verschillende zoeksystemen naar dezelfde bron verwijzen zonder dezelfde rangschikking of hetzelfde model te gebruiken."
+  - heading: "Hoe kan een maker een correctie doorgeven?"
+    detail: "Een correctie heeft een blijvende koppeling met de eerdere bewering nodig, zodat een antwoord kan tonen welke versie het gebruikte."
+  - heading: "Hoe kan een lezer een antwoord beoordelen?"
+    detail: "Lezers moeten kunnen zien welke bronnen een bewering steunen en waar het systeem zelf een gevolgtrekking maakte."
+  - heading: "Kan een kleiner model dezelfde bronnen benutten?"
+    detail: "Door brontoegang los te maken van het antwoordmodel kunnen kleinere modellen hetzelfde materiaal gebruiken."
+  - heading: "Hoe maken we aanbieders vervangbaar?"
+    detail: "Een aanbieder is vervangbaar als bij een overstap identiteit, bronnen en hun geschiedenis behouden blijven."
+  - heading: "Welke problemen moet een open kennislaag oplossen?"
+    detail: "Openheid laat problemen rond misbruik, rangschikking, vertrouwen en financiering bestaan. Diensten moeten daarin verschillende keuzes kunnen maken."
+  - heading: "Beslis over eigenschappen voordat de standaard vastligt"
+    detail: "Bepaal wat overdraagbaar en controleerbaar moet blijven voordat de interfaces van nu de enige praktische route naar kennis worden."
 ---
 
 Het internet maakte ooit een opmerkelijke architectuurkeuze. Niemand bezit HTTP. Voor een webserver is geen toestemming van Google, Microsoft of Amazon nodig. Iedereen kan een browser bouwen en een website publiceren. Daarboven zijn zoekmachines, cloudplatforms en sociale media sterk geconcentreerd geraakt, maar daaronder ligt een duurzamere verzameling open protocollen. Als Google morgen verdwijnt, verdwijnt het web niet mee.

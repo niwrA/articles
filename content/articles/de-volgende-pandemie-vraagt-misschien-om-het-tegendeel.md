@@ -44,6 +44,23 @@ modelLimitations:
   - Een echte toepassing vereist actuele pathogeenspecifieke gegevens, lokale capaciteit en juridische, ethische en economische toetsing.
   - De rangorde demonstreert beslislogica en is geen medisch advies of aanbeveling voor werkelijk beleid.
 draft: false
+outlineNotes:
+  - heading: "Een belangrijk antwoord dat opvallend laat en stil kwam"
+    detail: "Een evaluatie kan te laat komen om de beslissingen te sturen die eraan voorafgingen. Bedenk vóór de volgende crisis hoe je gaat leren."
+  - heading: "Dezelfde categorie, een ander systeemprobleem"
+    detail: "Eenzelfde label kan verschillen in verspreiding en kwetsbaarheid verhullen. Die verschillen bepalen welke maatregelen zin hebben."
+  - heading: "Eerst een ziekte- en situatieprofiel"
+    detail: "Incubatie, latentie en besmettelijkheid beantwoorden verschillende vragen. Met dat onderscheid voorkom je een verkeerde tijdlijn."
+  - heading: "Van profiel naar een pakket, niet naar één winnaar"
+    detail: "Zoek maatregelen die in deze situatie op elkaar aansluiten en weeg de belasting van het hele pakket."
+  - heading: "Feiten berekenen geen waarden"
+    detail: "Onderzoek kan waarschijnlijke effecten tonen. Wie welke kosten en baten draagt en wat zwaarder weegt, blijft een afweging."
+  - heading: "Onzekerheid verandert de vraag"
+    detail: "Kies bij voorkeur maatregelen die in meerdere aannemelijke scenario’s passen en vraag welk nieuw bewijs de keuze kan veranderen."
+  - heading: "Vooraf afspreken wanneer het oordeel verandert"
+    detail: "Spreek vooraf af wanneer je opnieuw kijkt en welke bevinding tot versoepeling, aanscherping of vervanging leidt."
+  - heading: "Het model moet zichzelf kunnen tegenspreken"
+    detail: "Een bruikbaar beslismodel kan van aanbeveling veranderen zodra omstandigheden of aannames veranderen."
 ---
 
 Na COVID-19 is veel besproken welke maatregelen werkten, te laat kwamen of meer schade veroorzaakten dan verwacht. Die evaluatie is noodzakelijk, maar ze kan ons ook opsluiten in de vorige crisis. De volgende ernstige uitbraak hoeft geen respiratoir virus te zijn, hoeft niet vóór symptomen over te dragen en hoeft ziekenhuizen niet op dezelfde manier te belasten. Een draaiboek dat vooral maatregelen onthoudt, leert daarom minder dan een systeem dat onthoudt **waarom** een maatregel onder bepaalde omstandigheden passend was.

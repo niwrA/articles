@@ -34,6 +34,26 @@ modelLimitations:
   - Belastingen, publieke kosten, verschillen tussen sporten en verdeling binnen de breedtesport zijn slechts gedeeltelijk gemodelleerd.
   - De curves tonen voorwaardelijke uitkomsten en bewijzen geen optimaal percentage.
 draft: false
+outlineNotes:
+  - heading: "Een percentage verandert ook de markt"
+    detail: "Een bijdrage verandert prikkels én opbrengsten. Competities en sporters kunnen reageren als het tarief stijgt."
+  - heading: "Aandacht is zelf een geldstroom"
+    detail: "Aandacht wordt geld via uitzendrechten en sponsoring en stroomt voor een groot deel al naar een klein aantal competities."
+  - heading: "Hoe blijft lokale sport aantrekkelijk?"
+    detail: "Herinvesteren moet lokale sport aantrekkelijk houden om aan mee te doen en naar te kijken, naast de topsport."
+  - heading: "Een lokale positieve terugkoppeling"
+    detail: "Betere voorzieningen en sterkere competities kunnen deelnemers en publiek aantrekken, zodat clubs opnieuw kunnen investeren."
+    diagram: sport-loop
+  - heading: "Twee optima, geen antwoord met één decimaal"
+    detail: "Het tarief met de hoogste opbrengst hoeft niet het beste te zijn voor deelname en competitief evenwicht."
+  - heading: "Waar in het systeem wordt geheven?"
+    detail: "Uitzendrechten, transfers en lonen reageren verschillend. Waar je heft is net zo belangrijk als hoeveel."
+  - heading: "Publieke kosten en solidariteit zijn niet hetzelfde"
+    detail: "Publieke kosten terughalen en de breedtesport laten delen in opbrengsten zijn verschillende doelen. Onderbouw ze apart."
+  - heading: "Wat gebeurt er met het geld?"
+    detail: "De verdeelregels bepalen of de opbrengst toegankelijkheid en lokale clubs versterkt of juist verder wordt geconcentreerd."
+  - heading: "Wat we eerst zouden moeten meten"
+    detail: "Volg welke activiteit verschuift, waar het geld belandt en wat er lokaal verbetert voordat je het voorstel opschaalt."
 ---
 
 In de Europese voetbaleconomie ging in het seizoen 2024/25 naar schatting €40,2 miljard om, exclusief transfers.[1] Tegelijk zoeken lokale verenigingen trainers en vrijwilligers, zijn accommodaties aan renovatie toe en kunnen niet alle kinderen contributie, materiaal of vervoer betalen. Dat contrast roept gemakkelijk de vraag op of topsporters niet simpelweg te veel verdienen. Die formulering mist echter hoe de waarde ontstaat. Een uitzonderlijke sporter heeft schaars talent, een korte carrière en een reëel risico op blessures. Als miljoenen mensen juist die sporter willen zien, is het verdedigbaar dat een aanzienlijk deel van de opbrengst bij hem of haar terechtkomt.

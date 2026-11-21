@@ -62,6 +62,32 @@ modelLimitations:
   - The CCDII-bill mode is a schematic reading of the proposal as at 17 September 2026, not a forecast of the final Act or secondary legislation.
   - Real deployment would require a legal basis, data minimisation, independent scrutiny and validated domain-specific models.
 draft: false
+outlineNotes:
+  - heading: "One payment button hides several questions"
+    detail: "The same checkout can move money, reserve money, insure against a failure or extend credit. Those jobs carry different risks."
+  - heading: "Connect available funds, delivery and settlement"
+    detail: "Reserve enough to assure the merchant, then settle against what actually happens to the order."
+    diagram: payment-order
+  - heading: "Implementation"
+    detail: "The design needs a shared view of commitments and an agreed way to track order events."
+  - heading: "A check must change available capacity immediately"
+    detail: "A check without a reservation can allow two providers to rely on the same money."
+  - heading: "Link payment to the state of the order"
+    detail: "Delivery, cancellation and return should lead to different outcomes for the reserved amount."
+  - heading: "How the solution handles six payment methods"
+    detail: "Compare payment methods by when they commit money and who carries the risk if something goes wrong."
+  - heading: "The revised Consumer Credit Directive: what the bill does and does not solve"
+    detail: "The article compares broader credit protections with the distinct problem of securing payment and delivery."
+  - heading: "Regulate the function, not the product name"
+    detail: "Products with different names can create the same obligation. Protections should follow that obligation."
+  - heading: "Credit cards show that reservation is practical"
+    detail: "A card authorisation shows how a merchant can reserve an amount before final settlement."
+  - heading: "Late payment reveals the effect of time"
+    detail: "A delay can turn an apparently cheap purchase into a more expensive obligation through fees or collection."
+  - heading: "Minors using a parent's payment method"
+    detail: "Permission to use another person’s payment method does not settle who can take on a credit obligation."
+  - heading: "Conclusion"
+    detail: "Separate assurance from borrowing, then test whether the proposal protects both sides in real transactions."
 ---
 
 Online shopping is commonplace. Products may need to be returned because they do not fit, and buyers sometimes need a refund because an order arrives late or not at all. Sometimes payment is made but nothing is delivered, and recovering the money is difficult or impossible because of fraud.

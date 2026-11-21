@@ -38,6 +38,41 @@ modelLimitations:
   - Gedrag, beleid, prijzen en technologische doorbraken zijn veel complexer dan de gebruikte jaarlijkse relaties.
   - Uitkomsten zijn bedoeld om terugkoppelingen en afruilen te onderzoeken, niet om één optimaal migratie- of groeipad aan te wijzen.
 draft: false
+outlineNotes:
+  - heading: "Meer mensen betekent niet alleen meer werknemers"
+    detail: "Nieuwe inwoners kunnen vacatures vervullen en hebben ook woningen, diensten en zorg nodig. Beide effecten tellen mee."
+  - heading: "Migratie is een stroom"
+    detail: "Aankomst en vertrek kunnen de beroepsbevolking anders veranderen, ook als het saldo hetzelfde blijft."
+  - heading: "Vergrijzing werkt aan twee kanten"
+    detail: "Vergrijzing kan het arbeidsaanbod verkleinen terwijl de zorgvraag stijgt."
+  - heading: "Kunnen we gewoon meer gaan werken?"
+    detail: "Meer betaalde uren hangen af van wie tijd, passend werk en steun bij andere verantwoordelijkheden heeft."
+  - heading: "Betaald werk is niet al het werk"
+    detail: "Een extra betaald uur kan ten koste gaan van zorg of ander werk dat niet in de werkgelegenheidscijfers staat."
+  - heading: "Waarom hebben we zoveel werknemers nodig?"
+    detail: "Begin bij het werk dat de economie kiest te doen. Vacatures weerspiegelen die keuze én hoeveel mensen beschikbaar zijn."
+  - heading: "Niet iedere economie vraagt dezelfde hoeveelheid arbeid"
+    detail: "Een verschuiving tussen bedrijfstakken kan het benodigde aantal werknemers veranderen, ook als de totale productie blijft groeien."
+  - heading: "Productiviteit is geen maat voor maatschappelijke waarde"
+    detail: "Financiële opbrengst per uur mist een groot deel van de waarde van zorg en onderwijs."
+  - heading: "Sectoren gebruiken verschillende schaarse middelen"
+    detail: "Arbeid, energie, grond en infrastructuur stellen verschillende grenzen. Wat op het ene bespaart, kan meer van het andere vragen."
+  - heading: "Landbouw maakt de afweging zichtbaar"
+    detail: "Landbouw maakt de afweging concreet: beoordeel opbrengst samen met grondgebruik, arbeid en milieudruk."
+  - heading: "Nederland heeft meerdere grenzen"
+    detail: "Personeelstekorten kunnen samengaan met grenzen aan woningen, netaansluitingen of andere capaciteit. Zodra je het ene oplost, kan het andere knellen."
+  - heading: "Economische activiteit vult én belast de publieke begroting"
+    detail: "Economische activiteit levert inkomsten op en vraagt tegelijk om publieke diensten en investeringen."
+  - heading: "Benodigde en financierbare publieke capaciteit"
+    detail: "Een voorziening kan nodig en op papier betaalbaar zijn terwijl gebouwen en opgeleid personeel ontbreken."
+  - heading: "Economische structuur kan migratie beïnvloeden"
+    detail: "Het soort banen dat een economie creëert bepaalt mede hoeveel werknemers ze in het buitenland zoekt."
+  - heading: "Technologie, productiviteit en minder groei"
+    detail: "Productiviteit kan de personeelsvraag verlagen. Ervoor kiezen bepaald werk minder te doen is een andere optie."
+  - heading: "Bouwen kost eerst bouwers"
+    detail: "Meer woningen, zorg of energie-infrastructuur later vraagt nu om mensen en materiaal."
+  - heading: "Welke economie willen we?"
+    detail: "Kies welke activiteiten en publieke voorzieningen de moeite waard zijn en vraag daarna welke mensen en middelen ervoor nodig zijn."
 ---
 
 Nederland heeft al jaren een krappe arbeidsmarkt. Tegelijk groeide de bevolking sterk. In 2001 passeerde Nederland 16 miljoen inwoners; eind 2025 waren het er 18,13 miljoen.

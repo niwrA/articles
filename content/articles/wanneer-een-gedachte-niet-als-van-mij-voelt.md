@@ -48,6 +48,33 @@ modelLimitations:
   - Stemmen horen is heterogeen; één mechanisme zal waarschijnlijk niet alle ervaringen verklaren.
   - De voorgestelde integratie is conceptueel en mag niet worden gelezen als individueel behandeladvies.
 draft: false
+outlineNotes:
+  - heading: "Eerst de ervaring, dan de diagnose"
+    detail: "Beschrijf eerst hoe iemand de ervaring beleeft. Vraag daarna pas wat ze wel of niet over een diagnose zegt."
+  - heading: "De stem is maar één zichtbare uitkomst"
+    detail: "Een stem is één manier waarop een proces bewust kan worden. Eigenaarschap, taal en controle kunnen afzonderlijk verschillen."
+  - heading: "Innerlijke spraak is geen enkelvoudig kanaal"
+    detail: "Denken in woorden loopt uiteen van een duidelijke innerlijke stem tot verkorte taal zonder duidelijk geluid."
+  - heading: "Het zelf als organiserend verhaal"
+    detail: "Het gevoel dezelfde persoon te blijven helpt gebeurtenissen uit verschillende situaties en perspectieven met elkaar te verbinden."
+  - heading: "Informatiegrenzen binnen één ervaren zelf"
+    detail: "Wat in de ene toestand toegankelijk is, kan in een andere moeilijk op te roepen of te gebruiken zijn, ook als je je dezelfde persoon voelt."
+  - heading: "Van schemamodi naar meer zelfstandige posities"
+    detail: "Sommige patronen van gevoel en gedrag blijven aan een situatie gebonden. Andere kunnen een herkenbaarder eigen perspectief krijgen."
+  - heading: "Neurotransmitters veranderen het krachtenveld"
+    detail: "Hersenchemie kan bepalen hoe zwaar een signaal weegt of hoe makkelijk je een reactie remt. Ze levert niet de inhoud van een gedachte."
+  - heading: "Van contextgevoeligheid naar meerdere ik-posities"
+    detail: "Het voorgestelde model vraagt hoe flexibele perspectiefwisselingen kunnen uitgroeien tot sterker afgescheiden, aanhoudende posities."
+  - heading: "Wat past, wat moet veranderen?"
+    detail: "De casus vraagt het model zowel te verklaren van wie een gedachte lijkt als hoe ze bewust wordt."
+  - heading: "Integreren zonder weg te verklaren"
+    detail: "Meer integratie kan betekenen dat informatie toegankelijker wordt en iemand meer keuze krijgt, terwijl de ervaring serieus genomen wordt."
+  - heading: "Welke veranderingen zou dit model voorspellen?"
+    detail: "Zoek afzonderlijke voorspellingen voor toegang, eigenaarschap en kunnen handelen. Die hoeven niet tegelijk te veranderen."
+  - heading: "Wat dit betekent voor stemmen en de omgang ermee"
+    detail: "In de praktijk telt wat de ervaring doet met veiligheid, lijdensdruk en handelingsruimte."
+  - heading: "Wat deze casus leert over het bewustzijnsmodel"
+    detail: "Een bewustzijnsmodel moet ruimte bieden aan ervaringen waarbij inhoud, eigenaarschap en invloed uit elkaar lopen."
 ---
 
 Ik kan deze zin stil lezen. Ik kan hem ook in mijn hoofd laten voorlezen door mijn eigen stem, of doelbewust door een andere stem. Ik kan de woorden sneller begrijpen dan die denkbeeldige spreker ze uitspreekt en het voorlezen weer uitzetten. Voor mij is die stem dus een mogelijke vorm van denken, niet het denken zelf.

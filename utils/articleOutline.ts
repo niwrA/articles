@@ -40,10 +40,10 @@ export function buildArticleOutline(article: any, locale: 'nl'|'en') {
     const content: Block[] = []
     for (const [i,g] of groups.entries()) {
       const h=g.filter(heading).at(-1)
-      const title=h ? words(h) : article.title
-      const occurrence=groups.slice(0,i+1).filter(group=>words(group.filter(heading).at(-1) ?? '')===title).length
+      const title=h ? words(h).trim() : article.title
+      const occurrence=groups.slice(0,i+1).filter(group=>words(group.filter(heading).at(-1) ?? '').trim()===title).length
       const authoredNote=(article.outlineNotes ?? []).find((item:any)=>item.heading===title && (item.occurrence ?? 1)===occurrence)
-      const point = !i ? opening : {label:String(i+1).padStart(2,'0'),heading:title,detail:authoredNote?.detail || excerpt(g,locale),...(authoredNote?.diagram?{diagram:authoredNote.diagram}:{})}
+      const point = !i && !authoredNote ? opening : {label:i===0 ? opening.label : String(i+1).padStart(2,'0'),heading:title,detail:authoredNote?.detail || excerpt(g,locale),...(authoredNote?.diagram?{diagram:authoredNote.diagram}:{})}
       // Anchor at the beginning, never swallow the next section's heading.
       content.push(['article-margin-note',{...point,locale},g[0]],...g.slice(1))
     }

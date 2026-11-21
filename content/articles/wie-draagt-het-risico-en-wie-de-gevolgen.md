@@ -62,6 +62,32 @@ modelLimitations:
   - De modus voor het CCDII-wetsvoorstel is een schematische lezing van het voorstel per 17 september 2026, geen voorspelling van de definitieve wet of lagere regelgeving.
   - Werkelijke toepassing vereist wettelijke grondslag, dataminimalisatie, onafhankelijke toetsing en gevalideerde domeinspecifieke modellen.
 draft: false
+outlineNotes:
+  - heading: "Eén betaalknop verbergt meerdere vragen"
+    detail: "Dezelfde betaalpagina kan geld overmaken, reserveren, een risico afdekken of krediet geven. Die functies brengen verschillende risico’s mee."
+  - heading: "Koppel beschikbaar geld, levering en afrekening"
+    detail: "Reserveer genoeg om de winkel zekerheid te geven en reken af op basis van wat er werkelijk met de bestelling gebeurt."
+    diagram: payment-order
+  - heading: "De uitvoering"
+    detail: "Het ontwerp vraagt om een gedeeld beeld van toezeggingen en afspraken over het vastleggen van gebeurtenissen rond de bestelling."
+  - heading: "Een controle moet de beschikbare ruimte meteen veranderen"
+    detail: "Een controle zonder reservering kan twee aanbieders op hetzelfde geld laten rekenen."
+  - heading: "Koppel betaling aan de toestand van de bestelling"
+    detail: "Levering, annulering en retour moeten tot verschillende uitkomsten leiden voor het gereserveerde bedrag."
+  - heading: "Hoe de oplossing de zes betaalvormen verwerkt"
+    detail: "Vergelijk betaalvormen op het moment waarop geld wordt vastgelegd en op wie het risico draagt als iets misgaat."
+  - heading: "Europese richtlijn consumentenkrediet komt eraan: wat het komende wetsvoorstel wel en niet doet"
+    detail: "Het artikel vergelijkt ruimere kredietbescherming met de afzonderlijke vraag hoe je betaling en levering zekerder maakt."
+  - heading: "Reguleer de functie, niet de productnaam"
+    detail: "Producten met verschillende namen kunnen dezelfde verplichting scheppen. Bescherming moet bij die verplichting aansluiten."
+  - heading: "Creditcards bewijzen dat reserveren praktisch mogelijk is"
+    detail: "Een kaartautorisatie laat zien hoe een verkoper een bedrag kan reserveren voordat het definitief wordt afgerekend."
+  - heading: "Te laat betalen maakt het tijdsverloop zichtbaar"
+    detail: "Uitstel kan een ogenschijnlijk goedkope aankoop door kosten of incasso in een duurdere verplichting veranderen."
+  - heading: "Minderjarigen die het betaalmiddel van hun ouders gebruiken"
+    detail: "Toestemming om iemands betaalmiddel te gebruiken bepaalt nog niet wie een kredietverplichting mag aangaan."
+  - heading: "Conclusie"
+    detail: "Haal betalingszekerheid en lenen uit elkaar en test daarna of het voorstel beide partijen in echte transacties beschermt."
 ---
 
 Online artikelen kopen: we doen het massaal. Soms moeten we ook iets terugsturen, bijvoorbeeld omdat het niet past, of moeten we geld terugvragen omdat het product niet of niet op tijd werd geleverd. Soms betalen we, maar krijgen we niks, en lukt het ons ook alleen maar met veel moeite of zelfs helemaal niet (fraude) om dat geld weer terug te krijgen. 

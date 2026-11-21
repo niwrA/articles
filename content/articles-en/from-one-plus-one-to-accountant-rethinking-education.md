@@ -34,6 +34,28 @@ modelLimitations:
   - Simulated evidence does not assess a real person or confer a qualification, authorization, or Dutch AA or RA title.
   - The prototype contains no live labour-market information, costs, completion times or current legal admissions rules.
 draft: false
+outlineNotes:
+  - heading: "The question behind curriculum reform"
+    detail: "Ask what learners should be able to do before deciding how a school should schedule or group them."
+  - heading: "A common foundation without a single path"
+    detail: "A shared foundation can set expectations while allowing different routes and speeds in individual subjects."
+  - heading: "From a skill tree to a capability graph"
+    detail: "A map can show prerequisites and alternative routes without putting every learner on the same ladder."
+  - heading: "From 1 + 1 to accountant"
+    detail: "Accounting tests whether a route can connect simple arithmetic with professional judgement and practice."
+  - heading: "The ability and the evidence are separate"
+    detail: "Someone can have a skill without having proved it, and proof of skill does not itself grant legal authority."
+    diagram: skill-evidence
+  - heading: "The other half: learning effectively"
+    detail: "A map shows where to go. A learning environment also needs practice, feedback and support for learning independently."
+  - heading: "Opportunities, demand and career changes"
+    detail: "A changing career need not mean starting over. The map can reveal which skills transfer and which still need work."
+  - heading: "An open, learner-controlled infrastructure"
+    detail: "Learners should be able to carry their records with them; shared standards matter more than a single supplier."
+  - heading: "An interactive prototype—and the limits of the claim"
+    detail: "The demo makes the design tangible. Its fictional profiles and unvalidated links cannot certify anyone."
+  - heading: "Beyond the diploma"
+    detail: "A diploma can remain useful while a more detailed record shows what a person can do and might learn next."
 ---
 
 ## The question behind curriculum reform

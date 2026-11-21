@@ -34,6 +34,26 @@ modelLimitations:
   - Taxes, public costs, differences between sports and allocation within grassroots sport are only partly represented.
   - The curves show conditional outcomes and establish no optimal rate.
 draft: false
+outlineNotes:
+  - heading: "A percentage also changes the market"
+    detail: "A contribution changes incentives as well as revenue. Leagues and talent may respond when rates rise."
+  - heading: "Attention is itself a flow of money"
+    detail: "Attention becomes money through broadcasting and sponsorship, and much of it already flows toward a small number of competitions."
+  - heading: "How can local sport remain enjoyable?"
+    detail: "The point of reinvestment is to make local sport worth joining and watching, alongside elite competition."
+  - heading: "A positive local feedback loop"
+    detail: "Better local facilities and stronger competitions can attract participants and audiences, giving clubs more reason to invest again."
+    diagram: sport-loop
+  - heading: "Two optima, no answer to one decimal place"
+    detail: "The rate that raises most revenue may differ from the rate that does most for participation and competitive balance."
+  - heading: "Where in the system is the contribution collected?"
+    detail: "Broadcast rights, transfers and wages respond differently. Picking the collection point matters as much as the rate."
+  - heading: "Public costs and solidarity are different questions"
+    detail: "Recovering public costs and sharing prosperity with grassroots sport are different aims; give each its own justification."
+  - heading: "What happens to the money?"
+    detail: "Distribution rules determine whether proceeds support access, local clubs or further concentration."
+  - heading: "What should be measured first"
+    detail: "Track how activity moves, where the money ends up and what improves locally before scaling the proposal."
 ---
 
 European football generated an estimated €40.2 billion in revenue in the 2024/25 season, excluding transfers.[1] At the same time, local clubs struggle to find coaches and volunteers, facilities need renovation and some children cannot afford fees, equipment or transport. That contrast readily becomes a question about whether elite athletes simply earn too much. Yet this framing misses how value is created. An exceptional athlete possesses scarce talent, has a short career and faces a real risk of injury. If millions of people specifically want to watch that athlete, it is reasonable for a substantial share of the resulting value to reach them.

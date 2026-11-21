@@ -36,6 +36,23 @@ modelLimitations:
 aiReviewModel: GPT-5.6 Sol
 aiReviewDate: 2026-09-10
 draft: false
+outlineNotes:
+  - heading: "Car obesity"
+    detail: "Bigger cars become the norm partly because the market offers and rewards different choices than it used to."
+  - heading: "Mass behaviour"
+    detail: "Extra mass changes what happens in a collision, including for the people outside the heavier car."
+  - heading: "A matter of perspective"
+    detail: "A vehicle that feels safer from the driver’s seat can shift some of its risk to others."
+  - heading: "Give me space"
+    detail: "Width and length turn a private purchase into a question about shared space on streets and in car parks."
+  - heading: "Energetic travel"
+    detail: "A larger vehicle can cost more energy to move, regardless of which technology supplies that energy."
+  - heading: "The functional question"
+    detail: "Separate what the car must do every week from the extra room you only need on a few days."
+  - heading: "Shared responsibility"
+    detail: "Design, availability and policy shape the choices people can realistically make."
+  - heading: "Conclusion"
+    detail: "Judge size against actual use and the space, energy and risk it adds for everyone else."
 ---
 
 There is no single correct answer to the question of car size. A family travelling with four people every day, a contractor carrying tools and a trailer, and a city dweller who usually drives alone have different functional requirements. The relevant question is therefore not whether a small or large car is generally better, but how much capacity someone needs routinely and how much is purchased only for exceptions.

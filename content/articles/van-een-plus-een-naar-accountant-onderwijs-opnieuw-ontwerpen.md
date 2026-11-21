@@ -34,6 +34,28 @@ modelLimitations:
   - Gesimuleerd bewijs in het model beoordeelt geen echte persoon en verleent geen diploma, bevoegdheid of AA- of RA-titel.
   - Arbeidsmarktinformatie, kosten, doorlooptijden en wettelijke toelatingseisen zijn niet live in het prototype opgenomen.
 draft: false
+outlineNotes:
+  - heading: "Het probleem zit dieper dan het lesprogramma"
+    detail: "Vraag eerst wat leerlingen moeten kunnen. Pas daarna volgt hoe een school hen groepeert of het leren inroostert."
+  - heading: "Een gemeenschappelijke basis, maar niet één route"
+    detail: "Een gemeenschappelijke basis geeft houvast en laat tegelijk ruimte voor verschillende routes en tempo’s per vak."
+  - heading: "Geen enkele ladder, maar een vaardighedengraaf"
+    detail: "Een kaart kan voorkennis en alternatieve routes tonen zonder iedereen op dezelfde ladder te zetten."
+  - heading: "De stresstest: van 1 + 1 naar accountant"
+    detail: "Accountancy test of een leerroute eenvoudige rekenvaardigheid kan verbinden met professioneel oordeel en praktijk."
+  - heading: "Een vaardigheid is niet hetzelfde als het bewijs ervoor"
+    detail: "Iemand kan iets kunnen zonder het te hebben aangetoond. Een bewijs van vaardigheid geeft op zichzelf nog geen wettelijke bevoegdheid."
+    diagram: skill-evidence
+  - heading: "Het tweede systeem: hoe leer je eigenlijk?"
+    detail: "Een kaart toont waar je heen kunt. Een leeromgeving moet ook oefening, feedback en steun bij zelfstandig leren bieden."
+  - heading: "Wat opent deze kennis in de samenleving?"
+    detail: "Een ander beroep hoeft geen herstart te zijn. De kaart kan tonen welke vaardigheden overdraagbaar zijn en welke nog aandacht vragen."
+  - heading: "Wie zou dit beheren?"
+    detail: "Leerlingen moeten hun gegevens kunnen meenemen. Gedeelde standaarden zijn belangrijker dan één leverancier."
+  - heading: "Een interactieve proef, geen belofte"
+    detail: "De proef maakt het ontwerp tastbaar. De fictieve profielen en ongetoetste verbanden kunnen niemand kwalificeren."
+  - heading: "Uiteindelijk gaat het om meer dan een diploma"
+    detail: "Een diploma kan nuttig blijven terwijl een gedetailleerder overzicht toont wat iemand kan en nog kan leren."
 ---
 
 ## Het probleem zit dieper dan het lesprogramma

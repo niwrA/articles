@@ -39,6 +39,26 @@ modelLimitations:
 aiReviewModel: GPT-6.1 Sol
 aiReviewDate: 2026-10-09
 draft: false
+outlineNotes:
+  - heading: "Een agent is een systeem, niet alleen een model"
+    detail: "Volg een besluit van doel en geheugen via hulpmiddelen tot de gevolgen. Veiligheid hangt af van die hele keten."
+  - heading: "Vermogen, nut en autorisatie"
+    detail: "Een handeling kan uitvoerbaar en nuttig zijn terwijl iemand anders er nog toestemming voor moet geven."
+    diagram: agent-permission
+  - heading: "Waarom een veilige agent toch moet leren"
+    detail: "Het systeem moet zich aan onbekende situaties kunnen aanpassen zonder zichzelf ruimere bevoegdheden te geven."
+  - heading: "Stabiele kennisbron en adaptieve agent"
+    detail: "Houd gedeelde kennis controleerbaar en geef de agent ruimte om uit nieuwe ervaringen voorlopige conclusies te trekken."
+  - heading: "Vaardigheden als inspecteerbare data"
+    detail: "Behandel een nieuw geleerde vaardigheid als iets dat eerst moet worden bekeken en getoetst voordat het mag worden uitgevoerd."
+  - heading: "Werkgeheugen, aandacht en waarheid"
+    detail: "Wat voor deze taak opvalt kan het volgende besluit sturen zonder een blijvend feit te worden."
+  - heading: "Van fouten leren zonder de verkeerde les te trekken"
+    detail: "Een mislukking kan de verkeerde les opleveren als het systeem alleen de uitkomst onthoudt en de omstandigheden of oorzaak vergeet."
+  - heading: "Welke experimenten tellen?"
+    detail: "Onderzoek of leren de prestaties verbetert terwijl de bevoegdheidsgrenzen ook in onbekende situaties standhouden."
+  - heading: "Veiligheid als architectuur"
+    detail: "Onafhankelijke handhaving en een spoor van besluiten helpen mensen fouten te begrenzen en te begrijpen."
 ---
 
 Stel je een AI-agent voor met een ogenschijnlijk onschuldige opdracht. Hij heeft een doel, toegang tot hulpmiddelen en de mogelijkheid zelf vervolgstappen te kiezen. Tijdens de uitvoering blokkeert een website geautomatiseerde toegang, weigert een tool een verzoek of verhindert de omgeving één stap. Een beperkt doelgericht systeem kan die grens vooral behandelen als obstakel. Een capabel systeem vindt misschien een alternatieve route die de gebruiker nooit heeft bedoeld of toegestaan.

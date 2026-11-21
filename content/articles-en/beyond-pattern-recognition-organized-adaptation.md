@@ -39,6 +39,25 @@ modelLimitations:
 aiReviewModel: GPT-6.1 Sol
 aiReviewDate: 2026-10-09
 draft: false
+outlineNotes:
+  - heading: "Recognition is important, but not sufficient"
+    detail: "Recognising a pattern, filling in its missing parts and predicting what comes next solve different problems."
+  - heading: "Stored knowledge and current state"
+    detail: "A familiar ingredient can be reused in an unfamiliar combination if the system can hold that combination temporarily."
+  - heading: "Biological computation has several levels"
+    detail: "Signals, networks and larger systems operate at different scales; looking at one level leaves much of the computation unexplained."
+  - heading: "An architecture designed to develop"
+    detail: "A system that develops needs ways to organise and revise what it learns over time."
+  - heading: "Attention determines what is computed next"
+    detail: "Attention allocates limited processing to what matters for the task at hand."
+  - heading: "Neuromodulation changes the operating mode"
+    detail: "Neuromodulation can change how strongly signals matter and how readily experience alters the system."
+  - heading: "Fast learning and the cost of generalization"
+    detail: "Learning one example quickly helps now; applying it elsewhere requires evidence about what the cases share."
+  - heading: "A framework of organized adaptation"
+    detail: "Persistent knowledge, temporary state, selective attention and learning have to work together."
+  - heading: "What this suggests for artificial intelligence"
+    detail: "The useful lesson for AI is about organising adaptation across timescales; it leaves room for many implementations."
 ---
 
 What does the brain actually do? It is tempting to answer with one principle. It recognizes patterns, predicts what comes next, minimizes surprise or learns associations. Each answer captures something real, but no single one yet explains the flexibility of biological intelligence. A person can recognize a face, imagine an object that has never existed, solve a new problem, learn from one dangerous event and later reconsider what that event means.

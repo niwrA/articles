@@ -36,6 +36,31 @@ modelLimitations:
   - "An open protocol does not automatically prevent economic concentration, spam or abuse."
   - "Provenance makes publication auditable, but does not prove that its content is true."
 draft: false
+outlineNotes:
+  - heading: "How an AI system handles a question"
+    detail: "A single answer hides choices about how a query was framed, which sources were found and what was left out."
+  - heading: "The web can remain open while access closes"
+    detail: "Sources can remain public while the route most readers use to discover them falls under the control of a few providers."
+  - heading: "The old exchange with publishers is weakening"
+    detail: "If answers replace visits, publishers may still supply the underlying work but see less of the readership it generates."
+  - heading: "What would a shared knowledge layer change?"
+    detail: "Stable references can let different systems reuse and credit the same source, including the version they actually consulted."
+  - heading: "Do we need a new layer for that?"
+    detail: "Start with what existing web standards can already do. Add infrastructure only for functions they cannot provide reliably."
+  - heading: "How could different services find the same sources?"
+    detail: "Shared identifiers make it possible for different search systems to refer to the same source without using the same ranking or model."
+  - heading: "How could a creator issue a correction?"
+    detail: "A correction needs a durable link to the earlier claim so an answer can tell readers which version it relied on."
+  - heading: "How could a reader assess an answer?"
+    detail: "Readers should be able to see which sources support a claim and where the system drew its own inference."
+  - heading: "Could a smaller model use the same sources?"
+    detail: "Keeping source access separate from the answering model gives smaller models a chance to draw on the same material."
+  - heading: "How do we make providers replaceable?"
+    detail: "A provider is replaceable when switching leaves identities, sources and their history intact."
+  - heading: "Which problems must an open knowledge layer solve?"
+    detail: "Openness still leaves problems of abuse, ranking, trust and financing. Different services need room to make different choices."
+  - heading: "Choose properties before defaults harden"
+    detail: "Decide which parts must remain portable and inspectable before today’s interfaces become the only practical route to knowledge."
 ---
 
 The internet made a remarkable architectural choice. Nobody owns HTTP. Operating a web server requires no permission from Google, Microsoft or Amazon. Anyone can implement a browser or publish a website. Search, cloud computing and social media have become highly concentrated above this foundation, but underneath them lies a more durable collection of open protocols. If Google disappeared tomorrow, the web would not disappear with it.

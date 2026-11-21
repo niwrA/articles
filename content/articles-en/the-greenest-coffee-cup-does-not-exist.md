@@ -33,6 +33,30 @@ modelLimitations:
   - The model focuses primarily on greenhouse-gas emissions and omits some environmental effects.
   - Behaviour and local waste processing can substantially alter the real outcome.
 draft: false
+outlineNotes:
+  - heading: "Why a mug sometimes wins, a disposable cup sometimes comes surprisingly close, and our behaviour decides the outcome"
+    detail: "The useful comparison is a drink served under real conditions, including what happens after the cup is used."
+  - heading: "First decide what we are comparing"
+    detail: "Count actual drinks over the cups’ whole life, including replacements, washing and disposal."
+  - heading: "The ceramic mug: an investment that must earn a return"
+    detail: "A mug needs to stay in use long enough to spread the impact of making it over many drinks."
+    diagram: cup-break-even
+  - heading: "The dishwasher: small per cup, large as a system"
+    detail: "A full machine can spread energy and water over many cups; a lightly loaded run changes the comparison."
+  - heading: "The paper cup: paper plus a barrier"
+    detail: "Look at the lining as well as the paper: collection and processing determine whether the material is recovered."
+  - heading: "The plastic cup: light, fossil-based and dependent on the chain"
+    detail: "A light cup may score well on production emissions while still using fossil material or adding persistent litter."
+  - heading: "What the science mainly shows: the outcome is conditional"
+    detail: "Studies can disagree because they assume different washing habits, electricity mixes and numbers of reuses."
+  - heading: "Climate is not the same as the environment"
+    detail: "A low carbon result does not settle the questions of waste, pollution, water use or materials."
+  - heading: "Try it yourself: the cup model"
+    detail: "Change one assumption at a time and see which ones move the point where reuse pays off."
+  - heading: "What can an office do tomorrow?"
+    detail: "An office can measure its own cup losses and dishwasher loads before deciding what to buy."
+  - heading: "So which cup is most environmentally friendly?"
+    detail: "The practical answer depends on local use, washing and waste processing, and on which environmental outcome matters most."
 ---
 
 ## Why a mug sometimes wins, a disposable cup sometimes comes surprisingly close, and our behaviour decides the outcome

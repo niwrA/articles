@@ -38,6 +38,41 @@ modelLimitations:
   - Behaviour, policy, prices and technological breakthroughs are more complex than the annual relationships used here.
   - Outputs explore feedbacks and trade-offs; they do not identify an optimal migration or growth path.
 draft: false
+outlineNotes:
+  - heading: "More people do not only mean more workers"
+    detail: "New residents can fill jobs and also need housing, services and care. The balance depends on both effects."
+  - heading: "Migration is a flow"
+    detail: "Arrivals and departures can change the workforce in different ways even when the net figure is the same."
+  - heading: "Ageing works in two directions"
+    detail: "Ageing can mean fewer people available for work at the same time as demand for care rises."
+  - heading: "Could existing residents simply work more?"
+    detail: "Extra paid hours depend on who has time, suitable work and support for other responsibilities."
+  - heading: "Paid work is not all work"
+    detail: "An extra hour on the payroll may come at the expense of care or other work that never appears in employment figures."
+  - heading: "Why do we need so many workers?"
+    detail: "Start with the work the economy chooses to do. Vacancies reflect that choice as well as the number of workers."
+  - heading: "Different economies require different amounts of labour"
+    detail: "A shift between industries can change the number of workers needed even when overall output keeps growing."
+  - heading: "Productivity is not social value"
+    detail: "Financial output per hour misses much of the value of care and education."
+  - heading: "Sectors use different scarce resources"
+    detail: "Labour, energy, land and infrastructure pose different limits. A sector that saves on one may use more of another."
+  - heading: "Agriculture makes the trade-off visible"
+    detail: "Agriculture makes the comparison concrete: weigh output against land, labour and environmental pressures together."
+  - heading: "The Netherlands has several limits"
+    detail: "Staff shortages can persist alongside limits on housing, grid connections or other capacity. Solving one can expose the next."
+  - heading: "Economic activity both funds and burdens public budgets"
+    detail: "Economic activity generates revenue and also brings demand for public services and investment."
+  - heading: "Required and affordable public capacity"
+    detail: "A service can be needed and affordable on paper while buildings and trained staff are still unavailable."
+  - heading: "Economic structure can influence migration"
+    detail: "The kinds of jobs an economy creates help determine how many workers it seeks abroad."
+  - heading: "Technology, productivity and less growth"
+    detail: "Productivity can reduce staffing needs; deciding to do less of some work is a separate option."
+  - heading: "Building capacity first requires capacity"
+    detail: "More housing, care or power infrastructure later requires workers and materials now."
+  - heading: "What kind of economy do we want?"
+    detail: "Choose the activities and public services worth sustaining, then ask which workforce and resources they need."
 ---
 
 The Netherlands has faced a tight labour market for years while its population has grown substantially. It passed 16 million residents in 2001 and reached 18.13 million by the end of 2025.

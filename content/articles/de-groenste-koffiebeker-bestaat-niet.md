@@ -33,6 +33,30 @@ modelLimitations:
   - Het model concentreert zich vooral op broeikasgasuitstoot en dekt niet alle milieueffecten.
   - Gedrag en lokale afvalverwerking kunnen de werkelijke uitkomst sterk veranderen.
 draft: false
+outlineNotes:
+  - heading: "Waarom een mok soms wint, een wegwerpbeker soms verrassend dichtbij komt, en vooral ons gedrag de uitslag bepaalt"
+    detail: "Vergelijk een geserveerde drank onder echte omstandigheden, inclusief wat er na gebruik met de beker gebeurt."
+  - heading: "Eerst bepalen wat we vergelijken"
+    detail: "Tel de werkelijk geserveerde dranken over de hele levensduur, inclusief vervanging, afwassen en afdanken."
+  - heading: "De keramische mok: een investering die moet renderen"
+    detail: "Een mok moet lang genoeg meegaan om de belasting van de productie over veel dranken te verdelen."
+    diagram: cup-break-even
+  - heading: "De vaatwasser: klein per kopje, groot als systeem"
+    detail: "Een volle machine verdeelt energie en water over veel kopjes. Bij een halflege machine verandert de vergelijking."
+  - heading: "De papieren beker: papier plus een barrière"
+    detail: "Kijk naast het papier ook naar de coating. Inzameling en verwerking bepalen of het materiaal wordt teruggewonnen."
+  - heading: "De plastic beker: licht, fossiel en afhankelijk van de keten"
+    detail: "Een lichte beker kan laag scoren op productie-uitstoot en tegelijk fossiel materiaal gebruiken of hardnekkig zwerfafval opleveren."
+  - heading: "Wat de wetenschap vooral laat zien: de uitslag is voorwaardelijk"
+    detail: "Studies kunnen verschillen doordat ze ander afwasgedrag, andere stroom en andere aantallen hergebruiken veronderstellen."
+  - heading: "Klimaat is niet hetzelfde als milieu"
+    detail: "Een lage klimaatbelasting beslist nog niets over afval, vervuiling, watergebruik of grondstoffen."
+  - heading: "Probeer het zelf: het bekermodel"
+    detail: "Verander één aanname tegelijk en kijk welke het omslagpunt van hergebruik verschuiven."
+  - heading: "Wat kan een kantoor morgen al doen?"
+    detail: "Een kantoor kan bijhouden hoeveel kopjes verdwijnen en hoe vol de vaatwasser draait voordat het iets aanschaft."
+  - heading: "Dus: welke beker is het milieuvriendelijkst?"
+    detail: "Het antwoord hangt af van lokaal gebruik, afwas en afvalverwerking, en van welke milieugevolgen het zwaarst wegen."
 ---
 
 ## Waarom een mok soms wint, een wegwerpbeker soms verrassend dichtbij komt, en vooral ons gedrag de uitslag bepaalt

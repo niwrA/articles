@@ -34,6 +34,35 @@ modelLimitations:
 aiReviewModel: GPT-5.6 Sol
 aiReviewDate: 2026-09-10
 draft: false
+outlineNotes:
+  - heading: "Over notatie, interpretatie en wat muziek van musici vraagt"
+    detail: "Een nauwkeurige transcriptie kan een improvisatie bewaren terwijl veel van de uitvoering nog moet worden afgeleid."
+  - heading: "Wat niet opgeschreven hoefde te worden"
+    detail: "De notatie kon zaken onuitgesproken laten omdat musici de conventies al kenden."
+  - heading: "Wat het medium bewaart"
+    detail: "De partituur kon worden verspreid en verkocht, lang voordat een uitvoering als geluid bewaard kon blijven."
+  - heading: "Wanneer de techniek vóór de noot komt"
+    detail: "Wat een musicus fysiek op een instrument ontdekt, kan al onderdeel van de compositie zijn voordat het wordt opgeschreven."
+  - heading: "Dezelfde noot op een ander instrument"
+    detail: "Hetzelfde accent vraagt op piano, viool of blaasinstrument om een andere handeling."
+  - heading: "Jazz: minder op papier, meer in de musicus"
+    detail: "Een beknopt schema werkt als de spelers ritme, harmonie en vorm samen kunnen invullen."
+  - heading: "Jazz en tango"
+    detail: "Jazz en tango zijn stadsmuzieken die zich via optredens én opnamen ontwikkelden, naast wat er op papier stond."
+  - heading: "Tango als gedeelde taal"
+    detail: "Bij spelen a la parrilla kunnen musici vanuit een gedeelde stijl ter plekke rollen en begeleiding kiezen."
+  - heading: "Een orkeststijl als systeem van keuzes"
+    detail: "Orkesten maken van vergelijkbaar materiaal andere muziek door timing, accenten en klank op hun eigen manier te organiseren."
+  - heading: "Wanneer een variación repertoire wordt"
+    detail: "Een virtuoze oplossing kan zo herkenbaar worden dat volgende musici juist die versie instuderen."
+  - heading: "Een noot heeft ook een rol"
+    detail: "Luister wie de melodie, puls of tegenstem draagt. Dezelfde toon kan van functie veranderen als die rollen verschuiven."
+  - heading: "Wat twee musici van een orkest kunnen bewaren"
+    detail: "Twee spelers kunnen niet elke orkestpartij behouden. Ze kunnen wel kiezen welke verhoudingen de klank herkenbaar maken."
+  - heading: "Wanneer de partituur het lesmateriaal wordt"
+    detail: "Moeilijk repertoire kan de techniek uitbreiden. Als de partituur het hele lesprogramma wordt, blijven interpretatie en samenspel onderbelicht."
+  - heading: "Wat zit er in een noot?"
+    detail: "Notatie kan instructie, geheugen en document zijn. Welke muziek eruit ontstaat hangt ook af van wat de spelers weten en samen horen."
 ---
 
 Dit essay is onder meer ontstaan uit mijn ervaringen met spelen en zingen in een tango-orkest. Daardoor moest ik veel meer leren over muzieknotatie dan ik daarvoor ooit nodig had gehad. Ik heb daar veel van geleerd, maar het riep ook vragen op die ik graag eens wilde uitwerken.

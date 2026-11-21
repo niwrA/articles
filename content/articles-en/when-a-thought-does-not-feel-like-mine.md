@@ -48,6 +48,33 @@ modelLimitations:
   - Voice-hearing is heterogeneous; one mechanism is unlikely to explain every experience.
   - The proposed integration is conceptual and must not be read as individual treatment advice.
 draft: false
+outlineNotes:
+  - heading: "Experience before diagnosis"
+    detail: "Describe the experience on its own terms before deciding what, if anything, it tells us about a diagnosis."
+  - heading: "A voice is only one visible outcome"
+    detail: "A voice is one way a process can reach awareness; ownership, language and control can vary separately."
+  - heading: "Inner speech is not a single channel"
+    detail: "Thinking in words can range from a detailed inner voice to abbreviated language with little sense of sound."
+  - heading: "The self as an organising narrative"
+    detail: "The sense of a continuing self helps connect events across perspectives and situations."
+  - heading: "Information boundaries within one experienced self"
+    detail: "What is accessible in one state may be difficult to recall or act on in another, even within a familiar sense of self."
+  - heading: "From schema modes to more autonomous positions"
+    detail: "Some patterns of feeling and action remain tied to a situation, while others can acquire a more distinct perspective."
+  - heading: "Neurotransmitters change the field of forces"
+    detail: "Chemistry can shift the weight of a signal or the ability to inhibit a response; it does not supply the content of a thought."
+  - heading: "From context-sensitivity to multiple self-positions"
+    detail: "The proposed model asks how flexible shifts in perspective might become more separate, persistent positions."
+  - heading: "What fits, and what must change?"
+    detail: "The case asks the model to explain who a thought seems to belong to as well as how it reaches awareness."
+  - heading: "Integration without explaining the experience away"
+    detail: "Greater integration can mean sharing information and recovering choice while taking the experience seriously."
+  - heading: "What changes should this model predict?"
+    detail: "Look for distinct predictions about access, ownership and ability to act. They need not all change together."
+  - heading: "What this means for voices and how to respond to them"
+    detail: "The practical focus is what the experience does to safety, distress and freedom to act."
+  - heading: "What this case teaches us about the model of consciousness"
+    detail: "A model of consciousness needs room for experience whose content, sense of ownership and agency come apart."
 ---
 
 I can read this sentence silently. I can also make my own voice read it aloud in my head, or deliberately use another voice. I can understand the words faster than that imagined speaker pronounces them, and I can stop the narration again. For me, then, an inner voice is one possible form of thinking rather than thought itself.

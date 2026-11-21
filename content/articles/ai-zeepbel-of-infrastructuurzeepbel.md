@@ -37,6 +37,25 @@ modelLimitations:
   - Kosten, consumptiequotes en relatieve rekeneenheden zijn zichtbare scenarioaannames.
   - Prijzen, belastingen, monetair beleid, internationale handel en nieuwe bedrijfstakken zijn slechts gedeeltelijk of niet gemodelleerd.
 draft: false
+outlineNotes:
+  - heading: "Leveren de investeringen genoeg op?"
+    detail: "Een nuttig product kan te laat komen om de infrastructuur terug te verdienen die nu al voor die vraag wordt gebouwd."
+  - heading: "Wie ontvangt de opbrengst als AI werk overneemt?"
+    detail: "Arbeid besparen verandert bij wie inkomen terechtkomt. Lagere kosten zeggen weinig over wie meer koopkracht krijgt."
+  - heading: "Hoeveel rekenkracht blijft AI nodig hebben?"
+    detail: "Tel het werk waarvoor nog een groot model nodig is zodra het proces routine is geworden."
+  - heading: "Van generatief model naar goedkope uitvoering"
+    detail: "Een groot model kan een procedure helpen ontwerpen die daarna door een klein model of gewone software wordt uitgevoerd."
+  - heading: "De terugkeer van het expertsysteem"
+    detail: "Zodra de regels van een taak duidelijk zijn, kan een gespecialiseerd systeem die goedkoper en voorspelbaarder uitvoeren."
+  - heading: "Waarom efficiëntie de totale vraag toch kan verhogen"
+    detail: "Goedkopere taken kunnen zoveel nieuw gebruik uitlokken dat de besparing op bestaand werk tenietgaat."
+  - heading: "Geopolitiek vergroot het aantal ontwikkelpaden"
+    detail: "Chiprestricties en industriebeleid kunnen regio’s naar verschillende manieren sturen om hetzelfde rekenresultaat te bereiken."
+  - heading: "Wanneer bouwen we meer capaciteit dan nodig?"
+    detail: "Let op het verschil tussen de capaciteit die beschikbaar komt en de vraag tegen prijzen die haar kunnen bekostigen."
+  - heading: "Conclusie"
+    detail: "Het succes van AI en het rendement op de datacenterinvesteringen van nu kunnen uiteenlopen."
 ---
 
 De discussie over de huidige investeringsgolf in kunstmatige intelligentie wordt vaak teruggebracht tot één vraag: is AI een zeepbel?
