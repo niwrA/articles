@@ -19,6 +19,33 @@ withDefaults(defineProps<{diagram:string;locale?:string}>(), { locale: "nl" })
         </ol>
         <figcaption>{{ locale === 'en' ? 'If the routine fails, weigh the options again.' : 'Werkt de routine niet meer, weeg de mogelijkheden dan opnieuw af.' }}</figcaption>
       </figure>
+      <figure v-else-if="diagram === 'vote-entry'" class="article-margin-sequence">
+        <ol>
+          <li>{{ locale === 'en' ? 'Support spread across districts' : 'Steun verspreid over districten' }}</li>
+          <li>{{ locale === 'en' ? 'Often finishes third' : 'Eindigt vaak als derde' }}</li>
+          <li>{{ locale === 'en' ? 'May win no seats' : 'Kan zonder zetels blijven' }}</li>
+          <li>{{ locale === 'en' ? 'Voters feel spoiler pressure' : 'Kiezers voelen de splijtstemdruk' }}</li>
+        </ol>
+        <figcaption>{{ locale === 'en' ? 'A tendency under single-member plurality elections, not a certainty in every election.' : 'Een tendens bij districten met één winnaar, geen zekerheid bij elke verkiezing.' }}</figcaption>
+      </figure>
+      <figure v-else-if="diagram === 'power-loop'" class="article-margin-sequence article-margin-loop">
+        <ol>
+          <li>{{ locale === 'en' ? 'Legislative gridlock' : 'Vastgelopen wetgeving' }}</li>
+          <li>{{ locale === 'en' ? 'More executive action' : 'Meer uitvoerende actie' }}</li>
+          <li>{{ locale === 'en' ? 'Higher stakes for the presidency' : 'Meer staat op het spel bij het presidentschap' }}</li>
+          <li>{{ locale === 'en' ? 'Stronger partisan loyalty' : 'Sterkere partijloyaliteit' }}</li>
+        </ol>
+        <figcaption>{{ locale === 'en' ? 'This proposed feedback loop can deepen gridlock.' : 'Deze voorgestelde terugkoppeling kan de impasse verdiepen.' }}</figcaption>
+      </figure>
+      <figure v-else-if="diagram === 'institutional-tests'" class="article-margin-sequence">
+        <ol>
+          <li>{{ locale === 'en' ? 'Legislature' : 'Parlement' }}</li>
+          <li>{{ locale === 'en' ? 'Courts' : 'Rechtbanken' }}</li>
+          <li>{{ locale === 'en' ? 'Public officials' : 'Ambtsdragers' }}</li>
+          <li>{{ locale === 'en' ? 'Security institutions' : 'Veiligheidsdiensten' }}</li>
+        </ol>
+        <figcaption>{{ locale === 'en' ? 'Formal checks work only when institutions act.' : 'Formele tegenmacht werkt alleen als instituties handelen.' }}</figcaption>
+      </figure>
       <figure v-else-if="diagram === 'self'" class="article-margin-sequence">
         <ol>
           <li>{{ locale === 'en' ? 'Body: what am I sensing?' : 'Lichaam: wat voel ik?' }}</li>

@@ -18,6 +18,12 @@ const articleSchema = z.object({
   originalUrl: z.string().url().optional(),
   summary: z.string().optional(),
   keyPoints: z.array(z.string()).optional(),
+  outlineNotes: z.array(z.object({
+    heading: z.string(),
+    detail: z.string(),
+    occurrence: z.number().int().positive().optional(),
+    diagram: z.string().optional()
+  })).optional(),
   plainLanguage: z.object({
     title: z.string(),
     intro: z.string(),
