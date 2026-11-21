@@ -1,5 +1,6 @@
 <script setup lang="ts">
-const props = defineProps<{ view: 'task' | 'paradox' }>()
+const props = defineProps<{ view: 'task' | 'paradox'; locale?: 'nl' | 'en' }>()
+const en = computed(() => props.locale === 'en')
 const growth = Math.round((945 / 415 - 1) * 100)
 </script>
 
@@ -7,63 +8,63 @@ const growth = Math.round((945 / 415 - 1) * 100)
   <figure class="energy-visual" :aria-labelledby="`energy-${view}-title`">
     <template v-if="view === 'task'">
       <figcaption>
-        <span class="eyebrow">Andere noemer, andere vergelijking</span>
-        <strong :id="`energy-${view}-title`">Van zoekopdracht naar beantwoorde informatietaak</strong>
+        <span class="eyebrow">{{ en ? "Changing the unit changes the comparison" : "Andere noemer, andere vergelijking" }}</span>
+        <strong :id="`energy-${view}-title`">{{ en ? "From individual queries to a completed information task" : "Van zoekopdracht naar beantwoorde informatietaak" }}</strong>
       </figcaption>
       <div class="task-grid">
         <section class="route route--search">
-          <h4>Traditionele zoekroute</h4>
+          <h4>{{ en ? "Traditional search route" : "Traditionele zoekroute" }}</h4>
           <ol>
-            <li><span>1</span>Zoekopdracht</li>
-            <li><span>2</span>Resultaten rangschikken</li>
-            <li><span>3</span>Meerdere pagina’s openen</li>
-            <li><span>4</span>Lezen en combineren</li>
+            <li><span>1</span>{{ en ? "Search query" : "Zoekopdracht" }}</li>
+            <li><span>2</span>{{ en ? "Rank results" : "Resultaten rangschikken" }}</li>
+            <li><span>3</span>{{ en ? "Open several pages" : "Meerdere pagina’s openen" }}</li>
+            <li><span>4</span>{{ en ? "Read and combine information" : "Lezen en combineren" }}</li>
           </ol>
-          <p>Meerdere systeem- én mensstappen</p>
+          <p>{{ en ? "Several steps for the system and the reader" : "Meerdere systeem- én mensstappen" }}</p>
         </section>
         <section class="route route--ai">
-          <h4>Rechtstreeks AI-antwoord</h4>
+          <h4>{{ en ? "Direct AI answer" : "Rechtstreeks AI-antwoord" }}</h4>
           <ol>
-            <li><span>1</span>Vraag met context</li>
-            <li><span>2</span>Modelinferentie</li>
-            <li><span>3</span>Samengesteld antwoord</li>
+            <li><span>1</span>{{ en ? "Ask a question with context" : "Vraag met context" }}</li>
+            <li><span>2</span>{{ en ? "Run the model" : "Modelinferentie" }}</li>
+            <li><span>3</span>{{ en ? "Get a combined answer" : "Samengesteld antwoord" }}</li>
           </ol>
-          <p>Minder handelingen, maar broncontrole kan ontbreken</p>
+          <p>{{ en ? "Fewer steps, but sources may still need checking" : "Minder handelingen, maar broncontrole kan ontbreken" }}</p>
         </section>
         <section class="route route--hybrid">
-          <h4>Hybride AI + retrieval</h4>
+          <h4>{{ en ? "Hybrid AI + retrieval" : "Hybride AI + retrieval" }}</h4>
           <ol>
-            <li><span>1</span>Vraag ontleden</li>
-            <li><span>2</span>Gericht ophalen en cachen</li>
-            <li><span>3</span>Redeneren met bronnen</li>
-            <li><span>4</span>Antwoord met herkomst</li>
+            <li><span>1</span>{{ en ? "Break down the question" : "Vraag ontleden" }}</li>
+            <li><span>2</span>{{ en ? "Retrieve and cache relevant information" : "Gericht ophalen en cachen" }}</li>
+            <li><span>3</span>{{ en ? "Reason from sources" : "Redeneren met bronnen" }}</li>
+            <li><span>4</span>{{ en ? "Provide an answer with sources" : "Antwoord met herkomst" }}</li>
           </ol>
-          <p>Meer machinewerk; mogelijk een completere taak</p>
+          <p>{{ en ? "More computation may deliver a more complete answer" : "Meer machinewerk; mogelijk een completere taak" }}</p>
         </section>
       </div>
-      <p class="visual-note"><strong>De juiste functionele eenheid hangt van de vraag af.</strong> Voor een navigatiezoekopdracht kan één zoekopdracht voldoende zijn. Voor een onderzoeksvraag moet de totale route naar een bruikbaar, gecontroleerd antwoord worden vergeleken.</p>
+      <p class="visual-note"><strong>{{ en ? "The right unit depends on the question." : "De juiste functionele eenheid hangt van de vraag af." }}</strong>{{ en ? " One search may be enough to find a website. For a research question, compare the entire route to a useful, verified answer." : " Voor een navigatiezoekopdracht kan één zoekopdracht voldoende zijn. Voor een onderzoeksvraag moet de totale route naar een bruikbaar, gecontroleerd antwoord worden vergeleken." }}</p>
     </template>
 
     <template v-else>
       <figcaption>
-        <span class="eyebrow">Efficiënter per taak, meer verbruik in totaal</span>
-        <strong :id="`energy-${view}-title`">De energieparadox van datacenters</strong>
+        <span class="eyebrow">{{ en ? "More efficient per task, higher total use" : "Efficiënter per taak, meer verbruik in totaal" }}</span>
+        <strong :id="`energy-${view}-title`">{{ en ? "The data centre energy paradox" : "De energieparadox van datacenters" }}</strong>
       </figcaption>
-      <div class="bars" role="img" aria-label="Wereldwijd elektriciteitsverbruik van alle datacenters: 415 terawattuur in 2024 en 945 terawattuur in het basisscenario voor 2030.">
+      <div class="bars" role="img" :aria-label="en ? 'Worldwide electricity use by all data centres: 415 terawatt-hours in 2024 and 945 terawatt-hours in the 2030 base case.' : 'Wereldwijd elektriciteitsverbruik van alle datacenters: 415 terawattuur in 2024 en 945 terawattuur in het basisscenario voor 2030.'">
         <div class="bar-column">
-          <div class="bar-label"><strong>415 TWh</strong><span>2024 · schatting</span></div>
+          <div class="bar-label"><strong>415 TWh</strong><span>{{ en ? "2024 · estimate" : "2024 · schatting" }}</span></div>
           <div class="bar bar--2024" />
         </div>
         <div class="bar-column">
-          <div class="bar-label"><strong>945 TWh</strong><span>2030 · IEA-basisscenario</span></div>
+          <div class="bar-label"><strong>945 TWh</strong><span>{{ en ? "2030 · IEA base case" : "2030 · IEA-basisscenario" }}</span></div>
           <div class="bar bar--2030"><span>+{{ growth }}%</span></div>
         </div>
       </div>
       <div class="scope">
-        <strong>Dit zijn alle datacenters</strong>
-        <span>AI is volgens de IEA de belangrijkste groeimotor, maar de totalen omvatten ook conventionele servers, opslag, netwerken, koeling en andere digitale diensten.</span>
+        <strong>{{ en ? "This covers all data centres" : "Dit zijn alle datacenters" }}</strong>
+        <span>{{ en ? "The IEA identifies AI as the biggest driver of growth, but the totals also include conventional servers, storage, networking, cooling and other digital services." : "AI is volgens de IEA de belangrijkste groeimotor, maar de totalen omvatten ook conventionele servers, opslag, netwerken, koeling en andere digitale diensten." }}</span>
       </div>
-      <p class="visual-note">De waarden combineren een raming voor 2024 met een scenario voor 2030. Het tweede getal is dus geen gemeten toekomst en evenmin een raming van uitsluitend AI.</p>
+      <p class="visual-note">{{ en ? "The figures pair a 2024 estimate with a 2030 scenario. The second figure describes a possible future for all data centres." : "De waarden combineren een raming voor 2024 met een scenario voor 2030. Het tweede getal is dus geen gemeten toekomst en evenmin een raming van uitsluitend AI." }}</p>
     </template>
   </figure>
 </template>

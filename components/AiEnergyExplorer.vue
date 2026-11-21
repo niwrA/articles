@@ -1,8 +1,9 @@
 <script setup lang="ts">
 type View = 'task' | 'scale' | 'leverage'
-const props = withDefaults(defineProps<{ view?: View }>(), { view: 'task' })
+const props = withDefaults(defineProps<{ view?: View; locale?: 'nl' | 'en' }>(), { view: 'task' })
+const en = computed(() => props.locale === 'en')
 const active = ref<View>(props.view)
-const fmt = (value:number, digits=1) => new Intl.NumberFormat('nl-NL',{maximumFractionDigits:digits}).format(value)
+const fmt = (value:number, digits=1) => new Intl.NumberFormat(en.value ? 'en-GB' : 'nl-NL',{maximumFractionDigits:digits}).format(value)
 const clamp = (value:number,min:number,max:number) => Math.min(max,Math.max(min,value))
 
 const searches = ref(5), searchWh = ref(.3), pages = ref(8), pageWh = ref(.05)
@@ -29,67 +30,67 @@ const leverageClass = computed(()=>leverage.value>=1?'positive':'negative')
 
 <template>
   <section class="energy-model" aria-labelledby="energy-model-title">
-    <header><div><p class="eyebrow">Scenarioverkenner</p><h3 id="energy-model-title">Van energie per taak naar aantoonbare klimaatwinst</h3></div><p>De startwaarden combineren gepubliceerde meetpunten met expliciete rekenaannames. Pas ze aan; het model voorspelt niets.</p></header>
-    <nav aria-label="Kies een perspectief">
-      <button v-for="item in ([['task','Informatietaak'],['scale','Schaal & rebound'],['leverage','Klimaathefboom']] as const)" :key="item[0]" type="button" :aria-pressed="active===item[0]" @click="active=item[0]">{{item[1]}}</button>
+    <header><div><p class="eyebrow">{{ en ? "Scenario explorer" : "Scenarioverkenner" }}</p><h3 id="energy-model-title">{{ en ? "From energy per task to measurable climate gains" : "Van energie per taak naar aantoonbare klimaatwinst" }}</h3></div><p>{{ en ? "The starting values combine published measurements with explicit assumptions. Adjust them to explore scenarios; the model makes no predictions." : "De startwaarden combineren gepubliceerde meetpunten met expliciete rekenaannames. Pas ze aan; het model voorspelt niets." }}</p></header>
+    <nav :aria-label="en ? 'Choose a perspective' : 'Kies een perspectief'">
+      <button v-for="item in ([['task', en ? 'Information task' : 'Informatietaak'], ['scale', en ? 'Scale & rebound' : 'Schaal & rebound'], ['leverage', en ? 'Climate leverage' : 'Klimaathefboom']] as const)" :key="item[0]" type="button" :aria-pressed="active===item[0]" @click="active=item[0]">{{item[1]}}</button>
     </nav>
 
     <div v-if="active==='task'" class="panel">
       <div class="controls two">
-        <fieldset><legend>Traditionele zoekroute</legend>
-          <label>Aantal zoekopdrachten <output>{{searches}}</output><input v-model.number="searches" type="range" min="1" max="15"></label>
-          <label>Wh per zoekopdracht <output>{{fmt(searchWh,2)}}</output><input v-model.number="searchWh" type="range" min=".05" max="1" step=".05"></label>
-          <label>Geopende pagina’s <output>{{pages}}</output><input v-model.number="pages" type="range" min="0" max="25"></label>
-          <label>Wh per pagina <output>{{fmt(pageWh,2)}}</output><input v-model.number="pageWh" type="range" min="0" max=".3" step=".01"></label>
+        <fieldset><legend>{{ en ? "Traditional search route" : "Traditionele zoekroute" }}</legend>
+          <label>{{ en ? "Number of searches" : "Aantal zoekopdrachten" }} <output>{{searches}}</output><input v-model.number="searches" type="range" min="1" max="15"></label>
+          <label>{{ en ? "Wh per search" : "Wh per zoekopdracht" }} <output>{{fmt(searchWh,2)}}</output><input v-model.number="searchWh" type="range" min=".05" max="1" step=".05"></label>
+          <label>{{ en ? "Pages opened" : "Geopende pagina’s" }} <output>{{pages}}</output><input v-model.number="pages" type="range" min="0" max="25"></label>
+          <label>{{ en ? "Wh per page" : "Wh per pagina" }} <output>{{fmt(pageWh,2)}}</output><input v-model.number="pageWh" type="range" min="0" max=".3" step=".01"></label>
         </fieldset>
         <fieldset><legend>AI + retrieval</legend>
-          <label>Aantal modelaanroepen <output>{{aiCalls}}</output><input v-model.number="aiCalls" type="range" min="1" max="10"></label>
-          <label>Wh per eenvoudige tekstprompt <output>{{fmt(aiWh,2)}}</output><input v-model.number="aiWh" type="range" min=".05" max="2" step=".01"></label>
-          <label>Complexiteitsfactor <output>{{reasoning}}×</output><input v-model.number="reasoning" type="range" min="1" max="100"></label>
-          <label>Retrievalacties <output>{{retrievals}}</output><input v-model.number="retrievals" type="range" min="0" max="25"></label>
+          <label>{{ en ? "Number of model calls" : "Aantal modelaanroepen" }} <output>{{aiCalls}}</output><input v-model.number="aiCalls" type="range" min="1" max="10"></label>
+          <label>{{ en ? "Wh per simple text prompt" : "Wh per eenvoudige tekstprompt" }} <output>{{fmt(aiWh,2)}}</output><input v-model.number="aiWh" type="range" min=".05" max="2" step=".01"></label>
+          <label>{{ en ? "Complexity factor" : "Complexiteitsfactor" }} <output>{{reasoning}}×</output><input v-model.number="reasoning" type="range" min="1" max="100"></label>
+          <label>{{ en ? "Retrieval operations" : "Retrievalacties" }} <output>{{retrievals}}</output><input v-model.number="retrievals" type="range" min="0" max="25"></label>
         </fieldset>
       </div>
       <div class="result comparison">
-        <div><span>Zoekroute</span><strong>{{fmt(searchTask,2)}} Wh</strong></div><div><span>AI-route</span><strong>{{fmt(aiTask,2)}} Wh</strong></div>
-        <p :class="taskRatio<=1?'positive':'negative'">De AI-route gebruikt in dit scenario <strong>{{fmt(Math.abs(taskRatio-1)*100,0)}}%</strong> {{taskRatio<=1?'minder':'meer'}} operationele energie.</p>
+        <div><span>{{ en ? "Search route" : "Zoekroute" }}</span><strong>{{fmt(searchTask,2)}} Wh</strong></div><div><span>{{ en ? 'AI route' : 'AI-route' }}</span><strong>{{fmt(aiTask,2)}} Wh</strong></div>
+        <p :class="taskRatio<=1?'positive':'negative'">{{ en ? 'In this scenario, the AI route uses' : 'De AI-route gebruikt in dit scenario' }} <strong>{{fmt(Math.abs(taskRatio-1)*100,0)}}%</strong> {{ en ? (taskRatio<=1 ? 'less operational energy.' : 'more operational energy.') : (taskRatio<=1 ? 'minder operationele energie.' : 'meer operationele energie.') }}</p>
       </div>
-      <p class="note">De standaard van 0,24 Wh is Googles gemeten mediaan voor een Gemini-tekstprompt in mei 2025. De complexiteitsfactor en energie per pagina zijn scenarioaannames; training, apparaten van de gebruiker en embodied emissions ontbreken.</p>
+      <p class="note">{{ en ? "The default of 0.24 Wh is Google's measured median for a Gemini text prompt in May 2025. Task complexity and energy per page are assumptions. Training, user devices and embodied emissions are excluded." : "De standaard van 0,24 Wh is Googles gemeten mediaan voor een Gemini-tekstprompt in mei 2025. De complexiteitsfactor en energie per pagina zijn scenarioaannames; training, apparaten van de gebruiker en embodied emissions ontbreken." }}</p>
     </div>
 
     <div v-else-if="active==='scale'" class="panel scale-layout">
-      <fieldset class="controls"><legend>Ontwikkeling per jaar</legend>
-        <label>Start: miljard taken per dag <output>{{initialTasks}}</output><input v-model.number="initialTasks" type="range" min="1" max="100"></label>
-        <label>Groei oorspronkelijk gebruik <output>{{demandGrowth}}%</output><input v-model.number="demandGrowth" type="range" min="0" max="150"></label>
-        <label>Efficiëntiewinst per taak <output>{{efficiency}}%</output><input v-model.number="efficiency" type="range" min="0" max="80"></label>
-        <label>Extra reboundgroei <output>{{rebound}}%</output><input v-model.number="rebound" type="range" min="0" max="100"></label>
-        <label>Periode <output>{{years}} jaar</output><input v-model.number="years" type="range" min="2" max="10"></label>
+      <fieldset class="controls"><legend>{{ en ? "Annual change" : "Ontwikkeling per jaar" }}</legend>
+        <label>{{ en ? "Starting point: billion tasks per day" : "Start: miljard taken per dag" }} <output>{{initialTasks}}</output><input v-model.number="initialTasks" type="range" min="1" max="100"></label>
+        <label>{{ en ? "Baseline growth in use" : "Groei oorspronkelijk gebruik" }} <output>{{demandGrowth}}%</output><input v-model.number="demandGrowth" type="range" min="0" max="150"></label>
+        <label>{{ en ? "Efficiency gain per task" : "Efficiëntiewinst per taak" }} <output>{{efficiency}}%</output><input v-model.number="efficiency" type="range" min="0" max="80"></label>
+        <label>{{ en ? "Additional growth from rebound" : "Extra reboundgroei" }} <output>{{rebound}}%</output><input v-model.number="rebound" type="range" min="0" max="100"></label>
+        <label>{{ en ? "Time span" : "Periode" }} <output>{{years}} {{ en ? 'years' : 'jaar' }}</output><input v-model.number="years" type="range" min="2" max="10"></label>
       </fieldset>
       <div class="chart-card">
-        <svg viewBox="0 0 100 100" role="img" :aria-label="`Jaarverbruik stijgt van ${fmt(series[0]!.total,2)} naar ${fmt(series.at(-1)!.total,2)} terawattuur`" preserveAspectRatio="none">
+        <svg viewBox="0 0 100 100" role="img" :aria-label="en ? `Annual energy use goes from ${fmt(series[0]!.total,2)} to ${fmt(series.at(-1)!.total,2)} terawatt-hours` : `Jaarverbruik gaat van ${fmt(series[0]!.total,2)} naar ${fmt(series.at(-1)!.total,2)} terawattuur`" preserveAspectRatio="none">
           <path d="M0 92H100M0 53H100M0 14H100" class="grid"/><polyline :points="points" class="line"/><path v-for="(point,index) in series" :key="index" :d="`M${index/(series.length-1)*100-1},${92-point.total/maxTotal*78-1}h2v2h-2z`" class="dot"/>
         </svg>
-        <div class="chart-axis"><span>Nu</span><span>Na {{years}} jaar</span></div>
-        <strong>{{fmt(series.at(-1)!.total,2)}} TWh/jaar</strong>
-        <p :class="series.at(-1)!.total<=series[0]!.total?'positive':'negative'">{{series.at(-1)!.total<=series[0]!.total?'Efficiëntie groeit sneller dan gebruik en rebound.':'Gebruik en rebound groeien samen sneller dan de efficiëntie.'}}</p>
+        <div class="chart-axis"><span>{{ en ? 'Now' : 'Nu' }}</span><span>{{ en ? 'After' : 'Na' }} {{years}} {{ en ? 'years' : 'jaar' }}</span></div>
+        <strong>{{fmt(series.at(-1)!.total,2)}} {{ en ? 'TWh/year' : 'TWh/jaar' }}</strong>
+        <p :class="series.at(-1)!.total<=series[0]!.total?'positive':'negative'">{{series.at(-1)!.total<=series[0]!.total ? (en ? 'Efficiency gains offset growth in use and rebound.' : 'Efficiëntiewinst compenseert de groei in gebruik en rebound.') : (en ? 'Growth in use and rebound outpaces efficiency gains.' : 'Gebruik en rebound groeien samen sneller dan de efficiëntie.')}}</p>
       </div>
-      <p class="note wide">Rebound staat hier los van de oorspronkelijke gebruiksgroei: het representeert nieuw gebruik dat juist door lagere kosten ontstaat. Werkelijke groei is niet netjes in beide oorzaken te scheiden; de splitsing maakt de gevoeligheid zichtbaar.</p>
+      <p class="note wide">{{ en ? "The model treats rebound separately from baseline growth. Rebound is extra use prompted by lower costs. Real-world growth cannot be neatly split this way, but the separation shows how much each assumption matters." : "Rebound staat hier los van de oorspronkelijke gebruiksgroei: het representeert nieuw gebruik dat juist door lagere kosten ontstaat. Werkelijke groei is niet netjes in beide oorzaken te scheiden; de splitsing maakt de gevoeligheid zichtbaar." }}</p>
     </div>
 
     <div v-else class="panel leverage-layout">
       <fieldset class="controls"><legend>Climate Leverage Ratio</legend>
-        <label>Volledige AI-voetafdruk <output>{{fmt(footprint,0)}} tCO₂e</output><input v-model.number="footprint" type="range" min="100" max="10000" step="100"></label>
-        <label>Bruto geschatte vermijding <output>{{fmt(grossAvoided,0)}} tCO₂e</output><input v-model.number="grossAvoided" type="range" min="0" max="50000" step="500"></label>
-        <label>Causaal aan AI toe te rekenen <output>{{causality}}%</output><input v-model.number="causality" type="range" min="0" max="100"></label>
-        <label>Werkelijk additioneel <output>{{additionality}}%</output><input v-model.number="additionality" type="range" min="0" max="100"></label>
-        <label>Overlap/dubbeltelling <output>{{overlap}}%</output><input v-model.number="overlap" type="range" min="0" max="100"></label>
-        <label>Bewijszekerheid <output>{{confidence}}%</output><input v-model.number="confidence" type="range" min="0" max="100"></label>
+        <label>{{ en ? "Full AI footprint" : "Volledige AI-voetafdruk" }} <output>{{fmt(footprint,0)}} tCO₂e</output><input v-model.number="footprint" type="range" min="100" max="10000" step="100"></label>
+        <label>{{ en ? "Gross estimated emissions avoided" : "Bruto geschatte vermijding" }} <output>{{fmt(grossAvoided,0)}} tCO₂e</output><input v-model.number="grossAvoided" type="range" min="0" max="50000" step="500"></label>
+        <label>{{ en ? "Causally attributable to AI" : "Causaal aan AI toe te rekenen" }} <output>{{causality}}%</output><input v-model.number="causality" type="range" min="0" max="100"></label>
+        <label>{{ en ? "Additional to the baseline" : "Werkelijk additioneel" }} <output>{{additionality}}%</output><input v-model.number="additionality" type="range" min="0" max="100"></label>
+        <label>{{ en ? "Overlap or double counting" : "Overlap/dubbeltelling" }} <output>{{overlap}}%</output><input v-model.number="overlap" type="range" min="0" max="100"></label>
+        <label>{{ en ? "Confidence in the evidence" : "Bewijszekerheid" }} <output>{{confidence}}%</output><input v-model.number="confidence" type="range" min="0" max="100"></label>
       </fieldset>
       <div class="gauge-card">
         <div class="gauge" :style="{'--score':clamp(leverage/5,0,1)}"><span>CLR</span><strong>{{fmt(leverage,2)}}</strong></div>
-        <p :class="leverageClass"><strong>{{fmt(credited,0)}} tCO₂e</strong> gewogen vermijding tegenover <strong>{{fmt(footprint,0)}} tCO₂e</strong> voetafdruk.</p>
-        <small>Bij CLR &gt; 1 is de gewogen vermijding groter dan de ingevoerde voetafdruk. Dat bewijst niet dat de toepassing maatschappelijk optimaal is.</small>
+        <p :class="leverageClass"><strong>{{fmt(credited,0)}} tCO₂e</strong>{{ en ? " weighted emissions avoided versus " : " gewogen vermijding tegenover " }}<strong>{{fmt(footprint,0)}} tCO₂e</strong> {{ en ? 'footprint.' : 'voetafdruk.' }}</p>
+        <small>{{ en ? 'A CLR above 1 means weighted avoided emissions exceed the entered footprint. It does not establish that this is the best use for society.' : 'Bij CLR > 1 is de gewogen vermijding groter dan de ingevoerde voetafdruk. Dat bewijst niet dat de toepassing maatschappelijk optimaal is.' }}</small>
       </div>
-      <p class="formula wide">Gewogen vermijding = bruto vermijding × causaliteit × additionaliteit × (1 − overlap) × bewijszekerheid</p>
+      <p class="formula wide">{{ en ? "Weighted emissions avoided = gross emissions avoided × causality × additionality × (1 − overlap) × confidence" : "Gewogen vermijding = bruto vermijding × causaliteit × additionaliteit × (1 − overlap) × bewijszekerheid" }}</p>
     </div>
   </section>
 </template>
