@@ -13,17 +13,12 @@ const heading = (n: Block) => /^h[1-6]$/.test(tag(n))
 const sources = (n: Block) => heading(n) && /^(notes|noten|referenties|references|further (viewing and )?reading|bronnen)(\s|$)/i.test(words(n).trim())
 function excerpt(blocks: Block[], locale: string) {
   const segmenter = typeof Intl.Segmenter === 'function' ? new Intl.Segmenter(locale,{granularity:'sentence'}) : undefined
-  const paragraphs=blocks.filter(block=>tag(block)==='p').map(block=>words(block).replace(/\s+/g,' ').trim())
+  const paragraphs=blocks.filter(block=>tag(block)==='p').map(block=>words(block).replace(/\\s+/g,' ').trim())
   const split=(paragraph:string)=>[...(segmenter?.segment(paragraph) ?? [{segment:paragraph}])].map(x=>x.segment.trim())
-  // Prefer the sentence that completes the opening thought, rather than repeating its first line.
-  for (const paragraph of paragraphs) {
+  // Use the section's concluding thought as the outline cue, rather than echoing its opening line.
+  for (const paragraph of [...paragraphs].reverse()) {
     const candidates=split(paragraph).filter(s=>s.length>=38 && s.length<=240 && !s.endsWith(':') && !s.includes('://'))
-    if(candidates.length>1)return candidates.at(-1)!
-  }
-  // Short openers often consist of one sentence; use the next paragraph's setup as a fallback.
-  for (const paragraph of paragraphs.slice(1)) {
-    const candidate=split(paragraph).find(s=>s.length>=38 && s.length<=240 && !s.endsWith(':') && !s.includes('://'))
-    if(candidate)return candidate
+    if(candidates.length)return candidates.at(-1)!
   }
   return ''
 }
