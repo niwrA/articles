@@ -34,7 +34,6 @@ outlineNotes:
     detail: "Lower barriers to representation let new movements test whether neglected issues have real electoral demand."
   - heading: "The American barrier to entry"
     detail: "A movement with dispersed support may finish third in district after district and win no seats."
-    diagram: "vote-entry"
   - heading: "Money as a second barrier to entry"
     detail: "Early fundraising is treated as evidence of viability, reinforcing the electoral barrier before many voters are paying attention."
   - heading: "Two parties become two coalitions"

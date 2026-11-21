@@ -34,7 +34,6 @@ outlineNotes:
     detail: "Lagere toetredingsdrempels laten nieuwe bewegingen toetsen of verwaarloosde kwesties werkelijk kiezers aanspreken."
   - heading: "De Amerikaanse toetredingsdrempel"
     detail: "Een beweging met verspreide steun kan district na district derde worden en toch geen zetels winnen."
-    diagram: "vote-entry"
   - heading: "Geld als tweede toetredingsdrempel"
     detail: "Vroege fondsenwerving geldt als bewijs van levensvatbaarheid en versterkt de electorale drempel voordat veel kiezers opletten."
   - heading: "Twee partijen worden twee coalities"
