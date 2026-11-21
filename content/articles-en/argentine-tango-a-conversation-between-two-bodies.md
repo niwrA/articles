@@ -39,6 +39,32 @@ modelLimitations:
   - The movements remain schematic, testable variants and are not dance instruction.
   - Mirrored variants preserve the same embrace and geometric constraints, but still require practical testing movement by movement.
 draft: false
+outlineNotes:
+  - heading: "A dance nobody designed"
+    detail: "Tango grew from encounters between communities. Its history leaves room for several ways of dancing, without a single origin story or a fixed division of roles."
+  - heading: "Tango now: from walking to an open movement vocabulary"
+    detail: "Walking can carry a whole song. In the simulator, watch how the standing leg, balance and contact shape what can happen next."
+  - heading: "The music helps us choose"
+    detail: "A pause or phrase ending gives both dancers a cue: finish a movement, let it run on, or do nothing for a moment."
+  - heading: "Adornos: an individual voice without a new proposal"
+    detail: "A free foot can mark an accent without asking the partner to change direction. Recognising that difference keeps the conversation calm."
+  - heading: "Figures in increasing order of reciprocity"
+    detail: "Compare a side step with a giro: as the movement changes, so does what each dancer can decide about timing, direction and arrival."
+  - heading: "Proposal, uptake and division of tasks"
+    detail: "Both dancers help create a shared movement, even when they have different jobs within it."
+    diagram: tango-proposal
+  - heading: "A new proposal"
+    detail: "Keep the asymmetries that help the movement. Practise making, accepting and letting go of proposals from either side."
+  - heading: "An etiquette within and beyond the abrazo"
+    detail: "The embrace carries subtle signals. When they are ambiguous, either dancer can leave room for the other by slowing down or stopping."
+  - heading: "Equality does not require simultaneity"
+    detail: "A small adjustment can shift the initiative gradually. Both dancers can have a say without choosing the next step at the same moment."
+  - heading: "The final step: allowing initiative genuinely to change sides"
+    detail: "To give either dancer the initiative within the same embrace, practise starting the movement from the mirrored balance and supporting leg."
+  - heading: "Two ways of learning tango"
+    detail: "Figures give you something to practise. Varying where and how you arrive teaches you what to do when a partner moves differently from the sequence."
+  - heading: "A conversation with two voices"
+    detail: "Watch the giro again: whoever starts it need not decide how long it lasts or where it goes next."
 ---
 
 Video example: [**Valseando with a sense of freedom**](https://youtube.com/shorts/3xpDPokkd7U?si=uBSr5XC5UB__LxfC)

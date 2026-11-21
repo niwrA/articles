@@ -41,6 +41,24 @@ modelLimitations:
   - The scale model is a sensitivity exploration, not a forecast of AI activity or data-centre consumption.
   - The Climate Leverage Ratio is a conceptual framework; causality, additionality, overlap and confidence would need to be established empirically.
 draft: false
+outlineNotes:
+  - heading: "What has actually been measured?"
+    detail: "A measured median for Gemini text is useful within its own scope. It tells us little about longer reasoning, video generation or another provider’s system."
+  - heading: "From command to information need"
+    detail: "Compare the energy required to answer the same question well, including searches, page visits, follow-ups and failed attempts."
+  - heading: "Up-front costs: training and indexing"
+    detail: "Training a model and building a search index both cost energy before the first request. The per-task share depends on how often each is used and renewed."
+  - heading: "Search and AI are converging"
+    detail: "A cache, a search index and a small model can handle some tasks cheaply. A larger model can do the work that remains."
+  - heading: "The paradox: less energy per task, more energy overall"
+    detail: "Efficiency can make a task cheaper enough for people to do more of it, or use it in new places. The total depends on how much demand responds."
+    diagram: energy-rebound
+  - heading: "Can AI save more climate impact than it causes?"
+    detail: "The relevant climate gain is the share that would not have happened without AI. A promising lab result still has to make it into practice."
+  - heading: "The Climate Leverage Ratio"
+    detail: "Compare additional avoided emissions with the full footprint of the AI use. A ratio above one means estimated climate gains exceed those costs, within the chosen boundaries."
+  - heading: "From capability to responsibility"
+    detail: "The essay ends with an ethical question: does the ability to help solve a shared problem bring a responsibility to try?"
 ---
 
 One question asked of artificial intelligence is said to consume ten times as much energy as one Google search. The comparison has been repeated often enough to sound like an established fact. It also has precisely the form that travels well: two familiar actions, one clear number and an uncomfortable conclusion. Someone using a chatbot where a search engine would have sufficed appears to consume ten times as much electricity without seeing it.

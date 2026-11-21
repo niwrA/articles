@@ -38,6 +38,51 @@ modelLimitations:
 aiReviewModel: GPT-5.6 Sol
 aiReviewDate: 2026-09-10
 draft: false
+outlineNotes:
+  - heading: "How much living space do we actually need?"
+    detail: "A shortage can mean too little space, too few independent homes, or homes in the wrong place or price range. Each calls for a different response."
+  - heading: "Housing capacity"
+    detail: "Count homes, floor area and the people they can house comfortably. Each measure reveals something the others miss."
+  - heading: "Household dilution"
+    detail: "When the same population forms more households, more kitchens and bathrooms are needed. Demand can rise without population growth."
+    diagram: housing-dilution
+  - heading: "Possible policy levers"
+    detail: "An empty bedroom can become usable housing sooner than a new home can be built, if rules and finances make voluntary sharing practical."
+  - heading: "Housing stock and household structure no longer align"
+    detail: "A family home can become a poor match for its residents over time. That matters when they want to move and have no attractive alternative."
+  - heading: "Downsizing is not only about square metres"
+    detail: "A workshop or guest room can be shared without giving up its function. That can make a smaller private home a real alternative."
+  - heading: "Location is part of housing quality"
+    detail: "A flat farther away may fit on paper, while costing someone their familiar doctor, neighbours or daily routines."
+  - heading: "Possible policy levers"
+    detail: "A suitable home in the same neighbourhood can set off a chain of moves, starting with the family home it frees up."
+    occurrence: 2
+  - heading: "Subdividing homes"
+    detail: "Subdivision adds independent homes without adding much floor area. Cost per extra dwelling-year makes it easier to compare with other measures."
+  - heading: "Adding floors and transforming buildings"
+    detail: "An extra floor or converted office can use land and infrastructure already in place. The building still has to be suitable for the change."
+  - heading: "New construction remains necessary"
+    detail: "New construction adds physical capacity and can fill gaps in the mix of homes. Demolition and other losses determine how much the stock grows."
+  - heading: "The long lead time of construction"
+    detail: "A shortage can grow faster than a building project can respond. Shorter lead times give measures using existing buildings a different role."
+  - heading: "Population growth and migration"
+    detail: "How much migration adds to housing demand depends on who stays, for how long, and how many independent households they form."
+  - heading: "Labour migration and economic growth"
+    detail: "Economic activity can generate jobs and new housing demand together. Planning for one also means planning for the other."
+  - heading: "Productivity"
+    detail: "Producing the same output with fewer workers can ease growth in housing demand if those extra jobs would otherwise bring in new residents."
+  - heading: "Vacancy"
+    detail: "A vacant home in the register may be under renovation or between tenants. The useful figure is how much lasting, avoidable vacancy can actually be brought back into use."
+  - heading: "Affordability"
+    detail: "More borrowing power helps some buyers compete, but in a tight market part of the gain can end up in higher prices."
+  - heading: "Uncertainty"
+    detail: "Build a long-term base and keep faster options available. Their value rises when demand moves outside the forecast."
+  - heading: "Comparing the principal levers"
+    detail: "Read the measures by speed, cost and lasting effect. Some of the quickest options also have the most uncertain potential."
+  - heading: "A better core indicator"
+    detail: "Track net effective housing capacity against demand. A construction target alone misses demolition, household growth and better use of existing space."
+  - heading: "Conclusion"
+    detail: "The mix matters: build for structural demand, make existing homes easier to use or move between, and keep a buffer for surprises."
 ---
 
 The Netherlands has a housing shortage. In 2026, the statistical shortage is approximately 4.8%, while policy focuses strongly on delivering roughly 100,000 homes a year. Without additional housing, a growing number of households will struggle to find suitable accommodation.[12]

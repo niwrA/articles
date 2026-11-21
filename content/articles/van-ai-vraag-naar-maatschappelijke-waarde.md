@@ -41,6 +41,24 @@ modelLimitations:
   - Het schaalmodel is een gevoeligheidsverkenning en geen voorspelling van AI-gebruik of datacenterverbruik.
   - De Climate Leverage Ratio is een conceptueel beoordelingskader; causaliteit, additionaliteit, overlap en bewijszekerheid moeten in werkelijkheid empirisch worden vastgesteld.
 draft: false
+outlineNotes:
+  - heading: "Wat is er werkelijk gemeten?"
+    detail: "Een gemeten mediaan voor Gemini-tekst is nuttig binnen die afbakening. Over langer redeneren, video of een andere aanbieder zegt hij weinig."
+  - heading: "Van opdracht naar informatiebehoefte"
+    detail: "Vergelijk hoeveel energie het kost om dezelfde vraag goed te beantwoorden. Tel zoekopdrachten, bezochte pagina’s, vervolgvragen en mislukte pogingen mee."
+  - heading: "Kosten vooraf: training en indexering"
+    detail: "Een model trainen en een zoekindex bouwen kosten al energie vóór de eerste vraag. Het aandeel per taak hangt af van gebruik en vernieuwing."
+  - heading: "Search en AI groeien naar elkaar toe"
+    detail: "Een cache, zoekindex en klein model kunnen sommige taken goedkoop afhandelen. Een groter model kan het werk doen dat overblijft."
+  - heading: "De paradox: zuiniger per taak, meer stroom in totaal"
+    detail: "Efficiëntie kan een taak zo goedkoop maken dat we haar vaker of op nieuwe plekken uitvoeren. Het totaal hangt af van hoe sterk het gebruik reageert."
+    diagram: energy-rebound
+  - heading: "Kan AI méér klimaatwinst opleveren dan zij kost?"
+    detail: "De relevante klimaatwinst is het deel dat zonder AI niet was ontstaan. Een veelbelovend resultaat in het lab moet de praktijk nog bereiken."
+  - heading: "De Climate Leverage Ratio"
+    detail: "Vergelijk de extra vermeden uitstoot met de volledige uitstoot van de AI-toepassing. Boven één is de geschatte klimaatwinst binnen die afbakening groter dan de kosten."
+  - heading: "Van mogelijkheid naar verantwoordelijkheid"
+    detail: "Het essay eindigt met een ethische vraag: als je kunt helpen een gezamenlijk probleem op te lossen, ontstaat dan ook de verantwoordelijkheid om het te proberen?"
 ---
 
 Eén vraag aan kunstmatige intelligentie zou tien keer zoveel energie kosten als één Google-zoekopdracht. De vergelijking is vaak genoeg herhaald om als vaststaand feit te klinken. Zij heeft ook precies de vorm die gemakkelijk blijft hangen: twee bekende handelingen, één helder getal en een ongemakkelijke conclusie. Wie een chatbot gebruikt waar een zoekmachine had volstaan, zou zonder het te zien tienmaal zoveel elektriciteit verbruiken.

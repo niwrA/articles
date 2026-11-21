@@ -39,6 +39,32 @@ modelLimitations:
   - De bewegingen blijven schematische, te toetsen varianten en zijn geen dansinstructie.
   - De gespiegelde varianten behouden dezelfde omhelzing en geometrische regels, maar moeten nog per beweging in de praktijk worden getoetst.
 draft: false
+outlineNotes:
+  - heading: "Een dans die niemand ontwierp"
+    detail: "Tango groeide uit ontmoetingen tussen gemeenschappen. Die geschiedenis laat ruimte voor meerdere manieren van dansen, zonder één oorsprongsverhaal of vaste rolverdeling."
+  - heading: "Tango nu: van lopen naar een open bewegingsvocabulaire"
+    detail: "Met lopen kun je een heel nummer dansen. Kijk in de simulator hoe standbeen, balans en contact bepalen wat er daarna mogelijk is."
+  - heading: "De muziek kiest mee"
+    detail: "Een stilte of het einde van een frase geeft beide dansers een aanknopingspunt: rond de beweging af, laat haar doorgaan of wacht even."
+  - heading: "Adornos: een eigen stem zonder nieuw voorstel"
+    detail: "Een vrije voet kan een accent tekenen zonder de ander te vragen van richting te veranderen. Dat verschil herkennen houdt het gesprek rustig."
+  - heading: "Figuren, in oplopende wederkerigheid"
+    detail: "Vergelijk een zijstap met een giro: met de beweging verandert ook wat ieder zelf kan bepalen over timing, richting en aankomst."
+  - heading: "Voorstel, aanname en taakverdeling"
+    detail: "Beide dansers maken de beweging samen, ook als ze er ieder een andere taak in hebben."
+    diagram: tango-proposal
+  - heading: "Een nieuw voorstel"
+    detail: "Behoud de asymmetrie die de beweging helpt. Oefen van beide kanten met voorstellen doen, aannemen en weer loslaten."
+  - heading: "Een etiquette in en buiten de abrazo"
+    detail: "De omhelzing geeft subtiele signalen door. Bij twijfel kan ieder de ander ruimte geven door te vertragen of stil te staan."
+  - heading: "Gelijkwaardigheid vraagt geen gelijktijdigheid"
+    detail: "Een kleine aanpassing kan het initiatief geleidelijk laten verschuiven. Beiden kunnen invloed hebben zonder tegelijkertijd de volgende stap te kiezen."
+  - heading: "De laatste stap: het initiatief werkelijk laten wisselen"
+    detail: "Om binnen dezelfde omhelzing beiden initiatief te geven, oefen je de inzet ook vanuit de gespiegelde balans en het andere standbeen."
+  - heading: "Twee manieren om tango te leren"
+    detail: "Figuren geven houvast bij het oefenen. Door de aankomst te variëren leer je wat je kunt doen als je partner anders beweegt dan in de geoefende reeks."
+  - heading: "Een gesprek met twee stemmen"
+    detail: "Kijk nog eens naar de giro: wie hem inzet, hoeft niet te bepalen hoe lang hij duurt of wat erop volgt."
 ---
 
 Videovoorbeeld: [**Valseando with a sense of freedom**](https://youtube.com/shorts/3xpDPokkd7U?si=uBSr5XC5UB__LxfC)

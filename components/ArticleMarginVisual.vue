@@ -46,6 +46,33 @@ withDefaults(defineProps<{diagram:string;locale?:string}>(), { locale: "nl" })
         </ol>
         <figcaption>{{ locale === 'en' ? 'Formal checks work only when institutions act.' : 'Formele tegenmacht werkt alleen als instituties handelen.' }}</figcaption>
       </figure>
+      <figure v-else-if="diagram === 'housing-dilution'" class="article-margin-sequence article-margin-quantities">
+        <div>
+          <span>{{ locale === 'en' ? 'One household of four' : 'Eén huishouden van vier' }}</span>
+          <strong>90 m²</strong>
+          <span class="quantity-bar quantity-bar--half" aria-hidden="true"></span>
+        </div>
+        <div>
+          <span>{{ locale === 'en' ? 'Four households of one' : 'Vier eenpersoonshuishoudens' }}</span>
+          <strong>180 m²</strong>
+          <span class="quantity-bar" aria-hidden="true"></span>
+        </div>
+        <figcaption>{{ locale === 'en' ? 'Illustration: 30 m² per household plus 15 m² per resident.' : 'Rekenvoorbeeld: 30 m² per huishouden plus 15 m² per bewoner.' }}</figcaption>
+      </figure>
+      <figure v-else-if="diagram === 'tango-proposal'" class="article-margin-sequence">
+        <ol>
+          <li>{{ locale === 'en' ? 'One dancer makes a possibility felt' : 'Eén danser maakt een mogelijkheid voelbaar' }}</li>
+          <li>{{ locale === 'en' ? 'The other can take up the proposal' : 'De ander kan het voorstel aannemen' }}</li>
+          <li>{{ locale === 'en' ? 'Each does their part of the movement' : 'Ieder doet een deel van de beweging' }}</li>
+        </ol>
+        <figcaption>{{ locale === 'en' ? 'Either dancer can make the next proposal.' : 'Het volgende voorstel kan van beide dansers komen.' }}</figcaption>
+      </figure>
+      <figure v-else-if="diagram === 'energy-rebound'" class="article-margin-sequence article-margin-equation">
+        <div>{{ locale === 'en' ? '½ the energy per task' : '½ van de energie per taak' }}</div>
+        <div>× {{ locale === 'en' ? '3 times as many tasks' : '3 keer zoveel taken' }}</div>
+        <div>= {{ locale === 'en' ? '1.5 times the total energy' : '1,5 keer zoveel energie in totaal' }}</div>
+        <figcaption>{{ locale === 'en' ? 'An illustrative calculation, not a forecast.' : 'Een rekenvoorbeeld, geen prognose.' }}</figcaption>
+      </figure>
       <figure v-else-if="diagram === 'self'" class="article-margin-sequence">
         <ol>
           <li>{{ locale === 'en' ? 'Body: what am I sensing?' : 'Lichaam: wat voel ik?' }}</li>
@@ -82,4 +109,10 @@ withDefaults(defineProps<{diagram:string;locale?:string}>(), { locale: "nl" })
 }
 .article-margin-sequence li::marker { color: var(--accent); font-weight: 600; }
 .article-margin-sequence figcaption { margin-block-start: .3rem; }
+
+.article-margin-quantities > div { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .1rem .4rem; margin-block-end: .32rem; }
+.quantity-bar { grid-column: 1 / -1; inline-size: 100%; block-size: .32rem; background: var(--accent); }
+.quantity-bar--half { inline-size: 50%; }
+.article-margin-equation > div { padding: .14rem .4rem; }
+.article-margin-equation > div:nth-child(3) { border-block-start: 1px solid var(--line); font-weight: 650; }
 </style>

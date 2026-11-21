@@ -38,6 +38,51 @@ modelLimitations:
 aiReviewModel: GPT-5.6 Sol
 aiReviewDate: 2026-09-10
 draft: false
+outlineNotes:
+  - heading: "Hoeveel woonruimte hebben we eigenlijk nodig?"
+    detail: "Een tekort kan gaan over ruimte, zelfstandige woningen, locatie of betaalbaarheid. Elk probleem vraagt om een andere oplossing."
+  - heading: "Wooncapaciteit"
+    detail: "Tel woningen, vierkante meters én hoeveel mensen er prettig kunnen wonen. Elk cijfer laat iets anders zien."
+  - heading: "Woningverdunning"
+    detail: "Als evenveel mensen meer huishoudens vormen, zijn er meer keukens en badkamers nodig. De vraag kan dus stijgen zonder bevolkingsgroei."
+    diagram: housing-dilution
+  - heading: "Mogelijke beleidsknoppen"
+    detail: "Een lege slaapkamer kan sneller woonruimte opleveren dan nieuwbouw, als regels en financiële prikkels vrijwillig delen haalbaar maken."
+  - heading: "De woningvoorraad en de huishoudensstructuur sluiten niet goed op elkaar aan"
+    detail: "Een gezinswoning kan na verloop van tijd minder goed passen bij de bewoners. Dat wordt een knelpunt als zij willen verhuizen en geen aantrekkelijk alternatief vinden."
+  - heading: "Waarom kleiner wonen niet alleen over vierkante meters gaat"
+    detail: "Een werkplaats of logeerkamer kun je delen zonder de functie te verliezen. Zo kan een kleinere eigen woning een volwaardig alternatief worden."
+  - heading: "De locatie is onderdeel van de woonkwaliteit"
+    detail: "Een appartement verderop kan op papier passen, terwijl iemand er de vertrouwde huisarts, buren of dagelijkse routines door verliest."
+  - heading: "Mogelijke beleidsknoppen"
+    detail: "Een geschikte woning in dezelfde wijk kan een verhuisketen op gang brengen, te beginnen bij de gezinswoning die vrijkomt."
+    occurrence: 2
+  - heading: "Woningen splitsen"
+    detail: "Splitsing voegt zelfstandige woningen toe met vrijwel hetzelfde vloeroppervlak. Kosten per extra woningjaar maken vergelijking met andere maatregelen mogelijk."
+  - heading: "Optoppen en transformeren"
+    detail: "Met een extra verdieping of een verbouwd kantoor benut je bestaande grond en infrastructuur. Het gebouw moet er bouwkundig wel geschikt voor zijn."
+  - heading: "Nieuwbouw blijft nodig"
+    detail: "Nieuwbouw voegt ruimte toe en kan gaten in het woningaanbod vullen. Sloop en andere onttrekkingen bepalen hoeveel de voorraad netto groeit."
+  - heading: "De lange doorlooptijd van nieuwbouw"
+    detail: "Een tekort kan sneller groeien dan een bouwproject kan reageren. Maatregelen in bestaande gebouwen hebben daarom een andere rol."
+  - heading: "Bevolkingsgroei en migratie"
+    detail: "Het effect van migratie op de woningvraag hangt af van wie blijft, hoe lang, en hoeveel zelfstandige huishoudens er ontstaan."
+  - heading: "Arbeidsmigratie en economische groei"
+    detail: "Economische activiteit kan tegelijk banen en extra woningvraag opleveren. Wie het ene plant, moet ook met het andere rekening houden."
+  - heading: "Productiviteit"
+    detail: "Dezelfde productie met minder werknemers kan de groei van de woningvraag remmen als die banen anders nieuwe inwoners zouden aantrekken."
+  - heading: "Leegstand"
+    detail: "Een administratief lege woning kan in verbouwing zijn of tussen twee huurders in zitten. Het gaat om de langdurige leegstand die je daadwerkelijk kunt terugdringen."
+  - heading: "Betaalbaarheid"
+    detail: "Met meer leencapaciteit kunnen sommige kopers beter bieden. In een krappe markt kan een deel van het voordeel in hogere prijzen verdwijnen."
+  - heading: "Onzekerheid"
+    detail: "Zorg voor een basis op lange termijn en houd snellere opties achter de hand. Die worden waardevoller als de vraag anders loopt dan verwacht."
+  - heading: "Vergelijking van de belangrijkste knoppen"
+    detail: "Vergelijk de maatregelen op snelheid, kosten en blijvend effect. Bij sommige snelle opties is juist het bereik nog onzeker."
+  - heading: "Een betere kernindicator"
+    detail: "Volg de netto effectieve wooncapaciteit tegenover de vraag. Een bouwdoel op zichzelf mist onttrekkingen, huishoudensgroei en beter gebruik van wat er al staat."
+  - heading: "Conclusie"
+    detail: "Het gaat om de combinatie: bouw voor structurele vraag, benut bestaande woningen beter, maak verhuizen haalbaar en houd ruimte voor onverwachte groei."
 ---
 
 Nederland heeft woningnood. In 2026 ligt het statistische woningtekort rond 4,8 procent en het beleid richt zich sterk op het realiseren van ongeveer 100.000 woningen per jaar.[12] Zonder extra woningen zal een groeiend aantal huishoudens moeilijk passende woonruimte kunnen vinden.
